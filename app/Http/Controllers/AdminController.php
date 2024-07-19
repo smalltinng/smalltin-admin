@@ -1,19 +1,64 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Inertia\Inertia;
+use Inertia\Response;
+use App\Http\Requests\Auth\LoginRequest;
+use Illuminate\Validation\ValidationException;
 
 class AdminController extends Controller
+
+
+
 {
+
     public function showLogin()
     {
         if (Auth::guard('admin')->check()) {
-            return redirect()->route('admin.dashboard');
+            return redirect()->intended(route('admin.dashboard'));
         }
-        return view("admin.login");
+        return Inertia::render('Auth/Login', [
+            'status' => session('status'),
+        ]);
     }
+
+    /**
+     * Handle an incoming authentication request.
+     */
+    public function store(Request $request): RedirectResponse
+    {
+        // Attempt to authenticate the user as an admin
+        if (! Auth::guard('admin')->attempt($request->only('email', 'password'), $request->boolean('remember'))) {
+            // Throw a validation exception if authentication fails
+            throw ValidationException::withMessages([
+                'email' => trans('auth.failed'),
+            ]);
+        }
+    
+        // Regenerate the session ID to prevent session fixation
+        $request->session()->regenerate();
+    
+        // Redirect to the intended route after login or to a default route if none
+        return redirect()->intended(route('admin.dashboard'));
+    }
+    /**
+     * Destroy an authenticated session.
+     */
+    public function destroy(Request $request): RedirectResponse
+    {
+        Auth::guard('web')->logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
+    
+}
+  
 
     public function login(Request $request)
     {
@@ -36,7 +81,7 @@ class AdminController extends Controller
         if (!Auth::guard('admin')->check()) {
             return redirect()->route('admin.login');
         } else {
-            return view('admin.dashboard');
+            return Inertia::render('Dashboard' );
         }
     }
 }
