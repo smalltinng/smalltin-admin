@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreQuestionRequest;
 use App\Http\Requests\UpdateQuestionRequest;
 use App\Models\Question;
+use Inertia\Inertia;
 
 class QuestionController extends Controller
 {
@@ -13,9 +14,15 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        //
+      return  Inertia::render("QuestionBank");
     }
 
+
+    public function get_all_question()
+{
+    $questions = Question::paginate(50); // 50 records per page
+    return response()->json(['messages' => "Successfully", "data" => $questions]);
+}
     /**
      * Show the form for creating a new resource.
      */

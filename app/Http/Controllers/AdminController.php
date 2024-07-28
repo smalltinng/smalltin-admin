@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 use Inertia\Response;
 use App\Http\Requests\Auth\LoginRequest;
+use App\Models\User;
 use Illuminate\Validation\ValidationException;
 
 class AdminController extends Controller
@@ -84,4 +85,13 @@ class AdminController extends Controller
             return Inertia::render('Dashboard' );
         }
     }
+
+
+    public function getAllUser(){
+        $users = User::paginate(50); // 50 records per page
+        return response()->json(['messages' => "Users Fetch Successfully", "users" => $users]);
+    }
+
+
+
 }

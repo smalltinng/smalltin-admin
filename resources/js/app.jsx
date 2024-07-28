@@ -17,3 +17,14 @@ createInertiaApp({
         color: '#4B5563',
     },
 });
+// createInertiaApp({
+//     resolve: name => require(`./Pages/${name}`),
+//     setup({ el, App, props }) {
+//       render(
+//         // <Router>
+//           <App {...props} />
+//         // </Router>,
+//         // el
+//       );
+//     },
+//   });

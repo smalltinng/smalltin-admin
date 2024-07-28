@@ -15,26 +15,15 @@ return new class extends Migration
             $table->id();
             $table->string('username')->unique()->nullable();
             $table->string('email')->unique();
-            $table->boolean("is_verified")->default(false);
-            $table->string("user_bio")->nullable();
-            $table->unsignedBigInteger("field_id")->nullable();
-            $table->unsignedBigInteger("sub_fields_1")->nullable();
-            $table->unsignedBigInteger("sub_fields_2")->nullable();
-            $table->unsignedBigInteger("sub_fields_3")->nullable();
-            $table->integer("total_question_attempt")->default(0);
-            $table->integer("total_question_correct")->default(0);
-            $table->integer("month_question_attempt")->default(0);
-            $table->integer("month_question_correct")->default(0);
-            $table->integer("jobs")->default(0);
+            $table->boolean('is_verified')->default(false);
+            $table->string('user_bio')->nullable();
+            $table->integer('total_question_attempt')->default(0);
+            $table->integer('total_question_correct')->default(0);
+            $table->integer('jobs')->default(0);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->rememberToken();
             $table->timestamps();
-
-            $table->foreign('field_id')->references('id')->on('fields')->onDelete('restrict');
-            $table->foreign('sub_fields_1')->references('id')->on('sub_fields')->onDelete('restrict');
-            $table->foreign('sub_fields_2')->references('id')->on('sub_fields')->onDelete('restrict');
-            $table->foreign('sub_fields_3')->references('id')->on('sub_fields')->onDelete('restrict');
         });
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {

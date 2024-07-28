@@ -18,6 +18,10 @@ class DatabaseSeeder extends Seeder
         QuestionSeeder::run();
         QuestionSeeder2::run();
         QuestionSeeder3::run();
+        UserSeeder::run();
+        WinnerSeeder::run();
+
+        
         
 
         // User::factory(10)->create();

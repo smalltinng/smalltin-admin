@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\MonthlyStats;
 
 class User extends Authenticatable
 {
@@ -30,14 +31,18 @@ class User extends Authenticatable
         "sub_field_3",
         "email_verified_at"
     ];
-    public function field()
+    public function fields()
     {
-        return $this->belongsTo(Field::class);
+        return $this->belongsToMany(Field::class, 'user_field');
     }
-
-    public function subFields()
+    
+    public function subfields()
     {
-        return $this->belongsToMany(SubField::class);
+        return $this->belongsToMany(SubField::class, 'user_subfield');
+    }
+    public function monthlyStats()
+    {
+        return $this->hasMany(MonthlyStats::class);
     }
 
     /**

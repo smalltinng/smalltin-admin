@@ -5,7 +5,7 @@ use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuizController;
-
+use App\Http\Controllers\QuestionController;
 Route::get('/user', [UserController::class, "index"]
 )->middleware('auth:sanctum');
 
@@ -22,3 +22,8 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::post('/start-quiz', [QuizController::class, 'startQuiz']);
     Route::post('/answer-question', [QuizController::class, 'answerQuestion']);
 });
+
+Route::middleware('admin')->group(function () {
+    Route::get("/questions", [QuestionController::class, "get_all_question"]);
+});
+
