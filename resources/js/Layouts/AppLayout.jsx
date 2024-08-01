@@ -2,11 +2,13 @@
 import React from 'react';
 import { InertiaLink } from '@inertiajs/inertia-react';
 import WelcomeNavBar from '@/Components/WelcomeNavBar';
+import { Head } from '@inertiajs/react';
 
 
 const AppLayout = ({ children }) => {
     return (
         <div>
+            <Head title='Smalltin' children="Best Learning and earning platform"/>
             <WelcomeNavBar />
             <main>{children}</main>
         </div>
