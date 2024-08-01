@@ -29,7 +29,7 @@ const WelcomeNavBar = () => {
             </Link>
                         </div>
                         <div className="hidden sm:block sm:ml-6 justify-center place-content-center">
-                            <div className="flex space-x-4">
+                            <div className="flex space-x-3">
                                 <Link href="#about" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
                                 <Link href="#features" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Features</Link>
                                 <Link href="#contact" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
