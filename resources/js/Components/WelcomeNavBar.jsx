@@ -1,10 +1,11 @@
 // resources/js/Components/WelcomeNavBar.jsx
 import React from 'react';
 import { Link } from '@inertiajs/inertia-react';
+import ApplicationLogo from './ApplicationLogo';
 
 const WelcomeNavBar = () => {
     return (
-        <nav className="bg-[#285B35]">
+        <nav className="bg-[#abecbb]">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -23,13 +24,15 @@ const WelcomeNavBar = () => {
                     </div>
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex-shrink-0">
-                            <Link href="/" className="text-white text-xl font-bold">Smalltin</Link>
+                        <Link className="flex content-center items-center text-center h-16 justify-center" href="/">
+                <ApplicationLogo className="block border-black h-9 w-auto fill-current text-gray-800 dark:text-gray-50" />
+            </Link>
                         </div>
-                        <div className="hidden sm:block sm:ml-6">
+                        <div className="hidden sm:block sm:ml-6 justify-center place-content-center">
                             <div className="flex space-x-4">
-                                <Link href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
-                                <Link href="/features" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Features</Link>
-                                <Link href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
+                                <Link href="#about" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
+                                <Link href="#features" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Features</Link>
+                                <Link href="#contact" className="text-[#285B35s] hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
                             </div>
                         </div>
                     </div>

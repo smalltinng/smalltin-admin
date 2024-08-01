@@ -3,6 +3,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
+        <section id='about'>
         <div className="bg-gray-50 py-16 sm:py-24">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
@@ -51,6 +52,7 @@ const AboutUs = () => {
                 </div>
             </div>
         </div>
+        </section>
     );
 }
 
