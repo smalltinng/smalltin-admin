@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Question;
 use Illuminate\Support\Facades\Auth;
 use Tymon\JWTAuth\Facades\JWTAuth;
+use App\Models\User;
 
 class QuizController extends Controller
 
@@ -13,8 +14,20 @@ class QuizController extends Controller
     const TIME_LIMIT = 80; // 80 seconds for 1.20 minutes
     public function startQuiz(Request $request)
     {
-        // Fetch 10 random questions
-        $questions = Question::inRandomOrder()->take(10)->get();
+        $user = User::where("id", auth()->id())->with("fields", "subfields")->firstOrFail();
+
+        
+        $fieldIds = $user->fields->pluck('id')->toArray();
+        $subfieldIds = $user->subfields->pluck('id')->toArray();
+
+
+        $questions = Question::whereIn('field_id', $fieldIds)
+        ->orWhereHas('subfields', function ($query) use ($subfieldIds) {
+            $query->whereIn('sub_field_id', $subfieldIds);
+        })
+        ->inRandomOrder()
+        ->take(10)
+        ->get();
         // Initialize correct and incorrect answer counts
         $correctCount = 0;
         $incorrectCount = 0;

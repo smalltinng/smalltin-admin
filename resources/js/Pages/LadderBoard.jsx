@@ -53,7 +53,7 @@ const LadderBoard = () => {
             {realTime.length > 0 ? (
               <ul>
                 {realTime.map((user, index) => (
-                  <li key={index}>{user.user.name} - {user.correct_answers} points</li>
+                  <li key={index}>{user.user.username} - {user.correct_answers} points</li>
                 ))}
               </ul>
             ) : (
@@ -64,11 +64,21 @@ const LadderBoard = () => {
         <section className='flex flex-col gap-5'>
           <div>
             <h2 className='text-2xl font-semibold mb-3'>First 10 People For the Week</h2>
-            <div className='h-[300px] w-[500px] rounded-lg bg-white p-4'>
+            <div className='h-[300px] w-[500px] rounded-lg overflow-auto bg-white p-4'>
               {weeklyTop.length > 0 ? (
                 <ul>
                   {weeklyTop.map((user, index) => (
-                    <li key={index}>{user.user.name} - {user.correct_answers} points</li>
+                    <li key={index}>
+                  <div className='h-16 m-2 flex flex-col bg-slate-200 justify-center   rounded-lg items-start px-6 '>
+                 <h1 className='text-xl'>{user.user.username.toUpperCase()}</h1> 
+               <div className='flex text-xs gap-2'>
+                 Total Correct: <p>{user.correct_answers}</p>
+                 Total Incorrect:<p>{user.incorrect_answers}</p> 
+                 Total Attepmt:{user.total_attempts} 
+               </div>
+                  </div>
+                      
+                      </li>
                   ))}
                 </ul>
               ) : (

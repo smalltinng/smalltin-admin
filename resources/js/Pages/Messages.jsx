@@ -20,7 +20,7 @@ const Messages = () => {
         <MainLayout title="Messages">
             <div className="flex flex-col h-full">
                 {/* App Bar */}
-                <div className="flex items-center justify-between p-4 bg-gray-800 text-white">
+                <div className="flex items-center justify-between p-4 bg-[#285B35] text-white">
                     <h1 className="text-xl font-bold">Messages</h1>
                     <div className="flex gap-6">
                         <div

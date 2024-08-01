@@ -47,8 +47,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         try {
-            $user = User::where("id", auth()->id())->with("field")->firstOrFail();
-
+            $user = User::where("id", auth()->id())->with("fields")->with("subfields")->firstOrFail();
             return response()->json([
                 "message" => "User Get Successfully",
                 "data" => $user

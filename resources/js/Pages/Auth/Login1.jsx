@@ -10,7 +10,7 @@ export default function Login({ status }) {
           <img src="/img/login.svg" alt="" srcset="" />
         </div>
 
-          <div className="z-10 w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
+          <div className="z-10 w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-[#285B35] shadow-md overflow-hidden sm:rounded-lg">
             <Head title="Login" />
             {status && <div className="status">{status}</div>}
 

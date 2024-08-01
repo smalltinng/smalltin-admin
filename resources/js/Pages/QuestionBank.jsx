@@ -124,6 +124,7 @@ const QuestionBank = () => {
           <table className="min-w-full bg-white">
             <thead>
               <tr>
+                <th className="py-2">No</th>
                 <th className="py-2">Question</th>
                 <th className="py-2">Field</th>
                 <th className="py-2">Subfield</th>
@@ -134,6 +135,7 @@ const QuestionBank = () => {
               {questions.length > 0 ? (
                 questions.map(question => (
                   <tr key={question.id}>
+                    <td className="border px-4 py-2">{question.id}</td>
                     <td className="border px-4 py-2">{question.question}</td>
                     <td className="border px-4 py-2">{question.field}</td>
                     <td className="border px-4 py-2">{question.subfield}</td>

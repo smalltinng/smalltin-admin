@@ -31,7 +31,7 @@ export default function Login() { // Removed canResetPassword
           <img src="/img/login.svg" alt="" srcset="" />
         </div>
 
-          <div className="z-10 w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
+          <div className="z-10 w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-[#285B35] shadow-md overflow-hidden sm:rounded-lg">
             <Head title="Log in" />
             {/* {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>} */}
             <div className="flex sm:justify-center items-center pt-5 justify-center h-32 w-full">

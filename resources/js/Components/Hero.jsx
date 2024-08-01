@@ -15,13 +15,13 @@ const Hero = () => {
                             Answer questions based on your field and earn points for each correct answer. Join our community of learners and experts!
                         </p>
                         <div className="mt-8 flex">
-                            <Link href="/signup" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                            <Link href="/signup" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#285B35] hover:bg-[#32944b]">
                                 Get Started
                             </Link>
                         </div>
                     </div>
                     <div className="mt-10 lg:mt-0">
-                        <img className="mx-auto" src="/images/hero-image.png" alt="Hero Image" />
+                        <img className="mx-auto" src="/img/phone.png" alt="Hero Image" />
                     </div>
                 </div>
             </div>

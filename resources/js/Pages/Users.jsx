@@ -24,9 +24,9 @@ const UserList = () => {
         }
       });
       setUsers(response.data.users.data); // Adjust the response structure as needed
-      setTotalPages(response.data.totalPages); // Adjust according to your response structure
-      setTotalUsers(response.data.totalUsers); // Adjust according to your response structure
-      console.log(response.data.users); // Adjust according to your response structure
+      setTotalPages(response.data.users.last_page); // Adjust according to your response structure
+      setTotalUsers(response.data.users.total); // Adjust according to your response structure
+      console.log(response.data); // Adjust according to your response structure
     } catch (error) {
       console.error('Error fetching users:', error);
     }
@@ -58,6 +58,7 @@ const UserList = () => {
           <table className="min-w-full bg-white">
             <thead>
               <tr>
+                <th className="py-2">NO</th>
                 <th className="py-2">Name</th>
                 <th className="py-2">Email</th>
                 <th className="py-2">Actions</th>
@@ -67,7 +68,8 @@ const UserList = () => {
               {users.length > 0 ? (
                 users.map(user => (
                   <tr key={user.id}>
-                    <td className="border px-4 py-2">{user.name}</td>
+                    <td className="border px-4 py-2 font-bold">{user.id}</td>
+                    <td className="border px-4 py-2 font-bold">{user.username.toUpperCase()}</td>
                     <td className="border px-4 py-2">{user.email}</td>
                     <td className="border px-4 py-2 flex justify-around">
                       <button className="p-1 bg-green-500 text-white rounded" onClick={() => handleView(user)}>View</button>
