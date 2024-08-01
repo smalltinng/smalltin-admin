@@ -8,7 +8,7 @@ import { Head } from '@inertiajs/react';
 const AppLayout = ({ children }) => {
     return (
         <div>
-            <Head title='Smalltin' children="Best Learning and earning platform"/>
+            <Head title='Smalltin' />
             <WelcomeNavBar />
             <main>{children}</main>
         </div>
