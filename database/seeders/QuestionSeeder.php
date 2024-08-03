@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 class QuestionSeeder extends Seeder
 {
@@ -22,7 +21,7 @@ class QuestionSeeder extends Seeder
         'b' => 'For every action, there is an equal and opposite reaction.',
         'c' => 'The acceleration of an object is directly proportional to the net force.',
         'd' => 'Energy cannot be created or destroyed.',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -35,7 +34,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Galileo Galilei',
         'c' => 'Isaac Newton',
         'd' => 'Nikola Tesla',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -48,7 +47,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Newton',
         'c' => 'Joule',
         'd' => 'Watt',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -61,7 +60,7 @@ class QuestionSeeder extends Seeder
         'b' => '3.7 m/s^2',
         'c' => '12 m/s^2',
         'd' => '5.5 m/s^2',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -74,7 +73,7 @@ class QuestionSeeder extends Seeder
         'b' => 'mv',
         'c' => 'mgh',
         'd' => '2m/v^2',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -87,7 +86,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Mass',
         'c' => 'Velocity',
         'd' => 'Force',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -100,7 +99,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Pascal',
         'c' => 'Joule',
         'd' => 'Watt',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -113,7 +112,7 @@ class QuestionSeeder extends Seeder
         'b' => 'For every action, there is an equal and opposite reaction.',
         'c' => 'The acceleration of an object is directly proportional to the net force.',
         'd' => 'Energy cannot be created or destroyed.',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -126,7 +125,7 @@ class QuestionSeeder extends Seeder
         'b' => 'mv',
         'c' => 'mgh',
         'd' => '2m/v^2',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -139,7 +138,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Pascal',
         'c' => 'Joule',
         'd' => 'Watt',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -152,7 +151,7 @@ class QuestionSeeder extends Seeder
         'b' => 'For every action, there is an equal and opposite reaction.',
         'c' => 'The acceleration of an object is directly proportional to the net force.',
         'd' => 'Energy cannot be created or destroyed.',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -165,7 +164,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Galileo Galilei',
         'c' => 'Isaac Newton',
         'd' => 'Nikola Tesla',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -178,7 +177,7 @@ class QuestionSeeder extends Seeder
         'b' => 'E = mc^2',
         'c' => 'P = mv',
         'd' => 'W = mg',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -191,7 +190,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Gram',
         'c' => 'Newton',
         'd' => 'Watt',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -204,7 +203,7 @@ class QuestionSeeder extends Seeder
         'b' => 'm/s^2',
         'c' => 'kg m/s',
         'd' => 'Newton',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -217,7 +216,7 @@ class QuestionSeeder extends Seeder
         'b' => 'F = ma',
         'c' => 'E = mc^2',
         'd' => 'W = mg',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -230,7 +229,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Watt',
         'c' => 'Newton',
         'd' => 'Pascal',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -243,7 +242,7 @@ class QuestionSeeder extends Seeder
         'b' => 'W = mg',
         'c' => 'p = mv',
         'd' => 'F = ma',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -256,7 +255,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Newton',
         'c' => 'Joule',
         'd' => 'Watt',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -269,7 +268,7 @@ class QuestionSeeder extends Seeder
         'b' => 'F = ma',
         'c' => 'p = mv',
         'd' => 'P = F/A',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -282,7 +281,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Conservation of momentum',
         'c' => 'Newton\'s laws of motion',
         'd' => 'Gravitational force',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -295,7 +294,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Niels Bohr',
         'c' => 'Max Planck',
         'd' => 'Erwin Schrödinger',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -308,7 +307,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Particles can exhibit both wave and particle characteristics.',
         'c' => 'It is impossible to simultaneously know the exact position and momentum of a particle.',
         'd' => 'All of the above',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -321,7 +320,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Schrödinger\'s Atom',
         'c' => 'Schrödinger\'s Cat',
         'd' => 'Schrödinger\'s Particle',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -334,7 +333,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Quantum superposition',
         'c' => 'Entanglement',
         'd' => 'Uncertainty principle',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -347,7 +346,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Diffraction',
         'c' => 'Entanglement',
         'd' => 'Polarization',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -360,7 +359,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Planck\'s equation',
         'c' => 'Schrödinger equation',
         'd' => 'Heisenberg equation',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -373,7 +372,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Quantization',
         'c' => 'Uncertainty principle',
         'd' => 'Complementarity',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -386,7 +385,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Gravitational fields',
         'c' => 'Behavior of particles at atomic and subatomic levels',
         'd' => 'Electromagnetic waves',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -399,7 +398,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Niels Bohr',
         'c' => 'Max Planck',
         'd' => 'Erwin Schrödinger',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -412,7 +411,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Quantum',
         'c' => 'Quark',
         'd' => 'Boson',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -425,7 +424,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Energy is conserved in a closed system.',
         'c' => 'The position and momentum of a particle cannot both be precisely determined.',
         'd' => 'All of the above',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -438,7 +437,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Newtonian and Lagrangian',
         'c' => 'Classical and Quantum',
         'd' => 'Statistical and Thermodynamic',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -451,7 +450,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Particles cannot travel faster than the speed of light.',
         'c' => 'The energy of a system is quantized.',
         'd' => 'Wave functions of particles can interfere constructively or destructively.',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -464,7 +463,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The state of an electron in a hydrogen atom',
         'c' => 'The state of a physical system described by a set of quantum numbers',
         'd' => 'The ground state of a quantum harmonic oscillator',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -477,7 +476,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The process of splitting a particle into two',
         'c' => 'The creation of a quantum entangled state',
         'd' => 'The absorption of energy by an electron',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -490,7 +489,7 @@ class QuestionSeeder extends Seeder
         'b' => 'It describes the rate of expansion of the universe.',
         'c' => 'It measures the strength of gravitational attraction.',
         'd' => 'It determines the speed of light in a vacuum.',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -503,7 +502,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A function that represents the probability amplitude of a particle\'s position and momentum',
         'c' => 'A function that determines the speed of a particle',
         'd' => 'A function that measures the mass of a particle',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -516,7 +515,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Particles exist in multiple states simultaneously until observed.',
         'c' => 'Particles can travel faster than the speed of light.',
         'd' => 'Particles do not exist until they are observed.',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -529,7 +528,7 @@ class QuestionSeeder extends Seeder
         'b' => 'It demonstrates the wave nature of light.',
         'c' => 'It demonstrates the wave-particle duality of light and matter.',
         'd' => 'It demonstrates the quantum tunneling effect.',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         
@@ -541,7 +540,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The study of microscopic particles and their behavior',
         'c' => 'The study of electrical circuits and components',
         'd' => 'The study of human biology and genetics',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -553,7 +552,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A state where a particle is stationary',
         'c' => 'A state where a particle is moving at the speed of light',
         'd' => 'A state where a particle is at rest',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -565,7 +564,7 @@ class QuestionSeeder extends Seeder
         'b' => 'For every action, there is an equal and opposite reaction.',
         'c' => 'The acceleration of an object is directly proportional to the net force.',
         'd' => 'Every object moves in a straight line unless acted upon by a force.',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -577,7 +576,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The force that attracts objects toward the center of the Earth',
         'c' => 'The amount of heat needed to raise the temperature of a substance by one degree Celsius',
         'd' => 'The pressure exerted by the atmosphere on Earth\'s surface',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -589,7 +588,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Entropy of an isolated system always increases over time.',
         'c' => 'The acceleration of an object is directly proportional to the net force.',
         'd' => 'Every action has an equal and opposite reaction.',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -601,7 +600,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The energy transferred between objects due to a temperature difference',
         'c' => 'The amount of heat needed to raise the temperature of a substance by one degree Celsius',
         'd' => 'The pressure exerted by the atmosphere on Earth\'s surface',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -613,7 +612,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A device that measures the temperature of an object',
         'c' => 'A device that increases the temperature of a substance',
         'd' => 'A device that measures the pressure of a gas',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -625,7 +624,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A cycle that describes the behavior of gases under constant pressure',
         'c' => 'A cycle that describes the behavior of liquids under changing temperatures',
         'd' => 'A cycle that measures the efficiency of a heat engine',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -637,7 +636,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The energy required to change the temperature of a unit mass of a substance by one degree Celsius',
         'c' => 'The pressure exerted by the atmosphere on Earth\'s surface',
         'd' => 'The force that attracts objects toward the center of the Earth',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -649,7 +648,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A process where no heat is exchanged between a system and its surroundings',
         'c' => 'A process where temperature remains constant',
         'd' => 'A process where pressure remains constant',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -661,7 +660,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A process where no heat is exchanged between a system and its surroundings',
         'c' => 'A process where temperature remains constant',
         'd' => 'A process where pressure remains constant',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -673,7 +672,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Heat is a measure of the average kinetic energy of particles, while temperature is a measure of the total energy in a system.',
         'c' => 'Heat is measured in Joules, while temperature is measured in Kelvin.',
         'd' => 'Heat and temperature are the same thing.',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -685,7 +684,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A state where the temperature of a system remains constant',
         'c' => 'A state where there is no change in entropy',
         'd' => 'A state where there is maximum disorder in a system',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -697,7 +696,7 @@ class QuestionSeeder extends Seeder
         'b' => 'F = ma',
         'c' => 'E = mc^2',
         'd' => 'W = mg',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -709,7 +708,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The transfer of heat through electromagnetic waves',
         'c' => 'The transfer of heat through fluid motion',
         'd' => 'The transfer of heat through chemical reactions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -721,7 +720,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The transfer of heat through electromagnetic waves',
         'c' => 'The transfer of heat through fluid motion',
         'd' => 'The transfer of heat through chemical reactions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -733,7 +732,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The decrease in volume of a substance due to a decrease in temperature',
         'c' => 'The change in shape of a substance due to temperature changes',
         'd' => 'The change in state of a substance from solid to liquid due to temperature changes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -745,7 +744,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A device that measures the temperature of an object',
         'c' => 'A device that increases the temperature of a substance',
         'd' => 'A device that measures the pressure of a gas',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -757,7 +756,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Reversible processes can be reversed to restore the system and surroundings to their original states, while irreversible processes cannot.',
         'c' => 'Reversible processes involve heat transfer, while irreversible processes involve work transfer.',
         'd' => 'Reversible processes change the state of a substance, while irreversible processes do not.',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -769,7 +768,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The ratio of energy output to work input',
         'c' => 'The ratio of heat output to energy input',
         'd' => 'The ratio of work output to heat input',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -781,7 +780,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The generation of electricity by passing current through a conductor',
         'c' => 'The generation of light by passing current through a conductor',
         'd' => 'The generation of sound by moving a conductor through a magnetic field',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -793,7 +792,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The induced electromotive force (emf) in any closed circuit is equal to the rate of change of the magnetic flux through the circuit',
         'c' => 'The electric potential difference between two points in an electric field is equal to the work done per unit charge in moving a small test charge from one point to the other',
         'd' => 'The resistance of a conductor is directly proportional to its length and inversely proportional to its cross-sectional area',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -805,7 +804,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The study of gravitational forces',
         'c' => 'The study of atomic and subatomic particles',
         'd' => 'The study of planetary motion',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -817,7 +816,7 @@ class QuestionSeeder extends Seeder
         'b' => 'James Clerk Maxwell',
         'c' => 'Albert Einstein',
         'd' => 'Niels Bohr',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -829,7 +828,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A set of equations that describe the behavior of particles in motion',
         'c' => 'A set of equations that describe the behavior of light waves',
         'd' => 'A set of equations that describe the behavior of gravitational forces',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -841,7 +840,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The law that describes the force between magnetic poles',
         'c' => 'The law that describes the force between gravitational masses',
         'd' => 'The law that describes the force between light waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -853,7 +852,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The law that relates the electric field to the charge distribution',
         'c' => 'The law that relates the electric potential to the charge',
         'd' => 'The law that relates the force between electric charges',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -865,7 +864,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The law that describes the force between magnetic poles',
         'c' => 'The law that describes the force between gravitational masses',
         'd' => 'The law that describes the generation of electromotive force in a closed circuit',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -877,7 +876,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The law that relates the electric field to the charge distribution',
         'c' => 'The law that relates the force between electric charges',
         'd' => 'The law that relates the force between magnetic poles',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -889,7 +888,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The propagation of energy through electric and magnetic waves',
         'c' => 'The study of atomic and subatomic particles',
         'd' => 'The study of planetary motion',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -901,7 +900,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A range of all possible frequencies of gravitational waves',
         'c' => 'A range of all possible frequencies of atomic particles',
         'd' => 'A range of all possible frequencies of light waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -913,7 +912,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Waves that consist of gravitational fields oscillating perpendicular to each other and to the direction of propagation',
         'c' => 'Waves that consist of atomic particles oscillating perpendicular to each other and to the direction of propagation',
         'd' => 'Waves that consist of light particles oscillating perpendicular to each other and to the direction of propagation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -925,7 +924,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The use of materials to enhance electromagnetic fields',
         'c' => 'The use of materials to generate electromagnetic waves',
         'd' => 'The use of materials to measure electromagnetic radiation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -937,7 +936,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A vector that describes the force between electric charges',
         'c' => 'A vector that describes the electric field around a charge',
         'd' => 'A vector that describes the magnetic field around a current',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -949,7 +948,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A region of space characterized by the presence of gravitational fields',
         'c' => 'A region of space characterized by the presence of atomic particles',
         'd' => 'A region of space characterized by the presence of light waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -961,7 +960,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A force that holds atomic nuclei together',
         'c' => 'A force that holds electrons in orbit around atomic nuclei',
         'd' => 'A force that acts between electrically charged particles',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -973,7 +972,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A device that measures the intensity of electromagnetic waves',
         'c' => 'A device that generates electromagnetic waves',
         'd' => 'A device that detects the presence of electromagnetic waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -985,7 +984,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A device that measures the intensity of electromagnetic waves',
         'c' => 'A device that generates electromagnetic waves',
         'd' => 'A device that detects the presence of electromagnetic waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -997,7 +996,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A device that measures the intensity of electromagnetic waves',
         'c' => 'A device that detects the presence of electromagnetic fields',
         'd' => 'A device that generates electromagnetic waves',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1009,7 +1008,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A range of all possible frequencies of gravitational waves',
         'c' => 'A range of all possible frequencies of atomic particles',
         'd' => 'A range of all possible frequencies of light waves',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], 
@@ -1021,7 +1020,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The study of celestial bodies and the universe',
         'c' => 'The study of the Earth\'s magnetic field',
         'd' => 'The study of ocean currents',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1033,7 +1032,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large celestial body composed of hydrogen and helium undergoing nuclear fusion',
         'c' => 'A moon orbiting a planet',
         'd' => 'A comet passing through the solar system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1045,7 +1044,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large system of stars, gas, and dust bound together by gravity',
         'c' => 'A large body of water in space',
         'd' => 'A comet passing through the solar system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1057,7 +1056,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A region of space with extremely high temperatures',
         'c' => 'A region of space with no stars',
         'd' => 'A region of space with no planets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1069,7 +1068,7 @@ class QuestionSeeder extends Seeder
         'b' => 'An explosion that occurs when a star reaches the end of its life cycle',
         'c' => 'A comet passing through the solar system',
         'd' => 'A region of space with no planets',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1081,7 +1080,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Matter that can be detected with telescopes',
         'c' => 'Matter that interacts with electromagnetic radiation',
         'd' => 'Matter that does not emit, reflect, or interact with light or any other form of electromagnetic radiation',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1093,7 +1092,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A type of star that emits bright flashes of light',
         'c' => 'A type of star that emits X-rays',
         'd' => 'A type of neutron star that emits regular pulses of radiation',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1105,7 +1104,7 @@ class QuestionSeeder extends Seeder
         'b' => 'An object that emits massive amounts of energy from its nucleus',
         'c' => 'A comet passing through the solar system',
         'd' => 'A planet orbiting a star',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1117,7 +1116,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Radiation emitted by galaxies',
         'c' => 'Radiation left over from the Big Bang',
         'd' => 'Radiation emitted by black holes',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1129,7 +1128,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large system of stars, gas, and dust bound together by gravity',
         'c' => 'A large body of water in space',
         'd' => 'A comet passing through the solar system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1141,7 +1140,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A small star that is expanding and cooling',
         'c' => 'A large star that is shrinking and heating up',
         'd' => 'A small star that is shrinking and heating up',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1153,7 +1152,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A small, dense star that is the remnant of a sun-like star after it has exhausted its nuclear fuel',
         'c' => 'A type of star that emits X-rays',
         'd' => 'A type of neutron star that emits regular pulses of radiation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1165,7 +1164,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A type of star that emits radio waves',
         'c' => 'A type of star that emits X-rays',
         'd' => 'A type of neutron star that emits regular pulses of radiation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1177,7 +1176,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A small, dense star that is the remnant of a massive star after it has exploded as a supernova',
         'c' => 'A type of star that emits X-rays',
         'd' => 'A small star that is shrinking and heating up',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1189,7 +1188,7 @@ class QuestionSeeder extends Seeder
         'b' => 'Energy emitted by galaxies',
         'c' => 'Energy that makes up most of the universe and is responsible for its accelerating expansion',
         'd' => 'Energy emitted by black holes',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1201,7 +1200,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A burst of energy in the X-ray part of the electromagnetic spectrum, often associated with the explosion of a massive star',
         'c' => 'A burst of energy in the infrared part of the electromagnetic spectrum, often associated with the explosion of a massive star',
         'd' => 'A burst of energy in the ultraviolet part of the electromagnetic spectrum, often associated with the explosion of a massive star',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1213,7 +1212,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
         'c' => 'A small, rocky body that orbits the Sun and occasionally passes close to Earth',
         'd' => 'A large, icy body that orbits the Sun and releases gas and dust as it passes close to the Sun',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1225,7 +1224,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
         'c' => 'A small, rocky body that orbits the Sun and occasionally passes close to Earth',
         'd' => 'A streak of light produced by a meteoroid as it enters Earth\'s atmosphere',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1237,7 +1236,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
         'c' => 'A small, rocky body that orbits the Sun and occasionally passes close to Earth',
         'd' => 'A fragment of a meteoroid that survives its passage through Earth\'s atmosphere and lands on the Earth\'s surface',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -1248,7 +1247,7 @@ class QuestionSeeder extends Seeder
         'b' => 'A large system of galaxies bound together by gravity',
         'c' => 'A large body of water in space',
         'd' => 'A comet passing through the solar system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1260,7 +1259,7 @@ class QuestionSeeder extends Seeder
         'b' => 'The theory that the Earth is at the center of the universe',
         'c' => 'The theory that galaxies are randomly distributed throughout the universe',
         'd' => 'The theory that the universe is static and unchanging',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ]

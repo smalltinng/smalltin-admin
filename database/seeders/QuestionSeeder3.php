@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 class QuestionSeeder3 extends Seeder
 {
@@ -24,7 +23,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'The process by which plants convert chemical energy into light energy',
                 'c' => 'The process by which plants convert water into oxygen',
                 'd' => 'The process by which plants convert oxygen into water',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -36,7 +35,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Cell membrane, mitochondria, and nucleus',
                 'c' => 'Cell membrane, ribosomes, and smooth endoplasmic reticulum',
                 'd' => 'Cell wall, lysosomes, and Golgi apparatus',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -48,7 +47,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'The release of water vapor from stomata in leaves',
                 'c' => 'The transport of sugars from leaves to other parts of the plant',
                 'd' => 'The conversion of light energy into chemical energy',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -60,7 +59,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Insulin, glucagon, and adrenaline; they regulate animal metabolism',
                 'c' => 'Testosterone, estrogen, and progesterone; they regulate animal reproductive functions',
                 'd' => 'Epinephrine, norepinephrine, and dopamine; they regulate animal nervous system',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -72,7 +71,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Gymnosperms produce seeds exposed on cones, while angiosperms produce seeds enclosed in fruits',
                 'c' => 'Gymnosperms reproduce through spores, while angiosperms reproduce through flowers and seeds',
                 'd' => 'Gymnosperms are flowering plants, while angiosperms are non-flowering plants',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -84,7 +83,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'The uptake of water from the soil by roots',
                 'c' => 'The release of water vapor from stomata in leaves',
                 'd' => 'The transport of sugars from leaves to other parts of the plant',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -96,7 +95,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
                 'd' => 'To release oxygen into the atmosphere',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -108,7 +107,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Muscle, nerve, and connective tissues; they provide structural support, transmit electrical signals, and store energy',
                 'c' => 'Epidermal, neural, and adipose tissues; they provide protection, process information, and regulate body temperature',
                 'd' => 'Skeletal, cardiac, and smooth tissues; they provide movement, pump blood, and digest food',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -120,7 +119,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
                 'd' => 'To release oxygen into the atmosphere',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -132,7 +131,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Monocots have two cotyledons in their seeds, while dicots have one',
                 'c' => 'Monocots have no cotyledons in their seeds, while dicots have multiple',
                 'd' => 'Monocots have multiple cotyledons in their seeds, while dicots have none',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -144,7 +143,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Fertilization, embryonic development, fetal development, birth, and growth',
                 'c' => 'Egg fertilization, larval development, pupal stage, and adult stage',
                 'd' => 'Metamorphosis, pupation, molting, and adult stage',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -156,7 +155,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
                 'd' => 'To produce seeds for reproduction',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -168,7 +167,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To perform photosynthesis',
                 'c' => 'To store energy in the form of starch',
                 'd' => 'To protect seeds and aid in their dispersal',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -180,7 +179,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport water and nutrients between roots and leaves',
                 'd' => 'To release oxygen into the atmosphere',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -192,7 +191,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Gills for oxygen absorption, fins for swimming, and scales for protection',
                 'c' => 'Wings for flight, beaks for feeding, and feathers for insulation',
                 'd' => 'Thorns for protection, waxy cuticles for water retention, and camouflage for hiding',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -204,7 +203,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'The conversion of nitrogen gas into ammonia by bacteria',
                 'c' => 'The release of nitrogen gas into the atmosphere by leaves',
                 'd' => 'The transport of nitrogen compounds from leaves to other parts of the plant',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -216,7 +215,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Plants that absorb nutrients from the soil through their roots',
                 'c' => 'Plants that produce toxins to ward off herbivores',
                 'd' => 'Plants that rely on symbiotic relationships with fungi for nutrient absorption',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -228,7 +227,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Toxins and chemical deterrents',
                 'c' => 'Mimicry and camouflage',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -240,7 +239,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Through movement towards nutrients (chemotropism) and response to gravity (gravitropism)',
                 'c' => 'Through growth towards water (hydrotropism) and response to temperature (thermotropism)',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -252,7 +251,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Internal and external fertilization',
                 'c' => 'Mammalian and avian reproduction',
                 'd' => 'Metamorphosis and pupation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -264,7 +263,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Predators that feed on plants; plants defend through thorns and spines',
                 'c' => 'Competitors that compete for resources with plants; plants defend through rapid growth and shade tolerance',
                 'd' => 'Parasites that live on plants; plants defend through mutualistic relationships with other organisms',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -277,7 +276,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To decompose organic matter and recycle nutrients',
                 'c' => 'To fix nitrogen from the atmosphere',
                 'd' => 'To provide structural support for plants',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -289,7 +288,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Multicellular organisms that lack chlorophyll',
                 'c' => 'Multicellular organisms that produce spores',
                 'd' => 'Unicellular organisms that reproduce sexually',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -301,7 +300,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'They fix nitrogen from the atmosphere',
                 'c' => 'They form symbiotic relationships with plant roots to enhance nutrient absorption',
                 'd' => 'They decompose organic matter in the soil',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -313,7 +312,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Increased leaf surface area for more sunlight absorption',
                 'c' => 'Deep root systems to reach groundwater',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -325,7 +324,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Growth of new roots and shoots from stems',
                 'c' => 'Uptake of water from the soil by roots',
                 'd' => 'Release of pollen from anther to stigma',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -337,7 +336,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By forming physical barriers such as thick cell walls',
                 'c' => 'By attracting predators that feed on pathogens',
                 'd' => 'By isolating infected tissues through rapid growth',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -349,7 +348,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'The release of pollen from anther to stigma',
                 'c' => 'The uptake of water from the soil by roots',
                 'd' => 'The growth of new leaves from stems',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -361,7 +360,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate plant processes such as growth, flowering, and fruiting',
                 'c' => 'To produce oxygen through photosynthesis',
                 'd' => 'To protect plants from herbivores and pathogens',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -373,7 +372,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Increased leaf surface area for more sunlight absorption',
                 'c' => 'Deep root systems to reach groundwater',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -385,7 +384,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Through absorption from water in the soil',
                 'c' => 'Through absorption from sunlight',
                 'd' => 'Through absorption from other plants',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -397,7 +396,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To produce oxygen through photosynthesis',
                 'c' => 'To fix nitrogen from the atmosphere',
                 'd' => 'To transport water and nutrients between roots and leaves',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -409,7 +408,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Predation, competition, and mutualism',
                 'c' => 'Commensalism, parasitism, and predation',
                 'd' => 'Mutualism, competition, and predation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -421,7 +420,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To transport sugars from leaves to other parts of the plant',
                 'c' => 'To release oxygen into the atmosphere',
                 'd' => 'To perform photosynthesis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -433,7 +432,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Internal and external fertilization',
                 'c' => 'Mammalian and avian reproduction',
                 'd' => 'Metamorphosis and pupation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -445,7 +444,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Predators, competition, and mutualistic relationships',
                 'c' => 'Temperature, humidity, wind speed, and precipitation',
                 'd' => 'Pollution, deforestation, and climate change',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -457,7 +456,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Through movement towards nutrients (chemotropism) and response to gravity (gravitropism)',
                 'c' => 'Through growth towards water (hydrotropism) and response to temperature (thermotropism)',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -469,7 +468,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To transfer pollen from anther to stigma for fertilization',
                 'c' => 'To attract insects for protection',
                 'd' => 'To produce seeds for dispersal',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -481,7 +480,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Reduced competition for resources among species',
                 'c' => 'Decreased biodiversity in ecosystems',
                 'd' => 'Enhanced species richness in food webs',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -493,7 +492,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By absorbing carbon dioxide during photosynthesis',
                 'c' => 'By converting carbon dioxide into oxygen',
                 'd' => 'By decomposing organic matter in the soil',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -505,7 +504,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Muscular tissue for movement, nervous tissue for communication, and connective tissue for support',
                 'c' => 'Bone tissue for structural support, blood tissue for nutrient transport, and cartilage tissue for flexibility',
                 'd' => 'Lymphatic tissue for immune defense, adipose tissue for energy storage, and epithelial tissue for protection',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -517,7 +516,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By growing tall to reach sunlight above the water surface',
                 'c' => 'By forming symbiotic relationships with marine animals',
                 'd' => 'By migrating to dry land during the reproductive phase',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -529,7 +528,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To induce flowering and fruit production',
                 'c' => 'To trigger defense mechanisms against pests and diseases',
                 'd' => 'To adjust growth patterns in response to changing environmental conditions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -541,7 +540,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By forming bulbs and tubers for vegetative propagation',
                 'c' => 'By attracting pollinators for cross-pollination',
                 'd' => 'By undergoing vegetative reproduction through runners and suckers',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -553,7 +552,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Increased root length to absorb water from deep soil layers',
                 'c' => 'Waxy coatings on leaves to reflect sunlight',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -565,7 +564,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To attract pollinators for cross-pollination',
                 'c' => 'To protect seeds from environmental factors',
                 'd' => 'To release pollen for fertilization',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -577,7 +576,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Through visual cues such as flower colors',
                 'c' => 'Through audible signals that attract pollinators',
                 'd' => 'Through physical contact with neighboring plants',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -589,7 +588,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To fix nitrogen from the atmosphere',
                 'c' => 'To form symbiotic relationships with plant roots',
                 'd' => 'To decompose organic matter in the soil',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -601,7 +600,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Through the conversion of sunlight into chemical energy',
                 'c' => 'Through the synthesis of proteins in roots',
                 'd' => 'Through the formation of lipids in flowers',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -613,7 +612,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To release nutrients that promote microbial activity',
                 'c' => 'To anchor plants and prevent soil erosion',
                 'd' => 'To absorb water and nutrients for plant growth',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -625,7 +624,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By forming symbiotic relationships with predators',
                 'c' => 'By mimicking the appearance of poisonous plants',
                 'd' => 'By camouflaging themselves in their surroundings',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -637,7 +636,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Decreased competition for resources among species',
                 'c' => 'Enhanced stability of food webs',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -650,7 +649,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Warm-blooded with fur or hair, giving birth to live young',
                 'c' => 'Cold-blooded with gills and fins',
                 'd' => 'Cold-blooded with moist skin and undergoing metamorphosis',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -662,7 +661,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By storing water in specialized tissues',
                 'c' => 'By reducing metabolic rates to conserve energy',
                 'd' => 'By migrating to cooler climates during hot seasons',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -674,7 +673,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Crawling, jumping, and slithering',
                 'c' => 'Hopping, climbing, and burrowing',
                 'd' => 'All of the above',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -686,7 +685,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By providing food sources for predators',
                 'c' => 'By recycling nutrients through decomposition',
                 'd' => 'By competing for resources within their habitats',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -698,7 +697,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To find better food sources and breeding grounds',
                 'c' => 'To establish territories and defend against predators',
                 'd' => 'To interact with other species for mutual benefits',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -710,7 +709,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By evolving camouflage to blend into surroundings',
                 'c' => 'By regulating body temperature through behavior',
                 'd' => 'By forming symbiotic relationships with marine plants',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -722,7 +721,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To provide nesting sites for migratory birds',
                 'c' => 'To maintain biodiversity and ecosystem structure',
                 'd' => 'To introduce invasive species into new habitats',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -734,7 +733,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By producing oxygen through photosynthesis',
                 'c' => 'By fixing nitrogen from the atmosphere',
                 'd' => 'By releasing carbon dioxide into the atmosphere',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -746,7 +745,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'They outcompete native species for resources and disrupt natural habitats',
                 'c' => 'They provide new food sources for local predators',
                 'd' => 'They increase genetic diversity within native populations',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -758,7 +757,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By developing camouflage to blend into surroundings',
                 'c' => 'By emitting chemical signals to warn others of danger',
                 'd' => 'By using physical defenses like claws or stingers',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -770,7 +769,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To compete for limited resources within habitats',
                 'c' => 'To improve nutrient cycling and plant pollination',
                 'd' => 'To establish dominance hierarchies within social groups',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -782,7 +781,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
                 'd' => 'By producing oxygen through photosynthesis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -794,7 +793,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Decreased stability of food webs',
                 'c' => 'Enhanced resilience to environmental changes',
                 'd' => 'Reduced habitat availability for other species',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -806,7 +805,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -818,7 +817,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To form social bonds with other members of the species',
                 'c' => 'To survive and reproduce in their environment',
                 'd' => 'To communicate with other species',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -830,7 +829,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By migrating to new habitats',
                 'c' => 'By changing their fur color',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -842,7 +841,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To promote competition among species',
                 'c' => 'To reduce genetic diversity within populations',
                 'd' => 'To increase species richness in food webs',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -854,7 +853,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By providing nutrients through decomposition',
                 'c' => 'By facilitating pollination and seed dispersal',
                 'd' => 'By competing for sunlight in dense forests',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -866,7 +865,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By competing for resources within their habitats',
                 'c' => 'By migrating to new habitats during seasonal changes',
                 'd' => 'By forming symbiotic relationships with other species',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -878,7 +877,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased habitat availability for marine organisms',
                 'd' => 'Reduced genetic diversity within populations',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -890,7 +889,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -902,7 +901,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To compete for limited resources within habitats',
                 'c' => 'To improve nutrient cycling and coral health',
                 'd' => 'To establish dominance hierarchies within social groups',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -914,7 +913,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By developing camouflage to blend into surroundings',
                 'c' => 'By emitting chemical signals to warn others of danger',
                 'd' => 'By using physical defenses like horns or tusks',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -926,7 +925,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To form social bonds with other members of the species',
                 'c' => 'To survive and reproduce in their environment',
                 'd' => 'To communicate with other species',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -938,7 +937,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To communicate with other species for mutual benefits',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -950,7 +949,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -962,7 +961,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To provide food sources for predator species',
                 'c' => 'To facilitate gene flow and genetic diversity',
                 'd' => 'To establish territories and defend against intruders',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -974,7 +973,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By controlling population sizes of prey species',
                 'c' => 'By providing food sources for scavengers and decomposers',
                 'd' => 'By enhancing nutrient cycling and coral health',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -986,7 +985,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
                 'd' => 'Reduced habitat availability for other species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -998,7 +997,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
                 'd' => 'By producing oxygen through photosynthesis',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1010,7 +1009,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Decreased competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1022,7 +1021,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1034,7 +1033,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To communicate with other species for mutual benefits',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1046,7 +1045,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1058,7 +1057,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Reduced competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1070,7 +1069,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
                 'd' => 'By producing oxygen through photosynthesis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1082,7 +1081,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
                 'd' => 'Reduced habitat availability for other species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1094,7 +1093,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1106,7 +1105,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Decreased competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1118,7 +1117,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By filtering pollutants and improving water quality',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1130,7 +1129,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To communicate with other species for mutual benefits',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1142,7 +1141,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1154,7 +1153,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1166,7 +1165,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To avoid detection and reduce predation risk',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1178,7 +1177,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By storing water in specialized organs or tissues',
                 'c' => 'By migrating to cooler climates during dry seasons',
                 'd' => 'By reducing metabolic rates to minimize water loss',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1190,7 +1189,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1202,7 +1201,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To provide mutual benefits between species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1214,7 +1213,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1226,7 +1225,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Decreased competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1238,7 +1237,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
                 'd' => 'By filtering pollutants and improving water quality',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1250,7 +1249,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To ensure offspring survival and development',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1262,7 +1261,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By controlling population sizes of prey species',
                 'c' => 'By providing food sources for scavengers and decomposers',
                 'd' => 'By enhancing nutrient cycling and coral health',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1274,7 +1273,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
                 'd' => 'Reduced habitat availability for other species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1286,7 +1285,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
                 'd' => 'By producing oxygen through photosynthesis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1298,7 +1297,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Reduced competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1310,7 +1309,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1322,7 +1321,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To avoid detection and reduce predation risk',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1334,7 +1333,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1346,7 +1345,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Increased biodiversity and ecosystem stability',
                 'c' => 'Loss of habitat and displacement of native species',
                 'd' => 'Enhanced resilience to environmental changes',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1358,7 +1357,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
                 'd' => 'By producing oxygen through photosynthesis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -1369,7 +1368,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
                 'd' => 'By decomposing inorganic materials in soil',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1381,7 +1380,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
                 'd' => 'To redistribute nutrients and regulate population sizes',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1393,7 +1392,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
                 'd' => 'By supporting biodiversity and providing habitats for marine life',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1405,7 +1404,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
                 'd' => 'Reduced competition for resources among species',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -1416,7 +1415,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To synthesize proteins for cellular functions',
                 'c' => 'To regulate gene expression through transcription factors',
                 'd' => 'To produce energy for metabolic processes',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1428,7 +1427,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Dominant traits skip generations, while recessive traits are consistently expressed',
                 'c' => 'Dominant traits are inherited from both parents, while recessive traits are inherited from only one parent',
                 'd' => 'Dominant traits have multiple alleles, while recessive traits have single alleles',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1440,7 +1439,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By altering the sequence of nucleotides in DNA',
                 'c' => 'By suppressing gene expression in offspring',
                 'd' => 'By deactivating cellular mechanisms in organisms',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1452,7 +1451,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To predict the onset of diseases based on family history',
                 'c' => 'To analyze protein structures affected by genetic mutations',
                 'd' => 'To regulate gene expression through RNA interference',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1464,7 +1463,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By reducing population sizes and genetic diversity',
                 'c' => 'By promoting survival advantages in changing environments',
                 'd' => 'By preventing genetic mutations in reproductive cells',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1476,7 +1475,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To promote sustainable practices in biotechnology',
                 'c' => 'To prevent genetic disorders and improve human health',
                 'd' => 'To address concerns about genetic discrimination and privacy',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1488,7 +1487,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By regulating gene expression in antibiotic treatments',
                 'c' => 'By evolving resistance mechanisms against antimicrobial agents',
                 'd' => 'By eliminating infectious diseases through vaccination',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1500,7 +1499,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'High costs associated with genetic testing',
                 'c' => 'Potential risks of immune responses and gene delivery',
                 'd' => 'Ethical concerns regarding genetic modification in humans',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1512,7 +1511,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By duplicating genetic material in mitotic cell divisions',
                 'c' => 'By producing mutations that lead to speciation events',
                 'd' => 'By suppressing genetic interactions in offspring',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1524,7 +1523,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To maintain genetic stability and prevent mutations',
                 'c' => 'To modify protein structures and enhance metabolic functions',
                 'd' => 'To control gene activity through chemical modifications',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -1535,7 +1534,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze chromosome patterns in human karyotypes',
                 'c' => 'To predict inheritance patterns of traits in pea plants',
                 'd' => 'To investigate gene expression in genetic disorders',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1547,7 +1546,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By enhancing genetic stability and cellular repair mechanisms',
                 'c' => 'By disrupting normal growth and signaling pathways',
                 'd' => 'By preventing chromosomal abnormalities in mitotic divisions',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1559,7 +1558,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze nucleotide sequences and genetic mutations',
                 'c' => 'To identify similarities and differences in DNA sequences',
                 'd' => 'To study protein structures and metabolic pathways',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1571,7 +1570,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By introducing foreign genes into plant genomes for desired traits',
                 'c' => 'By reducing genetic variability and promoting biodiversity',
                 'd' => 'By eliminating pesticide applications in organic farming practices',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1583,7 +1582,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To develop personalized medicine for genetic disorders',
                 'c' => 'To regulate gene expression and enhance cellular functions',
                 'd' => 'To address concerns about unintended genetic consequences',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1595,7 +1594,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By increasing susceptibility to infectious diseases',
                 'c' => 'By enhancing cellular functions and metabolic pathways',
                 'd' => 'By regulating gene expression in pharmacogenomics studies',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1607,7 +1606,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To explore gene interactions and protein synthesis',
                 'c' => 'To analyze genome-wide association studies in human populations',
                 'd' => 'To detect mutations and assess risk factors in family pedigrees',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1619,7 +1618,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By promoting species interactions and community dynamics',
                 'c' => 'By regulating gene expression in ecological niches',
                 'd' => 'By reducing genetic variability and reproductive success',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1631,7 +1630,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To study epigenetic modifications and gene expression patterns',
                 'd' => 'To explore genetic interactions in evolutionary biology',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1643,7 +1642,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting phenotype variations and genetic disorders',
                 'c' => 'By regulating gene expression and protein synthesis',
                 'd' => 'By exploring gene-environment interactions in developmental biology',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],  [
@@ -1654,7 +1653,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By controlling gene expression and protein synthesis',
                 'd' => 'By regulating environmental factors in ecological niches',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1666,7 +1665,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To reduce genetic variability and reproductive fitness',
                 'c' => 'To predict genetic disorders and disease susceptibility',
                 'd' => 'To regulate gene expression and metabolic pathways',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1678,7 +1677,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and genetic mutations',
                 'c' => 'By integrating genetic information into developmental biology',
                 'd' => 'By controlling cellular functions and metabolic processes',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1690,7 +1689,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To enhance clinical outcomes and treatment strategies',
                 'c' => 'To prevent genetic discrimination and privacy concerns',
                 'd' => 'To regulate gene expression and cellular interactions',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1702,7 +1701,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By targeting specific genes and correcting defective DNA sequences',
                 'c' => 'By analyzing chromosomal abnormalities in clinical trials',
                 'd' => 'By regulating genetic interactions and metabolic pathways',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1714,7 +1713,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene expression and metabolic pathways in crops',
                 'c' => 'To analyze genetic diversity and ecosystem interactions',
                 'd' => 'To prevent genetic disorders and enhance crop yields',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1726,7 +1725,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By suppressing gene expression and metabolic activities',
                 'c' => 'By analyzing genetic mutations and chromosomal abnormalities',
                 'd' => 'By regulating environmental factors in ecological niches',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1738,7 +1737,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze DNA sequences and protein structures',
                 'c' => 'To modify genetic material and enhance metabolic functions',
                 'd' => 'To regulate gene activity and cellular interactions',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1750,7 +1749,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By controlling cellular functions and metabolic pathways',
                 'd' => 'By modifying gene expression without altering DNA sequences',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1762,7 +1761,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate genetic interactions and protein synthesis',
                 'c' => 'To analyze genetic diversity and ecosystem interactions',
                 'd' => 'To adapt to changing environmental conditions and natural selection',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -1773,7 +1772,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By regulating gene expression and protein synthesis',
                 'd' => 'By predicting inheritance patterns and genetic disorders',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1785,7 +1784,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To explore genetic diversity and ecosystem interactions',
                 'd' => 'To regulate gene activity and cellular interactions',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1797,7 +1796,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting genetic variations and gene expression patterns',
                 'c' => 'By analyzing DNA sequences and protein structures',
                 'd' => 'By optimizing solutions through natural selection and mutation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1809,7 +1808,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene expression and metabolic pathways',
                 'c' => 'To predict inheritance patterns and gene-environment interactions',
                 'd' => 'To analyze chromosomal abnormalities and genetic mutations',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1821,7 +1820,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By analyzing genetic diversity and ecosystem interactions',
                 'd' => 'By predicting inheritance patterns and genetic disorders',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1833,7 +1832,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To explore genetic diversity and ecosystem interactions',
                 'd' => 'To predict genetic variations and gene expression patterns',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1845,7 +1844,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting inheritance patterns and genetic disorders',
                 'c' => 'By regulating gene expression and metabolic pathways',
                 'd' => 'By enhancing reproductive success and adaptive responses',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1857,7 +1856,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To adapt to changing environmental conditions and natural selection',
                 'd' => 'To regulate gene activity and cellular interactions',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1869,7 +1868,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By modifying genetic material and enhancing metabolic functions',
                 'd' => 'By optimizing crop yields and reducing environmental impacts',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1881,7 +1880,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To regulate gene activity and metabolic pathways',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -1892,7 +1891,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By controlling gene expression without altering DNA sequences',
                 'c' => 'By predicting inheritance patterns and genetic disorders',
                 'd' => 'By analyzing chromosomal abnormalities and gene mutations',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1904,7 +1903,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To optimize solutions through natural selection and mutation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1916,7 +1915,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By modifying genetic material and enhancing metabolic functions',
                 'd' => 'By mobilizing within genomes and altering gene sequences',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1928,7 +1927,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To ensure accuracy and specificity in targeting genetic sequences',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1940,7 +1939,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By analyzing genetic diversity and ecosystem interactions',
                 'd' => 'By creating new gene combinations and promoting genetic variability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1952,7 +1951,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To prevent genetic discrimination and enhance privacy protection',
                 'd' => 'To study gene-environment interactions and disease risk factors',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1964,7 +1963,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By controlling gene expression and developmental processes',
                 'd' => 'By predicting inheritance patterns and genetic disorders',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1976,7 +1975,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To adapt to changing environmental conditions and natural selection',
                 'c' => 'To analyze DNA sequences and protein structures',
                 'd' => 'To study gene-environment interactions and disease risk factors',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1988,7 +1987,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity without encoding proteins',
                 'd' => 'By integrating genetic information into molecular biology',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2000,7 +1999,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To address ethical concerns and enhance public awareness',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -2011,7 +2010,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By predicting inheritance patterns and genetic disorders',
                 'd' => 'By random changes in allele frequencies within populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2023,7 +2022,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To control gene expression through transcription and translation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2035,7 +2034,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By analyzing DNA sequences and protein structures',
                 'd' => 'By studying genetic variation and evolutionary relationships',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2047,7 +2046,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To analyze genetic variation and functional genomic elements',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2059,7 +2058,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By studying the inheritance patterns of genes located near each other on the same chromosome',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2071,7 +2070,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and developmental processes',
                 'd' => 'To investigate the genetic basis of organismal form and function',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2083,7 +2082,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity and metabolic pathways',
                 'd' => 'By examining the combined effects of multiple genes on traits',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2095,7 +2094,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To facilitate genetic exchange between different bacterial species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2107,7 +2106,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
                 'd' => 'By enhancing reproductive success and adaptive responses',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2119,7 +2118,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To enhance ecosystem services and promote biodiversity conservation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2131,7 +2130,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By regulating gene activity through transcription factors and signaling pathways',
                 'd' => 'By analyzing chromosomal abnormalities and gene mutations',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ], [
@@ -2142,7 +2141,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity without altering DNA sequences',
                 'd' => 'By integrating genetic information into molecular biology',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2154,7 +2153,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To ensure accurate transmission of genetic information',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2166,7 +2165,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
                 'd' => 'By promoting reproductive isolation and adaptation to new environments',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2178,7 +2177,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To optimize crop yields and reduce environmental impacts',
                 'd' => 'To analyze chromosomal abnormalities and gene mutations',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2190,7 +2189,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity and metabolic pathways',
                 'd' => 'By introducing new genetic variants into populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2202,7 +2201,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To manipulate genetic sequences and improve crop traits',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2214,7 +2213,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
                 'd' => 'By introducing changes in gene sequences that disrupt normal cellular functions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2226,7 +2225,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To create new genetic material for evolutionary innovation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2238,7 +2237,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By regulating gene activity and metabolic pathways',
                 'd' => 'By favoring traits that enhance survival and reproduction in specific environments',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2250,7 +2249,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To ensure privacy protection and informed consent',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -2261,7 +2260,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By regulating gene activity and metabolic pathways',
                 'd' => 'By influencing changes in allele frequencies within populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2273,7 +2272,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To facilitate genetic diversity and adaptation to changing environments',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2285,7 +2284,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting genetic variations and gene expression patterns',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By studying gene-environment interactions and disease risk factors',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2297,7 +2296,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
                 'd' => 'To influence population dynamics and community interactions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2309,7 +2308,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
                 'd' => 'By creating new combinations of alleles through sexual reproduction',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2321,7 +2320,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To analyze chromosomal abnormalities and gene mutations',
                 'd' => 'To assess genetic diversity and manage endangered species populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2333,7 +2332,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By studying similarities and differences in genetic sequences across species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2345,7 +2344,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To control gene expression without encoding proteins',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2357,7 +2356,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By studying DNA sequences and protein structures',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2369,7 +2368,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To modify genetic material and improve crop traits or produce therapeutic proteins',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ], [
@@ -2380,7 +2379,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By optimizing solutions through natural selection and mutation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2392,7 +2391,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To understand species interactions and community dynamics',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2404,7 +2403,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By influencing species distribution and ecosystem function',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2416,7 +2415,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By optimizing solutions through natural selection and mutation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2428,7 +2427,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To maintain ecosystem structure and function',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2440,7 +2439,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By facilitating species replacement and ecosystem development',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2452,7 +2451,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By impacting species survival and biodiversity conservation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2464,7 +2463,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To recycle essential elements and sustain life on Earth',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2476,7 +2475,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By disrupting ecological balance and ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2488,7 +2487,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To simulate ecosystem dynamics and inform conservation strategies',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -2499,7 +2498,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By degrading water quality and compromising ecosystem health',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2511,7 +2510,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To transfer energy through food webs and support organismal growth',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2523,7 +2522,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By tolerating harsh conditions and minimizing metabolic costs',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2535,7 +2534,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By facilitating species coexistence and competition for resources',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2547,7 +2546,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To provide habitats, regulate climate, and support diverse ecosystems',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2559,7 +2558,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By disrupting ecosystem structure and altering community dynamics',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2571,7 +2570,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To recycle essential elements and sustain ecosystem function',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2583,7 +2582,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By quantifying nutrient ratios and their effects on organismal growth',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2595,7 +2594,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To assess impacts on species survival and ecosystem function',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2607,7 +2606,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By evaluating changes in species populations and habitat conditions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],   [
@@ -2618,7 +2617,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By understanding pathogen ecology and host susceptibility',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2630,7 +2629,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To alter habitat structure and fragment wildlife populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2642,7 +2641,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By preserving biodiversity and ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2654,7 +2653,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By supporting ecosystem stability and adaptive capacity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2666,7 +2665,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt ecological balance and alter ecosystem dynamics',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2678,7 +2677,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By regulating prey populations and ecosystem structure',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2690,7 +2689,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To degrade water quality and promote algal blooms',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2702,7 +2701,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By reducing resilience and compromising ecosystem stability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2714,7 +2713,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By outcompeting native species and modifying habitat structure',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2726,7 +2725,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To degrade soil fertility and compromise ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -2737,7 +2736,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By isolating populations and reducing genetic diversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2749,7 +2748,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To deplete species populations and disrupt ecosystem balance',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2761,7 +2760,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By restoring degraded ecosystems and enhancing ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2773,7 +2772,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By influencing ecosystem resilience and societal vulnerability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2785,7 +2784,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To support nutrient cycling and buffer against environmental change',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2797,7 +2796,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By contaminating habitats and threatening marine biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2809,7 +2808,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To provide essential resources and enhance quality of life',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2821,7 +2820,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By fragmenting landscapes and endangering species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2833,7 +2832,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By contaminating habitats and disrupting ecological processes',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2845,7 +2844,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To decompose organic matter and support plant growth',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -2856,7 +2855,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By recovering degraded habitats and enhancing ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2868,7 +2867,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To deplete fish populations and disrupt marine food webs',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2880,7 +2879,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By promoting resource-efficient farming practices and resilient food systems',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2892,7 +2891,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By outcompeting native species and altering ecosystem structure',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2904,7 +2903,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt ecological relationships and reshape ecosystems',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2916,7 +2915,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By regulating ecosystem structure and supporting diverse species assemblages',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2928,7 +2927,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt ecosystem structure and alter species distributions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2940,7 +2939,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By fragmenting habitats and reducing wildlife populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2952,7 +2951,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By reducing habitat availability and increasing species vulnerability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2964,7 +2963,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To alter ecosystem dynamics and threaten species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],   [
@@ -2975,7 +2974,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By facilitating migration and preventing genetic isolation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2987,7 +2986,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To degrade soil quality and reduce ecosystem productivity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -2999,7 +2998,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By safeguarding natural resources and promoting social equity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3011,7 +3010,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By reducing carbon emissions and mitigating climate change impacts',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3023,7 +3022,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To strengthen natural defenses and support human communities',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3035,7 +3034,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By fragmenting habitats and degrading ecosystem services',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3047,7 +3046,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By fostering informed decisions and sustainable practices',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3059,7 +3058,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To contaminate habitats and threaten freshwater biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3071,7 +3070,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By simulating ecosystem dynamics and testing conservation strategies',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3083,7 +3082,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To absorb excess water and filter pollutants from the environment',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3095,7 +3094,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By reducing ecosystem services and increasing vulnerability to disturbances',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3107,7 +3106,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt ecosystem connectivity and endanger wildlife populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3119,7 +3118,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By restoring degraded habitats and reintroducing native species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3131,7 +3130,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By outcompeting native species and altering ecological relationships',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3143,7 +3142,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To absorb carbon emissions and stabilize atmospheric conditions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3155,7 +3154,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By preserving habitats and safeguarding endangered species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3167,7 +3166,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By connecting fragmented habitats and facilitating species dispersal',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3179,7 +3178,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To alter ecosystem dynamics and threaten species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3191,7 +3190,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By isolating populations and reducing genetic variability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3203,7 +3202,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To contaminate habitats and threaten aquatic biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -3214,7 +3213,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By reducing habitat availability and biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3226,7 +3225,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To exert disproportionate influence on community dynamics',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3238,7 +3237,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By increasing ocean temperatures and causing coral bleaching',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3250,7 +3249,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By depleting fish populations and disrupting marine food webs',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3262,7 +3261,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By connecting fragmented habitats and facilitating species dispersal',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3274,7 +3273,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To alter ecosystem dynamics and threaten species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3286,7 +3285,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By isolating populations and reducing genetic variability',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3298,7 +3297,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To contaminate habitats and threaten aquatic biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3310,7 +3309,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By simulating ecosystem dynamics and testing conservation strategies',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3322,7 +3321,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To absorb excess water and filter pollutants from the environment',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],  [
@@ -3333,7 +3332,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By disrupting ecosystem processes and altering habitat conditions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3345,7 +3344,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To enhance soil fertility and conserve natural resources',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3357,7 +3356,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
                 'd' => 'By modifying habitats and creating new niches for other species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3369,7 +3368,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By fragmenting landscapes and displacing wildlife populations',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3381,7 +3380,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By facilitating species replacement and habitat transformation',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3393,7 +3392,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To protect unique ecosystems and endemic species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3405,7 +3404,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By recycling essential nutrients and sustaining ecosystem functions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3417,7 +3416,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt calcification processes and harm marine biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3429,7 +3428,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By outcompeting native species and disrupting ecological balance',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3441,7 +3440,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By storing carbon dioxide and mitigating climate change impacts',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -3452,7 +3451,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By impairing ecosystem functions and threatening species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3464,7 +3463,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To fragment landscapes and reduce species richness',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],    [
@@ -3475,7 +3474,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By connecting fragmented habitats and facilitating species dispersal',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3487,7 +3486,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To alter ecosystem dynamics and threaten species survival',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3499,7 +3498,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By recycling essential nutrients and sustaining ecosystem functions',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3511,7 +3510,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To preserve natural habitats and prevent species extinction',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3523,7 +3522,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By influencing population dynamics and species diversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3535,7 +3534,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To disrupt ecosystem balance and outcompete native species',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3547,7 +3546,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By contaminating habitats and harming marine wildlife',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3559,7 +3558,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By absorbing excess water and filtering pollutants from the environment',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3571,7 +3570,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
                 'd' => 'By isolating populations and reducing genetic diversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3583,7 +3582,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
                 'd' => 'To accelerate ice melting and threaten polar biodiversity',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3596,7 +3595,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
                 'd' => 'Clostridium',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3608,7 +3607,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Ribosome',
                 'c' => 'Granules',
                 'd' => 'Plasmid',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3620,7 +3619,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Energy production',
                 'c' => 'Genetic exchange',
                 'd' => 'Nutrient storage',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3632,7 +3631,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
                 'd' => 'Clostridium',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3644,7 +3643,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Mitosis',
                 'c' => 'Meiosis',
                 'd' => 'Budding',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3656,7 +3655,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Pili',
                 'c' => 'Capsule',
                 'd' => 'Endospore',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3668,7 +3667,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Staphylococcus aureus',
                 'c' => 'Streptococcus pneumoniae',
                 'd' => 'Mycobacterium tuberculosis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3680,7 +3679,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Protein',
                 'c' => 'Polysaccharide',
                 'd' => 'Nucleic acid',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3692,7 +3691,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Salmonella',
                 'c' => 'Vibrio cholerae',
                 'd' => 'Borrelia burgdorferi',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3704,7 +3703,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Streptomyces',
                 'c' => 'Clostridium',
                 'd' => 'Salmonella',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3716,7 +3715,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'To produce energy',
                 'c' => 'To synthesize proteins',
                 'd' => 'To store nutrients',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3728,7 +3727,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Staphylococcus aureus',
                 'c' => 'Mycobacterium tuberculosis',
                 'd' => 'Borrelia burgdorferi',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3740,7 +3739,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Spirilla',
                 'c' => 'Cocci',
                 'd' => 'Vibrios',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3752,7 +3751,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'DNA',
                 'c' => 'Protein',
                 'd' => 'Lipid',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3764,7 +3763,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Pili',
                 'c' => 'Endospore',
                 'd' => 'Capsule',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3776,7 +3775,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Transduction',
                 'c' => 'Conjugation',
                 'd' => 'Binary fission',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3788,7 +3787,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
                 'd' => 'Mycobacterium tuberculosis',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3800,7 +3799,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Environmental changes',
                 'c' => 'Lack of nutrients',
                 'd' => 'High temperature',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3812,7 +3811,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'E. coli',
                 'c' => 'Streptococcus',
                 'd' => 'Clostridium',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3824,7 +3823,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Helicobacter pylori',
                 'c' => 'Salmonella',
                 'd' => 'Lactobacillus',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],[
@@ -3835,7 +3834,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Cellulose',
                 'c' => 'Peptidoglycan',
                 'd' => 'Lignin',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3847,7 +3846,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Ribosome',
                 'c' => 'Mitochondria',
                 'd' => 'Chloroplast',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3859,7 +3858,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Protein synthesis',
                 'c' => 'Movement',
                 'd' => 'Energy production',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3871,7 +3870,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Staphylococcus',
                 'c' => 'Lactobacillus',
                 'd' => 'Mycobacterium',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3883,7 +3882,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Staphylococcus',
                 'c' => 'Streptomyces',
                 'd' => 'Salmonella',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3895,7 +3894,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'DNA transfer',
                 'c' => 'Nutrient storage',
                 'd' => 'Photosynthesis',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3907,7 +3906,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
                 'd' => 'Clostridium botulinum',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3919,7 +3918,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Halophiles',
                 'c' => 'Acidophiles',
                 'd' => 'All of the above',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3931,7 +3930,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
                 'd' => 'Clostridium',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -3943,7 +3942,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Energy production',
                 'c' => 'Survival in harsh conditions',
                 'd' => 'Protein synthesis',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ], 
@@ -3957,7 +3956,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Classifying bacteria based on cell wall composition',
                     'c' => 'Measuring bacterial growth',
                     'd' => 'Detecting bacterial toxins',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3969,7 +3968,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Staphylococcus aureus',
                     'c' => 'Mycobacterium tuberculosis',
                     'd' => 'E. coli',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3981,7 +3980,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Hot environments',
                     'c' => 'Salty environments',
                     'd' => 'Acidic environments',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3993,7 +3992,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Bacillus',
                     'c' => 'Streptococcus',
                     'd' => 'Lactobacillus',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4005,7 +4004,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Protection from phagocytosis',
                     'c' => 'Energy production',
                     'd' => 'DNA replication',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4017,7 +4016,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Can grow in the presence or absence of oxygen',
                     'c' => 'Cannot grow in the presence of oxygen',
                     'd' => 'Produce oxygen as a byproduct',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4029,7 +4028,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Streptococcus',
                     'c' => 'E. coli',
                     'd' => 'Clostridium difficile',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4041,7 +4040,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Movement',
                     'c' => 'DNA replication',
                     'd' => 'Energy production',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4053,7 +4052,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'E. coli',
                     'c' => 'Clostridium botulinum',
                     'd' => 'Salmonella',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4065,7 +4064,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Survival in harsh conditions',
                     'c' => 'Protein synthesis',
                     'd' => 'Nutrient storage',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4078,7 +4077,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Borrelia burgdorferi',
                     'c' => 'Clostridium tetani',
                     'd' => 'Vibrio cholerae',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4090,7 +4089,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Binary fission',
                     'c' => 'Spore formation',
                     'd' => 'Conjugation',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4102,7 +4101,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Streptococcus pyogenes',
                     'c' => 'Bacillus subtilis',
                     'd' => 'Clostridium perfringens',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4114,7 +4113,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Halophiles',
                     'c' => 'Acidophiles',
                     'd' => 'Psychrophiles',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4126,7 +4125,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'E. coli',
                     'c' => 'Streptococcus',
                     'd' => 'Clostridium',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4138,7 +4137,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Protein synthesis',
                     'c' => 'DNA replication',
                     'd' => 'Gene transfer',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4150,7 +4149,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'E. coli',
                     'c' => 'Staphylococcus aureus',
                     'd' => 'Streptococcus pyogenes',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4162,7 +4161,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'E. coli',
                     'c' => 'Bacillus cereus',
                     'd' => 'Salmonella enterica',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4174,7 +4173,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Survival in harsh conditions',
                     'c' => 'Energy production',
                     'd' => 'Protein synthesis',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4186,7 +4185,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Streptococcus mutans',
                     'c' => 'Helicobacter pylori',
                     'd' => 'Mycobacterium tuberculosis',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4198,7 +4197,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
                 'd' => 'Salmonella enterica',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4210,7 +4209,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Contaminated food',
                 'c' => 'Inhalation of contaminated water droplets',
                 'd' => 'Insect bites',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4222,7 +4221,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Lactobacillus',
                 'c' => 'Staphylococcus',
                 'd' => 'E. coli',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4234,7 +4233,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Anaerobic environments',
                 'c' => 'Salty environments',
                 'd' => 'Acidic environments',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4246,7 +4245,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'E. coli',
                 'c' => 'Pseudomonas',
                 'd' => 'Bacillus subtilis',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4258,7 +4257,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'They cause disease in hosts',
                 'c' => 'They can photosynthesize',
                 'd' => 'They fix nitrogen in soil',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4270,7 +4269,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Helicobacter pylori',
                 'c' => 'Salmonella typhi',
                 'd' => 'Staphylococcus epidermidis',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4282,7 +4281,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Pathogenic infections',
                 'c' => 'Food spoilage',
                 'd' => 'Antibiotic production',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4294,7 +4293,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'Mycobacterium leprae',
                 'c' => 'Vibrio cholerae',
                 'd' => 'Yersinia pestis',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4306,7 +4305,7 @@ class QuestionSeeder3 extends Seeder
                 'b' => 'High mutation rates',
                 'c' => 'Rapid reproduction rates',
                 'd' => 'Horizontal gene transfer',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -4319,7 +4318,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Streptococcus pyogenes',
                     'c' => 'E. coli',
                     'd' => 'Salmonella enterica',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4331,7 +4330,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Contaminated food',
                     'c' => 'Inhalation of contaminated water droplets',
                     'd' => 'Insect bites',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4343,7 +4342,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Lactobacillus',
                     'c' => 'Staphylococcus',
                     'd' => 'E. coli',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4355,7 +4354,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Anaerobic environments',
                     'c' => 'Salty environments',
                     'd' => 'Acidic environments',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4367,7 +4366,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'E. coli',
                     'c' => 'Pseudomonas',
                     'd' => 'Bacillus subtilis',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4379,7 +4378,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'They cause disease in hosts',
                     'c' => 'They can photosynthesize',
                     'd' => 'They fix nitrogen in soil',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4391,7 +4390,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Helicobacter pylori',
                     'c' => 'Salmonella typhi',
                     'd' => 'Staphylococcus epidermidis',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4403,7 +4402,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Pathogenic infections',
                     'c' => 'Food spoilage',
                     'd' => 'Antibiotic production',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4415,7 +4414,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'Mycobacterium leprae',
                     'c' => 'Vibrio cholerae',
                     'd' => 'Yersinia pestis',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4427,7 +4426,7 @@ class QuestionSeeder3 extends Seeder
                     'b' => 'High mutation rates',
                     'c' => 'Rapid reproduction rates',
                     'd' => 'Horizontal gene transfer',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -4440,7 +4439,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Streptococcus pyogenes',
                         'c' => 'E. coli',
                         'd' => 'Clostridium tetani',
-                        'answer' => Hash::make('a'),
+                        'answer' => 'a',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4452,7 +4451,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Cellulose',
                         'c' => 'Chitin',
                         'd' => 'Lignin',
-                        'answer' => Hash::make('a'),
+                        'answer' => 'a',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4464,7 +4463,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'E. coli',
                         'c' => 'Pseudomonas',
                         'd' => 'Bacillus subtilis',
-                        'answer' => Hash::make('c'),
+                        'answer' => 'c',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4476,7 +4475,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Disrupting cell wall synthesis',
                         'c' => 'Inhibiting nucleic acid synthesis',
                         'd' => 'Disrupting cell membrane function',
-                        'answer' => Hash::make('b'),
+                        'answer' => 'b',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4488,7 +4487,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Salmonella typhi',
                         'c' => 'Streptococcus mutans',
                         'd' => 'Bacillus anthracis',
-                        'answer' => Hash::make('b'),
+                        'answer' => 'b',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4500,7 +4499,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Attachment to surfaces and DNA transfer',
                         'c' => 'Energy production',
                         'd' => 'Protein synthesis',
-                        'answer' => Hash::make('b'),
+                        'answer' => 'b',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4512,7 +4511,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'E. coli',
                         'c' => 'Bacillus subtilis',
                         'd' => 'Staphylococcus aureus',
-                        'answer' => Hash::make('a'),
+                        'answer' => 'a',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4524,7 +4523,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Anaerobic environments',
                         'c' => 'Salty environments',
                         'd' => 'Acidic environments',
-                        'answer' => Hash::make('d'),
+                        'answer' => 'd',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4536,7 +4535,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Staphylococcus aureus',
                         'c' => 'E. coli',
                         'd' => 'Pseudomonas aeruginosa',
-                        'answer' => Hash::make('a'),
+                        'answer' => 'a',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4548,7 +4547,7 @@ class QuestionSeeder3 extends Seeder
                         'b' => 'Conjugation',
                         'c' => 'Budding',
                         'd' => 'Spore formation',
-                        'answer' => Hash::make('b'),
+                        'answer' => 'b',
                         'created_at' => now(),
                         'updated_at' => now()
                     ],
@@ -4561,7 +4560,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Mycobacterium tuberculosis',
                             'c' => 'E. coli',
                             'd' => 'Pseudomonas aeruginosa',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4573,7 +4572,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Halophiles',
                             'c' => 'Acidophiles',
                             'd' => 'Psychrophiles',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4585,7 +4584,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Streptococcus',
                             'c' => 'E. coli',
                             'd' => 'Bacillus',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4597,7 +4596,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Movement',
                             'd' => 'DNA replication',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4609,7 +4608,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Salmonella enterica',
                             'c' => 'Bacillus cereus',
                             'd' => 'Clostridium perfringens',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4621,7 +4620,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
                             'd' => 'Acidic environments',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4633,7 +4632,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Treponema pallidum',
                             'c' => 'Chlamydia trachomatis',
                             'd' => 'Mycoplasma genitalium',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4645,7 +4644,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4657,7 +4656,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Haemophilus influenzae',
                             'c' => 'Neisseria meningitidis',
                             'd' => 'Mycoplasma pneumoniae',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4669,7 +4668,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'DNA replication',
                             'c' => 'Protection against host immune system',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4682,7 +4681,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Treponema pallidum',
                             'c' => 'Chlamydia trachomatis',
                             'd' => 'Mycoplasma genitalium',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4694,7 +4693,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4706,7 +4705,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Corynebacterium diphtheriae',
                             'c' => 'Staphylococcus aureus',
                             'd' => 'Streptococcus pyogenes',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4718,7 +4717,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Inhibiting protein synthesis',
                             'c' => 'Inhibiting nucleic acid synthesis',
                             'd' => 'Disrupting cell membrane function',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4730,7 +4729,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Salmonella enterica',
                             'c' => 'Shigella dysenteriae',
                             'd' => 'Yersinia pestis',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4742,7 +4741,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Antibiotic resistance and horizontal gene transfer',
                             'd' => 'Cell division',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4754,7 +4753,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Mycobacterium tuberculosis',
                             'c' => 'Staphylococcus epidermidis',
                             'd' => 'Streptococcus mutans',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4766,7 +4765,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Anaerobic environments',
                             'c' => 'Salty environments',
                             'd' => 'Acidic environments',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4778,7 +4777,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Staphylococcus aureus',
                             'c' => 'E. coli',
                             'd' => 'Listeria monocytogenes',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4790,7 +4789,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Reproduction',
                             'c' => 'Transfer of genetic material',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4802,7 +4801,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Bacillus anthracis',
                             'c' => 'E. coli',
                             'd' => 'Pseudomonas aeruginosa',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4814,7 +4813,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Halophiles',
                             'c' => 'Acidophiles',
                             'd' => 'Psychrophiles',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4826,7 +4825,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Helicobacter pylori',
                             'c' => 'Vibrio cholerae',
                             'd' => 'Shigella dysenteriae',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4838,7 +4837,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Movement',
                             'c' => 'Attachment to surfaces and DNA transfer',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4850,7 +4849,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Streptococcus pneumoniae',
                             'c' => 'Staphylococcus aureus',
                             'd' => 'Mycoplasma pneumoniae',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4862,7 +4861,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
                             'd' => 'Acidic environments',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4874,7 +4873,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Rhizobium',
                             'c' => 'Azotobacter',
                             'd' => 'Clostridium',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4886,7 +4885,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Genetic mutations',
                             'c' => 'Horizontal gene transfer',
                             'd' => 'All of the above',
-                            'answer' => Hash::make('d'),
+                            'answer' => 'd',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4898,7 +4897,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Bacillus anthracis',
                             'c' => 'E. coli',
                             'd' => 'Pseudomonas aeruginosa',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4910,7 +4909,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Energy production',
                             'c' => 'Cell-to-cell communication and coordination of group behaviors',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4922,7 +4921,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Clostridium botulinum',
                             'c' => 'Clostridium perfringens',
                             'd' => 'Clostridium difficile',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4934,7 +4933,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Energy production',
                             'c' => 'Replication of the bacterial chromosome',
                             'd' => 'Carrying genes for antibiotic resistance',
-                            'answer' => Hash::make('d'),
+                            'answer' => 'd',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4946,7 +4945,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'E. coli',
                             'c' => 'Staphylococcus aureus',
                             'd' => 'Salmonella',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4958,7 +4957,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4970,7 +4969,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Bacillus subtilis',
                             'c' => 'Bacillus anthracis',
                             'd' => 'Bacillus thuringiensis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4982,7 +4981,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'High temperature environments',
                             'c' => 'Low pH environments',
                             'd' => 'Cold environments',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -4994,7 +4993,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Salmonella enterica',
                             'c' => 'Listeria monocytogenes',
                             'd' => 'Campylobacter jejuni',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5006,7 +5005,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'DNA replication',
                             'c' => 'Protection against host immune system',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5018,7 +5017,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Staphylococcus aureus',
                             'c' => 'E. coli',
                             'd' => 'Listeria monocytogenes',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5030,7 +5029,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'High temperature environments',
                             'c' => 'Low pH environments',
                             'd' => 'Salty environments',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5042,7 +5041,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Lactobacillus',
                             'c' => 'Escherichia coli',
                             'd' => 'Clostridium difficile',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5054,7 +5053,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Energy production',
                             'c' => 'Movement',
                             'd' => 'Reproduction',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5066,7 +5065,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Staphylococcus aureus',
                             'c' => 'Streptococcus pneumoniae',
                             'd' => 'Haemophilus influenzae',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5078,7 +5077,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Cold environments',
                             'c' => 'Low pH environments',
                             'd' => 'Salty environments',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5090,7 +5089,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Staphylococcus aureus',
                             'c' => 'Pseudomonas aeruginosa',
                             'd' => 'Clostridium perfringens',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5102,7 +5101,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5114,7 +5113,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Streptococcus pyogenes',
                             'c' => 'Haemophilus influenzae',
                             'd' => 'Corynebacterium diphtheriae',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5126,7 +5125,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5138,7 +5137,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Rhizobium',
                             'c' => 'Pseudomonas',
                             'd' => 'Azotobacter',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5150,7 +5149,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Genetic mutations',
                             'c' => 'Horizontal gene transfer',
                             'd' => 'All of the above',
-                            'answer' => Hash::make('d'),
+                            'answer' => 'd',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5162,7 +5161,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Yersinia pestis',
                             'c' => 'Treponema pallidum',
                             'd' => 'Rickettsia rickettsii',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5174,7 +5173,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Cold environments',
                             'c' => 'High pH environments',
                             'd' => 'Anaerobic environments',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5186,7 +5185,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Escherichia coli',
                             'c' => 'Pseudomonas putida',
                             'd' => 'Clostridium botulinum',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5198,7 +5197,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protection and survival in harsh environments',
                             'c' => 'Energy production',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5210,7 +5209,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Bordetella pertussis',
                             'c' => 'Haemophilus influenzae',
                             'd' => 'Neisseria meningitidis',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5222,7 +5221,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5234,7 +5233,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Streptococcus pyogenes',
                             'c' => 'Escherichia coli',
                             'd' => 'Pseudomonas aeruginosa',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5246,7 +5245,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
                             'd' => 'High temperature environments',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5258,7 +5257,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Vibrio vulnificus',
                             'c' => 'Vibrio parahaemolyticus',
                             'd' => 'Vibrio mimicus',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5270,7 +5269,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Movement',
                             'c' => 'Attachment to surfaces and DNA transfer',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5282,7 +5281,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Clostridium botulinum',
                             'c' => 'Clostridium difficile',
                             'd' => 'Clostridium perfringens',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5294,7 +5293,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Protein synthesis',
                             'c' => 'Structural support and protection',
                             'd' => 'Energy production',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5306,7 +5305,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Yersinia pestis',
                             'c' => 'Rickettsia rickettsii',
                             'd' => 'Borrelia burgdorferi',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5318,7 +5317,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Acidic environments',
                             'c' => 'Cold environments',
                             'd' => 'Anaerobic environments',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5330,7 +5329,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Escherichia coli',
                             'c' => 'Clostridium botulinum',
                             'd' => 'Listeria monocytogenes',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5342,7 +5341,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Reproduction',
                             'c' => 'Attachment and protection',
                             'd' => 'Protein synthesis',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5354,7 +5353,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Yersinia pestis',
                             'c' => 'Treponema pallidum',
                             'd' => 'Rickettsia rickettsii',
-                            'answer' => Hash::make('c'),
+                            'answer' => 'c',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5366,7 +5365,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
                             'd' => 'High temperature environments',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5378,7 +5377,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Rhizobium',
                             'c' => 'Pseudomonas',
                             'd' => 'Azotobacter',
-                            'answer' => Hash::make('a'),
+                            'answer' => 'a',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5390,7 +5389,7 @@ class QuestionSeeder3 extends Seeder
                             'b' => 'Uptake of foreign DNA',
                             'c' => 'Horizontal gene transfer',
                             'd' => 'Conjugation',
-                            'answer' => Hash::make('b'),
+                            'answer' => 'b',
                             'created_at' => now(),
                             'updated_at' => now()
                         ],
@@ -5402,7 +5401,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Staphylococcus aureus',
         'c' => 'Escherichia coli',
         'd' => 'Pseudomonas aeruginosa',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5414,7 +5413,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Replication',
         'c' => 'Genetic exchange and antibiotic resistance',
         'd' => 'Energy production',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5426,7 +5425,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Pseudomonas putida',
         'c' => 'Escherichia coli',
         'd' => 'Clostridium botulinum',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5438,7 +5437,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Survival in harsh conditions',
         'c' => 'Energy production',
         'd' => 'Protein synthesis',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5450,7 +5449,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Staphylococcus aureus',
         'c' => 'Escherichia coli',
         'd' => 'Pseudomonas aeruginosa',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5462,7 +5461,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'High temperature environments',
         'c' => 'Acidic environments',
         'd' => 'Anaerobic environments',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5474,7 +5473,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Lactobacillus bulgaricus',
         'c' => 'Escherichia coli',
         'd' => 'Clostridium botulinum',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5486,7 +5485,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Reproduction',
         'c' => 'DNA transfer between bacteria',
         'd' => 'Protein synthesis',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5498,7 +5497,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Legionella pneumophila',
         'c' => 'Escherichia coli',
         'd' => 'Pseudomonas aeruginosa',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5510,7 +5509,7 @@ class QuestionSeeder3 extends Seeder
         'b' => 'Horizontal gene transfer',
         'c' => 'Conjugation',
         'd' => 'All of the above',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],

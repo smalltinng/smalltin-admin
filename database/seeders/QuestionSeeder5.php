@@ -22,7 +22,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To improve aesthetic appeal',
                 'c' => 'To enhance tensile strength',
                 'd' => 'To reduce weight',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -34,7 +34,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Arch bridge',
                 'c' => 'Suspension bridge',
                 'd' => 'Truss bridge',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -46,7 +46,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To prevent soil erosion',
                 'c' => 'To provide drainage',
                 'd' => 'To enhance landscaping',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -58,7 +58,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Silt',
                 'c' => 'Sand',
                 'd' => 'Gravel',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -70,7 +70,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Live loads due to occupancy',
                 'c' => 'Permanent static loads',
                 'd' => 'Loads from environmental factors',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -82,7 +82,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Asphalt',
                 'c' => 'Granite',
                 'd' => 'Marble',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -94,7 +94,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To distribute loads evenly',
                 'c' => 'To extend structures without external bracing',
                 'd' => 'To provide aesthetic appeal',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -106,7 +106,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Slump test',
                 'c' => 'Compression test',
                 'd' => 'Shear test',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -118,7 +118,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To assess environmental impact',
                 'c' => 'To map and measure land features',
                 'd' => 'To design structural elements',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -130,7 +130,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Type of construction materials',
                 'c' => 'Load-bearing capacity of the soil',
                 'd' => 'Proximity to water sources',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -140,7 +140,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can CSS be used to control the layout of a web page?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -150,7 +150,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is the "print" function used to display output in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -160,7 +160,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can SQL be used to update records in a database?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -170,7 +170,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is Java an object-oriented programming language?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -180,7 +180,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is JavaScript executed on the server side?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'),
+            //     'answer' => 'b',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -190,7 +190,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Does Python support multiple inheritance?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -200,7 +200,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can you use CSS to add a background image to a web page?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -210,7 +210,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is "NaN" a valid value in JavaScript?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -220,7 +220,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is it possible to create a custom class in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -230,7 +230,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Does SQL support transactions?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -240,7 +240,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can the "return" statement be used in a Python function?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -250,7 +250,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is "null" a valid value in SQL?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -260,7 +260,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Does JavaScript have a "switch" statement?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -270,7 +270,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is Python case-sensitive?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -280,7 +280,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can you use CSS to create a grid layout?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -290,7 +290,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is "String" a data type in Java?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -300,7 +300,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can you use CSS to change the color of text?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -310,7 +310,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is the "input" function used to get user input in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -320,7 +320,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Can JavaScript manipulate the HTML content of a webpage?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -330,7 +330,7 @@ class QuestionSeeder5 extends Seeder
             //     'question' => 'Is "POST" a valid HTTP method?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],      
@@ -342,7 +342,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To prevent soil erosion and stabilize slopes',
                 'c' => 'To provide thermal insulation',
                 'd' => 'To reduce sound transmission',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -354,7 +354,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To allow heavy particles to settle out of the water',
                 'c' => 'To provide chemical treatment',
                 'd' => 'To enhance water aeration',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -366,7 +366,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Soil washing',
                 'c' => 'Soil bioremediation',
                 'd' => 'Soil aeration',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -378,7 +378,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To allow access for maintenance and inspection',
                 'c' => 'To reduce water flow',
                 'd' => 'To filter debris',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -390,7 +390,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Asphalt',
                 'c' => 'Brick',
                 'd' => 'Gravel',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -402,7 +402,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To support vertical loads',
                 'c' => 'To provide lateral stability',
                 'd' => 'To reduce water evaporation',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -414,7 +414,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To reinforce soil and increase load-bearing capacity',
                 'c' => 'To enhance aesthetic appeal',
                 'd' => 'To reduce noise pollution',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -426,7 +426,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Seismic load',
                 'c' => 'Dead load',
                 'd' => 'Live load',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -438,7 +438,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'To support vertical loads',
                 'c' => 'To provide lateral stability',
                 'd' => 'To reduce sound transmission',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -450,7 +450,7 @@ class QuestionSeeder5 extends Seeder
                 'b' => 'Clayey soil',
                 'c' => 'Gravelly soil',
                 'd' => 'Silty soil',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],  
@@ -462,7 +462,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To prevent soil erosion and stabilize slopes',
         'c' => 'To provide thermal insulation',
         'd' => 'To reduce sound transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -474,7 +474,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow heavy particles to settle out of the water',
         'c' => 'To provide chemical treatment',
         'd' => 'To enhance water aeration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -486,7 +486,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Soil washing',
         'c' => 'Soil bioremediation',
         'd' => 'Soil aeration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -498,7 +498,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow access for maintenance and inspection',
         'c' => 'To reduce water flow',
         'd' => 'To filter debris',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -510,7 +510,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Asphalt',
         'c' => 'Brick',
         'd' => 'Gravel',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -522,7 +522,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To support vertical loads',
         'c' => 'To provide lateral stability',
         'd' => 'To reduce water evaporation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -534,7 +534,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reinforce soil and increase load-bearing capacity',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -546,7 +546,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Seismic load',
         'c' => 'Dead load',
         'd' => 'Live load',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -558,7 +558,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To support vertical loads',
         'c' => 'To provide lateral stability',
         'd' => 'To reduce sound transmission',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -570,7 +570,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Clayey soil',
         'c' => 'Gravelly soil',
         'd' => 'Silty soil',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -583,7 +583,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow for thermal expansion and contraction',
         'c' => 'To increase load-bearing capacity',
         'd' => 'To prevent water leakage',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -595,7 +595,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To assess soil texture',
         'c' => 'To evaluate soil stability and strength',
         'd' => 'To measure soil moisture',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -607,7 +607,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Catch basins',
         'c' => 'Sound barriers',
         'd' => 'Thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -619,7 +619,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'A wall that supports vertical loads from above',
         'c' => 'A decorative wall with no structural function',
         'd' => 'A wall that prevents moisture penetration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -631,7 +631,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance aesthetic appeal',
         'c' => 'To improve drainage',
         'd' => 'To reduce vibration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -643,7 +643,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Reduced construction time',
         'c' => 'Enhanced thermal insulation',
         'd' => 'Improved aesthetic quality',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -655,7 +655,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Embedding steel bars',
         'c' => 'Applying heat treatment',
         'd' => 'Using composite materials',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -669,7 +669,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To support vertical loads in deep excavation',
         'c' => 'To reduce noise levels',
         'd' => 'To enhance thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -681,7 +681,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Hydrographic survey',
         'c' => 'Topographic survey',
         'd' => 'Land survey',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -693,7 +693,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Poorly designed foundation',
         'c' => 'Incorrect paint application',
         'd' => 'Inadequate lighting',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -706,7 +706,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To absorb vibrations and reduce structural stress',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To provide thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -718,7 +718,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Proctor compaction test',
         'c' => 'Moisture content test',
         'd' => 'Sieve analysis test',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -730,7 +730,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow water to drain away and reduce pressure',
         'c' => 'To improve insulation',
         'd' => 'To enhance aesthetic appearance',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -742,7 +742,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Deep foundation',
         'c' => 'Strip foundation',
         'd' => 'Raft foundation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -754,7 +754,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To resist lateral forces such as wind or earthquakes',
         'c' => 'To enhance aesthetic appearance',
         'd' => 'To support vertical loads',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -766,7 +766,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To separate soil layers and enhance stability',
         'c' => 'To improve thermal insulation',
         'd' => 'To increase load-bearing capacity',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -778,7 +778,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Self-compacting concrete',
         'c' => 'Fiber-reinforced concrete',
         'd' => 'Lightweight concrete',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -790,7 +790,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reduce noise levels',
         'c' => 'To enhance the aesthetic design of the bridge',
         'd' => 'To facilitate water flow underneath the bridge',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -802,7 +802,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To prevent moisture from rising through the foundation',
         'c' => 'To enhance structural strength',
         'd' => 'To support vertical loads',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -814,7 +814,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reinforce and stabilize the soil',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To reduce noise transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -826,7 +826,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance the aesthetic appearance',
         'c' => 'To provide thermal insulation',
         'd' => 'To reduce noise levels',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -838,7 +838,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Steel',
         'c' => 'Plastic',
         'd' => 'Glass',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -850,7 +850,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To accommodate movements and distribute loads',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To reduce noise transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -862,7 +862,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow water to escape and prevent hydrostatic pressure buildup',
         'c' => 'To enhance the appearance of the wall',
         'd' => 'To provide thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -874,7 +874,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Variation in soil properties and load distribution',
         'c' => 'Evenly distributed loads',
         'd' => 'Proper foundation design',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -886,7 +886,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Pile foundation',
         'c' => 'Strip foundation',
         'd' => 'Raft foundation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -898,7 +898,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To prevent water infiltration',
         'c' => 'To enhance aesthetic appearance',
         'd' => 'To reduce noise levels',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -910,7 +910,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Improved strength-to-weight ratio',
         'c' => 'Reduced durability',
         'd' => 'Decreased flexibility',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -922,7 +922,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To protect the structure from earthquake-induced forces',
         'c' => 'To enhance thermal insulation',
         'd' => 'To improve water resistance',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -934,7 +934,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide aesthetic appeal',
         'c' => 'To enhance thermal insulation',
         'd' => 'To reduce noise levels',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -946,7 +946,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide structural support',
         'c' => 'To separate different water levels',
         'd' => 'To enhance aesthetic appeal',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -958,7 +958,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To accommodate movements and prevent cracks',
         'c' => 'To improve thermal insulation',
         'd' => 'To reduce water infiltration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -970,7 +970,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To determine property boundaries and topography',
         'c' => 'To measure structural strength',
         'd' => 'To evaluate environmental impact',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -982,7 +982,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Adding organic matter',
         'c' => 'Compaction',
         'd' => 'Increasing soil moisture',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -994,7 +994,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'High-strength concrete',
         'c' => 'Rapid-setting concrete',
         'd' => 'Wet-mix concrete',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1006,7 +1006,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To modify the properties of concrete',
         'c' => 'To increase the cost of concrete',
         'd' => 'To improve the aesthetic appearance',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1018,7 +1018,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To serve as a horizontal load-bearing element',
         'c' => 'To enhance thermal insulation',
         'd' => 'To reduce noise transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1030,7 +1030,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Load-bearing wall',
         'c' => 'Curtain wall',
         'd' => 'Non-load-bearing wall',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1042,7 +1042,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To support the ends of the bridge and transfer loads to the foundation',
         'c' => 'To reduce water flow',
         'd' => 'To enhance the aesthetic design of the bridge',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1054,7 +1054,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To assess soil properties and stability for foundation design',
         'c' => 'To improve aesthetic design',
         'd' => 'To enhance thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1066,7 +1066,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Cantilever wall',
         'c' => 'Sheet pile wall',
         'd' => 'Counterfort wall',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1078,7 +1078,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To determine the rate at which water flows through soil',
         'c' => 'To assess soil strength',
         'd' => 'To evaluate soil texture',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1090,7 +1090,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Steel',
         'c' => 'Concrete',
         'd' => 'Glass',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1102,7 +1102,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To support a garden feature and prevent soil erosion',
         'c' => 'To create decorative elements',
         'd' => 'To separate different plant species',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1114,7 +1114,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Dead load',
         'c' => 'Shear load',
         'd' => 'Moment load',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1126,7 +1126,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To monitor and measure any movement or sinking of the foundation',
         'c' => 'To assess the thermal insulation',
         'd' => 'To evaluate the structural load capacity',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1138,7 +1138,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To act as a structural element that retains soil and supports excavation',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To filter water',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1150,7 +1150,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Soil compaction due to heavy loads',
         'c' => 'Water infiltration into soil',
         'd' => 'Soil erosion during heavy rains',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1162,7 +1162,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide structural support',
         'c' => 'To facilitate ventilation',
         'd' => 'To reduce noise transmission',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1174,7 +1174,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To allow for movements due to temperature changes and prevent damage',
         'c' => 'To enhance the aesthetic design',
         'd' => 'To reduce vibration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1186,7 +1186,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Cantilever wall',
         'c' => 'Sheet pile wall',
         'd' => 'Counterfort wall',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1198,7 +1198,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide lateral stability and support excavation',
         'c' => 'To improve thermal insulation',
         'd' => 'To facilitate water drainage',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1210,7 +1210,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Improved resistance to tensile stresses',
         'c' => 'Reduced compressive strength',
         'd' => 'Enhanced thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1222,7 +1222,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The process of soil becoming more solid due to compaction',
         'c' => 'The process of soil mixing with groundwater',
         'd' => 'The process of soil becoming less permeable',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1234,7 +1234,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'High-strength concrete',
         'c' => 'Lightweight concrete',
         'd' => 'Fiber-reinforced concrete',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1246,7 +1246,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To collect and manage water from drainage systems',
         'c' => 'To enhance thermal insulation',
         'd' => 'To support structural loads',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1258,7 +1258,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reduce the transmission of vibrations from machinery and external sources',
         'c' => 'To provide thermal insulation',
         'd' => 'To improve structural strength',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1270,7 +1270,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To accommodate thermal expansion and contraction',
         'c' => 'To enhance aesthetic design',
         'd' => 'To reduce noise levels',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1282,7 +1282,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To manage water pressure and prevent wall failure',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To improve structural strength',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1294,7 +1294,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Pile foundation',
         'c' => 'Strip foundation',
         'd' => 'Raft foundation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1306,7 +1306,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To retain soil and provide lateral support at bridge ends',
         'c' => 'To enhance aesthetic design',
         'd' => 'To reduce water flow',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1318,7 +1318,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To carry and transfer loads from the structure above to the foundation',
         'c' => 'To enhance aesthetic design',
         'd' => 'To provide thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1330,7 +1330,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Its aesthetic appeal',
         'c' => 'Its ease of construction',
         'd' => 'Its ability to reduce noise',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1342,7 +1342,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To resist lateral forces and enhance building stability',
         'c' => 'To provide thermal insulation',
         'd' => 'To improve aesthetic design',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1354,7 +1354,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide cooling to machinery',
         'c' => 'To filter out pollutants',
         'd' => 'To increase soil moisture for better compaction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1366,7 +1366,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To distribute loads from the structure to the piles below',
         'c' => 'To enhance thermal insulation',
         'd' => 'To reduce water infiltration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1378,7 +1378,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To provide structural support',
         'c' => 'To add color to concrete',
         'd' => 'To enhance thermal insulation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1390,7 +1390,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To collect and direct surface water away from structures',
         'c' => 'To support load-bearing elements',
         'd' => 'To provide aesthetic landscaping',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1402,7 +1402,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The multiplier applied to loads to ensure safety and account for uncertainties',
         'c' => 'The factor used to calculate aesthetic value',
         'd' => 'The ratio of live load to dead load',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1414,7 +1414,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To monitor ground settlement and structural movement',
         'c' => 'To improve thermal insulation',
         'd' => 'To enhance structural strength',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1426,7 +1426,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To determine the load-carrying capacity of soil',
         'c' => 'To assess soil permeability',
         'd' => 'To evaluate soil texture',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1438,7 +1438,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance the aesthetic design of a building',
         'c' => 'To reduce noise',
         'd' => 'To provide thermal insulation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -1449,7 +1449,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter particles from fluids',
         'c' => 'To increase the temperature of a fluid',
         'd' => 'To cool the surrounding environment',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1461,7 +1461,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The conversion of heat into work and the associated energy transfers',
         'c' => 'The analysis of mechanical vibrations',
         'd' => 'The design of mechanical systems',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1473,7 +1473,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To improve fuel efficiency',
         'c' => 'To enhance engine power',
         'd' => 'To reduce noise',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1485,7 +1485,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To transfer fluids from one place to another',
         'c' => 'To filter contaminants',
         'd' => 'To measure fluid pressure',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1497,7 +1497,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Bevel gear',
         'c' => 'Helical gear',
         'd' => 'Worm gear',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1509,7 +1509,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To remove excess heat and maintain optimal operating temperature',
         'c' => 'To improve fuel combustion',
         'd' => 'To enhance engine power',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1521,7 +1521,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The study of fluid behavior and flow',
         'c' => 'The analysis of thermal systems',
         'd' => 'The design of structural elements',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1533,7 +1533,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase the pressure of the refrigerant gas',
         'c' => 'To cool the refrigerant gas',
         'd' => 'To filter refrigerant contaminants',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1545,7 +1545,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Ability to handle high flow rates with relatively low energy consumption',
         'c' => 'Low maintenance requirements',
         'd' => 'High-pressure generation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1557,7 +1557,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase the load capacity of shafts',
         'c' => 'To enhance thermal insulation',
         'd' => 'To filter contaminants from fluids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -1568,7 +1568,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To improve fuel efficiency',
         'c' => 'To reduce noise levels',
         'd' => 'To store and smooth out rotational energy',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1580,7 +1580,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter hydraulic fluid',
         'c' => 'To measure fluid pressure',
         'd' => 'To convert hydraulic pressure into mechanical movement',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1592,7 +1592,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The measurement of a material\'s thermal conductivity',
         'c' => 'The density of a material',
         'd' => 'The amount of heat required to raise the temperature of a unit mass by one degree Celsius',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1604,7 +1604,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To cool the refrigerant',
         'c' => 'To remove contaminants from the refrigerant',
         'd' => 'To reduce the pressure and control the flow of refrigerant',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1616,7 +1616,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Ability to transmit power with high efficiency',
         'c' => 'Ability to operate at very high speeds',
         'd' => 'Ability to provide force transmission with controlled pressure',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1628,7 +1628,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The reduction in wear and tear of mechanical parts',
         'c' => 'The ease of assembly of mechanical components',
         'd' => 'The ratio of output force to input force in a machine',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1641,7 +1641,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure gear wear',
         'c' => 'To filter gear lubricant',
         'd' => 'To reduce the speed of rotation and increase torque',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1653,7 +1653,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance aesthetic appearance',
         'c' => 'To measure vibration intensity',
         'd' => 'To reduce and control unwanted vibrations',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1665,7 +1665,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter contaminants from lubricants',
         'c' => 'To provide cooling to the system',
         'd' => 'To engage and disengage the power transmission between the engine and the wheels',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1677,7 +1677,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The total energy of a system',
         'c' => 'The efficiency of energy transfer',
         'd' => 'The measure of disorder or randomness in a system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1689,7 +1689,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To improve fuel combustion',
         'c' => 'To enhance engine power',
         'd' => 'To remove excess heat and maintain optimal operating temperature',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -1700,7 +1700,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase engine power by forcing in more air',
         'c' => 'To improve exhaust gas flow',
         'd' => 'To enhance the engine cooling system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1712,7 +1712,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate at which heat passes through a material',
         'c' => 'The resistance of a material to heat flow',
         'd' => 'The amount of heat required to raise the temperature of a material',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1724,7 +1724,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To control the timing of valve openings and closings',
         'c' => 'To manage the fuel injection system',
         'd' => 'To enhance engine cooling',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1736,7 +1736,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reduce friction between moving parts',
         'c' => 'To measure the load on the shaft',
         'd' => 'To enhance the cooling of the machine',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1748,7 +1748,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter contaminants from fluids',
         'c' => 'To increase fluid pressure',
         'd' => 'To provide additional insulation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1761,7 +1761,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure gear wear',
         'c' => 'To filter gear lubricant',
         'd' => 'To reduce the speed of rotation and increase torque',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1773,7 +1773,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance aesthetic appearance',
         'c' => 'To measure vibration intensity',
         'd' => 'To reduce and control unwanted vibrations',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1785,7 +1785,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The total energy of a system',
         'c' => 'The efficiency of energy transfer',
         'd' => 'The measure of disorder or randomness in a system',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1797,7 +1797,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The size of the gears used',
         'c' => 'The ratio of the number of teeth on the driving gear to the number of teeth on the driven gear',
         'd' => 'The speed at which the gears rotate',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1809,7 +1809,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To create and transfer mechanical power from combustion',
         'c' => 'To enhance exhaust gas flow',
         'd' => 'To increase engine temperature',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1821,7 +1821,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To reduce friction and wear on moving parts',
         'c' => 'To filter air entering the machine',
         'd' => 'To enhance the appearance of the machine',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1833,7 +1833,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Lower maintenance requirements',
         'c' => 'Increased fuel consumption',
         'd' => 'Higher exhaust emissions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1845,7 +1845,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Radial pressure measurement',
         'c' => 'Rate of power measurement',
         'd' => 'Resistance per meter',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1857,7 +1857,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase fuel efficiency',
         'c' => 'To enhance engine cooling',
         'd' => 'To measure exhaust emissions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1869,7 +1869,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The total energy of a rotating object',
         'c' => 'The rate of heat transfer',
         'd' => 'The amount of torque applied',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1881,7 +1881,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To control the flow rate of hydraulic fluid',
         'c' => 'To prevent excessive pressure and protect the system',
         'd' => 'To enhance cooling efficiency',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1893,7 +1893,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate engine speed',
         'c' => 'To increase engine power',
         'd' => 'To improve fuel injection accuracy',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1907,7 +1907,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate of energy conversion',
         'c' => 'The speed of rotation',
         'd' => 'The amount of heat generated',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1919,7 +1919,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To create a high-speed rotational flow of fluid',
         'c' => 'To filter contaminants from the fluid',
         'd' => 'To enhance fluid cooling',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1931,7 +1931,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter the air entering the engine',
         'c' => 'To cool the engine by dissipating heat',
         'd' => 'To regulate fuel flow',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1943,7 +1943,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase the weight of the system',
         'c' => 'To improve the thermal efficiency',
         'd' => 'To measure mechanical power',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1955,7 +1955,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate engine temperature',
         'c' => 'To filter fuel',
         'd' => 'To enhance exhaust flow',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1967,7 +1967,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The heat generated by the system',
         'c' => 'The rate of fluid flow',
         'd' => 'The resistance to motion',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1979,7 +1979,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To apply a specific amount of torque to a fastener',
         'c' => 'To measure the speed of rotation',
         'd' => 'To filter contaminants from the fluid',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1991,7 +1991,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The thermal properties of materials',
         'c' => 'The strength of materials',
         'd' => 'The chemical composition of fluids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2003,7 +2003,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate of heat loss from a material',
         'c' => 'The thermal conductivity of a material',
         'd' => 'The total heat content of a material',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],   
@@ -2015,7 +2015,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase engine speed',
         'c' => 'To filter contaminants',
         'd' => 'To regulate fuel flow',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2027,7 +2027,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'A tool used to measure temperature',
         'c' => 'A component used to increase fluid pressure',
         'd' => 'A system used to filter contaminants',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2039,7 +2039,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fluid flow',
         'c' => 'To increase rotational speed',
         'd' => 'To enhance thermal conductivity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2051,7 +2051,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To increase engine power',
         'c' => 'To enhance fuel injection accuracy',
         'd' => 'To measure exhaust emissions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2063,7 +2063,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The properties of fluids in motion',
         'c' => 'The behavior of materials under stress',
         'd' => 'The efficiency of mechanical systems',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2075,7 +2075,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To enhance the thermal conductivity',
         'c' => 'To regulate fluid pressure',
         'd' => 'To measure torque',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2087,7 +2087,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter contaminants from the fluid',
         'c' => 'To regulate engine temperature',
         'd' => 'To increase the weight of the system',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -2098,7 +2098,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fluid pressure',
         'c' => 'To filter contaminants',
         'd' => 'To measure torque',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2110,7 +2110,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The resistance of a material to deformation',
         'c' => 'The heat capacity of a material',
         'd' => 'The thermal conductivity of a material',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2122,7 +2122,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate electrical current',
         'c' => 'To filter electrical noise',
         'd' => 'To increase voltage',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2134,7 +2134,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate hydraulic pressure',
         'c' => 'To measure temperature',
         'd' => 'To filter impurities',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2146,7 +2146,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The resistance of a material to thermal expansion',
         'c' => 'The rate of heat transfer',
         'd' => 'The density of a material',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2158,7 +2158,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fluid pressure',
         'c' => 'To measure rotational speed',
         'd' => 'To filter contaminants',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2170,7 +2170,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'Resistance to fluid flow',
         'c' => 'Change in material density',
         'd' => 'Change in temperature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2182,7 +2182,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fuel flow',
         'c' => 'To filter exhaust gases',
         'd' => 'To measure engine speed',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2194,7 +2194,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate temperature',
         'c' => 'To measure pressure',
         'd' => 'To filter contaminants',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2206,7 +2206,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The density of a material',
         'c' => 'The thermal conductivity of a material',
         'd' => 'The deformation under applied force',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -2217,7 +2217,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter contaminants',
         'c' => 'To regulate fluid temperature',
         'd' => 'To measure rotational speed',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2229,7 +2229,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'A tool that measures temperature',
         'c' => 'A component that regulates pressure',
         'd' => 'A filter for removing impurities',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2241,7 +2241,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To convert electrical energy into motion',
         'c' => 'To measure vibration',
         'd' => 'To filter contaminants',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2253,7 +2253,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The resistance to thermal expansion',
         'c' => 'The rate of heat transfer',
         'd' => 'The density of a fluid',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2265,7 +2265,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure fuel consumption',
         'c' => 'To regulate engine temperature',
         'd' => 'To filter exhaust gases',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2277,7 +2277,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The density of a material',
         'c' => 'The thermal conductivity of a fluid',
         'd' => 'The electrical conductivity of a fluid',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2289,7 +2289,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fuel flow',
         'c' => 'To measure pressure',
         'd' => 'To filter impurities',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2301,7 +2301,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The density of a material',
         'c' => 'The rate of heat transfer',
         'd' => 'The resistance to thermal expansion',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2313,7 +2313,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure fuel consumption',
         'c' => 'To filter air',
         'd' => 'To regulate engine temperature',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2325,7 +2325,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The density of a material',
         'c' => 'The rate of fluid flow',
         'd' => 'The resistance to deformation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2337,7 +2337,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To regulate fuel injection',
         'c' => 'To measure exhaust emissions',
         'd' => 'To filter air',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2350,7 +2350,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure fuel efficiency',
         'c' => 'To regulate engine speed',
         'd' => 'To filter exhaust gases',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2362,7 +2362,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate of thermal expansion',
         'c' => 'The density of a material',
         'd' => 'The resistance to electrical flow',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2374,7 +2374,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter air entering the engine',
         'c' => 'To regulate exhaust emissions',
         'd' => 'To measure engine temperature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2386,7 +2386,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure vehicle speed',
         'c' => 'To filter engine oil',
         'd' => 'To regulate fuel pressure',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2398,7 +2398,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate of thermal expansion',
         'c' => 'The thermal conductivity of a material',
         'd' => 'The density of a fluid',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2410,7 +2410,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure pressure',
         'c' => 'To filter contaminants',
         'd' => 'To regulate fluid flow',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2422,7 +2422,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The ability of a material to conduct heat',
         'c' => 'The density of a fluid',
         'd' => 'The rate of heat transfer',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2434,7 +2434,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter contaminants from the fluid',
         'c' => 'To regulate temperature',
         'd' => 'To convert mechanical energy into hydraulic energy',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2446,7 +2446,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure vibration',
         'c' => 'To filter impurities',
         'd' => 'To regulate fluid flow',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2458,7 +2458,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'A component that regulates engine speed',
         'c' => 'A tool for measuring temperature',
         'd' => 'A filter for removing impurities',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2470,7 +2470,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter fuel',
         'c' => 'To regulate exhaust emissions',
         'd' => 'To measure temperature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2482,7 +2482,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The thermal properties of materials',
         'c' => 'The strength of materials',
         'd' => 'The chemical composition of fluids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2494,7 +2494,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure pressure',
         'c' => 'To filter contaminants',
         'd' => 'To regulate fluid temperature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2506,7 +2506,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To measure fluid flow rate',
         'c' => 'To filter impurities',
         'd' => 'To regulate temperature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2518,7 +2518,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The ability of a material to conduct heat',
         'c' => 'The density of a fluid',
         'd' => 'The rate of energy transfer',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2530,7 +2530,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'To filter air',
         'c' => 'To measure fuel consumption',
         'd' => 'To convert mechanical energy into hydraulic energy',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2542,7 +2542,7 @@ class QuestionSeeder5 extends Seeder
         'b' => 'The rate of thermal expansion',
         'c' => 'The measure of a material’s ductility',
         'd' => 'The ability to conduct electricity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ]
@@ -2556,7 +2556,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter contaminants',
     'c' => 'To measure exhaust emissions',
     'd' => 'To regulate fuel pressure',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2568,7 +2568,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'A tool for measuring temperature',
     'c' => 'A component that regulates fluid flow',
     'd' => 'A filter for removing impurities',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2580,7 +2580,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure humidity',
     'c' => 'To filter air',
     'd' => 'To convert electrical energy into mechanical energy',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2592,7 +2592,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter air entering the engine',
     'c' => 'To measure fuel efficiency',
     'd' => 'To regulate coolant flow',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2604,7 +2604,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The rate of heat transfer',
     'c' => 'The density of the fluid',
     'd' => 'The ability to conduct electricity',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2616,7 +2616,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To regulate fuel injection',
     'c' => 'To measure speed',
     'd' => 'To filter air',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2628,7 +2628,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The measurement of pressure',
     'c' => 'The density of a material',
     'd' => 'The ability of a material to resist corrosion',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2640,7 +2640,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter exhaust gases',
     'c' => 'To measure fuel consumption',
     'd' => 'To control engine temperature',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2652,7 +2652,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The resistance to material fatigue',
     'c' => 'The measure of thermal expansion',
     'd' => 'The density of the material',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2664,7 +2664,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter contaminants',
     'c' => 'To measure temperature',
     'd' => 'To regulate fluid flow',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2676,7 +2676,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The density of a material',
     'c' => 'The rate of mechanical energy transfer',
     'd' => 'The measure of a fluid’s viscosity',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2688,7 +2688,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure wheel alignment',
     'c' => 'To filter contaminants',
     'd' => 'To regulate fluid pressure',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2700,7 +2700,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fuel pressure',
     'c' => 'To filter exhaust gases',
     'd' => 'To regulate engine temperature',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ]
@@ -2713,7 +2713,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fuel pressure',
     'c' => 'To regulate engine temperature',
     'd' => 'To filter air',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2725,7 +2725,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure exhaust temperature',
     'c' => 'To filter air',
     'd' => 'To regulate coolant flow',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2737,7 +2737,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The thermal conductivity of a material',
     'c' => 'The density of a fluid',
     'd' => 'The measure of a material’s strength',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2749,7 +2749,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fuel efficiency',
     'c' => 'To filter air',
     'd' => 'To regulate exhaust gases',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2761,7 +2761,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The ability of a material to conduct heat',
     'c' => 'The density of a material',
     'd' => 'The rate of thermal expansion',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2773,7 +2773,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure exhaust emissions',
     'c' => 'To filter air',
     'd' => 'To regulate engine temperature',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2785,7 +2785,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The measure of thermal conductivity',
     'c' => 'The density of a material',
     'd' => 'The rate of mechanical energy transfer',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2797,7 +2797,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fuel consumption',
     'c' => 'To filter air',
     'd' => 'To regulate fluid flow',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2809,7 +2809,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The density of a material',
     'c' => 'The measure of a fluid’s viscosity',
     'd' => 'The ability of a material to resist corrosion',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2821,7 +2821,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure exhaust emissions',
     'c' => 'To filter air',
     'd' => 'To generate electrical power',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2833,7 +2833,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To regulate fuel flow',
     'c' => 'To filter exhaust gases',
     'd' => 'To measure engine temperature',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ]
@@ -2847,7 +2847,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fluid flow rate',
     'c' => 'To regulate fluid temperature',
     'd' => 'To filter contaminants from fluid',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2859,7 +2859,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The ability of a material to conduct electricity',
     'c' => 'The amount of heat required to raise the temperature of a unit mass of a substance by one degree Celsius',
     'd' => 'The rate of thermal expansion',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2871,7 +2871,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The ability of a material to conduct heat',
     'c' => 'The principle that as the velocity of a fluid increases, its pressure decreases',
     'd' => 'The density of a material',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2883,7 +2883,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The rate of thermal expansion',
     'c' => 'The density of a material',
     'd' => 'The ability of a material to conduct heat',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2895,7 +2895,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To increase the engine’s power output by forcing more air into the combustion chamber',
     'c' => 'To regulate fuel flow',
     'd' => 'To filter air',
-    'answer' => Hash::make('b'),
+    'answer' => 'b',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2907,7 +2907,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The measure of a material’s resistance to deformation',
     'c' => 'The rate of thermal expansion',
     'd' => 'The density of a material',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2919,7 +2919,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter air',
     'c' => 'To dampen the impact of road irregularities and improve ride comfort',
     'd' => 'To regulate engine temperature',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2931,7 +2931,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To filter contaminants',
     'c' => 'To separate and control the flow of fluids or gases',
     'd' => 'To regulate temperature',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2943,7 +2943,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To change the torque and speed between the engine and the wheels',
     'c' => 'To regulate coolant flow',
     'd' => 'To measure fuel efficiency',
-    'answer' => Hash::make('b'),
+    'answer' => 'b',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2955,7 +2955,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The rate of thermal expansion',
     'c' => 'A process in which no heat is transferred to or from the system',
     'd' => 'The density of a material',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],[
@@ -2966,7 +2966,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'Energy can be transferred or transformed, but not created or destroyed',
     'c' => 'Energy can only be transformed into matter',
     'd' => 'Energy is only conserved in closed systems',
-    'answer' => Hash::make('b'),
+    'answer' => 'b',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2978,7 +2978,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'Pneumatic pressure',
     'c' => 'Hydraulic fluid pressure',
     'd' => 'Magnetic fields',
-    'answer' => Hash::make('c'),
+    'answer' => 'c',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -2990,7 +2990,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To enhance and transfer heat efficiently',
     'c' => 'To filter heat',
     'd' => 'To regulate temperature',
-    'answer' => Hash::make('b'),
+    'answer' => 'b',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3002,7 +3002,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To increase the temperature of the refrigerant',
     'c' => 'To filter contaminants from the air',
     'd' => 'To measure humidity levels',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3014,7 +3014,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'A machine that uses mechanical advantage to lift weights',
     'c' => 'A system that uses pneumatic pressure to lift objects',
     'd' => 'A tool that regulates fluid flow',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3026,7 +3026,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To transfer torque and adjust speed between components',
     'c' => 'To filter contaminants from fluids',
     'd' => 'To measure temperature',
-    'answer' => Hash::make('b'),
+    'answer' => 'b',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3038,7 +3038,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To measure fuel consumption',
     'c' => 'To regulate exhaust emissions',
     'd' => 'To filter air entering the engine',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3050,7 +3050,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The mechanical properties of solids',
     'c' => 'The chemical reactions in fluids',
     'd' => 'The electrical properties of fluids',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3062,7 +3062,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To regulate the engine temperature',
     'c' => 'To filter exhaust gases',
     'd' => 'To increase fuel efficiency',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3074,7 +3074,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'The analysis of mechanical vibrations',
     'c' => 'The measurement of fluid velocity',
     'd' => 'The design of electrical circuits',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],
@@ -3086,7 +3086,7 @@ class QuestionSeeder5 extends Seeder
     'b' => 'To increase the system’s output power',
     'c' => 'To measure system efficiency',
     'd' => 'To filter contaminants',
-    'answer' => Hash::make('a'),
+    'answer' => 'a',
     'created_at' => now(),
     'updated_at' => now()
 ],

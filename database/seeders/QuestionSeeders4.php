@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 class QuestionSeeders4 extends Seeder
 {
@@ -22,7 +21,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'To compile code into executable files',
                 'c' => 'To debug code during runtime',
                 'd' => 'To optimize code for performance',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -34,7 +33,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'C++',
                 'c' => 'JavaScript',
                 'd' => 'Java',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -46,7 +45,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'To perform a specific task',
                 'c' => 'To compile code',
                 'd' => 'To display output',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -58,7 +57,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'Ruby',
                 'c' => 'Java',
                 'd' => 'Swift',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -70,7 +69,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'The speed of the code',
                 'c' => 'The structure and rules of the code',
                 'd' => 'The output of the code',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -82,7 +81,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'Docker',
                 'c' => 'Kubernetes',
                 'd' => 'Nginx',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -94,7 +93,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'To manage memory efficiently',
                 'c' => 'To organize code into reusable objects',
                 'd' => 'To compile code into machine language',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -106,7 +105,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'SQL',
                 'c' => 'CSS',
                 'd' => 'XML',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -118,7 +117,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'Application Performance Index',
                 'c' => 'Application Process Integration',
                 'd' => 'Application Protocol Interface',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -130,7 +129,7 @@ class QuestionSeeders4 extends Seeder
                 'b' => 'To define a function',
                 'c' => 'To store data',
                 'd' => 'To compile code',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -142,7 +141,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Python',
                     'c' => 'C++',
                     'd' => 'Assembly',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -154,7 +153,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'JavaScript Object Notation',
                     'c' => 'Java Source Open Network',
                     'd' => 'Java System Output Node',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -166,7 +165,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Django',
                     'c' => 'React',
                     'd' => 'Flask',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -178,7 +177,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A function calling another function',
                     'c' => 'A way to store multiple values in a single variable',
                     'd' => 'A loop that never ends',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -190,7 +189,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To speed up the retrieval of records',
                     'c' => 'To store data in the database',
                     'd' => 'To delete data from the database',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -202,7 +201,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'C',
                     'c' => 'Python',
                     'd' => 'C++',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -214,7 +213,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Integrated Development Environment',
                     'c' => 'Internet Development Environment',
                     'd' => 'Intranet Development Environment',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -226,7 +225,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'PostgreSQL',
                     'c' => 'MongoDB',
                     'd' => 'SQLite',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -238,7 +237,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'It makes the code run faster',
                     'c' => 'It increases the complexity of the code',
                     'd' => 'It requires less memory',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -250,7 +249,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Object-oriented programming',
                     'c' => 'Functional programming',
                     'd' => 'Imperative programming',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -262,7 +261,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Hyperlinks and Text Markup Language',
                     'c' => 'Home Tool Markup Language',
                     'd' => 'Hyperlinks and Text Modulation Language',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -274,7 +273,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Django',
                     'c' => 'Angular',
                     'd' => 'React',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -286,7 +285,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '7',
                     'c' => '9',
                     'd' => '8',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -298,7 +297,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'JavaScript',
                     'c' => 'PHP',
                     'd' => 'SQL',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -310,7 +309,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A named storage for data',
                     'c' => 'A function parameter',
                     'd' => 'A data type',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -322,7 +321,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'function',
                     'c' => 'func',
                     'd' => 'define',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -334,7 +333,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To repeat a block of code a specified number of times',
                     'c' => 'To define a function',
                     'd' => 'To store data',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -346,7 +345,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Python',
                     'c' => 'PHP',
                     'd' => 'Ruby',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -358,7 +357,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A set of rules or steps to solve a problem',
                     'c' => 'A debugging tool',
                     'd' => 'A type of database',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -370,7 +369,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Django',
                     'c' => 'MySQLi',
                     'd' => 'Flask',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -382,7 +381,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Deno',
                     'c' => 'React.js',
                     'd' => 'Angular.js',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -394,7 +393,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A data structure to store multiple values',
                     'c' => 'A way to handle exceptions in code',
                     'd' => 'A loop that runs indefinitely',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -406,7 +405,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Simple Query Language',
                     'c' => 'Standard Query Language',
                     'd' => 'Sequential Query Language',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -418,7 +417,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Promises',
                     'c' => 'Async/Await',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -430,7 +429,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '<css>',
                     'c' => '<script>',
                     'd' => '<link>',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -442,7 +441,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To manage changes to source code',
                     'c' => 'To execute code',
                     'd' => 'To style web pages',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -454,7 +453,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Sets the element\'s margin to zero on all sides',
                     'c' => 'Aligns the element to the left',
                     'd' => 'Aligns the element to the right',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -466,7 +465,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'def',
                     'c' => 'function',
                     'd' => 'struct',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -478,7 +477,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Cascading Simple Sheets',
                     'c' => 'Computer Style Sheets',
                     'd' => 'Colorful Style Sheets',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -490,7 +489,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '<br>',
                     'c' => '<break>',
                     'd' => '<ln>',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -502,7 +501,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'PUT',
                     'c' => 'GET',
                     'd' => 'DELETE',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -514,7 +513,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'querySelector()',
                     'c' => 'getElementByClass()',
                     'd' => 'getElementsByName()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -526,7 +525,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var x = 10;',
                     'c' => 'let x == 10;',
                     'd' => 'x := 10;',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -538,7 +537,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'handle',
                     'c' => 'try',
                     'd' => 'except',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -550,7 +549,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'UPDATE',
                     'c' => 'DELETE',
                     'd' => 'SELECT',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -562,7 +561,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To declare a new variable',
                     'c' => 'To call a function',
                     'd' => 'To create a loop',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -574,7 +573,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '9',
                     'c' => 'NaN',
                     'd' => 'undefined',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -586,7 +585,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var obj = new Object();',
                     'c' => 'var obj = {};',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -598,7 +597,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'getElementByClassName',
                     'c' => 'getElementsByTagName',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -610,7 +609,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'implements',
                     'c' => 'inherits',
                     'd' => 'derives',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ], [
@@ -621,7 +620,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'PUT',
                     'c' => 'GET',
                     'd' => 'DELETE',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -633,7 +632,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'querySelector()',
                     'c' => 'getElementByClass()',
                     'd' => 'getElementsByName()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -645,7 +644,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var x = 10;',
                     'c' => 'let x == 10;',
                     'd' => 'x := 10;',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -657,7 +656,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'handle',
                     'c' => 'try',
                     'd' => 'except',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -669,7 +668,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'UPDATE',
                     'c' => 'DELETE',
                     'd' => 'SELECT',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -681,7 +680,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To declare a new variable',
                     'c' => 'To call a function',
                     'd' => 'To create a loop',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -693,7 +692,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '9',
                     'c' => 'NaN',
                     'd' => 'undefined',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -705,7 +704,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var obj = new Object();',
                     'c' => 'var obj = {};',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -717,7 +716,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'getElementByClassName',
                     'c' => 'getElementsByTagName',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -729,7 +728,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'implements',
                     'c' => 'inherits',
                     'd' => 'derives',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -741,7 +740,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var arr = {};',
                     'c' => 'var arr = ()',
                     'd' => 'var arr = <>;',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -753,7 +752,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'count()',
                     'c' => 'len()',
                     'd' => 'size()',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -765,7 +764,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'DELETE TABLE',
                     'c' => 'REMOVE TABLE',
                     'd' => 'TRUNCATE TABLE',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -777,7 +776,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Compares only value for equality',
                     'c' => 'Assigns a value to a variable',
                     'd' => 'Checks for inequality',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -789,7 +788,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '<th>',
                     'c' => '<tr>',
                     'd' => '<table>',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -801,7 +800,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'color',
                     'c' => 'text-color',
                     'd' => 'font-color',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -813,7 +812,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'JSON.stringify()',
                     'c' => 'JSON.object()',
                     'd' => 'JSON.convert()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -825,7 +824,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'def',
                     'c' => 'new',
                     'd' => 'create',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -837,7 +836,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '<link rel="script" href="file.js">',
                     'c' => '<include src="file.js">',
                     'd' => '<script href="file.js"></script>',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -849,7 +848,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'FILTER',
                     'c' => 'GROUP BY',
                     'd' => 'ORDER BY',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ], [
@@ -860,7 +859,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'log()',
                     'c' => 'write()',
                     'd' => 'console.log()',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -872,7 +871,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Skips the rest of the current iteration and proceeds to the next iteration',
                     'c' => 'Restarts the loop from the beginning',
                     'd' => 'Pauses the loop execution',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -884,7 +883,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'background-color',
                     'c' => 'bgcolor',
                     'd' => 'background',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -896,7 +895,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'MongoDB',
                     'c' => 'PostgreSQL',
                     'd' => 'SQLite',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -908,7 +907,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'yield',
                     'c' => 'output',
                     'd' => 'give',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -920,7 +919,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'remove()',
                     'c' => 'delete()',
                     'd' => 'splice()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -932,7 +931,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To create a new instance of a class',
                     'c' => 'To declare a constant variable',
                     'd' => 'To inherit from another class',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -944,7 +943,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'try-catch',
                     'c' => 'try-finally',
                     'd' => 'try-handle',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -956,7 +955,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Converts a variable to a different type',
                     'c' => 'Checks if a variable is defined',
                     'd' => 'Deletes a variable',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -968,7 +967,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'ADD INTO',
                     'c' => 'UPDATE INTO',
                     'd' => 'APPEND INTO',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],[
@@ -979,7 +978,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'my_var',
                     'c' => 'my-var',
                     'd' => '_myvar',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -991,7 +990,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Simple Query Language',
                     'c' => 'Sequential Query Language',
                     'd' => 'Structured Quick Language',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1003,7 +1002,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var',
                     'c' => 'constant',
                     'd' => 'const',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1015,7 +1014,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'def myFunction() {}',
                     'c' => 'myFunction() => {}',
                     'd' => 'def myFunction():',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1027,7 +1026,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'ORDER BY ASC',
                     'c' => 'ORDER BY',
                     'd' => 'SORT ASC',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1039,7 +1038,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'foreach',
                     'c' => 'while',
                     'd' => 'do-while',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1051,7 +1050,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'myList = {}',
                     'c' => 'myList = ()',
                     'd' => 'myList = <>',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1063,7 +1062,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'style',
                     'c' => 'css',
                     'd' => '<style>',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1075,7 +1074,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Number',
                     'c' => 'String',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1087,7 +1086,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'size()',
                     'c' => 'lengthOf()',
                     'd' => 'len()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1099,7 +1098,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'let',
                     'c' => 'constant',
                     'd' => 'var',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1111,7 +1110,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '22',
                     'c' => 'NaN',
                     'd' => 'Error',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1123,7 +1122,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '<ol>',
                     'c' => '<li>',
                     'd' => '<list>',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1135,7 +1134,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '/* This is a comment */',
                     'c' => '# This is a comment',
                     'd' => '<!-- This is a comment -->',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1147,7 +1146,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'DISTINCT',
                     'c' => 'SELECT',
                     'd' => 'FILTER',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1159,7 +1158,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'pop()',
                     'c' => 'add()',
                     'd' => 'append()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1171,7 +1170,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'It is executed regardless of whether an exception is thrown or not',
                     'c' => 'It is executed only if no exception is thrown',
                     'd' => 'It is executed before the try block',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1183,7 +1182,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'trim()',
                     'c' => 'clean()',
                     'd' => 'remove()',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1195,7 +1194,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'var obj = [];',
                     'c' => 'var obj = ();',
                     'd' => 'var obj = <>;',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1207,7 +1206,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'font-size',
                     'c' => 'font-weight',
                     'd' => 'font-style',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1219,7 +1218,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'def myFunction() {}',
                     'c' => 'myFunction() => {}',
                     'd' => 'function: myFunction() {}',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1231,7 +1230,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To create a new module',
                     'c' => 'To export functions from a module',
                     'd' => 'To declare a variable',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1243,7 +1242,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'DELETE',
                     'c' => 'DROP',
                     'd' => 'ERASE',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1255,7 +1254,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'map()',
                     'c' => 'reduce()',
                     'd' => 'forEach()',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1267,7 +1266,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'catch',
                     'c' => 'throw',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1279,7 +1278,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'return',
                     'c' => 'def',
                     'd' => 'generator',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1291,7 +1290,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'JSON.parse()',
                     'c' => 'JSON.convert()',
                     'd' => 'JSON.toObject()',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1303,7 +1302,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'It refers to the instance of the class',
                     'c' => 'It refers to the parent class',
                     'd' => 'It refers to a global variable',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1315,7 +1314,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'String',
                     'c' => 'Character',
                     'd' => 'Boolean',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1327,7 +1326,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'text-color',
                     'c' => 'font-color',
                     'd' => 'text-style',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1339,7 +1338,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n)',
                     'c' => 'O(log n)',
                     'd' => 'O(n^2)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1351,7 +1350,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Linked List',
                     'd' => 'Tree',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1363,7 +1362,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Graph',
                     'c' => 'Tree',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1375,7 +1374,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n^2)',
                     'c' => 'O(n)',
                     'd' => 'O(log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1387,7 +1386,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dijkstra\'s Algorithm',
                     'c' => 'Binary Search',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1399,7 +1398,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Priority Queue',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1411,7 +1410,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Complete Binary Tree',
                     'c' => 'Balanced Binary Tree',
                     'd' => 'Hash Tree',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1423,7 +1422,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Searching data',
                     'c' => 'Storing data in a specific order',
                     'd' => 'Handling dynamic arrays',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1435,7 +1434,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => '2',
                     'c' => '3',
                     'd' => '4',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1447,7 +1446,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n^2)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1459,7 +1458,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Insertion Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1471,7 +1470,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n)',
                     'c' => 'O(log n)',
                     'd' => 'O(n^2)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1483,7 +1482,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Array',
                     'd' => 'Tree',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1495,7 +1494,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Pre-order Traversal',
                     'c' => 'Post-order Traversal',
                     'd' => 'Breadth-First Traversal',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1507,7 +1506,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1519,7 +1518,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linked List',
                     'c' => 'Rehashing',
                     'd' => 'Open Addressing',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1531,7 +1530,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Radix Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1543,7 +1542,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Doubly linked list is faster for search operations.',
                     'c' => 'Singly linked list is more memory efficient.',
                     'd' => 'There is no difference.',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1555,7 +1554,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Backtracking',
                     'd' => 'Branch and Bound',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1567,7 +1566,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Circular Queue',
                     'd' => 'Binary Tree',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1579,7 +1578,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n log n)',
                     'c' => 'O(n^2)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1591,7 +1590,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Bubble Sort',
                     'd' => 'Selection Sort',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1603,7 +1602,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Lower space complexity',
                     'c' => 'Faster search operations',
                     'd' => 'No need for rebalancing',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1615,7 +1614,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dynamic size adjustment',
                     'c' => 'Constant time complexity for insertions and deletions',
                     'd' => 'Better cache locality',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1627,7 +1626,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Quick Sort',
                     'c' => 'Selection Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1639,7 +1638,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Array',
                     'd' => 'Priority Queue',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1651,7 +1650,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'It maps input to fixed-size values',
                     'c' => 'It stores data in a specific order',
                     'd' => 'It balances the data structure',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1663,7 +1662,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Binary Heap',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1675,7 +1674,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1687,7 +1686,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Breadth-First Traversal',
                     'c' => 'Post-order Traversal',
                     'd' => 'In-order Traversal',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1699,7 +1698,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Search',
                     'c' => 'Deletion',
                     'd' => 'Traversal',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1711,7 +1710,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n^2)',
                     'c' => 'O(n log n)',
                     'd' => 'O(n^3)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1723,7 +1722,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Lower memory usage',
                     'c' => 'Faster insertion at the beginning',
                     'd' => 'No need for head pointer',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1735,7 +1734,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Array',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1747,7 +1746,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dijkstra\'s Algorithm',
                     'c' => 'Bellman-Ford Algorithm',
                     'd' => 'Floyd-Warshall Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1759,7 +1758,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n^2)',
                     'c' => 'O(n)',
                     'd' => 'O(log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1771,7 +1770,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Doubly Linked List and Hash Map',
                     'd' => 'Binary Search Tree',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1783,7 +1782,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To visit all the nodes in a graph',
                     'c' => 'To find the minimum spanning tree',
                     'd' => 'To sort the nodes of the graph',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1795,7 +1794,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dynamic Programming',
                     'c' => 'Divide and Conquer',
                     'd' => 'Backtracking',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1807,7 +1806,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Sink',
                     'c' => 'Root',
                     'd' => 'Leaf',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1819,7 +1818,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Priority Queue',
                     'd' => 'Array',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1831,7 +1830,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Kruskal\'s Algorithm',
                     'c' => 'Prim\'s Algorithm',
                     'd' => 'Bellman-Ford Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1843,7 +1842,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1855,7 +1854,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'In-order Traversal',
                     'c' => 'Post-order Traversal',
                     'd' => 'Level-order Traversal',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1867,7 +1866,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n^2)',
                     'c' => 'O(n)',
                     'd' => 'O(log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1879,7 +1878,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Heap Sort',
                     'c' => 'Merge Sort',
                     'd' => 'Selection Sort',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1891,7 +1890,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Slow access time',
                     'c' => 'Complex implementation',
                     'd' => 'Difficulty in handling collisions',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => '2024-07-25 13:28:30',
                     'updated_at' => '2024-07-25 13:28:30'
                 ],
@@ -1903,7 +1902,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Priority Queue',
                     'd' => 'Array',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1915,7 +1914,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'When you need faster lookups',
                     'c' => 'When you need to traverse elements in sorted order',
                     'd' => 'When you need to perform range queries',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1927,7 +1926,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A* Algorithm',
                     'c' => 'Breadth-First Search',
                     'd' => 'Bellman-Ford Algorithm',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1939,7 +1938,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Deque',
                     'd' => 'Priority Queue',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1951,7 +1950,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n log n)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1963,7 +1962,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Kadane\'s Algorithm',
                     'c' => 'Prim\'s Algorithm',
                     'd' => 'Dijkstra\'s Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1975,7 +1974,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(e)',
                     'c' => 'O(n + e)',
                     'd' => 'O(n^2)',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1987,7 +1986,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Insertion Sort',
                     'c' => 'Selection Sort',
                     'd' => 'Bubble Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -1999,7 +1998,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2011,7 +2010,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'All nodes have exactly two children',
                     'c' => 'All nodes are connected in a circular manner',
                     'd' => 'All nodes have a value greater than their children',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2023,7 +2022,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Backtracking',
                     'd' => 'Genetic Algorithm',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2035,7 +2034,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(e)',
                     'c' => 'O(n^2)',
                     'd' => 'O(n + e)',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2047,7 +2046,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Kruskal\'s Algorithm',
                     'c' => 'Prim\'s Algorithm',
                     'd' => 'Dijkstra\'s Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2059,7 +2058,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(1) on average',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2071,7 +2070,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Balanced Tree',
                     'c' => 'Complete Binary Tree',
                     'd' => 'Graph',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2083,7 +2082,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'When you need to perform constant-time lookups',
                     'c' => 'When you need to handle collisions',
                     'd' => 'When you need fast insertion and deletion',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2095,7 +2094,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Pre-order Traversal',
                     'c' => 'Post-order Traversal',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2107,7 +2106,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To optimize recursive solutions by storing intermediate results',
                     'c' => 'To solve problems in a greedy manner',
                     'd' => 'To use divide-and-conquer strategies',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2119,7 +2118,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Min-Heap',
                     'c' => 'Binary Heap',
                     'd' => 'Fibonacci Heap',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2131,7 +2130,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Quick Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2143,7 +2142,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'All nodes have at most two children',
                     'c' => 'All nodes have the same value',
                     'd' => 'The tree is always a complete binary tree',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2155,7 +2154,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linked List',
                     'c' => 'Binary Heap',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2167,7 +2166,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Quick Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2179,7 +2178,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Doubly Linked List with a Hash Map',
                     'd' => 'Binary Tree',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2191,7 +2190,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2203,7 +2202,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dijkstra\'s Algorithm',
                     'c' => 'Floyd-Warshall Algorithm',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2215,7 +2214,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'When you need a more balanced tree with stricter balancing conditions',
                     'c' => 'When you need faster lookups',
                     'd' => 'When you need to minimize tree height with less balancing overhead',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2227,7 +2226,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2239,7 +2238,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Bubble Sort',
                     'd' => 'Insertion Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2251,7 +2250,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'log2(n+1)',
                     'c' => 'n',
                     'd' => '2^log2(n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2263,7 +2262,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dynamic Programming',
                     'c' => 'Backtracking',
                     'd' => 'All of the above',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2275,7 +2274,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n^2)',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2287,7 +2286,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Heap',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2299,7 +2298,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2311,7 +2310,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Backtracking',
                     'd' => 'Divide and Conquer',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2323,7 +2322,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Peek',
                     'c' => 'Deletion',
                     'd' => 'Heapify',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2335,7 +2334,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Complete Binary Tree',
                     'c' => 'Perfect Binary Tree',
                     'd' => 'Triangular Tree',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2347,7 +2346,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n log n)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2359,7 +2358,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Priority Queue',
                     'd' => 'Heap',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2371,7 +2370,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'When you need fast insertion and deletion of elements',
                     'c' => 'When you need to store large amounts of data',
                     'd' => 'When you need a sorted data structure',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2383,7 +2382,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dynamic Programming',
                     'c' => 'Divide and Conquer',
                     'd' => 'Backtracking',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2395,7 +2394,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2407,7 +2406,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n log n)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2419,7 +2418,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dijkstra\'s Algorithm',
                     'c' => 'Bellman-Ford Algorithm',
                     'd' => 'Floyd-Warshall Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2431,7 +2430,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Breadth-First Search',
                     'c' => 'Best-First Search',
                     'd' => 'A* Search',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2443,7 +2442,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Linked List',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ], [
@@ -2454,7 +2453,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Genetic Algorithm',
                     'd' => 'Simulated Annealing',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2466,7 +2465,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2478,7 +2477,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Quick Sort',
                     'c' => 'Counting Sort',
                     'd' => 'Bucket Sort',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2490,7 +2489,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Queue',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2502,7 +2501,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Minimized tree height and improved search time',
                     'c' => 'Increased space efficiency',
                     'd' => 'Simpler implementation',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2514,7 +2513,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Floyd-Warshall Algorithm',
                     'c' => 'Bellman-Ford Algorithm',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2526,7 +2525,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n log n)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2538,7 +2537,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Prim\'s Algorithm',
                     'c' => 'Dijkstra\'s Algorithm',
                     'd' => 'Bellman-Ford Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2550,7 +2549,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Array',
                     'd' => 'Hash Map',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2562,7 +2561,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2574,7 +2573,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Priority Queue',
                     'd' => 'Heap',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],  [
@@ -2585,7 +2584,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Hash Table',
                     'c' => 'Queue',
                     'd' => 'Graph',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2597,7 +2596,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Merge Sort',
                     'c' => 'Insertion Sort',
                     'd' => 'Selection Sort',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2609,7 +2608,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Simple implementation',
                     'c' => 'Increased data storage capacity',
                     'd' => 'Lower space complexity',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2621,7 +2620,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Undirected Graph',
                     'c' => 'Weighted Graph',
                     'd' => 'Linear Graph',
-                    'answer' => Hash::make('d'),
+                    'answer' => 'd',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2633,7 +2632,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Backtracking',
                     'd' => 'Divide and Conquer',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2645,7 +2644,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linked List',
                     'c' => 'Queue',
                     'd' => 'Stack',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2657,7 +2656,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'A two-way connection between A and B',
                     'c' => 'A connection from B to A',
                     'd' => 'A loop on vertex A',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2669,7 +2668,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Array',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2681,7 +2680,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Bellman-Ford Algorithm',
                     'c' => 'Floyd-Warshall Algorithm',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2693,7 +2692,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linear Search',
                     'c' => 'Jump Search',
                     'd' => 'Interpolation Search',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2705,7 +2704,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Increased space efficiency',
                     'c' => 'Simpler implementation',
                     'd' => 'Faster insertion',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2717,7 +2716,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Binary Search Tree',
                     'c' => 'Priority Queue',
                     'd' => 'Stack',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2729,7 +2728,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Fast search time',
                     'c' => 'Guaranteed accuracy',
                     'd' => 'Simple implementation',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2741,7 +2740,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linked List',
                     'c' => 'Binary Search Tree',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2753,7 +2752,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Self-balancing structure',
                     'c' => 'Sorted elements',
                     'd' => 'Unsorted elements',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2765,7 +2764,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linear Search',
                     'c' => 'Jump Search',
                     'd' => 'Exponential Search',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2777,7 +2776,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Slower access time',
                     'c' => 'Limited data storage',
                     'd' => 'Increased complexity in implementation',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2789,7 +2788,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Divide and Conquer',
                     'd' => 'Backtracking',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2801,7 +2800,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Stack',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2813,7 +2812,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n)',
                     'c' => 'O(n log n)',
                     'd' => 'O(1)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2825,7 +2824,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack for BFS, Queue for DFS',
                     'c' => 'Priority Queue for BFS, Hash Table for DFS',
                     'd' => 'Hash Table for BFS, Stack for DFS',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2837,7 +2836,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dynamic Programming',
                     'c' => 'Backtracking',
                     'd' => 'Divide and Conquer',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2849,7 +2848,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To sort data efficiently',
                     'c' => 'To encrypt data',
                     'd' => 'To compress data',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2861,7 +2860,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linear Search',
                     'c' => 'Jump Search',
                     'd' => 'Exponential Search',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2873,7 +2872,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Quick Sort',
                     'c' => 'Insertion Sort',
                     'd' => 'Selection Sort',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2885,7 +2884,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(log n)',
                     'c' => 'O(n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2897,7 +2896,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Floyd-Warshall Algorithm',
                     'c' => 'Bellman-Ford Algorithm',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2909,7 +2908,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Priority Queue',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2921,7 +2920,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n)',
                     'c' => 'O(log n)',
                     'd' => 'O(n log n)',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2933,7 +2932,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linked List',
                     'c' => 'Stack',
                     'd' => 'Queue',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2945,7 +2944,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Linked List',
                     'd' => 'Priority Queue',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2957,7 +2956,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n^2)',
                     'c' => 'O(n)',
                     'd' => 'O(log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2969,7 +2968,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Divide and Conquer',
                     'c' => 'Greedy Algorithm',
                     'd' => 'Dynamic Programming',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2981,7 +2980,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Stack',
                     'c' => 'Priority Queue',
                     'd' => 'Linked List',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -2993,7 +2992,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Dijkstra\'s Algorithm',
                     'c' => 'Bellman-Ford Algorithm',
                     'd' => 'Kruskal\'s Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3005,7 +3004,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Works with unsorted data',
                     'c' => 'Requires less memory',
                     'd' => 'Easier to implement',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3017,7 +3016,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Queue',
                     'c' => 'Linked List',
                     'd' => 'Array',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3029,7 +3028,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Quick Sort',
                     'c' => 'Merge Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3041,7 +3040,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Guaranteed accuracy in membership testing',
                     'c' => 'Efficient sorting of data',
                     'd' => 'Simple hash table implementation',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3053,7 +3052,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Kruskal\'s Algorithm',
                     'c' => 'Prim\'s Algorithm',
                     'd' => 'Bellman-Ford Algorithm',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3065,7 +3064,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'O(n log n)',
                     'c' => 'O(n)',
                     'd' => 'O(log n)',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3077,7 +3076,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Quick Sort',
                     'c' => 'Merge Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3089,7 +3088,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'When dealing with small arrays with O(n^2) performance',
                     'c' => 'When needing to sort data in constant time',
                     'd' => 'When working with dynamic data structures',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3101,7 +3100,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Binary Search',
                     'c' => 'Merge Sort',
                     'd' => 'Dynamic Programming',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3113,7 +3112,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Binary Search',
                     'c' => 'Merge Sort',
                     'd' => 'Heap Sort',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3125,7 +3124,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Array',
                     'c' => 'Linked List',
                     'd' => 'Hash Table',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3137,7 +3136,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'DFS uses a queue and explores level by level, BFS uses a stack and explores deeply',
                     'c' => 'DFS is faster than BFS',
                     'd' => 'BFS is more memory-efficient than DFS',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3149,7 +3148,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Greedy Algorithm',
                     'c' => 'Divide and Conquer',
                     'd' => 'Backtracking',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3161,7 +3160,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Array',
                     'c' => 'Linked List',
                     'd' => 'Stack',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3173,7 +3172,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Linear Search',
                     'c' => 'Jump Search',
                     'd' => 'Exponential Search',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ], [
@@ -3184,7 +3183,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Support Vector Machines',
                     'c' => 'Principal Component Analysis',
                     'd' => 'Apriori Algorithm',
-                    'answer' => Hash::make('b'),
+                    'answer' => 'b',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3196,7 +3195,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To identify patterns in data',
                     'c' => 'To learn optimal actions through rewards and punishments',
                     'd' => 'To reduce the dimensionality of data',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3208,7 +3207,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Increases the network depth',
                     'c' => 'Reduces the number of parameters',
                     'd' => 'Normalizes the input data',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3220,7 +3219,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Normalization',
                     'c' => 'Scaling',
                     'd' => 'Encoding',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3232,7 +3231,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To label data with predefined categories',
                     'c' => 'To discover hidden patterns or intrinsic structures in data',
                     'd' => 'To enhance the accuracy of supervised learning models',
-                    'answer' => Hash::make('c'),
+                    'answer' => 'c',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3244,7 +3243,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To visualize data distributions',
                     'c' => 'To perform dimensionality reduction',
                     'd' => 'To measure the accuracy of regression models',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3256,7 +3255,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'K-Nearest Neighbors (KNN)',
                     'c' => 'Support Vector Machines (SVM)',
                     'd' => 'Gradient Descent',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3268,7 +3267,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Reduces the size of the network',
                     'c' => 'Improves data normalization',
                     'd' => 'Calculates the loss of the model',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3280,7 +3279,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'Feature Scaling',
                     'c' => 'Data Augmentation',
                     'd' => 'Data Shuffling',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3292,7 +3291,7 @@ class QuestionSeeders4 extends Seeder
                     'b' => 'To reduce the complexity of a single model',
                     'c' => 'To speed up the training process',
                     'd' => 'To handle missing data more effectively',
-                    'answer' => Hash::make('a'),
+                    'answer' => 'a',
                     'created_at' => now(),
                     'updated_at' => now()
                 ],
@@ -3305,7 +3304,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To optimize the model’s parameters',
         'c' => 'To preprocess the input data',
         'd' => 'To validate the model’s performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3317,7 +3316,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Support Vector Machine',
         'c' => 'Decision Tree',
         'd' => 'Logistic Regression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3329,7 +3328,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Ability to handle sequential data',
         'c' => 'Ability to perform dimensionality reduction',
         'd' => 'Ability to manage large-scale databases',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3341,7 +3340,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Data Augmentation',
         'c' => 'Feature Engineering',
         'd' => 'Regularization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3353,7 +3352,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Preprocesses input data',
         'c' => 'Generates synthetic data for training',
         'd' => 'Optimizes the hyperparameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3365,7 +3364,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Linear Regression',
         'c' => 'Decision Trees',
         'd' => 'Gradient Descent',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3377,7 +3376,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Optimizing numerical algorithms',
         'c' => 'Predicting time series data',
         'd' => 'Classifying images',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3389,7 +3388,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model underperforms on both training and testing data',
         'c' => 'When a model generalizes well on unseen data',
         'd' => 'When a model is too simple to capture the underlying patterns',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3401,7 +3400,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Scaling',
         'd' => 'Encoding',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3413,7 +3412,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reducing the complexity of a single model',
         'c' => 'Using a single model with multiple hyperparameters',
         'd' => 'Training models with different data subsets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -3424,7 +3423,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique to increase the model’s complexity',
         'c' => 'A method to encode categorical data',
         'd' => 'A process to visualize data distributions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3436,7 +3435,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Principal Component Analysis',
         'd' => 't-SNE',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3448,7 +3447,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Classifying images',
         'c' => 'Dimensionality reduction',
         'd' => 'Feature selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3460,7 +3459,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Selecting the features for the model',
         'c' => 'Splitting the data into training and testing sets',
         'd' => 'Normalizing the input data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3472,7 +3471,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'F1 Score',
         'd' => 'Area Under the Curve (AUC)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3484,7 +3483,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To encode categorical variables',
         'c' => 'To perform dimensionality reduction',
         'd' => 'To increase model complexity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3496,7 +3495,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the network’s depth',
         'c' => 'To increase the learning rate',
         'd' => 'To perform feature selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3508,7 +3507,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It requires less computational power',
         'c' => 'It automatically performs feature selection',
         'd' => 'It improves model interpretability',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3520,7 +3519,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reduces the number of neurons in each layer',
         'c' => 'Increases the depth of the network',
         'd' => 'Augments the training data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3532,7 +3531,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Classifying text data',
         'c' => 'Clustering customer data',
         'd' => 'Predicting stock prices',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3544,7 +3543,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the number of parameters',
         'c' => 'To optimize the loss function',
         'd' => 'To normalize the output data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3556,7 +3555,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Unsupervised Learning',
         'c' => 'Reinforcement Learning',
         'd' => 'Semi-Supervised Learning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3568,7 +3567,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Naive Bayes',
         'c' => 'K-Nearest Neighbors (KNN)',
         'd' => 'Support Vector Machines (SVM)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3580,7 +3579,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To split the data into training and testing sets',
         'c' => 'To preprocess the data',
         'd' => 'To increase the model’s complexity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3592,7 +3591,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model underperforms on both training and testing data',
         'c' => 'When a model generalizes well on unseen data',
         'd' => 'When a model is too simple to capture the underlying patterns',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3604,7 +3603,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Mean Squared Error (MSE)',
         'c' => 'R-squared',
         'd' => 'Precision-Recall Curve',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3616,7 +3615,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reduces the size of the dataset',
         'c' => 'Normalizes the feature values',
         'd' => 'Speeds up the training process',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3628,7 +3627,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Recurrent Neural Network (RNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Feedforward Neural Network',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3640,7 +3639,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Choosing the best algorithm for a given problem',
         'c' => 'Splitting data into training and testing sets',
         'd' => 'Evaluating the model’s accuracy',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3652,7 +3651,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Linear Regression',
         'c' => 'Support Vector Machines (SVM)',
         'd' => 'K-Means Clustering',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3664,7 +3663,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Training models faster by using smaller datasets',
         'c' => 'Reducing the complexity of a model',
         'd' => 'Increasing the number of features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3676,7 +3675,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'ReLU',
         'c' => 'Tanh',
         'd' => 'K-Means',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3689,7 +3688,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Training models with labeled data',
         'c' => 'Optimizing hyperparameters of a model',
         'd' => 'Generating synthetic data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3701,7 +3700,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Mean Squared Error (MSE)',
         'c' => 'Cross-Validation',
         'd' => 'Batch Normalization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3713,7 +3712,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The number of layers in the neural network',
         'c' => 'The number of epochs used for training',
         'd' => 'The size of the validation dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3725,7 +3724,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the number of features',
         'c' => 'To speed up the training process',
         'd' => 'To increase the model’s complexity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3737,7 +3736,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Mean Squared Error (MSE)',
         'c' => 'R-squared',
         'd' => 'Log-Likelihood',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3749,7 +3748,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the learning rate progressively',
         'c' => 'To increase the batch size',
         'd' => 'To perform data augmentation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3761,7 +3760,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Applying L1 or L2 regularization',
         'c' => 'Using dropout layers',
         'd' => 'Increasing the batch size',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3773,7 +3772,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To perform feature scaling',
         'c' => 'To handle missing data',
         'd' => 'To increase model interpretability',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3785,7 +3784,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'They reduce the size of the dataset',
         'c' => 'They simplify the model architecture',
         'd' => 'They speed up the training process significantly',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3797,7 +3796,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Unsupervised Learning',
         'c' => 'Supervised Learning',
         'd' => 'Semi-Supervised Learning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3809,7 +3808,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Balanced Aggregation',
         'c' => 'Bayesian Aggregation',
         'd' => 'Binning Aggregation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3821,7 +3820,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The number of features in the dataset',
         'c' => 'The training data',
         'd' => 'The learning rate',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3833,7 +3832,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Feature scaling',
         'c' => 'Dimensionality reduction',
         'd' => 'Hyperparameter tuning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3845,7 +3844,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Convolutional Neural Network (CNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Feedforward Neural Network',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3857,7 +3856,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the size of the dataset',
         'c' => 'To clean the data',
         'd' => 'To decrease the model’s complexity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3869,7 +3868,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the number of features',
         'c' => 'Reducing the size of the training dataset',
         'd' => 'Increasing the number of epochs',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3881,7 +3880,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Naive Bayes',
         'd' => 'Decision Trees',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3893,7 +3892,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The distribution of features in the dataset',
         'c' => 'The loss function values during training',
         'd' => 'The correlation between features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3905,7 +3904,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Support Vector Machine (SVM)',
         'c' => 'Logistic Regression',
         'd' => 'Decision Tree',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3917,7 +3916,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To train the model on the training data',
         'c' => 'To clean and preprocess the data',
         'd' => 'To select the best model architecture',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3929,7 +3928,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Gradient Clipping',
         'c' => 'Batch Normalization',
         'd' => 'Dropout',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3941,7 +3940,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To preprocess the data',
         'c' => 'To split the data into training and testing sets',
         'd' => 'To train the model on the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],  [
@@ -3952,7 +3951,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means',
         'c' => 'Principal Component Analysis (PCA)',
         'd' => 'Linear Regression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3964,7 +3963,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model is trained on too little data',
         'c' => 'When the model is too simple to capture the underlying pattern',
         'd' => 'When the model is optimized with too many hyperparameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3976,7 +3975,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Random Forest',
         'd' => 'Gradient Boosting',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3988,7 +3987,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It generates new training data',
         'c' => 'It reduces the number of layers in a neural network',
         'd' => 'It increases the size of the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4000,7 +3999,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To preprocess the data',
         'c' => 'To tune the hyperparameters',
         'd' => 'To handle missing values',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4012,7 +4011,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Convolutional Neural Network (CNN)',
         'c' => 'Recurrent Neural Network (RNN)',
         'd' => 'Generative Adversarial Network (GAN)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4024,7 +4023,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It generates synthetic data',
         'c' => 'It clusters data into groups',
         'd' => 'It performs feature selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4036,7 +4035,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Logistic Regression',
         'c' => 'Naive Bayes',
         'd' => 'Support Vector Machine',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4048,7 +4047,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It simplifies the model architecture',
         'c' => 'It reduces the number of features',
         'd' => 'It speeds up the training process',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4060,7 +4059,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'F1 Score',
         'd' => 'Cross-Entropy Loss',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4072,7 +4071,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It involves training the model on data',
         'c' => 'It involves tuning the hyperparameters of a model',
         'd' => 'It involves splitting the data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4084,7 +4083,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Data Augmentation',
         'd' => 'Feature Scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4096,7 +4095,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A single batch of data used in training',
         'c' => 'The process of adjusting model weights',
         'd' => 'The period of model evaluation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4108,7 +4107,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Support Vector Machine (SVM)',
         'c' => 'Decision Tree',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4120,7 +4119,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Transferring data between different storage systems',
         'c' => 'Applying different models to the same data',
         'd' => 'Learning from multiple datasets simultaneously',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4132,7 +4131,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Mean Squared Error (MSE)',
         'c' => 'R-squared',
         'd' => 'Mean Absolute Error (MAE)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4144,7 +4143,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To scale the input data',
         'c' => 'To initialize the model parameters',
         'd' => 'To reduce the dimensionality of the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4156,7 +4155,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The total number of correct predictions',
         'c' => 'The ratio of true positives to false negatives',
         'd' => 'The proportion of correct predictions out of all predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4168,7 +4167,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Principal Component Analysis (PCA)',
         'd' => 'Generative Adversarial Network (GAN)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4180,7 +4179,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The total number of correct predictions',
         'c' => 'The ratio of true positives to false positives',
         'd' => 'The proportion of positive predictions out of all predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4192,7 +4191,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Data Encoding',
         'c' => 'Feature Selection',
         'd' => 'Normalization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4204,7 +4203,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To train the machine learning model',
         'c' => 'To optimize the model hyperparameters',
         'd' => 'To perform feature engineering',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -4215,7 +4214,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Nearest Neighbors (KNN)',
         'c' => 'Support Vector Machine (SVM)',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4227,7 +4226,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The number of features',
         'c' => 'The size of the model',
         'd' => 'The number of epochs',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4239,7 +4238,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To normalize the data',
         'c' => 'To split the data into training and testing sets',
         'd' => 'To optimize the model parameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4251,7 +4250,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Feature Scaling',
         'c' => 'Data Augmentation',
         'd' => 'Principal Component Analysis (PCA)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4263,7 +4262,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Learning from labeled data to classify new data',
         'c' => 'Learning to predict future values from past data',
         'd' => 'Learning to segment data into distinct groups',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4275,7 +4274,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Feature Engineering',
         'c' => 'Model Selection',
         'd' => 'Data Cleaning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4287,7 +4286,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Splitting the dataset into training and testing sets',
         'c' => 'Choosing the features to use in the model',
         'd' => 'Normalizing the data for better model performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4299,7 +4298,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Decision Tree',
         'd' => 'Logistic Regression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4311,7 +4310,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To preprocess the data for training',
         'c' => 'To select the best features for the model',
         'd' => 'To adjust the model’s hyperparameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4323,7 +4322,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Recurrent Neural Network (RNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Support Vector Machine (SVM)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -4334,7 +4333,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Feature Engineering',
         'd' => 'Dimensionality Reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4346,7 +4345,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the number of features in a dataset',
         'c' => 'To normalize the data before training',
         'd' => 'To handle missing values in a dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4358,7 +4357,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method to scale the features of a dataset',
         'c' => 'A strategy to split data into training and testing sets',
         'd' => 'A process to remove outliers from the dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4370,7 +4369,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'F1 Score',
         'd' => 'Area Under Curve (AUC)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4382,7 +4381,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Improving the speed of model training',
         'c' => 'Increasing the complexity of the model',
         'd' => 'Enhancing the interpretability of the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4394,7 +4393,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Convolutional layers',
         'c' => 'Pooling layers',
         'd' => 'Activation functions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4406,7 +4405,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To optimize hyperparameters of a model',
         'c' => 'To perform feature scaling',
         'd' => 'To clean and preprocess the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4418,7 +4417,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Decision Tree',
         'c' => 'K-Nearest Neighbors (KNN)',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4430,7 +4429,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the number of features in a dataset',
         'c' => 'Normalizing the data for better performance',
         'd' => 'Splitting the data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4442,7 +4441,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Linear Regression',
         'c' => 'Decision Tree',
         'd' => 'Principal Component Analysis (PCA)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4454,7 +4453,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Selecting the most relevant features for the model',
         'c' => 'Reducing the number of features in the dataset',
         'd' => 'Encoding categorical variables into numerical values',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4466,7 +4465,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means',
         'c' => 'Gradient Descent',
         'd' => 'Cross-Validation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4478,7 +4477,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The speed of the training process',
         'c' => 'The complexity of the model',
         'd' => 'The amount of training data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4490,7 +4489,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Feature Scaling',
         'c' => 'Dimensionality Reduction',
         'd' => 'Hyperparameter Tuning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4502,7 +4501,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Logistic Regression',
         'c' => 'Support Vector Machine (SVM)',
         'd' => 'Linear Regression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4514,7 +4513,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Training a model from scratch',
         'c' => 'Combining multiple models to improve accuracy',
         'd' => 'Adjusting the learning rate during training',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4526,7 +4525,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Decision Tree',
         'c' => 'K-Nearest Neighbors (KNN)',
         'd' => 'Support Vector Machine (SVM)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4538,7 +4537,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The ratio of true positive predictions to the total actual positives',
         'c' => 'The total number of correct predictions',
         'd' => 'The ratio of false negatives to the total actual positives',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4550,7 +4549,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'ROC Curve',
         'c' => 'Precision-Recall Curve',
         'd' => 'All of the above',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4562,7 +4561,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of adding more features to the dataset',
         'c' => 'The process of removing irrelevant data',
         'd' => 'The process of splitting data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4574,7 +4573,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To increase the complexity of the model',
         'c' => 'To optimize the learning rate',
         'd' => 'To normalize the input data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4586,7 +4585,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Decision Tree',
         'd' => 'Gradient Descent',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4598,7 +4597,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the amount of training data',
         'c' => 'Normalizing the input data',
         'd' => 'Splitting the dataset into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4610,7 +4609,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Resampling',
         'd' => 'Dimensionality Reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4622,7 +4621,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The balance between the complexity of the model and the amount of training data',
         'c' => 'The balance between training and testing accuracy',
         'd' => 'The balance between training speed and model accuracy',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4634,7 +4633,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'F1 Score',
         'd' => 'ROC Curve',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4646,7 +4645,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reducing the number of features in a dataset',
         'c' => 'Normalizing data for training',
         'd' => 'Splitting data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4658,7 +4657,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Cross-Validation',
         'c' => 'Dimensionality Reduction',
         'd' => 'Gradient Descent',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4670,7 +4669,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for scaling input features',
         'c' => 'An optimization algorithm for training models',
         'd' => 'A technique for handling missing values',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4682,7 +4681,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To classify data into predefined categories',
         'c' => 'To predict numerical values based on input features',
         'd' => 'To reduce the dimensionality of a dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4694,7 +4693,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means',
         'c' => 'Naive Bayes',
         'd' => 'Principal Component Analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4706,7 +4705,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The number of features in the dataset',
         'c' => 'The amount of training data',
         'd' => 'The structure of the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4718,7 +4717,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Support Vector Machine (SVM)',
         'c' => 'Decision Tree',
         'd' => 'K-Nearest Neighbors (KNN)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4730,7 +4729,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of initializing the neural network weights',
         'c' => 'The process of selecting activation functions',
         'd' => 'The process of splitting data into training and validation sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4742,7 +4741,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'F1 Score',
         'c' => 'Mean Squared Error (MSE)',
         'd' => 'Area Under Curve (AUC)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4754,7 +4753,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To increase the learning rate',
         'c' => 'To add more layers to the network',
         'd' => 'To speed up the training process',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4766,7 +4765,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Principal Component Analysis (PCA)',
         'c' => 'Linear Discriminant Analysis (LDA)',
         'd' => 'K-Means Clustering',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4778,7 +4777,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Classifying data into different categories',
         'c' => 'Predicting future values based on past data',
         'd' => 'Reducing the number of features in a dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4790,7 +4789,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'ROC Curve',
         'd' => 'Precision-Recall Curve',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4802,7 +4801,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The error introduced by using too many features',
         'c' => 'The error introduced by splitting the data incorrectly',
         'd' => 'The error introduced by incorrect data normalization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4814,7 +4813,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To adjust the model’s hyperparameters',
         'c' => 'To normalize the input features',
         'd' => 'To handle missing values in the dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4826,7 +4825,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Apriori Algorithm',
         'd' => 'Principal Component Analysis (PCA)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4838,7 +4837,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of adjusting the model’s weights during training',
         'c' => 'The process of normalizing input data',
         'd' => 'The process of evaluating model performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4850,7 +4849,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Principal Component Analysis (PCA)',
         'd' => 't-Distributed Stochastic Neighbor Embedding (t-SNE)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4862,7 +4861,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To normalize input features',
         'c' => 'To split the dataset into training and testing sets',
         'd' => 'To handle missing values in the dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4874,7 +4873,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Apriori Algorithm',
         'd' => 'Principal Component Analysis (PCA)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4886,7 +4885,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model performs equally well on both training and unseen data',
         'c' => 'When a model performs poorly on both training and unseen data',
         'd' => 'When a model is too simple to capture the underlying patterns in the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4898,7 +4897,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Root Mean Squared Error (RMSE)',
         'c' => 'Mean Absolute Error (MAE)',
         'd' => 'Silhouette Score',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4910,7 +4909,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of adjusting the model’s hyperparameters',
         'c' => 'The process of normalizing input data',
         'd' => 'The process of splitting data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4922,7 +4921,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'F1 Score',
         'c' => 'Silhouette Score',
         'd' => 'Area Under Curve (AUC)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4934,7 +4933,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Underfitting by increasing the number of epochs',
         'c' => 'Vanishing gradients by using more complex activation functions',
         'd' => 'Model convergence by adjusting the learning rate',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4946,7 +4945,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Feature Extraction',
         'd' => 'Cross-Validation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4958,7 +4957,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Training and testing datasets',
         'c' => 'Feature extraction and feature selection',
         'd' => 'Data normalization and data augmentation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4970,7 +4969,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 't-Distributed Stochastic Neighbor Embedding (t-SNE)',
         'c' => 'Linear Discriminant Analysis (LDA)',
         'd' => 'Autoencoder',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4982,7 +4981,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of optimizing the model’s hyperparameters',
         'c' => 'The ability of a model to fit the training data well',
         'd' => 'The technique used for splitting the dataset into training and validation sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -4993,7 +4992,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Convolutional Neural Network (CNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Deep Belief Network (DBN)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5005,7 +5004,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Training a model from scratch on a new dataset',
         'c' => 'Combining multiple models to make predictions',
         'd' => 'Evaluating a model’s performance on a validation set',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5017,7 +5016,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Principal Component Analysis (PCA)',
         'd' => 'Support Vector Machine (SVM)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5029,7 +5028,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To initialize the model parameters',
         'c' => 'To normalize the input data',
         'd' => 'To evaluate model performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5041,7 +5040,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Cross-Validation',
         'd' => 'Feature Extraction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5053,7 +5052,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Splitting the dataset into training and validation sets',
         'c' => 'Evaluating the performance of the model',
         'd' => 'Normalizing the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5065,7 +5064,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Nearest Neighbors (KNN)',
         'c' => 'Support Vector Machine (SVM)',
         'd' => 'Decision Tree',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5077,7 +5076,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To increase the size of the training dataset',
         'c' => 'To prevent overfitting by using dropout',
         'd' => 'To adjust the learning rate',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5089,7 +5088,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Linear Regression',
         'c' => 'K-Means Clustering',
         'd' => 'Principal Component Analysis (PCA)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5101,7 +5100,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Classifying data into different categories',
         'c' => 'Predicting future values based on past data',
         'd' => 'Finding the optimal hyperparameters for a model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -5112,7 +5111,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Feature Scaling',
         'c' => 'Data Augmentation',
         'd' => 'Cross-Validation',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5124,7 +5123,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Supervised learning with labeled data',
         'c' => 'Unsupervised learning to find hidden patterns',
         'd' => 'Training with a pre-defined dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5136,7 +5135,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of selecting important features for a model',
         'c' => 'Methods used to increase the size of the training dataset',
         'd' => 'Approaches for reducing computational complexity',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5148,7 +5147,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Decision Trees',
         'c' => 'Random Forest',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5160,7 +5159,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Choosing between different feature extraction methods',
         'c' => 'Deciding on the training vs. testing data split',
         'd' => 'Selecting the right model architecture',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5172,7 +5171,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the size of the training dataset',
         'c' => 'Optimizing hyperparameters for a model',
         'd' => 'Normalizing input features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5184,7 +5183,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Confusion Matrix',
         'c' => 'ROC Curve',
         'd' => 'Mean Squared Error (MSE)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5196,7 +5195,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the size of individual models',
         'c' => 'Selecting the best model from multiple candidates',
         'd' => 'Optimizing model hyperparameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5208,7 +5207,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Improving the model’s learning speed',
         'c' => 'Increasing the size of the dataset',
         'd' => 'Optimizing model hyperparameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5220,7 +5219,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Feature Scaling',
         'd' => 'Feature Selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5232,7 +5231,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the size of the dataset',
         'c' => 'Improving the model’s performance on unseen data',
         'd' => 'Handling missing data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5244,7 +5243,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Convolutional Neural Network (CNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Autoencoder',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5256,7 +5255,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It increases model interpretability',
         'c' => 'It speeds up model training significantly',
         'd' => 'It ensures the model is trained on a larger dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5268,7 +5267,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Sigmoid',
         'c' => 'Tanh',
         'd' => 'Softmax',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5280,7 +5279,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model performs well on the training data but poorly on the test data',
         'c' => 'When a model is too simple to capture the underlying patterns in the data',
         'd' => 'When a model has too many features and becomes too complex',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5292,7 +5291,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Data Augmentation',
         'c' => 'Hyperparameter Tuning',
         'd' => 'Feature Scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5304,7 +5303,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The technique of normalizing input data before feeding it into the network',
         'c' => 'The method of splitting the dataset into training and validation sets',
         'd' => 'The process of initializing the model parameters randomly',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5316,7 +5315,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Mean Squared Error (MSE)',
         'c' => 'Silhouette Score',
         'd' => 'Log-Loss',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5328,7 +5327,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To speed up the training process by reducing the number of epochs',
         'c' => 'To handle missing data by imputing values',
         'd' => 'To normalize the data before training',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5340,7 +5339,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Support Vector Machine (SVM)',
         'c' => 'Logistic Regression',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5352,7 +5351,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It normalizes the input features',
         'c' => 'It reduces the dimensionality of the input data',
         'd' => 'It initializes the weights of the network',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5364,7 +5363,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Creating synthetic data to augment the dataset size',
         'c' => 'Cleaning the dataset by removing outliers',
         'd' => 'Selecting the most relevant features for model training',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5376,7 +5375,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method to speed up the training process by reducing the number of epochs',
         'c' => 'A process to split data into training and validation sets',
         'd' => 'A technique to initialize model parameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -5387,7 +5386,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To visualize the data distribution',
         'c' => 'To check the model’s residuals',
         'd' => 'To display the model’s learning curve',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5399,7 +5398,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalization',
         'c' => 'Encoding',
         'd' => 'Feature Scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5411,7 +5410,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To standardize the input data',
         'c' => 'To split the data into training and testing sets',
         'd' => 'To select the most important features for the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5423,7 +5422,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To normalize the input features',
         'c' => 'To introduce non-linearity in hidden layers',
         'd' => 'To initialize the model weights',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5435,7 +5434,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce the complexity of the model',
         'c' => 'To handle missing values in the data',
         'd' => 'To select important features for the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5447,7 +5446,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Recurrent Neural Network (RNN)',
         'c' => 'Generative Adversarial Network (GAN)',
         'd' => 'Autoencoder',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5459,7 +5458,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To determine the number of layers in the network',
         'c' => 'To select the type of activation function',
         'd' => 'To adjust the batch size',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5471,7 +5470,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reducing the number of features used in the model',
         'c' => 'Splitting the data into multiple training sets',
         'd' => 'Selecting the best hyperparameters for a single model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5483,7 +5482,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Underfitting',
         'c' => 'Data Leakage',
         'd' => 'All of the above',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5495,7 +5494,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The technique of increasing the training dataset size',
         'c' => 'The method of normalizing the features',
         'd' => 'The process of feature selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5507,7 +5506,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The ratio of true positive predictions to the sum of true positive and false negative predictions',
         'c' => 'The ratio of true negative predictions to the sum of true negative and false positive predictions',
         'd' => 'The ratio of true negative predictions to the sum of true negative and false negative predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5519,7 +5518,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Decision Trees',
         'd' => 'Support Vector Machines (SVM)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5531,7 +5530,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Finding patterns in unlabeled data',
         'c' => 'Classifying data into predefined categories',
         'd' => 'Reducing the dimensionality of data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5543,7 +5542,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Generating synthetic data',
         'c' => 'Clustering data into groups',
         'd' => 'Reducing the number of features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5555,7 +5554,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the number of data samples',
         'c' => 'Splitting the dataset into training and testing sets',
         'd' => 'Normalizing the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5567,7 +5566,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To increase the number of features to capture more information',
         'c' => 'To normalize the data features',
         'd' => 'To split the data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5579,7 +5578,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Data augmentation to create more samples',
         'c' => 'Feature scaling to normalize the features',
         'd' => 'Cross-validation to assess model performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5591,7 +5590,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of increasing the training data size',
         'c' => 'A technique for scaling features',
         'd' => 'A way to initialize model parameters',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5603,7 +5602,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The process of selecting the most relevant features for the model',
         'c' => 'The process of cleaning the data before training',
         'd' => 'The process of splitting the data into training and validation sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5615,7 +5614,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Evaluating the model’s performance based on mean squared error',
         'c' => 'Calculating the variance of the predictions',
         'd' => 'Determining the accuracy of the predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5627,7 +5626,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Assessing the performance of a regression model',
         'c' => 'Evaluating the distribution of features',
         'd' => 'Determining the training time of the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5639,7 +5638,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Principal Component Analysis (PCA)',
         'c' => 'K-Means Clustering',
         'd' => 'Naive Bayes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5651,7 +5650,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reducing the dimensionality of the data',
         'c' => 'Classifying data into predefined categories',
         'd' => 'Predicting continuous values based on input features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5663,7 +5662,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalizing the data features',
         'c' => 'Selecting the most important features for the model',
         'd' => 'Handling missing values in the dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5675,7 +5674,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model performs equally well on both training and unseen data',
         'c' => 'When a model has too few features',
         'd' => 'When a model has high bias and underperforms on training data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5687,7 +5686,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model is too complex and overfits the training data',
         'c' => 'When a model has too many parameters',
         'd' => 'When a model achieves high accuracy on the training data but fails on unseen data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5699,7 +5698,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Evaluating the accuracy of regression models',
         'c' => 'Assessing the training time of the model',
         'd' => 'Determining the feature importance in a dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5711,7 +5710,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the size of the training data',
         'c' => 'Selecting the most relevant features for the model',
         'd' => 'Normalizing the data features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5723,7 +5722,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To increase the number of hidden layers',
         'c' => 'To normalize the activations of the network',
         'd' => 'To initialize the network weights',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5735,7 +5734,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'K-Means Clustering',
         'c' => 'Principal Component Analysis (PCA)',
         'd' => 'Decision Trees',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5747,7 +5746,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Generating synthetic images',
         'c' => 'Classifying data into categories',
         'd' => 'Performing dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5759,7 +5758,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature selection',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A way to increase the training data size',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5771,7 +5770,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Learning from labeled data with supervised methods',
         'c' => 'Learning from unlabeled data with clustering techniques',
         'd' => 'Learning by reducing data dimensionality',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5783,7 +5782,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Selecting features from the data for training',
         'c' => 'Deciding between different machine learning models',
         'd' => 'Choosing the best hyperparameters for the model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5795,7 +5794,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Generates synthetic data for training',
         'c' => 'Normalizes the input data',
         'd' => 'Splits the dataset into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -5806,7 +5805,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The issue of having too few features for model training',
         'c' => 'The problem of overfitting with too few data samples',
         'd' => 'The challenge of reducing the number of data samples for training',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5818,7 +5817,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for increasing the size of the training data',
         'c' => 'A method for feature selection',
         'd' => 'A technique for scaling the features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5830,7 +5829,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Assessing the accuracy of regression models',
         'c' => 'Calculating the feature importance',
         'd' => 'Normalizing the data features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5842,7 +5841,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Splitting the data into training and validation sets',
         'c' => 'Normalizing the features of the data',
         'd' => 'Selecting the best machine learning model',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5854,7 +5853,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of machine learning where the model is trained on unlabeled data',
         'c' => 'A method of increasing the size of the dataset',
         'd' => 'A technique for reducing the dimensionality of the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5866,7 +5865,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of machine learning where the model is trained on labeled data',
         'c' => 'A method for supervised classification',
         'd' => 'A technique for feature selection',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5878,7 +5877,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for normalizing the features',
         'c' => 'A technique for reducing the number of data samples',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5890,7 +5889,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature extraction',
         'd' => 'A model for predicting continuous values',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5902,7 +5901,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Normalizing the features of the dataset',
         'c' => 'Selecting the most important features for the model',
         'd' => 'Combining multiple models for better performance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5914,7 +5913,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for clustering data',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for predicting continuous values',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5926,7 +5925,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The tradeoff between training and validation accuracy',
         'c' => 'The choice between different machine learning algorithms',
         'd' => 'The decision between supervised and unsupervised learning',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5938,7 +5937,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for selecting the best features for the model',
         'c' => 'A technique for increasing the size of the dataset',
         'd' => 'A method for scaling the features of the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5950,7 +5949,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature selection',
         'c' => 'A method for dimensionality reduction',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5962,7 +5961,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Selecting the best features for the model',
         'c' => 'Normalizing the data features',
         'd' => 'Increasing the size of the dataset',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5974,7 +5973,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Selecting the most relevant features for the model',
         'c' => 'Reducing the number of features in the dataset',
         'd' => 'Splitting the data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -5986,7 +5985,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increasing the number of features in the dataset',
         'c' => 'Normalizing the data features',
         'd' => 'Combining multiple features into a single feature',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -5997,7 +5996,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Evaluating the performance of regression models',
         'c' => 'Selecting the best hyperparameters for a model',
         'd' => 'Normalizing the features of the data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6009,7 +6008,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A classification algorithm based on decision trees',
         'd' => 'A technique for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6021,7 +6020,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model performs equally well on both training and testing data',
         'c' => 'When a model is too simple to capture the underlying pattern',
         'd' => 'When a model has too few features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6033,7 +6032,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'When a model is too complex and captures noise as well as the signal',
         'c' => 'When a model performs well on unseen data but poorly on training data',
         'd' => 'When a model has too many features',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6045,7 +6044,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for scaling the features of the data',
         'c' => 'A technique for increasing the number of features',
         'd' => 'A method for splitting the data into training and testing sets',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6057,7 +6056,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for clustering data',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6069,7 +6068,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6081,7 +6080,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for splitting data into training and testing sets',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6093,7 +6092,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for clustering data',
         'c' => 'A method for dimensionality reduction',
         'd' => 'A model for regression analysis with continuous outcomes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6105,7 +6104,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6117,7 +6116,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A classification algorithm based on support vector machines',
         'c' => 'A method for dimensionality reduction',
         'd' => 'A technique for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6129,7 +6128,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for dimensionality reduction',
         'c' => 'A method for feature scaling',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6141,7 +6140,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A method for dimensionality reduction',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6153,7 +6152,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for clustering data',
         'c' => 'A method for feature scaling',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6165,7 +6164,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for clustering data',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6177,7 +6176,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6189,7 +6188,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6201,7 +6200,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for clustering data',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6213,7 +6212,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6225,7 +6224,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6237,7 +6236,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for clustering data',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6249,7 +6248,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for clustering data',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -6260,7 +6259,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for dimensionality reduction',
         'c' => 'A method for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6272,7 +6271,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for clustering data',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6284,7 +6283,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A technique for clustering data',
         'd' => 'A model for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6296,7 +6295,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6308,7 +6307,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The ratio of true positive predictions to the sum of true positive and false negative predictions',
         'c' => 'The ratio of true negative predictions to the sum of true negative and false positive predictions',
         'd' => 'The ratio of false positive predictions to the sum of false positive and true negative predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6320,7 +6319,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The ratio of true positive predictions to the sum of true positive and false positive predictions',
         'c' => 'The ratio of true negative predictions to the sum of true negative and false positive predictions',
         'd' => 'The ratio of false negative predictions to the sum of false negative and true positive predictions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6332,7 +6331,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The average of precision and recall',
         'c' => 'The ratio of true positives to the sum of true positives and true negatives',
         'd' => 'The ratio of true positives to the sum of true positives and false positives',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6344,7 +6343,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6356,7 +6355,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for clustering data',
         'c' => 'A technique for dimensionality reduction',
         'd' => 'A model for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6368,7 +6367,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6380,7 +6379,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for dimensionality reduction',
         'c' => 'A method for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6392,7 +6391,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6404,7 +6403,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A technique for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6416,7 +6415,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6428,7 +6427,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for clustering data',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A method for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6440,7 +6439,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6452,7 +6451,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for dimensionality reduction',
         'c' => 'A method for feature scaling',
         'd' => 'A model for clustering data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6464,7 +6463,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for clustering data',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A method for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6476,7 +6475,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6488,7 +6487,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A method for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6500,7 +6499,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A method for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6512,7 +6511,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for regression analysis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -6523,7 +6522,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for dimensionality reduction',
         'c' => 'A model for clustering data',
         'd' => 'A technique for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6535,7 +6534,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6547,7 +6546,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for clustering data',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A method for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6559,7 +6558,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6571,7 +6570,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6583,7 +6582,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6595,7 +6594,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6607,7 +6606,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6619,7 +6618,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for dimensionality reduction',
         'c' => 'A model for clustering data',
         'd' => 'A method for feature scaling',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6631,7 +6630,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6643,7 +6642,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6655,7 +6654,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6667,7 +6666,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6679,7 +6678,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6691,7 +6690,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6703,7 +6702,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6715,7 +6714,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6727,7 +6726,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6739,7 +6738,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6751,7 +6750,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6763,7 +6762,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -6774,7 +6773,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6786,7 +6785,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A technique for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A method for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6798,7 +6797,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for dimensionality reduction',
         'd' => 'A technique for regularization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6810,7 +6809,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for regularization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6822,7 +6821,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for regularization',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6834,7 +6833,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6846,7 +6845,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6858,7 +6857,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6870,7 +6869,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6882,7 +6881,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -6893,7 +6892,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6905,7 +6904,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6917,7 +6916,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6929,7 +6928,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6941,7 +6940,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6953,7 +6952,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6965,7 +6964,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6977,7 +6976,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -6989,7 +6988,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7001,7 +7000,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7013,7 +7012,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7025,7 +7024,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7037,7 +7036,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7049,7 +7048,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7061,7 +7060,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7073,7 +7072,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7085,7 +7084,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7097,7 +7096,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7109,7 +7108,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7121,7 +7120,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7133,7 +7132,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -7144,7 +7143,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7156,7 +7155,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7168,7 +7167,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7180,7 +7179,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7192,7 +7191,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7204,7 +7203,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7216,7 +7215,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7228,7 +7227,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7240,7 +7239,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7252,7 +7251,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7264,7 +7263,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7276,7 +7275,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7288,7 +7287,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7300,7 +7299,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7312,7 +7311,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7324,7 +7323,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7336,7 +7335,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7348,7 +7347,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7360,7 +7359,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7372,7 +7371,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7384,7 +7383,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for feature extraction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7396,7 +7395,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for feature extraction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7408,7 +7407,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for feature extraction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -7419,7 +7418,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7431,7 +7430,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7443,7 +7442,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7455,7 +7454,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7467,7 +7466,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7479,7 +7478,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7491,7 +7490,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7503,7 +7502,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7515,7 +7514,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7527,7 +7526,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7539,7 +7538,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -7550,7 +7549,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7562,7 +7561,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7574,7 +7573,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7586,7 +7585,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7598,7 +7597,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7610,7 +7609,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7622,7 +7621,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7634,7 +7633,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7646,7 +7645,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7658,7 +7657,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7670,7 +7669,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -7681,7 +7680,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7693,7 +7692,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for regression',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7705,7 +7704,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for classification',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7717,7 +7716,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for classification',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7729,7 +7728,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for classification',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7741,7 +7740,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for classification',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7753,7 +7752,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for classification',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7765,7 +7764,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7777,7 +7776,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7789,7 +7788,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7801,7 +7800,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7813,7 +7812,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7825,7 +7824,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7837,7 +7836,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7849,7 +7848,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7861,7 +7860,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7873,7 +7872,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7885,7 +7884,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7897,7 +7896,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7909,7 +7908,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7921,7 +7920,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7933,7 +7932,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7945,7 +7944,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7957,7 +7956,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7969,7 +7968,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7981,7 +7980,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -7993,7 +7992,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8005,7 +8004,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8017,7 +8016,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8029,7 +8028,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8041,7 +8040,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8053,7 +8052,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8065,7 +8064,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8077,7 +8076,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8089,7 +8088,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8101,7 +8100,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8113,7 +8112,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8125,7 +8124,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8137,7 +8136,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8149,7 +8148,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8161,7 +8160,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8173,7 +8172,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8185,7 +8184,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8197,7 +8196,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8209,7 +8208,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8221,7 +8220,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8233,7 +8232,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8245,7 +8244,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8257,7 +8256,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8269,7 +8268,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8281,7 +8280,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8293,7 +8292,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8305,7 +8304,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8317,7 +8316,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method for feature scaling',
         'c' => 'A model for clustering data',
         'd' => 'A technique for dimensionality reduction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8329,7 +8328,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To store data securely',
         'c' => 'To create a backup of data',
         'd' => 'To encrypt data during transmission',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8341,7 +8340,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of securing data',
         'c' => 'A type of encryption algorithm',
         'd' => 'A network monitoring tool',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8353,7 +8352,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A secure way to transfer files',
         'd' => 'A technique for data compression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8365,7 +8364,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A secure communication protocol',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8377,7 +8376,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A way to encrypt data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8389,7 +8388,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To create data backups',
         'c' => 'To compress data',
         'd' => 'To monitor network traffic',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8401,7 +8400,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data compression',
         'd' => 'A way to backup data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8413,7 +8412,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware',
         'c' => 'A method of data compression',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8425,7 +8424,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A secure way to transfer files',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8437,7 +8436,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A secure communication protocol',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -8448,7 +8447,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A secure way to transfer files',
         'd' => 'A type of malware',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8460,7 +8459,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8472,7 +8471,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'High Transfer Protocol Secure',
         'c' => 'HyperText Transmission Protocol Secure',
         'd' => 'High Transfer Transmission Protocol Secure',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8484,7 +8483,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A secure way to transfer files',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8496,7 +8495,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A way to backup data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8508,7 +8507,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A way to backup data',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8520,7 +8519,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8532,7 +8531,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8544,7 +8543,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8557,7 +8556,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Malware that encrypts the victim’s data and demands payment for the decryption key',
         'c' => 'A method of data encryption',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8569,7 +8568,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A secure communication protocol',
         'd' => 'A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8581,7 +8580,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data encryption',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8593,7 +8592,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The practice of using a software tool to monitor and capture data being transmitted over a network',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8605,7 +8604,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A data storage system',
         'd' => 'A service that allows you to connect to the internet via a server run by a VPN provider',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8617,7 +8616,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8629,7 +8628,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware',
         'c' => 'A network protocol',
         'd' => 'A data storage system',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8642,7 +8641,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -8653,7 +8652,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data compression',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8665,7 +8664,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data compression',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8677,7 +8676,7 @@ class QuestionSeeders4 extends Seeder
         'b' =>  'Virtual Private Network' ,
         'c' => 'Verified Private Network',
         'd' => 'Virtual Public Network',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8689,7 +8688,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8701,7 +8700,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' =>  'A type of phishing attack that targets high-profile employees such as the CEO or CFO',
         'd' => 'A backup software',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8713,7 +8712,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'An incident where information is stolen or taken from a system without the knowledge or authorization of the system\'s owner',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8725,7 +8724,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8737,7 +8736,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A security risk that originates from within the targeted organization', 
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],  [
@@ -8748,7 +8747,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'An incident where information is stolen or taken from a system without the knowledge or authorization of the system\’s owner',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8760,7 +8759,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware',
         'c' => 'A network protocol',
         'd' => 'A set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8772,7 +8771,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A method of data compression',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8784,7 +8783,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A method of confirming a user\’s claimed identity by utilizing a combination of two different components', 
         'd' => 'A type of firewall',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8796,7 +8795,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware',
         'c' => 'A network protocol',
         'd' =>  'A security protocol designed to create secure wireless (Wi-Fi) networks' ,
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8808,7 +8807,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware',
         'c' => 'A network protocol',
         'd' =>  'The practice and study of techniques for secure communication in the presence of third parties',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8820,7 +8819,7 @@ class QuestionSeeders4 extends Seeder
         'b' =>  'The use of online advertising to spread malware',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8832,7 +8831,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A method of data compression',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8844,7 +8843,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of malware' ,
         'c' =>  'A system intended to attract and trap attackers',
         'd' => 'A data storage system',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8856,7 +8855,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A security vulnerability that allows an attacker to inject malicious scripts into content from otherwise trusted websites',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -8867,7 +8866,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'def myFunction() {}',
         'c' => 'myFunction() => {}',
         'd' => 'function: myFunction() {}',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8879,7 +8878,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To create a new module',
         'c' => 'To export functions from a module',
         'd' => 'To declare a variable',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8891,7 +8890,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'DELETE',
         'c' => 'DROP',
         'd' => 'ERASE',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8903,7 +8902,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'map()',
         'c' => 'reduce()',
         'd' => 'forEach()',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8915,7 +8914,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'catch',
         'c' => 'throw',
         'd' => 'All of the above',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8927,7 +8926,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'return',
         'c' => 'def',
         'd' => 'generator',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8939,7 +8938,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'JSON.parse()',
         'c' => 'JSON.convert()',
         'd' => 'JSON.toObject()',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8951,7 +8950,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'It refers to the instance of the class',
         'c' => 'It refers to the parent class',
         'd' => 'It refers to a global variable',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8963,7 +8962,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'String',
         'c' => 'Character',
         'd' => 'Boolean',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8975,7 +8974,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'text-color',
         'c' => 'font-color',
         'd' => 'text-style',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8987,7 +8986,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of firewall',
         'd' => 'A type of encryption',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -8999,7 +8998,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A security process in which the user provides two different authentication factors to verify themselves',
         'c' => 'A method of data encryption',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9011,7 +9010,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A network security protocol',
         'c' => 'The use of deception to manipulate individuals into divulging confidential or personal information that may be used for fraudulent purposes',
         'd' => 'A method of data compression',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9023,7 +9022,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data encryption',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9035,7 +9034,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data encryption',
         'c' => 'A type of firewall',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9047,7 +9046,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A data storage system',
         'c' => 'A set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption',
         'd' => 'A type of malware',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9059,7 +9058,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'An incident where information is stolen or taken from a system without the knowledge or authorization of the system’s owner',
         'd' => 'A type of encryption',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9071,7 +9070,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A secure communication protocol',
         'c' => 'A network security protocol',
         'd' => 'A service that allows you to connect to the internet via a server run by a VPN provider',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9083,7 +9082,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A secure communication protocol',
         'd' => 'An attempt to make an online service unavailable by overwhelming it with traffic from multiple sources',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9095,7 +9094,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A secure communication protocol',
         'd' => 'The process of converting information or data into a code to prevent unauthorized access',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9109,7 +9108,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A security vulnerability that is exploited before the vendor is aware and has a chance to address it',
         'c' => 'A method of data encryption',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9121,7 +9120,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of authentication that requires more than one form of verification',
         'c' => 'A type of malware',
         'd' => 'A method of data encryption',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9133,7 +9132,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A security vulnerability that allows an attacker to interfere with the queries that an application makes to its database',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9145,7 +9144,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A type of attack where an attacker attempts to gain access to a system by trying many passwords or passphrases in a short period',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9157,7 +9156,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'The practice of hacking with permission to find and fix vulnerabilities before malicious hackers can exploit them',
         'c' => 'A type of malware',
         'd' => 'A network security protocol',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],  
@@ -9169,7 +9168,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of firewall',
         'c' => 'A method of data compression',
         'd' => 'A network security protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9181,7 +9180,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A secure communication protocol',
         'd' => 'A type of firewall',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9193,7 +9192,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of malware',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9205,7 +9204,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A type of encryption',
         'c' => 'A network security protocol',
         'd' => 'A method of data compression',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9217,7 +9216,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'A method of data compression',
         'c' => 'A type of malware',
         'd' => 'A secure communication protocol',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9229,7 +9228,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'bgcolor',
         'c' => 'background-color',
         'd' => 'background',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9241,7 +9240,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'UNIQUE',
         'c' => 'DIFFERENT',
         'd' => 'SELECT',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9253,7 +9252,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'concat()',
         'c' => 'combine()',
         'd' => 'append()',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9265,7 +9264,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'while',
         'c' => 'do-while',
         'd' => 'foreach',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9277,7 +9276,7 @@ class QuestionSeeders4 extends Seeder
         'b' => '3.0',
         'c' => '2.5',
         'd' => '2.0',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9289,7 +9288,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Creates an object',
         'c' => 'Inherits a class',
         'd' => 'Imports a package',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9301,7 +9300,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'float',
         'c' => 'String',
         'd' => 'boolean',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9313,7 +9312,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To call the parent class constructor',
         'c' => 'To define an interface',
         'd' => 'To override a method',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9325,7 +9324,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'size()',
         'c' => 'count()',
         'd' => 'length',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9337,7 +9336,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Hello World',
         'c' => 'Hello+World',
         'd' => 'HelloWorld',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ]
@@ -9350,7 +9349,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'bgcolor',
         'c' => 'background-color',
         'd' => 'background',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9362,7 +9361,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'UNIQUE',
         'c' => 'DIFFERENT',
         'd' => 'SELECT',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9374,7 +9373,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'concat()',
         'c' => 'combine()',
         'd' => 'append()',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9386,7 +9385,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'while',
         'c' => 'do-while',
         'd' => 'foreach',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9398,7 +9397,7 @@ class QuestionSeeders4 extends Seeder
         'b' => '3.0',
         'c' => '2.5',
         'd' => '2.0',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9410,7 +9409,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Creates an object',
         'c' => 'Inherits a class',
         'd' => 'Imports a package',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9422,7 +9421,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'float',
         'c' => 'String',
         'd' => 'boolean',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9434,7 +9433,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To call the parent class constructor',
         'c' => 'To define an interface',
         'd' => 'To override a method',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9446,7 +9445,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'size()',
         'c' => 'count()',
         'd' => 'length',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9458,7 +9457,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Hello World',
         'c' => 'Hello+World',
         'd' => 'HelloWorld',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],[
@@ -9469,7 +9468,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Raft foundation',
         'c' => 'Pile foundation',
         'd' => 'Pad foundation',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9481,7 +9480,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To manage runoff and prevent flooding',
         'c' => 'To irrigate agricultural fields',
         'd' => 'To provide drinking water',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9493,7 +9492,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increased tensile strength',
         'c' => 'Improved aesthetic appeal',
         'd' => 'Ease of construction',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9505,7 +9504,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To remove solid particles',
         'c' => 'To neutralize pH levels',
         'd' => 'To add chemicals for disinfection',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9517,7 +9516,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Ultrasonic testing',
         'c' => 'Chemical analysis',
         'd' => 'Compression test',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9529,7 +9528,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To store and control water flow',
         'c' => 'To create roadways',
         'd' => 'To provide a passage for vehicles',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9541,7 +9540,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'World Reference Base for Soil Resources (WRB)',
         'c' => 'Soil Taxonomy',
         'd' => 'Soil Conservation Service (SCS)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9553,7 +9552,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To prevent soil erosion',
         'c' => 'To resist the horizontal pressure of water',
         'd' => 'To create roadways',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9565,7 +9564,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Steel',
         'c' => 'Wood',
         'd' => 'Asphalt',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9577,7 +9576,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To control and measure water flow',
         'c' => 'To provide habitat for fish',
         'd' => 'To prevent flooding',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -9588,7 +9587,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To remove large particles from water',
         'c' => 'To disinfect water',
         'd' => 'To balance pH levels',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9600,7 +9599,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Dynamic load',
         'c' => 'Live load',
         'd' => 'Dead load',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9612,7 +9611,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'High strength-to-weight ratio',
         'c' => 'Ease of maintenance',
         'd' => 'Resistance to fire',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9624,7 +9623,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To resist the lateral pressure of soil',
         'c' => 'To support vertical loads',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9636,7 +9635,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To create a dry work area',
         'c' => 'To support excavation activities',
         'd' => 'To stabilize soil',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9648,7 +9647,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Low compressive strength',
         'c' => 'High durability',
         'd' => 'Low cost',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9660,7 +9659,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increased construction speed',
         'c' => 'Lower durability',
         'd' => 'Reduced strength',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9672,7 +9671,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To allow for thermal movement',
         'c' => 'To increase structural strength',
         'd' => 'To support additional loads',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9684,7 +9683,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To measure soil moisture content',
         'c' => 'To assess soil density and strength',
         'd' => 'To evaluate soil pH levels',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9696,7 +9695,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Theodolite',
         'c' => 'Tachometer',
         'd' => 'Compass',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9708,7 +9707,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To prevent soil erosion',
         'c' => 'To provide a foundation for bridge piers',
         'd' => 'To connect the bridge to the approach embankment',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9720,7 +9719,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Slump test',
         'c' => 'Compression test',
         'd' => 'Flexural test',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9732,7 +9731,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide a drainage system',
         'c' => 'To prevent soil erosion',
         'd' => 'To create a foundation',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9744,7 +9743,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Aggregate',
         'c' => 'Steel fibers',
         'd' => 'Lime',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9756,7 +9755,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To distribute loads from the superstructure to the piles',
         'c' => 'To provide lateral support',
         'd' => 'To prevent water infiltration',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9768,7 +9767,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Reinforced concrete',
         'c' => 'Lightweight concrete',
         'd' => 'Heat-resistant concrete',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9780,7 +9779,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reinforce the concrete',
         'c' => 'To transfer loads across joints',
         'd' => 'To support vertical loads',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9792,7 +9791,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To act as a retaining wall',
         'c' => 'To provide thermal insulation',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9804,7 +9803,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Nuclear density gauge',
         'c' => 'Compression test',
         'd' => 'Flexural test',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9816,7 +9815,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To create a dry work environment underwater',
         'c' => 'To resist tensile forces',
         'd' => 'To prevent soil erosion',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9828,7 +9827,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To act as a waterproof barrier',
         'c' => 'To stabilize soil and prevent erosion',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9840,7 +9839,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Raft foundation',
         'c' => 'Pad foundation',
         'd' => 'Pile foundation',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9852,7 +9851,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Increased tensile strength',
         'c' => 'Ease of maintenance',
         'd' => 'Better thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9864,7 +9863,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral support and stability',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9876,7 +9875,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'PVC',
         'c' => 'Wood',
         'd' => 'Glass',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9888,7 +9887,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To allow water to flow under a road or railway',
         'c' => 'To provide thermal insulation',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9900,7 +9899,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To absorb and dissipate wave energy',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To support vertical loads',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9912,7 +9911,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral stability to a structure',
         'c' => 'To improve aesthetic design',
         'd' => 'To reduce sound transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9924,7 +9923,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Slump test',
         'c' => 'Flexural test',
         'd' => 'Tensile test',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9936,7 +9935,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To measure and control water flow',
         'c' => 'To stabilize soil',
         'd' => 'To reduce thermal conductivity',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -9947,7 +9946,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral stability',
         'c' => 'To prevent water ingress',
         'd' => 'To protect the edge of the roof and prevent falls',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9959,7 +9958,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Boundary survey',
         'c' => 'Construction survey',
         'd' => 'Hydrographic survey',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9971,7 +9970,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To prevent soil erosion and retain soil at different levels',
         'c' => 'To enhance aesthetic appeal',
         'd' => 'To provide thermal insulation',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9983,7 +9982,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'PVC',
         'c' => 'Steel',
         'd' => 'Concrete',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -9995,7 +9994,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide a visual guide',
         'c' => 'To restrict or direct vehicle traffic',
         'd' => 'To enhance aesthetic appeal',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10007,7 +10006,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'High fluidity and ability to flow under its own weight',
         'c' => 'Low thermal conductivity',
         'd' => 'High resistance to fire',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10019,7 +10018,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To support loads that are distributed along its length',
         'c' => 'To enhance the aesthetic appeal of a structure',
         'd' => 'To measure and control water flow',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10031,7 +10030,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Cut and cover method',
         'c' => 'Slurry wall method',
         'd' => 'Open trench method',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10043,7 +10042,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To distribute lateral loads',
         'c' => 'To enhance thermal insulation',
         'd' => 'To reduce noise transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10055,7 +10054,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral stability',
         'c' => 'To ensure water drainage from the road surface',
         'd' => 'To enhance aesthetic appeal',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10067,7 +10066,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral resistance to wind and seismic forces',
         'c' => 'To enhance thermal insulation',
         'd' => 'To reduce sound transmission',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10079,7 +10078,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To measure horizontal and vertical angles',
         'c' => 'To measure soil density',
         'd' => 'To measure water flow',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10091,7 +10090,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Rapid Hardening Cement',
         'c' => 'Sulphate Resisting Cement',
         'd' => 'Low Heat Cement',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10103,7 +10102,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide thermal insulation',
         'c' => 'To create a dry work environment in waterlogged areas',
         'd' => 'To reduce sound transmission',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10115,7 +10114,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Higher tensile strength',
         'c' => 'Better aesthetic appeal',
         'd' => 'Higher thermal conductivity',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10127,7 +10126,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Arch bridge',
         'c' => 'Suspension bridge',
         'd' => 'Truss bridge',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10139,7 +10138,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To reduce thermal conductivity',
         'c' => 'To control soil erosion and stabilize slopes',
         'd' => 'To enhance sound insulation',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10151,7 +10150,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide lateral stability',
         'c' => 'To create a dry work environment under water',
         'd' => 'To enhance aesthetic appeal',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10163,7 +10162,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'Clayey soil',
         'c' => 'Gravelly soil',
         'd' => 'Silty soil',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -10175,7 +10174,7 @@ class QuestionSeeders4 extends Seeder
         'b' => 'To provide thermal insulation',
         'c' => 'To prevent groundwater seepage and soil collapse',
         'd' => 'To reduce noise pollution',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],

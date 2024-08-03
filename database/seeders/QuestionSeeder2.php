@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 class QuestionSeeder2 extends Seeder
 {
@@ -22,7 +21,7 @@ $questions = [
         'b' => 'The study of carbon-containing compounds and their properties',
         'c' => 'The study of nuclear reactions',
         'd' => 'The study of electrical circuits',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -34,7 +33,7 @@ $questions = [
         'b' => 'Compounds containing only hydrogen and carbon atoms',
         'c' => 'Compounds containing only carbon and nitrogen atoms',
         'd' => 'Compounds containing only carbon and sulfur atoms',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -46,7 +45,7 @@ $questions = [
         'b' => 'A type of organic compound with triple bonds between carbon atoms',
         'c' => 'A type of organic compound with only single bonds between carbon atoms',
         'd' => 'A type of organic compound with alternating double and single bonds between carbon atoms',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -58,7 +57,7 @@ $questions = [
         'b' => 'Groups of atoms that do not participate in chemical reactions',
         'c' => 'Groups of atoms found only in inorganic compounds',
         'd' => 'Groups of atoms that are stable under all conditions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -70,7 +69,7 @@ $questions = [
         'b' => 'A type of organic compound with a ring structure containing carbon and nitrogen atoms',
         'c' => 'A type of organic compound with a ring structure containing carbon and hydrogen atoms',
         'd' => 'A type of organic compound with a ring structure containing carbon and sulfur atoms',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -82,7 +81,7 @@ $questions = [
         'b' => 'A large molecule composed of repeating units called monomers',
         'c' => 'A small molecule composed of a single type of atom',
         'd' => 'A large molecule composed of a single type of atom',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -94,7 +93,7 @@ $questions = [
         'b' => 'The property of a molecule that is not superimposable on its mirror image',
         'c' => 'The property of a molecule that contains only one type of atom',
         'd' => 'The property of a molecule that is stable under all conditions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -106,7 +105,7 @@ $questions = [
         'b' => 'An atom or molecule that accepts electrons to form a new covalent bond',
         'c' => 'An atom or molecule that does not participate in chemical reactions',
         'd' => 'An atom or molecule that is stable under all conditions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -118,7 +117,7 @@ $questions = [
         'b' => 'A substance that speeds up a chemical reaction without being consumed in the process',
         'c' => 'A substance that stops a chemical reaction',
         'd' => 'A substance that changes color in the presence of a chemical reaction',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -130,7 +129,7 @@ $questions = [
         'b' => 'A bond formed by the sharing of electrons between atoms',
         'c' => 'A bond formed by the attraction between positive and negative ions',
         'd' => 'A bond formed by the attraction between metal atoms',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -142,7 +141,7 @@ $questions = [
         'b' => 'The study of how reactions proceed at the molecular level',
         'c' => 'The study of electrical circuits',
         'd' => 'The study of human biology and genetics',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -154,7 +153,7 @@ $questions = [
         'b' => 'The property of a molecule that is not superimposable on its mirror image',
         'c' => 'The property of a molecule that exists in multiple forms due to the delocalization of electrons',
         'd' => 'The property of a molecule that is stable under all conditions',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -166,7 +165,7 @@ $questions = [
         'b' => 'A substance that speeds up a chemical reaction without being consumed in the process',
         'c' => 'A substance that is formed and consumed during the course of a reaction',
         'd' => 'A substance that stops a chemical reaction',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -178,7 +177,7 @@ $questions = [
         'b' => 'Compounds with different molecular formulas but the same structure',
         'c' => 'Compounds with the same molecular formula and the same structure',
         'd' => 'Compounds with the same molecular formula and different structures',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -190,7 +189,7 @@ $questions = [
         'b' => 'A compound containing only carbon and nitrogen atoms',
         'c' => 'A compound containing carbon atoms arranged in a ring structure that includes atoms of at least one other element',
         'd' => 'A compound containing only carbon and oxygen atoms',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -202,7 +201,7 @@ $questions = [
         'b' => 'A model that describes the behavior of electrons in an atom as particles',
         'c' => 'A model that describes the behavior of protons and neutrons in an atom',
         'd' => 'A model that describes the behavior of electrons in an atom as standing waves',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -214,7 +213,7 @@ $questions = [
         'b' => 'A group of atoms that do not participate in chemical reactions',
         'c' => 'A group of atoms found only in inorganic compounds',
         'd' => 'A group of atoms that are stable under all conditions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -226,7 +225,7 @@ $questions = [
         'b' => 'A system of atoms connected by single bonds',
         'c' => 'A system of atoms connected by ionic bonds',
         'd' => 'A system of atoms connected by covalent bonds',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -238,7 +237,7 @@ $questions = [
         'b' => 'A reaction in which a nucleophile replaces an electrophile in a molecule',
         'c' => 'A reaction in which a molecule undergoes substitution without any electrophilic or nucleophilic attack',
         'd' => 'A reaction in which a molecule undergoes substitution with both electrophilic and nucleophilic attacks',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -250,7 +249,7 @@ $questions = [
         'b' => 'A reaction that involves the formation of a linear compound from a diene and a dienophile',
         'c' => 'A reaction that involves the cleavage of a cyclic compound into a diene and a dienophile',
         'd' => 'A reaction that involves the formation of a cyclic compound from a diene and a monophile',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -262,7 +261,7 @@ $questions = [
         'b' => 'A group of atoms that enhances the reactivity of a molecule',
         'c' => 'A group of atoms that stabilizes a molecule',
         'd' => 'A group of atoms that modifies the physical properties of a molecule',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -274,7 +273,7 @@ $questions = [
         'b' => 'A negatively charged carbon atom',
         'c' => 'A neutral carbon atom',
         'd' => 'A carbon atom with a lone pair of electrons',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -286,7 +285,7 @@ $questions = [
         'b' => 'The study of non-carbon-containing compounds and their properties',
         'c' => 'The study of electrical circuits and components',
         'd' => 'The study of human biology and genetics',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -298,7 +297,7 @@ $questions = [
         'b' => 'Compounds that contain a central metal ion bonded to one or more molecules or ions',
         'c' => 'Compounds that contain only carbon and oxygen atoms',
         'd' => 'Compounds that contain only carbon and nitrogen atoms',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -310,7 +309,7 @@ $questions = [
         'b' => 'Metals that have properties intermediate between those of metals and nonmetals',
         'c' => 'Metals that form compounds with other elements through coordination bonds',
         'd' => 'Metals that react readily with water',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -322,7 +321,7 @@ $questions = [
         'b' => 'A substance that speeds up a chemical reaction without being consumed in the process',
         'c' => 'A substance that forms a complex with a metal ion by donating electron pairs',
         'd' => 'A substance that stops a chemical reaction',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -334,7 +333,7 @@ $questions = [
         'b' => 'Elements that have properties similar to those of halogens',
         'c' => 'Elements that have properties similar to those of noble gases',
         'd' => 'Elements that have properties similar to those of alkali metals',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -346,7 +345,7 @@ $questions = [
         'b' => 'An ion formed by the combination of a metal ion and one or more ligands',
         'c' => 'An ion formed by the combination of a metal ion and one or more nonmetal ions',
         'd' => 'An ion formed by the combination of a metal ion and one or more halogen ions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -358,7 +357,7 @@ $questions = [
         'b' => 'Groups of nonmetals with similar properties',
         'c' => 'Groups of elements with similar properties',
         'd' => 'Groups of metalloids with similar properties',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -370,7 +369,7 @@ $questions = [
         'b' => 'A reaction that involves the formation of a complex ion',
         'c' => 'A reaction that involves the combination of a metal ion and one or more ligands',
         'd' => 'A reaction that involves the combination of a metal ion and one or more nonmetal ions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -382,7 +381,7 @@ $questions = [
         'b' => 'A reaction that involves the formation of a complex ion',
         'c' => 'A reaction that involves the combination of a metal ion and one or more ligands',
         'd' => 'A reaction that involves the combination of a metal ion and one or more nonmetal ions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -394,7 +393,7 @@ $questions = [
         'b' => 'Forces between molecules',
         'c' => 'Forces between ions',
         'd' => 'Forces between protons and neutrons',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -406,7 +405,7 @@ $questions = [
         'b' => 'A random arrangement of atoms, ions, or molecules in a three-dimensional structure',
         'c' => 'A regular arrangement of atoms, ions, or molecules in a two-dimensional structure',
         'd' => 'A regular arrangement of atoms, ions, or molecules in a one-dimensional structure',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -418,7 +417,7 @@ $questions = [
         'b' => 'A reaction that occurs in an indefinite ratio of reactants to products',
         'c' => 'A reaction that occurs without any change in the number of atoms or molecules involved',
         'd' => 'A reaction that occurs with a change in the number of atoms or molecules involved',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -430,7 +429,7 @@ $questions = [
         'b' => 'A titration that involves the formation of a complex ion',
         'c' => 'A titration that involves the combination of a metal ion and one or more ligands',
         'd' => 'A titration that involves the combination of a metal ion and one or more nonmetal ions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -442,7 +441,7 @@ $questions = [
         'b' => 'A theory that describes the behavior of protons and neutrons in an atom',
         'c' => 'A theory that describes the behavior of ions in a crystal lattice',
         'd' => 'A theory that describes the behavior of atoms in a crystal lattice',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at'=> now(),
     ],
@@ -454,7 +453,7 @@ $questions = [
         'b' => 'A substance that forms a complex with a metal ion by donating multiple electron pairs',
         'c' => 'A substance that forms a complex with a metal ion by donating a single electron pair',
         'd' => 'A substance that slows down a chemical reaction',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
             ],
@@ -466,7 +465,7 @@ $questions = [
         'b' => 'An orbital that describes the behavior of electrons in a crystal lattice',
         'c' => 'An orbital that describes the behavior of protons and neutrons in an atom',
         'd' => 'An orbital that describes the behavior of ions in a crystal lattice',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -478,7 +477,7 @@ $questions = [
         'b' => 'The number of ligands bonded to a central metal ion in a coordination compound',
         'c' => 'The number of electrons transferred between atoms in a redox reaction',
         'd' => 'The number of protons and neutrons in the nucleus of an atom',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -490,7 +489,7 @@ $questions = [
         'b' => 'Compounds that contain a central metal ion bonded to one or more molecules or ions',
         'c' => 'Compounds that contain only carbon and hydrogen atoms',
         'd' => 'Compounds that contain only carbon and nitrogen atoms',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -502,7 +501,7 @@ $questions = [
         'b' => 'A compound formed by the reaction between a metal ion and one or more ligands',
         'c' => 'A compound formed by the reaction between a metal ion and one or more nonmetal ions',
         'd' => 'A compound formed by the reaction between a metal ion and one or more halogen ions',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -514,7 +513,7 @@ $questions = [
         'b' => 'A compound that contains only one element',
         'c' => 'A compound that contains more than two elements',
         'd' => 'A compound that contains only nonmetals',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -526,7 +525,7 @@ $questions = [
         'b' => 'A substance that consists of two or more types of atoms',
         'c' => 'A substance that can exist in multiple forms with different molecular structures',
         'd' => 'A substance that can only exist in one form with a fixed molecular structure',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -538,7 +537,7 @@ $questions = [
         'b' => 'A substance that forms a complex with a metal ion by donating electron pairs',
         'c' => 'A substance that slows down a chemical reaction',
         'd' => 'A substance that enhances the reactivity of a molecule',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -550,7 +549,7 @@ $questions = [
         'b' => 'A bond formed by the sharing of electrons between atoms',
         'c' => 'A bond formed by the attraction between positively charged ions',
         'd' => 'A bond formed by the attraction between negatively charged ions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
         ],
@@ -562,7 +561,7 @@ $questions = [
         'b' => 'Groups of nonmetals with similar properties',
         'c' => 'Groups of elements with similar properties',
         'd' => 'Groups of metalloids with similar properties',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
         ], [
@@ -573,7 +572,7 @@ $questions = [
         'b' => 'The study of the physical properties and changes of chemical substances',
         'c' => 'The study of the properties and reactions of organic compounds',
         'd' => 'The study of the chemical processes in living organisms',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -585,7 +584,7 @@ $questions = [
         'b' => 'The study of energy changes and the laws governing them',
         'c' => 'The study of the structure of molecules',
         'd' => 'The study of the movement of particles in a solution',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -597,7 +596,7 @@ $questions = [
         'b' => 'The entropy of a system approaches a constant value as the temperature approaches absolute zero',
         'c' => 'For a spontaneous process, the free energy of the system decreases',
         'd' => 'The rate of a chemical reaction is proportional to the concentration of reactants',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -609,7 +608,7 @@ $questions = [
         'b' => 'A property that depends only on the current state of the system',
         'c' => 'A property that depends on the initial and final states of the system',
         'd' => 'A property that changes with time',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -621,7 +620,7 @@ $questions = [
         'b' => 'A measure of the disorder or randomness of a system',
         'c' => 'A measure of the heat content of a system',
         'd' => 'A measure of the volume of a system',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -633,7 +632,7 @@ $questions = [
         'b' => 'The total energy of a system',
         'c' => 'The energy available to do work at constant temperature and pressure',
         'd' => 'The energy released in a chemical reaction',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -645,7 +644,7 @@ $questions = [
         'b' => 'A reaction that absorbs heat',
         'c' => 'A reaction that occurs without any change in temperature',
         'd' => 'A reaction that occurs without any change in pressure',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -657,7 +656,7 @@ $questions = [
         'b' => 'Heat is a measure of the total energy of particles, while temperature is a measure of the average kinetic energy of particles',
         'c' => 'Heat is a measure of the potential energy of particles, while temperature is a measure of the kinetic energy of particles',
         'd' => 'Heat is a measure of the kinetic energy of particles, while temperature is a measure of the potential energy of particles',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -669,7 +668,7 @@ $questions = [
         'b' => 'A state where the rates of the forward and reverse reactions are equal',
         'c' => 'A state where the concentrations of reactants and products change continuously',
         'd' => 'A state where the rate of the forward reaction is greater than the rate of the reverse reaction',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -681,7 +680,7 @@ $questions = [
         'b' => 'A substance that speeds up a chemical reaction without being consumed',
         'c' => 'A substance that reacts with the products of a chemical reaction',
         'd' => 'A substance that reacts with the reactants of a chemical reaction',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -693,7 +692,7 @@ $questions = [
         'b' => 'An equation that describes the relationship between pressure and volume of a gas',
         'c' => 'An equation that describes the relationship between energy and wavelength of light',
         'd' => 'An equation that describes the rate of diffusion of particles',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -705,7 +704,7 @@ $questions = [
         'b' => 'A constant that relates the pressure of a gas to its volume',
         'c' => 'A constant that relates the wavelength of light to its energy',
         'd' => 'A constant that relates the diffusion rate of particles to their concentration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -717,7 +716,7 @@ $questions = [
         'b' => 'A unit of volume used to measure the amount of a substance',
         'c' => 'A unit of quantity used to measure the amount of a substance',
         'd' => 'A unit of energy used to measure the amount of a substance',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -729,7 +728,7 @@ $questions = [
         'b' => 'E = mc^2',
         'c' => 'F = ma',
         'd' => 'V = IR',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -741,7 +740,7 @@ $questions = [
         'b' => 'The movement of particles from a region of higher concentration to a region of lower concentration',
         'c' => 'The movement of particles from a region of lower temperature to a region of higher temperature',
         'd' => 'The movement of particles from a region of higher temperature to a region of lower temperature',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -753,7 +752,7 @@ $questions = [
         'b' => 'The movement of solute molecules through a selectively permeable membrane',
         'c' => 'The movement of particles through a semipermeable membrane from a region of lower concentration to a region of higher concentration',
         'd' => 'The movement of particles through a semipermeable membrane from a region of higher concentration to a region of lower concentration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -765,7 +764,7 @@ $questions = [
         'b' => 'A solute is a substance that is dissolved, while a solvent is a substance that does the dissolving',
         'c' => 'A solute is a substance that changes its state during dissolution, while a solvent does not',
         'd' => 'A solvent is a substance that changes its state during dissolution, while a solute does not',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -777,7 +776,7 @@ $questions = [
         'b' => 'A diagram that shows the rate of a chemical reaction as a function of temperature',
         'c' => 'A diagram that shows the relationship between pressure and volume of a gas',
         'd' => 'A diagram that shows the energy changes during a chemical reaction',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -789,7 +788,7 @@ $questions = [
         'b' => 'The entropy of a system approaches a constant value as the temperature approaches absolute zero',
         'c' => 'Energy cannot be created or destroyed, only transformed',
         'd' => 'The rate of a chemical reaction is proportional to the concentration of reactants',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -801,7 +800,7 @@ $questions = [
         'b' => 'A measure of the effect of temperature on the rate of a chemical reaction',
         'c' => 'A measure of the effect of pressure on the volume of a gas',
         'd' => 'A measure of the effect of concentration on the equilibrium constant',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ], [
@@ -812,7 +811,7 @@ $questions = [
         'b' => 'The study of the composition of substances',
         'c' => 'The study of the properties and changes of matter',
         'd' => 'The study of energy changes in chemical reactions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -824,7 +823,7 @@ $questions = [
         'b' => 'Identifying the components of a substance',
         'c' => 'Measuring the energy changes in chemical reactions',
         'd' => 'Studying the physical properties of substances',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -836,7 +835,7 @@ $questions = [
         'b' => 'Identifying the components of a substance',
         'c' => 'Measuring the physical properties of substances',
         'd' => 'Studying the energy changes in chemical reactions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -848,7 +847,7 @@ $questions = [
         'b' => 'A technique for measuring the energy changes in chemical reactions',
         'c' => 'A technique for identifying the components of a substance',
         'd' => 'A technique for determining the amount of a specific substance in a sample',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -860,7 +859,7 @@ $questions = [
         'b' => 'A technique for measuring the interaction of light with matter',
         'c' => 'A technique for identifying the components of a substance',
         'd' => 'A technique for separating components of a mixture',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -872,7 +871,7 @@ $questions = [
         'b' => 'A technique for measuring the mass-to-charge ratio of ions',
         'c' => 'A technique for separating components of a mixture',
         'd' => 'A technique for determining the amount of a specific substance in a sample',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -884,7 +883,7 @@ $questions = [
         'b' => 'A technique for separating components of a mixture',
         'c' => 'A technique for identifying the components of a substance',
         'd' => 'A technique for measuring the energy changes in chemical reactions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -896,7 +895,7 @@ $questions = [
         'b' => 'A solution used to calibrate instruments',
         'c' => 'A solution with a known concentration',
         'd' => 'A solution used in qualitative analysis',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -908,7 +907,7 @@ $questions = [
         'b' => 'A graph used to identify the components of a substance',
         'c' => 'A graph used to measure the energy changes in chemical reactions',
         'd' => 'A graph used to separate components of a mixture',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -920,7 +919,7 @@ $questions = [
         'b' => 'A technique for measuring the concentration of a solution',
         'c' => 'A technique for identifying the components of a substance',
         'd' => 'A technique for separating components of a mixture',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -932,7 +931,7 @@ $questions = [
         'b' => 'Measurement of the emission of light by a substance',
         'c' => 'Measurement of the scattering of light by a substance',
         'd' => 'Measurement of the reflection of light by a substance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -944,7 +943,7 @@ $questions = [
         'b' => 'The phase that remains stationary, allowing separation of components',
         'c' => 'The phase that measures the energy changes in chemical reactions',
         'd' => 'The phase that identifies the components of a substance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -956,7 +955,7 @@ $questions = [
         'b' => 'Separation of components based on their interaction with a solid stationary phase and a gaseous mobile phase',
         'c' => 'Separation of components based on their size and shape',
         'd' => 'Separation of components based on their interaction with a liquid stationary phase and a gaseous mobile phase',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -968,7 +967,7 @@ $questions = [
         'b' => 'To react with the titrant to form a colored product',
         'c' => 'To indicate the end point of the titration by changing color',
         'd' => 'To measure the concentration of the titrant',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -980,7 +979,7 @@ $questions = [
         'b' => 'To provide a reference point for zero concentration',
         'c' => 'To react with the analyte to form a colored product',
         'd' => 'To indicate the end point of the titration by changing color',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -992,7 +991,7 @@ $questions = [
         'b' => 'The substance used to calibrate the instrument',
         'c' => 'The substance that reacts with the analyte to form a product',
         'd' => 'The substance that indicates the end point of a titration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1004,7 +1003,7 @@ $questions = [
         'b' => 'The medium used to calibrate the instrument',
         'c' => 'The medium that reacts with the analyte to form a product',
         'd' => 'The medium that indicates the end point of a titration',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1016,7 +1015,7 @@ $questions = [
         'b' => 'A measure of the precision of the analytical measurements',
         'c' => 'A measure of the sensitivity of the analytical measurements',
         'd' => 'A measure of the selectivity of the analytical measurements',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1028,7 +1027,7 @@ $questions = [
         'b' => 'A substance used to indicate the end point of a titration',
         'c' => 'A substance used to measure the sensitivity of the analytical method',
         'd' => 'A substance used to identify the components of a substance',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1040,7 +1039,7 @@ $questions = [
         'b' => 'Separation of ions based on their size and shape',
         'c' => 'Separation of ions based on their solubility in a solvent',
         'd' => 'Separation of ions based on their interaction with a liquid stationary phase and a gaseous mobile phase',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],  [
@@ -1051,7 +1050,7 @@ $questions = [
         'b' => 'The study of the composition of substances',
         'c' => 'The study of the properties and changes of matter',
         'd' => 'The study of energy changes in chemical reactions',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1063,7 +1062,7 @@ $questions = [
         'b' => 'Substances that store energy in living organisms',
         'c' => 'Substances that regulate body temperature in living organisms',
         'd' => 'Substances that transport oxygen in living organisms',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1075,7 +1074,7 @@ $questions = [
         'b' => 'The synthesis of complex molecules from simpler ones',
         'c' => 'The sum of all chemical reactions in a living organism',
         'd' => 'The regulation of body temperature in a living organism',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1087,7 +1086,7 @@ $questions = [
         'b' => 'To regulate body temperature in cells',
         'c' => 'To transport oxygen in cells',
         'd' => 'To catalyze chemical reactions in cells',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1099,7 +1098,7 @@ $questions = [
         'b' => 'The regulation of gene expression in cells',
         'c' => 'The replication of DNA in cells',
         'd' => 'The translation of mRNA into proteins',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1111,7 +1110,7 @@ $questions = [
         'b' => 'Macromolecules that store energy in cells',
         'c' => 'Macromolecules that catalyze chemical reactions in cells',
         'd' => 'Macromolecules that regulate body temperature in cells',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1123,7 +1122,7 @@ $questions = [
         'b' => 'Macromolecules that store energy in cells',
         'c' => 'Macromolecules that catalyze chemical reactions in cells',
         'd' => 'Macromolecules that regulate body temperature in cells',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1135,7 +1134,7 @@ $questions = [
         'b' => 'Macromolecules that store energy in cells',
         'c' => 'Macromolecules that catalyze chemical reactions in cells',
         'd' => 'Macromolecules that regulate body temperature in cells',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1147,7 +1146,7 @@ $questions = [
         'b' => 'A molecule that stores energy in cells',
         'c' => 'A molecule that catalyzes chemical reactions in cells',
         'd' => 'A molecule that regulates body temperature in cells',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1159,7 +1158,7 @@ $questions = [
         'b' => 'A molecule that stores energy in cells',
         'c' => 'A molecule that catalyzes chemical reactions in cells',
         'd' => 'A molecule that regulates body temperature in cells',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1171,7 +1170,7 @@ $questions = [
         'b' => 'Amino group, phosphate group, and R group',
         'c' => 'Phosphate group, carboxyl group, and R group',
         'd' => 'Amino group, carboxyl group, and sugar group',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1183,7 +1182,7 @@ $questions = [
         'b' => 'A bond between two nucleotides',
         'c' => 'A bond between two sugars',
         'd' => 'A bond between two lipids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1195,7 +1194,7 @@ $questions = [
         'b' => 'The synthesis of proteins from amino acids',
         'c' => 'The disruption of protein structure due to heat or other factors',
         'd' => 'The regulation of protein activity in cells',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1207,7 +1206,7 @@ $questions = [
         'b' => 'Substances that store energy in living organisms',
         'c' => 'Substances that regulate body temperature in living organisms',
         'd' => 'Substances that transport oxygen in living organisms',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1219,7 +1218,7 @@ $questions = [
         'b' => 'Adenine, deoxyribose sugar, and three phosphate groups',
         'c' => 'Adenine, ribose sugar, and two phosphate groups',
         'd' => 'Adenine, deoxyribose sugar, and two phosphate groups',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1231,7 +1230,7 @@ $questions = [
         'b' => 'The synthesis of glucose from pyruvate',
         'c' => 'The breakdown of pyruvate into glucose',
         'd' => 'The synthesis of pyruvate from glucose',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1243,7 +1242,7 @@ $questions = [
         'b' => 'A series of reactions that produce glucose in the absence of oxygen',
         'c' => 'A series of reactions that produce pyruvate in the presence of oxygen',
         'd' => 'A series of reactions that produce oxygen in the absence of glucose',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1255,7 +1254,7 @@ $questions = [
         'b' => 'The breakdown of pyruvate into glucose',
         'c' => 'The breakdown of glucose into ethanol and carbon dioxide',
         'd' => 'The breakdown of ethanol into glucose and carbon dioxide',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],    [
@@ -1266,7 +1265,7 @@ $questions = [
         'b' => 'Macromolecules that store energy in cells',
         'c' => 'Macromolecules that catalyze chemical reactions in cells',
         'd' => 'Macromolecules that regulate body temperature in cells',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1278,7 +1277,7 @@ $questions = [
         'b' => 'Single strand with ribose sugar and nitrogenous bases',
         'c' => 'Double helix with deoxyribose sugar and nitrogenous bases',
         'd' => 'Single strand with sugar-phosphate backbone and nitrogenous bases',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1290,7 +1289,7 @@ $questions = [
         'b' => 'The synthesis of DNA from RNA',
         'c' => 'The breakdown of RNA into nucleotides',
         'd' => 'The breakdown of DNA into nucleotides',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1302,7 +1301,7 @@ $questions = [
         'b' => 'The synthesis of mRNA from DNA',
         'c' => 'The breakdown of mRNA into nucleotides',
         'd' => 'The breakdown of proteins into amino acids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1314,7 +1313,7 @@ $questions = [
         'b' => 'The replication of DNA in cells',
         'c' => 'The breakdown of RNA into nucleotides',
         'd' => 'The synthesis of proteins from amino acids',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1326,7 +1325,7 @@ $questions = [
         'b' => 'To transport amino acids',
         'c' => 'To act as a messenger between DNA and ribosomes',
         'd' => 'To catalyze chemical reactions',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1338,7 +1337,7 @@ $questions = [
         'b' => 'To produce ATP',
         'c' => 'To synthesize proteins',
         'd' => 'To regulate gene expression',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1350,7 +1349,7 @@ $questions = [
         'b' => 'Double helix with deoxyribose sugar and nitrogenous bases',
         'c' => 'Double helix with sugar-phosphate backbone and nitrogenous bases',
         'd' => 'Single strand with sugar-phosphate backbone and nitrogenous bases',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1362,7 +1361,7 @@ $questions = [
         'b' => 'To transport amino acids',
         'c' => 'To act as a messenger between DNA and ribosomes',
         'd' => 'To catalyze chemical reactions',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1374,7 +1373,7 @@ $questions = [
         'b' => 'To transport amino acids',
         'c' => 'To act as a messenger between DNA and ribosomes',
         'd' => 'To catalyze chemical reactions',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1386,7 +1385,7 @@ $questions = [
         'b' => 'Three-base sequences on tRNA that specify a particular amino acid',
         'c' => 'Three-base sequences on DNA that specify a particular amino acid',
         'd' => 'Three-base sequences on RNA that specify a particular nucleotide',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1398,7 +1397,7 @@ $questions = [
         'b' => 'A set of rules that determines how proteins are synthesized from mRNA',
         'c' => 'A set of rules that determines how amino acids are synthesized from tRNA',
         'd' => 'A set of rules that determines how nucleotides are synthesized from DNA',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1410,7 +1409,7 @@ $questions = [
         'b' => 'To synthesize new strands of RNA',
         'c' => 'To break down DNA into nucleotides',
         'd' => 'To break down RNA into nucleotides',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1422,7 +1421,7 @@ $questions = [
         'b' => 'To synthesize new strands of RNA',
         'c' => 'To break down DNA into nucleotides',
         'd' => 'To break down RNA into nucleotides',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1434,7 +1433,7 @@ $questions = [
         'b' => 'To separate the DNA strands',
         'c' => 'To break down DNA into nucleotides',
         'd' => 'To break down RNA into nucleotides',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1446,7 +1445,7 @@ $questions = [
         'b' => 'To separate the DNA strands',
         'c' => 'To join Okazaki fragments',
         'd' => 'To break down RNA into nucleotides',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1458,7 +1457,7 @@ $questions = [
         'b' => 'A change in the sequence of amino acids in proteins',
         'c' => 'A change in the sequence of mRNA in cells',
         'd' => 'A change in the sequence of tRNA in cells',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1470,7 +1469,7 @@ $questions = [
         'b' => 'Nucleic acids that store genetic information',
         'c' => 'Lipids that regulate body temperature in cells',
         'd' => 'Carbohydrates that produce energy in cells',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1482,7 +1481,7 @@ $questions = [
         'b' => 'A variant form of a protein',
         'c' => 'A variant form of a chromosome',
         'd' => 'A variant form of a cell',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1494,7 +1493,7 @@ $questions = [
         'b' => 'DNA contains deoxyribose sugar, RNA contains ribose sugar',
         'c' => 'DNA contains thymine, RNA contains uracil',
         'd' => 'All of the above',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],

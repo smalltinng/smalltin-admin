@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
 class QuestionSeeder18 extends Seeder
 {
@@ -20,7 +19,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Was "Friends" set in Chicago?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // It was set in New York City
+            //     'answer' => 'b', // It was set in New York City
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -30,7 +29,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Beatles" a rock band from the 1960s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -40,7 +39,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Frozen" a Pixar movie?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // It's a Disney Animation Studios film
+            //     'answer' => 'b', // It's a Disney Animation Studios film
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -50,7 +49,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did the movie "Inception" star Leonardo DiCaprio?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -60,7 +59,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Great Gatsby" a novel written by Ernest Hemingway?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // Written by F. Scott Fitzgerald
+            //     'answer' => 'b', // Written by F. Scott Fitzgerald
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -70,7 +69,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Stranger Things" a Netflix original series?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -80,7 +79,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Was "The Dark Knight" directed by Steven Spielberg?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // Directed by Christopher Nolan
+            //     'answer' => 'b', // Directed by Christopher Nolan
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -90,7 +89,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is Harry Potter a character created by J.K. Rowling?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -100,7 +99,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Breaking Bad" a show about a high school teacher who becomes a drug dealer?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -110,7 +109,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Office" set in Scranton, Pennsylvania?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -128,7 +127,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Friends" a TV show that aired in the 2000s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // It aired from 1994 to 2004
+            //     'answer' => 'b', // It aired from 1994 to 2004
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -138,7 +137,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Crown" a Netflix series about the British royal family?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -148,7 +147,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Was "Black Panther" the first Marvel movie to win an Oscar?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -158,7 +157,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Mandalorian" a series set in the Star Wars universe?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -168,7 +167,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did "The Lion King" originally release in 1994?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -178,7 +177,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Godfather" a movie directed by Martin Scorsese?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // Directed by Francis Ford Coppola
+            //     'answer' => 'b', // Directed by Francis Ford Coppola
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -188,7 +187,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did "Breaking Bad" run for six seasons?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // It ran for five seasons
+            //     'answer' => 'b', // It ran for five seasons
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -198,7 +197,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Pulp Fiction" a film directed by Quentin Tarantino?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -208,7 +207,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Shining" a horror novel written by Stephen King?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -218,7 +217,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did "Seinfeld" end in the year 2000?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // It ended in 1998
+            //     'answer' => 'b', // It ended in 1998
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -233,7 +232,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Wonder Woman" a character from DC Comics?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -243,7 +242,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Was "Friends" originally aired on NBC?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -253,7 +252,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Darth Vader" the father of Luke Skywalker?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -263,7 +262,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Inception" a movie directed by James Cameron?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // Directed by Christopher Nolan
+            //     'answer' => 'b', // Directed by Christopher Nolan
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -273,7 +272,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did the band "Queen" release the song "Bohemian Rhapsody"?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -283,7 +282,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Spider-Man: Into the Spider-Verse" an animated film?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -293,7 +292,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "Westworld" a series based on a movie from the 1970s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -303,7 +302,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Was "Jaws" directed by Alfred Hitchcock?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('b'), // Directed by Steven Spielberg
+            //     'answer' => 'b', // Directed by Steven Spielberg
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -313,7 +312,7 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Is "The Matrix" a film that was released in 1999?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'),
+            //     'answer' => 'a',
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
@@ -323,11 +322,11 @@ class QuestionSeeder18 extends Seeder
             //     'question' => 'Did "The Office" (US) have more than 200 episodes?',
             //     'a' => 'Yes',
             //     'b' => 'No',
-            //     'answer' => Hash::make('a'), // It had 201 episodes
+            //     'answer' => 'a', // It had 201 episodes
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
-            [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who directed the movie "Pulp Fiction"?', 'a' => 'Steven Spielberg', 'b' => 'Quentin Tarantino', 'c' => 'Martin Scorsese', 'd' => 'Christopher Nolan', 'answer' => Hash::make('b'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show featured the character "Walter White"?', 'a' => 'The Sopranos', 'b' => 'Mad Men', 'c' => 'Breaking Bad', 'd' => 'The Wire', 'answer' => Hash::make('c'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'In which year was the original "Jurassic Park" movie released?', 'a' => '1990', 'b' => '1993', 'c' => '1995', 'd' => '1997', 'answer' => Hash::make('b'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which band released the album "The Dark Side of the Moon"?', 'a' => 'The Beatles', 'b' => 'Pink Floyd', 'c' => 'Led Zeppelin', 'd' => 'The Rolling Stones', 'answer' => Hash::make('b'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who played the character "Jack Sparrow" in the "Pirates of the Caribbean" movies?', 'a' => 'Johnny Depp', 'b' => 'Orlando Bloom', 'c' => 'Brad Pitt', 'd' => 'Leonardo DiCaprio', 'answer' => Hash::make('a'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which movie won the Best Picture Oscar in 2020?', 'a' => '1917', 'b' => 'Joker', 'c' => 'Once Upon a Time in Hollywood', 'd' => 'Parasite', 'answer' => Hash::make('d'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which of these is a song by The Beatles?', 'a' => 'Stairway to Heaven', 'b' => 'Bohemian Rhapsody', 'c' => 'Hey Jude', 'd' => 'Hotel California', 'answer' => Hash::make('c'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actor portrayed "Tony Stark" in the Marvel Cinematic Universe?', 'a' => 'Chris Evans', 'b' => 'Chris Hemsworth', 'c' => 'Robert Downey Jr.', 'd' => 'Mark Ruffalo', 'answer' => Hash::make('c'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show is known for the quote "Winter is coming"?', 'a' => 'The Witcher', 'b' => 'Game of Thrones', 'c' => 'Vikings', 'd' => 'The Walking Dead', 'answer' => Hash::make('b'), 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actress starred as "Katniss Everdeen" in "The Hunger Games" series?', 'a' => 'Jennifer Lawrence', 'b' => 'Emma Stone', 'c' => 'Scarlett Johansson', 'd' => 'Kristen Stewart', 'answer' => Hash::make('a'), 'created_at' => now(), 'updated_at' => now() ],
+            [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who directed the movie "Pulp Fiction"?', 'a' => 'Steven Spielberg', 'b' => 'Quentin Tarantino', 'c' => 'Martin Scorsese', 'd' => 'Christopher Nolan', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show featured the character "Walter White"?', 'a' => 'The Sopranos', 'b' => 'Mad Men', 'c' => 'Breaking Bad', 'd' => 'The Wire', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'In which year was the original "Jurassic Park" movie released?', 'a' => '1990', 'b' => '1993', 'c' => '1995', 'd' => '1997', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which band released the album "The Dark Side of the Moon"?', 'a' => 'The Beatles', 'b' => 'Pink Floyd', 'c' => 'Led Zeppelin', 'd' => 'The Rolling Stones', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who played the character "Jack Sparrow" in the "Pirates of the Caribbean" movies?', 'a' => 'Johnny Depp', 'b' => 'Orlando Bloom', 'c' => 'Brad Pitt', 'd' => 'Leonardo DiCaprio', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which movie won the Best Picture Oscar in 2020?', 'a' => '1917', 'b' => 'Joker', 'c' => 'Once Upon a Time in Hollywood', 'd' => 'Parasite', 'answer' => 'd', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which of these is a song by The Beatles?', 'a' => 'Stairway to Heaven', 'b' => 'Bohemian Rhapsody', 'c' => 'Hey Jude', 'd' => 'Hotel California', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actor portrayed "Tony Stark" in the Marvel Cinematic Universe?', 'a' => 'Chris Evans', 'b' => 'Chris Hemsworth', 'c' => 'Robert Downey Jr.', 'd' => 'Mark Ruffalo', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show is known for the quote "Winter is coming"?', 'a' => 'The Witcher', 'b' => 'Game of Thrones', 'c' => 'Vikings', 'd' => 'The Walking Dead', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actress starred as "Katniss Everdeen" in "The Hunger Games" series?', 'a' => 'Jennifer Lawrence', 'b' => 'Emma Stone', 'c' => 'Scarlett Johansson', 'd' => 'Kristen Stewart', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ],
         
         
         
@@ -339,7 +338,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Casablanca',
                 'c' => 'The Godfather',
                 'd' => 'Citizen Kane',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -351,7 +350,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Stephen King',
                 'c' => 'J.R.R. Tolkien',
                 'd' => 'George R.R. Martin',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -363,7 +362,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Stranger Things',
                 'c' => 'Twin Peaks',
                 'd' => 'The X-Files',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -375,7 +374,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Heath Ledger',
                 'c' => 'Jared Leto',
                 'd' => 'Jack Nicholson',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -387,7 +386,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Les Misérables',
                 'c' => 'Phantom of the Opera',
                 'd' => 'Cats',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -399,7 +398,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Arendelle',
                 'c' => 'Atlantis',
                 'd' => 'Mordor',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -411,7 +410,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Michelangelo',
                 'c' => 'Raphael',
                 'd' => 'Donatello',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -423,7 +422,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => '1984',
                 'c' => 'The Great Gatsby',
                 'd' => 'Pride and Prejudice',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -435,7 +434,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Cast Away',
                 'c' => 'Saving Private Ryan',
                 'd' => 'The Terminal',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -447,7 +446,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Tom Hanks',
                 'c' => 'Billy Crystal',
                 'd' => 'John Goodman',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -461,7 +460,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Bodyguard',
                 'c' => 'Moulin Rouge!',
                 'd' => 'Pretty Woman',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -473,7 +472,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'George Orwell',
                 'c' => 'Mark Twain',
                 'd' => 'F. Scott Fitzgerald',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -485,7 +484,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Arya Stark',
                 'c' => 'Sansa Stark',
                 'd' => 'Daenerys Targaryen',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -497,7 +496,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Deadpool',
                 'c' => 'Spider-Man',
                 'd' => 'Hulk',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -509,7 +508,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'From Russia with Love',
                 'c' => 'Goldfinger',
                 'd' => 'Thunderball',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -521,7 +520,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Vincent van Gogh',
                 'c' => 'Claude Monet',
                 'd' => 'Leonardo da Vinci',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -533,7 +532,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Citizen Kane',
                 'c' => 'The Godfather',
                 'd' => 'Gone with the Wind',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -545,7 +544,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Central Perk',
                 'c' => 'Java Joe’s',
                 'd' => 'Monk’s Café',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -557,7 +556,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Frodo Baggins',
                 'c' => 'Legolas',
                 'd' => 'Gandalf',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -569,7 +568,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Time of My Life',
                 'c' => 'Eye of the Tiger',
                 'd' => 'Take My Breath Away',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -583,7 +582,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Darth Vader',
                 'c' => 'Obi-Wan Kenobi',
                 'd' => 'Yoda',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -595,7 +594,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Back to the Future',
                 'c' => 'Blade Runner',
                 'd' => 'The Matrix',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -607,7 +606,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Whitney Houston',
                 'c' => 'Celine Dion',
                 'd' => 'Mariah Carey',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -619,7 +618,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Harry Potter and the Goblet of Fire',
                 'c' => 'Harry Potter and the Philosopher’s Stone',
                 'd' => 'Harry Potter and the Prisoner of Azkaban',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -631,7 +630,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Grease',
                 'c' => 'Pulp Fiction',
                 'd' => 'Urban Cowboy',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -643,7 +642,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Beatles',
                 'c' => 'Queen',
                 'd' => 'Led Zeppelin',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -655,7 +654,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Keira Knightley',
                 'c' => 'Natalie Portman',
                 'd' => 'Maggie Smith',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -667,7 +666,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'A Few Good Men',
                 'c' => 'The Shawshank Redemption',
                 'd' => 'Braveheart',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -679,7 +678,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Mandalorian',
                 'c' => 'Game of Thrones',
                 'd' => 'The Crown',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -691,7 +690,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Peter Jackson',
                 'c' => 'James Cameron',
                 'd' => 'Ridley Scott',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -705,7 +704,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Michael Jackson',
                 'c' => 'Stevie Wonder',
                 'd' => 'David Bowie',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -717,7 +716,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Lion King',
                 'c' => 'Toy Story',
                 'd' => 'Monsters, Inc.',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -729,7 +728,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Freddie Mercury',
                 'c' => 'Mick Jagger',
                 'd' => 'David Bowie',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -741,7 +740,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Godfather',
                 'c' => 'Scarface',
                 'd' => 'Pulp Fiction',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -753,7 +752,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Dexter',
                 'c' => 'The Sopranos',
                 'd' => 'The Wire',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -765,7 +764,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Christopher Nolan',
                 'c' => 'Martin Scorsese',
                 'd' => 'James Cameron',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -777,7 +776,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Jennifer Lawrence',
                 'c' => 'Kristen Stewart',
                 'd' => 'Shailene Woodley',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -789,7 +788,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Last Supper',
                 'c' => 'Mona Lisa',
                 'd' => 'Girl with a Pearl Earring',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -801,7 +800,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Office',
                 'c' => 'Brooklyn Nine-Nine',
                 'd' => '30 Rock',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -813,7 +812,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Robert Downey Jr.',
                 'c' => 'Chris Hemsworth',
                 'd' => 'Mark Ruffalo',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -827,7 +826,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Forrest Gump',
                 'c' => 'Saving Private Ryan',
                 'd' => 'Philadelphia',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -839,7 +838,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Adele',
                 'c' => 'Lady Gaga',
                 'd' => 'Rihanna',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -851,7 +850,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Goonies',
                 'c' => 'Stranger Things',
                 'd' => 'E.T. the Extra-Terrestrial',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -863,7 +862,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Michael Jackson',
                 'c' => 'David Bowie',
                 'd' => 'Stevie Wonder',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -875,7 +874,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Brad Pitt',
                 'c' => 'Johnny Depp',
                 'd' => 'Tom Cruise',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -887,7 +886,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Cast Away',
                 'c' => 'Forrest Gump',
                 'd' => 'A Beautiful Mind',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -899,7 +898,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Mad Men',
                 'c' => 'Breaking Bad',
                 'd' => 'Better Call Saul',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -911,7 +910,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Simpsons',
                 'c' => 'South Park',
                 'd' => 'Futurama',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -923,7 +922,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'George R.R. Martin',
                 'c' => 'J.R.R. Tolkien',
                 'd' => 'Stephen King',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -935,7 +934,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Fight Club',
                 'c' => 'The Big Lebowski',
                 'd' => 'American Psycho',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -949,7 +948,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Survivor',
                 'c' => 'Gilligan’s Island',
                 'd' => 'The 100',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -961,7 +960,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Casablanca',
                 'c' => 'Citizen Kane',
                 'd' => 'It’s a Wonderful Life',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -973,7 +972,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Marlon Brando',
                 'c' => 'Al Pacino',
                 'd' => 'Jack Nicholson',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -985,7 +984,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Led Zeppelin',
                 'c' => 'Pink Floyd',
                 'd' => 'The Rolling Stones',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -997,7 +996,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Johnny Depp',
                 'c' => 'Hugh Jackman',
                 'd' => 'Brad Pitt',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1009,7 +1008,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Monk’s Café',
                 'c' => 'MacLaren’s Pub',
                 'd' => 'The Peach Pit',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1021,7 +1020,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Justin Bieber',
                 'c' => 'Shawn Mendes',
                 'd' => 'Bruno Mars',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1033,7 +1032,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Jurassic Park',
                 'c' => 'The Lost World',
                 'd' => 'Avatar',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1045,7 +1044,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Tom Cruise',
                 'c' => 'Matt Damon',
                 'd' => 'Brad Pitt',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1057,7 +1056,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Pharrell Williams',
                 'c' => 'Justin Timberlake',
                 'd' => 'Sam Smith',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1071,7 +1070,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Mummy',
                 'c' => 'Jurassic Park',
                 'd' => 'Back to the Future',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1083,7 +1082,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'We Are the Champions',
                 'c' => 'Don’t Stop Me Now',
                 'd' => 'Somebody to Love',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1095,7 +1094,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The X-Files',
                 'c' => 'Stranger Things',
                 'd' => 'Heroes',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1107,7 +1106,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Star Wars',
                 'c' => 'The Matrix',
                 'd' => 'Guardians of the Galaxy',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1119,7 +1118,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Heath Ledger',
                 'c' => 'Jared Leto',
                 'd' => 'Jack Nicholson',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1131,7 +1130,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Family Guy',
                 'c' => 'Rick and Morty',
                 'd' => 'South Park',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1143,7 +1142,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Chris Evans',
                 'c' => 'Robert Downey Jr.',
                 'd' => 'Mark Ruffalo',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1155,7 +1154,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Billie Eilish',
                 'c' => 'Ariana Grande',
                 'd' => 'Lorde',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1167,7 +1166,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Die Hard',
                 'c' => 'John Wick',
                 'd' => 'Mad Max: Fury Road',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1179,7 +1178,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Taylor Swift',
                 'c' => 'Selena Gomez',
                 'd' => 'Ariana Grande',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1192,7 +1191,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Friends',
                 'c' => 'The Big Bang Theory',
                 'd' => 'Seinfeld',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1204,7 +1203,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Christopher Nolan',
                 'c' => 'James Cameron',
                 'd' => 'Quentin Tarantino',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1216,7 +1215,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'We Will Rock You',
                 'c' => 'Seven Nation Army',
                 'd' => 'Uptown Funk',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1228,7 +1227,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Terminator',
                 'c' => 'Die Hard',
                 'd' => 'Predator',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1240,7 +1239,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Nirvana',
                 'c' => 'Soundgarden',
                 'd' => 'Alice in Chains',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1252,7 +1251,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Gal Gadot',
                 'c' => 'Brie Larson',
                 'd' => 'Margot Robbie',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1264,7 +1263,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Stranger Things',
                 'c' => 'Riverdale',
                 'd' => 'The X-Files',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1276,7 +1275,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Adele',
                 'c' => 'Taylor Swift',
                 'd' => 'Rihanna',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1288,7 +1287,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Bodyguard',
                 'c' => 'Titanic',
                 'd' => 'Moulin Rouge!',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1300,7 +1299,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Ryan Reynolds',
                 'c' => 'Chris Pratt',
                 'd' => 'Tom Hardy',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1314,7 +1313,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Green Mile',
                 'c' => 'Forrest Gump',
                 'd' => 'Saving Private Ryan',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1326,7 +1325,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Adele',
                 'c' => 'Taylor Swift',
                 'd' => 'Lady Gaga',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1338,7 +1337,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Mad Men',
                 'c' => 'Breaking Bad',
                 'd' => 'Narcos',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1350,7 +1349,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Godfather',
                 'c' => 'Goodfellas',
                 'd' => 'Scarface',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1362,7 +1361,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Tom Hanks',
                 'c' => 'Robin Williams',
                 'd' => 'Will Smith',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1374,7 +1373,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Michael Jackson',
                 'c' => 'Madonna',
                 'd' => 'Whitney Houston',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1386,7 +1385,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Hunger Games',
                 'c' => 'Harry Potter',
                 'd' => 'Percy Jackson',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1398,7 +1397,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Quentin Tarantino',
                 'c' => 'Francis Ford Coppola',
                 'd' => 'Steven Spielberg',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1410,7 +1409,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Game of Thrones',
                 'c' => 'The Mandalorian',
                 'd' => 'Vikings',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1422,7 +1421,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Drake',
                 'c' => 'Post Malone',
                 'd' => 'Bruno Mars',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1436,7 +1435,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'King of Boys',
                 'c' => 'October 1',
                 'd' => 'Lionheart',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1448,7 +1447,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Dangal',
                 'c' => 'The Man Who Knew Infinity',
                 'd' => 'Padman',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1460,7 +1459,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Train to Busan',
                 'c' => 'Kingdom',
                 'd' => 'All of Us Are Dead',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1472,7 +1471,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Darna',
                 'c' => 'Lobo',
                 'd' => 'Encantadia',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1484,7 +1483,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Lagaan',
                 'c' => 'PK',
                 'd' => 'Slumdog Millionaire',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1496,7 +1495,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Parasite',
                 'c' => 'Burning',
                 'd' => 'Memories of Murder',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1508,7 +1507,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Wedding Party',
                 'c' => 'Chief Daddy',
                 'd' => 'Living in Bondage',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1520,7 +1519,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Sacred Games',
                 'c' => 'Four More Shots Please!',
                 'd' => 'Mirzapur',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1532,7 +1531,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Sweet Home',
                 'c' => 'Hellbound',
                 'd' => 'Alice',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1544,7 +1543,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Hello, Love, Goodbye',
                 'c' => 'Four Sisters and a Wedding',
                 'd' => 'Bwakaw',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1557,7 +1556,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Castle and Castle',
                 'c' => 'Hush',
                 'd' => 'Battleground',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1569,7 +1568,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Piku',
                 'c' => 'Badhaai Ho',
                 'd' => 'The Lunchbox',
-                'answer' => Hash::make('d'),
+                'answer' => 'd',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1581,7 +1580,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The King: Eternal Monarch',
                 'c' => 'Hotel Del Luna',
                 'd' => 'Signal',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1593,7 +1592,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Anak',
                 'c' => 'Bata, Bata... Pa\'no Ka Ginawa?',
                 'd' => 'Madrasta',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1605,7 +1604,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Anupamaa',
                 'c' => 'Bade Achhe Lagte Hain',
                 'd' => 'Taarak Mehta Ka Ooltah Chashmah',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1617,7 +1616,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'The Wailing',
                 'c' => 'Alive',
                 'd' => 'Train to Busan Presents: Peninsula',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1629,7 +1628,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Your Excellency',
                 'c' => 'Isoken',
                 'd' => 'The Set Up',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1641,7 +1640,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Sultan',
                 'c' => 'Dangal',
                 'd' => 'Mary Kom',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1653,7 +1652,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Crash Landing on You',
                 'c' => 'The Heirs',
                 'd' => 'My Love From the Star',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1665,7 +1664,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Sana Bukas Pa Ang Kahapon',
                 'c' => 'Kadenang Ginto',
                 'd' => 'Impostora',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1679,7 +1678,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Half of a Yellow Sun',
                 'c' => 'Fela\'s Republic',
                 'd' => '93 Days',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1691,7 +1690,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Kahaani',
                 'c' => 'Drishyam',
                 'd' => 'Andhadhun',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1703,7 +1702,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Oh My Ghost',
                 'c' => 'Hotel Del Luna',
                 'd' => 'Let’s Fight, Ghost',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1715,7 +1714,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Bakwit Boys',
                 'c' => 'Goyo: Ang Batang Heneral',
                 'd' => 'Alone/Together',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1727,7 +1726,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Sacred Games',
                 'c' => 'The Family Man',
                 'd' => 'Mirzapur',
-                'answer' => Hash::make('c'),
+                'answer' => 'c',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1739,7 +1738,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'A Moment to Remember',
                 'c' => 'Hope',
                 'd' => 'Silenced',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1751,7 +1750,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Skinny Girl in Transit',
                 'c' => 'Gidi Up',
                 'd' => 'Before 30',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1763,7 +1762,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Nil Battey Sannata',
                 'c' => 'English Vinglish',
                 'd' => 'Dear Zindagi',
-                'answer' => Hash::make('a'),
+                'answer' => 'a',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1775,7 +1774,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Healer',
                 'c' => 'The Girl Who Sees Scents',
                 'd' => 'Strong Woman Do Bong-soon',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1787,7 +1786,7 @@ class QuestionSeeder18 extends Seeder
                 'b' => 'Walang Hanggan',
                 'c' => 'Ikaw Lamang',
                 'd' => 'The General’s Daughter',
-                'answer' => Hash::make('b'),
+                'answer' => 'b',
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -1800,7 +1799,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hades',
         'c' => 'Poseidon',
         'd' => 'Apollo',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1812,7 +1811,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Yggdrasil',
         'c' => 'Bifröst',
         'd' => 'Ragnarök',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1824,7 +1823,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Anubis',
         'c' => 'Osiris',
         'd' => 'Horus',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1836,7 +1835,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shiva',
         'c' => 'Vishnu',
         'd' => 'Indra',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1848,7 +1847,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Minerva',
         'c' => 'Venus',
         'd' => 'Juno',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1860,7 +1859,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Acheron',
         'c' => 'Styx',
         'd' => 'Phlegethon',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1872,7 +1871,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Susanoo',
         'c' => 'Amaterasu',
         'd' => 'Inari',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1884,7 +1883,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tir na nÓg',
         'c' => 'Asgard',
         'd' => 'Elysium',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1896,7 +1895,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Huitzilopochtli',
         'c' => 'Tlaloc',
         'd' => 'Tezcatlipoca',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1908,7 +1907,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Theseus',
         'c' => 'Heracles',
         'd' => 'Odysseus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1922,7 +1921,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Loki',
         'c' => 'Thor',
         'd' => 'Freyr',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1934,7 +1933,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Griffin',
         'c' => 'Chimera',
         'd' => 'Hydra',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1946,7 +1945,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hathor',
         'c' => 'Sekhmet',
         'd' => 'Nephthys',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1958,7 +1957,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Krishna',
         'c' => 'Buddha',
         'd' => 'Narasimha',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1970,7 +1969,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jupiter',
         'c' => 'Neptune',
         'd' => 'Mercury',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1982,7 +1981,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hercules',
         'c' => 'Jason',
         'd' => 'Theseus',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -1994,7 +1993,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Susanoo',
         'c' => 'Tsukuyomi',
         'd' => 'Raijin',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2006,7 +2005,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Cúchulainn',
         'c' => 'Lugh',
         'd' => 'Dagda',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2018,7 +2017,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Huitzilopochtli',
         'c' => 'Quetzalcoatl',
         'd' => 'Xipe Totec',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2030,7 +2029,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Minotaur',
         'c' => 'Hydra',
         'd' => 'Charybdis',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2044,7 +2043,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Loki',
         'c' => 'Thor',
         'd' => 'Baldur',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2056,7 +2055,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Apollo',
         'c' => 'Dionysus',
         'd' => 'Zeus',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2068,7 +2067,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Lakshmi',
         'c' => 'Saraswati',
         'd' => 'Kali',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2080,7 +2079,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ra',
         'c' => 'Horus',
         'd' => 'Thoth',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2092,7 +2091,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Heracles',
         'c' => 'Jason',
         'd' => 'Theseus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2104,7 +2103,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Minerva',
         'c' => 'Venus',
         'd' => 'Juno',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2116,7 +2115,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tsukuyomi',
         'c' => 'Inari',
         'd' => 'Raijin',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2128,7 +2127,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Lugh',
         'c' => 'Cernunnos',
         'd' => 'Morrigan',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2140,7 +2139,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hera',
         'c' => 'Demeter',
         'd' => 'Aphrodite',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2152,7 +2151,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Valhalla',
         'c' => 'Midgard',
         'd' => 'Helheim',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2165,7 +2164,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Aphrodite',
         'c' => 'Artemis',
         'd' => 'Demeter',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2177,7 +2176,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ra',
         'c' => 'Osiris',
         'd' => 'Horus',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2189,7 +2188,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Odin',
         'c' => 'Loki',
         'd' => 'Freyja',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2201,7 +2200,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Brahma',
         'c' => 'Shiva',
         'd' => 'Indra',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2213,7 +2212,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Susanoo',
         'c' => 'Raijin',
         'd' => 'Fujin',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2225,7 +2224,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Theseus',
         'c' => 'Odysseus',
         'd' => 'Heracles',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2237,7 +2236,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jupiter',
         'c' => 'Janus',
         'd' => 'Neptune',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2249,7 +2248,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Morrigan',
         'c' => 'Rhiannon',
         'd' => 'Danu',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2261,7 +2260,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Fimbulwinter',
         'c' => 'Ginnungagap',
         'd' => 'Vigrid',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2273,7 +2272,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Krishna',
         'c' => 'Rama',
         'd' => 'Ganesha',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2287,7 +2286,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Poseidon',
         'c' => 'Hades',
         'd' => 'Ares',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2299,7 +2298,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Osiris',
         'c' => 'Thoth',
         'd' => 'Horus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2311,7 +2310,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bifröst',
         'c' => 'Mímameiðr',
         'd' => 'Gulltoppr',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2323,7 +2322,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Saraswati',
         'c' => 'Parvati',
         'd' => 'Durga',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2335,7 +2334,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tsukuyomi',
         'c' => 'Susanoo',
         'd' => 'Inari',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2347,7 +2346,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Atlas',
         'c' => 'Sisyphus',
         'd' => 'Tantalus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2359,7 +2358,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Avalon',
         'c' => 'Mag Mell',
         'd' => 'Elysium',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2371,7 +2370,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tezcatlipoca',
         'c' => 'Huitzilopochtli',
         'd' => 'Xipe Totec',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2383,7 +2382,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Poseidon',
         'c' => 'Hermes',
         'd' => 'Apollo',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2395,7 +2394,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jörmungandr',
         'c' => 'Surt',
         'd' => 'Sköll',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2409,7 +2408,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Theseus',
         'c' => 'Odysseus',
         'd' => 'Heracles',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2421,7 +2420,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hathor',
         'c' => 'Nephthys',
         'd' => 'Ma\'at',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2433,7 +2432,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Thor',
         'c' => 'Tyr',
         'd' => 'Loki',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2445,7 +2444,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hanuman',
         'c' => 'Garuda',
         'd' => 'Kartikeya',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2457,7 +2456,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hera',
         'c' => 'Artemis',
         'd' => 'Athena',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2469,7 +2468,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Fujin',
         'c' => 'Susanoo',
         'd' => 'Hachiman',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2481,7 +2480,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hermes',
         'c' => 'Apollo',
         'd' => 'Dionysus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2493,7 +2492,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Xipe Totec',
         'c' => 'Huitzilopochtli',
         'd' => 'Quetzalcoatl',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2505,7 +2504,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Frigg',
         'c' => 'Sif',
         'd' => 'Hel',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2517,7 +2516,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Zeus',
         'c' => 'Poseidon',
         'd' => 'Hermes',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2530,7 +2529,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Achilles',
         'c' => 'Odysseus',
         'd' => 'Heracles',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2542,7 +2541,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Vanaheim',
         'c' => 'Jotunheim',
         'd' => 'Alfheim',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2554,7 +2553,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Vishnu',
         'c' => 'Shiva',
         'd' => 'Indra',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2566,7 +2565,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Minerva',
         'c' => 'Diana',
         'd' => 'Juno',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2578,7 +2577,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ra',
         'c' => 'Set',
         'd' => 'Anubis',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2590,7 +2589,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Achilles',
         'c' => 'Jason',
         'd' => 'Perseus',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2602,7 +2601,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Aengus',
         'c' => 'Dagda',
         'd' => 'Brigid',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2614,7 +2613,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Fujin',
         'c' => 'Susanoo',
         'd' => 'Raijin',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2626,7 +2625,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hestia',
         'c' => 'Demeter',
         'd' => 'Hera',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2638,7 +2637,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Coatlicue',
         'c' => 'Chalchiuhtlicue',
         'd' => 'Tlazolteotl',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2651,7 +2650,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Prometheus',
         'c' => 'Cronus',
         'd' => 'Hyperion',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2663,7 +2662,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sekhmet',
         'c' => 'Isis',
         'd' => 'Nut',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2675,7 +2674,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bragi',
         'c' => 'Freyr',
         'd' => 'Tyr',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2687,7 +2686,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Kumbhakarna',
         'c' => 'Vibhishana',
         'd' => 'Surpanakha',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2699,7 +2698,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Venus',
         'c' => 'Minerva',
         'd' => 'Diana',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2711,7 +2710,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tlaloc',
         'c' => 'Quetzalcoatl',
         'd' => 'Tezcatlipoca',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2723,7 +2722,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Tsukuyomi',
         'c' => 'Fujin',
         'd' => 'Raijin',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2735,7 +2734,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Themis',
         'c' => 'Demeter',
         'd' => 'Hera',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2747,7 +2746,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Epona',
         'c' => 'Arianrhod',
         'd' => 'Morrigan',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2759,7 +2758,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Odin',
         'c' => 'Heimdall',
         'd' => 'Loki',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2771,7 +2770,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Lakshmi',
         'c' => 'Kubera',
         'd' => 'Saraswati',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2785,7 +2784,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Olodumare',
         'd' => 'Yemoja',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2797,7 +2796,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Chukwu',
         'c' => 'Ekwensu',
         'd' => 'Ajao',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2809,7 +2808,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Maman Borde',
         'c' => 'Goggo',
         'd' => 'Shah',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2821,7 +2820,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bima',
         'c' => 'Shah',
         'd' => 'Maman Borde',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2833,7 +2832,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Orunmila',
         'c' => 'Yemoja',
         'd' => 'Olodumare',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2845,7 +2844,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ekwensu',
         'c' => 'Amadioha',
         'd' => 'Ajao',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2857,7 +2856,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shah',
         'c' => 'Maman Borde',
         'd' => 'Dodo',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2869,7 +2868,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Orunmila',
         'c' => 'Yemoja',
         'd' => 'Shango',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2881,7 +2880,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sao',
         'c' => 'Shah',
         'd' => 'Maman Borde',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2893,7 +2892,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Amadioha',
         'c' => 'Ekwensu',
         'd' => 'Ajao',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2906,7 +2905,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Orunmila',
         'c' => 'Yemoja',
         'd' => 'Shango',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2918,7 +2917,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shah',
         'c' => 'Maman Borde',
         'd' => 'Dodo',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2930,7 +2929,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ajao',
         'c' => 'Ekwensu',
         'd' => 'Amadioha',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2942,7 +2941,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sao',
         'c' => 'Shah',
         'd' => 'Maman Borde',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2954,7 +2953,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Yemoja',
         'd' => 'Orunmila',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2966,7 +2965,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Dodo',
         'c' => 'Maman Borde',
         'd' => 'Shah',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2978,7 +2977,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Chukwu',
         'c' => 'Ajao',
         'd' => 'Amadioha',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -2990,7 +2989,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sao',
         'c' => 'Maman Borde',
         'd' => 'Shah',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3002,7 +3001,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Olodumare',
         'd' => 'Orunmila',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3014,7 +3013,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Goggo',
         'c' => 'Dodo',
         'd' => 'Shah',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3028,7 +3027,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Amadioha',
         'c' => 'Ekwensu',
         'd' => 'Ajao',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3040,7 +3039,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Ogun',
         'd' => 'Yemoja',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3052,7 +3051,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Maman Borde',
         'c' => 'Dodo',
         'd' => 'Shah',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3064,7 +3063,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bima',
         'c' => 'Maman Borde',
         'd' => 'Shah',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3076,7 +3075,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Orunmila',
         'd' => 'Yemoja',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3088,7 +3087,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Chukwu',
         'c' => 'Ala',
         'd' => 'Ekwensu',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3100,7 +3099,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Goggo',
         'c' => 'Shah',
         'd' => 'Maman Borde',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3112,7 +3111,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Yemoja',
         'd' => 'Olodumare',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3124,7 +3123,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ala',
         'c' => 'Ekwensu',
         'd' => 'Amadioha',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3136,7 +3135,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sao',
         'c' => 'Maman Borde',
         'd' => 'Shah',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3149,7 +3148,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Esu',
         'c' => 'Ogiuwu',
         'd' => 'Soko',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3161,7 +3160,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Owu',
         'c' => 'Woyengi',
         'd' => 'Ekpenyong',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3173,7 +3172,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Kinnara',
         'c' => 'Gani',
         'd' => 'Aondo',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3185,7 +3184,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Nyian',
         'c' => 'Aondo',
         'd' => 'Ekpenyong',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3197,7 +3196,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Atai',
         'c' => 'Ekpenyong',
         'd' => 'Owu',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3209,7 +3208,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Aje Shiwara',
         'c' => 'Owoicho',
         'd' => 'Egbesu',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3221,7 +3220,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Olokun',
         'c' => 'Ogiuwu',
         'd' => 'Soko',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3233,7 +3232,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Egbesu',
         'c' => 'Owu',
         'd' => 'Maman Borde',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3245,7 +3244,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sao',
         'c' => 'Kinnara',
         'd' => 'Gani',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3257,7 +3256,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Swem',
         'c' => 'Nyian',
         'd' => 'Owoicho',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3270,7 +3269,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ogun',
         'c' => 'Yemoja',
         'd' => 'Shango',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3282,7 +3281,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Chukwu',
         'c' => 'Ekwensu',
         'd' => 'Ala',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3294,7 +3293,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Maman Borde',
         'c' => 'Dodo',
         'd' => 'Shah',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3306,7 +3305,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Maman Borde',
         'c' => 'Shah',
         'd' => 'Sao',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3318,7 +3317,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Abassi',
         'c' => 'Ekpenyong',
         'd' => 'Owu',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3330,7 +3329,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Aje Shiwara',
         'c' => 'Alekwu',
         'd' => 'Aondo',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3342,7 +3341,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Esu',
         'c' => 'Olokun',
         'd' => 'Soko',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3354,7 +3353,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Orunmila',
         'd' => 'Ogun',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3366,7 +3365,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bima',
         'c' => 'Shah',
         'd' => 'Sao',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3378,7 +3377,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Gani',
         'c' => 'Sao',
         'd' => 'Bima',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3390,7 +3389,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Owoicho',
         'c' => 'Aje Shiwara',
         'd' => 'Alekwu',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3403,7 +3402,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Six',
         'c' => 'Seven',
         'd' => 'Ten',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3415,7 +3414,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Raphael',
         'c' => 'Gabriel',
         'd' => 'Uriel',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3427,7 +3426,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The Resurrection',
         'c' => 'The Second Coming',
         'd' => 'The Rapture',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3439,7 +3438,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Paradise',
         'c' => 'Hell',
         'd' => 'Purgatory',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3451,7 +3450,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Acts',
         'c' => 'Revelation',
         'd' => 'John',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3463,7 +3462,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Saint Paul',
         'c' => 'Saint Stephen',
         'd' => 'Saint Andrew',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3475,7 +3474,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Confirmation',
         'c' => 'Eucharist',
         'd' => 'Reconciliation',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3487,7 +3486,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Saul',
         'c' => 'David',
         'd' => 'Moses',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3499,7 +3498,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Incarnation',
         'c' => 'Ascension',
         'd' => 'Redemption',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3511,7 +3510,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Michael',
         'c' => 'Raphael',
         'd' => 'Uriel',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3524,7 +3523,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The Resurrection of Jesus',
         'c' => 'The Crucifixion of Jesus',
         'd' => 'The Birth of Jesus',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3536,7 +3535,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jacob',
         'c' => 'Moses',
         'd' => 'Joseph',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3548,7 +3547,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Joseph',
         'c' => 'Samuel',
         'd' => 'Solomon',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3560,7 +3559,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Luke',
         'c' => 'John',
         'd' => 'Matthew',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3572,7 +3571,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The descent of the Holy Spirit upon the apostles',
         'c' => 'The Resurrection of Jesus',
         'd' => 'The ascension of Jesus into heaven',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3584,7 +3583,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'John',
         'c' => 'Thomas',
         'd' => 'James',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3596,7 +3595,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Solomon',
         'c' => 'Saul',
         'd' => 'Samuel',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3608,7 +3607,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The Three Wise Men',
         'c' => 'The three parts of the Bible',
         'd' => 'The three days Jesus spent in the tomb',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3620,7 +3619,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Abraham',
         'c' => 'Moses',
         'd' => 'Isaac',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3632,7 +3631,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The belief that Mary was free from original sin from the moment of her conception',
         'c' => 'The conception of Jesus by the Holy Spirit',
         'd' => 'The birth of John the Baptist',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3645,7 +3644,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Israfil',
         'c' => 'Jibril',
         'd' => 'Azrael',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3657,7 +3656,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Musa',
         'c' => 'Ibrahim',
         'd' => 'Adam',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3669,7 +3668,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jannah',
         'c' => 'Al-Buraq',
         'd' => 'Zamzam',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3681,7 +3680,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Yunus',
         'c' => 'Yusuf',
         'd' => 'Ilyas',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3693,7 +3692,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shahada',
         'c' => 'Zakat',
         'd' => 'Sawm',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3705,7 +3704,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Isa',
         'c' => 'Ibrahim',
         'd' => 'Nuh',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3717,7 +3716,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Musa',
         'c' => 'Ibrahim',
         'd' => 'Muhammad',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3729,7 +3728,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Bible',
         'c' => 'Quran',
         'd' => 'Gospel',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3741,7 +3740,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The conquest of Mecca',
         'c' => 'The Hijra',
         'd' => 'The night journey (Isra and Mi\'raj)',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3753,7 +3752,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Musa (Moses)',
         'c' => 'Yusuf (Joseph)',
         'd' => 'Nuh (Noah)',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3766,7 +3765,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ibrahim (Abraham)',
         'c' => 'Nuh (Noah)',
         'd' => 'Adam',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3778,7 +3777,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Aisha',
         'c' => 'Maryam (Mary)',
         'd' => 'Fatimah',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3790,7 +3789,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Sawm',
         'c' => 'Hajj',
         'd' => 'Salat',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3802,7 +3801,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Surah Al-Ikhlas',
         'c' => 'Surah Al-Fatiha',
         'd' => 'Surah Yasin',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3814,7 +3813,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Dajjal',
         'c' => 'Jibril',
         'd' => 'Israfil',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3826,7 +3825,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Jibril',
         'c' => 'Mikail',
         'd' => 'Azrael',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3838,7 +3837,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ayub (Job)',
         'c' => 'Nuh (Noah)',
         'd' => 'Musa (Moses)',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3850,7 +3849,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ibrahim (Abraham)',
         'c' => 'Nuh (Noah)',
         'd' => 'Yunus (Jonah)',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3862,7 +3861,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Mikail',
         'c' => 'Israfil',
         'd' => 'Azrael',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3874,7 +3873,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Musa (Moses)',
         'c' => 'Yusuf (Joseph)',
         'd' => 'Dawud (David)',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3887,7 +3886,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Noah',
         'c' => 'Moses',
         'd' => 'Adam',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3899,7 +3898,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Mount Sinai',
         'c' => 'Canaan',
         'd' => 'Golgotha',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3911,7 +3910,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Michael',
         'c' => 'Lucifer',
         'd' => 'Raphael',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3923,7 +3922,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Solomon',
         'c' => 'Joshua',
         'd' => 'Moses',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3935,7 +3934,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Famine',
         'c' => 'Flood',
         'd' => 'Death',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3948,7 +3947,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Ogun',
         'd' => 'Obatala',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3960,7 +3959,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Ogbunabali',
         'c' => 'Ekwensu',
         'd' => 'Ogwugwu',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3972,7 +3971,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Poseidon',
         'c' => 'Zeus',
         'd' => 'Apollo',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3984,7 +3983,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Azrael',
         'c' => 'Jibril (Gabriel)',
         'd' => 'Mikail',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -3996,7 +3995,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Idemili',
         'c' => 'Ala',
         'd' => 'Ekwensu',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4009,7 +4008,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Judas Iscariot',
         'c' => 'John',
         'd' => 'Thomas',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4021,7 +4020,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Saul',
         'c' => 'Samuel',
         'd' => 'Solomon',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4033,7 +4032,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Purgatory',
         'c' => 'Heaven',
         'd' => 'Sheol',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4046,7 +4045,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Brahma',
         'c' => 'Shiva',
         'd' => 'Indra',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4058,7 +4057,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hera',
         'c' => 'Athena',
         'd' => 'Artemis',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4070,7 +4069,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Amadioha',
         'c' => 'Ala',
         'd' => 'Ogwugwu',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4082,7 +4081,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Thor',
         'c' => 'Odin',
         'd' => 'Frey',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4094,7 +4093,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shango',
         'c' => 'Obatala',
         'd' => 'Olodumare',
-        'answer' => Hash::make('d'),
+        'answer' => 'd',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4106,7 +4105,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Yusuf (Joseph)',
         'c' => 'Yunus (Jonah)',
         'd' => 'Ibrahim (Abraham)',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4118,7 +4117,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Saraswati',
         'c' => 'Ganga',
         'd' => 'Godavari',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4131,7 +4130,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Anubis',
         'c' => 'Osiris',
         'd' => 'Horus',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4143,7 +4142,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Huitzilopochtli',
         'c' => 'Tezcatlipoca',
         'd' => 'Tlaloc',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4155,7 +4154,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Neptune',
         'c' => 'Mars',
         'd' => 'Apollo',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4167,7 +4166,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'The god of war',
         'c' => 'The god of the sea',
         'd' => 'The god of wealth',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4179,7 +4178,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Hel',
         'c' => 'Frigg',
         'd' => 'Sif',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4191,7 +4190,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Manannán mac Lir',
         'c' => 'Cernunnos',
         'd' => 'Dagda',
-        'answer' => Hash::make('b'),
+        'answer' => 'b',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4203,7 +4202,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Susanoo',
         'c' => 'Tsukuyomi',
         'd' => 'Inari',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4215,7 +4214,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Shiva',
         'c' => 'Ganesha',
         'd' => 'Brahma',
-        'answer' => Hash::make('c'),
+        'answer' => 'c',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4227,7 +4226,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Yemaya',
         'c' => 'Oya',
         'd' => 'Nana Buluku',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
@@ -4239,7 +4238,7 @@ class QuestionSeeder18 extends Seeder
         'b' => 'Inuit',
         'c' => 'Aztec',
         'd' => 'Maya',
-        'answer' => Hash::make('a'),
+        'answer' => 'a',
         'created_at' => now(),
         'updated_at' => now()
     ],
