@@ -19,10 +19,10 @@ return new class extends Migration
             $table->unsignedBigInteger("sub_fields_id");
             $table->foreign("sub_fields_id")->references("id")->on("sub_fields");
             $table->string('question');
-            $table->string('a');
-            $table->string('b');
-            $table->string('c');
-            $table->string('d');
+            $table->string('a')->nullable();
+            $table->string('b')->nullable();
+            $table->string('c')->nullable();
+            $table->string('d')->nullable();
             $table->string('answer');
             $table->timestamps();
         });

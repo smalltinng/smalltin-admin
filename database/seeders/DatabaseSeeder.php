@@ -18,6 +18,9 @@ class DatabaseSeeder extends Seeder
         QuestionSeeder::run();
         QuestionSeeder2::run();
         QuestionSeeder3::run();
+        QuestionSeeders4::run();
+        QuestionSeeder5::run();
+        QuestionSeeder18::run();
         UserSeeder::run();
         WinnerSeeder::run();
 
