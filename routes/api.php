@@ -19,7 +19,7 @@ Route::get("/fields", [FieldsController::class, "index"]);
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::post("/update", [UserController::class, 'update']);
     Route::post("/logout", [UserController::class, 'logout']);
-    Route::post('/start-quiz', [QuizController::class, 'startQuiz']);
+    Route::get('/start-quiz', [QuizController::class, 'startQuiz']);
     Route::post('/answer-question', [QuizController::class, 'answerQuestion']);
 });
 

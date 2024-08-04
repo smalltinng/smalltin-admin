@@ -4,17 +4,25 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-
+use App\Models\SubField;
+use App\Models\Field;
 class Question extends Model
 {
     use HasFactory;
 
+    public function subfield()
+    {
+        return $this->belongsTo(Subfield::class, 'sub_fields_id');
+    }
 
+    public function field()
+    {
+        return $this->belongsTo(Field::class, 'field_id');
+    }
 
 
 
     protected $hidden = [
-        'answer',
         'remember_token',
     ];
       /**

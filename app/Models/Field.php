@@ -17,4 +17,9 @@ class Field extends Model
     {
         return $this->belongsToMany(User::class, 'user_field');
     }
+
+    public function questions()
+    {
+        return $this->hasMany(Question::class, 'field_id');
+    }
 }
