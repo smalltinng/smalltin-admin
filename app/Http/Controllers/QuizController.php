@@ -9,6 +9,7 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 use App\Models\User;
 use App\Http\Resources\QuestionResource;
 use Illuminate\Support\Carbon;
+use App\Models\MonthlyStats;
 class QuizController extends Controller
 
 {
@@ -55,7 +56,8 @@ class QuizController extends Controller
         // Return the token and the first question
         return response()->json([
             'token' => $token,
-            'question' => $questionsWithoutAnswers[0] // Return the first question without the answer
+            'question' => $questionsWithoutAnswers[0], // Return the first question without the answer
+            'current_question_index' => 0,
         ]);
     }
     
@@ -128,16 +130,18 @@ class QuizController extends Controller
                 'token' => $newToken,
                 'next_question' => $nextQuestion,
                 'is_correct' => $isCorrect,
-                'correct_count' => $correctCount,
-                'incorrect_count' => $incorrectCount,
+                "current_question_index" => $currentIndex,
             ]);
         } else {
+            
             return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
                 'correct_count' => $correctCount,
                 'incorrect_count' => $incorrectCount,
             ]);
+
+
         }
     }
     
