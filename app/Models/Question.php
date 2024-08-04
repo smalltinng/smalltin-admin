@@ -30,10 +30,5 @@ class Question extends Model
      *
      * @return array<string, string>
      */
-    protected function casts(): array
-    {
-        return [
-            'answer' => 'hashed',
-        ];
-    }
+   
 }

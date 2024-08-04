@@ -22,7 +22,7 @@ class QuizController extends Controller
     
         // Fetch questions based on field_id and subfield_id
         $questions = Question::whereIn('field_id', $fieldIds)
-            ->orWhereIn('subfield_id', $subfieldIds) // Updated to directly check subfield_id
+            ->orWhereIn('sub_fields_id', $subfieldIds) // Updated to directly check subfield_id
             ->inRandomOrder()
             ->take(10)
             ->get();
@@ -38,6 +38,7 @@ class QuizController extends Controller
         // Generate a token with the questions and current index
         $payload = [
             'questions' => $questions,
+            "questionsWithoutAnswers"=>$questionsWithoutAnswers,
             'current_question_index' => 0,
             'correct_count' => $correctCount,
             'incorrect_count' => $incorrectCount,
@@ -68,6 +69,7 @@ class QuizController extends Controller
 
 
         $questions = $payload->get('questions');
+        $questionsWithoutAnswers = $payload->get('questionsWithoutAnswers');
         $currentIndex = $payload->get('current_question_index');
         $correctCount = $payload->get('correct_count');
         $incorrectCount = $payload->get('incorrect_count');
@@ -101,14 +103,15 @@ class QuizController extends Controller
         // Generate a new token with the updated index
         $newPayload = [
             'questions' => $questions,
+            "questionsWithoutAnswers"=>$questionsWithoutAnswers,
             'current_question_index' => $currentIndex,
             'correct_count' => $correctCount,
             'incorrect_count' => $incorrectCount,
         ];
         $newToken = JWTAuth::customClaims($newPayload)->fromUser(Auth::user());
         // Check if there are more questions
-        if ($currentIndex < count($questions)) {
-            $nextQuestion = $questions[$currentIndex];
+        if ($currentIndex < count($questionsWithoutAnswers)) {
+            $nextQuestion =   $questionsWithoutAnswers[$currentIndex] ;
             return response()->json([
                 'token' => $newToken,
                 'next_question' => $nextQuestion,
