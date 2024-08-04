@@ -10,6 +10,7 @@ use App\Models\User;
 use App\Http\Resources\QuestionResource;
 use Illuminate\Support\Carbon;
 use App\Models\MonthlyStats;
+use App\Jobs\SaveMonthlyStats;
 class QuizController extends Controller
 
 {
@@ -133,8 +134,13 @@ class QuizController extends Controller
                 "current_question_index" => $currentIndex,
             ]);
         } else {
-            
-            return response()->json([
+        $saveMont =   new SaveMonthlyStats(auth()->id(), [
+             'questions' => $questions,
+            'correct_count' => $correctCount,
+            'incorrect_count' => $incorrectCount,
+        ] );
+        $saveMont->dispatch();
+        return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
                 'correct_count' => $correctCount,
