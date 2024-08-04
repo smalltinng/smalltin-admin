@@ -21,9 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
           "admin"=>  \App\Http\Middleware\AdminAuth::class,
         ]);
-        $middleware->api([
-
-         
+        $middleware->alias([
           "questionApiKey" => \App\Http\Middleware\ApiKeyMiddleware::class,
 
         ]
