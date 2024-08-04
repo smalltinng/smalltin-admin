@@ -21,17 +21,24 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->alias([
           "admin"=>  \App\Http\Middleware\AdminAuth::class,
         ]);
-        // $middleware->alias([
-        //   "questionApiKey" => \App\Http\Middleware\ApiKeyMiddleware::class,
+        $middleware->alias([
+          "questionApiKey" => \App\Http\Middleware\ApiKeyMiddleware::class,
 
-        // ]
+        ]
 
-        // );
+        );
         //  return [
         
         //     \App\Http\Middleware\AdminAuth::class,
         // ];
-    })
+    })->withMiddleware(
+        function (Middleware $middleware){
+            $middleware->alias([
+                "questionApiKey" => \App\Http\Middleware\ApiKeyMiddleware::class,
+      
+              ]);
+        }
+    )
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
