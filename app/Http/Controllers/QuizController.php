@@ -134,12 +134,8 @@ class QuizController extends Controller
                 "current_question_index" => $currentIndex,
             ]);
         } else {
-        $saveMont =   new SaveMonthlyStats(auth()->id(), [
-             'questions' => $questions,
-            'correct_count' => $correctCount,
-            'incorrect_count' => $incorrectCount,
-        ] );
-        $saveMont->dispatch();
+      SaveMonthlyStats::dispatch(auth()->id() , $newPayload );
+        
         return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
