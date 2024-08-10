@@ -14,6 +14,7 @@ class User extends Authenticatable implements JWTSubject
     use HasFactory, Notifiable, HasApiTokens;
 
 
+   
 
     public function getJWTIdentifier()
     {
@@ -38,12 +39,22 @@ class User extends Authenticatable implements JWTSubject
         "is_verified",
         "user_bio",
         "field_id",
-        "sub_field_1",
-        "sub_field_2",
-        "sub_field_3",
-        "sub_field_3",
+        "jobs",
+        "total_question_correct",
+        "total_question_attempt",
         "email_verified_at"
     ];
+
+    public function isAdmin()
+    {
+        return $this->role === 'admin';
+    }
+
+    public function isUser()
+    {
+        return $this->role === 'user';
+    }
+
     public function fields()
     {
         return $this->belongsToMany(Field::class, 'user_field');
@@ -56,6 +67,11 @@ class User extends Authenticatable implements JWTSubject
     public function monthlyStats()
     {
         return $this->hasMany(MonthlyStats::class);
+    }
+
+    public function conversation()
+    {
+        return $this->hasOne(Conversation::class);
     }
 
     /**

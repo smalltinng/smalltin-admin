@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\MessagesController;
 use App\Http\Controllers\Admin\TransactionController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\Admin\UsersController;
+use App\Http\Controllers\ConversationController;
 use App\Http\Controllers\LeaderboardController;
 
 Route::get('/', function () {
@@ -24,6 +25,7 @@ Route::group(['prefix' => 'admin'], function () {
    
  
     Route::middleware('admin')->group(function () {
+        Route::get('/details', [AdminController::class, 'getAdminDetails']);
         Route::get('/dashboard', [AdminController::class, 'dashboard'] )->name('admin.dashboard');
         Route::get('/transactions', [TransactionController::class, 'transaction'] )->name('admin.transaction');
         Route::get('/ladder-board', [LadderController::class, 'ladder_board'] )->name('admin.ladder');
@@ -36,8 +38,13 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get("/questions", [QuestionController::class, "get_all_question"]);
         Route::get("/users", [AdminController::class, "getAllUser"]);
         Route::get('/leaderboard/realtime', [LeaderboardController::class, 'realTime']);
-Route::get('/leaderboard/weekly', [LeaderboardController::class, 'weeklyTop']);
-Route::get('/leaderboard/last-week', [LeaderboardController::class, 'lastWeekTop']);
+        Route::get('/leaderboard/weekly', [LeaderboardController::class, 'weeklyTop']);
+        Route::get('/leaderboard/last-week', [LeaderboardController::class, 'lastWeekTop']);
+        Route::get('/chats', [ConversationController::class, 'index'])->name('admin.chats');
+        Route::get('/unchats', [ConversationController::class, 'unAttendTo'])->name('admin.chats');
+        Route::get('/chats/{id}', [ConversationController::class, 'getMessages']);
+        Route::post('/conversations/{conversation}/assign', [ConversationController::class, 'assignToAdmin']);
+        Route::post('/chats/{conversation}/message', [ConversationController::class, 'sendMessageAsAdmin']);
     });
     
 

@@ -10,6 +10,10 @@ class Question extends Model
 {
     use HasFactory;
 
+
+    protected $fillable = [];
+
+
     public function subfield()
     {
         return $this->belongsTo(Subfield::class, 'sub_fields_id');

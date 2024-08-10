@@ -7,7 +7,10 @@ use Illuminate\Support\Facades\Auth;
 use Inertia\Inertia;
 use Inertia\Response;
 use App\Http\Requests\Auth\LoginRequest;
+use App\Models\Admin;
+use App\Models\Setting;
 use App\Models\User;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\ValidationException;
 
 class AdminController extends Controller
@@ -91,6 +94,33 @@ class AdminController extends Controller
         $users = User::paginate(50); // 50 records per page
         return response()->json(['messages' => "Users Fetch Successfully", "users" => $users]);
     }
+
+
+    public function getAdminDetails()
+{
+    try {
+        // Assuming you're using an 'admin' guard
+        $admin = Auth::guard('admin')->user();
+        
+        if (!$admin) {
+            return response()->json(['error' => 'Admin not found'], 404);
+        }
+
+        // Assuming settings are stored as a JSON field or relation
+       $setting =  Setting::first();
+        $adminDetails = Admin::find($admin->id);
+
+        return response()->json([
+            'admin' => $adminDetails,
+            "settings"=>$setting
+        ], 200);
+    } catch (\Exception $e) {
+        // Log the error
+        Log::error($e->getMessage());
+
+        return response()->json(['error' => 'An error occurred while fetching admin details'], 500);
+    }
+}
 
 
 

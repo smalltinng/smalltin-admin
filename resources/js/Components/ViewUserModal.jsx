@@ -8,7 +8,7 @@ const ViewUserModal = ({ user, closeModal }) => {
       <div className="bg-white p-4 rounded shadow-lg w-1/2">
         <h2 className="text-xl font-bold mb-4">User Details</h2>
         <div className="mb-2">
-          <strong>Name:</strong> {user.name}
+          <strong>Name:</strong> {user.username}
         </div>
         <div className="mb-2">
           <strong>Email:</strong> {user.email}

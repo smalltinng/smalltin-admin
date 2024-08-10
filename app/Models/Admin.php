@@ -21,6 +21,14 @@ class Admin extends Authenticatable
 
     ];
 
+
+    public function conversations()
+    {
+        return $this->belongsToMany(Conversation::class, 'conversation_admin');
+    }
+
+    
+
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -38,4 +46,11 @@ class Admin extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+
+    // public function settings()
+    // {
+    //     //;
+    //     return Setting::first();
+    // }
 }

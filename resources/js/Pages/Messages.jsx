@@ -1,20 +1,59 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MainLayout from '@/Layouts/MainLayout';
+import Chat from '@/Components/Chat';
+import Email from '@/Components/Email';
+import axios from 'axios';
+import moment from 'moment';
+import ConversationCard from '@/Components/ConversationCard';
 
 const Messages = () => {
     const [isEmail, setIsEmail] = useState(false);
-    const [messages, setMessages] = useState([
-        { id: 1, text: 'Hello, how can I help you?', type: 'received' },
-        { id: 2, text: 'I need assistance with my account.', type: 'sent' },
-    ]);
-    const [newMessage, setNewMessage] = useState('');
+    const [chatChannel, setChatChannel] = useState(null);
+    const [typeMessage, setTypeMessage] = useState(true);
+    const [pendingConversation, setPendingConversation] = useState([]);
+    const [recentMessage, setRecentMessage] = useState([]);
+   const [selectedCoversation, setSelectedCoversation] = useState(null)
+  
+    const handleShowChat = (user) => {
+        console.log("hello")
+        setSelectedCoversation(user);
+       
+      };
 
-    const handleSendMessage = () => {
-        if (newMessage.trim() === '') return;
-
-        setMessages([...messages, { id: messages.length + 1, text: newMessage, type: 'sent' }]);
-        setNewMessage('');
+    const getAllConversation = async () => {
+        try {
+            const response = await axios.get("chats", {
+                headers: { 'Content-Type': 'application/json' }
+            });
+            console.log(response.data.data);
+            setRecentMessage(response.data.data);
+        } catch (error) {
+            console.log(error);
+        }
     };
+
+    const getAllUnConversation = async () => {
+        try {
+            const response = await axios.get("unchats", {
+                headers: { 'Content-Type': 'application/json' }
+            });
+            console.log(response.data.data);
+         setPendingConversation(response.data.data);
+           
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
+    useEffect(() => {
+        getAllConversation();
+        getAllUnConversation();
+        setChatChannel("");
+
+        return () => {
+            // Cleanup if needed
+        };
+    }, []);
 
     return (
         <MainLayout title="Messages">
@@ -24,17 +63,13 @@ const Messages = () => {
                     <h1 className="text-xl font-bold">Messages</h1>
                     <div className="flex gap-6">
                         <div
-                            className={`border h-10 w-20 text-center rounded place-content-center ${
-                                isEmail ? 'text-slate-800 font-bold bg-white' : 'text-white font-bold bg-slate-800'
-                            }`}
+                            className={`border h-10 w-20 text-center rounded place-content-center ${!isEmail ? 'text-slate-800 font-bold bg-white' : 'text-white font-bold bg-slate-800'}`}
                             onClick={() => setIsEmail(false)}
                         >
                             Message
                         </div>
                         <div
-                            className={`border h-10 w-20 text-center rounded place-content-center ${
-                                isEmail ? 'text-white font-bold bg-slate-800' : 'text-slate-800 font-bold bg-white'
-                            }`}
+                            className={`border h-10 w-20 text-center rounded place-content-center ${isEmail ? 'text-slate-800 font-bold bg-white' : 'text-white font-bold bg-slate-800'}`}
                             onClick={() => setIsEmail(true)}
                         >
                             Email
@@ -44,91 +79,29 @@ const Messages = () => {
 
                 {/* Messaging Section */}
                 <div className="flex flex-grow overflow-hidden">
-                    <div className="h-[500px] p-2 w-[24%] m-3 rounded-lg bg-white">
-                        <div className="flex w-50 rounded pl-2 place-items-center bg-slate-100 h-12">
-                            <div className="rounded-full bg-cyan-400 h-9 w-9"></div>
-                            <div className="pl-2">
-                                <div className="m-0">Ademola</div>
-                                <div className="text-[10px] m-0">I have not received the money</div>
-                            </div>
+                    <div className="h-[500px] w-[24%] m-3 rounded-lg bg-white">
+                        {/* Chat messages list */}
+                        <div className='flex gap-2 text-xs font-bold p-2'>
+                            <button onClick={() => setTypeMessage(true)} className={typeMessage ? "text-black border-2 border-black rounded-3xl bg-slate-200 p-2" : "text-gray-400 rounded-3xl bg-white p-2 border-2 border-black"}>Recent</button>
+                            <button onClick={() => setTypeMessage(false)} className={typeMessage ? "text-gray-400 border-2 border-black rounded-3xl bg-white p-2" : "text-black rounded-3xl border-2 border-black bg-slate-200 p-2"}>Pending</button>
+                        </div>
+                        <div className='p-2'>
+                            {typeMessage ? recentMessage.length < 1 ? <div> No Recent Message </div> : recentMessage.map(conversation => (
+                                <button  onClick={()=>handleShowChat(conversation)}>
+                                  <ConversationCard selectedConversation={ selectedCoversation}  conversation={conversation}/>
+                                </button>
+                              
+                            )) : pendingConversation.map(conversation => (
+                                <button onClick={()=>handleShowChat(conversation)}>
+                                     <ConversationCard selectedConversation={ selectedCoversation}  conversation={conversation}/>
+                                </button>
+                               
+                            ))}
                         </div>
                     </div>
-                    <div className="flex flex-col h-[500px] w-[80%] m-3 rounded-lg bg-white p-4">
-                        {isEmail ? (
-                            <div className="flex flex-col gap-4">
-                                <div>
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                        Email
-                                    </label>
-                                    <input
-                                        id="email"
-                                        type="email"
-                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                        placeholder="Enter recipient's email"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="subject">
-                                        Subject
-                                    </label>
-                                    <input
-                                        id="subject"
-                                        type="text"
-                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                        placeholder="Enter subject"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="body">
-                                        Message
-                                    </label>
-                                    <textarea
-                                        id="body"
-                                        className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-48"
-                                        placeholder="Enter your message"
-                                    ></textarea>
-                                </div>
-                                <div className="flex items-center justify-between">
-                                    <button
-                                        className="bg-[#285B35] hover:bg-[#2d8142] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                                        type="button"
-                                    >
-                                        Send
-                                    </button>
-                                </div>
-                            </div>
-                        ) : (
-                            <div className="flex flex-col flex-grow overflow-auto">
-                                <div className="flex flex-col gap-2 p-2">
-                                    {messages.map((message) => (
-                                        <div
-                                            key={message.id}
-                                            className={`p-2 rounded-lg max-w-[80%] ${
-                                                message.type === 'received' ? 'bg-gray-200 self-start' : 'bg-[#285B35] text-white self-end'
-                                            }`}
-                                        >
-                                            {message.text}
-                                        </div>
-                                    ))}
-                                </div>
-                                <div className="flex p-2 border-t">
-                                    <input
-                                        type="text"
-                                        className="flex-grow p-2 border rounded"
-                                        placeholder="Type a message..."
-                                        value={newMessage}
-                                        onChange={(e) => setNewMessage(e.target.value)}
-                                    />
-                                    <button
-                                        className="bg-[#285B35] hover:bg-[#2d8142] text-white font-bold py-2 px-4 rounded ml-2"
-                                        type="button"
-                                        onClick={handleSendMessage}
-                                    >
-                                        Send
-                                    </button>
-                                </div>
-                            </div>
-                        )}
+                    <div className="flex flex-col h-[500px] w-[80%] m-3 rounded-lg bg-white">
+                        {/* Email form */}
+                        {isEmail ? <Email /> : <Chat chatChannel={chatChannel} conversation={selectedCoversation} />}
                     </div>
                 </div>
             </div>

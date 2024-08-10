@@ -19,15 +19,20 @@ class SaveMonthlyStats implements ShouldQueue
 
 
 
-    protected $userId;
+    protected $user;
     protected $quizData;
+    protected $correctCount;
+    protected $incorrectCount;
+    protected $questionsCount;
     /**
      * Create a new job instance.
      */
-    public function __construct($userId, $quizData)
+    public function __construct($user, $correctCount, $incorrectCount, $questionsCount )
     {
-        $this->userId = $userId;
-        $this->quizData = $quizData;
+        $this->user = $user;
+        $this->correctCount = $correctCount;
+        $this->incorrectCount = $incorrectCount;
+        $this->questionsCount =$questionsCount;
     }
 
     /**
@@ -35,32 +40,32 @@ class SaveMonthlyStats implements ShouldQueue
      */
     public function handle(): void
     {
-        $user = User::find($this->userId);
+        
 
-        if ($user) {
+        if ($this->user) {
             $currentMonth = Carbon::now()->format('Y-m');
+
 
             // Find the existing MonthlyStats record or create a new one
             $monthlyStats = MonthlyStats::firstOrNew([
-                'user_id' => $this->userId,
+                'user_id' => $this->user->id,
                 'month' => $currentMonth
             ]);
-
+        
             // Update the accumulated statistics
-            $monthlyStats->correct_answers += $this->quizData['correct_count'];
-            $monthlyStats->incorrect_answers += $this->quizData['incorrect_count'];
-            $monthlyStats->total_attempts += count($this->quizData['questions']);
-
+            $monthlyStats->correct_answers += $this->correctCount;
+            $monthlyStats->incorrect_answers += $this->incorrectCount;
+            $monthlyStats->total_attempts += $this->questionsCount;
+        
             // Save the updated MonthlyStats record
             $monthlyStats->save();
-
-            // Calculate and update user stats
-            $user->total_question_correct += $this->quizData['correct_count'];
-            $user->total_question_attempt += count($this->quizData['questions']);
-            $user->jobs += $this->quizData['correct_count'] * 50; // Assuming `jobs` is an integer field
-
-            // Save the updated User record
-            $user->save();
+        
+                 $this->user->total_question_correct +=  $this->correctCount;
+                    $this->user->total_question_attempt += $this->questionsCount;
+                    $this->user->jobs += $this->correctCount * 50; // Assuming `jobs` is an integer field
+        
+                    //Save the updated User record
+                   $this->user->save();
         }
     }
 }

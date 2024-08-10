@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         QuestionSeeder18::run();
         UserSeeder::run();
         WinnerSeeder::run();
+        SettingSeeder::run();
 
         
         

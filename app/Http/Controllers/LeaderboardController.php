@@ -8,16 +8,18 @@ use App\Models\MonthlyStats;
 use App\Models\Winner;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
+use App\Http\Resources\MonthlyStatsResource;
 
 class LeaderboardController extends Controller
 {
     public function realTime()
     {
-        $users = MonthlyStats::where('month', Carbon::now()->startOfMonth())
+        $users = MonthlyStats::where('month', Carbon::now()->format('Y-m'))
             ->orderByDesc('correct_answers')
             ->limit(10)
             ->with('user')
             ->get();
+            $monthlyStats = MonthlyStatsResource::collection($users);
             return response()->json(["data"=> $users]);
 
     }
@@ -29,6 +31,8 @@ class LeaderboardController extends Controller
             ->limit(10)
             ->with('user')
             ->get();
+
+            $monthlyStats = MonthlyStatsResource::collection($users);
             return response()->json(["data"=> $users]);
 
     }

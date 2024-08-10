@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import MainLayout from '@/Layouts/MainLayout';
 import ViewUserModal from '@/Components/ViewUserModal';
 import axios from 'axios';
+import Chat from '@/Components/Chat'; // Assuming you have a Chat component
+import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline'; // Correct import for Heroicons v2
+import MessageInput from '@/Components/MessageInput';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -10,6 +13,8 @@ const UserList = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [totalUsers, setTotalUsers] = useState(0);
+  const [showChat, setShowChat] = useState(false);
+  const [selectedUser, setSelectedUser] = useState(null);
 
   useEffect(() => {
     fetchUsers(currentPage);
@@ -39,6 +44,11 @@ const UserList = () => {
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
+  };
+
+  const handleShowChat = (user) => {
+    setSelectedUser(user);
+    setShowChat(!showChat);
   };
 
   return (
@@ -73,6 +83,9 @@ const UserList = () => {
                     <td className="border px-4 py-2">{user.email}</td>
                     <td className="border px-4 py-2 flex justify-around">
                       <button className="p-1 bg-green-500 text-white rounded" onClick={() => handleView(user)}>View</button>
+                      <button className="p-1 bg-green-500 text-white rounded" onClick={() => handleShowChat(user)}>
+                        <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6" />
+                      </button>
                     </td>
                   </tr>
                 ))
@@ -107,6 +120,14 @@ const UserList = () => {
           user={currentUser}
           closeModal={() => setShowViewModal(false)}
         />
+      )}
+      {showChat && (
+        <div className="fixed bottom-20 right-4 w-80 h-96 bg-white shadow-lg rounded-lg flex flex-col">
+        
+          <div className='flex-grow overflow-auto flex flex-col gap-2 '>
+            <Chat chatChannel=''  user={selectedUser} setShowChat={setShowChat}/>
+          </div>
+        </div>
       )}
     </MainLayout>
   );

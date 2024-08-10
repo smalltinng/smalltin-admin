@@ -35,7 +35,7 @@ class QuizController extends Controller
     
         foreach ($questions as $question) {
             $questionsWithoutAnswers[] = new QuestionResource($question); // Assuming this hides the answer
-            $answers[] = encrypt($question->answer); // Encrypt and store the correct answers
+            $answers[] = $question->answer; // Encrypt and store the correct answers
         }
     
         // Initialize correct and incorrect answer counts
@@ -100,7 +100,7 @@ class QuizController extends Controller
     
         // Validate the answer
         $answer = $request->input('answer');
-        $correctAnswer = decrypt($answers[$currentIndex]); // Decrypt the correct answer
+        $correctAnswer = $answers[$currentIndex]; // Decrypt the correct answer
     
         // Check answer correctness and update counts
         $isCorrect = ($answer == $correctAnswer);
@@ -134,14 +134,51 @@ class QuizController extends Controller
                 "current_question_index" => $currentIndex,
             ]);
         } else {
-      SaveMonthlyStats::dispatch(auth()->id() , $newPayload );
-        
+     // SaveMonthlyStats::dispatch(auth()->id() , $newPayload );
+     $user = User::find(auth()->id());
+
+
+     SaveMonthlyStats::dispatchAfterResponse($user,$correctCount, $incorrectCount, count($questions));
+    //  $userTotalCorrect = $user->total_question_correct + $correctCount;
+    //  $userTotalAttempt = $user->total_question_attempt + count($questions);
+    //  $jobs = $user->jobs + $correctCount * 50;
+    //  $user->update([
+    //     'total_question_correct' => $userTotalCorrect,
+    //     "total_question_attempt"=> $userTotalAttempt,
+    //     "jobs"=>$jobs
+
+    
+    // ]);
+
+    // $currentMonth = Carbon::now()->format('Y-m');
+
+    // // Find the existing MonthlyStats record or create a new one
+    // $monthlyStats = MonthlyStats::firstOrNew([
+    //     'user_id' => $user->id,
+    //     'month' => $currentMonth
+    // ]);
+
+    // // Update the accumulated statistics
+    // $monthlyStats->correct_answers += $correctCount;
+    // $monthlyStats->incorrect_answers += $incorrectCount;
+    // $monthlyStats->total_attempts += count($questions);
+
+    // // Save the updated MonthlyStats record
+    // $monthlyStats->save();
+
+    //      $user->total_question_correct +=  $correctCount;
+    //         $user->total_question_attempt += count($questions);
+    //         $user->jobs += $correctCount * 50; // Assuming `jobs` is an integer field
+
+    //         //Save the updated User record
+    //        $user->save();
         return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
                 'correct_count' => $correctCount,
+                "jobs" => $correctCount * 50,
                 'incorrect_count' => $incorrectCount,
-            ]);
+            ], 201);
 
 
         }

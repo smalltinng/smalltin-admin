@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuizController;
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\MonthlyStatsController;
+use App\Http\Controllers\ChatController;
+
+
 Route::get('/user', [UserController::class, "index"]
 )->middleware('auth:sanctum');
 
@@ -19,6 +23,10 @@ Route::get("/fields", [FieldsController::class, "index"]);
 Route::middleware(['auth:sanctum'])->group(function () {
     Route::post("/update", [UserController::class, 'update']);
     Route::post("/logout", [UserController::class, 'logout']);
+    Route::get("/ladder", [MonthlyStatsController::class, 'index']);
+    Route::get('/chats', [ChatController::class, 'index']);
+    Route::get('/message', [ChatController::class, 'show']);
+    Route::post('/message', [ChatController::class, 'create']);
     Route::middleware('questionApiKey')->group(function () {
         Route::get('/start-quiz', [QuizController::class, 'startQuiz']);
         Route::post('/answer-question', [QuizController::class, 'answerQuestion']);
