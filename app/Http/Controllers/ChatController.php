@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\GotMessage;
 use App\Models\Conversation;
 use App\Models\Message;
 use Illuminate\Http\Request;
@@ -37,6 +38,7 @@ return response()->json([
     
         $message->sender()->associate($userId); // This sets both sender_id and sender_type
         $message->save();
+        event(new GotMessage($message));
     
         return response()->json([
             'success' => true,

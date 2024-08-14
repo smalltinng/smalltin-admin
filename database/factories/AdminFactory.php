@@ -20,8 +20,8 @@ class AdminFactory extends Factory
     {
         return [
 
-            'user_name' => "Admin",
-            'full_name' => "Ibukunolwa Ademola",
+            'username' => "Admin",
+            'fullname' => "Ibukunolwa Ademola",
             'email' => "developer@smalltin.com",
             'email_verified_at' => now(),
             'password' =>  Hash::make('password'),

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\GotMessage;
 use App\Models\Conversation;
 use App\Http\Requests\StoreConversationRequest;
 use App\Http\Requests\UpdateConversationRequest;
@@ -95,6 +96,7 @@ public function sendMessageAsAdmin(Request $request, $conversationId)
 
     $message->sender()->associate($admin); // This sets both sender_id and sender_type
     $message->save();
+    event(new GotMessage($message));
 
     return response()->json([
         'success' => true,

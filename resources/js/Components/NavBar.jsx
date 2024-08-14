@@ -36,7 +36,7 @@ function NavBar({ title, adminDetails }) {
       
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">
-          <span className="font-medium text-gray-700">{adminDetails?.full_name ?? "Welcome"}</span>
+          <span className="font-medium text-gray-700">{adminDetails?.fullname ?? "Welcome"}</span>
           <button onClick={handleEditAdmin} aria-label="Edit Admin Details" className="p-2 hover:bg-gray-200 rounded-full">
             <FaEdit className="text-gray-600" />
           </button>

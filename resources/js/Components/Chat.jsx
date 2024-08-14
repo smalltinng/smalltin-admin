@@ -1,15 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
+import io from 'socket.io-client';
 import MessageInput from './MessageInput';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import axios from 'axios';
-// import echo from './echo'; 
 
-const Chat = ({ chatChannel, user, setShowChat, conversation }) => {
+const Chat = ({ user, setShowChat, conversation }) => {
     const [messages, setMessages] = useState([]);
     const [admin, setAdmin] = useState(null);
     const [admins, setAdmins] = useState([]);
     const [hasAdmin, setHasAdmin] = useState(false);
+    const [typingMessage, setTypingMessage] = useState('');
     const scroll = useRef(null);
+    const socket = useRef(null);
 
     const getAdminDetails = () => {
         const adminDetails = localStorage.getItem('adminDetails');
@@ -23,11 +25,22 @@ const Chat = ({ chatChannel, user, setShowChat, conversation }) => {
     };
 
     const connectWebSocket = () => {
-        window.Echo.channel(`chats.${conversation?.id}`)
-            .listen('GotMessage', async (e) => {
-               // await fetchMessages(conversation?.id);
-            console.log("conected");
-            });
+        socket.current = io('http://localhost:3000'); // Replace with your server URL
+
+        socket.current.emit('joinChat', conversation?.id);
+
+        socket.current.on('typing', (user) => {
+            setTypingMessage(`${user.username} is typing...`);
+        });
+
+        socket.current.on('stopTyping', () => {
+            setTypingMessage('');
+        });
+
+        socket.current.on('newMessage', (message) => {
+            setMessages((prevMessages) => [...prevMessages, message]);
+            scrollToBottom();
+        });
     };
 
     const fetchMessages = async (conversationId) => {
@@ -65,19 +78,16 @@ const Chat = ({ chatChannel, user, setShowChat, conversation }) => {
             connectWebSocket();
         }
         return () => {
-            if (chatChannel) {
-                chatChannel.off('message');
+            if (socket.current) {
+                socket.current.disconnect();
             }
         };
-    }, [chatChannel, conversation?.id]);
+    }, [conversation?.id]);
 
     const sendMessageAsAdmin = async (conversationId, messageText) => {
         try {
-            await axios.post(`chats/${conversationId}/message`, {
-                message: messageText,
-            }, {
-                headers: { 'Content-Type': 'application/json' },
-            });
+            const message = { message: messageText, sender: admin };
+            socket.current.emit('message', conversationId, message);
         } catch (error) {
             console.error("Error sending message:", error);
         }
@@ -87,6 +97,14 @@ const Chat = ({ chatChannel, user, setShowChat, conversation }) => {
         const message = { message: messageText, id: new Date().getTime(), sender: { email: admin?.email } };
         setMessages((prevMessages) => [...prevMessages, message]);  // Optimistic UI update
         sendMessageAsAdmin(conversation?.id, messageText);
+    };
+
+    const handleTyping = () => {
+        socket.current.emit('typing', conversation?.id, admin);
+    };
+
+    const handleStopTyping = () => {
+        socket.current.emit('stopTyping', conversation?.id);
     };
 
     const handleJoin = () => {
@@ -131,10 +149,17 @@ const Chat = ({ chatChannel, user, setShowChat, conversation }) => {
                         {message.message}
                     </div>
                 ))}
+                {typingMessage && (
+                    <div className="text-gray-500">{typingMessage}</div>
+                )}
                 <div ref={scroll} />
             </div>
             {isCurrentAdminInConversation ? (
-                <MessageInput onSendMessage={handleSendMessage} />
+                <MessageInput
+                    onSendMessage={handleSendMessage}
+                    onTyping={handleTyping}
+                    onStopTyping={handleStopTyping}
+                />
             ) : (
                 <div className='flex p-2 w-full'>
                     <button

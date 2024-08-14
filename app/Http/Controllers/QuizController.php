@@ -134,54 +134,39 @@ class QuizController extends Controller
                 "current_question_index" => $currentIndex,
             ]);
         } else {
-     // SaveMonthlyStats::dispatch(auth()->id() , $newPayload );
-     $user = User::find(auth()->id());
-
-
-     SaveMonthlyStats::dispatchAfterResponse($user,$correctCount, $incorrectCount, count($questions));
-    //  $userTotalCorrect = $user->total_question_correct + $correctCount;
-    //  $userTotalAttempt = $user->total_question_attempt + count($questions);
-    //  $jobs = $user->jobs + $correctCount * 50;
-    //  $user->update([
-    //     'total_question_correct' => $userTotalCorrect,
-    //     "total_question_attempt"=> $userTotalAttempt,
-    //     "jobs"=>$jobs
-
+            // Calculate final score based on correct and incorrect counts
+            $score = 0;
     
-    // ]);
-
-    // $currentMonth = Carbon::now()->format('Y-m');
-
-    // // Find the existing MonthlyStats record or create a new one
-    // $monthlyStats = MonthlyStats::firstOrNew([
-    //     'user_id' => $user->id,
-    //     'month' => $currentMonth
-    // ]);
-
-    // // Update the accumulated statistics
-    // $monthlyStats->correct_answers += $correctCount;
-    // $monthlyStats->incorrect_answers += $incorrectCount;
-    // $monthlyStats->total_attempts += count($questions);
-
-    // // Save the updated MonthlyStats record
-    // $monthlyStats->save();
-
-    //      $user->total_question_correct +=  $correctCount;
-    //         $user->total_question_attempt += count($questions);
-    //         $user->jobs += $correctCount * 50; // Assuming `jobs` is an integer field
-
-    //         //Save the updated User record
-    //        $user->save();
-        return response()->json([
+            if ($correctCount == 10) {
+                $score = 500;
+            } elseif ($correctCount == 9) {
+                $score = 400;
+            } elseif ($correctCount == 8) {
+                $score = 300;
+            } elseif ($correctCount == 7) {
+                $score = 50;
+            } else {
+                $score = 0;
+            }
+    
+            // Deduct points for incorrect answers
+            // $finalScore = $score - ($incorrectCount * 100);
+            // $finalScore = max($finalScore, 0); // Ensure the score doesn't go below 0
+    
+            // Dispatch the job to save monthly stats
+            $user = User::find(auth()->id());
+            SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, count($questions));
+    
+            // Return the final response
+            return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
                 'correct_count' => $correctCount,
-                "jobs" => $correctCount * 50,
+                'jobs' => $score,
                 'incorrect_count' => $incorrectCount,
             ], 201);
-
-
         }
     }
+    
     
 }    

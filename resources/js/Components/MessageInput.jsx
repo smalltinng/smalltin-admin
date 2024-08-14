@@ -1,33 +1,41 @@
 import React, { useState } from 'react';
 
-const MessageInput = ({ onSendMessage }) => {
-    const [input, setInput] = useState('');
+const MessageInput = ({ onSendMessage, onTyping, onStopTyping }) => {
+    const [message, setMessage] = useState('');
 
-    const handleChange = (e) => {
-        setInput(e.target.value);
+    const handleInputChange = (e) => {
+        setMessage(e.target.value);
+        onTyping();
+        if (e.target.value === '') {
+            onStopTyping();
+        }
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (input.trim() !== '') {
-            onSendMessage(input);
-            setInput('');
+    const handleSendMessage = () => {
+        if (message.trim() !== '') {
+            onSendMessage(message);
+            setMessage('');
+            onStopTyping(); // Stop typing once the message is sent
         }
     };
 
     return (
-        <form onSubmit={handleSubmit} className="flex p-2 border-t border-gray-200">
+        <div className="flex items-center p-2 border-t">
             <input
                 type="text"
-                value={input}
-                onChange={handleChange}
-                className="flex-grow p-2 border rounded-l-lg focus:outline-none"
+                value={message}
+                onChange={handleInputChange}
+                className="flex-grow p-2 border rounded"
                 placeholder="Type a message..."
+                onBlur={onStopTyping} // Stop typing when input loses focus
             />
-            <button type="submit" className="px-4 py-2 bg-[#285B35] text-white rounded-r-lg">
+            <button
+                onClick={handleSendMessage}
+                className="ml-2 px-4 py-2 text-white bg-[#285B35] rounded"
+            >
                 Send
             </button>
-        </form>
+        </div>
     );
 };
 

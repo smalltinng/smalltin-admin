@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreQuestionRequest;
 use App\Http\Requests\UpdateQuestionRequest;
 use App\Models\Question;
+use Illuminate\Http\Request;
 use Inertia\Inertia;
+
 
 class QuestionController extends Controller
 {
@@ -26,9 +28,26 @@ class QuestionController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+     $validataData =   $request->validate([
+            "field_id" =>"required|int",
+            "sub_fields_id" => "required|int",
+            "question" =>"required",
+            "a" => "required",
+            "b"  => "required",
+            "c"  => "sometimes",
+            "d"  => "sometimes",
+            "answer" => "required"
+        ]);
+
+        $question = Question::create($validataData);
+
+        return response()->json([
+            "message"=>"question created successfuly"
+        ]);
+
+        
     }
 
     /**
@@ -52,7 +71,7 @@ class QuestionController extends Controller
      */
     public function edit(Question $question)
     {
-        //
+        
     }
 
     /**
@@ -60,7 +79,7 @@ class QuestionController extends Controller
      */
     public function update(UpdateQuestionRequest $request, Question $question)
     {
-        //
+        
     }
 
     /**

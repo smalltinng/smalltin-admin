@@ -15,7 +15,7 @@ const Messages = () => {
    const [selectedCoversation, setSelectedCoversation] = useState(null)
   
     const handleShowChat = (user) => {
-        console.log("hello")
+        
         setSelectedCoversation(user);
        
       };
@@ -25,7 +25,7 @@ const Messages = () => {
             const response = await axios.get("chats", {
                 headers: { 'Content-Type': 'application/json' }
             });
-            console.log(response.data.data);
+           
             setRecentMessage(response.data.data);
         } catch (error) {
             console.log(error);
@@ -37,7 +37,7 @@ const Messages = () => {
             const response = await axios.get("unchats", {
                 headers: { 'Content-Type': 'application/json' }
             });
-            console.log(response.data.data);
+            
          setPendingConversation(response.data.data);
            
         } catch (error) {

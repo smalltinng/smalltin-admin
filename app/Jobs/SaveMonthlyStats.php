@@ -44,6 +44,19 @@ class SaveMonthlyStats implements ShouldQueue
 
         if ($this->user) {
             $currentMonth = Carbon::now()->format('Y-m');
+            $score = 0;
+            
+            if ( $this->correctCount == 10) {
+                $score = 500;
+            } elseif ( $this->correctCount == 9) {
+                $score = 400;
+            } elseif ( $this->correctCount == 8) {
+                $score = 300;
+            } elseif ( $this->correctCount == 7) {
+                $score = 50;
+            } else {
+                $score = 0;
+            }
 
 
             // Find the existing MonthlyStats record or create a new one
@@ -62,7 +75,7 @@ class SaveMonthlyStats implements ShouldQueue
         
                  $this->user->total_question_correct +=  $this->correctCount;
                     $this->user->total_question_attempt += $this->questionsCount;
-                    $this->user->jobs += $this->correctCount * 50; // Assuming `jobs` is an integer field
+                    $this->user->jobs += $score; // Assuming `jobs` is an integer field
         
                     //Save the updated User record
                    $this->user->save();

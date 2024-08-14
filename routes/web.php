@@ -36,6 +36,8 @@ Route::group(['prefix' => 'admin'], function () {
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::get("/questions", [QuestionController::class, "get_all_question"]);
+        Route::post("/question", [QuestionController::class, "create"]);
+        Route::patch("/edit-question", [QuestionController::class, "update"]);
         Route::get("/users", [AdminController::class, "getAllUser"]);
         Route::get('/leaderboard/realtime', [LeaderboardController::class, 'realTime']);
         Route::get('/leaderboard/weekly', [LeaderboardController::class, 'weeklyTop']);
@@ -43,8 +45,9 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('/chats', [ConversationController::class, 'index'])->name('admin.chats');
         Route::get('/unchats', [ConversationController::class, 'unAttendTo'])->name('admin.chats');
         Route::get('/chats/{id}', [ConversationController::class, 'getMessages']);
-        Route::post('/conversations/{conversation}/assign', [ConversationController::class, 'assignToAdmin']);
+        Route::post('/chats/{conversation}/assign', [ConversationController::class, 'assignToAdmin']);
         Route::post('/chats/{conversation}/message', [ConversationController::class, 'sendMessageAsAdmin']);
+
     });
     
 

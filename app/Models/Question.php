@@ -11,7 +11,17 @@ class Question extends Model
     use HasFactory;
 
 
-    protected $fillable = [];
+    protected $fillable = [
+        "field_id",
+        "sub_fields_id",
+        "question",
+        "a",
+        "b",
+        "c",
+        "d",
+        "answer"
+
+    ];
 
 
     public function subfield()
