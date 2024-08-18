@@ -7,9 +7,11 @@ use App\Models\User;
 use App\Notifications\EmailVerificationNotification;
 use App\Notifications\ForgetPasswordNotification;
 use Error;
+use Exception as GlobalException;
 use Ichtrojan\Otp\Otp;
 use Illuminate\Contracts\Support\ValidatedData;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Exception;
 
 class UserController extends Controller
@@ -133,7 +135,7 @@ class UserController extends Controller
         try {
             // Validate the email input
             $validatedData = $request->validate([
-                "email" => "required|string|email"
+                "email" => "required|string"
             ]);
             $email = $validatedData['email'];
 
@@ -166,7 +168,7 @@ class UserController extends Controller
                         "message" => "User Exists. Proceed!",
                         "status" => true,
                         "registration" => "Complete",
-                        "data" => $user->fresh()->with(),
+                        "data" => $user->fresh(),
                     ], 200);
                 } else {
                     return response()->json([
@@ -188,7 +190,7 @@ class UserController extends Controller
                 ];
                 return response()->json($success, 201);
             }
-        } catch (Error $e) {
+        } catch ( \Exception $e) {
             return response()->json([
                 'message' => 'Validation error',
                 'errors' => $e,
@@ -500,100 +502,117 @@ class UserController extends Controller
         }
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
+   /**
+ * Update the specified resource in storage.
+ */
 
-      /**
-     * @OA\Put(
-     *     path="/api/update",
-     *     summary="Update user information",
-     *     description="This endpoint updates the user's information. Only the fields provided in the request will be updated.",
-     *     operationId="updateUser",
-     *     tags={"User"},
-     *     security={{"sanctum":{}}},
-     *     @OA\RequestBody(
-     *         required=true,
-     *         @OA\JsonContent(
-     *             @OA\Property(property="username", type="string", example="new_username"),
-     *             @OA\Property(property="user_bio", type="string", example="This is my new bio"),
-     *             @OA\Property(property="password", type="string", example="newpassword"),
-     *             @OA\Property(property="password_confirmation", type="string", example="newpassword"),
-     *             @OA\Property(property="field_id", type="integer", example=1),
-     *             @OA\Property(property="sub_field_1", type="string", example="value1"),
-     *             @OA\Property(property="sub_field_2", type="string", example="value2"),
-     *             @OA\Property(property="sub_field_3", type="string", example="value3"),
-     *             @OA\Property(property="sub_field_4", type="string", example="value4")
-     *         )
-     *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="User updated successfully.",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="User updated successfully"),
-     *             @OA\Property(property="status", type="boolean", example=true),
-     *             @OA\Property(property="user", type="object", 
-     *                 @OA\Property(property="id", type="integer", example=1),
-     *                 @OA\Property(property="username", type="string", example="new_username"),
-     *                 @OA\Property(property="email", type="string", example="user@example.com"),
-     *                 @OA\Property(property="user_bio", type="string", example="This is my new bio")
-     *             )
-     *         )
-     *     ),
-     *     @OA\Response(
-     *         response=400,
-     *         description="Error updating user.",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Error updating user"),
-     *             @OA\Property(property="status", type="boolean", example=false)
-     *         )
-     *     )
-     * )
-     */
-    public function update(Request $request)
-    {
-        $validatedData = $request->validate([
-            'username' => 'sometimes|unique:users,username|string',
-            'user_bio' => 'sometimes|string',
-            'password' => 'sometimes|confirmed|min:6',
-            'fields' => 'sometimes|array',
-            'fields.*' => 'int',
-            'sub_fields' => 'sometimes|array',
-            'sub_fields.*' => 'int'
-        ]);
-    
-        $user = User::find(auth()->id());
-    
-        if ($user) {
-            // Update user data
-            $user->update($validatedData);
-    
-            // Update fields
-            if (isset($validatedData['fields'])) {
-                $user->fields()->sync($validatedData['fields']);
+ /**
+ * @OA\Put(
+ *     path="/api/update",
+ *     summary="Update user information",
+ *     description="This endpoint updates the user's information. Only the fields provided in the request will be updated. If a new profile picture is uploaded, the old one will be deleted to save space.",
+ *     operationId="updateUser",
+ *     tags={"User"},
+ *     security={{"sanctum":{}}},
+ *     @OA\RequestBody(
+ *         required=true,
+ *         @OA\MultipartContent(
+ *             @OA\Property(property="username", type="string", example="new_username"),
+ *             @OA\Property(property="user_bio", type="string", example="This is my new bio"),
+ *             @OA\Property(property="password", type="string", example="newpassword"),
+ *             @OA\Property(property="password_confirmation", type="string", example="newpassword"),
+ *             @OA\Property(property="fields", type="array", @OA\Items(type="integer"), example={1, 2, 3}),
+ *             @OA\Property(property="sub_fields", type="array", @OA\Items(type="integer"), example={4, 5, 6}),
+ *             @OA\Property(
+ *                 property="profile", 
+ *                 type="string", 
+ *                 format="binary", 
+ *                 description="Profile picture upload (JPEG, PNG, JPG, GIF). Maximum size is 2MB."
+ *             )
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=200,
+ *         description="User updated successfully.",
+ *         @OA\JsonContent(
+ *             @OA\Property(property="message", type="string", example="User updated successfully"),
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="user", type="object", 
+ *                 @OA\Property(property="id", type="integer", example=1),
+ *                 @OA\Property(property="username", type="string", example="new_username"),
+ *                 @OA\Property(property="email", type="string", example="user@example.com"),
+ *                 @OA\Property(property="user_bio", type="string", example="This is my new bio"),
+ *                 @OA\Property(property="profile", type="string", example="profiles/abcd1234.jpg")
+ *             )
+ *         )
+ *     ),
+ *     @OA\Response(
+ *         response=400,
+ *         description="Error updating user.",
+ *         @OA\JsonContent(
+ *             @OA\Property(property="message", type="string", example="Error updating user"),
+ *             @OA\Property(property="status", type="boolean", example=false)
+ *         )
+ *     )
+ * )
+ */
+public function update(Request $request)
+{
+    $validatedData = $request->validate([
+        'username' => 'sometimes|unique:users,username|string',
+        'user_bio' => 'sometimes|string',
+        'password' => 'sometimes|confirmed|min:6',
+        'fields' => 'sometimes|array',
+        'fields.*' => 'int',
+        'sub_fields' => 'sometimes|array',
+        'sub_fields.*' => 'int',
+        'profile' => 'sometimes|image|mimes:jpeg,png,jpg,gif|max:2048',
+    ]);
+
+    $user = User::find(auth()->id());
+
+    if ($user) {
+        // Handle profile image upload
+        if ($request->hasFile('profile')) {
+            // Delete the old profile image if it exists
+            if ($user->profile) {
+                Storage::disk('public')->delete($user->profile);
             }
-    
-            // Update subfields
-            if (isset($validatedData['sub_fields'])) {
-                $user->subfields()->sync($validatedData['sub_fields']);
-            }
-    
-            $success = [
-                'message' => 'User updated successfully',
-                'status' => true,
-                'user' => $user->fresh(),
-            ];
-    
-            return response()->json($success, 200);
-        } else {
-            $error = [
-                'message' => 'Error updating user',
-                'status' => false
-            ];
-            return response()->json($error, 400);
+
+            // Store the new profile image
+            $profileImage = $request->file('profile');
+            $profilePath = $profileImage->store('profiles', 'public');
+            $validatedData['profile'] = $profilePath;
         }
+
+        // Update user data
+        $user->update($validatedData);
+
+        // Update fields
+        if (isset($validatedData['fields'])) {
+            $user->fields()->sync($validatedData['fields']);
+        }
+
+        // Update subfields
+        if (isset($validatedData['sub_fields'])) {
+            $user->subfields()->sync($validatedData['sub_fields']);
+        }
+
+        $success = [
+            'message' => 'User updated successfully',
+            'status' => true,
+            'user' => $user->fresh(),
+        ];
+
+        return response()->json($success, 200);
+    } else {
+        $error = [
+            'message' => 'Error updating user',
+            'status' => false,
+        ];
+        return response()->json($error, 400);
     }
-    
+}
 
  /**
      * @OA\Post(

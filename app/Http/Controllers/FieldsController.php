@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Field;
 use Illuminate\Http\Request;
-
+use Inertia\Inertia;
 class FieldsController extends Controller
 {
     /**
@@ -24,17 +24,23 @@ class FieldsController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function getForadmin()
     {
-        //
+        $fields = Field::with("subFields")->paginate(50);
+        $success = [
+            'message'=> "field Fecth successfully",
+            'fields'=>$fields,
+
+        ];
+        return response()->json($success, 200);
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show()
     {
-        //
+        return Inertia::render('Fields');
     }
 
     /**

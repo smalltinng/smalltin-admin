@@ -8,7 +8,7 @@ const io = new SocketIOServer(server, {
     cors: {
         origin: "*", // You can restrict this to your frontend URL
         methods: ["GET", "POST"],
-    }
+    } 
 });
 
 server.listen(3000, () => {
@@ -28,19 +28,27 @@ io.on("connection", (socket) => {
     });
 
     socket.on('typing', (chatId, user) => {
-        console.log(`User ${user.fullname} is typing in chat ${chatId}`);
-        socket.to(`chats.${chatId}`).emit('typing', user);
+        console.log(`User ${user.username} is typing in chat ${chatId}`);
+        // socket.to(`chats.${chatId}`).emit('typing', user);
+        io.to(`chats.${chatId}`).emit('typing', user);
+        socket.broadcast.emit(`typing/${chatId}`,  user);
     });
 
-    socket.on('stopTyping', (chatId) => {
+    socket.on('stopTyping', (chatId) => {  
         console.log(`Typing stopped in chat ${chatId}`);
-        socket.to(`chats.${chatId}`).emit('stopTyping');
+        // io.to(`chats.${chatId}`).emit('stopTyping');
+        io.to(`stopTyping/${chatId}`, "Stop");
+        socket.broadcast.emit(`stopTyping/${chatId}`, );
+
+
     });
 
-    // socket.on('message', (chatId, message) => {
-    //     console.log(`New message in chat ${chatId}:`, message);
-    //     io.to(`chats.${chatId}`).emit('newMessage', message);
-    // });
+    socket.on('message', (chatId, message) => {
+        console.log(`News message in chat ${chatId}:`, message);
+        io.to(`chats.${chatId}`).emit('newMessage', message);
+        socket.broadcast.emit(`message/${chatId}`, message);
+
+    });
 
     socket.on("disconnect", () => {
         console.log(`User disconnected: ${socket.id}`);

@@ -25,20 +25,22 @@ const Chat = ({ user, setShowChat, conversation }) => {
     };
 
     const connectWebSocket = () => {
-        socket.current = io('http://localhost:3000'); // Replace with your server URL
+        socket.current = io('http://localhost:3000',
+        ); // Replace with your server URL
 
         socket.current.emit('joinChat', conversation?.id);
 
-        socket.current.on('typing', (user) => {
+        socket.current.on(`typing/${conversation?.id}`, (user) => {
             setTypingMessage(`${user.username} is typing...`);
         });
 
-        socket.current.on('stopTyping', () => {
+        socket.current.on(`stopTyping${conversation?.id}`, () => {
             setTypingMessage('');
         });
 
-        socket.current.on('newMessage', (message) => {
+        socket.current.on(`message/${conversation?.id}`, (message) => {
             setMessages((prevMessages) => [...prevMessages, message]);
+            
             scrollToBottom();
         });
     };
@@ -84,10 +86,25 @@ const Chat = ({ user, setShowChat, conversation }) => {
         };
     }, [conversation?.id]);
 
+    const sentTodatabase = async (conversationId, messageText)=>{
+        try {
+            var mess = await axios.post(`chats/${conversationId}/message`,
+                {
+                message : messageText
+                },{
+                headers: { 'Content-Type': 'application/json' } , }
+               )
+               console.log(mess);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
     const sendMessageAsAdmin = async (conversationId, messageText) => {
         try {
             const message = { message: messageText, sender: admin };
             socket.current.emit('message', conversationId, message);
+            sentTodatabase(conversationId, messageText)
         } catch (error) {
             console.error("Error sending message:", error);
         }
@@ -95,7 +112,8 @@ const Chat = ({ user, setShowChat, conversation }) => {
 
     const handleSendMessage = (messageText) => {
         const message = { message: messageText, id: new Date().getTime(), sender: { email: admin?.email } };
-        setMessages((prevMessages) => [...prevMessages, message]);  // Optimistic UI update
+        setMessages((prevMessages) => [...prevMessages, message]);  
+        // Optimistic UI update
         sendMessageAsAdmin(conversation?.id, messageText);
     };
 

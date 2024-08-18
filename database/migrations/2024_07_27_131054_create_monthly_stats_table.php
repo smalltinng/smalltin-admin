@@ -15,6 +15,7 @@ class CreateMonthlyStatsTable extends Migration
             $table->integer('correct_answers')->default(0);
             $table->integer('incorrect_answers')->default(0);
             $table->integer('total_attempts')->default(0);
+            $table->integer('monthly_jobs')->default(0);
             $table->string('month');
             $table->timestamps();
 

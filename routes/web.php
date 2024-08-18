@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\TransactionController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\Admin\UsersController;
 use App\Http\Controllers\ConversationController;
+use App\Http\Controllers\FieldsController;
 use App\Http\Controllers\LeaderboardController;
 
 Route::get('/', function () {
@@ -30,6 +31,9 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('/transactions', [TransactionController::class, 'transaction'] )->name('admin.transaction');
         Route::get('/ladder-board', [LadderController::class, 'ladder_board'] )->name('admin.ladder');
         Route::get('/messages', [MessagesController::class, 'message'] )->name('admin.messages');
+        Route::get('/fields', [FieldsController::class, 'show'] )->name('admin.fields');
+        Route::get('/all-fields', [FieldsController::class, 'getForadmin'] )->name('admin.fields');
+        
         Route::get('/question-bank', [QuestionController::class, 'index'] )->name('admin.questionbank');
         Route::get('/all-user', [UsersController::class, 'index'] )->name('admin.alluser');
         Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -69,6 +69,7 @@ class SaveMonthlyStats implements ShouldQueue
             $monthlyStats->correct_answers += $this->correctCount;
             $monthlyStats->incorrect_answers += $this->incorrectCount;
             $monthlyStats->total_attempts += $this->questionsCount;
+            $monthlyStats->monthly_jobs += $score;
         
             // Save the updated MonthlyStats record
             $monthlyStats->save();

@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('username')->unique()->nullable();
             $table->string('email')->unique();
+            $table->string("profile")->nullable();
             $table->boolean('is_verified')->default(false);
             $table->string('user_bio')->nullable();
             $table->integer('total_question_attempt')->default(0);

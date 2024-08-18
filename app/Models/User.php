@@ -39,6 +39,7 @@ class User extends Authenticatable implements JWTSubject
         "is_verified",
         "user_bio",
         "field_id",
+        "profile",
         "jobs",
         "total_question_correct",
         "total_question_attempt",

@@ -20,7 +20,8 @@ class MonthlyStatsResource extends JsonResource
             'correct_answers' => $this->correct_answers,
             'incorrect_answers' => $this->incorrect_answers,
             'total_attempts' => $this->total_attempts,
-            'month' => $this->month,
+            'total_attempts' => $this->total_attempts,
+            'monthly_jobs' => $this->monthly_jobs,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
             'user' => [
@@ -28,6 +29,7 @@ class MonthlyStatsResource extends JsonResource
                 'username' => $this->user->username,
                 'email' => $this->user->email,
                 'user_bio' => $this->user->user_bio,
+                'profile' => $this->user->profile,
             ],
         ];
     }

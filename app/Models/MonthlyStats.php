@@ -14,6 +14,7 @@ class MonthlyStats extends Model
         'correct_answers', 
         'incorrect_answers', 
         'total_attempts', 
+        "monthly_jobs",
         'month'
     ];
 
