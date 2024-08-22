@@ -13,7 +13,7 @@ export default function SideBar() {
             <SideBarLink link={"/admin/ladder-board"} title="Ladder Board" />
             <SideBarLink link={"/admin/messages"} title="Messages" />
             <SideBarLink link={"/admin/question-bank"} title="Question Bank" />
-            <SideBarLink link={"/admin/transactions"} title="Transactions" />
+            {/* <SideBarLink link={"/admin/transactions"} title="Transactions" /> */}
             <SideBarLink link={"/admin/fields"} title="Fields" />
             <SideBarLink link={"/admin/all-user"} title="Users" />
         </div>

@@ -29,7 +29,7 @@ const Chat = ({ user, setShowChat, conversation }) => {
     // Function to handle connecting and joining rooms
     const connectWebSocket = () => {
         if (!socket.current) {
-            socket.current = io('http://localhost:3000'); // Initialize the socket connection only once
+            socket.current = io('https://smalltin.com'); // Initialize the socket connection only once
         }
 
         // Leave the previous room before joining the new one
@@ -42,7 +42,7 @@ const Chat = ({ user, setShowChat, conversation }) => {
             setTypingMessage(`${user.username} is typing...`);
         });
 
-        socket.current.on(`stopTyping${conversation?.id}`, () => {
+        socket.current.on(`stopTyping/${conversation?.id}`, () => {
             setTypingMessage('');
         });
 
@@ -137,7 +137,7 @@ const Chat = ({ user, setShowChat, conversation }) => {
 
     const handleSendMessage = (messageText) => {
         const message = { message: messageText, id: new Date().getTime(), sender: { email: admin?.email } };
-        setMessages((prevMessages) => [...prevMessages, message]);  
+        // setMessages((prevMessages) => [...prevMessages, message]);  
         sendMessageAsAdmin(conversation?.id, messageText);
     };
 

@@ -9,6 +9,12 @@ class Field extends Model
 {
     use HasFactory;
 
+protected $fillable =  [
+    "name",
+    "color",
+    "size"
+];
+
     public function subFields(){
         return $this->hasMany(SubField::class);
     }

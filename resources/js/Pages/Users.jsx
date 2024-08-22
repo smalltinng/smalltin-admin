@@ -4,7 +4,6 @@ import ViewUserModal from '@/Components/ViewUserModal';
 import axios from 'axios';
 import Chat from '@/Components/Chat'; // Assuming you have a Chat component
 import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline'; // Correct import for Heroicons v2
-import MessageInput from '@/Components/MessageInput';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -31,7 +30,6 @@ const UserList = () => {
       setUsers(response.data.users.data); // Adjust the response structure as needed
       setTotalPages(response.data.users.last_page); // Adjust according to your response structure
       setTotalUsers(response.data.users.total); // Adjust according to your response structure
-      console.log(response.data); // Adjust according to your response structure
     } catch (error) {
       console.error('Error fetching users:', error);
     }
@@ -55,8 +53,8 @@ const UserList = () => {
     <MainLayout title='User List'>
       <div className="p-4">
         <h2 className="text-2xl font-bold mb-4">User List</h2>
-        <div className="flex justify-between mb-4">
-          <span>Total Users: {totalUsers}</span>
+        <div className="flex flex-col md:flex-row justify-between mb-4">
+          <span className="mb-2 md:mb-0">Total Users: {totalUsers}</span>
           <button
             className="p-2 bg-[#285B35] text-white rounded"
             onClick={() => fetchUsers(currentPage)}
@@ -64,7 +62,7 @@ const UserList = () => {
             Refresh
           </button>
         </div>
-        <div className="bg-white rounded shadow">
+        <div className="bg-white rounded shadow overflow-x-auto">
           <table className="min-w-full bg-white">
             <thead>
               <tr>
@@ -91,12 +89,12 @@ const UserList = () => {
                 ))
               ) : (
                 <tr>
-                  <td colSpan="3" className="text-center py-4">No users available</td>
+                  <td colSpan="4" className="text-center py-4">No users available</td>
                 </tr>
               )}
             </tbody>
           </table>
-          <div className="flex justify-between p-4">
+          <div className="flex flex-col md:flex-row justify-between p-4">
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
@@ -104,7 +102,7 @@ const UserList = () => {
             >
               Previous
             </button>
-            <span>Page {currentPage} of {totalPages}</span>
+            <span className="my-2 md:my-0">Page {currentPage} of {totalPages}</span>
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
@@ -122,11 +120,11 @@ const UserList = () => {
         />
       )}
       {showChat && (
-        <div className="fixed bottom-20 right-4 w-80 h-96 bg-white shadow-lg rounded-lg flex flex-col">
-        
-          <div className='flex-grow overflow-auto flex flex-col gap-2 '>
-            <Chat chatChannel=''  user={selectedUser} setShowChat={setShowChat}/>
+        <div className="fixed bottom-4 right-4 w-full max-w-md h-80 bg-white shadow-lg rounded-lg flex flex-col">
+          <div className='flex-grow overflow-auto flex flex-col gap-2'>
+            <Chat chatChannel='' user={selectedUser} setShowChat={setShowChat} />
           </div>
+          <MessageInput setShowChat={setShowChat} />
         </div>
       )}
     </MainLayout>

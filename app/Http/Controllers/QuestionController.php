@@ -22,25 +22,32 @@ class QuestionController extends Controller
 
     public function get_all_question(Request $request)
 {
+    $questions = Question::paginate(50);
+    
+    return response()->json(['messages' => "Successfully", "data" => $questions]);
+}
+
+public function getQuestionByQuery(Request $request)
+{
     $query = Question::query();
+
     // Filter by field_id if provided
     if ($request->has('field_id') && !empty($request->input('field_id'))) {
-        $query->where('field_id', $request->input('field_id '));
-        $questions = $query->paginate(10); // Adjust per page count as needed
-        return response()->json(['messages' => "Successfully", "data" => $questions]);
+        $query->where('field_id', $request->input('field_id'));
     }
+
     // Filter by subfield_id if provided
     if ($request->has('subfield_id') && !empty($request->input('subfield_id'))) {
         $query->where('sub_fields_id', $request->input('subfield_id'));
-        $questions = $query->paginate(10); // Adjust per page count as needed
-        return response()->json(['messages' => "Successfully", "data" => $questions]);
     }
-    // Pagination
-    $questions = $query->paginate(10); // Adjust per page count as needed
-    // return response()->json([
-    //     'data' => $questions
-    // ]); // 50 records per page
-    return response()->json(['messages' => "Successfully", "data" => $questions]);
+
+    // Pagination with a default of 50 records per page, adjust as necessary
+    $questions = $query->paginate(50);
+
+    return response()->json([
+        'message' => "Successfully fetched questions",
+        'data' => $questions
+    ]);
 }
 
 
@@ -50,25 +57,37 @@ class QuestionController extends Controller
      */
     public function create(Request $request)
     {
-     $validataData =   $request->validate([
-            "field_id" =>"required|int",
-            "sub_fields_id" => "required|int",
-            "question" =>"required",
-            "a" => "required",
-            "b"  => "required",
-            "c"  => "sometimes",
-            "d"  => "sometimes",
-            "answer" => "required"
+        // Validate incoming request data
+        $validatedData = $request->validate([
+            "field_id" => "required|integer|exists:fields,id", // Ensure field_id exists in the fields table
+            "sub_fields_id" => "required|integer|exists:sub_fields,id", // Ensure sub_fields_id exists in the sub_fields table
+            "question" => "required|string",
+            "a" => "required|string",
+            "b" => "required|string",
+            "c" => "sometimes|string",
+            "d" => "sometimes|string",
+            "answer" => "required|string"
         ]);
-
-        $question = Question::create($validataData);
-
+    
+        // Create a new question record
+        $question = Question::create([
+            'field_id' => $validatedData['field_id'],
+            'sub_fields_id' => $validatedData['sub_fields_id'],
+            'question' => $validatedData['question'],
+            'a' => $validatedData['a'],
+            'b' => $validatedData['b'],
+            'c' => $validatedData['c'] ?? null, // Allow null if not provided
+            'd' => $validatedData['d'] ?? null, // Allow null if not provided
+            'answer' => $validatedData['answer']
+        ]);
+    
+        // Return success response with the created question details
         return response()->json([
-            "message"=>"question created successfuly"
-        ]);
-
-        
+            "message" => "Question created successfully",
+            "data" => $question // Include the created question in the response
+        ], 201); // 201 Created status code
     }
+    
 
     /**
      * Store a newly created resource in storage.
@@ -97,16 +116,64 @@ class QuestionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateQuestionRequest $request, Question $question)
+    public function update(Request $request, $id)
     {
-        
+        $validatedData = $request->validate([
+            'question' => 'required|string',
+            'a' => 'required|string',
+            'b' => 'required|string',
+            'c' => 'nullable|string',
+            'd' => 'nullable|string',
+            'answer' => 'required|string',
+        ]);
+    
+        $question = Question::find($id);
+    
+        if (!$question) {
+            return response()->json(['message' => 'Question not found'], 404);
+        }
+    
+        $question->update([
+            'question' => $validatedData['question'],
+            'a' => $validatedData['a'],
+            'b' => $validatedData['b'],
+            'c' => $validatedData['c'] ?? null,
+            'd' => $validatedData['d'] ?? null,
+            'answer' => $validatedData['answer'],
+        ]);
+    
+        return response()->json(['message' => 'Question updated successfully', "data"=> $question->fresh()], 200);
     }
+    
+    
+    
+    
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Question $question)
+    public function destroy(Request $request, string $id)
     {
-        //
+       
+        {
+            // Find the field by ID
+            $question = Question::find($id);
+        
+            if ($question) {
+                // Attempt to delete the field
+                $question->delete();
+        
+                return response()->json([
+                    "message" => "Question Deleted Successfully",
+                ], 200);
+            } else {
+                return response()->json([
+                    "message" => "Question not found",
+                ], 404);
+            }
+        }
     }
+    
+        //
+    
 }

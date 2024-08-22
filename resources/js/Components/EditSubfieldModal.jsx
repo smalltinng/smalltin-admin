@@ -2,27 +2,28 @@
 
 import React, { useState, useEffect } from 'react';
 
-const EditFieldModal = ({ Field, closeModal, onSave }) => {
-  const [name, setName] = useState(Field ? Field.name : '');
-  const [color, setColor] = useState(Field ? Field.color : '#000000');
-  const [size, setSize] = useState(Field ? Field.size : 1);
+const EditFieldModal = ({ subfield, closeModal, onSave }) => {
+  const [name, setName] = useState(subfield ? subfield.name : '');
+  const [color, setColor] = useState(subfield ? subfield.color : '#000000');
+  const [size, setSize] = useState(subfield ? subfield.size : 1);
 
   const handleSave = async () => {
     const updatedField = {
-      ...Field,
+      ...subfield,
       name,
       color,
       size,
     };
     try {
-      const respond = await axios.post(`update-field/${Field.id}`, {
+      const respond = await axios.post(`update-subfield/${subfield.id}`, {
+        "field_id" : subfield.field_id,
           name, // The name of the field
           color, // The color of the field
           size, // The size of the field
 
           headers: { 'Content-Type': 'application/json' }
       });
-      console.log('Response:', respond.data); // Log the response data
+      console.log('Response:', respond.data , ); // Log the response data
   } catch (error) {
       console.error('Error creating field:', error); 
       
@@ -50,7 +51,7 @@ const EditFieldModal = ({ Field, closeModal, onSave }) => {
   return (
     <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-        <h2 className="text-xl font-bold mb-4">Edit Field</h2>
+        <h2 className="text-xl font-bold mb-4">Edit SubField</h2>
         
         {/* Name Input */}
         <div className="mb-4">

@@ -7,7 +7,7 @@ import axios from 'axios';
 import moment from 'moment';
 import ConversationCard from '@/Components/ConversationCard';
 
-const socket = io('http://localhost:3000'); // Replace with your actual Socket.IO server URL
+const socket = io('https://smalltin.com'); // Replace with your actual Socket.IO server URL
 
 const Messages = () => {
     const [isEmail, setIsEmail] = useState(false);
@@ -49,7 +49,8 @@ const Messages = () => {
         setChatChannel("");
 
         // Listen for incoming messages
-        socket.on('new_message', () => {
+        socket.on('new_message', (as) => {
+            getAllUnConversation();
             getAllConversation(); // Fetch all conversations again when a new message is received
         });
 

@@ -9,7 +9,12 @@ class SubField extends Model
 {
     use HasFactory;
 
-
+    protected $fillable =  [
+        "name",
+        "color",
+        "size",
+        "field_id"
+    ];
     public function field(){
         return $this->belongsTo(Field::class);
     }

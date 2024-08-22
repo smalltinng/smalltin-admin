@@ -3,7 +3,8 @@ import axios from 'axios';
 import MainLayout from '@/Layouts/MainLayout';
 import CreateFieldModal from '@/Components/CreateFieldModal';
 import EditFieldModal from '@/Components/EditFieldModal';
-import CreateSubFieldsModal from '@/Components/CreateSubFieldsModal'; // Import the subfield modal component
+import CreateSubFieldsModal from '@/Components/CreateSubFieldsModal'; 
+import EditSubfieldModal from '@/Components/EditSubfieldModal';
 
 const FieldBank = () => {
   const [fields, setAllFields] = useState([]);
@@ -12,20 +13,19 @@ const FieldBank = () => {
   const [totalPages, setTotalPages] = useState(1);
   const [totalField, setTotalField] = useState(0);
   const [showCreateFieldModal, setShowCreateFieldModal] = useState(false);
-  const [showCreateSubFieldModal, setShowCreateSubFieldModal] = useState(false); // For subfield creation
+  const [showCreateSubFieldModal, setShowCreateSubFieldModal] = useState(false); 
   const [showEditFieldModal, setShowEditFieldModal] = useState(false);
   const [currentField, setCurrentField] = useState(null);
   const [expandedFieldId, setExpandedFieldId] = useState(null);
   const [currentSubField, setCurrentSubField] = useState(null);
   const [showEditSubFieldModal, setShowEditSubFieldModal] = useState(false);
-  const [searchQuery, setSearchQuery] = useState(''); // Search query state
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetchAllFields(currentPage);
   }, [currentPage]);
 
   useEffect(() => {
-    // Filter fields based on the search query
     if (searchQuery.trim() === '') {
       setFilteredFields(fields);
     } else {
@@ -54,7 +54,6 @@ const FieldBank = () => {
 
   const handleView = (field) => {
     setCurrentField(field);
-    // Implement the logic for the View action here
   };
 
   const handleEditField = (field) => {
@@ -62,10 +61,15 @@ const FieldBank = () => {
     setShowEditFieldModal(true);
   };
 
-  const handleDeleteField = (id) => {
+  const handleDeleteField = async (id) => {
     if (confirm('Are you sure you want to delete this Field?')) {
       setAllFields(fields.filter((field) => field.id !== id));
-      // Optionally, implement a DELETE request to your API here
+      try {
+        const response = await axios.delete(`delete-field/${id}`);
+        console.log(response.data)
+      } catch (error) {
+        console.error('Error deleting field:', error);
+      }
     }
   };
 
@@ -74,7 +78,7 @@ const FieldBank = () => {
     setShowEditSubFieldModal(true);
   };
 
-  const handleDeleteSubField = (fieldId, subFieldId) => {
+  const handleDeleteSubField = async (fieldId, subFieldId) => {
     if (confirm('Are you sure you want to delete this Subfield?')) {
       setAllFields((prevFields) => 
         prevFields.map((field) => 
@@ -83,7 +87,12 @@ const FieldBank = () => {
             : field
         )
       );
-      // Optionally, implement a DELETE request to your API here
+      try {
+        const response = await axios.delete(`delete-subfield/${subFieldId}`);
+        console.log(response.data)
+      } catch (error) {
+        console.error('Error deleting subfield:', error);
+      }
     }
   };
 
@@ -99,16 +108,24 @@ const FieldBank = () => {
     }
   };
 
+  const handleClose = () => {
+    fetchAllFields(currentPage);
+    setShowCreateFieldModal(false);
+    setShowCreateSubFieldModal(false);
+    setShowEditSubFieldModal(false);
+    setShowEditFieldModal(false);
+  };
+
   return (
     <MainLayout title='Field Bank'>
       <div className="p-4">
-        <div className="flex justify-between mb-4">
-          <div>
+        <div className="flex flex-col sm:flex-row justify-between mb-4">
+          <div className="mb-4 sm:mb-0">
             <h2 className="text-2xl font-bold">Field Bank</h2>
             <span>Total Fields: {totalField}</span>
           </div>
-          <div>
-            <button className="p-2 bg-[#285B35] text-white rounded mr-2" onClick={() => setShowCreateFieldModal(true)}>Create New Field</button>
+          <div className="flex flex-col sm:flex-row gap-2">
+            <button className="p-2 bg-[#285B35] text-white rounded" onClick={() => setShowCreateFieldModal(true)}>Create New Field</button>
             <button className="p-2 bg-[#285B35] text-white rounded" onClick={() => setShowCreateSubFieldModal(true)}>Create New Subfield</button>
           </div>
         </div>
@@ -121,7 +138,7 @@ const FieldBank = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
-        <div className="bg-white rounded shadow">
+        <div className="bg-white rounded shadow overflow-x-auto">
           <table className="min-w-full bg-white">
             <thead>
               <tr>
@@ -141,7 +158,7 @@ const FieldBank = () => {
                       <td className="border px-4 py-2">{field.name}</td>
                       <td className="border px-4 py-2">{field.color}</td>
                       <td className="border px-4 py-2">{field.sub_fields.length}</td>
-                      <td className="border px-4 py-2 flex justify-around">
+                      <td className="border px-4 py-2 flex flex-col sm:flex-row gap-2 sm:gap-4">
                         <button className="p-1 bg-green-500 text-white rounded" onClick={() => handleView(field)}>View</button>
                         <button className="p-1 bg-yellow-500 text-white rounded" onClick={() => handleEditField(field)}>Edit</button>
                         <button className="p-1 bg-red-500 text-white rounded" onClick={() => handleDeleteField(field.id)}>Delete</button>
@@ -181,34 +198,23 @@ const FieldBank = () => {
             </tbody>
           </table>
         </div>
-        <div className="flex justify-between mt-4">
+        <div className="flex flex-col sm:flex-row justify-between mt-4">
           <button onClick={goToPreviousPage} disabled={currentPage === 1} className="p-2 bg-gray-500 text-white rounded">Previous</button>
-          <span>Page {currentPage} of {totalPages}</span>
+          <span className="my-2 sm:my-0">Page {currentPage} of {totalPages}</span>
           <button onClick={goToNextPage} disabled={currentPage === totalPages} className="p-2 bg-gray-500 text-white rounded">Next</button>
         </div>
       </div>
       {showCreateFieldModal && (
-        <CreateFieldModal
-          closeModal={() => setShowCreateFieldModal(false)}
-        />
+        <CreateFieldModal isOpen={showCreateFieldModal} onClose={handleClose} />
       )}
       {showEditFieldModal && (
-        <EditFieldModal
-          field={currentField} // Adjust prop name if needed
-          closeModal={() => setShowEditFieldModal(false)}
-        />
+        <EditFieldModal isOpen={showEditFieldModal} field={currentField} onClose={handleClose} />
       )}
       {showCreateSubFieldModal && (
-        <CreateSubFieldsModal
-          closeModal={() => setShowCreateSubFieldModal(false)}
-          fields={fields} // Pass fields to CreateSubFieldsModal
-        />
+        <CreateSubFieldsModal isOpen={showCreateSubFieldModal} field={currentField} onClose={handleClose} />
       )}
       {showEditSubFieldModal && (
-        <EditFieldModal
-          field={currentSubField} // Adjust prop name if needed
-          closeModal={() => setShowEditSubFieldModal(false)}
-        />
+        <EditSubfieldModal isOpen={showEditSubFieldModal} subField={currentSubField} onClose={handleClose} />
       )}
     </MainLayout>
   );

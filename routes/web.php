@@ -33,6 +33,12 @@ Route::group(['prefix' => 'admin'], function () {
         Route::get('/messages', [MessagesController::class, 'message'] )->name('admin.messages');
         Route::get('/fields', [FieldsController::class, 'show'] )->name('admin.fields');
         Route::get('/all-fields', [FieldsController::class, 'getForadmin'] )->name('admin.fields');
+        Route::post('/create-field', [FieldsController::class, 'create'] );
+        Route::delete('/delete-field/{id}', [FieldsController::class, 'deleteField'] );
+        Route::delete('/delete-subfield/{id}', [FieldsController::class, 'deleteSubField'] );
+        Route::post('/update-field/{id}', [FieldsController::class, 'updateField'] )->name('admin.update.field');
+        Route::post('/create-subfield', [FieldsController::class, 'createSubField'] )->name('admin.create.subfield');
+        Route::post('/update-subfield/{id}', [FieldsController::class, 'updateSubField'] )->name('admin.update.subfield');
         
         Route::get('/question-bank', [QuestionController::class, 'index'] )->name('admin.questionbank');
         Route::get('/all-user', [UsersController::class, 'index'] )->name('admin.alluser');
@@ -40,8 +46,11 @@ Route::group(['prefix' => 'admin'], function () {
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
         Route::get("/questions", [QuestionController::class, "get_all_question"]);
+
+        Route::get("/questions-query", [QuestionController::class, "getQuestionByQuery"]);
+        Route::delete("/question/{id}", [QuestionController::class, "destroy"]);
         Route::post("/question", [QuestionController::class, "create"]);
-        Route::patch("/edit-question", [QuestionController::class, "update"]);
+        Route::put("/edit-question/{id}", [QuestionController::class, "update"]);
         Route::get("/users", [AdminController::class, "getAllUser"]);
         Route::get('/leaderboard/realtime', [LeaderboardController::class, 'realTime']);
         Route::get('/leaderboard/weekly', [LeaderboardController::class, 'weeklyTop']);
