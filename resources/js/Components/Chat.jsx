@@ -11,24 +11,32 @@ const Chat = ({ user, setShowChat, conversation }) => {
     const [hasAdmin, setHasAdmin] = useState(false);
     const [typingMessage, setTypingMessage] = useState('');
     const scroll = useRef(null);
-    const socket = useRef(null);
+    const socket = useRef(null); // Socket instance as a ref to persist between renders
 
+    // Fetch admin details from local storage
     const getAdminDetails = () => {
         const adminDetails = localStorage.getItem('adminDetails');
         return adminDetails ? JSON.parse(adminDetails) : null;
     };
 
+    // Scroll to the bottom of the messages
     const scrollToBottom = () => {
         if (scroll.current) {
             scroll.current.scrollIntoView({ behavior: "smooth" });
         }
     };
 
+    // Function to handle connecting and joining rooms
     const connectWebSocket = () => {
-        socket.current = io('http://localhost:3000',
-        ); // Replace with your server URL
+        if (!socket.current) {
+            socket.current = io('http://localhost:3000'); // Initialize the socket connection only once
+        }
 
-        socket.current.emit('joinChat', conversation?.id);
+        // Leave the previous room before joining the new one
+        if (conversation?.id) {
+            socket.current.emit('leaveChat');
+            socket.current.emit('joinChat', conversation.id);
+        }
 
         socket.current.on(`typing/${conversation?.id}`, (user) => {
             setTypingMessage(`${user.username} is typing...`);
@@ -40,11 +48,11 @@ const Chat = ({ user, setShowChat, conversation }) => {
 
         socket.current.on(`message/${conversation?.id}`, (message) => {
             setMessages((prevMessages) => [...prevMessages, message]);
-            
             scrollToBottom();
         });
     };
 
+    // Fetch messages for the conversation
     const fetchMessages = async (conversationId) => {
         try {
             const response = await axios.get(`chats/${conversationId}`, {
@@ -59,6 +67,7 @@ const Chat = ({ user, setShowChat, conversation }) => {
         }
     };
 
+    // Assign an admin to the conversation
     const assignAdminToConversation = async (conversationId, adminId) => {
         try {
             await axios.post(`chats/${conversationId}/assign`, {
@@ -72,48 +81,63 @@ const Chat = ({ user, setShowChat, conversation }) => {
         }
     };
 
+    // Effect to handle socket connection and fetching messages when conversation changes
     useEffect(() => {
         const adminDetails = getAdminDetails();
         setAdmin(adminDetails);
+
         if (conversation?.id) {
             fetchMessages(conversation.id);
             connectWebSocket();
         }
+
+        // Cleanup function to leave the room and disconnect socket on unmount
         return () => {
             if (socket.current) {
+                socket.current.emit('leaveChat');
                 socket.current.disconnect();
+                socket.current = null; // Set to null to ensure reconnection if the component remounts
             }
         };
     }, [conversation?.id]);
 
-    const sentTodatabase = async (conversationId, messageText)=>{
-        try {
-            var mess = await axios.post(`chats/${conversationId}/message`,
-                {
-                message : messageText
-                },{
-                headers: { 'Content-Type': 'application/json' } , }
-               )
-               console.log(mess);
-        } catch (error) {
-            console.log(error)
-        }
-    }
-
+    // Function to send a message and update the state optimistically
     const sendMessageAsAdmin = async (conversationId, messageText) => {
+        const message = { message: messageText, sender: admin };
+        
+        // Optimistically update the UI
+        setMessages((prevMessages) => [...prevMessages, { ...message, id: new Date().getTime() }]);
+        
         try {
-            const message = { message: messageText, sender: admin };
+            // Emit the message via Socket.IO
             socket.current.emit('message', conversationId, message);
-            sentTodatabase(conversationId, messageText)
+    
+            // Send the message to the database
+            await sendToDatabase(conversationId, messageText);
         } catch (error) {
             console.error("Error sending message:", error);
+            // Handle the error, maybe remove the message or show a retry option
         }
     };
+    
+    const sendToDatabase = async (conversationId, messageText) => {
+        try {
+            const response = await axios.post(`chats/${conversationId}/message`, {
+                message: messageText,
+            }, {
+                headers: { 'Content-Type': 'application/json' },
+            });
+            console.log("Message stored:", response.data);
+        } catch (error) {
+            console.error("Error storing message in the database:", error);
+            throw error;  // Rethrow so the error can be handled in sendMessageAsAdmin
+        }
+    };
+    
 
     const handleSendMessage = (messageText) => {
         const message = { message: messageText, id: new Date().getTime(), sender: { email: admin?.email } };
         setMessages((prevMessages) => [...prevMessages, message]);  
-        // Optimistic UI update
         sendMessageAsAdmin(conversation?.id, messageText);
     };
 

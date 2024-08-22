@@ -3,22 +3,39 @@ import axios from 'axios';
 import MainLayout from '@/Layouts/MainLayout';
 import CreateFieldModal from '@/Components/CreateFieldModal';
 import EditFieldModal from '@/Components/EditFieldModal';
+import CreateSubFieldsModal from '@/Components/CreateSubFieldsModal'; // Import the subfield modal component
 
 const FieldBank = () => {
-  const [Fields, setAllFields] = useState([]);
+  const [fields, setAllFields] = useState([]);
+  const [filteredFields, setFilteredFields] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [totalField, setTotalField] = useState(0);
-  const [showCreateModal, setShowCreateModal] = useState(false);
-  const [showEditModal, setShowEditModal] = useState(false);
+  const [showCreateFieldModal, setShowCreateFieldModal] = useState(false);
+  const [showCreateSubFieldModal, setShowCreateSubFieldModal] = useState(false); // For subfield creation
+  const [showEditFieldModal, setShowEditFieldModal] = useState(false);
   const [currentField, setCurrentField] = useState(null);
   const [expandedFieldId, setExpandedFieldId] = useState(null);
   const [currentSubField, setCurrentSubField] = useState(null);
   const [showEditSubFieldModal, setShowEditSubFieldModal] = useState(false);
+  const [searchQuery, setSearchQuery] = useState(''); // Search query state
 
   useEffect(() => {
     fetchAllFields(currentPage);
   }, [currentPage]);
+
+  useEffect(() => {
+    // Filter fields based on the search query
+    if (searchQuery.trim() === '') {
+      setFilteredFields(fields);
+    } else {
+      setFilteredFields(
+        fields.filter(field =>
+          field.name.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+      );
+    }
+  }, [searchQuery, fields]);
 
   const fetchAllFields = async (page) => {
     try {
@@ -35,19 +52,19 @@ const FieldBank = () => {
     setExpandedFieldId(expandedFieldId === fieldId ? null : fieldId);
   };
 
-  const handleView = (Field) => {
-    setCurrentField(Field);
+  const handleView = (field) => {
+    setCurrentField(field);
     // Implement the logic for the View action here
   };
 
-  const handleEdit = (Field) => {
-    setCurrentField(Field);
-    setShowEditModal(true);
+  const handleEditField = (field) => {
+    setCurrentField(field);
+    setShowEditFieldModal(true);
   };
 
-  const handleDelete = (id) => {
+  const handleDeleteField = (id) => {
     if (confirm('Are you sure you want to delete this Field?')) {
-      setAllFields(Fields.filter((Field) => Field.id !== id));
+      setAllFields(fields.filter((field) => field.id !== id));
       // Optionally, implement a DELETE request to your API here
     }
   };
@@ -83,17 +100,26 @@ const FieldBank = () => {
   };
 
   return (
-    <MainLayout title='Fields Bank'>
+    <MainLayout title='Field Bank'>
       <div className="p-4">
         <div className="flex justify-between mb-4">
           <div>
             <h2 className="text-2xl font-bold">Field Bank</h2>
             <span>Total Fields: {totalField}</span>
           </div>
-          <button className="p-2 bg-[#285B35] text-white rounded" onClick={() => setShowCreateModal(true)}>Create New Fields</button>
+          <div>
+            <button className="p-2 bg-[#285B35] text-white rounded mr-2" onClick={() => setShowCreateFieldModal(true)}>Create New Field</button>
+            <button className="p-2 bg-[#285B35] text-white rounded" onClick={() => setShowCreateSubFieldModal(true)}>Create New Subfield</button>
+          </div>
         </div>
         <div className="mb-4">
-          <input type="text" placeholder="Search..." className="border p-2 w-full mb-2" />
+          <input
+            type="text"
+            placeholder="Search..."
+            className="border p-2 w-full mb-2"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
         </div>
         <div className="bg-white rounded shadow">
           <table className="min-w-full bg-white">
@@ -107,8 +133,8 @@ const FieldBank = () => {
               </tr>
             </thead>
             <tbody>
-              {Fields.length > 0 ? (
-                Fields.map((field) => (
+              {filteredFields.length > 0 ? (
+                filteredFields.map((field) => (
                   <React.Fragment key={field.id}>
                     <tr onClick={() => toggleExpandField(field.id)} className="cursor-pointer">
                       <td className="border px-4 py-2">{field.id}</td>
@@ -117,8 +143,8 @@ const FieldBank = () => {
                       <td className="border px-4 py-2">{field.sub_fields.length}</td>
                       <td className="border px-4 py-2 flex justify-around">
                         <button className="p-1 bg-green-500 text-white rounded" onClick={() => handleView(field)}>View</button>
-                        <button className="p-1 bg-yellow-500 text-white rounded" onClick={() => handleEdit(field)}>Edit</button>
-                        <button className="p-1 bg-red-500 text-white rounded" onClick={() => handleDelete(field.id)}>Delete</button>
+                        <button className="p-1 bg-yellow-500 text-white rounded" onClick={() => handleEditField(field)}>Edit</button>
+                        <button className="p-1 bg-red-500 text-white rounded" onClick={() => handleDeleteField(field.id)}>Delete</button>
                       </td>
                     </tr>
                     {expandedFieldId === field.id && (
@@ -161,20 +187,26 @@ const FieldBank = () => {
           <button onClick={goToNextPage} disabled={currentPage === totalPages} className="p-2 bg-gray-500 text-white rounded">Next</button>
         </div>
       </div>
-      {showCreateModal && (
+      {showCreateFieldModal && (
         <CreateFieldModal
-          closeModal={() => setShowCreateModal(false)}
+          closeModal={() => setShowCreateFieldModal(false)}
         />
       )}
-      {showEditModal && (
+      {showEditFieldModal && (
         <EditFieldModal
-          Field={currentField}
-          closeModal={() => setShowEditModal(false)}
+          field={currentField} // Adjust prop name if needed
+          closeModal={() => setShowEditFieldModal(false)}
+        />
+      )}
+      {showCreateSubFieldModal && (
+        <CreateSubFieldsModal
+          closeModal={() => setShowCreateSubFieldModal(false)}
+          fields={fields} // Pass fields to CreateSubFieldsModal
         />
       )}
       {showEditSubFieldModal && (
         <EditFieldModal
-          Field={currentSubField} // Adjust this to the appropriate subfield edit modal component
+          field={currentSubField} // Adjust prop name if needed
           closeModal={() => setShowEditSubFieldModal(false)}
         />
       )}

@@ -1,25 +1,77 @@
-import React from 'react';
 
-const EditQuestionModal = ({ field,  closeModal }) => {
+
+import React, { useState, useEffect } from 'react';
+
+const EditQuestionModal = ({ Field, closeModal, onSave }) => {
+  const [name, setName] = useState(Field ? Field.name : '');
+  const [color, setColor] = useState(Field ? Field.color : '#000000');
+  const [size, setSize] = useState(Field ? Field.size : 1);
+
+  const handleSave = () => {
+    const updatedField = {
+      ...Field,
+      name,
+      color,
+      size,
+    };
+    onSave(updatedField);
+    closeModal();
+  };
+
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-75">
-      <div className="bg-white p-5 w-1/2 max-h-full overflow-y-auto rounded-lg">
-        <h2 className="text-xl font-bold mb-3">Edit Question</h2>
-        <h2 className="text-sm font-bold mb-3">Question</h2>
-        <input type="text" placeholder="Question" name="question"  className="border p-2 w-full mb-2" />
-        {['a', 'b', 'c', 'd'].map((option, index) => (
-          <div>
-                    <h2 className="text-sm font-bold mb-3">{`Option ${option.toUpperCase()}`}</h2>
-          <input key={index} type="text" placeholder={`Option ${option.toUpperCase()}`}   className="border p-2 w-full mb-2" />
-          </div> ))}
-          <div>
-          <h2 className="text-sm font-bold mb-3">Answer</h2>
-            <input type="text" placeholder="Answer" name="answer"  className="border p-2 w-full mb-2" />
+    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h2 className="text-xl font-bold mb-4">Edit Field</h2>
+        
+        {/* Name Input */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Name</label>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full border p-2 rounded"
+          />
+        </div>
 
-          </div>
-        <div className="flex justify-end mt-5">
-          <button className="mr-2 p-2 bg-gray-500 text-white rounded" onClick={closeModal}>Cancel</button>
-          <button className="p-2 bg-green-500 text-white rounded" >Save</button>
+        {/* Color Picker */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Color</label>
+          <input
+            type="color"
+            value={color}
+            onChange={(e) => setColor(e.target.value)}
+            className="w-full border p-2 rounded"
+          />
+        </div>
+
+        {/* Size Input */}
+        <div className="mb-4">
+          <label className="block text-sm font-medium text-gray-700 mb-2">Size</label>
+          <input
+            type="number"
+            value={size}
+            onChange={(e) => setSize(Number(e.target.value))}
+            min="1"
+            step="1"
+            className="w-full border p-2 rounded"
+          />
+        </div>
+
+        {/* Buttons */}
+        <div className="flex justify-end space-x-2">
+          <button
+            onClick={closeModal}
+            className="px-4 py-2 bg-gray-500 text-white rounded"
+          >
+            Cancel
+          </button>
+          <button
+            onClick={handleSave}
+            className="px-4 py-2 bg-blue-500 text-white rounded"
+          >
+            Save
+          </button>
         </div>
       </div>
     </div>

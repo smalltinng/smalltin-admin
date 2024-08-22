@@ -7,27 +7,33 @@ const ConversationCard = ({ conversation, selectedConversation }) => {
   return (
     <div
       key={conversation.id}
-      className={`flex items-center justify-between mb-4 p-1 border-b ${
+      className={`flex items-center justify-between mb-4 p-2 border-b ${
         isSelected ? 'bg-slate-300 rounded-lg' : ''
       }`}
     >
-      <div className='flex items-center'>
+      <div className="flex items-center w-full">
         <div
-          className={`rounded-full h-10 w-10 ${
+          className={`rounded-full h-10 w-10 flex-shrink-0 ${
             isSelected ? 'bg-white' : 'bg-slate-300'
           }`}
         ></div>
-        <div className='flex flex-col ml-2 justify-start items-start'>
-          <div className='font-bold text-xs truncate'>
+        <div className="flex flex-col ml-3 justify-center items-start w-full">
+          <div className="font-bold text-xs truncate w-full">
             {conversation.user.username}
           </div>
-          <div className='text-sm text-gray-500'>
+          <div className="text-sm text-gray-500 truncate w-full">
             {conversation.last_message.message || 'No messages'}
           </div>
         </div>
       </div>
-      <div className='text-xs text-gray-400'>
-        {conversation.last_message ? moment(conversation.last_message.created_at).fromNow() : ''}
+      <div className="flex flex-col items-end text-xs text-gray-400 ml-2 whitespace-nowrap">
+        <div>{conversation.last_message ? moment(conversation.last_message.created_at).fromNow() : ''}</div>
+        {/* Pending message count */}
+        {conversation.pendingMessages > 0 && (
+          <div className="bg-red-500 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center mt-1">
+            {conversation.pendingMessages}
+          </div>
+        )}
       </div>
     </div>
   );

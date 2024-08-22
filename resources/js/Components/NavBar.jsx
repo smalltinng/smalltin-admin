@@ -30,13 +30,13 @@ function NavBar({ title, adminDetails }) {
 
   return (
     <div className="bg-white h-12 flex items-center justify-between px-4 shadow-md">
-      <div className="font-bold text-lg">
+      <div className="font-bold text-lg truncate">
         {title}
       </div>
       
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">
-          <span className="font-medium text-gray-700">{adminDetails?.fullname ?? "Welcome"}</span>
+          <span className="font-medium text-gray-700 hidden sm:block">{adminDetails?.fullname ?? "Welcome"}</span>
           <button onClick={handleEditAdmin} aria-label="Edit Admin Details" className="p-2 hover:bg-gray-200 rounded-full">
             <FaEdit className="text-gray-600" />
           </button>
@@ -54,7 +54,11 @@ function NavBar({ title, adminDetails }) {
         </button>
       </div>
       
-      {isProfileOpen && (<div><AdminProfile/></div>)}
+      {isProfileOpen && (
+        <div className="absolute right-0 top-12 bg-white shadow-lg p-4 rounded-md">
+          <AdminProfile />
+        </div>
+      )}
 
       {/* Modals */}
       <Modal isOpen={isEditModalOpen} onClose={closeModals}>

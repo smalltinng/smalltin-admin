@@ -47,6 +47,7 @@ io.on("connection", (socket) => {
         console.log(`News message in chat ${chatId}:`, message);
         io.to(`chats.${chatId}`).emit('newMessage', message);
         socket.broadcast.emit(`message/${chatId}`, message);
+        io.emit("new_message" ,message )
 
     });
 

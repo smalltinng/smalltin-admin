@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { Link, usePage } from '@inertiajs/react';
+import React from 'react';
+import { Link } from '@inertiajs/react';
 import ApplicationLogo from './ApplicationLogo';
 import SideBarLink from './SideBarLink';
 
 export default function SideBar() {
     return (
-        <div className="w-[15%]   flex flex-col gap-2 bg-white h-full">
+        <div className="w-[10%] sm:w-[5%] md:w-[8%] lg:w-[10%] xl:w-[12%] flex flex-col gap-2 bg-white h-full">
             <Link className="flex content-center items-center text-center h-16 justify-center" href="/">
                 <ApplicationLogo className="block border-black h-9 w-auto fill-current text-gray-800 dark:text-gray-50" />
             </Link>

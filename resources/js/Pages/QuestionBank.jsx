@@ -13,40 +13,52 @@ const QuestionBank = () => {
   const [showEditModal, setShowEditModal] = useState(false);
   const [showViewModal, setShowViewModal] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [newQuestion, setNewQuestion] = useState({ field_id: '', sub_fields_id: '', question: '', a: '', b: '', c: '', d: '', answer: '' });
   const [fields, setFields] = useState([]);
   const [selectedField, setSelectedField] = useState(null);
-  const [totalQuestion, setTotalQuesstion] = useState(0);
-
-  const handleFieldChange = (event) => {
-    const selectedFieldId = event.target.value;
-    getSubTitle(selectedFieldId);
-  };
-
-  const getSubTitle = (selectedFieldId) => {
-    const field = fields.find(e => e.id == selectedFieldId);
-    if (field) {
-      setSelectedField(field);
-    } else {
-      console.error(`Field with ID ${selectedFieldId} not found`);
-    }
-  };
+  const [selectedSubfield, setSelectedSubfield] = useState('');
 
   useEffect(() => {
     fetchQuestions(currentPage);
     fetchFields();
-  }, [currentPage]);
+  }, [currentPage, selectedField, selectedSubfield]);
 
   const fetchQuestions = async (page) => {
     try {
-      const response = await axios.get(`questions?page=${page}`);
-     setQuestions(response.data.data.data);
+      const params = {
+        field_id: selectedField ? selectedField.id : '',
+        subfield_id: selectedSubfield,
+        
+       
+      };
+      console.log('Fetching questions with params:', params); // Log params
+      const response = await axios.get('questions', { params });
+      console.log('Response data:', response.data); // Log response data
+      setQuestions(response.data.data.data);
       setTotalPages(response.data.data.last_page);
-      console.log(response.data);
     } catch (error) {
       console.error('Error fetching questions:', error);
     }
   };
+
+  const searchQuery = async () => {
+    try {
+      const params = {
+        field_id: selectedField ? selectedField.id : '',
+        subfield_id: selectedSubfield,
+        
+       
+      };
+      console.log('Fetching questions with params:', params); // Log params
+      const response = await axios.get('questions', { params });
+      console.log('Response data:', response.data); // Log response data
+      setQuestions(response.data.data.data);
+      setTotalPages(response.data.data.last_page);
+    } catch (error) {
+      console.error('Error fetching questions:', error);
+    }
+  };
+  
+  
 
   const fetchFields = async () => {
     try {
@@ -55,6 +67,17 @@ const QuestionBank = () => {
     } catch (error) {
       console.error('Error fetching fields:', error);
     }
+  };
+
+  const handleFieldChange = (event) => {
+    const selectedFieldId = event.target.value;
+    const field = fields.find(f => f.id === parseInt(selectedFieldId));
+    setSelectedField(field || null);
+    setSelectedSubfield(''); // Reset selected subfield
+  };
+
+  const handleSubfieldChange = (event) => {
+    setSelectedSubfield(event.target.value);
   };
 
   const handleView = (question) => {
@@ -69,7 +92,7 @@ const QuestionBank = () => {
 
   const handleDelete = (id) => {
     if (confirm('Are you sure you want to delete this question?')) {
-      setQuestions(questions.filter((question) => question.id !== id));
+      setQuestions(questions.filter(question => question.id !== id));
     }
   };
 
@@ -90,15 +113,14 @@ const QuestionBank = () => {
       <div className="p-4">
         <div className="flex justify-between mb-4">
           <div>
-          <h2 className="text-2xl font-bold">Question Bank</h2>
-          <span>Total Questions: {totalQuestion}</span>
+            <h2 className="text-2xl font-bold">Question Bank</h2>
           </div>
           <button className="p-2 bg-[#285B35] text-white rounded" onClick={() => setShowCreateModal(true)}>Create New Question</button>
         </div>
         <div className="mb-4">
           <input type="text" placeholder="Search..." className="border p-2 w-full mb-2" />
           <div className="flex gap-2">
-            <select className="p-2 border rounded w-full" onChange={handleFieldChange}>
+            <select className="p-2 border rounded w-full" onChange={handleFieldChange} value={selectedField ? selectedField.id : ''}>
               <option value="">Select Field</option>
               {fields.length > 0 ? (
                 fields.map(field => (
@@ -108,9 +130,9 @@ const QuestionBank = () => {
                 <option disabled>No fields available</option>
               )}
             </select>
-            <select className="p-2 border rounded w-full">
+            <select className="p-2 border rounded w-full" onChange={handleSubfieldChange} value={selectedSubfield}>
               <option value="">Select Subfield</option>
-              {selectedField && selectedField.sub_fields.length > 0 ? (
+              {selectedField && selectedField.sub_fields && selectedField.sub_fields.length > 0 ? (
                 selectedField.sub_fields.map(subfield => (
                   <option key={subfield.id} value={subfield.id}>{subfield.name}</option>
                 ))
@@ -148,7 +170,7 @@ const QuestionBank = () => {
                 ))
               ) : (
                 <tr>
-                  <td colSpan="4" className="text-center py-4">No questions available</td>
+                  <td colSpan="5" className="text-center py-4">No questions available</td>
                 </tr>
               )}
             </tbody>
@@ -180,7 +202,6 @@ const QuestionBank = () => {
       )}
     </MainLayout>
   );
-  
 };
 
 export default QuestionBank;
