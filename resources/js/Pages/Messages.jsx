@@ -7,7 +7,7 @@ import axios from 'axios';
 import moment from 'moment';
 import ConversationCard from '@/Components/ConversationCard';
 
-const socket = io('https://realtime.smalltin.com'); // Replace with your actual Socket.IO server URL
+const socket = io('https://realtime.smalltin.com:3000'); // Replace with your actual Socket.IO server URL
 
 const Messages = () => {
     const [isEmail, setIsEmail] = useState(false);
