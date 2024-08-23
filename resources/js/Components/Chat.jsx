@@ -29,7 +29,7 @@ const Chat = ({ user, setShowChat, conversation }) => {
     // Function to handle connecting and joining rooms
     const connectWebSocket = () => {
         if (!socket.current) {
-            socket.current = io('https://smalltin.com'); // Initialize the socket connection only once
+            socket.current = io('https://realtime.smalltin.com'); // Initialize the socket connection only once
         }
 
         // Leave the previous room before joining the new one

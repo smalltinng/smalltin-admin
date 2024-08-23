@@ -5,7 +5,7 @@
         "dev": "vite",
         "build": "vite build",
         "build:css": "tailwindcss build resources/css/app.css -o resources/css/tailwind.css --watch",
-        "realtime": "nodemon realtime.js"
+        "realtime": "node realtime.js"
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
