@@ -24,6 +24,8 @@ class DatabaseSeeder extends Seeder
         UserSeeder::run();
         WinnerSeeder::run();
         SettingSeeder::run();
+        BusinessAndFinance::run();
+        Sport17::run();
 
         
         

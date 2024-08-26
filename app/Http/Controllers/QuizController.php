@@ -14,7 +14,7 @@ use App\Jobs\SaveMonthlyStats;
 class QuizController extends Controller
 
 {
-    const TIME_LIMIT = 50; // 50 seconds for 1.20 minutes
+    const TIME_LIMIT = 80; // 50 seconds for 1.20 minutes
     public function startQuiz(Request $request)
     {
         $user = User::where("id", auth()->id())->with("fields", "subfields")->firstOrFail();
