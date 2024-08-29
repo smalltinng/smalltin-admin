@@ -15,21 +15,11 @@ class DatabaseSeeder extends Seeder
 
         FieldSeeder::run();
         AdminSeeder::run();
-        QuestionSeeder::run();
-        QuestionSeeder2::run();
-        QuestionSeeder3::run();
-        QuestionSeeders4::run();
-        QuestionSeeder5::run();
-        QuestionSeeder18::run();
-        UserSeeder::run();
-        WinnerSeeder::run();
-        SettingSeeder::run();
-        BusinessAndFinance::run();
-        Sport17::run();
+       
 
         
         
 
-        // User::factory(10)->create();
+       
     }
 }

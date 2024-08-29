@@ -51,6 +51,12 @@ class AdminController extends Controller
     /**
      * Destroy an authenticated session.
      */
+
+
+
+     public function privacyPolicy(){
+        return Inertia::render('PrivatePolicy');
+     }
     public function destroy(Request $request): RedirectResponse
     {
         Auth::guard('web')->logout();

@@ -21,6 +21,7 @@ Route::get('/', function () {
 
 Route::get('/admin/login', [AdminController::class, 'showLogin'])->name('admin.login');
 Route::post('/admin/login', [AdminController::class, 'store'])->name('admin.login');
+Route::get('/privacy-policy', [AdminController::class, 'privacyPolicy'] )->name('admin.privacy');
 
 Route::group(['prefix' => 'admin'], function () {
    
