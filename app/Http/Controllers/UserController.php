@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\MonthlyStats;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Notifications\EmailVerificationNotification;
@@ -13,6 +14,7 @@ use Illuminate\Contracts\Support\ValidatedData;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Exception;
+use Illuminate\Support\Carbon;
 
 class UserController extends Controller
 {
@@ -49,10 +51,61 @@ class UserController extends Controller
     public function index(Request $request)
     {
         try {
-            $user = User::where("id", auth()->id())->with("fields")->with("subfields")->firstOrFail();
+            $currentMonth = Carbon::now()->format('Y-m');
+            $user = User::where("id", auth()->id())->with("monthlyStat")->with("fields")->with("subfields")->firstOrFail();
+            // Find the existing MonthlyStats record or create a new one
+            // $monthlyStats = MonthlyStats::where([
+            //               'user_id' => auth()->id(),
+            //               'month' => $currentMonth
+            //           ]);
             return response()->json([
                 "message" => "User Get Successfully",
+                "data" => $user,
+              //  "monthlyStats"=> $monthlyStats->fresh()
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                "message" => "Failed to retrieve user",
+                "error" => $e->getMessage()
+            ], 500);
+        }
+    }
+
+
+    public function getAllMonthly(Request $request)
+    {
+        try {
+            $user = MonthlyStats::whereA("user_id", auth()->id())->all();
+            return response()->json([
+                "message" => "MonthlyStats Get Successfully",
                 "data" => $user
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                "message" => "Failed to retrieve user",
+                "error" => $e->getMessage()
+            ], 500);
+        }
+    }
+
+
+
+
+    public function getlatesMonthly(Request $request)
+    {
+        try {
+            $currentMonth = Carbon::now()->format('Y-m');
+  // Find the existing MonthlyStats record or create a new one
+            
+            $monthlyStats = MonthlyStats::firstOrNew([
+                'user_id' => auth()->id(),
+                'month' => $currentMonth
+            ]);
+
+            
+            return response()->json([
+                "message" => "MonthlyStats Get Successfully",
+                "data" => $monthlyStats
             ]);
         } catch (\Exception $e) {
             return response()->json([

@@ -9,6 +9,8 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 use App\Models\MonthlyStats;
 use Tymon\JWTAuth\Contracts\JWTSubject;
+use Illuminate\Support\Carbon;
+
 class User extends Authenticatable implements JWTSubject
 {
     use HasFactory, Notifiable, HasApiTokens;
@@ -68,6 +70,13 @@ class User extends Authenticatable implements JWTSubject
     public function monthlyStats()
     {
         return $this->hasMany(MonthlyStats::class);
+    }
+    public function monthlyStat()
+    {
+        $currentMonth = Carbon::now()->format('Y-m');
+        return $this->hasOne(MonthlyStats::class)
+                    ->where('month', $currentMonth)
+                    ->latest();
     }
 
     public function conversation()

@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+
 class Questions extends Seeder
 {
     /**
@@ -18,10 +19,11 @@ class Questions extends Seeder
         QuestionSeeders4::run();
         QuestionSeeder5::run();
         QuestionSeeder18::run();
-        UserSeeder::run();
-        WinnerSeeder::run();
-        SettingSeeder::run();
         BusinessAndFinance::run();
         Sport17::run();
+        MathematicsSeeders::run();
+        Literature::run();
+        VisualArts::run();
+        History::run();
     }
 }
