@@ -48,6 +48,11 @@ class User extends Authenticatable implements JWTSubject
         "email_verified_at"
     ];
 
+
+    public function comments()
+{
+    return $this->hasMany(Comment::class);
+}
     public function isAdmin()
     {
         return $this->role === 'admin';

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\FieldsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
@@ -27,6 +28,10 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('/chats', [ChatController::class, 'index']);
     Route::get('/message', [ChatController::class, 'show']);
     Route::post('/message', [ChatController::class, 'create']);
+    Route::get('/monthly-stats/{monthlyStatId}/comments', [CommentController::class, 'index']); // List comments for a MonthlyStat
+    Route::post('/monthly-stats/{monthlyStatId}/comments', [CommentController::class, 'store']); // Add a comment
+    Route::put('/comments/{id}', [CommentController::class, 'update']); // Update a comment
+    Route::delete('/comments/{id}', [CommentController::class, 'destroy']); // Delete a comment
     Route::middleware('questionApiKey')->group(function () {
         Route::get('/start-quiz', [QuizController::class, 'startQuiz']);
         Route::post('/answer-question', [QuizController::class, 'answerQuestion']);
