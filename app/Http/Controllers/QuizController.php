@@ -135,19 +135,8 @@ class QuizController extends Controller
             ]);
         } else {
             // Calculate final score based on correct and incorrect counts
-            $score = 0;
-    
-            if ($correctCount == 10) {
-                $score = 500;
-            } elseif ($correctCount == 9) {
-                $score = 400;
-            } elseif ($correctCount == 8) {
-                $score = 300;
-            } elseif ($correctCount == 7) {
-                $score = 50;
-            } else {
-                $score = 0;
-            }
+            $score =  $correctCount * 20;
+
     
             // Deduct points for incorrect answers
             // $finalScore = $score - ($incorrectCount * 100);
