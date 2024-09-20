@@ -123,8 +123,6 @@ class QuizController extends Controller
             'quiz_start_time' => $quizStartTime // Include start time in the new token
         ];
         $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
-    
-        // Check if there are more questions
         if ($currentIndex < count($questions)) {
             $nextQuestion = $questions[$currentIndex];
             return response()->json([
@@ -136,17 +134,8 @@ class QuizController extends Controller
         } else {
             // Calculate final score based on correct and incorrect counts
             $score =  $correctCount * 20;
-
-    
-            // Deduct points for incorrect answers
-            // $finalScore = $score - ($incorrectCount * 100);
-            // $finalScore = max($finalScore, 0); // Ensure the score doesn't go below 0
-    
-            // Dispatch the job to save monthly stats
             $user = User::find(auth()->id());
             SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, count($questions));
-    
-            // Return the final response
             return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,

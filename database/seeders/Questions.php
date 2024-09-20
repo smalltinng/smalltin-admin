@@ -11,7 +11,7 @@ class Questions extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void
+    public static function run(): void
     {
         QuestionSeeder::run();
         QuestionSeeder2::run();

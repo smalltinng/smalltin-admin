@@ -75,9 +75,9 @@ class UserController extends Controller
     public function getAllMonthly(Request $request)
     {
         try {
-            $user = MonthlyStats::whereA("user_id", auth()->id())->all();
+            $user = MonthlyStats::where("user_id", auth()->id())->get(); // Use where() to filter by user_id
             return response()->json([
-                "message" => "MonthlyStats Get Successfully",
+                "message" => "MonthlyStats retrieved successfully",
                 "data" => $user
             ]);
         } catch (\Exception $e) {
@@ -86,6 +86,7 @@ class UserController extends Controller
                 "error" => $e->getMessage()
             ], 500);
         }
+        
     }
 
 

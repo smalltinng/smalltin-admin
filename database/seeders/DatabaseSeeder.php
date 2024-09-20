@@ -15,7 +15,8 @@ class DatabaseSeeder extends Seeder
 
         FieldSeeder::run();
         AdminSeeder::run();
-       
+   
+        Questions::run();
 
         
         
