@@ -28,7 +28,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('/chats', [ChatController::class, 'index']);
     Route::get('/message', [ChatController::class, 'show']);
     Route::post('/message', [ChatController::class, 'create']);
-    Route::get('/monthlystats', [ UserController::class, 'getAllMonthly']); // List  MonthlyStat
+    Route::get('/monthly-stats', [ UserController::class, 'getAllMonthly']); // List  MonthlyStat
     Route::get('/monthly-stats/{monthlyStatId}/comments', [CommentController::class, 'index']); // List comments for a MonthlyStat
     Route::post('/monthly-stats/{monthlyStatId}/comments', [CommentController::class, 'store']); // Add a comment
     Route::put('/comments/{id}', [CommentController::class, 'update']); // Update a comment
