@@ -14,16 +14,17 @@ class CommentController extends Controller
     /**
      * Display a listing of comments for a specific MonthlyStat.
      */
-    public function index($monthlyStatId)
-    {
-        $monthlyStat = MonthlyStats::findOrFail($monthlyStatId);
-        $comments = $monthlyStat->comments()->with('user')->get(); // Fetch comments with user data
+  public function index($monthlyStatId)
+{
+    $monthlyStat = MonthlyStats::findOrFail($monthlyStatId);
+    $comments = $monthlyStat->comments()->with('user')
+        ->orderBy('created_at', 'desc') // Order comments by created_at in descending order
+        ->get();
 
-        return response()->json([
-            'comments'=> $comments
-            
-        ]);
-    }
+    return response()->json([
+        'comments' => $comments
+    ]);
+}
 
     /**
      * Store a newly created comment in storage.
