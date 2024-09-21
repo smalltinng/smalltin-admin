@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Hash;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -128,6 +129,73 @@ class AdminController extends Controller
     }
 }
 
+
+
+
+public function adminStore(Request $request)
+{
+    $validated = $request->validate([
+        'fullname' => 'required|string|max:255',
+        'email' => 'required|email|unique:users',
+        'password' => 'required|min:8|confirmed',
+        'username' => 'required|min:8|confirmed',
+    ]);
+
+    // Create new admin
+    $admin = Admin::create([
+        'fullname' => $validated['fullname'],
+        'username' => $validated['fullname'],
+        'email' => $validated['email'],
+        'password' => Hash::make($validated['password']),
+    ]);
+
+    return redirect()->route('admin.index')->with('success', 'Admin created successfully');
+}
+
+/**
+ * Show the form for editing the specified admin.
+ */
+public function edit($id)
+{
+    $admin = Admin::findOrFail($id);
+
+    return view('admin.edit', compact('admin'));
+}
+
+/**
+ * Update the specified admin in storage.
+ */
+public function adminUpdate(Request $request, $id)
+{
+    $admin = Admin::findOrFail($id);
+
+    $validated = $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|email|unique:users,email,' . $admin->id,
+        'password' => 'nullable|min:8|confirmed',
+    ]);
+
+    // Update admin
+    $admin->update([
+        'name' => $validated['name'],
+        'email' => $validated['email'],
+        'password' => $validated['password'] ? Hash::make($validated['password']) : $admin->password,
+    ]);
+
+    return redirect()->route('admin.index')->with('success', 'Admin updated successfully');
+}
+
+/**
+ * Remove the specified admin from storage.
+ */
+public function admindestroy($id)
+{
+    $admin = Admin::findOrFail($id);
+
+    $admin->delete();
+
+    return redirect()->route('admin.index')->with('success', 'Admin deleted successfully');
+}
 
 
 }

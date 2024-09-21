@@ -20,7 +20,7 @@ class MonthlyStatsResource extends JsonResource
             'correct_answers' => $this->correct_answers,
             'incorrect_answers' => $this->incorrect_answers,
             'total_attempts' => $this->total_attempts,
-            'total_attempts' => $this->total_attempts,
+            'comment_count' => $this->comments->count(), // Use the already loaded comments
             'monthly_jobs' => $this->monthly_jobs,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,

@@ -18,7 +18,7 @@ class MonthlyStatsController extends Controller
        
             $ladders = MonthlyStats::where('month', Carbon::now()->format('Y-m'))
                 ->orderByDesc('monthly_jobs')
-                ->with('user')
+                ->with(['user', 'comments']) // Eager load comments
                 ->paginate(50);
                 
 
