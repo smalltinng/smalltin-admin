@@ -28,6 +28,17 @@ class QuizController extends Controller
             ->inRandomOrder()
             ->take(10)
             ->get();
+
+ // Fallback: If no questions found, fetch specific or random questions
+ if ($questions->isEmpty()) {
+    $questions = Question::whereIn('id', [16, 17, 18]) // Specific fallback IDs
+        ->orWhere(function ($query) {
+            $query->inRandomOrder();
+        })
+        ->take(10)
+        ->get();
+}
+
     
         // Create an array to store questions without answers and their correct answers
         $questionsWithoutAnswers = [];
