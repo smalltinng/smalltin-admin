@@ -47,6 +47,21 @@ class LeaderboardController extends Controller
         return response()->json(["data"=> $users]);
     }
 
+
+    public function lastMonthTop()
+{
+    // Get the last month in 'Y-m' format
+    $lastMonth = Carbon::now()->subMonth()->format('Y-m');
+
+    // Fetch top 10 users with the highest 'correct_answers' for the last month
+    $users = MonthlyStats::where('month', $lastMonth)
+        ->orderByDesc('correct_answers')
+        ->limit(10)
+        ->with('user')
+        ->get();
+
+    return response()->json(["data" => $users]);
+}
     public function monthlyWinners()
     {
         $winners = Winner::orderByDesc('month')->limit(10)->with('user')->get();
