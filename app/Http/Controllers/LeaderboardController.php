@@ -55,7 +55,7 @@ class LeaderboardController extends Controller
 
     // Fetch top 10 users with the highest 'correct_answers' for the last month
     $users = MonthlyStats::where('month', $lastMonth)
-        ->orderByDesc('correct_answers')
+        ->orderByDesc('monthly_jobs')
         ->limit(10)
         ->with('user')
         ->get();
