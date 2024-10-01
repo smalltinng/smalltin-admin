@@ -35,7 +35,7 @@ const LadderBoard = () => {
 
   const fetchLastMonthTop = async () => {
     try {
-      const response = await axios.get('leaderboard/last-Month');
+      const response = await axios.get('leaderboard/last-month');
       setLastMonthTop(response.data.data);
     } catch (error) {
       console.error('Error fetching last Month top:', error);
