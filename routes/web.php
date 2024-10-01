@@ -62,6 +62,17 @@ Route::group(['prefix' => 'admin'], function () {
         Route::post('/chats/{conversation}/assign', [ConversationController::class, 'assignToAdmin']);
         Route::post('/chats/{conversation}/message', [ConversationController::class, 'sendMessageAsAdmin']);
 
+        Route::post('/store', [AdminController::class, 'adminStore'])->name('admin.store');
+
+        // Route to edit an admin's details (Form)
+        Route::get('/{id}/edit', [AdminController::class, 'edit'])->name('admin.edit');
+    
+        // Route to update an admin
+        Route::put('/{id}/update', [AdminController::class, 'adminUpdate'])->name('admin.update');
+    
+        // Route to delete an admin
+        Route::delete('/{id}/delete', [AdminController::class, 'admindestroy'])->name('admin.delete');
+
     });
     
 
