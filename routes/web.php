@@ -54,8 +54,8 @@ Route::group(['prefix' => 'admin'], function () {
         Route::put("/edit-question/{id}", [QuestionController::class, "update"]);
         Route::get("/users", [AdminController::class, "getAllUser"]);
         Route::get('/leaderboard/realtime', [LeaderboardController::class, 'realTime']);
-        Route::get('/leaderboard/weekly', [LeaderboardController::class, 'weeklyTop']);
-        Route::get('/leaderboard/last-week', [LeaderboardController::class, 'lastMonthTop']);
+        Route::get('/leaderboard/month', [LeaderboardController::class, 'weeklyTop']);
+        Route::get('/leaderboard/last-month', [LeaderboardController::class, 'lastMonthTop']);
         Route::get('/chats', [ConversationController::class, 'index'])->name('admin.chats');
         Route::get('/unchats', [ConversationController::class, 'unAttendTo'])->name('admin.chats');
         Route::get('/chats/{id}', [ConversationController::class, 'getMessages']);

@@ -4,13 +4,13 @@ import axios from 'axios';
 
 const LadderBoard = () => {
   const [realTime, setRealTime] = useState([]);
-  const [weeklyTop, setWeeklyTop] = useState([]);
-  const [lastWeekTop, setLastWeekTop] = useState([]);
+  const [MonthlyTop, setMonthlyTop] = useState([]);
+  const [lastMonthTop, setLastMonthTop] = useState([]);
 
   useEffect(() => {
     fetchRealTime();
-    fetchWeeklyTop();
-    fetchLastWeekTop();
+    fetchMonthlyTop();
+    fetchLastMonthTop();
   }, []);
 
   const fetchRealTime = async () => {
@@ -23,22 +23,22 @@ const LadderBoard = () => {
     }
   };
 
-  const fetchWeeklyTop = async () => {
+  const fetchMonthlyTop = async () => {
     try {
-      const response = await axios.get('leaderboard/weekly');
-      setWeeklyTop(response.data.data);
+      const response = await axios.get('leaderboard/monthly');
+      setMonthlyTop(response.data.data);
       console.log(response.data.data);
     } catch (error) {
-      console.error('Error fetching weekly top:', error);
+      console.error('Error fetching Monthly top:', error);
     }
   };
 
-  const fetchLastWeekTop = async () => {
+  const fetchLastMonthTop = async () => {
     try {
-      const response = await axios.get('leaderboard/last-week');
-      setLastWeekTop(response.data.data);
+      const response = await axios.get('leaderboard/last-Month');
+      setLastMonthTop(response.data.data);
     } catch (error) {
-      console.error('Error fetching last week top:', error);
+      console.error('Error fetching last Month top:', error);
     }
   };
 
@@ -62,13 +62,13 @@ const LadderBoard = () => {
             </div>
           </section>
           
-          {/* Weekly Top Section */}
+          {/* Monthly Top Section */}
           <section className='flex-1 mb-5 md:mb-0'>
-            <h2 className='text-2xl font-semibold mb-3'>First 10 People For the Week</h2>
+            <h2 className='text-2xl font-semibold mb-3'>First 10 People For the Month</h2>
             <div className='h-[300px] md:h-[500px] rounded-lg overflow-auto bg-white p-4'>
-              {weeklyTop.length > 0 ? (
+              {MonthlyTop.length > 0 ? (
                 <ul className='list-none'>
-                  {weeklyTop.map((user, index) => (
+                  {MonthlyTop.map((user, index) => (
                     <li key={index} className='flex flex-col mb-4 bg-slate-200 p-4 rounded-lg'>
                       <h1 className='text-xl mb-1'>{user.user.username.toUpperCase()}</h1>
                       <div className='text-xs'>
@@ -85,14 +85,22 @@ const LadderBoard = () => {
             </div>
           </section>
 
-          {/* Last Week Top Section */}
+          {/* Last Month Top Section */}
           <section className='flex-1'>
-            <h2 className='text-2xl font-semibold mb-3'>Last Week 10 People</h2>
+            <h2 className='text-2xl font-semibold mb-3'>Last Month 10 People</h2>
             <div className='h-[300px] md:h-[500px] rounded-lg overflow-auto bg-white p-4'>
-              {lastWeekTop.length > 0 ? (
+              {lastMonthTop.length > 0 ? (
                 <ul className='list-disc pl-5'>
-                  {lastWeekTop.map((user, index) => (
-                    <li key={index} className='py-1'>{user.user.name} - {user.correct_answers} points</li>
+                  {lastMonthTop.map((user, index) => (
+                   <li key={index} className='flex flex-col mb-4 bg-slate-200 p-4 rounded-lg'>
+                   <h1 className='text-xl mb-1'>{user.user.username.toUpperCase()}</h1>
+                   <div className='text-xs'>
+                     <p>Total Correct: {user.correct_answers}</p>
+                     <p>Total Incorrect: {user.incorrect_answers}</p>
+                     <p>Total Attempt: {user.total_attempts}</p>
+                   </div>
+                 </li>
+                  
                   ))}
                 </ul>
               ) : (
