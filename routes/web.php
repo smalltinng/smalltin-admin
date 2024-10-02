@@ -29,7 +29,9 @@ Route::get('/download-app', function () {
     // Check if the file exists
     if (file_exists($filePath)) {
         // If the file exists, return it as a downloadable response
-        return response()->download($filePath);
+       return response()->download($filePath, 'smalltin.apk', [
+            'Content-Type' => 'application/vnd.android.package-archive'
+        ]);
     } else {
         // If the file is not found, return a 404 or a custom message
         return response()->json(['message' => 'File not found.'], 404);
