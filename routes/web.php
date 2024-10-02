@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Models\Setting;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -28,6 +29,8 @@ Route::get('/download-app', function () {
     
     // Check if the file exists
     if (file_exists($filePath)) {
+        $setting = Setting::first(); // assuming you have only one row in the settings table
+        $setting->increment('total_downloads');
         // If the file exists, return it as a downloadable response
        return response()->download($filePath, 'smalltin.apk', [
             'Content-Type' => 'application/vnd.android.package-archive'
