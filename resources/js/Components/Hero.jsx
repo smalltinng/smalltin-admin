@@ -21,9 +21,9 @@ const Hero = () => {
                             <Link href="/signup" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#285B35] hover:bg-[#32944b]">
                                 Get Started
                             </Link>
-                            <Link href="/download-app" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#32944b] hover:bg-[#285B35]">
-                               Download App
-                            </Link>
+                            <a href="/download-app" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#32944b] hover:bg-[#285B35]" download>
+    Download App
+</a>
                         </div>
                     </div>
                     <div className="mt-10 lg:mt-0">
