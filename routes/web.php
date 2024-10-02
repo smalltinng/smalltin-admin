@@ -23,6 +23,20 @@ Route::get('/admin/login', [AdminController::class, 'showLogin'])->name('admin.l
 Route::post('/admin/login', [AdminController::class, 'store'])->name('admin.login');
 Route::get('/privacy-policy', [AdminController::class, 'privacyPolicy'] )->name('admin.privacy');
 
+Route::get('/download-app', function () {
+    $filePath = public_path('downloads/smalltin.apk');
+    
+    // Check if the file exists
+    if (file_exists($filePath)) {
+        // If the file exists, return it as a downloadable response
+        return response()->download($filePath);
+    } else {
+        // If the file is not found, return a 404 or a custom message
+        return response()->json(['message' => 'File not found.'], 404);
+    }
+});
+
+
 Route::group(['prefix' => 'admin'], function () {
    
  
