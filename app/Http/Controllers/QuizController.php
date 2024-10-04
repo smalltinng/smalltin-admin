@@ -60,7 +60,8 @@ class QuizController extends Controller
             'current_question_index' => 0,
             'correct_count' => $correctCount,
             'incorrect_count' => $incorrectCount,
-            'quiz_start_time' => null // Initially null; will be set when the first answer is received
+            'quiz_start_time' => null,
+            'is_done'=> false // Initially null; will be set when the first answer is received
         ];
     
         $token = JWTAuth::customClaims($payload)->fromUser($user);
@@ -95,12 +96,18 @@ class QuizController extends Controller
         $correctCount = $payload->get('correct_count');
         $incorrectCount = $payload->get('incorrect_count');
         $quizStartTime = $payload->get('quiz_start_time');
+        $isDone = $payload->get('quiz_start_time');
     
         // If quiz_start_time is null, this is the first answer
         if (is_null($quizStartTime)) {
             $quizStartTime = Carbon::now()->timestamp; // Set start time
         }
     
+        if ($currentIndex != $payload->get('current_question_index')) {
+            return response()->json([
+                'message' => 'Question already answered or invalid index.',
+            ], 400);
+        }
         // Check if token is expired
         $currentTimestamp = Carbon::now()->timestamp;
         if (($currentTimestamp - $quizStartTime) > self::TIME_LIMIT) { // Check if 60 seconds have passed
@@ -146,6 +153,7 @@ class QuizController extends Controller
             // Calculate final score based on correct and incorrect counts
             $score =  $correctCount * 20;
             $user = User::find(auth()->id());
+
             SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, count($questions));
             return response()->json([
                 'message' => 'Quiz completed.',
