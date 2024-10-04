@@ -163,7 +163,7 @@ class QuizController extends Controller
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
                 'correct_count' => $correctCount,
-                'score' => $score,
+                'jobs' => $score,
                 'incorrect_count' => $incorrectCount,
                 'token' => $newToken,
             ], 201);
