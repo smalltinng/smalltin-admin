@@ -183,6 +183,7 @@ class QuizController extends Controller
                 'correct_count' => $correctCount,
                 'jobs' => $score,
                 'incorrect_count' => $incorrectCount,
+                'token' => $newToken,
             ], 201);
         }
     }
