@@ -114,12 +114,12 @@ class QuizController extends Controller
         if ($currentIndex != $payload->get('current_question_index')) {
             return response()->json([
                 'message' => 'Question already answered or invalid index.',
-            ], 400);
+            ], 401);
         }
         if ($payload->get('is_done')) {
             return response()->json([
-                'message' => 'Questions already answered Start a New Atterm',
-            ], 400);
+                'message' => 'Questions already answered ',
+            ], 401);
         }
         // Validate the answer
         $answer = $request->input('answer');
@@ -169,7 +169,7 @@ class QuizController extends Controller
                 'next_question' => $nextQuestion,
                 'is_correct' => $isCorrect,
                 "current_question_index" => $currentIndex,
-                ""=> $correctCount,
+                "correct_count"=> $correctCount,
             ]);
         } else {
             // Calculate final score based on correct and incorrect counts
