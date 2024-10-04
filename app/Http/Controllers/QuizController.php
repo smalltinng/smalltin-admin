@@ -135,7 +135,7 @@ class QuizController extends Controller
     
         // Increment the current question index
         $currentIndex++;
-        if ($currentIndex == 9 ) {
+        if ($currentIndex == 10 ) {
             $newPayload = [
                 'questions' => $questions,
                 'answers' => $answers,
