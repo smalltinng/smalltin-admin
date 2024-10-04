@@ -103,11 +103,7 @@ class QuizController extends Controller
             $quizStartTime = Carbon::now()->timestamp; // Set start time
         }
     
-        if ($currentIndex != $payload->get('current_question_index')) {
-            return response()->json([
-                'message' => 'Question already answered or invalid index.',
-            ], 400);
-        }
+  
         // Check if token is expired
         $currentTimestamp = Carbon::now()->timestamp;
         if (($currentTimestamp - $quizStartTime) > self::TIME_LIMIT) { // Check if 60 seconds have passed
@@ -115,7 +111,11 @@ class QuizController extends Controller
                 'message' => 'Token expired.',
             ], 401);
         }
-    
+        if ($currentIndex != $payload->get('current_question_index')) {
+            return response()->json([
+                'message' => 'Question already answered or invalid index.',
+            ], 400);
+        }
         // Validate the answer
         $answer = $request->input('answer');
         $correctAnswer = $answers[$currentIndex]; // Decrypt the correct answer
