@@ -96,34 +96,37 @@ class QuizController extends Controller
         $correctCount = $payload->get('correct_count');
         $incorrectCount = $payload->get('incorrect_count');
         $quizStartTime = $payload->get('quiz_start_time');
-        $isDone = $payload->get('quiz_start_time');
+        $isDone = $payload->get('is_done'); // Correctly retrieve the is_done flag
     
         // If quiz_start_time is null, this is the first answer
         if (is_null($quizStartTime)) {
             $quizStartTime = Carbon::now()->timestamp; // Set start time
         }
     
-  
         // Check if token is expired
         $currentTimestamp = Carbon::now()->timestamp;
-        if (($currentTimestamp - $quizStartTime) > self::TIME_LIMIT) { // Check if 60 seconds have passed
+        if (($currentTimestamp - $quizStartTime) > self::TIME_LIMIT) { // Check if the quiz time has expired
             return response()->json([
                 'message' => 'Token expired.',
             ], 401);
         }
+    
+        // Prevent re-answering the same question or resubmitting after quiz completion
+        if ($isDone) {
+            return response()->json([
+                'message' => 'Quiz already completed.',
+            ], 401);
+        }
+    
         if ($currentIndex != $payload->get('current_question_index')) {
             return response()->json([
-                'message' => 'Question already answered or invalid index.',
+                'message' => 'Question already answered ',
             ], 401);
         }
-        if ($payload->get('is_done')) {
-            return response()->json([
-                'message' => 'Questions already answered ',
-            ], 401);
-        }
+    
         // Validate the answer
         $answer = $request->input('answer');
-        $correctAnswer = $answers[$currentIndex]; // Decrypt the correct answer
+        $correctAnswer = $answers[$currentIndex]; // Get the correct answer
     
         // Check answer correctness and update counts
         $isCorrect = ($answer == $correctAnswer);
@@ -135,19 +138,10 @@ class QuizController extends Controller
     
         // Increment the current question index
         $currentIndex++;
-        if ($currentIndex == 10 ) {
-            $newPayload = [
-                'questions' => $questions,
-                'answers' => $answers,
-                'current_question_index' => $currentIndex,
-                'correct_count' => $correctCount,
-                'incorrect_count' => $incorrectCount,
-                'quiz_start_time' => $quizStartTime, // Include start time in the new token
-                'is_done'=> true
-            ];
-          
-        
-        } else {
+    
+        // Check if the quiz is finished (quiz has exactly 10 questions, so the last index is 9)
+        if ($currentIndex == 10) {
+            // Mark quiz as done and calculate the final score
             $newPayload = [
                 'questions' => $questions,
                 'answers' => $answers,
@@ -155,38 +149,50 @@ class QuizController extends Controller
                 'correct_count' => $correctCount,
                 'incorrect_count' => $incorrectCount,
                 'quiz_start_time' => $quizStartTime,
-                'is_done'=> false  // Include start time in the new token
+                'is_done' => true, // Set is_done to true after the last question
             ];
-        }
-        // Generate a new token with the updated index
-        
-        $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
-        if ($currentIndex < count($questions)) {
-            
+    
+            $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
+    
+            // Calculate final score
+            $score = $correctCount * 20; // Assuming 20 points per correct answer
+            $user = User::find(auth()->id());
+            SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, 10);
+    
+            return response()->json([
+                'message' => 'Quiz completed.',
+                'is_correct' => $isCorrect,
+                'correct_count' => $correctCount,
+                'score' => $score,
+                'incorrect_count' => $incorrectCount,
+                'token' => $newToken,
+            ], 201);
+        } else {
+            // Generate a new token with the updated index and set is_done to false
+            $newPayload = [
+                'questions' => $questions,
+                'answers' => $answers,
+                'current_question_index' => $currentIndex,
+                'correct_count' => $correctCount,
+                'incorrect_count' => $incorrectCount,
+                'quiz_start_time' => $quizStartTime,
+                'is_done' => false, // Quiz is not yet done
+            ];
+    
+            $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
+    
+            // Send the next question
             $nextQuestion = $questions[$currentIndex];
             return response()->json([
                 'token' => $newToken,
                 'next_question' => $nextQuestion,
                 'is_correct' => $isCorrect,
-                "current_question_index" => $currentIndex,
-                "correct_count"=> $correctCount,
-            ]);
-        } else {
-            // Calculate final score based on correct and incorrect counts
-            $score =  $correctCount * 20;
-            $user = User::find(auth()->id());
-
-            SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, count($questions));
-            return response()->json([
-                'message' => 'Quiz completed.',
-                'is_correct' => $isCorrect,
+                'current_question_index' => $currentIndex,
                 'correct_count' => $correctCount,
-                'jobs' => $score,
-                'incorrect_count' => $incorrectCount,
-                'token' => $newToken,
-            ], 201);
+            ]);
         }
     }
+    
     
     
 }    
