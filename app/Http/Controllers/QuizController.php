@@ -116,6 +116,11 @@ class QuizController extends Controller
                 'message' => 'Question already answered or invalid index.',
             ], 400);
         }
+        if ($payload->get('is_done')) {
+            return response()->json([
+                'message' => 'Questions already answered Start a New Atterm',
+            ], 400);
+        }
         // Validate the answer
         $answer = $request->input('answer');
         $correctAnswer = $answers[$currentIndex]; // Decrypt the correct answer
@@ -130,24 +135,41 @@ class QuizController extends Controller
     
         // Increment the current question index
         $currentIndex++;
-    
+        if ($currentIndex == 9 ) {
+            $newPayload = [
+                'questions' => $questions,
+                'answers' => $answers,
+                'current_question_index' => $currentIndex,
+                'correct_count' => $correctCount,
+                'incorrect_count' => $incorrectCount,
+                'quiz_start_time' => $quizStartTime, // Include start time in the new token
+                'is_done'=> true
+            ];
+          
+        
+        } else {
+            $newPayload = [
+                'questions' => $questions,
+                'answers' => $answers,
+                'current_question_index' => $currentIndex,
+                'correct_count' => $correctCount,
+                'incorrect_count' => $incorrectCount,
+                'quiz_start_time' => $quizStartTime,
+                'is_done'=> false  // Include start time in the new token
+            ];
+        }
         // Generate a new token with the updated index
-        $newPayload = [
-            'questions' => $questions,
-            'answers' => $answers,
-            'current_question_index' => $currentIndex,
-            'correct_count' => $correctCount,
-            'incorrect_count' => $incorrectCount,
-            'quiz_start_time' => $quizStartTime // Include start time in the new token
-        ];
+        
         $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
         if ($currentIndex < count($questions)) {
+            
             $nextQuestion = $questions[$currentIndex];
             return response()->json([
                 'token' => $newToken,
                 'next_question' => $nextQuestion,
                 'is_correct' => $isCorrect,
                 "current_question_index" => $currentIndex,
+                ""=> $correctCount,
             ]);
         } else {
             // Calculate final score based on correct and incorrect counts
