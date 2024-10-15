@@ -18,9 +18,9 @@ const Hero = () => {
                             Answer questions based on your field and earn points for each correct answer. Join our community of learners and experts!
                         </p>
                         <div className="mt-8  gap-2 flex">
-                            <Link href="/signup" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#285B35] hover:bg-[#32944b]">
-                                Get Started
-                            </Link>
+                        <a href="/app/" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#32944b] hover:bg-[#285B35]" >
+    Get Started
+</a>
                             <a href="/download-app" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#32944b] hover:bg-[#285B35]" download>
     Download App
 </a>

@@ -19,6 +19,10 @@ Route::get('/', function () {
     return Inertia::render('Welcome');
 });
 
+Route::get('/app/{any?}', function () {
+    return file_get_contents(public_path('app/index.html'));
+})->where('any', '.*');
+
 
 Route::get('/admin/login', [AdminController::class, 'showLogin'])->name('admin.login');
 Route::post('/admin/login', [AdminController::class, 'store'])->name('admin.login');
