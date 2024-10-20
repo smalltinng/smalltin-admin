@@ -155,7 +155,15 @@ class QuizController extends Controller
             $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
     
             // Calculate final score
-            $score = $correctCount * 10; // Assuming 20 points per correct answer
+            if($correctCount  >=  8  && $correctCount < 10  ){
+                $correct = $correctCount - 2 ;
+            }else if($correctCount  >=  6  && $correctCount <= 7){
+                $correct = $correctCount - 3 ;
+            }else{
+                $correct = $correctCount;
+            }
+            $score = $correct * 10;
+           // $score = $correctCount * 10; // Assuming 20 points per correct answer
             $user = User::find(auth()->id());
             SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, 10);
     
