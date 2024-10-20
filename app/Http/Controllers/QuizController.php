@@ -155,6 +155,7 @@ class QuizController extends Controller
             $newToken = JWTAuth::customClaims($newPayload)->fromUser(auth()->user());
     
             // Calculate final score
+            $correct=0;
             if($correctCount  >=  8  && $correctCount < 10  ){
                 $correct = $correctCount - 2 ;
             }else if($correctCount  >=  6  && $correctCount <= 7){
