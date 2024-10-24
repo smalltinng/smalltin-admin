@@ -171,7 +171,8 @@ class QuizController extends Controller
             return response()->json([
                 'message' => 'Quiz completed.',
                 'is_correct' => $isCorrect,
-                'correct_count' => $correctCount,
+                'correct_count' => $correct,
+               // 'correct_count' => $correctCount,
                 'jobs' => $score,
                 'incorrect_count' => $incorrectCount,
                 'token' => $newToken,
@@ -182,7 +183,8 @@ class QuizController extends Controller
                 'questions' => $questions,
                 'answers' => $answers,
                 'current_question_index' => $currentIndex,
-                'correct_count' => $correctCount,
+                //'correct_count' => $correct,
+               'correct_count' => $correctCount,
                 'incorrect_count' => $incorrectCount,
                 'quiz_start_time' => $quizStartTime,
                 'is_done' => false, // Quiz is not yet done
