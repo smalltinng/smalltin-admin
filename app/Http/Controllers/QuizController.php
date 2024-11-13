@@ -178,8 +178,7 @@ class QuizController extends Controller
                 'token' => $newToken,
             ], 201);
         } else {
-            // Generate a new token with the updated index and set is_done to false
-            $newPayload = [
+                       $newPayload = [
                 'questions' => $questions,
                 'answers' => $answers,
                 'current_question_index' => $currentIndex,
