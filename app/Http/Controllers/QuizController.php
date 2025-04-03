@@ -70,8 +70,6 @@ class QuizController extends Controller
 
             if (isset($data['choices'][0]['message']['content'])) {
                 $rawContent = $data['choices'][0]['message']['content'];
-
-
                 // **Remove Markdown JSON Formatting**
                 $cleanJson = trim(str_replace(["```json", "```"], "", $rawContent));
 
@@ -94,7 +92,6 @@ class QuizController extends Controller
                             Storage::put('logs/openai_field_mapping_error_' . now()->format('YmdHis') . '.log', "Field not found: " . $questionData['field']);
                             continue;
                         }
-
                         $question = Question::create([
                             'field_id' => $fieldId,
                             'user_id' => $userId,  // Store the associated user ID
@@ -108,7 +105,6 @@ class QuizController extends Controller
 
                         $questions[] = $question;
                     }
-
                     $fileName = 'questions_' . now()->format('YmdHis') . '.json';
                     Storage::put("questions/{$fileName}", json_encode($questions, JSON_PRETTY_PRINT));
 
@@ -266,7 +262,7 @@ class QuizController extends Controller
         $correctAnswer = $answers[$currentIndex]; // Get the correct answer
 
         // Check answer correctness and update counts
-        $isCorrect = ($answer == $correctAnswer);
+        $isCorrect = (strtolower(trim($answer)) == strtolower(trim($correctAnswer)));
         if ($isCorrect) {
             $correctCount++;
         } else {

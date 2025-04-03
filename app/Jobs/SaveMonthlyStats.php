@@ -27,12 +27,12 @@ class SaveMonthlyStats implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    public function __construct($user, $correctCount, $incorrectCount, $questionsCount )
+    public function __construct($user, $correctCount, $incorrectCount, $questionsCount)
     {
         $this->user = $user;
         $this->correctCount = $correctCount;
         $this->incorrectCount = $incorrectCount;
-        $this->questionsCount =$questionsCount;
+        $this->questionsCount = $questionsCount;
     }
 
     /**
@@ -40,45 +40,37 @@ class SaveMonthlyStats implements ShouldQueue
      */
     public function handle(): void
     {
-        
+
 
         if ($this->user) {
             $currentMonth = Carbon::now()->format('Y-m');
-            
-            $correct = 0;
 
-            if($this->correctCount  >=  8  && $this->correctCount < 10  ){
-                $correct = $this->correctCount - 2 ;
-            }else if($this->correctCount  >=  6  && $this->correctCount <= 7){
-                $correct = $this->correctCount - 3 ;
-            }else{
-                $correct = $this->correctCount;
-            }
-            $score = $correct * 10;
 
-            
-        
+            $score = $this->correctCount * 10;
+
+
+
             // Find the existing MonthlyStats record or create a new one
             $monthlyStats = MonthlyStats::firstOrNew([
                 'user_id' => $this->user->id,
                 'month' => $currentMonth
             ]);
-        
+
             // Update the accumulated statistics
-            $monthlyStats->correct_answers += $correct;
+            $monthlyStats->correct_answers += $this->correctCount;
             $monthlyStats->incorrect_answers += $this->incorrectCount;
             $monthlyStats->total_attempts += $this->questionsCount;
             $monthlyStats->monthly_jobs += $score;
-        
+
             // Save the updated MonthlyStats record
             $monthlyStats->save();
-        
-                 $this->user->total_question_correct +=  $this->correctCount;
-                    $this->user->total_question_attempt += $this->questionsCount;
-                    $this->user->jobs += $score; // Assuming `jobs` is an integer field
-        
-                    //Save the updated User record
-                   $this->user->save();
+
+            $this->user->total_question_correct += $this->correctCount;
+            $this->user->total_question_attempt += $this->questionsCount;
+            $this->user->jobs += $score; // Assuming `jobs` is an integer field
+
+            //Save the updated User record
+            $this->user->save();
         }
     }
 }
