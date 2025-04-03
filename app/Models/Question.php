@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\SubField;
 use App\Models\Field;
 class Question extends Model
 {
@@ -13,7 +12,7 @@ class Question extends Model
 
     protected $fillable = [
         "field_id",
-        "sub_fields_id",
+        "user_id",
         "question",
         "a",
         "b",
@@ -24,10 +23,6 @@ class Question extends Model
     ];
 
 
-    public function subfield()
-    {
-        return $this->belongsTo(Subfield::class, 'sub_fields_id');
-    }
 
     public function field()
     {
@@ -39,10 +34,10 @@ class Question extends Model
     protected $hidden = [
         'remember_token',
     ];
-      /**
+    /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>
      */
-   
+
 }

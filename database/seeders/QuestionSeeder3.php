@@ -17,8 +17,7 @@ class QuestionSeeder3 extends Seeder
 
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is photosynthesis?',
+                                'question' => 'What is photosynthesis?',
                 'a' => 'The process by which plants convert light energy into chemical energy',
                 'b' => 'The process by which plants convert chemical energy into light energy',
                 'c' => 'The process by which plants convert water into oxygen',
@@ -29,8 +28,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the structure of a plant cell?',
+                                'question' => 'What is the structure of a plant cell?',
                 'a' => 'Cell wall, chloroplasts, and large vacuole',
                 'b' => 'Cell membrane, mitochondria, and nucleus',
                 'c' => 'Cell membrane, ribosomes, and smooth endoplasmic reticulum',
@@ -41,8 +39,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the process of transpiration in plants?',
+                                'question' => 'What is the process of transpiration in plants?',
                 'a' => 'The uptake of water from the soil by roots',
                 'b' => 'The release of water vapor from stomata in leaves',
                 'c' => 'The transport of sugars from leaves to other parts of the plant',
@@ -53,8 +50,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the major plant hormones and their functions?',
+                                'question' => 'What are the major plant hormones and their functions?',
                 'a' => 'Auxin, cytokinins, gibberellins, abscisic acid, and ethylene; they regulate plant growth and development',
                 'b' => 'Insulin, glucagon, and adrenaline; they regulate animal metabolism',
                 'c' => 'Testosterone, estrogen, and progesterone; they regulate animal reproductive functions',
@@ -65,8 +61,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the difference between gymnosperms and angiosperms?',
+                                'question' => 'What is the difference between gymnosperms and angiosperms?',
                 'a' => 'Gymnosperms produce seeds enclosed in fruits, while angiosperms produce seeds exposed on cones',
                 'b' => 'Gymnosperms produce seeds exposed on cones, while angiosperms produce seeds enclosed in fruits',
                 'c' => 'Gymnosperms reproduce through spores, while angiosperms reproduce through flowers and seeds',
@@ -77,8 +72,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the process of pollination in plants?',
+                                'question' => 'What is the process of pollination in plants?',
                 'a' => 'The transfer of pollen from anther to stigma',
                 'b' => 'The uptake of water from the soil by roots',
                 'c' => 'The release of water vapor from stomata in leaves',
@@ -89,8 +83,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of roots in plants?',
+                                'question' => 'What is the role of roots in plants?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
@@ -101,8 +94,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the different types of plant tissues and their functions?',
+                                'question' => 'What are the different types of plant tissues and their functions?',
                 'a' => 'Dermal, vascular, and ground tissues; they provide structural support, transport fluids, and perform photosynthesis',
                 'b' => 'Muscle, nerve, and connective tissues; they provide structural support, transmit electrical signals, and store energy',
                 'c' => 'Epidermal, neural, and adipose tissues; they provide protection, process information, and regulate body temperature',
@@ -113,8 +105,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of leaves in plants?',
+                                'question' => 'What is the role of leaves in plants?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
@@ -125,8 +116,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the differences between monocots and dicots?',
+                                'question' => 'What are the differences between monocots and dicots?',
                 'a' => 'Monocots have one cotyledon in their seeds, while dicots have two',
                 'b' => 'Monocots have two cotyledons in their seeds, while dicots have one',
                 'c' => 'Monocots have no cotyledons in their seeds, while dicots have multiple',
@@ -137,8 +127,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the stages of plant growth and development?',
+                                'question' => 'What are the stages of plant growth and development?',
                 'a' => 'Seed germination, seedling growth, vegetative growth, flowering, and fruiting',
                 'b' => 'Fertilization, embryonic development, fetal development, birth, and growth',
                 'c' => 'Egg fertilization, larval development, pupal stage, and adult stage',
@@ -149,8 +138,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of flowers in plants?',
+                                'question' => 'What is the role of flowers in plants?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport sugars from leaves to other parts of the plant',
@@ -161,8 +149,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of fruits in plants?',
+                                'question' => 'What is the role of fruits in plants?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To perform photosynthesis',
                 'c' => 'To store energy in the form of starch',
@@ -173,8 +160,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of stem in plants?',
+                                'question' => 'What is the role of stem in plants?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To perform photosynthesis',
                 'c' => 'To transport water and nutrients between roots and leaves',
@@ -185,8 +171,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are plant adaptations to their environments?',
+                                'question' => 'What are plant adaptations to their environments?',
                 'a' => 'Roots for water absorption, leaves for photosynthesis, and stems for structural support',
                 'b' => 'Gills for oxygen absorption, fins for swimming, and scales for protection',
                 'c' => 'Wings for flight, beaks for feeding, and feathers for insulation',
@@ -197,8 +182,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the process of nitrogen fixation in plants?',
+                                'question' => 'What is the process of nitrogen fixation in plants?',
                 'a' => 'The uptake of nitrogen from the atmosphere by roots',
                 'b' => 'The conversion of nitrogen gas into ammonia by bacteria',
                 'c' => 'The release of nitrogen gas into the atmosphere by leaves',
@@ -209,8 +193,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are carnivorous plants and how do they obtain nutrients?',
+                                'question' => 'What are carnivorous plants and how do they obtain nutrients?',
                 'a' => 'Plants that capture and digest insects to supplement their nutrient intake',
                 'b' => 'Plants that absorb nutrients from the soil through their roots',
                 'c' => 'Plants that produce toxins to ward off herbivores',
@@ -221,8 +204,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are plant defenses against herbivores?',
+                                'question' => 'What are plant defenses against herbivores?',
                 'a' => 'Thorns, spines, and prickles for physical protection',
                 'b' => 'Toxins and chemical deterrents',
                 'c' => 'Mimicry and camouflage',
@@ -233,8 +215,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants respond to environmental stimuli?',
+                                'question' => 'How do plants respond to environmental stimuli?',
                 'a' => 'Through growth towards light (phototropism) and response to touch (thigmotropism)',
                 'b' => 'Through movement towards nutrients (chemotropism) and response to gravity (gravitropism)',
                 'c' => 'Through growth towards water (hydrotropism) and response to temperature (thermotropism)',
@@ -245,8 +226,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the different types of plant reproduction?',
+                                'question' => 'What are the different types of plant reproduction?',
                 'a' => 'Sexual and asexual reproduction',
                 'b' => 'Internal and external fertilization',
                 'c' => 'Mammalian and avian reproduction',
@@ -257,8 +237,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are plant pathogens and how do plants defend against them?',
+                                'question' => 'What are plant pathogens and how do plants defend against them?',
                 'a' => 'Microorganisms that cause diseases in plants; plants defend through physical barriers and chemical defenses',
                 'b' => 'Predators that feed on plants; plants defend through thorns and spines',
                 'c' => 'Competitors that compete for resources with plants; plants defend through rapid growth and shade tolerance',
@@ -270,8 +249,7 @@ class QuestionSeeder3 extends Seeder
         
               [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of fungi in the ecosystem?',
+                                'question' => 'What is the role of fungi in the ecosystem?',
                 'a' => 'To produce oxygen through photosynthesis',
                 'b' => 'To decompose organic matter and recycle nutrients',
                 'c' => 'To fix nitrogen from the atmosphere',
@@ -282,8 +260,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the characteristics of algae?',
+                                'question' => 'What are the characteristics of algae?',
                 'a' => 'Unicellular organisms that perform photosynthesis',
                 'b' => 'Multicellular organisms that lack chlorophyll',
                 'c' => 'Multicellular organisms that produce spores',
@@ -294,8 +271,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the importance of mycorrhizal fungi in plant nutrition?',
+                                'question' => 'What is the importance of mycorrhizal fungi in plant nutrition?',
                 'a' => 'They produce oxygen for plants',
                 'b' => 'They fix nitrogen from the atmosphere',
                 'c' => 'They form symbiotic relationships with plant roots to enhance nutrient absorption',
@@ -306,8 +282,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are plant adaptations to survive in extreme environments?',
+                                'question' => 'What are plant adaptations to survive in extreme environments?',
                 'a' => 'Reduced leaves to minimize water loss',
                 'b' => 'Increased leaf surface area for more sunlight absorption',
                 'c' => 'Deep root systems to reach groundwater',
@@ -318,8 +293,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the process of seed dispersal in plants?',
+                                'question' => 'What is the process of seed dispersal in plants?',
                 'a' => 'Wind, water, animals, and explosion',
                 'b' => 'Growth of new roots and shoots from stems',
                 'c' => 'Uptake of water from the soil by roots',
@@ -330,8 +304,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants defend against diseases?',
+                                'question' => 'How do plants defend against diseases?',
                 'a' => 'By producing toxins that kill pathogens',
                 'b' => 'By forming physical barriers such as thick cell walls',
                 'c' => 'By attracting predators that feed on pathogens',
@@ -342,8 +315,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the process of germination in seeds?',
+                                'question' => 'What is the process of germination in seeds?',
                 'a' => 'The development of new roots and shoots from seeds',
                 'b' => 'The release of pollen from anther to stigma',
                 'c' => 'The uptake of water from the soil by roots',
@@ -354,8 +326,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of plant hormones in growth and development?',
+                                'question' => 'What is the role of plant hormones in growth and development?',
                 'a' => 'To transport water and nutrients between roots and leaves',
                 'b' => 'To regulate plant processes such as growth, flowering, and fruiting',
                 'c' => 'To produce oxygen through photosynthesis',
@@ -366,8 +337,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the adaptations of desert plants?',
+                                'question' => 'What are the adaptations of desert plants?',
                 'a' => 'Reduced leaves to minimize water loss',
                 'b' => 'Increased leaf surface area for more sunlight absorption',
                 'c' => 'Deep root systems to reach groundwater',
@@ -378,8 +348,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants acquire nutrients?',
+                                'question' => 'How do plants acquire nutrients?',
                 'a' => 'Through absorption from the air',
                 'b' => 'Through absorption from water in the soil',
                 'c' => 'Through absorption from sunlight',
@@ -390,8 +359,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of nitrogen in plant nutrition?',
+                                'question' => 'What is the role of nitrogen in plant nutrition?',
                 'a' => 'To provide structural support for plant cells',
                 'b' => 'To produce oxygen through photosynthesis',
                 'c' => 'To fix nitrogen from the atmosphere',
@@ -402,8 +370,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the different types of symbiotic relationships involving plants?',
+                                'question' => 'What are the different types of symbiotic relationships involving plants?',
                 'a' => 'Mutualism, commensalism, and parasitism',
                 'b' => 'Predation, competition, and mutualism',
                 'c' => 'Commensalism, parasitism, and predation',
@@ -414,8 +381,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of plant roots in nutrient uptake?',
+                                'question' => 'What is the role of plant roots in nutrient uptake?',
                 'a' => 'To absorb water and nutrients from the soil',
                 'b' => 'To transport sugars from leaves to other parts of the plant',
                 'c' => 'To release oxygen into the atmosphere',
@@ -426,8 +392,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the different types of plant reproduction?',
+                                'question' => 'What are the different types of plant reproduction?',
                 'a' => 'Sexual and asexual reproduction',
                 'b' => 'Internal and external fertilization',
                 'c' => 'Mammalian and avian reproduction',
@@ -438,8 +403,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the factors affecting plant growth?',
+                                'question' => 'What are the factors affecting plant growth?',
                 'a' => 'Light, temperature, water, nutrients, and soil pH',
                 'b' => 'Predators, competition, and mutualistic relationships',
                 'c' => 'Temperature, humidity, wind speed, and precipitation',
@@ -450,8 +414,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants respond to environmental stimuli?',
+                                'question' => 'How do plants respond to environmental stimuli?',
                 'a' => 'Through growth towards light (phototropism) and response to touch (thigmotropism)',
                 'b' => 'Through movement towards nutrients (chemotropism) and response to gravity (gravitropism)',
                 'c' => 'Through growth towards water (hydrotropism) and response to temperature (thermotropism)',
@@ -462,8 +425,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the importance of pollination in plant reproduction?',
+                                'question' => 'What is the importance of pollination in plant reproduction?',
                 'a' => 'To produce oxygen for photosynthesis',
                 'b' => 'To transfer pollen from anther to stigma for fertilization',
                 'c' => 'To attract insects for protection',
@@ -474,8 +436,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the benefits of plant diversity?',
+                                'question' => 'What are the benefits of plant diversity?',
                 'a' => 'Increased ecosystem stability and resilience to environmental changes',
                 'b' => 'Reduced competition for resources among species',
                 'c' => 'Decreased biodiversity in ecosystems',
@@ -486,8 +447,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants contribute to the carbon cycle?',
+                                'question' => 'How do plants contribute to the carbon cycle?',
                 'a' => 'By releasing carbon dioxide into the atmosphere',
                 'b' => 'By absorbing carbon dioxide during photosynthesis',
                 'c' => 'By converting carbon dioxide into oxygen',
@@ -498,8 +458,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the different types of plant tissues and their functions?',
+                                'question' => 'What are the different types of plant tissues and their functions?',
                 'a' => 'Epidermal tissue for protection, vascular tissue for transport, and ground tissue for storage',
                 'b' => 'Muscular tissue for movement, nervous tissue for communication, and connective tissue for support',
                 'c' => 'Bone tissue for structural support, blood tissue for nutrient transport, and cartilage tissue for flexibility',
@@ -510,8 +469,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants adapt to aquatic environments?',
+                                'question' => 'How do plants adapt to aquatic environments?',
                 'a' => 'By developing floating leaves and roots that absorb oxygen from the water',
                 'b' => 'By growing tall to reach sunlight above the water surface',
                 'c' => 'By forming symbiotic relationships with marine animals',
@@ -522,8 +480,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of plant hormones in response to environmental stress?',
+                                'question' => 'What is the role of plant hormones in response to environmental stress?',
                 'a' => 'To regulate growth and development under optimal conditions',
                 'b' => 'To induce flowering and fruit production',
                 'c' => 'To trigger defense mechanisms against pests and diseases',
@@ -534,8 +491,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants reproduce without seeds?',
+                                'question' => 'How do plants reproduce without seeds?',
                 'a' => 'By producing spores that develop into new individuals',
                 'b' => 'By forming bulbs and tubers for vegetative propagation',
                 'c' => 'By attracting pollinators for cross-pollination',
@@ -546,8 +502,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the adaptations of desert plants to conserve water?',
+                                'question' => 'What are the adaptations of desert plants to conserve water?',
                 'a' => 'Reduced leaf surface area and thick cuticles to minimize water loss',
                 'b' => 'Increased root length to absorb water from deep soil layers',
                 'c' => 'Waxy coatings on leaves to reflect sunlight',
@@ -558,8 +513,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of flowers in plant reproduction?',
+                                'question' => 'What is the role of flowers in plant reproduction?',
                 'a' => 'To produce seeds through self-pollination',
                 'b' => 'To attract pollinators for cross-pollination',
                 'c' => 'To protect seeds from environmental factors',
@@ -570,8 +524,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants communicate with each other?',
+                                'question' => 'How do plants communicate with each other?',
                 'a' => 'Through chemical signals released into the air or soil',
                 'b' => 'Through visual cues such as flower colors',
                 'c' => 'Through audible signals that attract pollinators',
@@ -582,8 +535,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of mycorrhizal fungi in nutrient uptake?',
+                                'question' => 'What is the role of mycorrhizal fungi in nutrient uptake?',
                 'a' => 'To produce oxygen for plants',
                 'b' => 'To fix nitrogen from the atmosphere',
                 'c' => 'To form symbiotic relationships with plant roots',
@@ -594,8 +546,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants store energy?',
+                                'question' => 'How do plants store energy?',
                 'a' => 'Through the production of starch in leaves',
                 'b' => 'Through the conversion of sunlight into chemical energy',
                 'c' => 'Through the synthesis of proteins in roots',
@@ -606,8 +557,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What is the role of plant roots in soil health?',
+                                'question' => 'What is the role of plant roots in soil health?',
                 'a' => 'To aerate the soil and improve water infiltration',
                 'b' => 'To release nutrients that promote microbial activity',
                 'c' => 'To anchor plants and prevent soil erosion',
@@ -618,8 +568,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'How do plants defend against herbivores?',
+                                'question' => 'How do plants defend against herbivores?',
                 'a' => 'By producing toxins and chemical deterrents',
                 'b' => 'By forming symbiotic relationships with predators',
                 'c' => 'By mimicking the appearance of poisonous plants',
@@ -630,8 +579,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 11,
-                'question' => 'What are the benefits of plant diversity in ecosystems?',
+                                'question' => 'What are the benefits of plant diversity in ecosystems?',
                 'a' => 'Increased resilience to environmental changes',
                 'b' => 'Decreased competition for resources among species',
                 'c' => 'Enhanced stability of food webs',
@@ -643,8 +591,7 @@ class QuestionSeeder3 extends Seeder
             //
               [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the major characteristics of amphibians?',
+                                'question' => 'What are the major characteristics of amphibians?',
                 'a' => 'Cold-blooded with scales or shells',
                 'b' => 'Warm-blooded with fur or hair, giving birth to live young',
                 'c' => 'Cold-blooded with gills and fins',
@@ -655,8 +602,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals adapt to extreme environments like deserts?',
+                                'question' => 'How do animals adapt to extreme environments like deserts?',
                 'a' => 'By developing thick fur coats for insulation',
                 'b' => 'By storing water in specialized tissues',
                 'c' => 'By reducing metabolic rates to conserve energy',
@@ -667,8 +613,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the different types of animal locomotion?',
+                                'question' => 'What are the different types of animal locomotion?',
                 'a' => 'Walking, flying, and swimming',
                 'b' => 'Crawling, jumping, and slithering',
                 'c' => 'Hopping, climbing, and burrowing',
@@ -679,8 +624,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem stability?',
+                                'question' => 'How do animals contribute to ecosystem stability?',
                 'a' => 'By controlling population sizes of prey species',
                 'b' => 'By providing food sources for predators',
                 'c' => 'By recycling nutrients through decomposition',
@@ -691,8 +635,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of animal migration?',
+                                'question' => 'What are the benefits of animal migration?',
                 'a' => 'To avoid harsh weather conditions',
                 'b' => 'To find better food sources and breeding grounds',
                 'c' => 'To establish territories and defend against predators',
@@ -703,8 +646,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals adapt to aquatic environments?',
+                                'question' => 'How do animals adapt to aquatic environments?',
                 'a' => 'By developing streamlined bodies and webbed feet',
                 'b' => 'By evolving camouflage to blend into surroundings',
                 'c' => 'By regulating body temperature through behavior',
@@ -715,8 +657,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of keystone species in ecosystems?',
+                                'question' => 'What are the roles of keystone species in ecosystems?',
                 'a' => 'To control population sizes of prey species',
                 'b' => 'To provide nesting sites for migratory birds',
                 'c' => 'To maintain biodiversity and ecosystem structure',
@@ -727,8 +668,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to soil fertility?',
+                                'question' => 'How do animals contribute to soil fertility?',
                 'a' => 'By decomposing organic matter and recycling nutrients',
                 'b' => 'By producing oxygen through photosynthesis',
                 'c' => 'By fixing nitrogen from the atmosphere',
@@ -739,8 +679,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What is the impact of invasive species on native ecosystems?',
+                                'question' => 'What is the impact of invasive species on native ecosystems?',
                 'a' => 'They contribute to biodiversity and enhance ecosystem resilience',
                 'b' => 'They outcompete native species for resources and disrupt natural habitats',
                 'c' => 'They provide new food sources for local predators',
@@ -751,8 +690,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals defend against predators?',
+                                'question' => 'How do animals defend against predators?',
                 'a' => 'By forming herds or packs for protection',
                 'b' => 'By developing camouflage to blend into surroundings',
                 'c' => 'By emitting chemical signals to warn others of danger',
@@ -763,8 +701,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of mutualistic relationships in ecosystems?',
+                                'question' => 'What are the roles of mutualistic relationships in ecosystems?',
                 'a' => 'To provide food and shelter for other species',
                 'b' => 'To compete for limited resources within habitats',
                 'c' => 'To improve nutrient cycling and plant pollination',
@@ -775,8 +712,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to seed dispersal in plants?',
+                                'question' => 'How do animals contribute to seed dispersal in plants?',
                 'a' => 'By consuming fruits and depositing seeds in new locations',
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
@@ -787,8 +723,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of animal diversity in ecosystems?',
+                                'question' => 'What are the benefits of animal diversity in ecosystems?',
                 'a' => 'Increased competition for resources',
                 'b' => 'Decreased stability of food webs',
                 'c' => 'Enhanced resilience to environmental changes',
@@ -799,8 +734,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -811,8 +745,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What is the role of animal behavior in species survival?',
+                                'question' => 'What is the role of animal behavior in species survival?',
                 'a' => 'To learn new behaviors through trial and error',
                 'b' => 'To form social bonds with other members of the species',
                 'c' => 'To survive and reproduce in their environment',
@@ -823,8 +756,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals adapt to changing climates?',
+                                'question' => 'How do animals adapt to changing climates?',
                 'a' => 'By hibernating during winter months',
                 'b' => 'By migrating to new habitats',
                 'c' => 'By changing their fur color',
@@ -835,8 +767,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of predator-prey relationships in ecosystems?',
+                                'question' => 'What are the roles of predator-prey relationships in ecosystems?',
                 'a' => 'To control population sizes and maintain balance',
                 'b' => 'To promote competition among species',
                 'c' => 'To reduce genetic diversity within populations',
@@ -847,8 +778,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to plant reproduction?',
+                                'question' => 'How do animals contribute to plant reproduction?',
                 'a' => 'By dispersing seeds through digestive processes',
                 'b' => 'By providing nutrients through decomposition',
                 'c' => 'By facilitating pollination and seed dispersal',
@@ -859,8 +789,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem services?',
+                                'question' => 'How do animals contribute to ecosystem services?',
                 'a' => 'By reducing soil erosion and improving water quality',
                 'b' => 'By competing for resources within their habitats',
                 'c' => 'By migrating to new habitats during seasonal changes',
@@ -871,8 +800,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of biodiversity in marine ecosystems?',
+                                'question' => 'What are the benefits of biodiversity in marine ecosystems?',
                 'a' => 'Increased competition for resources among species',
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased habitat availability for marine organisms',
@@ -883,8 +811,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in forests?',
+                                'question' => 'How do animals contribute to nutrient cycling in forests?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -895,8 +822,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of mutualistic relationships in coral reef ecosystems?',
+                                'question' => 'What are the roles of mutualistic relationships in coral reef ecosystems?',
                 'a' => 'To provide food and shelter for other species',
                 'b' => 'To compete for limited resources within habitats',
                 'c' => 'To improve nutrient cycling and coral health',
@@ -907,8 +833,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals defend against predators in the savanna?',
+                                'question' => 'How do animals defend against predators in the savanna?',
                 'a' => 'By forming herds or packs for protection',
                 'b' => 'By developing camouflage to blend into surroundings',
                 'c' => 'By emitting chemical signals to warn others of danger',
@@ -919,8 +844,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What is the role of animal behavior in species conservation?',
+                                'question' => 'What is the role of animal behavior in species conservation?',
                 'a' => 'To learn new behaviors through trial and error',
                 'b' => 'To form social bonds with other members of the species',
                 'c' => 'To survive and reproduce in their environment',
@@ -931,8 +855,7 @@ class QuestionSeeder3 extends Seeder
             ],
                [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What is the importance of animal behavior in evolutionary biology?',
+                                'question' => 'What is the importance of animal behavior in evolutionary biology?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -943,8 +866,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in freshwater lakes?',
+                                'question' => 'How do animals contribute to nutrient cycling in freshwater lakes?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -955,8 +877,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal migration in global ecosystems?',
+                                'question' => 'What are the roles of animal migration in global ecosystems?',
                 'a' => 'To avoid competition for resources within habitats',
                 'b' => 'To provide food sources for predator species',
                 'c' => 'To facilitate gene flow and genetic diversity',
@@ -967,8 +888,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem stability in coral reef environments?',
+                                'question' => 'How do animals contribute to ecosystem stability in coral reef environments?',
                 'a' => 'By competing for resources with other marine organisms',
                 'b' => 'By controlling population sizes of prey species',
                 'c' => 'By providing food sources for scavengers and decomposers',
@@ -979,8 +899,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of animal diversity in polar ecosystems?',
+                                'question' => 'What are the benefits of animal diversity in polar ecosystems?',
                 'a' => 'Increased competition for resources among species',
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
@@ -991,8 +910,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to pollination in tropical rainforest ecosystems?',
+                                'question' => 'How do animals contribute to pollination in tropical rainforest ecosystems?',
                 'a' => 'By consuming fruits and depositing seeds in new locations',
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
@@ -1003,8 +921,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of human activity on animal habitats?',
+                                'question' => 'What are the impacts of human activity on animal habitats?',
                 'a' => 'Increased availability of nesting sites',
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1015,8 +932,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to soil health in temperate forest ecosystems?',
+                                'question' => 'How do animals contribute to soil health in temperate forest ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1027,8 +943,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal communication in social behaviors?',
+                                'question' => 'What are the roles of animal communication in social behaviors?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1039,8 +954,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem services in urban environments?',
+                                'question' => 'How do animals contribute to ecosystem services in urban environments?',
                 'a' => 'By migrating to rural areas with less human disturbance',
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
@@ -1051,8 +965,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of climate change on animal populations in Arctic regions?',
+                                'question' => 'What are the impacts of climate change on animal populations in Arctic regions?',
                 'a' => 'Increased availability of food resources',
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1063,8 +976,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to seed dispersal in Mediterranean ecosystems?',
+                                'question' => 'How do animals contribute to seed dispersal in Mediterranean ecosystems?',
                 'a' => 'By consuming fruits and depositing seeds in new locations',
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
@@ -1075,8 +987,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of animal diversity in savanna ecosystems?',
+                                'question' => 'What are the benefits of animal diversity in savanna ecosystems?',
                 'a' => 'Increased competition for resources among species',
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
@@ -1087,8 +998,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in temperate grassland ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in temperate grassland ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1099,8 +1009,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of habitat fragmentation on animal populations?',
+                                'question' => 'What are the impacts of habitat fragmentation on animal populations?',
                 'a' => 'Increased availability of nesting sites',
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1111,8 +1020,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem services in mangrove forests?',
+                                'question' => 'How do animals contribute to ecosystem services in mangrove forests?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1123,8 +1031,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal pollination in maintaining plant diversity?',
+                                'question' => 'What are the roles of animal pollination in maintaining plant diversity?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1135,8 +1042,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in alpine ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in alpine ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1147,8 +1053,7 @@ class QuestionSeeder3 extends Seeder
             ],
                [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to soil fertility in tropical rainforest ecosystems?',
+                                'question' => 'How do animals contribute to soil fertility in tropical rainforest ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1159,8 +1064,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal camouflage in predator-prey relationships?',
+                                'question' => 'What are the roles of animal camouflage in predator-prey relationships?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1171,8 +1075,7 @@ class QuestionSeeder3 extends Seeder
             ],
                 [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the adaptations of animals in desert ecosystems to conserve water?',
+                                'question' => 'What are the adaptations of animals in desert ecosystems to conserve water?',
                 'a' => 'By hibernating during the day to avoid dehydration',
                 'b' => 'By storing water in specialized organs or tissues',
                 'c' => 'By migrating to cooler climates during dry seasons',
@@ -1183,8 +1086,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in temperate deciduous forests?',
+                                'question' => 'How do animals contribute to nutrient cycling in temperate deciduous forests?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1195,8 +1097,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal symbiosis in enhancing ecological interactions?',
+                                'question' => 'What are the roles of animal symbiosis in enhancing ecological interactions?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1207,8 +1108,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in taiga ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in taiga ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1219,8 +1119,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of habitat loss on animal populations in tropical rainforests?',
+                                'question' => 'What are the impacts of habitat loss on animal populations in tropical rainforests?',
                 'a' => 'Increased availability of nesting sites',
                 'b' => 'Loss of food sources and shelter',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1231,8 +1130,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem services in wetland environments?',
+                                'question' => 'How do animals contribute to ecosystem services in wetland environments?',
                 'a' => 'By migrating to urban areas for food sources',
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
@@ -1243,8 +1141,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal parenting behaviors in species survival?',
+                                'question' => 'What are the roles of animal parenting behaviors in species survival?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1255,8 +1152,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem stability in mangrove forests?',
+                                'question' => 'How do animals contribute to ecosystem stability in mangrove forests?',
                 'a' => 'By competing for resources with other marine organisms',
                 'b' => 'By controlling population sizes of prey species',
                 'c' => 'By providing food sources for scavengers and decomposers',
@@ -1267,8 +1163,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the benefits of animal diversity in temperate grassland ecosystems?',
+                                'question' => 'What are the benefits of animal diversity in temperate grassland ecosystems?',
                 'a' => 'Increased competition for resources among species',
                 'b' => 'Enhanced resilience to environmental changes',
                 'c' => 'Decreased stability of food webs',
@@ -1279,8 +1174,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to seed dispersal in boreal forest ecosystems?',
+                                'question' => 'How do animals contribute to seed dispersal in boreal forest ecosystems?',
                 'a' => 'By consuming fruits and depositing seeds in new locations',
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
@@ -1291,8 +1185,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of animal predation on prey populations in savanna ecosystems?',
+                                'question' => 'What are the impacts of animal predation on prey populations in savanna ecosystems?',
                 'a' => 'Increased availability of food resources',
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1303,8 +1196,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to soil health in Mediterranean ecosystems?',
+                                'question' => 'How do animals contribute to soil health in Mediterranean ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1315,8 +1207,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal mimicry in predator avoidance?',
+                                'question' => 'What are the roles of animal mimicry in predator avoidance?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1327,8 +1218,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in alpine ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in alpine ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1339,8 +1229,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of invasive species on native ecosystems?',
+                                'question' => 'What are the impacts of invasive species on native ecosystems?',
                 'a' => 'Decreased competition for resources among species',
                 'b' => 'Increased biodiversity and ecosystem stability',
                 'c' => 'Loss of habitat and displacement of native species',
@@ -1351,8 +1240,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to seed dispersal in temperate grasslands?',
+                                'question' => 'How do animals contribute to seed dispersal in temperate grasslands?',
                 'a' => 'By consuming fruits and depositing seeds in new locations',
                 'b' => 'By pollinating flowers and facilitating fertilization',
                 'c' => 'By burrowing underground and aerating the soil',
@@ -1362,8 +1250,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to nutrient cycling in Arctic tundra ecosystems?',
+                                'question' => 'How do animals contribute to nutrient cycling in Arctic tundra ecosystems?',
                 'a' => 'By consuming and recycling organic matter',
                 'b' => 'By converting sunlight into chemical energy',
                 'c' => 'By producing oxygen through photosynthesis',
@@ -1374,8 +1261,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the roles of animal migrations in maintaining ecosystem balance?',
+                                'question' => 'What are the roles of animal migrations in maintaining ecosystem balance?',
                 'a' => 'To improve survival skills through trial and error',
                 'b' => 'To enhance social interactions within populations',
                 'c' => 'To increase species diversity and genetic variation',
@@ -1386,8 +1272,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'How do animals contribute to ecosystem services in coral reef environments?',
+                                'question' => 'How do animals contribute to ecosystem services in coral reef environments?',
                 'a' => 'By migrating to urban areas for food sources',
                 'b' => 'By developing nocturnal habits to avoid human contact',
                 'c' => 'By scavenging food from human settlements',
@@ -1398,8 +1283,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 12,
-                'question' => 'What are the impacts of climate change on animal behaviors in polar ecosystems?',
+                                'question' => 'What are the impacts of climate change on animal behaviors in polar ecosystems?',
                 'a' => 'Increased availability of food resources',
                 'b' => 'Loss of biodiversity and disruption of migratory patterns',
                 'c' => 'Expansion of natural habitats for endangered species',
@@ -1409,8 +1293,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What is the role of DNA in genetic inheritance?',
+                                'question' => 'What is the role of DNA in genetic inheritance?',
                 'a' => 'To store genetic information and pass it to offspring',
                 'b' => 'To synthesize proteins for cellular functions',
                 'c' => 'To regulate gene expression through transcription factors',
@@ -1421,8 +1304,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the differences between dominant and recessive traits in genetic inheritance?',
+                                'question' => 'What are the differences between dominant and recessive traits in genetic inheritance?',
                 'a' => 'Dominant traits always appear in offspring, while recessive traits are only expressed in the absence of dominant alleles',
                 'b' => 'Dominant traits skip generations, while recessive traits are consistently expressed',
                 'c' => 'Dominant traits are inherited from both parents, while recessive traits are inherited from only one parent',
@@ -1433,8 +1315,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do mutations contribute to genetic diversity?',
+                                'question' => 'How do mutations contribute to genetic diversity?',
                 'a' => 'By causing harmful effects on DNA replication',
                 'b' => 'By altering the sequence of nucleotides in DNA',
                 'c' => 'By suppressing gene expression in offspring',
@@ -1445,8 +1326,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What is the significance of genetic mapping in studying inherited diseases?',
+                                'question' => 'What is the significance of genetic mapping in studying inherited diseases?',
                 'a' => 'To identify genetic markers associated with specific diseases',
                 'b' => 'To predict the onset of diseases based on family history',
                 'c' => 'To analyze protein structures affected by genetic mutations',
@@ -1457,8 +1337,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic variations influence evolutionary adaptations?',
+                                'question' => 'How do genetic variations influence evolutionary adaptations?',
                 'a' => 'By accelerating ecological interactions among species',
                 'b' => 'By reducing population sizes and genetic diversity',
                 'c' => 'By promoting survival advantages in changing environments',
@@ -1469,8 +1348,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical implications of genetic engineering in agriculture and medicine?',
+                                'question' => 'What are the ethical implications of genetic engineering in agriculture and medicine?',
                 'a' => 'To enhance crop yields and pharmaceutical developments',
                 'b' => 'To promote sustainable practices in biotechnology',
                 'c' => 'To prevent genetic disorders and improve human health',
@@ -1481,8 +1359,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic mutations contribute to antibiotic resistance in bacterial populations?',
+                                'question' => 'How do genetic mutations contribute to antibiotic resistance in bacterial populations?',
                 'a' => 'By altering genetic sequences and promoting bacterial growth',
                 'b' => 'By regulating gene expression in antibiotic treatments',
                 'c' => 'By evolving resistance mechanisms against antimicrobial agents',
@@ -1493,8 +1370,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the challenges of using gene therapy to treat inherited disorders?',
+                                'question' => 'What are the challenges of using gene therapy to treat inherited disorders?',
                 'a' => 'Limited availability of therapeutic resources',
                 'b' => 'High costs associated with genetic testing',
                 'c' => 'Potential risks of immune responses and gene delivery',
@@ -1505,8 +1381,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic recombination contribute to genetic diversity in sexually reproducing organisms?',
+                                'question' => 'How does genetic recombination contribute to genetic diversity in sexually reproducing organisms?',
                 'a' => 'By generating new combinations of alleles during meiosis',
                 'b' => 'By duplicating genetic material in mitotic cell divisions',
                 'c' => 'By producing mutations that lead to speciation events',
@@ -1517,8 +1392,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What is the role of epigenetics in regulating gene expression without altering DNA sequences?',
+                                'question' => 'What is the role of epigenetics in regulating gene expression without altering DNA sequences?',
                 'a' => 'To accelerate cellular processes in response to environmental stimuli',
                 'b' => 'To maintain genetic stability and prevent mutations',
                 'c' => 'To modify protein structures and enhance metabolic functions',
@@ -1528,8 +1402,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the principles of Mendelian genetics?',
+                                'question' => 'What are the principles of Mendelian genetics?',
                 'a' => 'To evaluate genetic variations in fruit fly populations',
                 'b' => 'To analyze chromosome patterns in human karyotypes',
                 'c' => 'To predict inheritance patterns of traits in pea plants',
@@ -1540,8 +1413,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic mutations contribute to cancer development in human cells?',
+                                'question' => 'How do genetic mutations contribute to cancer development in human cells?',
                 'a' => 'By promoting apoptosis and cell cycle regulation',
                 'b' => 'By enhancing genetic stability and cellular repair mechanisms',
                 'c' => 'By disrupting normal growth and signaling pathways',
@@ -1552,8 +1424,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What is the significance of genome sequencing in understanding evolutionary relationships among species?',
+                                'question' => 'What is the significance of genome sequencing in understanding evolutionary relationships among species?',
                 'a' => 'To predict genetic disorders and gene expression patterns',
                 'b' => 'To analyze nucleotide sequences and genetic mutations',
                 'c' => 'To identify similarities and differences in DNA sequences',
@@ -1564,8 +1435,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic engineering contribute to the production of genetically modified organisms (GMOs) in agriculture?',
+                                'question' => 'How does genetic engineering contribute to the production of genetically modified organisms (GMOs) in agriculture?',
                 'a' => 'By controlling environmental factors and optimizing crop yields',
                 'b' => 'By introducing foreign genes into plant genomes for desired traits',
                 'c' => 'By reducing genetic variability and promoting biodiversity',
@@ -1576,8 +1446,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical considerations of using CRISPR-Cas9 technology in genetic editing?',
+                                'question' => 'What are the ethical considerations of using CRISPR-Cas9 technology in genetic editing?',
                 'a' => 'To improve crop resistance to environmental stresses',
                 'b' => 'To develop personalized medicine for genetic disorders',
                 'c' => 'To regulate gene expression and enhance cellular functions',
@@ -1588,8 +1457,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic mutations influence drug responses in personalized medicine?',
+                                'question' => 'How do genetic mutations influence drug responses in personalized medicine?',
                 'a' => 'By reducing adverse effects and improving treatment outcomes',
                 'b' => 'By increasing susceptibility to infectious diseases',
                 'c' => 'By enhancing cellular functions and metabolic pathways',
@@ -1600,8 +1468,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of genetic screening in identifying carriers of inherited diseases?',
+                                'question' => 'What are the applications of genetic screening in identifying carriers of inherited diseases?',
                 'a' => 'To prevent genetic disorders through prenatal testing',
                 'b' => 'To explore gene interactions and protein synthesis',
                 'c' => 'To analyze genome-wide association studies in human populations',
@@ -1612,8 +1479,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic diversity contribute to population resilience in ecosystems?',
+                                'question' => 'How does genetic diversity contribute to population resilience in ecosystems?',
                 'a' => 'By minimizing adaptive responses to environmental changes',
                 'b' => 'By promoting species interactions and community dynamics',
                 'c' => 'By regulating gene expression in ecological niches',
@@ -1624,8 +1490,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the mechanisms of gene regulation in controlling cellular functions and development?',
+                                'question' => 'What are the mechanisms of gene regulation in controlling cellular functions and development?',
                 'a' => 'To identify genetic markers associated with disease susceptibility',
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To study epigenetic modifications and gene expression patterns',
@@ -1636,8 +1501,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic inheritance influence human traits and behavior?',
+                                'question' => 'How does genetic inheritance influence human traits and behavior?',
                 'a' => 'By integrating genetic information into molecular biology',
                 'b' => 'By predicting phenotype variations and genetic disorders',
                 'c' => 'By regulating gene expression and protein synthesis',
@@ -1647,8 +1511,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],  [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic mutations contribute to biodiversity in natural ecosystems?',
+                                'question' => 'How do genetic mutations contribute to biodiversity in natural ecosystems?',
                 'a' => 'By disrupting genetic stability and promoting species extinction',
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By controlling gene expression and protein synthesis',
@@ -1659,8 +1522,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the implications of genetic drift in small populations of endangered species?',
+                                'question' => 'What are the implications of genetic drift in small populations of endangered species?',
                 'a' => 'To improve genetic diversity and ecosystem stability',
                 'b' => 'To reduce genetic variability and reproductive fitness',
                 'c' => 'To predict genetic disorders and disease susceptibility',
@@ -1671,8 +1533,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does gene expression vary among different cell types in multicellular organisms?',
+                                'question' => 'How does gene expression vary among different cell types in multicellular organisms?',
                 'a' => 'By modifying genetic sequences and regulating protein synthesis',
                 'b' => 'By analyzing chromosomal abnormalities and genetic mutations',
                 'c' => 'By integrating genetic information into developmental biology',
@@ -1683,8 +1544,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical considerations of genetic testing for personalized medicine?',
+                                'question' => 'What are the ethical considerations of genetic testing for personalized medicine?',
                 'a' => 'To predict inheritance patterns and genetic disorders',
                 'b' => 'To enhance clinical outcomes and treatment strategies',
                 'c' => 'To prevent genetic discrimination and privacy concerns',
@@ -1695,8 +1555,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does gene therapy offer potential treatments for genetic disorders?',
+                                'question' => 'How does gene therapy offer potential treatments for genetic disorders?',
                 'a' => 'By suppressing genetic mutations and promoting gene expression',
                 'b' => 'By targeting specific genes and correcting defective DNA sequences',
                 'c' => 'By analyzing chromosomal abnormalities in clinical trials',
@@ -1707,8 +1566,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the impacts of genetic modification on agricultural ecosystems?',
+                                'question' => 'What are the impacts of genetic modification on agricultural ecosystems?',
                 'a' => 'To promote sustainable farming practices and reduce pesticide use',
                 'b' => 'To regulate gene expression and metabolic pathways in crops',
                 'c' => 'To analyze genetic diversity and ecosystem interactions',
@@ -1719,8 +1577,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic recombination contribute to evolutionary adaptations in populations?',
+                                'question' => 'How does genetic recombination contribute to evolutionary adaptations in populations?',
                 'a' => 'By creating new gene combinations and promoting biodiversity',
                 'b' => 'By suppressing gene expression and metabolic activities',
                 'c' => 'By analyzing genetic mutations and chromosomal abnormalities',
@@ -1731,8 +1588,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the advantages of using genome editing technologies in biotechnology?',
+                                'question' => 'What are the advantages of using genome editing technologies in biotechnology?',
                 'a' => 'To predict genetic variations and gene expression patterns',
                 'b' => 'To analyze DNA sequences and protein structures',
                 'c' => 'To modify genetic material and enhance metabolic functions',
@@ -1743,8 +1599,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do epigenetic modifications influence gene regulation and developmental processes?',
+                                'question' => 'How do epigenetic modifications influence gene regulation and developmental processes?',
                 'a' => 'By analyzing chromosomal abnormalities and genetic mutations',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By controlling cellular functions and metabolic pathways',
@@ -1755,8 +1610,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the environmental factors that affect gene expression and evolutionary changes?',
+                                'question' => 'What are the environmental factors that affect gene expression and evolutionary changes?',
                 'a' => 'To prevent genetic disorders and improve clinical outcomes',
                 'b' => 'To regulate genetic interactions and protein synthesis',
                 'c' => 'To analyze genetic diversity and ecosystem interactions',
@@ -1766,8 +1620,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic variation contribute to disease susceptibility in human populations?',
+                                'question' => 'How does genetic variation contribute to disease susceptibility in human populations?',
                 'a' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By regulating gene expression and protein synthesis',
@@ -1778,8 +1631,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of genetic epidemiology in public health research?',
+                                'question' => 'What are the applications of genetic epidemiology in public health research?',
                 'a' => 'To analyze nucleotide sequences and genetic mutations',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To explore genetic diversity and ecosystem interactions',
@@ -1790,8 +1642,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic algorithms simulate evolutionary processes in computer science?',
+                                'question' => 'How do genetic algorithms simulate evolutionary processes in computer science?',
                 'a' => 'By modifying genetic material and enhancing metabolic functions',
                 'b' => 'By predicting genetic variations and gene expression patterns',
                 'c' => 'By analyzing DNA sequences and protein structures',
@@ -1802,8 +1653,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical implications of genetic testing for susceptibility to psychiatric disorders?',
+                                'question' => 'What are the ethical implications of genetic testing for susceptibility to psychiatric disorders?',
                 'a' => 'To prevent genetic discrimination and enhance privacy protection',
                 'b' => 'To regulate gene expression and metabolic pathways',
                 'c' => 'To predict inheritance patterns and gene-environment interactions',
@@ -1814,8 +1664,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic variation contribute to species adaptation in changing environments?',
+                                'question' => 'How does genetic variation contribute to species adaptation in changing environments?',
                 'a' => 'By controlling gene expression and protein synthesis',
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By analyzing genetic diversity and ecosystem interactions',
@@ -1826,8 +1675,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of genetic mapping in understanding complex traits in human populations?',
+                                'question' => 'What are the applications of genetic mapping in understanding complex traits in human populations?',
                 'a' => 'To study gene-environment interactions and disease risk factors',
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To explore genetic diversity and ecosystem interactions',
@@ -1838,8 +1686,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic variation influence population genetics and evolutionary biology?',
+                                'question' => 'How does genetic variation influence population genetics and evolutionary biology?',
                 'a' => 'By analyzing DNA sequences and protein structures',
                 'b' => 'By predicting inheritance patterns and genetic disorders',
                 'c' => 'By regulating gene expression and metabolic pathways',
@@ -1850,8 +1697,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the environmental factors that affect gene expression and genetic diversity?',
+                                'question' => 'What are the environmental factors that affect gene expression and genetic diversity?',
                 'a' => 'To prevent genetic disorders and improve clinical outcomes',
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To adapt to changing environmental conditions and natural selection',
@@ -1862,8 +1708,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic engineering contribute to sustainable agriculture and food security?',
+                                'question' => 'How does genetic engineering contribute to sustainable agriculture and food security?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By modifying genetic material and enhancing metabolic functions',
@@ -1874,8 +1719,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the impacts of genetic modification on global biodiversity and ecosystem health?',
+                                'question' => 'What are the impacts of genetic modification on global biodiversity and ecosystem health?',
                 'a' => 'To analyze DNA sequences and protein structures',
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -1885,8 +1729,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does epigenetic inheritance influence phenotypic variation and evolutionary adaptation?',
+                                'question' => 'How does epigenetic inheritance influence phenotypic variation and evolutionary adaptation?',
                 'a' => 'By modifying genetic sequences and regulating protein synthesis',
                 'b' => 'By controlling gene expression without altering DNA sequences',
                 'c' => 'By predicting inheritance patterns and genetic disorders',
@@ -1897,8 +1740,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical implications of gene editing technologies in human germline modifications?',
+                                'question' => 'What are the ethical implications of gene editing technologies in human germline modifications?',
                 'a' => 'To prevent genetic discrimination and enhance privacy protection',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -1909,8 +1751,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do transposable elements contribute to genome evolution and genetic diversity?',
+                                'question' => 'How do transposable elements contribute to genome evolution and genetic diversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By modifying genetic material and enhancing metabolic functions',
@@ -1921,8 +1762,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the challenges of using CRISPR-Cas9 technology in gene therapy and biomedical research?',
+                                'question' => 'What are the challenges of using CRISPR-Cas9 technology in gene therapy and biomedical research?',
                 'a' => 'To analyze DNA sequences and protein structures',
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -1933,8 +1773,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic recombination contribute to evolutionary adaptations and biodiversity?',
+                                'question' => 'How does genetic recombination contribute to evolutionary adaptations and biodiversity?',
                 'a' => 'By controlling gene expression and protein synthesis',
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By analyzing genetic diversity and ecosystem interactions',
@@ -1945,8 +1784,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the implications of mitochondrial DNA mutations in human health and disease?',
+                                'question' => 'What are the implications of mitochondrial DNA mutations in human health and disease?',
                 'a' => 'To predict inheritance patterns and genetic disorders',
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To prevent genetic discrimination and enhance privacy protection',
@@ -1957,8 +1795,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does evolutionary developmental biology (evo-devo) contribute to understanding genetic regulation?',
+                                'question' => 'How does evolutionary developmental biology (evo-devo) contribute to understanding genetic regulation?',
                 'a' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By controlling gene expression and developmental processes',
@@ -1969,8 +1806,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the environmental factors that influence epigenetic modifications and gene expression?',
+                                'question' => 'What are the environmental factors that influence epigenetic modifications and gene expression?',
                 'a' => 'To regulate gene activity and metabolic pathways',
                 'b' => 'To adapt to changing environmental conditions and natural selection',
                 'c' => 'To analyze DNA sequences and protein structures',
@@ -1981,8 +1817,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do non-coding RNAs regulate gene expression and cellular functions?',
+                                'question' => 'How do non-coding RNAs regulate gene expression and cellular functions?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity without encoding proteins',
@@ -1993,8 +1828,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the societal impacts of genetic technologies in agriculture and medicine?',
+                                'question' => 'What are the societal impacts of genetic technologies in agriculture and medicine?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2004,8 +1838,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic drift influence population genetics and evolutionary processes?',
+                                'question' => 'How does genetic drift influence population genetics and evolutionary processes?',
                 'a' => 'By analyzing genetic diversity and ecosystem interactions',
                 'b' => 'By enhancing reproductive success and adaptive responses',
                 'c' => 'By predicting inheritance patterns and genetic disorders',
@@ -2016,8 +1849,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the mechanisms of gene regulation in prokaryotic and eukaryotic organisms?',
+                                'question' => 'What are the mechanisms of gene regulation in prokaryotic and eukaryotic organisms?',
                 'a' => 'To study gene-environment interactions and disease risk factors',
                 'b' => 'To analyze chromosomal abnormalities and gene mutations',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2028,8 +1860,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do population genetics and molecular evolution contribute to understanding species divergence?',
+                                'question' => 'How do population genetics and molecular evolution contribute to understanding species divergence?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By analyzing DNA sequences and protein structures',
@@ -2040,8 +1871,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the roles of evolutionary genomics in studying genome evolution and adaptation?',
+                                'question' => 'What are the roles of evolutionary genomics in studying genome evolution and adaptation?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2052,8 +1882,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic linkage analysis contribute to mapping complex traits and diseases?',
+                                'question' => 'How does genetic linkage analysis contribute to mapping complex traits and diseases?',
                 'a' => 'By predicting inheritance patterns and genetic disorders',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2064,8 +1893,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of evolutionary developmental biology (evo-devo) in understanding morphological diversity?',
+                                'question' => 'What are the applications of evolutionary developmental biology (evo-devo) in understanding morphological diversity?',
                 'a' => 'To analyze DNA sequences and protein structures',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and developmental processes',
@@ -2076,8 +1904,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic interactions and epistasis influence phenotypic outcomes in organisms?',
+                                'question' => 'How do genetic interactions and epistasis influence phenotypic outcomes in organisms?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity and metabolic pathways',
@@ -2088,8 +1915,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the impacts of horizontal gene transfer on bacterial evolution and genetic diversity?',
+                                'question' => 'What are the impacts of horizontal gene transfer on bacterial evolution and genetic diversity?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2100,8 +1926,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic variation contribute to adaptive evolution in response to environmental changes?',
+                                'question' => 'How does genetic variation contribute to adaptive evolution in response to environmental changes?',
                 'a' => 'By predicting inheritance patterns and genetic disorders',
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
@@ -2112,8 +1937,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the impacts of genetic diversity on ecosystem resilience and stability?',
+                                'question' => 'What are the impacts of genetic diversity on ecosystem resilience and stability?',
                 'a' => 'To analyze chromosomal abnormalities and gene mutations',
                 'b' => 'To optimize solutions through natural selection and mutation',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2124,8 +1948,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do regulatory networks control gene expression and cellular responses?',
+                                'question' => 'How do regulatory networks control gene expression and cellular responses?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By integrating genetic information into molecular biology',
                 'c' => 'By regulating gene activity through transcription factors and signaling pathways',
@@ -2135,8 +1958,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ], [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do epigenetic modifications regulate gene expression and phenotype?',
+                                'question' => 'How do epigenetic modifications regulate gene expression and phenotype?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity without altering DNA sequences',
@@ -2147,8 +1969,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the molecular mechanisms of DNA replication and repair?',
+                                'question' => 'What are the molecular mechanisms of DNA replication and repair?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2159,8 +1980,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic variation contribute to speciation and evolutionary divergence?',
+                                'question' => 'How does genetic variation contribute to speciation and evolutionary divergence?',
                 'a' => 'By predicting inheritance patterns and genetic disorders',
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
@@ -2171,8 +1991,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the evolutionary advantages of sexual reproduction over asexual reproduction?',
+                                'question' => 'What are the evolutionary advantages of sexual reproduction over asexual reproduction?',
                 'a' => 'To enhance reproductive success and adaptive responses',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To optimize crop yields and reduce environmental impacts',
@@ -2183,8 +2002,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do mutations contribute to genetic diversity and evolutionary change?',
+                                'question' => 'How do mutations contribute to genetic diversity and evolutionary change?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By controlling gene activity and metabolic pathways',
@@ -2195,8 +2013,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of genome editing techniques in agriculture and biotechnology?',
+                                'question' => 'What are the applications of genome editing techniques in agriculture and biotechnology?',
                 'a' => 'To optimize solutions through natural selection and mutation',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2207,8 +2024,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic mutations lead to genetic disorders and disease susceptibility?',
+                                'question' => 'How do genetic mutations lead to genetic disorders and disease susceptibility?',
                 'a' => 'By predicting inheritance patterns and genetic disorders',
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
@@ -2219,8 +2035,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the implications of gene duplication events in genome evolution and functional diversification?',
+                                'question' => 'What are the implications of gene duplication events in genome evolution and functional diversification?',
                 'a' => 'To analyze chromosomal abnormalities and gene mutations',
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2231,8 +2046,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does natural selection act on genetic variation to drive evolutionary change?',
+                                'question' => 'How does natural selection act on genetic variation to drive evolutionary change?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By regulating gene activity and metabolic pathways',
@@ -2243,8 +2057,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ethical considerations of using genetic information in personalized medicine and genetic counseling?',
+                                'question' => 'What are the ethical considerations of using genetic information in personalized medicine and genetic counseling?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2254,8 +2067,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How do genetic drift and gene flow contribute to microevolutionary processes?',
+                                'question' => 'How do genetic drift and gene flow contribute to microevolutionary processes?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By regulating gene activity and metabolic pathways',
@@ -2266,8 +2078,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the mechanisms of DNA recombination and genetic exchange in prokaryotic and eukaryotic organisms?',
+                                'question' => 'What are the mechanisms of DNA recombination and genetic exchange in prokaryotic and eukaryotic organisms?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2278,8 +2089,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does molecular phylogenetics reconstruct evolutionary relationships among species?',
+                                'question' => 'How does molecular phylogenetics reconstruct evolutionary relationships among species?',
                 'a' => 'By analyzing DNA sequences and protein structures',
                 'b' => 'By predicting genetic variations and gene expression patterns',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2290,8 +2100,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the ecological implications of genetic adaptation and speciation in natural populations?',
+                                'question' => 'What are the ecological implications of genetic adaptation and speciation in natural populations?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To study gene-environment interactions and disease risk factors',
                 'c' => 'To regulate gene activity and metabolic pathways',
@@ -2302,8 +2111,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does genetic recombination contribute to genetic diversity and evolutionary adaptation?',
+                                'question' => 'How does genetic recombination contribute to genetic diversity and evolutionary adaptation?',
                 'a' => 'By predicting inheritance patterns and genetic disorders',
                 'b' => 'By analyzing DNA sequences and protein structures',
                 'c' => 'By regulating gene expression and metabolic pathways',
@@ -2314,8 +2122,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the applications of population genetics in conservation biology and biodiversity conservation?',
+                                'question' => 'What are the applications of population genetics in conservation biology and biodiversity conservation?',
                 'a' => 'To study gene-environment interactions and disease risk factors',
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To analyze chromosomal abnormalities and gene mutations',
@@ -2326,8 +2133,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does comparative genomics contribute to understanding genome evolution and gene function?',
+                                'question' => 'How does comparative genomics contribute to understanding genome evolution and gene function?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2338,8 +2144,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the roles of non-coding RNA molecules in gene regulation and cellular processes?',
+                                'question' => 'What are the roles of non-coding RNA molecules in gene regulation and cellular processes?',
                 'a' => 'To regulate gene activity and metabolic pathways',
                 'b' => 'To optimize crop yields and reduce environmental impacts',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2350,8 +2155,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'How does molecular genetics study the structure and function of genes at the molecular level?',
+                                'question' => 'How does molecular genetics study the structure and function of genes at the molecular level?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2362,8 +2166,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 13,
-                'question' => 'What are the impacts of genetic engineering on agriculture, medicine, and biotechnology?',
+                                'question' => 'What are the impacts of genetic engineering on agriculture, medicine, and biotechnology?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2373,8 +2176,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ], [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the fundamental principles of ecosystem ecology?',
+                                'question' => 'What are the fundamental principles of ecosystem ecology?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2385,8 +2187,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do biotic and abiotic factors interact to shape ecological communities?',
+                                'question' => 'How do biotic and abiotic factors interact to shape ecological communities?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2397,8 +2198,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the impacts of climate change on terrestrial and aquatic ecosystems?',
+                                'question' => 'What are the impacts of climate change on terrestrial and aquatic ecosystems?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2409,8 +2209,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological processes contribute to biodiversity conservation and ecosystem stability?',
+                                'question' => 'How do ecological processes contribute to biodiversity conservation and ecosystem stability?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2421,8 +2220,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the roles of keystone species and trophic interactions in ecosystem dynamics?',
+                                'question' => 'What are the roles of keystone species and trophic interactions in ecosystem dynamics?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2433,8 +2231,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does ecological succession shape community composition and biodiversity?',
+                                'question' => 'How does ecological succession shape community composition and biodiversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2445,8 +2242,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological consequences of habitat fragmentation and loss?',
+                                'question' => 'What are the ecological consequences of habitat fragmentation and loss?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2457,8 +2253,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do nutrient cycles and biogeochemical processes regulate ecosystem function?',
+                                'question' => 'How do nutrient cycles and biogeochemical processes regulate ecosystem function?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2469,8 +2264,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the impacts of invasive species on native ecosystems and biodiversity?',
+                                'question' => 'What are the impacts of invasive species on native ecosystems and biodiversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2481,8 +2275,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does ecological modeling contribute to understanding and predicting environmental change?',
+                                'question' => 'How does ecological modeling contribute to understanding and predicting environmental change?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2492,8 +2285,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of pollution on aquatic and terrestrial ecosystems?',
+                                'question' => 'What are the ecological impacts of pollution on aquatic and terrestrial ecosystems?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2504,8 +2296,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do energy flow and trophic interactions influence ecosystem structure and function?',
+                                'question' => 'How do energy flow and trophic interactions influence ecosystem structure and function?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2516,8 +2307,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the adaptations and strategies of organisms to survive in extreme environments?',
+                                'question' => 'What are the adaptations and strategies of organisms to survive in extreme environments?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2528,8 +2318,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological interactions shape the distribution and abundance of species in ecosystems?',
+                                'question' => 'How do ecological interactions shape the distribution and abundance of species in ecosystems?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2540,8 +2329,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological functions of wetlands, forests, and coral reefs in maintaining global biodiversity?',
+                                'question' => 'What are the ecological functions of wetlands, forests, and coral reefs in maintaining global biodiversity?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2552,8 +2340,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological disturbances such as wildfires and hurricanes influence ecosystem resilience and recovery?',
+                                'question' => 'How do ecological disturbances such as wildfires and hurricanes influence ecosystem resilience and recovery?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2564,8 +2351,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the mechanisms of nutrient cycling and ecosystem productivity in aquatic and terrestrial environments?',
+                                'question' => 'What are the mechanisms of nutrient cycling and ecosystem productivity in aquatic and terrestrial environments?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2576,8 +2362,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does ecological stoichiometry study the balance of elements and energy in ecosystems?',
+                                'question' => 'How does ecological stoichiometry study the balance of elements and energy in ecosystems?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2588,8 +2373,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological implications of global change on biodiversity and ecosystem services?',
+                                'question' => 'What are the ecological implications of global change on biodiversity and ecosystem services?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2600,8 +2384,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological indicators and monitoring programs assess environmental quality and ecosystem health?',
+                                'question' => 'How do ecological indicators and monitoring programs assess environmental quality and ecosystem health?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2611,8 +2394,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],   [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological interactions influence disease transmission and health outcomes?',
+                                'question' => 'How do ecological interactions influence disease transmission and health outcomes?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2623,8 +2405,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the impacts of urbanization and land use change on biodiversity and ecosystem function?',
+                                'question' => 'What are the impacts of urbanization and land use change on biodiversity and ecosystem function?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2635,8 +2416,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological principles inform conservation strategies and sustainable resource management?',
+                                'question' => 'How do ecological principles inform conservation strategies and sustainable resource management?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2647,8 +2427,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the roles of biodiversity in ecosystem resilience and resistance to environmental change?',
+                                'question' => 'What are the roles of biodiversity in ecosystem resilience and resistance to environmental change?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2659,8 +2438,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does climate change affect species distribution and ecosystem services globally?',
+                                'question' => 'How does climate change affect species distribution and ecosystem services globally?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2671,8 +2449,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of apex predators and keystone species in maintaining ecosystem stability?',
+                                'question' => 'What are the ecological roles of apex predators and keystone species in maintaining ecosystem stability?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2683,8 +2460,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does nutrient enrichment and eutrophication impact aquatic ecosystems?',
+                                'question' => 'How does nutrient enrichment and eutrophication impact aquatic ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2695,8 +2471,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological effects of biodiversity loss on ecosystem functioning and services?',
+                                'question' => 'What are the ecological effects of biodiversity loss on ecosystem functioning and services?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2707,8 +2482,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do invasive species disrupt native ecosystems and alter community dynamics?',
+                                'question' => 'How do invasive species disrupt native ecosystems and alter community dynamics?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2719,8 +2493,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of agricultural practices on soil health and biodiversity?',
+                                'question' => 'What are the ecological impacts of agricultural practices on soil health and biodiversity?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2730,8 +2503,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat fragmentation affect wildlife populations and biodiversity conservation?',
+                                'question' => 'How does habitat fragmentation affect wildlife populations and biodiversity conservation?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2742,8 +2514,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological consequences of overexploitation and illegal wildlife trade?',
+                                'question' => 'What are the ecological consequences of overexploitation and illegal wildlife trade?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2754,8 +2525,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological restoration efforts promote habitat recovery and biodiversity conservation?',
+                                'question' => 'How do ecological restoration efforts promote habitat recovery and biodiversity conservation?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2766,8 +2536,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of climate adaptation strategies on natural ecosystems and human communities?',
+                                'question' => 'What are the ecological impacts of climate adaptation strategies on natural ecosystems and human communities?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2778,8 +2547,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does biodiversity contribute to ecosystem productivity and stability?',
+                                'question' => 'How does biodiversity contribute to ecosystem productivity and stability?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2790,8 +2558,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of marine pollution and its effects on ocean health?',
+                                'question' => 'What are the ecological impacts of marine pollution and its effects on ocean health?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2802,8 +2569,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecosystem services support human well-being and sustainable development?',
+                                'question' => 'How do ecosystem services support human well-being and sustainable development?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2814,8 +2580,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological effects of deforestation and habitat loss on biodiversity?',
+                                'question' => 'What are the ecological effects of deforestation and habitat loss on biodiversity?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2826,8 +2591,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do environmental pollutants impact wildlife health and ecosystem functioning?',
+                                'question' => 'How do environmental pollutants impact wildlife health and ecosystem functioning?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2838,8 +2602,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of microbial communities in nutrient cycling and soil fertility?',
+                                'question' => 'What are the ecological roles of microbial communities in nutrient cycling and soil fertility?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2849,8 +2612,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat restoration contribute to biodiversity conservation and ecosystem resilience?',
+                                'question' => 'How does habitat restoration contribute to biodiversity conservation and ecosystem resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2861,8 +2623,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of overfishing and fisheries management on marine ecosystems?',
+                                'question' => 'What are the ecological impacts of overfishing and fisheries management on marine ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2873,8 +2634,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological principles inform sustainable agriculture and food security?',
+                                'question' => 'How do ecological principles inform sustainable agriculture and food security?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2885,8 +2645,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of invasive species on native ecosystems and biodiversity?',
+                                'question' => 'What are the ecological impacts of invasive species on native ecosystems and biodiversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2897,8 +2656,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does climate change influence species interactions and community composition?',
+                                'question' => 'How does climate change influence species interactions and community composition?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2909,8 +2667,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of keystone species in maintaining biodiversity and ecosystem function?',
+                                'question' => 'What are the ecological roles of keystone species in maintaining biodiversity and ecosystem function?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2921,8 +2678,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological disturbances such as wildfires and hurricanes impact ecosystem resilience?',
+                                'question' => 'How do ecological disturbances such as wildfires and hurricanes impact ecosystem resilience?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2933,8 +2689,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological consequences of urbanization on biodiversity and ecosystem services?',
+                                'question' => 'What are the ecological consequences of urbanization on biodiversity and ecosystem services?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2945,8 +2700,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat loss impact species extinction rates and conservation efforts?',
+                                'question' => 'How does habitat loss impact species extinction rates and conservation efforts?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -2957,8 +2711,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of global environmental change on terrestrial and aquatic ecosystems?',
+                                'question' => 'What are the ecological impacts of global environmental change on terrestrial and aquatic ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2968,8 +2721,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],   [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological corridors and connectivity enhance species movement and genetic diversity?',
+                                'question' => 'How do ecological corridors and connectivity enhance species movement and genetic diversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -2980,8 +2732,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of agricultural practices on soil health and fertility?',
+                                'question' => 'What are the ecological impacts of agricultural practices on soil health and fertility?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -2992,8 +2743,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does biodiversity conservation contribute to sustainable development goals and global environmental stewardship?',
+                                'question' => 'How does biodiversity conservation contribute to sustainable development goals and global environmental stewardship?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3004,8 +2754,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological implications of renewable energy development on wildlife habitats and ecosystem services?',
+                                'question' => 'What are the ecological implications of renewable energy development on wildlife habitats and ecosystem services?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3016,8 +2765,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecosystem-based approaches enhance climate resilience and adaptive management strategies?',
+                                'question' => 'How do ecosystem-based approaches enhance climate resilience and adaptive management strategies?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3028,8 +2776,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological consequences of land use change and urban sprawl on ecosystem health?',
+                                'question' => 'What are the ecological consequences of land use change and urban sprawl on ecosystem health?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3040,8 +2787,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does environmental education promote ecological awareness and stewardship?',
+                                'question' => 'How does environmental education promote ecological awareness and stewardship?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3052,8 +2798,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of water pollution and its effects on aquatic ecosystems?',
+                                'question' => 'What are the ecological impacts of water pollution and its effects on aquatic ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3064,8 +2809,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological models and simulations help predict and manage environmental change?',
+                                'question' => 'How do ecological models and simulations help predict and manage environmental change?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3076,8 +2820,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
+                                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3088,8 +2831,7 @@ class QuestionSeeder3 extends Seeder
             ],
                [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does biodiversity loss impact ecosystem stability and resilience?',
+                                'question' => 'How does biodiversity loss impact ecosystem stability and resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3100,8 +2842,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological consequences of deforestation and habitat fragmentation?',
+                                'question' => 'What are the ecological consequences of deforestation and habitat fragmentation?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3112,8 +2853,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological restoration projects enhance biodiversity conservation and ecosystem health?',
+                                'question' => 'How do ecological restoration projects enhance biodiversity conservation and ecosystem health?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3124,8 +2864,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of invasive species on native biodiversity and ecosystem function?',
+                                'question' => 'What are the ecological impacts of invasive species on native biodiversity and ecosystem function?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3136,8 +2875,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does ecosystem resilience contribute to climate change adaptation and mitigation strategies?',
+                                'question' => 'How does ecosystem resilience contribute to climate change adaptation and mitigation strategies?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3148,8 +2886,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological benefits of wildlife conservation and protected areas?',
+                                'question' => 'What are the ecological benefits of wildlife conservation and protected areas?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3160,8 +2897,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological networks and corridors promote species movement and genetic diversity?',
+                                'question' => 'How do ecological networks and corridors promote species movement and genetic diversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3172,8 +2908,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological implications of climate change on terrestrial and marine ecosystems?',
+                                'question' => 'What are the ecological implications of climate change on terrestrial and marine ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3184,8 +2919,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat fragmentation affect species diversity and ecosystem resilience?',
+                                'question' => 'How does habitat fragmentation affect species diversity and ecosystem resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3196,8 +2930,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of pollution on freshwater and marine environments?',
+                                'question' => 'What are the ecological impacts of pollution on freshwater and marine environments?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3207,8 +2940,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat destruction impact wildlife populations and ecosystem services?',
+                                'question' => 'How does habitat destruction impact wildlife populations and ecosystem services?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3219,8 +2951,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of keystone species in maintaining ecosystem structure and function?',
+                                'question' => 'What are the ecological roles of keystone species in maintaining ecosystem structure and function?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3231,8 +2962,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does climate change affect coral reefs and marine biodiversity?',
+                                'question' => 'How does climate change affect coral reefs and marine biodiversity?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3243,8 +2973,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of overfishing and unsustainable fishing practices?',
+                                'question' => 'What are the ecological impacts of overfishing and unsustainable fishing practices?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3255,8 +2984,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological networks and corridors promote species movement and genetic diversity?',
+                                'question' => 'How do ecological networks and corridors promote species movement and genetic diversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3267,8 +2995,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological implications of climate change on terrestrial and marine ecosystems?',
+                                'question' => 'What are the ecological implications of climate change on terrestrial and marine ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3279,8 +3006,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat fragmentation affect species diversity and ecosystem resilience?',
+                                'question' => 'How does habitat fragmentation affect species diversity and ecosystem resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3291,8 +3017,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of pollution on freshwater and marine environments?',
+                                'question' => 'What are the ecological impacts of pollution on freshwater and marine environments?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3303,8 +3028,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological models and simulations help predict and manage environmental change?',
+                                'question' => 'How do ecological models and simulations help predict and manage environmental change?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3315,8 +3039,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
+                                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3326,8 +3049,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],  [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological disturbances, such as wildfires and hurricanes, affect ecosystem recovery and resilience?',
+                                'question' => 'How do ecological disturbances, such as wildfires and hurricanes, affect ecosystem recovery and resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3338,8 +3060,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological benefits of sustainable agriculture and agroecology?',
+                                'question' => 'What are the ecological benefits of sustainable agriculture and agroecology?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3350,8 +3071,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecosystem engineers, like beavers and ants, influence landscape structure and biodiversity?',
+                                'question' => 'How do ecosystem engineers, like beavers and ants, influence landscape structure and biodiversity?',
                 'a' => 'By analyzing nutrient cycling and energy flow within ecosystems',
                 'b' => 'By predicting population dynamics and community interactions',
                 'c' => 'By studying gene-environment interactions and disease risk factors',
@@ -3362,8 +3082,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of urbanization and infrastructure development on natural habitats?',
+                                'question' => 'What are the ecological impacts of urbanization and infrastructure development on natural habitats?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3374,8 +3093,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does ecological succession contribute to biodiversity and ecosystem stability?',
+                                'question' => 'How does ecological succession contribute to biodiversity and ecosystem stability?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3386,8 +3104,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological benefits of biodiversity hotspots and conservation priorities?',
+                                'question' => 'What are the ecological benefits of biodiversity hotspots and conservation priorities?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3398,8 +3115,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does nutrient cycling in ecosystems contribute to soil fertility and plant productivity?',
+                                'question' => 'How does nutrient cycling in ecosystems contribute to soil fertility and plant productivity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3410,8 +3126,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of ocean acidification on marine organisms and ecosystems?',
+                                'question' => 'What are the ecological impacts of ocean acidification on marine organisms and ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3422,8 +3137,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do invasive species impact native ecosystems and biodiversity?',
+                                'question' => 'How do invasive species impact native ecosystems and biodiversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3434,8 +3148,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological benefits of wetlands and their role in carbon sequestration?',
+                                'question' => 'What are the ecological benefits of wetlands and their role in carbon sequestration?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3445,8 +3158,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does environmental pollution, such as air and water contamination, affect ecosystem health?',
+                                'question' => 'How does environmental pollution, such as air and water contamination, affect ecosystem health?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3457,8 +3169,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of deforestation and habitat loss on biodiversity?',
+                                'question' => 'What are the ecological impacts of deforestation and habitat loss on biodiversity?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3468,8 +3179,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],    [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological corridors and connectivity promote species movement and genetic diversity?',
+                                'question' => 'How do ecological corridors and connectivity promote species movement and genetic diversity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3480,8 +3190,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of climate change on terrestrial and aquatic ecosystems?',
+                                'question' => 'What are the ecological impacts of climate change on terrestrial and aquatic ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3492,8 +3201,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does nutrient cycling in ecosystems influence soil fertility and plant productivity?',
+                                'question' => 'How does nutrient cycling in ecosystems influence soil fertility and plant productivity?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3504,8 +3212,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological benefits of biodiversity conservation in protected areas?',
+                                'question' => 'What are the ecological benefits of biodiversity conservation in protected areas?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3516,8 +3223,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How do ecological interactions, such as predation and competition, shape community structure?',
+                                'question' => 'How do ecological interactions, such as predation and competition, shape community structure?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3528,8 +3234,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of invasive species on native ecosystems?',
+                                'question' => 'What are the ecological impacts of invasive species on native ecosystems?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3540,8 +3245,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does environmental pollution, such as plastic waste, impact marine ecosystems?',
+                                'question' => 'How does environmental pollution, such as plastic waste, impact marine ecosystems?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3552,8 +3256,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
+                                'question' => 'What are the ecological roles of wetlands in flood control and water purification?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3564,8 +3267,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'How does habitat fragmentation affect biodiversity and ecosystem resilience?',
+                                'question' => 'How does habitat fragmentation affect biodiversity and ecosystem resilience?',
                 'a' => 'By predicting genetic variations and gene expression patterns',
                 'b' => 'By analyzing chromosomal abnormalities and gene mutations',
                 'c' => 'By integrating genetic information into molecular biology',
@@ -3576,8 +3278,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 14,
-                'question' => 'What are the ecological impacts of global warming on polar regions and ice-dependent species?',
+                                'question' => 'What are the ecological impacts of global warming on polar regions and ice-dependent species?',
                 'a' => 'To optimize crop yields and reduce environmental impacts',
                 'b' => 'To regulate gene activity and metabolic pathways',
                 'c' => 'To study gene-environment interactions and disease risk factors',
@@ -3589,8 +3290,7 @@ class QuestionSeeder3 extends Seeder
         
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of bacteria is known for nitrogen fixation?',
+                                'question' => 'What type of bacteria is known for nitrogen fixation?',
                 'a' => 'Rhizobium',
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
@@ -3601,8 +3301,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the name of the structure where bacteria store nutrients?',
+                                'question' => 'What is the name of the structure where bacteria store nutrients?',
                 'a' => 'Nucleus',
                 'b' => 'Ribosome',
                 'c' => 'Granules',
@@ -3613,8 +3312,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the function of bacterial plasmids?',
+                                'question' => 'What is the function of bacterial plasmids?',
                 'a' => 'Protein synthesis',
                 'b' => 'Energy production',
                 'c' => 'Genetic exchange',
@@ -3625,8 +3323,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is used in genetic engineering?',
+                                'question' => 'Which bacteria is used in genetic engineering?',
                 'a' => 'Rhizobium',
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
@@ -3637,8 +3334,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the process of bacterial reproduction called?',
+                                'question' => 'What is the process of bacterial reproduction called?',
                 'a' => 'Binary fission',
                 'b' => 'Mitosis',
                 'c' => 'Meiosis',
@@ -3649,8 +3345,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which structure is responsible for bacterial conjugation?',
+                                'question' => 'Which structure is responsible for bacterial conjugation?',
                 'a' => 'Flagella',
                 'b' => 'Pili',
                 'c' => 'Capsule',
@@ -3661,8 +3356,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of bacteria causes Lyme disease?',
+                                'question' => 'What type of bacteria causes Lyme disease?',
                 'a' => 'Borrelia burgdorferi',
                 'b' => 'Staphylococcus aureus',
                 'c' => 'Streptococcus pneumoniae',
@@ -3673,8 +3367,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the main component of the bacterial capsule?',
+                                'question' => 'What is the main component of the bacterial capsule?',
                 'a' => 'Lipid',
                 'b' => 'Protein',
                 'c' => 'Polysaccharide',
@@ -3685,8 +3378,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is known for causing cholera?',
+                                'question' => 'Which bacteria is known for causing cholera?',
                 'a' => 'Helicobacter pylori',
                 'b' => 'Salmonella',
                 'c' => 'Vibrio cholerae',
@@ -3697,8 +3389,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is used in the production of antibiotics?',
+                                'question' => 'Which bacteria is used in the production of antibiotics?',
                 'a' => 'E. coli',
                 'b' => 'Streptomyces',
                 'c' => 'Clostridium',
@@ -3709,8 +3400,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary function of the bacterial cell wall?',
+                                'question' => 'What is the primary function of the bacterial cell wall?',
                 'a' => 'To protect against osmotic pressure',
                 'b' => 'To produce energy',
                 'c' => 'To synthesize proteins',
@@ -3721,8 +3411,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is commonly found in the human gut?',
+                                'question' => 'Which bacteria is commonly found in the human gut?',
                 'a' => 'E. coli',
                 'b' => 'Staphylococcus aureus',
                 'c' => 'Mycobacterium tuberculosis',
@@ -3733,8 +3422,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the term for a cluster of spherical bacteria?',
+                                'question' => 'What is the term for a cluster of spherical bacteria?',
                 'a' => 'Bacilli',
                 'b' => 'Spirilla',
                 'c' => 'Cocci',
@@ -3745,8 +3433,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of genetic material do bacteria typically contain?',
+                                'question' => 'What type of genetic material do bacteria typically contain?',
                 'a' => 'RNA',
                 'b' => 'DNA',
                 'c' => 'Protein',
@@ -3757,8 +3444,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which structure allows bacteria to adhere to surfaces?',
+                                'question' => 'Which structure allows bacteria to adhere to surfaces?',
                 'a' => 'Flagella',
                 'b' => 'Pili',
                 'c' => 'Endospore',
@@ -3769,8 +3455,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary method of bacterial gene transfer?',
+                                'question' => 'What is the primary method of bacterial gene transfer?',
                 'a' => 'Transformation',
                 'b' => 'Transduction',
                 'c' => 'Conjugation',
@@ -3781,8 +3466,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is responsible for causing strep throat?',
+                                'question' => 'Which bacteria is responsible for causing strep throat?',
                 'a' => 'Staphylococcus aureus',
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
@@ -3793,8 +3477,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary cause of bacterial antibiotic resistance?',
+                                'question' => 'What is the primary cause of bacterial antibiotic resistance?',
                 'a' => 'Genetic mutations',
                 'b' => 'Environmental changes',
                 'c' => 'Lack of nutrients',
@@ -3805,8 +3488,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of bacteria can photosynthesize?',
+                                'question' => 'What type of bacteria can photosynthesize?',
                 'a' => 'Cyanobacteria',
                 'b' => 'E. coli',
                 'c' => 'Streptococcus',
@@ -3817,8 +3499,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is associated with peptic ulcers?',
+                                'question' => 'Which bacteria is associated with peptic ulcers?',
                 'a' => 'E. coli',
                 'b' => 'Helicobacter pylori',
                 'c' => 'Salmonella',
@@ -3828,8 +3509,7 @@ class QuestionSeeder3 extends Seeder
                 'updated_at' => now()
             ],[
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary component of bacterial cell walls?',
+                                'question' => 'What is the primary component of bacterial cell walls?',
                 'a' => 'Chitin',
                 'b' => 'Cellulose',
                 'c' => 'Peptidoglycan',
@@ -3840,8 +3520,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacterial structure is involved in protein synthesis?',
+                                'question' => 'Which bacterial structure is involved in protein synthesis?',
                 'a' => 'Nucleus',
                 'b' => 'Ribosome',
                 'c' => 'Mitochondria',
@@ -3852,8 +3531,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the role of bacterial flagella?',
+                                'question' => 'What is the role of bacterial flagella?',
                 'a' => 'DNA replication',
                 'b' => 'Protein synthesis',
                 'c' => 'Movement',
@@ -3864,8 +3542,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is used in the production of yogurt?',
+                                'question' => 'Which bacteria is used in the production of yogurt?',
                 'a' => 'E. coli',
                 'b' => 'Staphylococcus',
                 'c' => 'Lactobacillus',
@@ -3876,8 +3553,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of bacteria is known for producing antibiotics?',
+                                'question' => 'What type of bacteria is known for producing antibiotics?',
                 'a' => 'E. coli',
                 'b' => 'Staphylococcus',
                 'c' => 'Streptomyces',
@@ -3888,8 +3564,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary function of bacterial pili?',
+                                'question' => 'What is the primary function of bacterial pili?',
                 'a' => 'Movement',
                 'b' => 'DNA transfer',
                 'c' => 'Nutrient storage',
@@ -3900,8 +3575,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is associated with food poisoning?',
+                                'question' => 'Which bacteria is associated with food poisoning?',
                 'a' => 'Staphylococcus aureus',
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
@@ -3912,8 +3586,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What type of bacteria are known as extremophiles?',
+                                'question' => 'What type of bacteria are known as extremophiles?',
                 'a' => 'Thermophiles',
                 'b' => 'Halophiles',
                 'c' => 'Acidophiles',
@@ -3924,8 +3597,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is commonly used as a model organism in research?',
+                                'question' => 'Which bacteria is commonly used as a model organism in research?',
                 'a' => 'Rhizobium',
                 'b' => 'E. coli',
                 'c' => 'Salmonella',
@@ -3936,8 +3608,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary purpose of bacterial endospores?',
+                                'question' => 'What is the primary purpose of bacterial endospores?',
                 'a' => 'Reproduction',
                 'b' => 'Energy production',
                 'c' => 'Survival in harsh conditions',
@@ -3950,8 +3621,7 @@ class QuestionSeeder3 extends Seeder
             
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the Gram staining technique used for?',
+                                        'question' => 'What is the Gram staining technique used for?',
                     'a' => 'Identifying bacterial DNA',
                     'b' => 'Classifying bacteria based on cell wall composition',
                     'c' => 'Measuring bacterial growth',
@@ -3962,8 +3632,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known for causing tuberculosis?',
+                                        'question' => 'Which bacteria is known for causing tuberculosis?',
                     'a' => 'Streptococcus pneumoniae',
                     'b' => 'Staphylococcus aureus',
                     'c' => 'Mycobacterium tuberculosis',
@@ -3974,8 +3643,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary habitat of thermophilic bacteria?',
+                                        'question' => 'What is the primary habitat of thermophilic bacteria?',
                     'a' => 'Cold environments',
                     'b' => 'Hot environments',
                     'c' => 'Salty environments',
@@ -3986,8 +3654,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is used in bioremediation to clean up oil spills?',
+                                        'question' => 'Which bacteria is used in bioremediation to clean up oil spills?',
                     'a' => 'Pseudomonas',
                     'b' => 'Bacillus',
                     'c' => 'Streptococcus',
@@ -3998,8 +3665,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the role of the bacterial capsule?',
+                                        'question' => 'What is the role of the bacterial capsule?',
                     'a' => 'Protein synthesis',
                     'b' => 'Protection from phagocytosis',
                     'c' => 'Energy production',
@@ -4010,8 +3676,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the main characteristic of anaerobic bacteria?',
+                                        'question' => 'What is the main characteristic of anaerobic bacteria?',
                     'a' => 'Require oxygen for growth',
                     'b' => 'Can grow in the presence or absence of oxygen',
                     'c' => 'Cannot grow in the presence of oxygen',
@@ -4022,8 +3687,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is commonly associated with foodborne illness?',
+                                        'question' => 'Which bacteria is commonly associated with foodborne illness?',
                     'a' => 'Lactobacillus',
                     'b' => 'Streptococcus',
                     'c' => 'E. coli',
@@ -4034,8 +3698,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the purpose of bacterial flagella?',
+                                        'question' => 'What is the purpose of bacterial flagella?',
                     'a' => 'Attachment to surfaces',
                     'b' => 'Movement',
                     'c' => 'DNA replication',
@@ -4046,8 +3709,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known for producing the toxin botulinum?',
+                                        'question' => 'Which bacteria is known for producing the toxin botulinum?',
                     'a' => 'Staphylococcus aureus',
                     'b' => 'E. coli',
                     'c' => 'Clostridium botulinum',
@@ -4058,8 +3720,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the function of bacterial spores?',
+                                        'question' => 'What is the function of bacterial spores?',
                     'a' => 'Reproduction',
                     'b' => 'Survival in harsh conditions',
                     'c' => 'Protein synthesis',
@@ -4071,8 +3732,7 @@ class QuestionSeeder3 extends Seeder
         
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known to cause Lyme disease?',
+                                        'question' => 'Which bacteria is known to cause Lyme disease?',
                     'a' => 'Bacillus anthracis',
                     'b' => 'Borrelia burgdorferi',
                     'c' => 'Clostridium tetani',
@@ -4083,8 +3743,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary method of reproduction for bacteria?',
+                                        'question' => 'What is the primary method of reproduction for bacteria?',
                     'a' => 'Budding',
                     'b' => 'Binary fission',
                     'c' => 'Spore formation',
@@ -4095,8 +3754,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is used in the production of cheese?',
+                                        'question' => 'Which bacteria is used in the production of cheese?',
                     'a' => 'Lactococcus lactis',
                     'b' => 'Streptococcus pyogenes',
                     'c' => 'Bacillus subtilis',
@@ -4107,8 +3765,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What type of bacteria can live in extremely salty environments?',
+                                        'question' => 'What type of bacteria can live in extremely salty environments?',
                     'a' => 'Thermophiles',
                     'b' => 'Halophiles',
                     'c' => 'Acidophiles',
@@ -4119,8 +3776,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known for nitrogen fixation in soil?',
+                                        'question' => 'Which bacteria is known for nitrogen fixation in soil?',
                     'a' => 'Rhizobium',
                     'b' => 'E. coli',
                     'c' => 'Streptococcus',
@@ -4131,8 +3787,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary purpose of bacterial plasmids?',
+                                        'question' => 'What is the primary purpose of bacterial plasmids?',
                     'a' => 'Energy production',
                     'b' => 'Protein synthesis',
                     'c' => 'DNA replication',
@@ -4143,8 +3798,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known to cause cholera?',
+                                        'question' => 'Which bacteria is known to cause cholera?',
                     'a' => 'Vibrio cholerae',
                     'b' => 'E. coli',
                     'c' => 'Staphylococcus aureus',
@@ -4155,8 +3809,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is responsible for causing botulism?',
+                                        'question' => 'Which bacteria is responsible for causing botulism?',
                     'a' => 'Clostridium botulinum',
                     'b' => 'E. coli',
                     'c' => 'Bacillus cereus',
@@ -4167,8 +3820,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the function of bacterial endospores?',
+                                        'question' => 'What is the function of bacterial endospores?',
                     'a' => 'Reproduction',
                     'b' => 'Survival in harsh conditions',
                     'c' => 'Energy production',
@@ -4179,8 +3831,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is commonly found in the human mouth and causes dental caries?',
+                                        'question' => 'Which bacteria is commonly found in the human mouth and causes dental caries?',
                     'a' => 'E. coli',
                     'b' => 'Streptococcus mutans',
                     'c' => 'Helicobacter pylori',
@@ -4191,8 +3842,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is responsible for causing strep throat?',
+                                'question' => 'Which bacteria is responsible for causing strep throat?',
                 'a' => 'Staphylococcus aureus',
                 'b' => 'Streptococcus pyogenes',
                 'c' => 'E. coli',
@@ -4203,8 +3853,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary mode of transmission for Legionella pneumophila, the bacteria causing Legionnaires\' disease?',
+                                'question' => 'What is the primary mode of transmission for Legionella pneumophila, the bacteria causing Legionnaires\' disease?',
                 'a' => 'Person-to-person contact',
                 'b' => 'Contaminated food',
                 'c' => 'Inhalation of contaminated water droplets',
@@ -4215,8 +3864,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is known for its role in the nitrogen cycle, specifically nitrification?',
+                                'question' => 'Which bacteria is known for its role in the nitrogen cycle, specifically nitrification?',
                 'a' => 'Nitrosomonas',
                 'b' => 'Lactobacillus',
                 'c' => 'Staphylococcus',
@@ -4227,8 +3875,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary habitat of methanogenic bacteria?',
+                                'question' => 'What is the primary habitat of methanogenic bacteria?',
                 'a' => 'Oxygen-rich environments',
                 'b' => 'Anaerobic environments',
                 'c' => 'Salty environments',
@@ -4239,8 +3886,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is commonly used in biotechnology for cloning and genetic manipulation?',
+                                'question' => 'Which bacteria is commonly used in biotechnology for cloning and genetic manipulation?',
                 'a' => 'Streptomyces',
                 'b' => 'E. coli',
                 'c' => 'Pseudomonas',
@@ -4251,8 +3897,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary characteristic of pathogenic bacteria?',
+                                'question' => 'What is the primary characteristic of pathogenic bacteria?',
                 'a' => 'They produce antibiotics',
                 'b' => 'They cause disease in hosts',
                 'c' => 'They can photosynthesize',
@@ -4263,8 +3908,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is associated with peptic ulcers?',
+                                'question' => 'Which bacteria is associated with peptic ulcers?',
                 'a' => 'E. coli',
                 'b' => 'Helicobacter pylori',
                 'c' => 'Salmonella typhi',
@@ -4275,8 +3919,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the role of cyanobacteria in ecosystems?',
+                                'question' => 'What is the role of cyanobacteria in ecosystems?',
                 'a' => 'Nitrogen fixation and oxygen production',
                 'b' => 'Pathogenic infections',
                 'c' => 'Food spoilage',
@@ -4287,8 +3930,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'Which bacteria is known for causing anthrax?',
+                                'question' => 'Which bacteria is known for causing anthrax?',
                 'a' => 'Bacillus anthracis',
                 'b' => 'Mycobacterium leprae',
                 'c' => 'Vibrio cholerae',
@@ -4299,8 +3941,7 @@ class QuestionSeeder3 extends Seeder
             ],
             [
                 'field_id' => 3,
-                'sub_fields_id' => 15,
-                'question' => 'What is the primary cause of antibiotic resistance in bacteria?',
+                                'question' => 'What is the primary cause of antibiotic resistance in bacteria?',
                 'a' => 'Overuse and misuse of antibiotics',
                 'b' => 'High mutation rates',
                 'c' => 'Rapid reproduction rates',
@@ -4312,8 +3953,7 @@ class QuestionSeeder3 extends Seeder
             [
                 
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is responsible for causing strep throat?',
+                                        'question' => 'Which bacteria is responsible for causing strep throat?',
                     'a' => 'Staphylococcus aureus',
                     'b' => 'Streptococcus pyogenes',
                     'c' => 'E. coli',
@@ -4324,8 +3964,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary mode of transmission for Legionella pneumophila, the bacteria causing Legionnaires\' disease?',
+                                        'question' => 'What is the primary mode of transmission for Legionella pneumophila, the bacteria causing Legionnaires\' disease?',
                     'a' => 'Person-to-person contact',
                     'b' => 'Contaminated food',
                     'c' => 'Inhalation of contaminated water droplets',
@@ -4336,8 +3975,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known for its role in the nitrogen cycle, specifically nitrification?',
+                                        'question' => 'Which bacteria is known for its role in the nitrogen cycle, specifically nitrification?',
                     'a' => 'Nitrosomonas',
                     'b' => 'Lactobacillus',
                     'c' => 'Staphylococcus',
@@ -4348,8 +3986,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary habitat of methanogenic bacteria?',
+                                        'question' => 'What is the primary habitat of methanogenic bacteria?',
                     'a' => 'Oxygen-rich environments',
                     'b' => 'Anaerobic environments',
                     'c' => 'Salty environments',
@@ -4360,8 +3997,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is commonly used in biotechnology for cloning and genetic manipulation?',
+                                        'question' => 'Which bacteria is commonly used in biotechnology for cloning and genetic manipulation?',
                     'a' => 'Streptomyces',
                     'b' => 'E. coli',
                     'c' => 'Pseudomonas',
@@ -4372,8 +4008,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary characteristic of pathogenic bacteria?',
+                                        'question' => 'What is the primary characteristic of pathogenic bacteria?',
                     'a' => 'They produce antibiotics',
                     'b' => 'They cause disease in hosts',
                     'c' => 'They can photosynthesize',
@@ -4384,8 +4019,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is associated with peptic ulcers?',
+                                        'question' => 'Which bacteria is associated with peptic ulcers?',
                     'a' => 'E. coli',
                     'b' => 'Helicobacter pylori',
                     'c' => 'Salmonella typhi',
@@ -4396,8 +4030,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the role of cyanobacteria in ecosystems?',
+                                        'question' => 'What is the role of cyanobacteria in ecosystems?',
                     'a' => 'Nitrogen fixation and oxygen production',
                     'b' => 'Pathogenic infections',
                     'c' => 'Food spoilage',
@@ -4408,8 +4041,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'Which bacteria is known for causing anthrax?',
+                                        'question' => 'Which bacteria is known for causing anthrax?',
                     'a' => 'Bacillus anthracis',
                     'b' => 'Mycobacterium leprae',
                     'c' => 'Vibrio cholerae',
@@ -4420,8 +4052,7 @@ class QuestionSeeder3 extends Seeder
                 ],
                 [
                     'field_id' => 3,
-                    'sub_fields_id' => 15,
-                    'question' => 'What is the primary cause of antibiotic resistance in bacteria?',
+                                        'question' => 'What is the primary cause of antibiotic resistance in bacteria?',
                     'a' => 'Overuse and misuse of antibiotics',
                     'b' => 'High mutation rates',
                     'c' => 'Rapid reproduction rates',
@@ -4433,8 +4064,7 @@ class QuestionSeeder3 extends Seeder
                 
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'Which bacteria is commonly found in yogurt and helps in fermentation?',
+                                                'question' => 'Which bacteria is commonly found in yogurt and helps in fermentation?',
                         'a' => 'Lactobacillus bulgaricus',
                         'b' => 'Streptococcus pyogenes',
                         'c' => 'E. coli',
@@ -4445,8 +4075,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'What is the main component of the bacterial cell wall?',
+                                                'question' => 'What is the main component of the bacterial cell wall?',
                         'a' => 'Peptidoglycan',
                         'b' => 'Cellulose',
                         'c' => 'Chitin',
@@ -4457,8 +4086,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'Which bacteria is known for its role in the carbon cycle, specifically decomposing organic matter?',
+                                                'question' => 'Which bacteria is known for its role in the carbon cycle, specifically decomposing organic matter?',
                         'a' => 'Streptomyces',
                         'b' => 'E. coli',
                         'c' => 'Pseudomonas',
@@ -4469,8 +4097,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'What is the primary mode of action for antibiotics like penicillin?',
+                                                'question' => 'What is the primary mode of action for antibiotics like penicillin?',
                         'a' => 'Inhibiting protein synthesis',
                         'b' => 'Disrupting cell wall synthesis',
                         'c' => 'Inhibiting nucleic acid synthesis',
@@ -4481,8 +4108,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'Which bacteria is known to cause typhoid fever?',
+                                                'question' => 'Which bacteria is known to cause typhoid fever?',
                         'a' => 'E. coli',
                         'b' => 'Salmonella typhi',
                         'c' => 'Streptococcus mutans',
@@ -4493,8 +4119,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'What is the role of pili in bacterial cells?',
+                                                'question' => 'What is the role of pili in bacterial cells?',
                         'a' => 'Movement',
                         'b' => 'Attachment to surfaces and DNA transfer',
                         'c' => 'Energy production',
@@ -4505,8 +4130,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'Which bacteria is responsible for causing tetanus?',
+                                                'question' => 'Which bacteria is responsible for causing tetanus?',
                         'a' => 'Clostridium tetani',
                         'b' => 'E. coli',
                         'c' => 'Bacillus subtilis',
@@ -4517,8 +4141,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'What is the primary habitat of acidophilic bacteria?',
+                                                'question' => 'What is the primary habitat of acidophilic bacteria?',
                         'a' => 'Oxygen-rich environments',
                         'b' => 'Anaerobic environments',
                         'c' => 'Salty environments',
@@ -4529,8 +4152,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'Which bacteria is known to cause pneumonia?',
+                                                'question' => 'Which bacteria is known to cause pneumonia?',
                         'a' => 'Streptococcus pneumoniae',
                         'b' => 'Staphylococcus aureus',
                         'c' => 'E. coli',
@@ -4541,8 +4163,7 @@ class QuestionSeeder3 extends Seeder
                     ],
                     [
                         'field_id' => 3,
-                        'sub_fields_id' => 15,
-                        'question' => 'What is the primary method used by bacteria to exchange genetic material?',
+                                                'question' => 'What is the primary method used by bacteria to exchange genetic material?',
                         'a' => 'Binary fission',
                         'b' => 'Conjugation',
                         'c' => 'Budding',
@@ -4554,8 +4175,7 @@ class QuestionSeeder3 extends Seeder
                     
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing tuberculosis?',
+                                                        'question' => 'Which bacteria is responsible for causing tuberculosis?',
                             'a' => 'Streptococcus pneumoniae',
                             'b' => 'Mycobacterium tuberculosis',
                             'c' => 'E. coli',
@@ -4566,8 +4186,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What type of bacteria can live in extremely hot environments?',
+                                                        'question' => 'What type of bacteria can live in extremely hot environments?',
                             'a' => 'Thermophiles',
                             'b' => 'Halophiles',
                             'c' => 'Acidophiles',
@@ -4578,8 +4197,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is commonly used in the production of insulin through genetic engineering?',
+                                                        'question' => 'Which bacteria is commonly used in the production of insulin through genetic engineering?',
                             'a' => 'Lactobacillus',
                             'b' => 'Streptococcus',
                             'c' => 'E. coli',
@@ -4590,8 +4208,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the role of flagella in bacterial cells?',
+                                                        'question' => 'What is the role of flagella in bacterial cells?',
                             'a' => 'Energy production',
                             'b' => 'Protein synthesis',
                             'c' => 'Movement',
@@ -4602,8 +4219,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known to cause food poisoning often associated with rice and pasta?',
+                                                        'question' => 'Which bacteria is known to cause food poisoning often associated with rice and pasta?',
                             'a' => 'E. coli',
                             'b' => 'Salmonella enterica',
                             'c' => 'Bacillus cereus',
@@ -4614,8 +4230,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of psychrophilic bacteria?',
+                                                        'question' => 'What is the primary habitat of psychrophilic bacteria?',
                             'a' => 'Oxygen-rich environments',
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
@@ -4626,8 +4241,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing syphilis?',
+                                                        'question' => 'Which bacteria is responsible for causing syphilis?',
                             'a' => 'Neisseria gonorrhoeae',
                             'b' => 'Treponema pallidum',
                             'c' => 'Chlamydia trachomatis',
@@ -4638,8 +4252,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the main function of bacterial ribosomes?',
+                                                        'question' => 'What is the main function of bacterial ribosomes?',
                             'a' => 'DNA replication',
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
@@ -4650,8 +4263,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for causing whooping cough?',
+                                                        'question' => 'Which bacteria is known for causing whooping cough?',
                             'a' => 'Bordetella pertussis',
                             'b' => 'Haemophilus influenzae',
                             'c' => 'Neisseria meningitidis',
@@ -4662,8 +4274,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial capsules?',
+                                                        'question' => 'What is the primary role of bacterial capsules?',
                             'a' => 'Protein synthesis',
                             'b' => 'DNA replication',
                             'c' => 'Protection against host immune system',
@@ -4675,8 +4286,7 @@ class QuestionSeeder3 extends Seeder
 
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for Lyme disease?',
+                                                        'question' => 'Which bacteria is responsible for Lyme disease?',
                             'a' => 'Borrelia burgdorferi',
                             'b' => 'Treponema pallidum',
                             'c' => 'Chlamydia trachomatis',
@@ -4687,8 +4297,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary function of bacterial endospores?',
+                                                        'question' => 'What is the primary function of bacterial endospores?',
                             'a' => 'Reproduction',
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
@@ -4699,8 +4308,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known to cause diphtheria?',
+                                                        'question' => 'Which bacteria is known to cause diphtheria?',
                             'a' => 'Clostridium botulinum',
                             'b' => 'Corynebacterium diphtheriae',
                             'c' => 'Staphylococcus aureus',
@@ -4711,8 +4319,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary mode of action for the antibiotic streptomycin?',
+                                                        'question' => 'What is the primary mode of action for the antibiotic streptomycin?',
                             'a' => 'Inhibiting cell wall synthesis',
                             'b' => 'Inhibiting protein synthesis',
                             'c' => 'Inhibiting nucleic acid synthesis',
@@ -4723,8 +4330,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing cholera?',
+                                                        'question' => 'Which bacteria is responsible for causing cholera?',
                             'a' => 'Vibrio cholerae',
                             'b' => 'Salmonella enterica',
                             'c' => 'Shigella dysenteriae',
@@ -4735,8 +4341,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the role of plasmids in bacteria?',
+                                                        'question' => 'What is the role of plasmids in bacteria?',
                             'a' => 'Energy production',
                             'b' => 'Protein synthesis',
                             'c' => 'Antibiotic resistance and horizontal gene transfer',
@@ -4747,8 +4352,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known to cause meningitis?',
+                                                        'question' => 'Which bacteria is known to cause meningitis?',
                             'a' => 'Haemophilus influenzae',
                             'b' => 'Mycobacterium tuberculosis',
                             'c' => 'Staphylococcus epidermidis',
@@ -4759,8 +4363,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of halophilic bacteria?',
+                                                        'question' => 'What is the primary habitat of halophilic bacteria?',
                             'a' => 'Oxygen-rich environments',
                             'b' => 'Anaerobic environments',
                             'c' => 'Salty environments',
@@ -4771,8 +4374,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing botulism?',
+                                                        'question' => 'Which bacteria is responsible for causing botulism?',
                             'a' => 'Clostridium botulinum',
                             'b' => 'Staphylococcus aureus',
                             'c' => 'E. coli',
@@ -4783,8 +4385,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the main purpose of bacterial conjugation?',
+                                                        'question' => 'What is the main purpose of bacterial conjugation?',
                             'a' => 'Energy production',
                             'b' => 'Reproduction',
                             'c' => 'Transfer of genetic material',
@@ -4795,8 +4396,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is commonly used as a model organism in molecular biology?',
+                                                        'question' => 'Which bacteria is commonly used as a model organism in molecular biology?',
                             'a' => 'Streptococcus pyogenes',
                             'b' => 'Bacillus anthracis',
                             'c' => 'E. coli',
@@ -4807,8 +4407,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What type of bacteria can live in environments with high salt concentrations?',
+                                                        'question' => 'What type of bacteria can live in environments with high salt concentrations?',
                             'a' => 'Thermophiles',
                             'b' => 'Halophiles',
                             'c' => 'Acidophiles',
@@ -4819,8 +4418,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known to cause peptic ulcers?',
+                                                        'question' => 'Which bacteria is known to cause peptic ulcers?',
                             'a' => 'Salmonella enterica',
                             'b' => 'Helicobacter pylori',
                             'c' => 'Vibrio cholerae',
@@ -4831,8 +4429,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial pili?',
+                                                        'question' => 'What is the primary role of bacterial pili?',
                             'a' => 'Energy production',
                             'b' => 'Movement',
                             'c' => 'Attachment to surfaces and DNA transfer',
@@ -4843,8 +4440,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing Legionnaires’ disease?',
+                                                        'question' => 'Which bacteria is responsible for causing Legionnaires’ disease?',
                             'a' => 'Legionella pneumophila',
                             'b' => 'Streptococcus pneumoniae',
                             'c' => 'Staphylococcus aureus',
@@ -4855,8 +4451,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of methanogenic bacteria?',
+                                                        'question' => 'What is the primary habitat of methanogenic bacteria?',
                             'a' => 'Oxygen-rich environments',
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
@@ -4867,8 +4462,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its role in nitrogen fixation?',
+                                                        'question' => 'Which bacteria is known for its role in nitrogen fixation?',
                             'a' => 'Nitrobacter',
                             'b' => 'Rhizobium',
                             'c' => 'Azotobacter',
@@ -4879,8 +4473,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary cause of bacterial antibiotic resistance?',
+                                                        'question' => 'What is the primary cause of bacterial antibiotic resistance?',
                             'a' => 'Overuse and misuse of antibiotics',
                             'b' => 'Genetic mutations',
                             'c' => 'Horizontal gene transfer',
@@ -4891,8 +4484,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing scarlet fever?',
+                                                        'question' => 'Which bacteria is responsible for causing scarlet fever?',
                             'a' => 'Streptococcus pyogenes',
                             'b' => 'Bacillus anthracis',
                             'c' => 'E. coli',
@@ -4903,8 +4495,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the role of quorum sensing in bacterial populations?',
+                                                        'question' => 'What is the role of quorum sensing in bacterial populations?',
                             'a' => 'Movement coordination',
                             'b' => 'Energy production',
                             'c' => 'Cell-to-cell communication and coordination of group behaviors',
@@ -4915,8 +4506,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing tetanus?',
+                                                        'question' => 'Which bacteria is responsible for causing tetanus?',
                             'a' => 'Clostridium tetani',
                             'b' => 'Clostridium botulinum',
                             'c' => 'Clostridium perfringens',
@@ -4927,8 +4517,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the function of bacterial plasmids?',
+                                                        'question' => 'What is the function of bacterial plasmids?',
                             'a' => 'Protein synthesis',
                             'b' => 'Energy production',
                             'c' => 'Replication of the bacterial chromosome',
@@ -4939,8 +4528,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its role in yogurt production?',
+                                                        'question' => 'Which bacteria is known for its role in yogurt production?',
                             'a' => 'Lactobacillus',
                             'b' => 'E. coli',
                             'c' => 'Staphylococcus aureus',
@@ -4951,8 +4539,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial ribosomes?',
+                                                        'question' => 'What is the primary role of bacterial ribosomes?',
                             'a' => 'DNA replication',
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
@@ -4963,8 +4550,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing anthrax?',
+                                                        'question' => 'Which bacteria is responsible for causing anthrax?',
                             'a' => 'Bacillus cereus',
                             'b' => 'Bacillus subtilis',
                             'c' => 'Bacillus anthracis',
@@ -4975,8 +4561,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the main habitat of acidophilic bacteria?',
+                                                        'question' => 'What is the main habitat of acidophilic bacteria?',
                             'a' => 'Salty environments',
                             'b' => 'High temperature environments',
                             'c' => 'Low pH environments',
@@ -4987,8 +4572,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for causing foodborne illness often associated with poultry?',
+                                                        'question' => 'Which bacteria is known for causing foodborne illness often associated with poultry?',
                             'a' => 'E. coli',
                             'b' => 'Salmonella enterica',
                             'c' => 'Listeria monocytogenes',
@@ -4999,8 +4583,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial capsules?',
+                                                        'question' => 'What is the primary role of bacterial capsules?',
                             'a' => 'Protein synthesis',
                             'b' => 'DNA replication',
                             'c' => 'Protection against host immune system',
@@ -5011,8 +4594,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known to cause dental caries?',
+                                                        'question' => 'Which bacteria is known to cause dental caries?',
                             'a' => 'Streptococcus mutans',
                             'b' => 'Staphylococcus aureus',
                             'c' => 'E. coli',
@@ -5023,8 +4605,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of thermophilic bacteria?',
+                                                        'question' => 'What is the primary habitat of thermophilic bacteria?',
                             'a' => 'Cold environments',
                             'b' => 'High temperature environments',
                             'c' => 'Low pH environments',
@@ -5035,8 +4616,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is commonly found in the human gut and helps in digestion?',
+                                                        'question' => 'Which bacteria is commonly found in the human gut and helps in digestion?',
                             'a' => 'Bacillus cereus',
                             'b' => 'Lactobacillus',
                             'c' => 'Escherichia coli',
@@ -5047,8 +4627,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the role of bacterial flagella?',
+                                                        'question' => 'What is the role of bacterial flagella?',
                             'a' => 'Protein synthesis',
                             'b' => 'Energy production',
                             'c' => 'Movement',
@@ -5059,8 +4638,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing tuberculosis?',
+                                                        'question' => 'Which bacteria is responsible for causing tuberculosis?',
                             'a' => 'Mycobacterium tuberculosis',
                             'b' => 'Staphylococcus aureus',
                             'c' => 'Streptococcus pneumoniae',
@@ -5071,8 +4649,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of psychrophilic bacteria?',
+                                                        'question' => 'What is the primary habitat of psychrophilic bacteria?',
                             'a' => 'High temperature environments',
                             'b' => 'Cold environments',
                             'c' => 'Low pH environments',
@@ -5083,8 +4660,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its ability to decompose organic material in soil?',
+                                                        'question' => 'Which bacteria is known for its ability to decompose organic material in soil?',
                             'a' => 'Bacillus subtilis',
                             'b' => 'Staphylococcus aureus',
                             'c' => 'Pseudomonas aeruginosa',
@@ -5095,8 +4671,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the function of bacterial endospores?',
+                                                        'question' => 'What is the function of bacterial endospores?',
                             'a' => 'Reproduction',
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
@@ -5107,8 +4682,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing whooping cough?',
+                                                        'question' => 'Which bacteria is responsible for causing whooping cough?',
                             'a' => 'Bordetella pertussis',
                             'b' => 'Streptococcus pyogenes',
                             'c' => 'Haemophilus influenzae',
@@ -5119,8 +4693,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial ribosomes?',
+                                                        'question' => 'What is the primary role of bacterial ribosomes?',
                             'a' => 'DNA replication',
                             'b' => 'Protein synthesis',
                             'c' => 'Cell movement',
@@ -5131,8 +4704,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its role in nitrogen fixation?',
+                                                        'question' => 'Which bacteria is known for its role in nitrogen fixation?',
                             'a' => 'Nitrosomonas',
                             'b' => 'Rhizobium',
                             'c' => 'Pseudomonas',
@@ -5143,8 +4715,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary cause of bacterial antibiotic resistance?',
+                                                        'question' => 'What is the primary cause of bacterial antibiotic resistance?',
                             'a' => 'Overuse and misuse of antibiotics',
                             'b' => 'Genetic mutations',
                             'c' => 'Horizontal gene transfer',
@@ -5155,8 +4726,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing Lyme disease?',
+                                                        'question' => 'Which bacteria is responsible for causing Lyme disease?',
                             'a' => 'Borrelia burgdorferi',
                             'b' => 'Yersinia pestis',
                             'c' => 'Treponema pallidum',
@@ -5167,8 +4737,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of alkaliphilic bacteria?',
+                                                        'question' => 'What is the primary habitat of alkaliphilic bacteria?',
                             'a' => 'Acidic environments',
                             'b' => 'Cold environments',
                             'c' => 'High pH environments',
@@ -5179,8 +4748,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its role in bioremediation of oil spills?',
+                                                        'question' => 'Which bacteria is known for its role in bioremediation of oil spills?',
                             'a' => 'Bacillus cereus',
                             'b' => 'Escherichia coli',
                             'c' => 'Pseudomonas putida',
@@ -5191,8 +4759,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the function of bacterial biofilms?',
+                                                        'question' => 'What is the function of bacterial biofilms?',
                             'a' => 'Reproduction',
                             'b' => 'Protection and survival in harsh environments',
                             'c' => 'Energy production',
@@ -5203,8 +4770,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing diphtheria?',
+                                                        'question' => 'Which bacteria is responsible for causing diphtheria?',
                             'a' => 'Corynebacterium diphtheriae',
                             'b' => 'Bordetella pertussis',
                             'c' => 'Haemophilus influenzae',
@@ -5215,8 +4781,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial endospores?',
+                                                        'question' => 'What is the primary role of bacterial endospores?',
                             'a' => 'Reproduction',
                             'b' => 'Survival in harsh conditions',
                             'c' => 'Energy production',
@@ -5227,8 +4792,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for causing toxic shock syndrome?',
+                                                        'question' => 'Which bacteria is known for causing toxic shock syndrome?',
                             'a' => 'Staphylococcus aureus',
                             'b' => 'Streptococcus pyogenes',
                             'c' => 'Escherichia coli',
@@ -5239,8 +4803,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of methanogenic bacteria?',
+                                                        'question' => 'What is the primary habitat of methanogenic bacteria?',
                             'a' => 'Oxygen-rich environments',
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
@@ -5251,8 +4814,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing cholera?',
+                                                        'question' => 'Which bacteria is responsible for causing cholera?',
                             'a' => 'Vibrio cholerae',
                             'b' => 'Vibrio vulnificus',
                             'c' => 'Vibrio parahaemolyticus',
@@ -5263,8 +4825,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the function of bacterial pili?',
+                                                        'question' => 'What is the function of bacterial pili?',
                             'a' => 'Energy production',
                             'b' => 'Movement',
                             'c' => 'Attachment to surfaces and DNA transfer',
@@ -5275,8 +4836,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for producing botulinum toxin?',
+                                                        'question' => 'Which bacteria is known for producing botulinum toxin?',
                             'a' => 'Clostridium tetani',
                             'b' => 'Clostridium botulinum',
                             'c' => 'Clostridium difficile',
@@ -5287,8 +4847,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary role of bacterial cell walls?',
+                                                        'question' => 'What is the primary role of bacterial cell walls?',
                             'a' => 'DNA replication',
                             'b' => 'Protein synthesis',
                             'c' => 'Structural support and protection',
@@ -5299,8 +4858,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing plague?',
+                                                        'question' => 'Which bacteria is responsible for causing plague?',
                             'a' => 'Bordetella pertussis',
                             'b' => 'Yersinia pestis',
                             'c' => 'Rickettsia rickettsii',
@@ -5311,8 +4869,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of halophilic bacteria?',
+                                                        'question' => 'What is the primary habitat of halophilic bacteria?',
                             'a' => 'High salt environments',
                             'b' => 'Acidic environments',
                             'c' => 'Cold environments',
@@ -5323,8 +4880,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its ability to cause food poisoning due to improperly canned foods?',
+                                                        'question' => 'Which bacteria is known for its ability to cause food poisoning due to improperly canned foods?',
                             'a' => 'Staphylococcus aureus',
                             'b' => 'Escherichia coli',
                             'c' => 'Clostridium botulinum',
@@ -5335,8 +4891,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the function of bacterial glycocalyx?',
+                                                        'question' => 'What is the function of bacterial glycocalyx?',
                             'a' => 'Energy production',
                             'b' => 'Reproduction',
                             'c' => 'Attachment and protection',
@@ -5347,8 +4902,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is responsible for causing syphilis?',
+                                                        'question' => 'Which bacteria is responsible for causing syphilis?',
                             'a' => 'Borrelia burgdorferi',
                             'b' => 'Yersinia pestis',
                             'c' => 'Treponema pallidum',
@@ -5359,8 +4913,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary habitat of anaerobic bacteria?',
+                                                        'question' => 'What is the primary habitat of anaerobic bacteria?',
                             'a' => 'Oxygen-rich environments',
                             'b' => 'Anaerobic environments',
                             'c' => 'Cold environments',
@@ -5371,8 +4924,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'Which bacteria is known for its role in the nitrogen cycle?',
+                                                        'question' => 'Which bacteria is known for its role in the nitrogen cycle?',
                             'a' => 'Nitrobacter',
                             'b' => 'Rhizobium',
                             'c' => 'Pseudomonas',
@@ -5383,8 +4935,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
                             'field_id' => 3,
-                            'sub_fields_id' => 15,
-                            'question' => 'What is the primary cause of bacterial transformation?',
+                                                        'question' => 'What is the primary cause of bacterial transformation?',
                             'a' => 'Mutation',
                             'b' => 'Uptake of foreign DNA',
                             'c' => 'Horizontal gene transfer',
@@ -5395,8 +4946,7 @@ class QuestionSeeder3 extends Seeder
                         ],
                         [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'Which bacteria is responsible for causing anthrax?',
+                'question' => 'Which bacteria is responsible for causing anthrax?',
         'a' => 'Bacillus anthracis',
         'b' => 'Staphylococcus aureus',
         'c' => 'Escherichia coli',
@@ -5407,8 +4957,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'What is the primary role of bacterial plasmids?',
+                'question' => 'What is the primary role of bacterial plasmids?',
         'a' => 'Protein synthesis',
         'b' => 'Replication',
         'c' => 'Genetic exchange and antibiotic resistance',
@@ -5419,8 +4968,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'Which bacteria is known for its ability to degrade plastic?',
+                'question' => 'Which bacteria is known for its ability to degrade plastic?',
         'a' => 'Bacillus subtilis',
         'b' => 'Pseudomonas putida',
         'c' => 'Escherichia coli',
@@ -5431,8 +4979,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'What is the function of bacterial spores?',
+                'question' => 'What is the function of bacterial spores?',
         'a' => 'Reproduction',
         'b' => 'Survival in harsh conditions',
         'c' => 'Energy production',
@@ -5443,8 +4990,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'Which bacteria is responsible for causing tetanus?',
+                'question' => 'Which bacteria is responsible for causing tetanus?',
         'a' => 'Clostridium tetani',
         'b' => 'Staphylococcus aureus',
         'c' => 'Escherichia coli',
@@ -5455,8 +5001,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'What is the primary habitat of thermophilic bacteria?',
+                'question' => 'What is the primary habitat of thermophilic bacteria?',
         'a' => 'Cold environments',
         'b' => 'High temperature environments',
         'c' => 'Acidic environments',
@@ -5467,8 +5012,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'Which bacteria is known for its role in yogurt production?',
+                'question' => 'Which bacteria is known for its role in yogurt production?',
         'a' => 'Bacillus cereus',
         'b' => 'Lactobacillus bulgaricus',
         'c' => 'Escherichia coli',
@@ -5479,8 +5023,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'What is the function of bacterial conjugation?',
+                'question' => 'What is the function of bacterial conjugation?',
         'a' => 'Energy production',
         'b' => 'Reproduction',
         'c' => 'DNA transfer between bacteria',
@@ -5491,8 +5034,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'Which bacteria is responsible for causing Legionnaires\' disease?',
+                'question' => 'Which bacteria is responsible for causing Legionnaires\' disease?',
         'a' => 'Staphylococcus aureus',
         'b' => 'Legionella pneumophila',
         'c' => 'Escherichia coli',
@@ -5503,8 +5045,7 @@ class QuestionSeeder3 extends Seeder
     ],
     [
         'field_id' => 3,
-        'sub_fields_id' => 15,
-        'question' => 'What is the primary cause of bacterial genetic diversity?',
+                'question' => 'What is the primary cause of bacterial genetic diversity?',
         'a' => 'Mutation',
         'b' => 'Horizontal gene transfer',
         'c' => 'Conjugation',

@@ -16,8 +16,7 @@ class Sport17 extends Seeder
     $questions = [
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who is the all-time top scorer in the UEFA Champions League?',
+                        'question' => 'Who is the all-time top scorer in the UEFA Champions League?',
             'a' => 'Lionel Messi',
             'b' => 'Cristiano Ronaldo',
             'c' => 'Robert Lewandowski',
@@ -28,8 +27,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club has won the most English Premier League titles?',
+                        'question' => 'Which club has won the most English Premier League titles?',
             'a' => 'Manchester City',
             'b' => 'Arsenal',
             'c' => 'Manchester United',
@@ -40,8 +38,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who won the Ballon d\'Or in 2021?',
+                        'question' => 'Who won the Ballon d\'Or in 2021?',
             'a' => 'Lionel Messi',
             'b' => 'Cristiano Ronaldo',
             'c' => 'Robert Lewandowski',
@@ -52,8 +49,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country hosted the FIFA World Cup in 2014?',
+                        'question' => 'Which country hosted the FIFA World Cup in 2014?',
             'a' => 'Germany',
             'b' => 'South Africa',
             'c' => 'Brazil',
@@ -64,8 +60,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player holds the record for the most goals scored in a single World Cup tournament?',
+                        'question' => 'Which player holds the record for the most goals scored in a single World Cup tournament?',
             'a' => 'Miroslav Klose',
             'b' => 'Just Fontaine',
             'c' => 'Pelé',
@@ -76,8 +71,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which team won the UEFA Euro 2020 tournament?',
+                        'question' => 'Which team won the UEFA Euro 2020 tournament?',
             'a' => 'Italy',
             'b' => 'England',
             'c' => 'Spain',
@@ -88,8 +82,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the top scorer in the 2018 FIFA World Cup?',
+                        'question' => 'Who was the top scorer in the 2018 FIFA World Cup?',
             'a' => 'Harry Kane',
             'b' => 'Antoine Griezmann',
             'c' => 'Kylian Mbappé',
@@ -100,8 +93,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country has won the most FIFA World Cup titles?',
+                        'question' => 'Which country has won the most FIFA World Cup titles?',
             'a' => 'Germany',
             'b' => 'Brazil',
             'c' => 'Italy',
@@ -112,8 +104,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club won the UEFA Champions League in 2022?',
+                        'question' => 'Which club won the UEFA Champions League in 2022?',
             'a' => 'Real Madrid',
             'b' => 'Liverpool',
             'c' => 'Bayern Munich',
@@ -126,8 +117,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which footballer is known as "The King of Football" and won three FIFA World Cups?',
+                        'question' => 'Which footballer is known as "The King of Football" and won three FIFA World Cups?',
             'a' => 'Diego Maradona',
             'b' => 'Pelé',
             'c' => 'Zinedine Zidane',
@@ -138,8 +128,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African country was the first to reach the quarterfinals of the FIFA World Cup?',
+                        'question' => 'Which African country was the first to reach the quarterfinals of the FIFA World Cup?',
             'a' => 'Nigeria',
             'b' => 'Ghana',
             'c' => 'Cameroon',
@@ -150,8 +139,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who is the all-time top scorer for the Nigerian national football team?',
+                        'question' => 'Who is the all-time top scorer for the Nigerian national football team?',
             'a' => 'Jay-Jay Okocha',
             'b' => 'Rashidi Yekini',
             'c' => 'Nwankwo Kanu',
@@ -162,8 +150,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Lionel Messi join in 2021 after leaving Barcelona?',
+                        'question' => 'Which club did Lionel Messi join in 2021 after leaving Barcelona?',
             'a' => 'Manchester City',
             'b' => 'Paris Saint-Germain',
             'c' => 'Juventus',
@@ -174,8 +161,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player won the FIFA Best Men\'s Player award in 2019?',
+                        'question' => 'Which player won the FIFA Best Men\'s Player award in 2019?',
             'a' => 'Lionel Messi',
             'b' => 'Cristiano Ronaldo',
             'c' => 'Virgil van Dijk',
@@ -186,8 +172,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club has won the most UEFA Europa League titles?',
+                        'question' => 'Which club has won the most UEFA Europa League titles?',
             'a' => 'Chelsea',
             'b' => 'Sevilla FC',
             'c' => 'Atlético Madrid',
@@ -198,8 +183,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the first-ever FIFA World Cup in 1930?',
+                        'question' => 'Which country won the first-ever FIFA World Cup in 1930?',
             'a' => 'Brazil',
             'b' => 'Argentina',
             'c' => 'Uruguay',
@@ -210,8 +194,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which footballer is known as "El Fenómeno" and won the Ballon d\'Or twice?',
+                        'question' => 'Which footballer is known as "El Fenómeno" and won the Ballon d\'Or twice?',
             'a' => 'Ronaldo Nazário',
             'b' => 'Ronaldinho',
             'c' => 'Zinedine Zidane',
@@ -222,8 +205,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer won the 1996 Olympic gold medal in Atlanta?',
+                        'question' => 'Which Nigerian footballer won the 1996 Olympic gold medal in Atlanta?',
             'a' => 'Daniel Amokachi',
             'b' => 'Nwankwo Kanu',
             'c' => 'Sunday Oliseh',
@@ -234,8 +216,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which team won the FIFA Women\'s World Cup in 2019?',
+                        'question' => 'Which team won the FIFA Women\'s World Cup in 2019?',
             'a' => 'Germany',
             'b' => 'Netherlands',
             'c' => 'United States',
@@ -248,8 +229,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is known as "The Red Devils"?',
+                        'question' => 'Which club is known as "The Red Devils"?',
             'a' => 'Liverpool',
             'b' => 'AC Milan',
             'c' => 'Manchester United',
@@ -260,8 +240,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the top scorer in the English Premier League 2020-2021 season?',
+                        'question' => 'Who was the top scorer in the English Premier League 2020-2021 season?',
             'a' => 'Harry Kane',
             'b' => 'Mohamed Salah',
             'c' => 'Bruno Fernandes',
@@ -272,8 +251,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the 2019 Africa Cup of Nations?',
+                        'question' => 'Which country won the 2019 Africa Cup of Nations?',
             'a' => 'Egypt',
             'b' => 'Senegal',
             'c' => 'Nigeria',
@@ -284,8 +262,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who won the FIFA Women\'s World Cup Golden Boot in 2019?',
+                        'question' => 'Who won the FIFA Women\'s World Cup Golden Boot in 2019?',
             'a' => 'Megan Rapinoe',
             'b' => 'Alex Morgan',
             'c' => 'Sam Kerr',
@@ -296,8 +273,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club won the most recent CAF Champions League in 2023?',
+                        'question' => 'Which club won the most recent CAF Champions League in 2023?',
             'a' => 'Al Ahly',
             'b' => 'Zamalek',
             'c' => 'Wydad AC',
@@ -308,8 +284,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which footballer has the most assists in Premier League history?',
+                        'question' => 'Which footballer has the most assists in Premier League history?',
             'a' => 'Frank Lampard',
             'b' => 'Cesc Fàbregas',
             'c' => 'Ryan Giggs',
@@ -320,8 +295,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African player won the Premier League Golden Boot three times consecutively?',
+                        'question' => 'Which African player won the Premier League Golden Boot three times consecutively?',
             'a' => 'Mohamed Salah',
             'b' => 'Didier Drogba',
             'c' => 'Pierre-Emerick Aubameyang',
@@ -332,8 +306,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian club has won the most Nigerian Premier League titles?',
+                        'question' => 'Which Nigerian club has won the most Nigerian Premier League titles?',
             'a' => 'Enyimba FC',
             'b' => 'Kano Pillars',
             'c' => 'Enugu Rangers',
@@ -344,8 +317,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which year did Nigeria win its first FIFA U-17 World Cup?',
+                        'question' => 'Which year did Nigeria win its first FIFA U-17 World Cup?',
             'a' => '1985',
             'b' => '1993',
             'c' => '2007',
@@ -356,8 +328,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the first African player to win the Ballon d\'Or?',
+                        'question' => 'Who was the first African player to win the Ballon d\'Or?',
             'a' => 'Samuel Eto\'o',
             'b' => 'George Weah',
             'c' => 'Didier Drogba',
@@ -370,8 +341,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which stadium is known as "The Theater of Dreams"?',
+                        'question' => 'Which stadium is known as "The Theater of Dreams"?',
             'a' => 'Camp Nou',
             'b' => 'Old Trafford',
             'c' => 'Anfield',
@@ -382,8 +352,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player scored the fastest hat-trick in Premier League history?',
+                        'question' => 'Which player scored the fastest hat-trick in Premier League history?',
             'a' => 'Sadio Mané',
             'b' => 'Cristiano Ronaldo',
             'c' => 'Harry Kane',
@@ -394,8 +363,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which team won the UEFA Champions League in the 2020-2021 season?',
+                        'question' => 'Which team won the UEFA Champions League in the 2020-2021 season?',
             'a' => 'Manchester City',
             'b' => 'Chelsea',
             'c' => 'Real Madrid',
@@ -406,8 +374,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who holds the record for the most goals scored in a single FIFA World Cup?',
+                        'question' => 'Who holds the record for the most goals scored in a single FIFA World Cup?',
             'a' => 'Miroslav Klose',
             'b' => 'Just Fontaine',
             'c' => 'Ronaldo Nazário',
@@ -418,8 +385,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the Copa América in 2021?',
+                        'question' => 'Which country won the Copa América in 2021?',
             'a' => 'Argentina',
             'b' => 'Brazil',
             'c' => 'Chile',
@@ -430,8 +396,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the first Nigerian player to play in the English Premier League?',
+                        'question' => 'Who was the first Nigerian player to play in the English Premier League?',
             'a' => 'Nwankwo Kanu',
             'b' => 'Jay-Jay Okocha',
             'c' => 'Celestine Babayaro',
@@ -442,8 +407,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country has won the most FIFA World Cup titles?',
+                        'question' => 'Which country has won the most FIFA World Cup titles?',
             'a' => 'Germany',
             'b' => 'Argentina',
             'c' => 'Italy',
@@ -454,8 +418,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Cristiano Ronaldo rejoin in 2021?',
+                        'question' => 'Which club did Cristiano Ronaldo rejoin in 2021?',
             'a' => 'Real Madrid',
             'b' => 'Manchester United',
             'c' => 'Juventus',
@@ -466,8 +429,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which team has won the most English Premier League titles?',
+                        'question' => 'Which team has won the most English Premier League titles?',
             'a' => 'Liverpool',
             'b' => 'Chelsea',
             'c' => 'Manchester United',
@@ -478,8 +440,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country hosted the 2010 FIFA World Cup?',
+                        'question' => 'Which country hosted the 2010 FIFA World Cup?',
             'a' => 'Germany',
             'b' => 'South Africa',
             'c' => 'Brazil',
@@ -493,8 +454,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player is known for his "Hand of God" goal?',
+                        'question' => 'Which player is known for his "Hand of God" goal?',
             'a' => 'Pelé',
             'b' => 'Diego Maradona',
             'c' => 'Lionel Messi',
@@ -505,8 +465,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is famously associated with the anthem "You\'ll Never Walk Alone"?',
+                        'question' => 'Which club is famously associated with the anthem "You\'ll Never Walk Alone"?',
             'a' => 'Liverpool',
             'b' => 'Borussia Dortmund',
             'c' => 'Celtic',
@@ -517,8 +476,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African country won the 2013 Africa Cup of Nations?',
+                        'question' => 'Which African country won the 2013 Africa Cup of Nations?',
             'a' => 'Nigeria',
             'b' => 'Ivory Coast',
             'c' => 'Ghana',
@@ -529,8 +487,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which football club is nicknamed "The Old Lady"?',
+                        'question' => 'Which football club is nicknamed "The Old Lady"?',
             'a' => 'Real Madrid',
             'b' => 'Bayern Munich',
             'c' => 'Juventus',
@@ -541,8 +498,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the first ever FIFA World Cup in 1930?',
+                        'question' => 'Which country won the first ever FIFA World Cup in 1930?',
             'a' => 'Brazil',
             'b' => 'Argentina',
             'c' => 'Uruguay',
@@ -553,8 +509,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player has won the most Ballon d\'Or awards?',
+                        'question' => 'Which player has won the most Ballon d\'Or awards?',
             'a' => 'Cristiano Ronaldo',
             'b' => 'Michel Platini',
             'c' => 'Johan Cruyff',
@@ -565,8 +520,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Kylian Mbappé join after leaving AS Monaco?',
+                        'question' => 'Which club did Kylian Mbappé join after leaving AS Monaco?',
             'a' => 'Paris Saint-Germain (PSG)',
             'b' => 'Real Madrid',
             'c' => 'Manchester City',
@@ -577,8 +531,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which footballer is known as "El Fenómeno"?',
+                        'question' => 'Which footballer is known as "El Fenómeno"?',
             'a' => 'Diego Maradona',
             'b' => 'Ronaldo Nazário',
             'c' => 'Ronaldinho',
@@ -589,8 +542,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the manager of Germany when they won the 2014 FIFA World Cup?',
+                        'question' => 'Who was the manager of Germany when they won the 2014 FIFA World Cup?',
             'a' => 'Joachim Löw',
             'b' => 'Jurgen Klopp',
             'c' => 'Jupp Heynckes',
@@ -601,8 +553,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the Euro 2020 tournament?',
+                        'question' => 'Which country won the Euro 2020 tournament?',
             'a' => 'France',
             'b' => 'Italy',
             'c' => 'England',
@@ -616,8 +567,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player holds the record for the most appearances in the FIFA World Cup?',
+                        'question' => 'Which player holds the record for the most appearances in the FIFA World Cup?',
             'a' => 'Miroslav Klose',
             'b' => 'Lothar Matthäus',
             'c' => 'Cafu',
@@ -628,8 +578,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club has won the most UEFA Champions League titles?',
+                        'question' => 'Which club has won the most UEFA Champions League titles?',
             'a' => 'AC Milan',
             'b' => 'Liverpool',
             'c' => 'Real Madrid',
@@ -640,8 +589,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who won the Golden Boot in the 2018 FIFA World Cup?',
+                        'question' => 'Who won the Golden Boot in the 2018 FIFA World Cup?',
             'a' => 'Harry Kane',
             'b' => 'Antoine Griezmann',
             'c' => 'Romelu Lukaku',
@@ -652,8 +600,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the UEFA European Championship in 2016?',
+                        'question' => 'Which country won the UEFA European Championship in 2016?',
             'a' => 'Portugal',
             'b' => 'France',
             'c' => 'Germany',
@@ -664,8 +611,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African player was the first to win the FIFA World Player of the Year award?',
+                        'question' => 'Which African player was the first to win the FIFA World Player of the Year award?',
             'a' => 'George Weah',
             'b' => 'Samuel Eto\'o',
             'c' => 'Didier Drogba',
@@ -676,8 +622,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country has hosted the FIFA World Cup the most times?',
+                        'question' => 'Which country has hosted the FIFA World Cup the most times?',
             'a' => 'Brazil',
             'b' => 'Germany',
             'c' => 'Italy',
@@ -688,8 +633,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player scored the famous "Goal of the Century" in the 1986 World Cup?',
+                        'question' => 'Which player scored the famous "Goal of the Century" in the 1986 World Cup?',
             'a' => 'Pelé',
             'b' => 'Zinedine Zidane',
             'c' => 'Diego Maradona',
@@ -700,8 +644,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which team won the first Premier League title in 1992-1993?',
+                        'question' => 'Which team won the first Premier League title in 1992-1993?',
             'a' => 'Arsenal',
             'b' => 'Liverpool',
             'c' => 'Manchester United',
@@ -712,8 +655,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the 1998 FIFA World Cup?',
+                        'question' => 'Which country won the 1998 FIFA World Cup?',
             'a' => 'France',
             'b' => 'Brazil',
             'c' => 'Germany',
@@ -724,8 +666,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player was the top scorer in the 2019-2020 English Premier League season?',
+                        'question' => 'Which player was the top scorer in the 2019-2020 English Premier League season?',
             'a' => 'Jamie Vardy',
             'b' => 'Pierre-Emerick Aubameyang',
             'c' => 'Mohamed Salah',
@@ -738,8 +679,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the FIFA Women\'s World Cup in 2019?',
+                        'question' => 'Which country won the FIFA Women\'s World Cup in 2019?',
             'a' => 'Germany',
             'b' => 'USA',
             'c' => 'Netherlands',
@@ -750,8 +690,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player is the all-time top scorer for Real Madrid?',
+                        'question' => 'Which player is the all-time top scorer for Real Madrid?',
             'a' => 'Karim Benzema',
             'b' => 'Raúl',
             'c' => 'Cristiano Ronaldo',
@@ -762,8 +701,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the captain of the Spanish team that won the 2010 FIFA World Cup?',
+                        'question' => 'Who was the captain of the Spanish team that won the 2010 FIFA World Cup?',
             'a' => 'Andrés Iniesta',
             'b' => 'Iker Casillas',
             'c' => 'Xavi Hernandez',
@@ -774,8 +712,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is known as "The Red Devils"?',
+                        'question' => 'Which club is known as "The Red Devils"?',
             'a' => 'Liverpool',
             'b' => 'Manchester United',
             'c' => 'Bayern Munich',
@@ -786,8 +723,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the Copa América in 2021?',
+                        'question' => 'Which country won the Copa América in 2021?',
             'a' => 'Argentina',
             'b' => 'Brazil',
             'c' => 'Chile',
@@ -798,8 +734,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Thierry Henry play for before joining Arsenal?',
+                        'question' => 'Which club did Thierry Henry play for before joining Arsenal?',
             'a' => 'Juventus',
             'b' => 'Monaco',
             'c' => 'Barcelona',
@@ -810,8 +745,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who was the manager of Manchester City when they won their first Premier League title?',
+                        'question' => 'Who was the manager of Manchester City when they won their first Premier League title?',
             'a' => 'Roberto Mancini',
             'b' => 'Pep Guardiola',
             'c' => 'Manuel Pellegrini',
@@ -822,8 +756,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is known for having "The Yellow Wall" of fans?',
+                        'question' => 'Which club is known for having "The Yellow Wall" of fans?',
             'a' => 'Borussia Dortmund',
             'b' => 'Villarreal CF',
             'c' => 'Fenerbahçe',
@@ -834,8 +767,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player scored the winning goal in the 2014 FIFA World Cup final?',
+                        'question' => 'Which player scored the winning goal in the 2014 FIFA World Cup final?',
             'a' => 'Lionel Messi',
             'b' => 'Mario Götze',
             'c' => 'Thomas Müller',
@@ -846,8 +778,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which national team is known as "La Albiceleste"?',
+                        'question' => 'Which national team is known as "La Albiceleste"?',
             'a' => 'Argentina',
             'b' => 'Uruguay',
             'c' => 'Colombia',
@@ -860,8 +791,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did David Beckham play for after leaving Manchester United?',
+                        'question' => 'Which club did David Beckham play for after leaving Manchester United?',
             'a' => 'Real Madrid',
             'b' => 'LA Galaxy',
             'c' => 'AC Milan',
@@ -872,8 +802,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the 2010 FIFA World Cup?',
+                        'question' => 'Which country won the 2010 FIFA World Cup?',
             'a' => 'Germany',
             'b' => 'Netherlands',
             'c' => 'Spain',
@@ -884,8 +813,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player has the most Ballon d\'Or awards?',
+                        'question' => 'Which player has the most Ballon d\'Or awards?',
             'a' => 'Cristiano Ronaldo',
             'b' => 'Michel Platini',
             'c' => 'Lionel Messi',
@@ -896,8 +824,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country has won the most Copa América titles?',
+                        'question' => 'Which country has won the most Copa América titles?',
             'a' => 'Argentina',
             'b' => 'Uruguay',
             'c' => 'Brazil',
@@ -908,8 +835,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player scored the fastest hat-trick in Premier League history?',
+                        'question' => 'Which player scored the fastest hat-trick in Premier League history?',
             'a' => 'Sadio Mané',
             'b' => 'Mohamed Salah',
             'c' => 'Robbie Fowler',
@@ -920,8 +846,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which country won the 1986 FIFA World Cup?',
+                        'question' => 'Which country won the 1986 FIFA World Cup?',
             'a' => 'Italy',
             'b' => 'Argentina',
             'c' => 'West Germany',
@@ -932,8 +857,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Thierry Henry join after leaving Arsenal in 2007?',
+                        'question' => 'Which club did Thierry Henry join after leaving Arsenal in 2007?',
             'a' => 'Juventus',
             'b' => 'Barcelona',
             'c' => 'New York Red Bulls',
@@ -944,8 +868,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who holds the record for the most goals scored in a single Premier League season?',
+                        'question' => 'Who holds the record for the most goals scored in a single Premier League season?',
             'a' => 'Alan Shearer',
             'b' => 'Andy Cole',
             'c' => 'Mohamed Salah',
@@ -956,8 +879,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player scored the winning goal in the 1966 FIFA World Cup final?',
+                        'question' => 'Which player scored the winning goal in the 1966 FIFA World Cup final?',
             'a' => 'Geoff Hurst',
             'b' => 'Bobby Moore',
             'c' => 'Gerd Müller',
@@ -968,8 +890,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which national team is known as "The Three Lions"?',
+                        'question' => 'Which national team is known as "The Three Lions"?',
             'a' => 'England',
             'b' => 'Scotland',
             'c' => 'Wales',
@@ -982,8 +903,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions Related to Nigeria
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player won the Premier League Player of the Season award in 1999?',
+                        'question' => 'Which Nigerian player won the Premier League Player of the Season award in 1999?',
             'a' => 'Nwankwo Kanu',
             'b' => 'Jay-Jay Okocha',
             'c' => 'Sunday Oliseh',
@@ -994,8 +914,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian club won the CAF Champions League in 1994?',
+                        'question' => 'Which Nigerian club won the CAF Champions League in 1994?',
             'a' => 'Enyimba',
             'b' => 'Rangers',
             'c' => 'Shooting Stars',
@@ -1006,8 +925,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer scored a hat-trick in the 1998 FIFA World Cup?',
+                        'question' => 'Which Nigerian footballer scored a hat-trick in the 1998 FIFA World Cup?',
             'a' => 'Nwankwo Kanu',
             'b' => 'Victor Ikpeba',
             'c' => 'Daniel Amokachi',
@@ -1018,8 +936,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Who is the all-time top scorer for the Nigerian national team?',
+                        'question' => 'Who is the all-time top scorer for the Nigerian national team?',
             'a' => 'Rashidi Yekini',
             'b' => 'Nwankwo Kanu',
             'c' => 'Obafemi Martins',
@@ -1030,8 +947,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian team won the FIFA U-17 World Cup in 2015?',
+                        'question' => 'Which Nigerian team won the FIFA U-17 World Cup in 2015?',
             'a' => 'Nigeria',
             'b' => 'Ghana',
             'c' => 'Cameroon',
@@ -1042,8 +958,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player won the African Player of the Year award in 1996?',
+                        'question' => 'Which Nigerian player won the African Player of the Year award in 1996?',
             'a' => 'George Weah',
             'b' => 'Jay-Jay Okocha',
             'c' => 'Nwankwo Kanu',
@@ -1054,8 +969,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player scored the winning goal in the 1996 Olympic Games football final?',
+                        'question' => 'Which Nigerian player scored the winning goal in the 1996 Olympic Games football final?',
             'a' => 'Daniel Amokachi',
             'b' => 'Nwankwo Kanu',
             'c' => 'Jay-Jay Okocha',
@@ -1066,8 +980,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer had a successful career at both Chelsea and Arsenal?',
+                        'question' => 'Which Nigerian footballer had a successful career at both Chelsea and Arsenal?',
             'a' => 'John Obi Mikel',
             'b' => 'Nwankwo Kanu',
             'c' => 'Jay-Jay Okocha',
@@ -1078,8 +991,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer was known as "The Bull" during his career?',
+                        'question' => 'Which Nigerian footballer was known as "The Bull" during his career?',
             'a' => 'Daniel Amokachi',
             'b' => 'Nwankwo Kanu',
             'c' => 'Victor Ikpeba',
@@ -1090,8 +1002,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer played as a defensive midfielder for FC Porto?',
+                        'question' => 'Which Nigerian footballer played as a defensive midfielder for FC Porto?',
             'a' => 'Mikel Obi',
             'b' => 'Nwankwo Kanu',
             'c' => 'Jay-Jay Okocha',
@@ -1104,8 +1015,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions Related to Nigeria
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer won the UEFA Champions League with Chelsea in 2012?',
+                        'question' => 'Which Nigerian footballer won the UEFA Champions League with Chelsea in 2012?',
             'a' => 'John Obi Mikel',
             'b' => 'Victor Moses',
             'c' => 'Nwankwo Kanu',
@@ -1116,8 +1026,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer scored the first goal for Nigeria in the 1994 World Cup?',
+                        'question' => 'Which Nigerian footballer scored the first goal for Nigeria in the 1994 World Cup?',
             'a' => 'Rashidi Yekini',
             'b' => 'Nwankwo Kanu',
             'c' => 'Daniel Amokachi',
@@ -1128,8 +1037,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player was the top scorer in the 2013 Africa Cup of Nations?',
+                        'question' => 'Which Nigerian player was the top scorer in the 2013 Africa Cup of Nations?',
             'a' => 'Emmanuel Emenike',
             'b' => 'Ahmed Musa',
             'c' => 'John Obi Mikel',
@@ -1140,8 +1048,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian club won the Nigerian Premier League the most times?',
+                        'question' => 'Which Nigerian club won the Nigerian Premier League the most times?',
             'a' => 'Enyimba',
             'b' => 'Rangers',
             'c' => 'Kano Pillars',
@@ -1152,8 +1059,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer won the 1998 African Player of the Year award?',
+                        'question' => 'Which Nigerian footballer won the 1998 African Player of the Year award?',
             'a' => 'Jay-Jay Okocha',
             'b' => 'Nwankwo Kanu',
             'c' => 'Sunday Oliseh',
@@ -1164,8 +1070,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player was known for his incredible dribbling skills and was nicknamed “The Nigerian Maradona”?',
+                        'question' => 'Which Nigerian player was known for his incredible dribbling skills and was nicknamed “The Nigerian Maradona”?',
             'a' => 'Jay-Jay Okocha',
             'b' => 'Nwankwo Kanu',
             'c' => 'Daniel Amokachi',
@@ -1176,8 +1081,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player scored a goal in the 2018 World Cup against Iceland?',
+                        'question' => 'Which Nigerian player scored a goal in the 2018 World Cup against Iceland?',
             'a' => 'Ahmed Musa',
             'b' => 'Victor Moses',
             'c' => 'John Obi Mikel',
@@ -1188,8 +1092,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer is known for his goal-scoring prowess at the 1993 U-17 World Cup?',
+                        'question' => 'Which Nigerian footballer is known for his goal-scoring prowess at the 1993 U-17 World Cup?',
             'a' => 'Nwankwo Kanu',
             'b' => 'Victor Ikpeba',
             'c' => 'Daniel Amokachi',
@@ -1200,8 +1103,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer was a key player in the 1996 Olympic gold-winning team?',
+                        'question' => 'Which Nigerian footballer was a key player in the 1996 Olympic gold-winning team?',
             'a' => 'Daniel Amokachi',
             'b' => 'Nwankwo Kanu',
             'c' => 'Jay-Jay Okocha',
@@ -1212,8 +1114,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer is the only one to have won the English Premier League, FA Cup, and UEFA Champions League?',
+                        'question' => 'Which Nigerian footballer is the only one to have won the English Premier League, FA Cup, and UEFA Champions League?',
             'a' => 'John Obi Mikel',
             'b' => 'Nwankwo Kanu',
             'c' => 'Victor Moses',
@@ -1226,8 +1127,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions Related to Clubs
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which football club is known as "The Old Lady"?',
+                        'question' => 'Which football club is known as "The Old Lady"?',
             'a' => 'Juventus',
             'b' => 'Real Madrid',
             'c' => 'AC Milan',
@@ -1238,8 +1138,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which football club has won the most UEFA Champions League titles?',
+                        'question' => 'Which football club has won the most UEFA Champions League titles?',
             'a' => 'Barcelona',
             'b' => 'Liverpool',
             'c' => 'Real Madrid',
@@ -1250,8 +1149,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which football club is associated with the famous "You’ll Never Walk Alone" anthem?',
+                        'question' => 'Which football club is associated with the famous "You’ll Never Walk Alone" anthem?',
             'a' => 'Liverpool',
             'b' => 'Celtic',
             'c' => 'Borussia Dortmund',
@@ -1262,8 +1160,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is known for the "Galacticos" era?',
+                        'question' => 'Which club is known for the "Galacticos" era?',
             'a' => 'Real Madrid',
             'b' => 'Barcelona',
             'c' => 'Manchester United',
@@ -1274,8 +1171,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Italian club did Diego Maradona famously play for?',
+                        'question' => 'Which Italian club did Diego Maradona famously play for?',
             'a' => 'Napoli',
             'b' => 'Inter Milan',
             'c' => 'AC Milan',
@@ -1286,8 +1182,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club won the Premier League for the first time in the 2015-2016 season?',
+                        'question' => 'Which club won the Premier League for the first time in the 2015-2016 season?',
             'a' => 'Leicester City',
             'b' => 'Chelsea',
             'c' => 'Manchester City',
@@ -1298,8 +1193,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is known as "The Red Devils"?',
+                        'question' => 'Which club is known as "The Red Devils"?',
             'a' => 'Manchester United',
             'b' => 'Bayern Munich',
             'c' => 'AC Milan',
@@ -1310,8 +1204,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Thierry Henry play for before joining Arsenal?',
+                        'question' => 'Which club did Thierry Henry play for before joining Arsenal?',
             'a' => 'Monaco',
             'b' => 'Juventus',
             'c' => 'Barcelona',
@@ -1322,8 +1215,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which football club is nicknamed "The Blues"?',
+                        'question' => 'Which football club is nicknamed "The Blues"?',
             'a' => 'Chelsea',
             'b' => 'Manchester City',
             'c' => 'Everton',
@@ -1334,8 +1226,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club did Lionel Messi join in 2021 after leaving Barcelona?',
+                        'question' => 'Which club did Lionel Messi join in 2021 after leaving Barcelona?',
             'a' => 'Paris Saint-Germain (PSG)',
             'b' => 'Manchester City',
             'c' => 'Chelsea',
@@ -1348,8 +1239,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions Related to Africa
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African football club has won the most CAF Champions League titles?',
+                        'question' => 'Which African football club has won the most CAF Champions League titles?',
             'a' => 'Al Ahly (Egypt)',
             'b' => 'TP Mazembe (DR Congo)',
             'c' => 'Raja Casablanca (Morocco)',
@@ -1360,8 +1250,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which player from Côte d’Ivoire has won the Premier League Golden Boot twice?',
+                        'question' => 'Which player from Côte d’Ivoire has won the Premier League Golden Boot twice?',
             'a' => 'Didier Drogba',
             'b' => 'Yaya Touré',
             'c' => 'Salomon Kalou',
@@ -1372,8 +1261,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player scored the winning goal for Nigeria in the 1996 Olympic final?',
+                        'question' => 'Which Nigerian player scored the winning goal for Nigeria in the 1996 Olympic final?',
             'a' => 'Nwankwo Kanu',
             'b' => 'Jay-Jay Okocha',
             'c' => 'Daniel Amokachi',
@@ -1384,8 +1272,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which South African club is known as "The Brazilians"?',
+                        'question' => 'Which South African club is known as "The Brazilians"?',
             'a' => 'Mamelodi Sundowns',
             'b' => 'Kaizer Chiefs',
             'c' => 'Orlando Pirates',
@@ -1396,8 +1283,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Ghanaian footballer is famously known as "The Baby Jet"?',
+                        'question' => 'Which Ghanaian footballer is famously known as "The Baby Jet"?',
             'a' => 'Asamoah Gyan',
             'b' => 'Michael Essien',
             'c' => 'Andre Ayew',
@@ -1408,8 +1294,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Cameroonian striker played for FC Barcelona and won the UEFA Champions League twice with the club?',
+                        'question' => 'Which Cameroonian striker played for FC Barcelona and won the UEFA Champions League twice with the club?',
             'a' => 'Samuel Eto’o',
             'b' => 'Roger Milla',
             'c' => 'Patrick Mboma',
@@ -1420,8 +1305,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Egyptian club is known for its fierce rivalry with Al Ahly?',
+                        'question' => 'Which Egyptian club is known for its fierce rivalry with Al Ahly?',
             'a' => 'Zamalek',
             'b' => 'Ismaily',
             'c' => 'Pyramids FC',
@@ -1432,8 +1316,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Moroccan club won the CAF Confederation Cup in 2021?',
+                        'question' => 'Which Moroccan club won the CAF Confederation Cup in 2021?',
             'a' => 'Raja Casablanca',
             'b' => 'Wydad Casablanca',
             'c' => 'FUS Rabat',
@@ -1444,8 +1327,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian player won the Africa Cup of Nations in 1994 and was also part of the Super Eagles squad that qualified for their first World Cup?',
+                        'question' => 'Which Nigerian player won the Africa Cup of Nations in 1994 and was also part of the Super Eagles squad that qualified for their first World Cup?',
             'a' => 'Rashidi Yekini',
             'b' => 'Daniel Amokachi',
             'c' => 'Sunday Oliseh',
@@ -1456,8 +1338,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which club is the most successful in the history of the Ghana Premier League?',
+                        'question' => 'Which club is the most successful in the history of the Ghana Premier League?',
             'a' => 'Asante Kotoko',
             'b' => 'Hearts of Oak',
             'c' => 'Ashanti Gold',
@@ -1470,8 +1351,7 @@ class Sport17 extends Seeder
         // Football (Soccer) Questions Related to Africa
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African footballer was the first to win the FIFA World Player of the Year award?',
+                        'question' => 'Which African footballer was the first to win the FIFA World Player of the Year award?',
             'a' => 'Samuel Eto’o',
             'b' => 'George Weah',
             'c' => 'Roger Milla',
@@ -1482,8 +1362,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Tunisian club has won the most Tunisian Ligue Professionnelle 1 titles?',
+                        'question' => 'Which Tunisian club has won the most Tunisian Ligue Professionnelle 1 titles?',
             'a' => 'Espérance de Tunis',
             'b' => 'Club Africain',
             'c' => 'Étoile du Sahel',
@@ -1494,8 +1373,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer was the top scorer at the 2013 Africa Cup of Nations?',
+                        'question' => 'Which Nigerian footballer was the top scorer at the 2013 Africa Cup of Nations?',
             'a' => 'Emmanuel Emenike',
             'b' => 'John Obi Mikel',
             'c' => 'Victor Moses',
@@ -1506,8 +1384,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Algerian player won the Premier League with Leicester City in the 2015-2016 season?',
+                        'question' => 'Which Algerian player won the Premier League with Leicester City in the 2015-2016 season?',
             'a' => 'Riyad Mahrez',
             'b' => 'Islam Slimani',
             'c' => 'Yacine Brahimi',
@@ -1518,8 +1395,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which African country hosted the 2010 FIFA World Cup, the first on the continent?',
+                        'question' => 'Which African country hosted the 2010 FIFA World Cup, the first on the continent?',
             'a' => 'South Africa',
             'b' => 'Nigeria',
             'c' => 'Egypt',
@@ -1530,8 +1406,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Kenyan footballer was the first to play in the English Premier League?',
+                        'question' => 'Which Kenyan footballer was the first to play in the English Premier League?',
             'a' => 'Victor Wanyama',
             'b' => 'McDonald Mariga',
             'c' => 'Dennis Oliech',
@@ -1542,8 +1417,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Ghanaian football club has the nickname "Phobia"?',
+                        'question' => 'Which Ghanaian football club has the nickname "Phobia"?',
             'a' => 'Hearts of Oak',
             'b' => 'Asante Kotoko',
             'c' => 'Aduana Stars',
@@ -1554,8 +1428,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which South African player became famous for his performances at the 1998 FIFA World Cup?',
+                        'question' => 'Which South African player became famous for his performances at the 1998 FIFA World Cup?',
             'a' => 'Benni McCarthy',
             'b' => 'Lucas Radebe',
             'c' => 'Mark Fish',
@@ -1566,8 +1439,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Nigerian footballer was named BBC African Footballer of the Year in 2005?',
+                        'question' => 'Which Nigerian footballer was named BBC African Footballer of the Year in 2005?',
             'a' => 'Jay-Jay Okocha',
             'b' => 'Nwankwo Kanu',
             'c' => 'Obafemi Martins',
@@ -1578,8 +1450,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 89,
-            'question' => 'Which Cameroonian player famously danced at the corner flag after scoring in the 1990 FIFA World Cup?',
+                        'question' => 'Which Cameroonian player famously danced at the corner flag after scoring in the 1990 FIFA World Cup?',
             'a' => 'Roger Milla',
             'b' => 'Samuel Eto’o',
             'c' => 'Patrick Mboma',
@@ -1592,8 +1463,7 @@ class Sport17 extends Seeder
         // Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team holds the record for the most championships?',
+                        'question' => 'Which NBA team holds the record for the most championships?',
             'a' => 'Los Angeles Lakers',
             'b' => 'Chicago Bulls',
             'c' => 'Boston Celtics',
@@ -1604,8 +1474,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the NBA’s all-time leading scorer?',
+                        'question' => 'Who is the NBA’s all-time leading scorer?',
             'a' => 'Kareem Abdul-Jabbar',
             'b' => 'LeBron James',
             'c' => 'Michael Jordan',
@@ -1616,8 +1485,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player is known as "The King" in the NBA?',
+                        'question' => 'Which player is known as "The King" in the NBA?',
             'a' => 'Kevin Durant',
             'b' => 'Kobe Bryant',
             'c' => 'LeBron James',
@@ -1628,8 +1496,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player is famous for the "Sky Hook" shot?',
+                        'question' => 'Which NBA player is famous for the "Sky Hook" shot?',
             'a' => 'Bill Russell',
             'b' => 'Magic Johnson',
             'c' => 'Wilt Chamberlain',
@@ -1640,8 +1507,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the NBA Championship in 2019?',
+                        'question' => 'Which team won the NBA Championship in 2019?',
             'a' => 'Toronto Raptors',
             'b' => 'Golden State Warriors',
             'c' => 'Milwaukee Bucks',
@@ -1652,8 +1518,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player has the most NBA MVP awards?',
+                        'question' => 'Which player has the most NBA MVP awards?',
             'a' => 'Michael Jordan',
             'b' => 'LeBron James',
             'c' => 'Kareem Abdul-Jabbar',
@@ -1664,8 +1529,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first overall pick in the 2003 NBA Draft?',
+                        'question' => 'Who was the first overall pick in the 2003 NBA Draft?',
             'a' => 'Chris Bosh',
             'b' => 'Carmelo Anthony',
             'c' => 'LeBron James',
@@ -1676,8 +1540,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player won the NBA Defensive Player of the Year award three times in the 1990s?',
+                        'question' => 'Which player won the NBA Defensive Player of the Year award three times in the 1990s?',
             'a' => 'Dennis Rodman',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Dikembe Mutombo',
@@ -1688,8 +1551,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was nicknamed "The Big Fundamental"?',
+                        'question' => 'Which NBA player was nicknamed "The Big Fundamental"?',
             'a' => 'Tim Duncan',
             'b' => "Shaquille O’Neal",
             'c' => 'Kevin Garnett',
@@ -1700,8 +1562,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Michael Jordan play for after coming out of retirement in 2001?',
+                        'question' => 'Which NBA team did Michael Jordan play for after coming out of retirement in 2001?',
             'a' => 'Chicago Bulls',
             'b' => 'Washington Wizards',
             'c' => 'Miami Heat',
@@ -1714,8 +1575,7 @@ class Sport17 extends Seeder
         // More Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player is known for his signature move, "The Dream Shake"?',
+                        'question' => 'Which NBA player is known for his signature move, "The Dream Shake"?',
             'a' => 'Patrick Ewing',
             'b' => 'Shaquille O’Neal',
             'c' => 'Hakeem Olajuwon',
@@ -1726,8 +1586,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player won the NBA Slam Dunk Contest in 2000 with a between-the-legs dunk?',
+                        'question' => 'Which player won the NBA Slam Dunk Contest in 2000 with a between-the-legs dunk?',
             'a' => 'Tracy McGrady',
             'b' => 'Kobe Bryant',
             'c' => 'Vince Carter',
@@ -1738,8 +1597,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA coach has won the most championships?',
+                        'question' => 'Which NBA coach has won the most championships?',
             'a' => 'Phil Jackson',
             'b' => 'Gregg Popovich',
             'c' => 'Pat Riley',
@@ -1750,8 +1608,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was famously known as "The Mailman"?',
+                        'question' => 'Which NBA player was famously known as "The Mailman"?',
             'a' => 'Charles Barkley',
             'b' => 'Karl Malone',
             'c' => 'John Stockton',
@@ -1762,8 +1619,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Steve Nash play for when he won his two MVP awards?',
+                        'question' => 'Which NBA team did Steve Nash play for when he won his two MVP awards?',
             'a' => 'Los Angeles Lakers',
             'b' => 'Phoenix Suns',
             'c' => 'Dallas Mavericks',
@@ -1774,8 +1630,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team drafted Dirk Nowitzki in 1998 before trading him to the Dallas Mavericks?',
+                        'question' => 'Which NBA team drafted Dirk Nowitzki in 1998 before trading him to the Dallas Mavericks?',
             'a' => 'Milwaukee Bucks',
             'b' => 'Boston Celtics',
             'c' => 'Golden State Warriors',
@@ -1786,8 +1641,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the first NBA championship in 1947?',
+                        'question' => 'Which team won the first NBA championship in 1947?',
             'a' => 'Philadelphia Warriors',
             'b' => 'Chicago Stags',
             'c' => 'New York Knicks',
@@ -1798,8 +1652,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player is the NBA’s all-time leader in assists?',
+                        'question' => 'Which player is the NBA’s all-time leader in assists?',
             'a' => 'Magic Johnson',
             'b' => 'Steve Nash',
             'c' => 'John Stockton',
@@ -1810,8 +1663,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was nicknamed "The Answer"?',
+                        'question' => 'Which NBA player was nicknamed "The Answer"?',
             'a' => 'Allen Iverson',
             'b' => 'Chris Paul',
             'c' => 'Derrick Rose',
@@ -1822,8 +1674,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the gold medal in men’s basketball at the 1992 Barcelona Olympics?',
+                        'question' => 'Which team won the gold medal in men’s basketball at the 1992 Barcelona Olympics?',
             'a' => 'Spain',
             'b' => 'USA',
             'c' => 'Argentina',
@@ -1836,8 +1687,7 @@ class Sport17 extends Seeder
         // More Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player scored 81 points in a single game in 2006?',
+                        'question' => 'Which NBA player scored 81 points in a single game in 2006?',
             'a' => 'Kobe Bryant',
             'b' => 'Michael Jordan',
             'c' => 'LeBron James',
@@ -1848,8 +1698,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who holds the record for the most three-pointers made in an NBA season?',
+                        'question' => 'Who holds the record for the most three-pointers made in an NBA season?',
             'a' => 'Klay Thompson',
             'b' => 'James Harden',
             'c' => 'Ray Allen',
@@ -1860,8 +1709,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player is known for the "Sky Hook" shot?',
+                        'question' => 'Which NBA player is known for the "Sky Hook" shot?',
             'a' => 'Wilt Chamberlain',
             'b' => 'Kareem Abdul-Jabbar',
             'c' => 'Tim Duncan',
@@ -1872,8 +1720,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player won the MVP award in 2017?',
+                        'question' => 'Which NBA player won the MVP award in 2017?',
             'a' => 'Russell Westbrook',
             'b' => 'Kevin Durant',
             'c' => 'Giannis Antetokounmpo',
@@ -1884,8 +1731,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team won the most championships in the 1990s?',
+                        'question' => 'Which NBA team won the most championships in the 1990s?',
             'a' => 'Houston Rockets',
             'b' => 'Chicago Bulls',
             'c' => 'San Antonio Spurs',
@@ -1896,8 +1742,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first player to be drafted directly from high school to the NBA?',
+                        'question' => 'Who was the first player to be drafted directly from high school to the NBA?',
             'a' => 'Kobe Bryant',
             'b' => 'Kevin Garnett',
             'c' => 'LeBron James',
@@ -1908,8 +1753,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team holds the record for the longest winning streak?',
+                        'question' => 'Which NBA team holds the record for the longest winning streak?',
             'a' => 'Golden State Warriors',
             'b' => 'Los Angeles Lakers',
             'c' => 'Miami Heat',
@@ -1920,8 +1764,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player has the most career blocks?',
+                        'question' => 'Which NBA player has the most career blocks?',
             'a' => 'Tim Duncan',
             'b' => 'Dikembe Mutombo',
             'c' => 'Hakeem Olajuwon',
@@ -1932,8 +1775,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team won the 2020 NBA Championship?',
+                        'question' => 'Which NBA team won the 2020 NBA Championship?',
             'a' => 'Miami Heat',
             'b' => 'Los Angeles Lakers',
             'c' => 'Toronto Raptors',
@@ -1944,8 +1786,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was known as "The Glove"?',
+                        'question' => 'Which NBA player was known as "The Glove"?',
             'a' => 'Jason Kidd',
             'b' => 'Gary Payton',
             'c' => 'Allen Iverson',
@@ -1959,8 +1800,7 @@ class Sport17 extends Seeder
         // More Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first overall pick in the 2003 NBA Draft?',
+                        'question' => 'Who was the first overall pick in the 2003 NBA Draft?',
             'a' => 'Dwyane Wade',
             'b' => 'LeBron James',
             'c' => 'Carmelo Anthony',
@@ -1971,8 +1811,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player won the NBA Slam Dunk Contest in 2000?',
+                        'question' => 'Which player won the NBA Slam Dunk Contest in 2000?',
             'a' => 'Vince Carter',
             'b' => 'Kobe Bryant',
             'c' => 'Michael Jordan',
@@ -1983,8 +1822,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Michael Jordan play for when he returned from his first retirement?',
+                        'question' => 'Which NBA team did Michael Jordan play for when he returned from his first retirement?',
             'a' => 'Washington Wizards',
             'b' => 'Los Angeles Lakers',
             'c' => 'Chicago Bulls',
@@ -1995,8 +1833,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first non-American player to win the NBA MVP award?',
+                        'question' => 'Who was the first non-American player to win the NBA MVP award?',
             'a' => 'Dirk Nowitzki',
             'b' => 'Steve Nash',
             'c' => 'Giannis Antetokounmpo',
@@ -2007,8 +1844,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was known as "The Big Fundamental"?',
+                        'question' => 'Which NBA player was known as "The Big Fundamental"?',
             'a' => 'Kevin Garnett',
             'b' => 'Shaquille O’Neal',
             'c' => 'Tim Duncan',
@@ -2019,8 +1855,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the NBA Finals in 2019?',
+                        'question' => 'Which team won the NBA Finals in 2019?',
             'a' => 'Toronto Raptors',
             'b' => 'Golden State Warriors',
             'c' => 'Milwaukee Bucks',
@@ -2031,8 +1866,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first NBA player to record a quadruple-double?',
+                        'question' => 'Who was the first NBA player to record a quadruple-double?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'David Robinson',
             'c' => 'Nate Thurmond',
@@ -2043,8 +1877,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player holds the record for the most career assists in the NBA?',
+                        'question' => 'Which player holds the record for the most career assists in the NBA?',
             'a' => 'Jason Kidd',
             'b' => 'Magic Johnson',
             'c' => 'Steve Nash',
@@ -2055,8 +1888,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team has the most NBA championships?',
+                        'question' => 'Which NBA team has the most NBA championships?',
             'a' => 'Boston Celtics',
             'b' => 'Los Angeles Lakers',
             'c' => 'Golden State Warriors',
@@ -2067,8 +1899,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was nicknamed "The Answer"?',
+                        'question' => 'Which NBA player was nicknamed "The Answer"?',
             'a' => 'Kobe Bryant',
             'b' => 'Allen Iverson',
             'c' => 'Dwyane Wade',
@@ -2081,8 +1912,7 @@ class Sport17 extends Seeder
         // More Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player won the NBA Rookie of the Year award in 2018?',
+                        'question' => 'Which player won the NBA Rookie of the Year award in 2018?',
             'a' => 'Ben Simmons',
             'b' => 'Jayson Tatum',
             'c' => 'Donovan Mitchell',
@@ -2093,8 +1923,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first NBA player to score 100 points in a single game?',
+                        'question' => 'Who was the first NBA player to score 100 points in a single game?',
             'a' => 'Wilt Chamberlain',
             'b' => 'Kareem Abdul-Jabbar',
             'c' => 'Michael Jordan',
@@ -2105,8 +1934,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the NBA championship in 2020?',
+                        'question' => 'Which team won the NBA championship in 2020?',
             'a' => 'Miami Heat',
             'b' => 'Golden State Warriors',
             'c' => 'Los Angeles Lakers',
@@ -2117,8 +1945,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player has won the most NBA Finals MVP awards?',
+                        'question' => 'Which player has won the most NBA Finals MVP awards?',
             'a' => 'Magic Johnson',
             'b' => 'Shaquille O’Neal',
             'c' => 'Michael Jordan',
@@ -2129,8 +1956,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was known for his signature "Sky Hook" shot?',
+                        'question' => 'Which NBA player was known for his signature "Sky Hook" shot?',
             'a' => 'Wilt Chamberlain',
             'b' => 'Kareem Abdul-Jabbar',
             'c' => 'Bill Russell',
@@ -2141,8 +1967,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first player in NBA history to be unanimously voted MVP?',
+                        'question' => 'Who was the first player in NBA history to be unanimously voted MVP?',
             'a' => 'Michael Jordan',
             'b' => 'LeBron James',
             'c' => 'Stephen Curry',
@@ -2153,8 +1978,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Kevin Durant join in 2016?',
+                        'question' => 'Which NBA team did Kevin Durant join in 2016?',
             'a' => 'Brooklyn Nets',
             'b' => 'Golden State Warriors',
             'c' => 'Oklahoma City Thunder',
@@ -2165,8 +1989,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player was known as "The Glove" for his defensive abilities?',
+                        'question' => 'Which player was known as "The Glove" for his defensive abilities?',
             'a' => 'Gary Payton',
             'b' => 'Dennis Rodman',
             'c' => 'Ron Artest',
@@ -2177,8 +2000,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first player in NBA history to be drafted directly out of high school?',
+                        'question' => 'Who was the first player in NBA history to be drafted directly out of high school?',
             'a' => 'Kevin Garnett',
             'b' => 'LeBron James',
             'c' => 'Kobe Bryant',
@@ -2189,8 +2011,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team did the "Bad Boys" era Pistons defeat to win their first NBA championship?',
+                        'question' => 'Which team did the "Bad Boys" era Pistons defeat to win their first NBA championship?',
             'a' => 'Los Angeles Lakers',
             'b' => 'Boston Celtics',
             'c' => 'Chicago Bulls',
@@ -2204,8 +2025,7 @@ class Sport17 extends Seeder
         // More Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which country has won the most FIBA Basketball World Cup titles?',
+                        'question' => 'Which country has won the most FIBA Basketball World Cup titles?',
             'a' => 'United States',
             'b' => 'Yugoslavia',
             'c' => 'Soviet Union',
@@ -2216,8 +2036,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player set the record for most points scored in a single NBA playoff game?',
+                        'question' => 'Which player set the record for most points scored in a single NBA playoff game?',
             'a' => 'Michael Jordan',
             'b' => 'Elgin Baylor',
             'c' => 'Donovan Mitchell',
@@ -2228,8 +2047,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team did Dirk Nowitzki play for during his entire NBA career?',
+                        'question' => 'Which team did Dirk Nowitzki play for during his entire NBA career?',
             'a' => 'Miami Heat',
             'b' => 'Dallas Mavericks',
             'c' => 'San Antonio Spurs',
@@ -2240,8 +2058,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team drafted Kobe Bryant in 1996 before trading him to the Lakers?',
+                        'question' => 'Which NBA team drafted Kobe Bryant in 1996 before trading him to the Lakers?',
             'a' => 'Charlotte Hornets',
             'b' => 'Philadelphia 76ers',
             'c' => 'Chicago Bulls',
@@ -2252,8 +2069,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who holds the NBA record for most career assists?',
+                        'question' => 'Who holds the NBA record for most career assists?',
             'a' => 'Magic Johnson',
             'b' => 'John Stockton',
             'c' => 'Jason Kidd',
@@ -2264,8 +2080,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player was known for his trademark headband and nickname "The Truth"?',
+                        'question' => 'Which player was known for his trademark headband and nickname "The Truth"?',
             'a' => 'Paul Pierce',
             'b' => 'Dwyane Wade',
             'c' => 'Ray Allen',
@@ -2276,8 +2091,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player was drafted first overall in the 2003 NBA Draft?',
+                        'question' => 'Which player was drafted first overall in the 2003 NBA Draft?',
             'a' => 'LeBron James',
             'b' => 'Carmelo Anthony',
             'c' => 'Dwyane Wade',
@@ -2288,8 +2102,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which coach has won the most NBA championships?',
+                        'question' => 'Which coach has won the most NBA championships?',
             'a' => 'Phil Jackson',
             'b' => 'Pat Riley',
             'c' => 'Red Auerbach',
@@ -2300,8 +2113,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was nicknamed "The Mailman"?',
+                        'question' => 'Which NBA player was nicknamed "The Mailman"?',
             'a' => 'Shaquille O’Neal',
             'b' => 'Karl Malone',
             'c' => 'Charles Barkley',
@@ -2312,8 +2124,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team was known for their "Showtime" fast-break style in the 1980s?',
+                        'question' => 'Which NBA team was known for their "Showtime" fast-break style in the 1980s?',
             'a' => 'Boston Celtics',
             'b' => 'Chicago Bulls',
             'c' => 'Los Angeles Lakers',
@@ -2327,8 +2138,7 @@ class Sport17 extends Seeder
         // Additional Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the all-time leading scorer in the history of the NBA?',
+                        'question' => 'Who is the all-time leading scorer in the history of the NBA?',
             'a' => 'Kareem Abdul-Jabbar',
             'b' => 'LeBron James',
             'c' => 'Michael Jordan',
@@ -2339,8 +2149,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA player was known as "The Black Mamba"?',
+                        'question' => 'Which NBA player was known as "The Black Mamba"?',
             'a' => 'Allen Iverson',
             'b' => 'Kobe Bryant',
             'c' => 'Dwyane Wade',
@@ -2351,8 +2160,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team did Shaquille O’Neal win his first NBA championship with?',
+                        'question' => 'Which team did Shaquille O’Neal win his first NBA championship with?',
             'a' => 'Miami Heat',
             'b' => 'Los Angeles Lakers',
             'c' => 'Orlando Magic',
@@ -2363,8 +2171,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the only player to have won NBA MVP, Finals MVP, and an Olympic Gold Medal in the same year?',
+                        'question' => 'Who is the only player to have won NBA MVP, Finals MVP, and an Olympic Gold Medal in the same year?',
             'a' => 'LeBron James',
             'b' => 'Michael Jordan',
             'c' => 'Shaquille O’Neal',
@@ -2375,8 +2182,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player won the NBA’s Defensive Player of the Year award four times?',
+                        'question' => 'Which player won the NBA’s Defensive Player of the Year award four times?',
             'a' => 'Dikembe Mutombo',
             'b' => 'Ben Wallace',
             'c' => 'Dwight Howard',
@@ -2387,8 +2193,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team drafted Tim Duncan as the first overall pick in the 1997 NBA Draft?',
+                        'question' => 'Which team drafted Tim Duncan as the first overall pick in the 1997 NBA Draft?',
             'a' => 'Boston Celtics',
             'b' => 'San Antonio Spurs',
             'c' => 'Charlotte Hornets',
@@ -2399,8 +2204,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team did Michael Jordan return to play for in 2001 after his second retirement?',
+                        'question' => 'Which team did Michael Jordan return to play for in 2001 after his second retirement?',
             'a' => 'Chicago Bulls',
             'b' => 'Washington Wizards',
             'c' => 'Miami Heat',
@@ -2411,8 +2215,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which player holds the record for the most points in a single NBA game?',
+                        'question' => 'Which player holds the record for the most points in a single NBA game?',
             'a' => 'Wilt Chamberlain',
             'b' => 'Kobe Bryant',
             'c' => 'Michael Jordan',
@@ -2423,8 +2226,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which team won the NBA Championship in 2019?',
+                        'question' => 'Which team won the NBA Championship in 2019?',
             'a' => 'Golden State Warriors',
             'b' => 'Toronto Raptors',
             'c' => 'Los Angeles Lakers',
@@ -2435,8 +2237,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first African-born player to be drafted as the number one overall pick in the NBA Draft?',
+                        'question' => 'Who was the first African-born player to be drafted as the number one overall pick in the NBA Draft?',
             'a' => 'Manute Bol',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Dikembe Mutombo',
@@ -2450,8 +2251,7 @@ class Sport17 extends Seeder
         // Additional African Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country hosted the first-ever NBA game in Africa?',
+                        'question' => 'Which African country hosted the first-ever NBA game in Africa?',
             'a' => 'Nigeria',
             'b' => 'South Africa',
             'c' => 'Senegal',
@@ -2462,8 +2262,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player was the first African to be drafted into the NBA?',
+                        'question' => 'Which Nigerian player was the first African to be drafted into the NBA?',
             'a' => 'Olumide Oyedeji',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Michael Olowokandi',
@@ -2474,8 +2273,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the first African-born player to be inducted into the Basketball Hall of Fame?',
+                        'question' => 'Who is the first African-born player to be inducted into the Basketball Hall of Fame?',
             'a' => 'Manute Bol',
             'b' => 'Serge Ibaka',
             'c' => 'Hakeem Olajuwon',
@@ -2486,8 +2284,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which country does NBA player Serge Ibaka represent in international competitions?',
+                        'question' => 'Which country does NBA player Serge Ibaka represent in international competitions?',
             'a' => 'Democratic Republic of the Congo',
             'b' => 'Spain',
             'c' => 'Cameroon',
@@ -2498,8 +2295,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country is home to the Basketball Africa League (BAL) headquarters?',
+                        'question' => 'Which African country is home to the Basketball Africa League (BAL) headquarters?',
             'a' => 'Egypt',
             'b' => 'South Africa',
             'c' => 'Rwanda',
@@ -2510,8 +2306,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the first African player to win an NBA Championship?',
+                        'question' => 'Who is the first African player to win an NBA Championship?',
             'a' => 'Pascal Siakam',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Joel Embiid',
@@ -2522,8 +2317,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African-born NBA player has the most career blocks?',
+                        'question' => 'Which African-born NBA player has the most career blocks?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'Dikembe Mutombo',
             'c' => 'Manute Bol',
@@ -2534,8 +2328,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which former NBA player from Sudan was known for his remarkable shot-blocking ability?',
+                        'question' => 'Which former NBA player from Sudan was known for his remarkable shot-blocking ability?',
             'a' => 'Michael Olowokandi',
             'b' => 'Dikembe Mutombo',
             'c' => 'Manute Bol',
@@ -2546,8 +2339,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country has produced the most NBA players?',
+                        'question' => 'Which African country has produced the most NBA players?',
             'a' => 'Nigeria',
             'b' => 'Senegal',
             'c' => 'Cameroon',
@@ -2558,8 +2350,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country won the FIBA AfroBasket Championship the most times?',
+                        'question' => 'Which African country won the FIBA AfroBasket Championship the most times?',
             'a' => 'Tunisia',
             'b' => 'Angola',
             'c' => 'Nigeria',
@@ -2573,8 +2364,7 @@ class Sport17 extends Seeder
         // Additional African Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first African-born player to be selected as an NBA All-Star?',
+                        'question' => 'Who was the first African-born player to be selected as an NBA All-Star?',
             'a' => 'Manute Bol',
             'b' => 'Dikembe Mutombo',
             'c' => 'Hakeem Olajuwon',
@@ -2585,8 +2375,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African player won the NBA’s Most Improved Player Award in 2019?',
+                        'question' => 'Which African player won the NBA’s Most Improved Player Award in 2019?',
             'a' => 'Joel Embiid',
             'b' => 'Pascal Siakam',
             'c' => 'Serge Ibaka',
@@ -2597,8 +2386,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African nation has the highest number of FIBA AfroBasket titles?',
+                        'question' => 'Which African nation has the highest number of FIBA AfroBasket titles?',
             'a' => 'Nigeria',
             'b' => 'Tunisia',
             'c' => 'Senegal',
@@ -2609,8 +2397,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player was the first to be named NBA Rookie of the Year?',
+                        'question' => 'Which Nigerian player was the first to be named NBA Rookie of the Year?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'Michael Olowokandi',
             'c' => 'Gani Lawal',
@@ -2621,8 +2408,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who was the first African-born head coach in NBA history?',
+                        'question' => 'Who was the first African-born head coach in NBA history?',
             'a' => 'Patrick Ewing',
             'b' => 'Mike Brown',
             'c' => 'Ime Udoka',
@@ -2633,8 +2419,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which former NBA star from Sudan played for the Golden State Warriors?',
+                        'question' => 'Which former NBA star from Sudan played for the Golden State Warriors?',
             'a' => 'Manute Bol',
             'b' => 'Dikembe Mutombo',
             'c' => 'Joel Embiid',
@@ -2645,8 +2430,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country won the 2015 FIBA AfroBasket Championship?',
+                        'question' => 'Which African country won the 2015 FIBA AfroBasket Championship?',
             'a' => 'Senegal',
             'b' => 'Tunisia',
             'c' => 'Nigeria',
@@ -2657,8 +2441,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player has been nicknamed "The Greek Freak" due to his extraordinary basketball skills?',
+                        'question' => 'Which Nigerian player has been nicknamed "The Greek Freak" due to his extraordinary basketball skills?',
             'a' => 'Giannis Antetokounmpo',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Pascal Siakam',
@@ -2669,8 +2452,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country’s basketball team is known as "D’Tigers"?',
+                        'question' => 'Which African country’s basketball team is known as "D’Tigers"?',
             'a' => 'Senegal',
             'b' => 'Cameroon',
             'c' => 'Nigeria',
@@ -2681,8 +2463,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Hakeem Olajuwon play for when he won his two championships?',
+                        'question' => 'Which NBA team did Hakeem Olajuwon play for when he won his two championships?',
             'a' => 'Los Angeles Lakers',
             'b' => 'Miami Heat',
             'c' => 'Houston Rockets',
@@ -2695,8 +2476,7 @@ class Sport17 extends Seeder
         // Additional African Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African player won the NBA Defensive Player of the Year award four times?',
+                        'question' => 'Which African player won the NBA Defensive Player of the Year award four times?',
             'a' => 'Serge Ibaka',
             'b' => 'Hakeem Olajuwon',
             'c' => 'Dikembe Mutombo',
@@ -2707,8 +2487,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which country does NBA player Pascal Siakam represent in international basketball?',
+                        'question' => 'Which country does NBA player Pascal Siakam represent in international basketball?',
             'a' => 'Cameroon',
             'b' => 'Nigeria',
             'c' => 'Angola',
@@ -2719,8 +2498,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African-born player was drafted first overall in the 1998 NBA Draft?',
+                        'question' => 'Which African-born player was drafted first overall in the 1998 NBA Draft?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'Michael Olowokandi',
             'c' => 'Joel Embiid',
@@ -2731,8 +2509,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African nation hosted the inaugural Basketball Africa League (BAL) season?',
+                        'question' => 'Which African nation hosted the inaugural Basketball Africa League (BAL) season?',
             'a' => 'Rwanda',
             'b' => 'Nigeria',
             'c' => 'South Africa',
@@ -2743,8 +2520,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Who is the highest-scoring African-born player in NBA history?',
+                        'question' => 'Who is the highest-scoring African-born player in NBA history?',
             'a' => 'Manute Bol',
             'b' => 'Joel Embiid',
             'c' => 'Hakeem Olajuwon',
@@ -2755,8 +2531,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African player is known for his "finger wag" after blocking shots?',
+                        'question' => 'Which African player is known for his "finger wag" after blocking shots?',
             'a' => 'Manute Bol',
             'b' => 'Serge Ibaka',
             'c' => 'Dikembe Mutombo',
@@ -2767,8 +2542,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Joel Embiid join after being drafted?',
+                        'question' => 'Which NBA team did Joel Embiid join after being drafted?',
             'a' => 'Los Angeles Lakers',
             'b' => 'Philadelphia 76ers',
             'c' => 'Toronto Raptors',
@@ -2779,8 +2553,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African country won the FIBA AfroBasket Championship in 2017?',
+                        'question' => 'Which African country won the FIBA AfroBasket Championship in 2017?',
             'a' => 'Angola',
             'b' => 'Tunisia',
             'c' => 'Senegal',
@@ -2791,8 +2564,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which African player is known for popularizing the phrase "NBA Africa" during his career?',
+                        'question' => 'Which African player is known for popularizing the phrase "NBA Africa" during his career?',
             'a' => 'Pascal Siakam',
             'b' => 'Dikembe Mutombo',
             'c' => 'Hakeem Olajuwon',
@@ -2803,8 +2575,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which country does Serge Ibaka, known for his defensive prowess, originally hail from?',
+                        'question' => 'Which country does Serge Ibaka, known for his defensive prowess, originally hail from?',
             'a' => 'Congo',
             'b' => 'Nigeria',
             'c' => 'Cameroon',
@@ -2817,8 +2588,7 @@ class Sport17 extends Seeder
         // Nigerian Basketball Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian basketball player became the first to be drafted in the NBA?',
+                        'question' => 'Which Nigerian basketball player became the first to be drafted in the NBA?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'Obinna Ekezie',
             'c' => 'Ike Diogu',
@@ -2829,8 +2599,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian-American basketball player won the NBA MVP award in 1994?',
+                        'question' => 'Which Nigerian-American basketball player won the NBA MVP award in 1994?',
             'a' => 'Victor Oladipo',
             'b' => 'Al-Farouq Aminu',
             'c' => 'Hakeem Olajuwon',
@@ -2841,8 +2610,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian city is known as the home of the Nigerian national basketball team?',
+                        'question' => 'Which Nigerian city is known as the home of the Nigerian national basketball team?',
             'a' => 'Lagos',
             'b' => 'Abuja',
             'c' => 'Port Harcourt',
@@ -2853,8 +2621,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which NBA team did Nigerian-born player Festus Ezeli win a championship with?',
+                        'question' => 'Which NBA team did Nigerian-born player Festus Ezeli win a championship with?',
             'a' => 'Cleveland Cavaliers',
             'b' => 'Golden State Warriors',
             'c' => 'San Antonio Spurs',
@@ -2865,8 +2632,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player is known for his powerful dunking ability and played for the Portland Trail Blazers?',
+                        'question' => 'Which Nigerian player is known for his powerful dunking ability and played for the Portland Trail Blazers?',
             'a' => 'Obinna Ekezie',
             'b' => 'Al-Farouq Aminu',
             'c' => 'Josh Okogie',
@@ -2877,8 +2643,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'In which year did Nigeria\'s national basketball team, D’Tigers, win its first Afrobasket championship?',
+                        'question' => 'In which year did Nigeria\'s national basketball team, D’Tigers, win its first Afrobasket championship?',
             'a' => '2015',
             'b' => '2009',
             'c' => '2011',
@@ -2889,8 +2654,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian basketball player is nicknamed "The Nigerian Nightmare"?',
+                        'question' => 'Which Nigerian basketball player is nicknamed "The Nigerian Nightmare"?',
             'a' => 'Hakeem Olajuwon',
             'b' => 'Michael Olowokandi',
             'c' => 'Obinna Ekezie',
@@ -2901,8 +2665,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player was selected by the Milwaukee Bucks in the first round of the 2018 NBA Draft?',
+                        'question' => 'Which Nigerian player was selected by the Milwaukee Bucks in the first round of the 2018 NBA Draft?',
             'a' => 'Josh Okogie',
             'b' => 'Chimezie Metu',
             'c' => 'Gabe Vincent',
@@ -2913,8 +2676,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian player is known for his college basketball career at Florida State and was later drafted by the Minnesota Timberwolves?',
+                        'question' => 'Which Nigerian player is known for his college basketball career at Florida State and was later drafted by the Minnesota Timberwolves?',
             'a' => 'Precious Achiuwa',
             'b' => 'Josh Okogie',
             'c' => 'Udoka Azubuike',
@@ -2925,8 +2687,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 90,
-            'question' => 'Which Nigerian-born NBA player is also known for his contribution to the Miami Heat\'s success in the 2023 playoffs?',
+                        'question' => 'Which Nigerian-born NBA player is also known for his contribution to the Miami Heat\'s success in the 2023 playoffs?',
             'a' => 'Gabe Vincent',
             'b' => 'Bam Adebayo',
             'c' => 'Victor Oladipo',
@@ -2940,8 +2701,7 @@ class Sport17 extends Seeder
         // Tennis Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player holds the record for the most Grand Slam titles in men\'s singles?',
+                        'question' => 'Which tennis player holds the record for the most Grand Slam titles in men\'s singles?',
             'a' => 'Roger Federer',
             'b' => 'Rafael Nadal',
             'c' => 'Novak Djokovic',
@@ -2952,8 +2712,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first African-American woman to win a Grand Slam title?',
+                        'question' => 'Who is the first African-American woman to win a Grand Slam title?',
             'a' => 'Serena Williams',
             'b' => 'Althea Gibson',
             'c' => 'Venus Williams',
@@ -2964,8 +2723,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tournament is often referred to as the "Mecca of Tennis"?',
+                        'question' => 'Which tournament is often referred to as the "Mecca of Tennis"?',
             'a' => 'Australian Open',
             'b' => 'US Open',
             'c' => 'Wimbledon',
@@ -2976,8 +2734,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who won the "Golden Slam" in 1988 by winning all four Grand Slams and the Olympic gold medal in the same year?',
+                        'question' => 'Who won the "Golden Slam" in 1988 by winning all four Grand Slams and the Olympic gold medal in the same year?',
             'a' => 'Steffi Graf',
             'b' => 'Martina Navratilova',
             'c' => 'Monica Seles',
@@ -2988,8 +2745,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which surface is the French Open played on?',
+                        'question' => 'Which surface is the French Open played on?',
             'a' => 'Grass',
             'b' => 'Clay',
             'c' => 'Hard',
@@ -3000,8 +2756,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the youngest player to ever win a Grand Slam singles title in the Open Era?',
+                        'question' => 'Who is the youngest player to ever win a Grand Slam singles title in the Open Era?',
             'a' => 'Steffi Graf',
             'b' => 'Martina Hingis',
             'c' => 'Maria Sharapova',
@@ -3012,8 +2767,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is known as the "King of Clay"?',
+                        'question' => 'Which tennis player is known as the "King of Clay"?',
             'a' => 'Björn Borg',
             'b' => 'Ivan Lendl',
             'c' => 'Rafael Nadal',
@@ -3024,8 +2778,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which country has won the most Davis Cup titles?',
+                        'question' => 'Which country has won the most Davis Cup titles?',
             'a' => 'Australia',
             'b' => 'United States',
             'c' => 'France',
@@ -3036,8 +2789,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'What is the term for winning all four Grand Slam tournaments in a calendar year?',
+                        'question' => 'What is the term for winning all four Grand Slam tournaments in a calendar year?',
             'a' => 'Career Slam',
             'b' => 'Golden Slam',
             'c' => 'Calendar Slam',
@@ -3048,8 +2800,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player was known for his aggressive serve-and-volley style and won Wimbledon three times?',
+                        'question' => 'Which tennis player was known for his aggressive serve-and-volley style and won Wimbledon three times?',
             'a' => 'Pete Sampras',
             'b' => 'Boris Becker',
             'c' => 'John McEnroe',
@@ -3062,8 +2813,7 @@ class Sport17 extends Seeder
         // More Tennis Questions
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who holds the record for the most consecutive weeks as World No. 1 in the ATP rankings?',
+                        'question' => 'Who holds the record for the most consecutive weeks as World No. 1 in the ATP rankings?',
             'a' => 'Pete Sampras',
             'b' => 'Roger Federer',
             'c' => 'Rafael Nadal',
@@ -3074,8 +2824,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player has won the most Grand Slam singles titles in the Open Era?',
+                        'question' => 'Which female tennis player has won the most Grand Slam singles titles in the Open Era?',
             'a' => 'Martina Navratilova',
             'b' => 'Steffi Graf',
             'c' => 'Serena Williams',
@@ -3086,8 +2835,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which country has produced the most men\'s singles Grand Slam champions?',
+                        'question' => 'Which country has produced the most men\'s singles Grand Slam champions?',
             'a' => 'United States',
             'b' => 'Australia',
             'c' => 'Sweden',
@@ -3098,8 +2846,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who won the men\'s singles title at Wimbledon in 2021?',
+                        'question' => 'Who won the men\'s singles title at Wimbledon in 2021?',
             'a' => 'Novak Djokovic',
             'b' => 'Roger Federer',
             'c' => 'Daniil Medvedev',
@@ -3110,8 +2857,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is famous for the "You cannot be serious!" outburst?',
+                        'question' => 'Which tennis player is famous for the "You cannot be serious!" outburst?',
             'a' => 'John McEnroe',
             'b' => 'Andre Agassi',
             'c' => 'Jimmy Connors',
@@ -3122,8 +2868,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Grand Slam tournament is played on grass courts?',
+                        'question' => 'Which Grand Slam tournament is played on grass courts?',
             'a' => 'Australian Open',
             'b' => 'Wimbledon',
             'c' => 'US Open',
@@ -3134,8 +2879,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is known for his rivalry with Björn Borg?',
+                        'question' => 'Which tennis player is known for his rivalry with Björn Borg?',
             'a' => 'Ivan Lendl',
             'b' => 'John McEnroe',
             'c' => 'Jimmy Connors',
@@ -3146,8 +2890,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player was known for her two-handed backhand and won nine Grand Slam titles?',
+                        'question' => 'Which female tennis player was known for her two-handed backhand and won nine Grand Slam titles?',
             'a' => 'Monica Seles',
             'b' => 'Martina Hingis',
             'c' => 'Arantxa Sánchez Vicario',
@@ -3158,8 +2901,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who won the women\'s singles title at the Australian Open in 2020?',
+                        'question' => 'Who won the women\'s singles title at the Australian Open in 2020?',
             'a' => 'Naomi Osaka',
             'b' => 'Ashleigh Barty',
             'c' => 'Simona Halep',
@@ -3170,8 +2912,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player won the most Grand Slam titles in the 1970s?',
+                        'question' => 'Which tennis player won the most Grand Slam titles in the 1970s?',
             'a' => 'Jimmy Connors',
             'b' => 'Björn Borg',
             'c' => 'Rod Laver',
@@ -3183,8 +2924,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who won the most women\'s singles titles at the French Open in the Open Era?',
+                        'question' => 'Who won the most women\'s singles titles at the French Open in the Open Era?',
             'a' => 'Steffi Graf',
             'b' => 'Chris Evert',
             'c' => 'Serena Williams',
@@ -3195,8 +2935,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player was known as the "Rocket" and won the calendar-year Grand Slam twice?',
+                        'question' => 'Which tennis player was known as the "Rocket" and won the calendar-year Grand Slam twice?',
             'a' => 'Rod Laver',
             'b' => 'Roy Emerson',
             'c' => 'Ken Rosewall',
@@ -3207,8 +2946,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which city hosts the annual Australian Open?',
+                        'question' => 'Which city hosts the annual Australian Open?',
             'a' => 'Sydney',
             'b' => 'Perth',
             'c' => 'Brisbane',
@@ -3219,8 +2957,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the youngest player to win a Grand Slam title in the Open Era?',
+                        'question' => 'Who is the youngest player to win a Grand Slam title in the Open Era?',
             'a' => 'Maria Sharapova',
             'b' => 'Monica Seles',
             'c' => 'Martina Hingis',
@@ -3231,8 +2968,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which male tennis player won a record 13 French Open titles?',
+                        'question' => 'Which male tennis player won a record 13 French Open titles?',
             'a' => 'Roger Federer',
             'b' => 'Björn Borg',
             'c' => 'Novak Djokovic',
@@ -3243,8 +2979,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Grand Slam tournament is played on clay courts?',
+                        'question' => 'Which Grand Slam tournament is played on clay courts?',
             'a' => 'Wimbledon',
             'b' => 'US Open',
             'c' => 'French Open',
@@ -3255,8 +2990,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player won the "Serena Slam," holding all four Grand Slam titles at once?',
+                        'question' => 'Which tennis player won the "Serena Slam," holding all four Grand Slam titles at once?',
             'a' => 'Venus Williams',
             'b' => 'Steffi Graf',
             'c' => 'Martina Navratilova',
@@ -3267,8 +3001,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => "Who won the men's singles title at the US Open in 2021?",
+                        'question' => "Who won the men's singles title at the US Open in 2021?",
             'a' => 'Daniil Medvedev',
             'b' => 'Novak Djokovic',
             'c' => 'Rafael Nadal',
@@ -3279,8 +3012,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => "Which tennis player won the men's singles gold medal at the 2016 Rio Olympics?",
+                        'question' => "Which tennis player won the men's singles gold medal at the 2016 Rio Olympics?",
             'a' => 'Roger Federer',
             'b' => 'Andy Murray',
             'c' => 'Novak Djokovic',
@@ -3291,8 +3023,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player has the most career titles?',
+                        'question' => 'Which female tennis player has the most career titles?',
             'a' => 'Martina Navratilova',
             'b' => 'Steffi Graf',
             'c' => 'Serena Williams',
@@ -3305,8 +3036,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the only player to have completed a Golden Slam (all four Grand Slam titles and an Olympic gold medal in the same calendar year)?',
+                        'question' => 'Who is the only player to have completed a Golden Slam (all four Grand Slam titles and an Olympic gold medal in the same calendar year)?',
             'a' => 'Steffi Graf',
             'b' => 'Serena Williams',
             'c' => 'Maria Sharapova',
@@ -3317,8 +3047,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is known for his trademark "tweener" shot, hitting the ball between his legs?',
+                        'question' => 'Which tennis player is known for his trademark "tweener" shot, hitting the ball between his legs?',
             'a' => 'Novak Djokovic',
             'b' => 'Roger Federer',
             'c' => 'Rafael Nadal',
@@ -3329,8 +3058,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis legend was famously disqualified from the 2020 US Open after accidentally hitting a line judge with a ball?',
+                        'question' => 'Which tennis legend was famously disqualified from the 2020 US Open after accidentally hitting a line judge with a ball?',
             'a' => 'Andy Murray',
             'b' => 'Nick Kyrgios',
             'c' => 'Novak Djokovic',
@@ -3341,8 +3069,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which player won the first ever ATP Masters 1000 tournament?',
+                        'question' => 'Which player won the first ever ATP Masters 1000 tournament?',
             'a' => 'Stefan Edberg',
             'b' => 'Ivan Lendl',
             'c' => 'Andre Agassi',
@@ -3353,8 +3080,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first African-American woman to win a Grand Slam title?',
+                        'question' => 'Who is the first African-American woman to win a Grand Slam title?',
             'a' => 'Althea Gibson',
             'b' => 'Serena Williams',
             'c' => 'Venus Williams',
@@ -3365,8 +3091,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player holds the record for the most aces in a single match?',
+                        'question' => 'Which tennis player holds the record for the most aces in a single match?',
             'a' => 'Goran Ivanišević',
             'b' => 'Ivo Karlović',
             'c' => 'John Isner',
@@ -3377,8 +3102,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player won the longest match in Wimbledon history, lasting 11 hours and 5 minutes?',
+                        'question' => 'Which tennis player won the longest match in Wimbledon history, lasting 11 hours and 5 minutes?',
             'a' => 'Nicolas Mahut',
             'b' => 'Roger Federer',
             'c' => 'Rafael Nadal',
@@ -3389,8 +3113,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player holds the record for the longest winning streak in the Open Era?',
+                        'question' => 'Which female tennis player holds the record for the longest winning streak in the Open Era?',
             'a' => 'Steffi Graf',
             'b' => 'Martina Navratilova',
             'c' => 'Serena Williams',
@@ -3401,8 +3124,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player was the first to win all four Grand Slam singles titles in the Open Era?',
+                        'question' => 'Which tennis player was the first to win all four Grand Slam singles titles in the Open Era?',
             'a' => 'Rod Laver',
             'b' => 'Don Budge',
             'c' => 'Björn Borg',
@@ -3413,8 +3135,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which country has won the most Davis Cup titles in tennis?',
+                        'question' => 'Which country has won the most Davis Cup titles in tennis?',
             'a' => 'United States',
             'b' => 'Australia',
             'c' => 'France',
@@ -3426,8 +3147,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is known for his unique two-handed backhand and has won eight Grand Slam titles?',
+                        'question' => 'Which tennis player is known for his unique two-handed backhand and has won eight Grand Slam titles?',
             'a' => 'Andre Agassi',
             'b' => 'Björn Borg',
             'c' => 'Rafael Nadal',
@@ -3438,8 +3158,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player became the youngest ever to win a Grand Slam singles title at the age of 16?',
+                        'question' => 'Which tennis player became the youngest ever to win a Grand Slam singles title at the age of 16?',
             'a' => 'Martina Hingis',
             'b' => 'Maria Sharapova',
             'c' => 'Monica Seles',
@@ -3450,8 +3169,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which male tennis player won the most Grand Slam titles before the Open Era?',
+                        'question' => 'Which male tennis player won the most Grand Slam titles before the Open Era?',
             'a' => 'Roy Emerson',
             'b' => 'Rod Laver',
             'c' => 'Don Budge',
@@ -3462,8 +3180,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who was the first African-American man to win a Grand Slam title?',
+                        'question' => 'Who was the first African-American man to win a Grand Slam title?',
             'a' => 'Arthur Ashe',
             'b' => 'Althea Gibson',
             'c' => 'Yannick Noah',
@@ -3474,8 +3191,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis tournament is known as the "fifth Grand Slam"?',
+                        'question' => 'Which tennis tournament is known as the "fifth Grand Slam"?',
             'a' => 'Indian Wells Masters',
             'b' => 'Miami Open',
             'c' => 'Monte-Carlo Masters',
@@ -3486,8 +3202,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which country has produced the most female Grand Slam singles champions in tennis history?',
+                        'question' => 'Which country has produced the most female Grand Slam singles champions in tennis history?',
             'a' => 'United States',
             'b' => 'Australia',
             'c' => 'Germany',
@@ -3498,8 +3213,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player holds the record for the most consecutive weeks at No. 1 in the ATP rankings?',
+                        'question' => 'Which tennis player holds the record for the most consecutive weeks at No. 1 in the ATP rankings?',
             'a' => 'Pete Sampras',
             'b' => 'Novak Djokovic',
             'c' => 'Roger Federer',
@@ -3510,8 +3224,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who was the first player to win a Grand Slam title as a wildcard?',
+                        'question' => 'Who was the first player to win a Grand Slam title as a wildcard?',
             'a' => 'Goran Ivanišević',
             'b' => 'Mark Philippoussis',
             'c' => 'Richard Krajicek',
@@ -3522,8 +3235,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player won all four Grand Slam singles titles in the same year, twice?',
+                        'question' => 'Which female tennis player won all four Grand Slam singles titles in the same year, twice?',
             'a' => 'Steffi Graf',
             'b' => 'Serena Williams',
             'c' => 'Martina Navratilova',
@@ -3534,8 +3246,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is nicknamed "The King of Clay"?',
+                        'question' => 'Which tennis player is nicknamed "The King of Clay"?',
             'a' => 'Roger Federer',
             'b' => 'Novak Djokovic',
             'c' => 'Rafael Nadal',
@@ -3548,8 +3259,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player holds the record for the most Grand Slam titles in the Open Era?',
+                        'question' => 'Which tennis player holds the record for the most Grand Slam titles in the Open Era?',
             'a' => 'Roger Federer',
             'b' => 'Rafael Nadal',
             'c' => 'Novak Djokovic',
@@ -3560,8 +3270,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which female tennis player has won the most Olympic gold medals?',
+                        'question' => 'Which female tennis player has won the most Olympic gold medals?',
             'a' => 'Serena Williams',
             'b' => 'Venus Williams',
             'c' => 'Steffi Graf',
@@ -3572,8 +3281,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Grand Slam tournament is played on a grass surface?',
+                        'question' => 'Which Grand Slam tournament is played on a grass surface?',
             'a' => 'Australian Open',
             'b' => 'French Open',
             'c' => 'Wimbledon',
@@ -3584,8 +3292,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player won the "Golden Slam" in 1988?',
+                        'question' => 'Which tennis player won the "Golden Slam" in 1988?',
             'a' => 'Martina Navratilova',
             'b' => 'Steffi Graf',
             'c' => 'Chris Evert',
@@ -3596,8 +3303,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player was known as "Rocket"?',
+                        'question' => 'Which tennis player was known as "Rocket"?',
             'a' => 'Rod Laver',
             'b' => 'Andre Agassi',
             'c' => 'John McEnroe',
@@ -3608,8 +3314,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is famous for his "serve-and-volley" style of play?',
+                        'question' => 'Which tennis player is famous for his "serve-and-volley" style of play?',
             'a' => 'Boris Becker',
             'b' => 'Pete Sampras',
             'c' => 'Roger Federer',
@@ -3620,8 +3325,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player is the only one to have won all four Grand Slam titles in both singles and doubles?',
+                        'question' => 'Which tennis player is the only one to have won all four Grand Slam titles in both singles and doubles?',
             'a' => 'Margaret Court',
             'b' => 'Serena Williams',
             'c' => 'Billie Jean King',
@@ -3632,8 +3336,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which male tennis player has won the most Davis Cup titles as part of a team?',
+                        'question' => 'Which male tennis player has won the most Davis Cup titles as part of a team?',
             'a' => 'Rafael Nadal',
             'b' => 'Novak Djokovic',
             'c' => 'Roger Federer',
@@ -3644,8 +3347,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player won her first Grand Slam title at the 1997 French Open?',
+                        'question' => 'Which tennis player won her first Grand Slam title at the 1997 French Open?',
             'a' => 'Martina Hingis',
             'b' => 'Justine Henin',
             'c' => 'Iva Majoli',
@@ -3656,8 +3358,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis player was the first to win 20 Grand Slam singles titles?',
+                        'question' => 'Which tennis player was the first to win 20 Grand Slam singles titles?',
             'a' => 'Roger Federer',
             'b' => 'Rafael Nadal',
             'c' => 'Novak Djokovic',
@@ -3669,8 +3370,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player won the men\'s singles title at the 1985 Australian Open?',
+                        'question' => 'Which South African tennis player won the men\'s singles title at the 1985 Australian Open?',
             'a' => 'Johan Kriek',
             'b' => 'Wayne Ferreira',
             'c' => 'Kevin Anderson',
@@ -3681,8 +3381,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country has produced the most top 100 ATP tennis players?',
+                        'question' => 'Which African country has produced the most top 100 ATP tennis players?',
             'a' => 'South Africa',
             'b' => 'Morocco',
             'c' => 'Nigeria',
@@ -3693,8 +3392,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first African tennis player to reach a Grand Slam final?',
+                        'question' => 'Who is the first African tennis player to reach a Grand Slam final?',
             'a' => 'Kevin Anderson',
             'b' => 'Younes El Aynaoui',
             'c' => 'Wayne Ferreira',
@@ -3705,8 +3403,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Moroccan tennis player reached the quarterfinals of the 2000 US Open?',
+                        'question' => 'Which Moroccan tennis player reached the quarterfinals of the 2000 US Open?',
             'a' => 'Hicham Arazi',
             'b' => 'Younes El Aynaoui',
             'c' => 'Karim Alami',
@@ -3717,8 +3414,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player was known for his powerful serve and volley game?',
+                        'question' => 'Which South African tennis player was known for his powerful serve and volley game?',
             'a' => 'Wayne Ferreira',
             'b' => 'Kevin Curren',
             'c' => 'Johan Kriek',
@@ -3729,8 +3425,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the highest-ranked Tunisian tennis player in history?',
+                        'question' => 'Who is the highest-ranked Tunisian tennis player in history?',
             'a' => 'Malek Jaziri',
             'b' => 'Ons Jabeur',
             'c' => 'Selima Sfar',
@@ -3741,8 +3436,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African female tennis player won the Wimbledon singles title in 1987?',
+                        'question' => 'Which South African female tennis player won the Wimbledon singles title in 1987?',
             'a' => 'Amanda Coetzer',
             'b' => 'Liezel Huber',
             'c' => 'Sandra Reynolds',
@@ -3753,8 +3447,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player was ranked in the top 100 ATP singles rankings?',
+                        'question' => 'Which Nigerian tennis player was ranked in the top 100 ATP singles rankings?',
             'a' => 'Nduka Odizor',
             'b' => 'Yakubu Suleiman',
             'c' => 'David Imonitie',
@@ -3765,8 +3458,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first Egyptian tennis player to break into the top 100 ATP rankings?',
+                        'question' => 'Who is the first Egyptian tennis player to break into the top 100 ATP rankings?',
             'a' => 'Ismail El Shafei',
             'b' => 'Tamer El Sawy',
             'c' => 'Sherif Sabry',
@@ -3777,8 +3469,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country hosts the annual Morocco Open tennis tournament?',
+                        'question' => 'Which African country hosts the annual Morocco Open tennis tournament?',
             'a' => 'Tunisia',
             'b' => 'Egypt',
             'c' => 'Morocco',
@@ -3790,8 +3481,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country\'s tennis team is known as the "Leopards"?',
+                        'question' => 'Which African country\'s tennis team is known as the "Leopards"?',
             'a' => 'Democratic Republic of Congo',
             'b' => 'Nigeria',
             'c' => 'South Africa',
@@ -3802,8 +3492,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first African tennis player to win a Grand Slam junior title?',
+                        'question' => 'Who is the first African tennis player to win a Grand Slam junior title?',
             'a' => 'Wayne Ferreira',
             'b' => 'Kevin Anderson',
             'c' => 'Johan Kriek',
@@ -3814,8 +3503,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player reached the Wimbledon semifinals in 1983?',
+                        'question' => 'Which South African tennis player reached the Wimbledon semifinals in 1983?',
             'a' => 'Cliff Drysdale',
             'b' => 'Kevin Curren',
             'c' => 'Johan Kriek',
@@ -3826,8 +3514,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player competed in the Wimbledon doubles quarterfinals?',
+                        'question' => 'Which Nigerian tennis player competed in the Wimbledon doubles quarterfinals?',
             'a' => 'Nduka Odizor',
             'b' => 'David Imonitie',
             'c' => 'Yakubu Suleiman',
@@ -3838,8 +3525,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Egyptian tennis player made history by winning the Wimbledon Boys\' doubles title?',
+                        'question' => 'Which Egyptian tennis player made history by winning the Wimbledon Boys\' doubles title?',
             'a' => 'Tamer El Sawy',
             'b' => 'Ismail El Shafei',
             'c' => 'Sherif Sabry',
@@ -3850,8 +3536,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Tunisian tennis player reached the quarterfinals of the 2020 Australian Open?',
+                        'question' => 'Which Tunisian tennis player reached the quarterfinals of the 2020 Australian Open?',
             'a' => 'Malek Jaziri',
             'b' => 'Ons Jabeur',
             'c' => 'Selima Sfar',
@@ -3862,8 +3547,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country has hosted the ITF Africa Junior Tennis Championships?',
+                        'question' => 'Which African country has hosted the ITF Africa Junior Tennis Championships?',
             'a' => 'South Africa',
             'b' => 'Egypt',
             'c' => 'Morocco',
@@ -3874,8 +3558,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Moroccan tennis player won the ATP World Tour title in 1996?',
+                        'question' => 'Which Moroccan tennis player won the ATP World Tour title in 1996?',
             'a' => 'Karim Alami',
             'b' => 'Hicham Arazi',
             'c' => 'Younes El Aynaoui',
@@ -3886,8 +3569,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country\'s national tennis team is known as "The Atlas Lions"?',
+                        'question' => 'Which African country\'s national tennis team is known as "The Atlas Lions"?',
             'a' => 'Morocco',
             'b' => 'Tunisia',
             'c' => 'Egypt',
@@ -3898,8 +3580,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player won the mixed doubles title at Wimbledon in 1981?',
+                        'question' => 'Which South African tennis player won the mixed doubles title at Wimbledon in 1981?',
             'a' => 'Wayne Ferreira',
             'b' => 'Kevin Curren',
             'c' => 'Cliff Drysdale',
@@ -3912,8 +3593,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Egyptian tennis player was the first from his country to reach the fourth round at Wimbledon?',
+                        'question' => 'Which Egyptian tennis player was the first from his country to reach the fourth round at Wimbledon?',
             'a' => 'Ismail El Shafei',
             'b' => 'Tamer El Sawy',
             'c' => 'Sherif Sabry',
@@ -3924,8 +3604,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country produced the first black African tennis player to play in a Grand Slam?',
+                        'question' => 'Which African country produced the first black African tennis player to play in a Grand Slam?',
             'a' => 'South Africa',
             'b' => 'Nigeria',
             'c' => 'Kenya',
@@ -3936,8 +3615,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player won the US Open doubles title in 1981?',
+                        'question' => 'Which South African tennis player won the US Open doubles title in 1981?',
             'a' => 'Kevin Curren',
             'b' => 'Cliff Drysdale',
             'c' => 'Wayne Ferreira',
@@ -3948,8 +3626,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country has produced the most Davis Cup players?',
+                        'question' => 'Which African country has produced the most Davis Cup players?',
             'a' => 'Egypt',
             'b' => 'South Africa',
             'c' => 'Nigeria',
@@ -3960,8 +3637,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Tunisian tennis player became the first Arab woman to reach a Grand Slam quarterfinal?',
+                        'question' => 'Which Tunisian tennis player became the first Arab woman to reach a Grand Slam quarterfinal?',
             'a' => 'Malek Jaziri',
             'b' => 'Ons Jabeur',
             'c' => 'Selima Sfar',
@@ -3972,8 +3648,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African tennis player was known for his powerful serve and volley game?',
+                        'question' => 'Which African tennis player was known for his powerful serve and volley game?',
             'a' => 'Johan Kriek',
             'b' => 'Kevin Curren',
             'c' => 'Wayne Ferreira',
@@ -3984,8 +3659,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Moroccan tennis player was known for his remarkable run to the Australian Open quarterfinals in 2000?',
+                        'question' => 'Which Moroccan tennis player was known for his remarkable run to the Australian Open quarterfinals in 2000?',
             'a' => 'Karim Alami',
             'b' => 'Hicham Arazi',
             'c' => 'Younes El Aynaoui',
@@ -3996,8 +3670,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country\'s tennis team is nicknamed "The Pharaohs"?',
+                        'question' => 'Which African country\'s tennis team is nicknamed "The Pharaohs"?',
             'a' => 'Nigeria',
             'b' => 'Egypt',
             'c' => 'Morocco',
@@ -4008,8 +3681,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which South African tennis player was known for his fierce competitiveness and was a two-time Grand Slam finalist?',
+                        'question' => 'Which South African tennis player was known for his fierce competitiveness and was a two-time Grand Slam finalist?',
             'a' => 'Kevin Anderson',
             'b' => 'Wayne Ferreira',
             'c' => 'Johan Kriek',
@@ -4020,8 +3692,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which African country hosts the annual Lagos Open, a notable tennis tournament?',
+                        'question' => 'Which African country hosts the annual Lagos Open, a notable tennis tournament?',
             'a' => 'Kenya',
             'b' => 'Egypt',
             'c' => 'South Africa',
@@ -4033,8 +3704,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is considered the pioneer of modern tennis in Nigeria?',
+                        'question' => 'Who is considered the pioneer of modern tennis in Nigeria?',
             'a' => 'Nduka Odizor',
             'b' => 'David Imonitie',
             'c' => 'Tony Mmoh',
@@ -4045,8 +3715,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player reached the fourth round of Wimbledon in 1983?',
+                        'question' => 'Which Nigerian tennis player reached the fourth round of Wimbledon in 1983?',
             'a' => 'Nduka Odizor',
             'b' => 'David Imonitie',
             'c' => 'Tony Mmoh',
@@ -4057,8 +3726,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian city is known for hosting the Central Bank of Nigeria Tennis Open?',
+                        'question' => 'Which Nigerian city is known for hosting the Central Bank of Nigeria Tennis Open?',
             'a' => 'Lagos',
             'b' => 'Abuja',
             'c' => 'Port Harcourt',
@@ -4069,8 +3737,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player won the Men’s Singles title at the 2003 All-Africa Games?',
+                        'question' => 'Which Nigerian tennis player won the Men’s Singles title at the 2003 All-Africa Games?',
             'a' => 'Nduka Odizor',
             'b' => 'Sadiq Abdullahi',
             'c' => 'David Imonitie',
@@ -4081,8 +3748,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which tennis tournament in Nigeria is named after a former governor of Lagos State?',
+                        'question' => 'Which tennis tournament in Nigeria is named after a former governor of Lagos State?',
             'a' => 'Eko Tennis Championship',
             'b' => 'Lagos Open',
             'c' => 'Giwa Amu Tennis Championship',
@@ -4093,8 +3759,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian female tennis player has represented Nigeria in multiple Fed Cup competitions?',
+                        'question' => 'Which Nigerian female tennis player has represented Nigeria in multiple Fed Cup competitions?',
             'a' => 'Sarah Adegoke',
             'b' => 'Christy Agugbom',
             'c' => 'Oyinlomo Quadre',
@@ -4105,8 +3770,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player was nicknamed "The Duke" during his professional career?',
+                        'question' => 'Which Nigerian tennis player was nicknamed "The Duke" during his professional career?',
             'a' => 'David Imonitie',
             'b' => 'Nduka Odizor',
             'c' => 'Tony Mmoh',
@@ -4117,8 +3781,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player has competed in all four Grand Slam tournaments?',
+                        'question' => 'Which Nigerian tennis player has competed in all four Grand Slam tournaments?',
             'a' => 'Nduka Odizor',
             'b' => 'Tony Mmoh',
             'c' => 'Sadiq Abdullahi',
@@ -4129,8 +3792,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian city is the home of the prestigious Dala Hard Court Tennis Championship?',
+                        'question' => 'Which Nigerian city is the home of the prestigious Dala Hard Court Tennis Championship?',
             'a' => 'Lagos',
             'b' => 'Abuja',
             'c' => 'Port Harcourt',
@@ -4141,8 +3803,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player won a gold medal in doubles at the All-Africa Games?',
+                        'question' => 'Which Nigerian tennis player won a gold medal in doubles at the All-Africa Games?',
             'a' => 'Nduka Odizor',
             'b' => 'Jonathan Igbinovia',
             'c' => 'Sadiq Abdullahi',
@@ -4155,8 +3816,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player was the first to win a Grand Slam match?',
+                        'question' => 'Which Nigerian tennis player was the first to win a Grand Slam match?',
             'a' => 'Tony Mmoh',
             'b' => 'Sadiq Abdullahi',
             'c' => 'Nduka Odizor',
@@ -4167,8 +3827,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player won the men’s singles title at the 2018 Lagos Open?',
+                        'question' => 'Which Nigerian tennis player won the men’s singles title at the 2018 Lagos Open?',
             'a' => 'Sylvester Emmanuel',
             'b' => 'Joseph Imeh',
             'c' => 'David Imonitie',
@@ -4179,8 +3838,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian female tennis player is a multiple-time champion at the CBN Tennis Open?',
+                        'question' => 'Which Nigerian female tennis player is a multiple-time champion at the CBN Tennis Open?',
             'a' => 'Christy Agugbom',
             'b' => 'Sarah Adegoke',
             'c' => 'Blessing Samuel',
@@ -4191,8 +3849,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player competed in the Davis Cup for Nigeria?',
+                        'question' => 'Which Nigerian tennis player competed in the Davis Cup for Nigeria?',
             'a' => 'Sani Adamu',
             'b' => 'Michael Moses',
             'c' => 'Nduka Odizor',
@@ -4203,8 +3860,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which city in Nigeria hosts the annual Governor’s Cup Lagos Tennis Championship?',
+                        'question' => 'Which city in Nigeria hosts the annual Governor’s Cup Lagos Tennis Championship?',
             'a' => 'Abuja',
             'b' => 'Kano',
             'c' => 'Lagos',
@@ -4215,8 +3871,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Who is the first Nigerian female tennis player to win a major international title?',
+                        'question' => 'Who is the first Nigerian female tennis player to win a major international title?',
             'a' => 'Sarah Adegoke',
             'b' => 'Christy Agugbom',
             'c' => 'Oyinlomo Quadre',
@@ -4227,8 +3882,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player has won the most national titles?',
+                        'question' => 'Which Nigerian tennis player has won the most national titles?',
             'a' => 'Sadiq Abdullahi',
             'b' => 'Nduka Odizor',
             'c' => 'David Imonitie',
@@ -4239,8 +3893,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player won the junior category at the ITF West and Central Africa Junior Circuit?',
+                        'question' => 'Which Nigerian tennis player won the junior category at the ITF West and Central Africa Junior Circuit?',
             'a' => 'Oyinlomo Quadre',
             'b' => 'Marylove Edwards',
             'c' => 'Sarah Adegoke',
@@ -4251,8 +3904,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player represented Nigeria in the All Africa Games and won a medal?',
+                        'question' => 'Which Nigerian tennis player represented Nigeria in the All Africa Games and won a medal?',
             'a' => 'Tony Mmoh',
             'b' => 'Jonathan Igbinovia',
             'c' => 'Nduka Odizor',
@@ -4263,8 +3915,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 91,
-            'question' => 'Which Nigerian tennis player has been nicknamed "The Nigerian Tennis Queen"?',
+                        'question' => 'Which Nigerian tennis player has been nicknamed "The Nigerian Tennis Queen"?',
             'a' => 'Sarah Adegoke',
             'b' => 'Christy Agugbom',
             'c' => 'Oyinlomo Quadre',
@@ -4277,8 +3928,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the highest run-scorer in Test cricket history?',
+                        'question' => 'Who is the highest run-scorer in Test cricket history?',
             'a' => 'Brian Lara',
             'b' => 'Ricky Ponting',
             'c' => 'Sachin Tendulkar',
@@ -4289,8 +3939,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the first ICC Cricket World Cup in 1975?',
+                        'question' => 'Which country won the first ICC Cricket World Cup in 1975?',
             'a' => 'Australia',
             'b' => 'West Indies',
             'c' => 'India',
@@ -4301,8 +3950,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who holds the record for the fastest century in One Day International (ODI) cricket?',
+                        'question' => 'Who holds the record for the fastest century in One Day International (ODI) cricket?',
             'a' => 'Viv Richards',
             'b' => 'AB de Villiers',
             'c' => 'Shahid Afridi',
@@ -4313,8 +3961,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known as "The Little Master"?',
+                        'question' => 'Which cricketer is known as "The Little Master"?',
             'a' => 'Sunil Gavaskar',
             'b' => 'Sachin Tendulkar',
             'c' => 'Brian Lara',
@@ -4325,8 +3972,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team has won the most ICC T20 World Cup titles?',
+                        'question' => 'Which team has won the most ICC T20 World Cup titles?',
             'a' => 'India',
             'b' => 'West Indies',
             'c' => 'Australia',
@@ -4337,8 +3983,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler has taken the most wickets in Test cricket?',
+                        'question' => 'Which bowler has taken the most wickets in Test cricket?',
             'a' => 'Shane Warne',
             'b' => 'Muttiah Muralitharan',
             'c' => 'James Anderson',
@@ -4349,8 +3994,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the captain of the Indian cricket team that won the 1983 World Cup?',
+                        'question' => 'Who was the captain of the Indian cricket team that won the 1983 World Cup?',
             'a' => 'Kapil Dev',
             'b' => 'Sunil Gavaskar',
             'c' => 'Ravi Shastri',
@@ -4361,8 +4005,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Australian cricketer was known as "The Don"?',
+                        'question' => 'Which Australian cricketer was known as "The Don"?',
             'a' => 'Donald Bradman',
             'b' => 'Ricky Ponting',
             'c' => 'Shane Warne',
@@ -4373,8 +4016,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has scored the most runs in a single ODI inning?',
+                        'question' => 'Which cricketer has scored the most runs in a single ODI inning?',
             'a' => 'Rohit Sharma',
             'b' => 'Martin Guptill',
             'c' => 'Chris Gayle',
@@ -4385,8 +4027,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler holds the record for the best bowling figures in an ODI match?',
+                        'question' => 'Which bowler holds the record for the best bowling figures in an ODI match?',
             'a' => 'Muttiah Muralitharan',
             'b' => 'Glenn McGrath',
             'c' => 'Chaminda Vaas',
@@ -4399,8 +4040,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country hosted the 2019 ICC Cricket World Cup?',
+                        'question' => 'Which country hosted the 2019 ICC Cricket World Cup?',
             'a' => 'India',
             'b' => 'Australia',
             'c' => 'England',
@@ -4411,8 +4051,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the only player to have scored 100 international centuries in cricket?',
+                        'question' => 'Who is the only player to have scored 100 international centuries in cricket?',
             'a' => 'Ricky Ponting',
             'b' => 'Brian Lara',
             'c' => 'Virat Kohli',
@@ -4423,8 +4062,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler delivered the fastest ball ever recorded in cricket?',
+                        'question' => 'Which bowler delivered the fastest ball ever recorded in cricket?',
             'a' => 'Brett Lee',
             'b' => 'Shoaib Akhtar',
             'c' => 'Jeff Thomson',
@@ -4435,8 +4073,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who captained Australia to three consecutive World Cup wins (1999, 2003, 2007)?',
+                        'question' => 'Who captained Australia to three consecutive World Cup wins (1999, 2003, 2007)?',
             'a' => 'Steve Waugh',
             'b' => 'Allan Border',
             'c' => 'Ricky Ponting',
@@ -4447,8 +4084,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known as "The Rawalpindi Express"?',
+                        'question' => 'Which cricketer is known as "The Rawalpindi Express"?',
             'a' => 'Imran Khan',
             'b' => 'Wasim Akram',
             'c' => 'Shoaib Akhtar',
@@ -4459,8 +4095,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team did South Africa play against in their first-ever Test match in 1889?',
+                        'question' => 'Which team did South Africa play against in their first-ever Test match in 1889?',
             'a' => 'England',
             'b' => 'Australia',
             'c' => 'India',
@@ -4471,8 +4106,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Indian cricketer is nicknamed "The Wall"?',
+                        'question' => 'Which Indian cricketer is nicknamed "The Wall"?',
             'a' => 'Sachin Tendulkar',
             'b' => 'Sourav Ganguly',
             'c' => 'MS Dhoni',
@@ -4483,8 +4117,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who holds the record for the highest individual score in an ODI match?',
+                        'question' => 'Who holds the record for the highest individual score in an ODI match?',
             'a' => 'Martin Guptill',
             'b' => 'Rohit Sharma',
             'c' => 'Chris Gayle',
@@ -4495,8 +4128,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has taken the most catches in Test cricket?',
+                        'question' => 'Which cricketer has taken the most catches in Test cricket?',
             'a' => 'Mark Waugh',
             'b' => 'Rahul Dravid',
             'c' => 'Jacques Kallis',
@@ -4507,8 +4139,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is the fastest to reach 10,000 runs in ODI cricket?',
+                        'question' => 'Which cricketer is the fastest to reach 10,000 runs in ODI cricket?',
             'a' => 'Sachin Tendulkar',
             'b' => 'Virat Kohli',
             'c' => 'Brian Lara',
@@ -4521,8 +4152,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the inaugural ICC T20 World Cup in 2007?',
+                        'question' => 'Which country won the inaugural ICC T20 World Cup in 2007?',
             'a' => 'Australia',
             'b' => 'India',
             'c' => 'Pakistan',
@@ -4533,8 +4163,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the first cricketer to score a double century in an ODI match?',
+                        'question' => 'Who is the first cricketer to score a double century in an ODI match?',
             'a' => 'Virender Sehwag',
             'b' => 'Sachin Tendulkar',
             'c' => 'Rohit Sharma',
@@ -4545,8 +4174,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler has taken the most wickets in Test cricket?',
+                        'question' => 'Which bowler has taken the most wickets in Test cricket?',
             'a' => 'Muttiah Muralitharan',
             'b' => 'Shane Warne',
             'c' => 'Anil Kumble',
@@ -4557,8 +4185,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has hit the most sixes in international cricket?',
+                        'question' => 'Which cricketer has hit the most sixes in international cricket?',
             'a' => 'Shahid Afridi',
             'b' => 'Chris Gayle',
             'c' => 'Rohit Sharma',
@@ -4569,8 +4196,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team won the 1992 Cricket World Cup?',
+                        'question' => 'Which team won the 1992 Cricket World Cup?',
             'a' => 'Australia',
             'b' => 'West Indies',
             'c' => 'Pakistan',
@@ -4581,8 +4207,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who holds the record for the highest score in a single Test innings?',
+                        'question' => 'Who holds the record for the highest score in a single Test innings?',
             'a' => 'Brian Lara',
             'b' => 'Don Bradman',
             'c' => 'Mahela Jayawardene',
@@ -4593,8 +4218,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricket team is known as the "Proteas"?',
+                        'question' => 'Which cricket team is known as the "Proteas"?',
             'a' => 'New Zealand',
             'b' => 'South Africa',
             'c' => 'Sri Lanka',
@@ -4605,8 +4229,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first captain to win all ICC trophies?',
+                        'question' => 'Who was the first captain to win all ICC trophies?',
             'a' => 'Ricky Ponting',
             'b' => 'MS Dhoni',
             'c' => 'Clive Lloyd',
@@ -4617,8 +4240,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricket stadium is known as the "Home of Cricket"?',
+                        'question' => 'Which cricket stadium is known as the "Home of Cricket"?',
             'a' => 'Eden Gardens',
             'b' => 'Melbourne Cricket Ground',
             'c' => 'Lords',
@@ -4629,8 +4251,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known as "The Prince of Trinidad"?',
+                        'question' => 'Which cricketer is known as "The Prince of Trinidad"?',
             'a' => 'Brian Lara',
             'b' => 'Chris Gayle',
             'c' => 'Viv Richards',
@@ -4643,8 +4264,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Indian cricketer is known as "The Wall"?',
+                        'question' => 'Which Indian cricketer is known as "The Wall"?',
             'a' => 'Sachin Tendulkar',
             'b' => 'Sourav Ganguly',
             'c' => 'Rahul Dravid',
@@ -4655,8 +4275,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the only cricketer to have scored 100 international centuries?',
+                        'question' => 'Who is the only cricketer to have scored 100 international centuries?',
             'a' => 'Ricky Ponting',
             'b' => 'Jacques Kallis',
             'c' => 'Kumar Sangakkara',
@@ -4667,8 +4286,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country hosted the 2019 ICC Cricket World Cup?',
+                        'question' => 'Which country hosted the 2019 ICC Cricket World Cup?',
             'a' => 'Australia',
             'b' => 'England',
             'c' => 'India',
@@ -4679,8 +4297,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the leading run-scorer in Test cricket?',
+                        'question' => 'Who is the leading run-scorer in Test cricket?',
             'a' => 'Ricky Ponting',
             'b' => 'Jacques Kallis',
             'c' => 'Brian Lara',
@@ -4691,8 +4308,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team won the first ICC Champions Trophy?',
+                        'question' => 'Which team won the first ICC Champions Trophy?',
             'a' => 'South Africa',
             'b' => 'India',
             'c' => 'Australia',
@@ -4703,8 +4319,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the first cricketer to score six sixes in an over in international cricket?',
+                        'question' => 'Who is the first cricketer to score six sixes in an over in international cricket?',
             'a' => 'Yuvraj Singh',
             'b' => 'Herschelle Gibbs',
             'c' => 'Sir Garfield Sobers',
@@ -4715,8 +4330,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which player has the highest individual score in a Test match?',
+                        'question' => 'Which player has the highest individual score in a Test match?',
             'a' => 'Don Bradman',
             'b' => 'Brian Lara',
             'c' => 'Matthew Hayden',
@@ -4727,8 +4341,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the captain of the Australian cricket team during their 1999 World Cup win?',
+                        'question' => 'Who was the captain of the Australian cricket team during their 1999 World Cup win?',
             'a' => 'Steve Waugh',
             'b' => 'Ricky Ponting',
             'c' => 'Allan Border',
@@ -4739,8 +4352,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Indian cricketer is known for the helicopter shot?',
+                        'question' => 'Which Indian cricketer is known for the helicopter shot?',
             'a' => 'Sachin Tendulkar',
             'b' => 'MS Dhoni',
             'c' => 'Virat Kohli',
@@ -4751,8 +4363,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer holds the record for the fastest century in ODIs?',
+                        'question' => 'Which cricketer holds the record for the fastest century in ODIs?',
             'a' => 'AB de Villiers',
             'b' => 'Corey Anderson',
             'c' => 'Shahid Afridi',
@@ -4765,8 +4376,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first bowler to take 10 wickets in a single Test innings?',
+                        'question' => 'Who was the first bowler to take 10 wickets in a single Test innings?',
             'a' => 'Anil Kumble',
             'b' => 'Muttiah Muralitharan',
             'c' => 'Jim Laker',
@@ -4777,8 +4387,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has taken the most wickets in Test cricket?',
+                        'question' => 'Which cricketer has taken the most wickets in Test cricket?',
             'a' => 'Shane Warne',
             'b' => 'Anil Kumble',
             'c' => 'James Anderson',
@@ -4789,8 +4398,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first cricketer to reach 10,000 runs in ODIs?',
+                        'question' => 'Who was the first cricketer to reach 10,000 runs in ODIs?',
             'a' => 'Brian Lara',
             'b' => 'Ricky Ponting',
             'c' => 'Sachin Tendulkar',
@@ -4801,8 +4409,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the ICC T20 World Cup in 2016?',
+                        'question' => 'Which country won the ICC T20 World Cup in 2016?',
             'a' => 'India',
             'b' => 'Australia',
             'c' => 'West Indies',
@@ -4813,8 +4420,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who holds the record for the highest individual score in an ODI?',
+                        'question' => 'Who holds the record for the highest individual score in an ODI?',
             'a' => 'Chris Gayle',
             'b' => 'Rohit Sharma',
             'c' => 'Martin Guptill',
@@ -4825,8 +4431,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Australian cricketer is known as "Punter"?',
+                        'question' => 'Which Australian cricketer is known as "Punter"?',
             'a' => 'Steve Waugh',
             'b' => 'Ricky Ponting',
             'c' => 'Michael Clarke',
@@ -4837,8 +4442,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the first-ever Cricket World Cup in 1975?',
+                        'question' => 'Which country won the first-ever Cricket World Cup in 1975?',
             'a' => 'Australia',
             'b' => 'West Indies',
             'c' => 'England',
@@ -4849,8 +4453,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first cricketer to score a double century in ODIs?',
+                        'question' => 'Who was the first cricketer to score a double century in ODIs?',
             'a' => 'Virender Sehwag',
             'b' => 'Rohit Sharma',
             'c' => 'Chris Gayle',
@@ -4861,8 +4464,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known for popularizing the "Dilscoop" shot?',
+                        'question' => 'Which cricketer is known for popularizing the "Dilscoop" shot?',
             'a' => 'MS Dhoni',
             'b' => 'Tillakaratne Dilshan',
             'c' => 'AB de Villiers',
@@ -4873,8 +4475,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler is known for his unique slinging bowling action?',
+                        'question' => 'Which bowler is known for his unique slinging bowling action?',
             'a' => 'Lasith Malinga',
             'b' => 'Mitchell Johnson',
             'c' => 'Shaun Tait',
@@ -4887,8 +4488,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has scored the fastest century in an ODI match?',
+                        'question' => 'Which cricketer has scored the fastest century in an ODI match?',
             'a' => 'AB de Villiers',
             'b' => 'Shahid Afridi',
             'c' => 'Corey Anderson',
@@ -4899,8 +4499,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first cricketer to take a hat-trick in a World Cup match?',
+                        'question' => 'Who was the first cricketer to take a hat-trick in a World Cup match?',
             'a' => 'Chetan Sharma',
             'b' => 'Wasim Akram',
             'c' => 'Glenn McGrath',
@@ -4911,8 +4510,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer holds the record for the most sixes in a Test career?',
+                        'question' => 'Which cricketer holds the record for the most sixes in a Test career?',
             'a' => 'Adam Gilchrist',
             'b' => 'Brian Lara',
             'c' => 'Jacques Kallis',
@@ -4923,8 +4521,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the only bowler to have taken two hat-tricks in a single ODI match?',
+                        'question' => 'Who is the only bowler to have taken two hat-tricks in a single ODI match?',
             'a' => 'Wasim Akram',
             'b' => 'Chaminda Vaas',
             'c' => 'Lasith Malinga',
@@ -4935,8 +4532,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer was known as the "Little Master"?',
+                        'question' => 'Which cricketer was known as the "Little Master"?',
             'a' => 'Sachin Tendulkar',
             'b' => 'Sunil Gavaskar',
             'c' => 'Brian Lara',
@@ -4947,8 +4543,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country has won the most ICC Cricket World Cups?',
+                        'question' => 'Which country has won the most ICC Cricket World Cups?',
             'a' => 'India',
             'b' => 'West Indies',
             'c' => 'Australia',
@@ -4959,8 +4554,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler holds the record for the most wickets in a single Cricket World Cup?',
+                        'question' => 'Which bowler holds the record for the most wickets in a single Cricket World Cup?',
             'a' => 'Mitchell Starc',
             'b' => 'Glenn McGrath',
             'c' => 'Muttiah Muralitharan',
@@ -4971,8 +4565,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the only player to score a century in all three formats of international cricket?',
+                        'question' => 'Who is the only player to score a century in all three formats of international cricket?',
             'a' => 'AB de Villiers',
             'b' => 'Rohit Sharma',
             'c' => 'Chris Gayle',
@@ -4983,8 +4576,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team won the first ICC Champions Trophy in 1998?',
+                        'question' => 'Which team won the first ICC Champions Trophy in 1998?',
             'a' => 'South Africa',
             'b' => 'India',
             'c' => 'Sri Lanka',
@@ -4995,8 +4587,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first cricketer to score 300 runs in a Test innings?',
+                        'question' => 'Who was the first cricketer to score 300 runs in a Test innings?',
             'a' => 'Sir Don Bradman',
             'b' => 'Wally Hammond',
             'c' => 'Brian Lara',
@@ -5009,8 +4600,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who holds the record for the highest individual score in a One Day International match?',
+                        'question' => 'Who holds the record for the highest individual score in a One Day International match?',
             'a' => 'Martin Guptill',
             'b' => 'Virender Sehwag',
             'c' => 'Rohit Sharma',
@@ -5021,8 +4611,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known for hitting six sixes in an over in T20 International cricket?',
+                        'question' => 'Which cricketer is known for hitting six sixes in an over in T20 International cricket?',
             'a' => 'Kieron Pollard',
             'b' => 'Yuvraj Singh',
             'c' => 'Chris Gayle',
@@ -5033,8 +4622,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country hosted the first-ever Day/Night Test match?',
+                        'question' => 'Which country hosted the first-ever Day/Night Test match?',
             'a' => 'Australia',
             'b' => 'England',
             'c' => 'New Zealand',
@@ -5045,8 +4633,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who is the first cricketer to score a double century in an ODI match?',
+                        'question' => 'Who is the first cricketer to score a double century in an ODI match?',
             'a' => 'Rohit Sharma',
             'b' => 'Sachin Tendulkar',
             'c' => 'Martin Guptill',
@@ -5057,8 +4644,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which bowler has taken the most wickets in Test cricket?',
+                        'question' => 'Which bowler has taken the most wickets in Test cricket?',
             'a' => 'Muttiah Muralitharan',
             'b' => 'Shane Warne',
             'c' => 'Anil Kumble',
@@ -5069,8 +4655,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer was known as the "Sultan of Swing"?',
+                        'question' => 'Which cricketer was known as the "Sultan of Swing"?',
             'a' => 'Glenn McGrath',
             'b' => 'Wasim Akram',
             'c' => 'James Anderson',
@@ -5081,8 +4666,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the first player to reach 10,000 runs in Test cricket?',
+                        'question' => 'Who was the first player to reach 10,000 runs in Test cricket?',
             'a' => 'Sunil Gavaskar',
             'b' => 'Sachin Tendulkar',
             'c' => 'Allan Border',
@@ -5093,8 +4677,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team won the first ICC T20 World Cup in 2007?',
+                        'question' => 'Which team won the first ICC T20 World Cup in 2007?',
             'a' => 'Pakistan',
             'b' => 'Australia',
             'c' => 'India',
@@ -5105,8 +4688,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer has the most Test centuries to his name?',
+                        'question' => 'Which cricketer has the most Test centuries to his name?',
             'a' => 'Jacques Kallis',
             'b' => 'Ricky Ponting',
             'c' => 'Sachin Tendulkar',
@@ -5117,8 +4699,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the ICC Cricket World Cup in 2019?',
+                        'question' => 'Which country won the ICC Cricket World Cup in 2019?',
             'a' => 'Australia',
             'b' => 'New Zealand',
             'c' => 'India',
@@ -5130,8 +4711,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country won the first ever T20 World Cup in 2007?',
+                        'question' => 'Which country won the first ever T20 World Cup in 2007?',
             'a' => 'Australia',
             'b' => 'New Zealand',
             'c' => 'South Africa',
@@ -5142,8 +4722,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who was the captain of the England cricket team during the 2019 Cricket World Cup?',
+                        'question' => 'Who was the captain of the England cricket team during the 2019 Cricket World Cup?',
             'a' => 'Alastair Cook',
             'b' => 'Andrew Strauss',
             'c' => 'Ian Bell',
@@ -5154,8 +4733,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer holds the record for the most sixes in international cricket?',
+                        'question' => 'Which cricketer holds the record for the most sixes in international cricket?',
             'a' => 'Virat Kohli',
             'b' => 'Chris Gayle',
             'c' => 'AB de Villiers',
@@ -5166,8 +4744,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer was known as the "Little Master"?',
+                        'question' => 'Which cricketer was known as the "Little Master"?',
             'a' => 'Sunil Gavaskar',
             'b' => 'Sachin Tendulkar',
             'c' => 'Rahul Dravid',
@@ -5178,8 +4755,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country is known for its cricket tournament called the IPL?',
+                        'question' => 'Which country is known for its cricket tournament called the IPL?',
             'a' => 'England',
             'b' => 'Australia',
             'c' => 'South Africa',
@@ -5190,8 +4766,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Who has the highest individual score in a Test match innings?',
+                        'question' => 'Who has the highest individual score in a Test match innings?',
             'a' => 'Ricky Ponting',
             'b' => 'Brian Lara',
             'c' => 'Steve Waugh',
@@ -5202,8 +4777,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which team won the most recent ICC Cricket World Cup?',
+                        'question' => 'Which team won the most recent ICC Cricket World Cup?',
             'a' => 'Australia',
             'b' => 'New Zealand',
             'c' => 'South Africa',
@@ -5214,8 +4788,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known for the "Unorthodox Bowling" style?',
+                        'question' => 'Which cricketer is known for the "Unorthodox Bowling" style?',
             'a' => 'Jasprit Bumrah',
             'b' => 'Shane Warne',
             'c' => 'Muttiah Muralitharan',
@@ -5226,8 +4799,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country hosted the 2022 ICC T20 World Cup?',
+                        'question' => 'Which country hosted the 2022 ICC T20 World Cup?',
             'a' => 'India',
             'b' => 'South Africa',
             'c' => 'United Arab Emirates',
@@ -5238,8 +4810,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer was known as the "King of Swing"?',
+                        'question' => 'Which cricketer was known as the "King of Swing"?',
             'a' => 'Wasim Akram',
             'b' => 'Shoaib Akhtar',
             'c' => 'James Anderson',
@@ -5251,8 +4822,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which African country is known for its strong cricket team and hosted the 2003 Cricket World Cup?',
+                        'question' => 'Which African country is known for its strong cricket team and hosted the 2003 Cricket World Cup?',
             'a' => 'Zimbabwe',
             'b' => 'Kenya',
             'c' => 'South Africa',
@@ -5263,8 +4833,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer from Kenya made a significant impact during the 2003 Cricket World Cup?',
+                        'question' => 'Which cricketer from Kenya made a significant impact during the 2003 Cricket World Cup?',
             'a' => 'Steve Tikolo',
             'b' => 'Kennedy Otieno',
             'c' => 'Thomas Odoyo',
@@ -5275,8 +4844,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer was known for his aggressive batting style and was a key player in the 1990s?',
+                        'question' => 'Which South African cricketer was known for his aggressive batting style and was a key player in the 1990s?',
             'a' => 'Jacques Kallis',
             'b' => 'AB de Villiers',
             'c' => 'Hansie Cronje',
@@ -5287,8 +4855,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricket team represents Nigeria in international cricket competitions?',
+                        'question' => 'Which cricket team represents Nigeria in international cricket competitions?',
             'a' => 'Nigeria Eagles',
             'b' => 'Nigeria Warriors',
             'c' => 'Nigeria Lions',
@@ -5299,8 +4866,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which African country has a cricket board that is a member of the International Cricket Council (ICC)?',
+                        'question' => 'Which African country has a cricket board that is a member of the International Cricket Council (ICC)?',
             'a' => 'Nigeria',
             'b' => 'Ivory Coast',
             'c' => 'Mali',
@@ -5311,8 +4877,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which player from South Africa holds the record for the most runs in Test cricket?',
+                        'question' => 'Which player from South Africa holds the record for the most runs in Test cricket?',
             'a' => 'AB de Villiers',
             'b' => 'Jacques Kallis',
             'c' => 'Graham Pollock',
@@ -5323,8 +4888,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer from Zimbabwe was known for his all-round abilities and was a prominent figure in the 1990s?',
+                        'question' => 'Which cricketer from Zimbabwe was known for his all-round abilities and was a prominent figure in the 1990s?',
             'a' => 'Andy Flower',
             'b' => 'Heath Streak',
             'c' => 'Eddo Brandes',
@@ -5335,8 +4899,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer is known for his exceptional fast bowling and holds records in ODI cricket?',
+                        'question' => 'Which South African cricketer is known for his exceptional fast bowling and holds records in ODI cricket?',
             'a' => 'Dale Steyn',
             'b' => 'Morne Morkel',
             'c' => 'Lance Klusener',
@@ -5347,8 +4910,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketing nation is renowned for producing great spin bowlers, including several from the 2000s?',
+                        'question' => 'Which cricketing nation is renowned for producing great spin bowlers, including several from the 2000s?',
             'a' => 'Kenya',
             'b' => 'Nigeria',
             'c' => 'South Africa',
@@ -5359,8 +4921,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is known for his role in the African cricket team and has served as a coach in international cricket?',
+                        'question' => 'Which cricketer is known for his role in the African cricket team and has served as a coach in international cricket?',
             'a' => 'Brian Lara',
             'b' => 'Michael Holding',
             'c' => 'Allan Donald',
@@ -5372,8 +4933,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Nigerian cricketer is known for playing in international matches and has contributed significantly to the sport in Nigeria?',
+                        'question' => 'Which Nigerian cricketer is known for playing in international matches and has contributed significantly to the sport in Nigeria?',
             'a' => 'Jide Kuti',
             'b' => 'Micheal Akintoye',
             'c' => 'Paul Upton',
@@ -5384,8 +4944,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricket tournament is the premier competition for national teams in Africa?',
+                        'question' => 'Which cricket tournament is the premier competition for national teams in Africa?',
             'a' => 'African Cricket Championship',
             'b' => 'Africa T20 Cup',
             'c' => 'Cricket Africa Cup',
@@ -5396,8 +4955,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer is known for his record-breaking number of ODI centuries?',
+                        'question' => 'Which South African cricketer is known for his record-breaking number of ODI centuries?',
             'a' => 'AB de Villiers',
             'b' => 'Jacques Kallis',
             'c' => 'Hashim Amla',
@@ -5408,8 +4966,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Zimbabwean cricketer is famous for his role as an all-rounder and is considered one of the greatest from the country?',
+                        'question' => 'Which Zimbabwean cricketer is famous for his role as an all-rounder and is considered one of the greatest from the country?',
             'a' => 'Andy Flower',
             'b' => 'Heath Streak',
             'c' => 'Eddo Brandes',
@@ -5420,8 +4977,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer has the highest number of Test wickets?',
+                        'question' => 'Which South African cricketer has the highest number of Test wickets?',
             'a' => 'Dale Steyn',
             'b' => 'Morne Morkel',
             'c' => 'Shaun Pollock',
@@ -5432,8 +4988,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Kenyan cricketer was known for his performances in the 2003 Cricket World Cup?',
+                        'question' => 'Which Kenyan cricketer was known for his performances in the 2003 Cricket World Cup?',
             'a' => 'Steve Tikolo',
             'b' => 'Thomas Odoyo',
             'c' => 'Patrick Obuya',
@@ -5444,8 +4999,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketing country is famous for its cricket development programs and hosting international cricket events?',
+                        'question' => 'Which cricketing country is famous for its cricket development programs and hosting international cricket events?',
             'a' => 'Kenya',
             'b' => 'Nigeria',
             'c' => 'South Africa',
@@ -5456,8 +5010,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which player from South Africa is known for his exceptional batting performances in T20 internationals?',
+                        'question' => 'Which player from South Africa is known for his exceptional batting performances in T20 internationals?',
             'a' => 'AB de Villiers',
             'b' => 'Jacques Kallis',
             'c' => 'Faf du Plessis',
@@ -5468,8 +5021,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketing nation has produced several notable fast bowlers, including those who played in the 1990s?',
+                        'question' => 'Which cricketing nation has produced several notable fast bowlers, including those who played in the 1990s?',
             'a' => 'South Africa',
             'b' => 'Kenya',
             'c' => 'Zimbabwe',
@@ -5480,8 +5032,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer from Zimbabwe is known for his exceptional performances as a wicketkeeper-batsman?',
+                        'question' => 'Which cricketer from Zimbabwe is known for his exceptional performances as a wicketkeeper-batsman?',
             'a' => 'Andy Flower',
             'b' => 'Heath Streak',
             'c' => 'Grant Flower',
@@ -5494,8 +5045,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Nigerian city is known for hosting local cricket tournaments?',
+                        'question' => 'Which Nigerian city is known for hosting local cricket tournaments?',
             'a' => 'Abuja',
             'b' => 'Lagos',
             'c' => 'Kano',
@@ -5506,8 +5056,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer was renowned for his fast bowling?',
+                        'question' => 'Which South African cricketer was renowned for his fast bowling?',
             'a' => 'Jacques Kallis',
             'b' => 'Faf du Plessis',
             'c' => 'Dale Steyn',
@@ -5518,8 +5067,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricket team is known for its strong performances in domestic T20 leagues in Africa?',
+                        'question' => 'Which cricket team is known for its strong performances in domestic T20 leagues in Africa?',
             'a' => 'Kenya national team',
             'b' => 'South Africa national team',
             'c' => 'Zimbabwe national team',
@@ -5530,8 +5078,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which cricketer is famous for his role in the 2003 Cricket World Cup final for South Africa?',
+                        'question' => 'Which cricketer is famous for his role in the 2003 Cricket World Cup final for South Africa?',
             'a' => 'Shaun Pollock',
             'b' => 'Mark Boucher',
             'c' => 'AB de Villiers',
@@ -5542,8 +5089,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Zimbabwean player was known for his aggressive batting style?',
+                        'question' => 'Which Zimbabwean player was known for his aggressive batting style?',
             'a' => 'Heath Streak',
             'b' => 'Grant Flower',
             'c' => 'Andy Flower',
@@ -5554,8 +5100,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which city in South Africa is known for its historic cricket ground, Newlands?',
+                        'question' => 'Which city in South Africa is known for its historic cricket ground, Newlands?',
             'a' => 'Johannesburg',
             'b' => 'Durban',
             'c' => 'Cape Town',
@@ -5566,8 +5111,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Kenyan cricketer was known for his exceptional performances in the 2003 Cricket World Cup?',
+                        'question' => 'Which Kenyan cricketer was known for his exceptional performances in the 2003 Cricket World Cup?',
             'a' => 'Steve Tikolo',
             'b' => 'Kennedy Otieno',
             'c' => 'Patrick Obuya',
@@ -5578,8 +5122,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which South African cricketer is celebrated for his contributions as both a bowler and a batsman?',
+                        'question' => 'Which South African cricketer is celebrated for his contributions as both a bowler and a batsman?',
             'a' => 'Dale Steyn',
             'b' => 'Faf du Plessis',
             'c' => 'Jacques Kallis',
@@ -5590,8 +5133,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which country has produced the most famous cricketers in the African continent?',
+                        'question' => 'Which country has produced the most famous cricketers in the African continent?',
             'a' => 'Kenya',
             'b' => 'Zimbabwe',
             'c' => 'South Africa',
@@ -5602,8 +5144,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 92,
-            'question' => 'Which Nigerian cricketer was recognized for his contributions to the national team?',
+                        'question' => 'Which Nigerian cricketer was recognized for his contributions to the national team?',
             'a' => 'Chukwudi Ijeoma',
             'b' => 'Obinna Nwachukwu',
             'c' => 'Emmanuel Asare',
@@ -5615,8 +5156,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event is considered the most prestigious in track and field athletics?',
+                        'question' => 'Which event is considered the most prestigious in track and field athletics?',
             'a' => '100 meters sprint',
             'b' => 'Marathon',
             'c' => 'Pole vault',
@@ -5627,8 +5167,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which country is known for dominating long-distance running events?',
+                        'question' => 'Which country is known for dominating long-distance running events?',
             'a' => 'Jamaica',
             'b' => 'United States',
             'c' => 'Kenya',
@@ -5639,8 +5178,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who holds the men’s world record for the 100 meters sprint?',
+                        'question' => 'Who holds the men’s world record for the 100 meters sprint?',
             'a' => 'Yohan Blake',
             'b' => 'Usain Bolt',
             'c' => 'Tyson Gay',
@@ -5651,8 +5189,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event combines running, cycling, and swimming?',
+                        'question' => 'Which event combines running, cycling, and swimming?',
             'a' => 'Pentathlon',
             'b' => 'Triathlon',
             'c' => 'Decathlon',
@@ -5663,8 +5200,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the official distance of a marathon race?',
+                        'question' => 'What is the official distance of a marathon race?',
             'a' => '26.2 miles',
             'b' => '24.5 miles',
             'c' => '20.0 miles',
@@ -5675,8 +5211,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athlete won the most gold medals in a single Olympic Games?',
+                        'question' => 'Which athlete won the most gold medals in a single Olympic Games?',
             'a' => 'Carl Lewis',
             'b' => 'Usain Bolt',
             'c' => 'Michael Phelps',
@@ -5687,8 +5222,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which field event involves throwing a heavy metal ball?',
+                        'question' => 'Which field event involves throwing a heavy metal ball?',
             'a' => 'Discus throw',
             'b' => 'Shot put',
             'c' => 'Javelin throw',
@@ -5699,8 +5233,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which country hosted the first modern Olympic Games?',
+                        'question' => 'Which country hosted the first modern Olympic Games?',
             'a' => 'France',
             'b' => 'United Kingdom',
             'c' => 'Greece',
@@ -5711,8 +5244,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athlete is known as the "fastest man in the world"?',
+                        'question' => 'Which athlete is known as the "fastest man in the world"?',
             'a' => 'Mo Farah',
             'b' => 'Justin Gatlin',
             'c' => 'Usain Bolt',
@@ -5723,8 +5255,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event is NOT part of a decathlon?',
+                        'question' => 'Which event is NOT part of a decathlon?',
             'a' => 'Long jump',
             'b' => '200 meters',
             'c' => '110 meters hurdles',
@@ -5737,8 +5268,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which female athlete holds the world record for the 100 meters sprint?',
+                        'question' => 'Which female athlete holds the world record for the 100 meters sprint?',
             'a' => 'Florence Griffith-Joyner',
             'b' => 'Shelly-Ann Fraser-Pryce',
             'c' => 'Marion Jones',
@@ -5749,8 +5279,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In which year did the Olympic Games first feature the marathon event?',
+                        'question' => 'In which year did the Olympic Games first feature the marathon event?',
             'a' => '1896',
             'b' => '1904',
             'c' => '1900',
@@ -5761,8 +5290,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athletic event involves jumping over a bar without using poles?',
+                        'question' => 'Which athletic event involves jumping over a bar without using poles?',
             'a' => 'Long jump',
             'b' => 'Triple jump',
             'c' => 'High jump',
@@ -5773,8 +5301,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the primary material used in making modern discus?',
+                        'question' => 'What is the primary material used in making modern discus?',
             'a' => 'Steel',
             'b' => 'Aluminum',
             'c' => 'Wood',
@@ -5785,8 +5312,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event combines five different athletic activities?',
+                        'question' => 'Which event combines five different athletic activities?',
             'a' => 'Heptathlon',
             'b' => 'Pentathlon',
             'c' => 'Decathlon',
@@ -5797,8 +5323,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which country has won the most gold medals in Olympic athletics history?',
+                        'question' => 'Which country has won the most gold medals in Olympic athletics history?',
             'a' => 'Russia',
             'b' => 'United Kingdom',
             'c' => 'United States',
@@ -5809,8 +5334,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which track and field event did Carl Lewis NOT compete in at the Olympics?',
+                        'question' => 'Which track and field event did Carl Lewis NOT compete in at the Olympics?',
             'a' => 'Long jump',
             'b' => '100 meters',
             'c' => '200 meters',
@@ -5821,8 +5345,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In what year did the first women’s marathon take place in the Olympics?',
+                        'question' => 'In what year did the first women’s marathon take place in the Olympics?',
             'a' => '1984',
             'b' => '1976',
             'c' => '1992',
@@ -5833,8 +5356,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Olympic Games introduced the relay race?',
+                        'question' => 'Which Olympic Games introduced the relay race?',
             'a' => '1908 London',
             'b' => '1896 Athens',
             'c' => '1920 Antwerp',
@@ -5845,8 +5367,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is the first African athlete to win an Olympic gold medal in athletics?',
+                        'question' => 'Who is the first African athlete to win an Olympic gold medal in athletics?',
             'a' => 'Haile Gebrselassie',
             'b' => 'Kipchoge Keino',
             'c' => 'Abebe Bikila',
@@ -5858,8 +5379,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which African country hosted the first All-Africa Games in 1965?',
+                        'question' => 'Which African country hosted the first All-Africa Games in 1965?',
             'a' => 'Nigeria',
             'b' => 'South Africa',
             'c' => 'Kenya',
@@ -5870,8 +5390,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is the current world record holder for the men’s 400 meters?',
+                        'question' => 'Who is the current world record holder for the men’s 400 meters?',
             'a' => 'Michael Johnson',
             'b' => 'Usain Bolt',
             'c' => 'Wayde van Niekerk',
@@ -5882,8 +5401,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event did Nigerian sprinter Chioma Ajunwa win gold in at the 1996 Olympics?',
+                        'question' => 'Which event did Nigerian sprinter Chioma Ajunwa win gold in at the 1996 Olympics?',
             'a' => '100 meters',
             'b' => 'Long jump',
             'c' => '200 meters',
@@ -5894,8 +5412,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In which city did the first modern Olympic Games take place?',
+                        'question' => 'In which city did the first modern Olympic Games take place?',
             'a' => 'Paris',
             'b' => 'London',
             'c' => 'Athens',
@@ -5906,8 +5423,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the name of the event in which athletes compete in ten different track and field events?',
+                        'question' => 'What is the name of the event in which athletes compete in ten different track and field events?',
             'a' => 'Decathlon',
             'b' => 'Heptathlon',
             'c' => 'Pentathlon',
@@ -5918,8 +5434,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Kenyan athlete broke the marathon world record in 2018?',
+                        'question' => 'Which Kenyan athlete broke the marathon world record in 2018?',
             'a' => 'Wilson Kipsang',
             'b' => 'Paul Tergat',
             'c' => 'Eliud Kipchoge',
@@ -5930,8 +5445,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the official distance of a marathon?',
+                        'question' => 'What is the official distance of a marathon?',
             'a' => '26 miles',
             'b' => '26.2 miles',
             'c' => '26.5 miles',
@@ -5942,8 +5456,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Ethiopian runner won the 10,000 meters gold medal at the 2000 Sydney Olympics?',
+                        'question' => 'Which Ethiopian runner won the 10,000 meters gold medal at the 2000 Sydney Olympics?',
             'a' => 'Kenenisa Bekele',
             'b' => 'Haile Gebrselassie',
             'c' => 'Mamo Wolde',
@@ -5954,8 +5467,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In track and field, what is the maximum legal wind assistance for a record to be recognized?',
+                        'question' => 'In track and field, what is the maximum legal wind assistance for a record to be recognized?',
             'a' => '2.0 m/s',
             'b' => '1.5 m/s',
             'c' => '3.0 m/s',
@@ -5966,8 +5478,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who was the first female African athlete to win an Olympic gold medal in athletics?',
+                        'question' => 'Who was the first female African athlete to win an Olympic gold medal in athletics?',
             'a' => 'Merlene Ottey',
             'b' => 'Maria Mutola',
             'c' => 'Derartu Tulu',
@@ -5979,8 +5490,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won a gold medal in the long jump at the 2003 All-Africa Games?',
+                        'question' => 'Which Nigerian athlete won a gold medal in the long jump at the 2003 All-Africa Games?',
             'a' => 'Yusuf Alli',
             'b' => 'Blessing Okagbare',
             'c' => 'Chioma Ajunwa',
@@ -5991,8 +5501,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who holds the record for the most Olympic gold medals in track and field?',
+                        'question' => 'Who holds the record for the most Olympic gold medals in track and field?',
             'a' => 'Carl Lewis',
             'b' => 'Usain Bolt',
             'c' => 'Paavo Nurmi',
@@ -6003,8 +5512,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What year did Nigeria first compete in the Olympics?',
+                        'question' => 'What year did Nigeria first compete in the Olympics?',
             'a' => '1948',
             'b' => '1952',
             'c' => '1960',
@@ -6015,8 +5523,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event in athletics involves throwing a heavy spherical object as far as possible?',
+                        'question' => 'Which event in athletics involves throwing a heavy spherical object as far as possible?',
             'a' => 'Discus throw',
             'b' => 'Shot put',
             'c' => 'Hammer throw',
@@ -6027,8 +5534,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which country has won the most gold medals in the Olympic men’s marathon?',
+                        'question' => 'Which country has won the most gold medals in the Olympic men’s marathon?',
             'a' => 'Kenya',
             'b' => 'Ethiopia',
             'c' => 'United States',
@@ -6039,8 +5545,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is the first Nigerian to win a medal in athletics at the World Championships?',
+                        'question' => 'Who is the first Nigerian to win a medal in athletics at the World Championships?',
             'a' => 'Mary Onyali',
             'b' => 'Ajayi Agbebaku',
             'c' => 'Innocent Egbunike',
@@ -6051,8 +5556,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which race in track and field is known as the "metric mile"?',
+                        'question' => 'Which race in track and field is known as the "metric mile"?',
             'a' => '800 meters',
             'b' => '1500 meters',
             'c' => '1600 meters',
@@ -6063,8 +5567,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In which Olympics did Nigeria win its first ever gold medal in athletics?',
+                        'question' => 'In which Olympics did Nigeria win its first ever gold medal in athletics?',
             'a' => '1984',
             'b' => '1996',
             'c' => '2000',
@@ -6075,8 +5578,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athlete is nicknamed "The Flying Finn"?',
+                        'question' => 'Which athlete is nicknamed "The Flying Finn"?',
             'a' => 'Usain Bolt',
             'b' => 'Paavo Nurmi',
             'c' => 'Jesse Owens',
@@ -6087,8 +5589,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the last event of the decathlon in athletics?',
+                        'question' => 'What is the last event of the decathlon in athletics?',
             'a' => 'Pole vault',
             'b' => 'Discus throw',
             'c' => '1500 meters',
@@ -6100,8 +5601,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter won bronze in the 200 meters at the 1996 Olympics?',
+                        'question' => 'Which Nigerian sprinter won bronze in the 200 meters at the 1996 Olympics?',
             'a' => 'Olapade Adeniken',
             'b' => 'Francis Obikwelu',
             'c' => 'Mary Onyali',
@@ -6112,8 +5612,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is known as the "Queen of the Track" in Nigerian athletics?',
+                        'question' => 'Who is known as the "Queen of the Track" in Nigerian athletics?',
             'a' => 'Blessing Okagbare',
             'b' => 'Mary Onyali',
             'c' => 'Falilat Ogunkoya',
@@ -6124,8 +5623,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In which event did Chioma Ajunwa win Nigeria’s first Olympic gold medal?',
+                        'question' => 'In which event did Chioma Ajunwa win Nigeria’s first Olympic gold medal?',
             'a' => 'Triple jump',
             'b' => '100 meters',
             'c' => 'Long jump',
@@ -6136,8 +5634,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete set an African record in the 400 meters hurdles at the 2019 World Championships?',
+                        'question' => 'Which Nigerian athlete set an African record in the 400 meters hurdles at the 2019 World Championships?',
             'a' => 'Tobi Amusan',
             'b' => 'Glory Alozie',
             'c' => 'Efe Ajagba',
@@ -6148,8 +5645,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athlete is known for breaking the 10-second barrier in the 100 meters?',
+                        'question' => 'Which athlete is known for breaking the 10-second barrier in the 100 meters?',
             'a' => 'Christian Coleman',
             'b' => 'Yohan Blake',
             'c' => 'Usain Bolt',
@@ -6160,8 +5656,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'What is the length of a standard running track?',
+                        'question' => 'What is the length of a standard running track?',
             'a' => '200 meters',
             'b' => '300 meters',
             'c' => '400 meters',
@@ -6172,8 +5667,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which country did Nigerian sprinter Francis Obikwelu represent after switching nationality?',
+                        'question' => 'Which country did Nigerian sprinter Francis Obikwelu represent after switching nationality?',
             'a' => 'Portugal',
             'b' => 'Italy',
             'c' => 'France',
@@ -6184,8 +5678,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who holds the current world record for the men’s 100 meters?',
+                        'question' => 'Who holds the current world record for the men’s 100 meters?',
             'a' => 'Tyson Gay',
             'b' => 'Yohan Blake',
             'c' => 'Usain Bolt',
@@ -6196,8 +5689,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event did Hakeem Olajuwon excel in before focusing on basketball?',
+                        'question' => 'Which event did Hakeem Olajuwon excel in before focusing on basketball?',
             'a' => 'Shot put',
             'b' => 'Long jump',
             'c' => 'High jump',
@@ -6208,8 +5700,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian city hosted the first West African Games in 1977?',
+                        'question' => 'Which Nigerian city hosted the first West African Games in 1977?',
             'a' => 'Abuja',
             'b' => 'Lagos',
             'c' => 'Kano',
@@ -6222,8 +5713,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won a gold medal in the 400 meters at the 1996 Olympics?',
+                        'question' => 'Which Nigerian athlete won a gold medal in the 400 meters at the 1996 Olympics?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Chioma Ajunwa',
@@ -6234,8 +5724,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event did Nigerian athlete Ruth Usoro specialize in?',
+                        'question' => 'Which event did Nigerian athlete Ruth Usoro specialize in?',
             'a' => 'Triple jump',
             'b' => 'Long jump',
             'c' => '100 meters',
@@ -6246,8 +5735,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is the first African woman to win a World Championship medal in sprinting?',
+                        'question' => 'Who is the first African woman to win a World Championship medal in sprinting?',
             'a' => 'Blessing Okagbare',
             'b' => 'Glory Alozie',
             'c' => 'Mary Onyali',
@@ -6258,8 +5746,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for holding the African record in the 200 meters?',
+                        'question' => 'Which Nigerian sprinter is known for holding the African record in the 200 meters?',
             'a' => 'Divine Oduduru',
             'b' => 'Seye Ogunlewe',
             'c' => 'Oluwatobiloba Amusan',
@@ -6270,8 +5757,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athletics event combines running, jumping, and throwing disciplines?',
+                        'question' => 'Which athletics event combines running, jumping, and throwing disciplines?',
             'a' => 'Pentathlon',
             'b' => 'Heptathlon',
             'c' => 'Decathlon',
@@ -6282,8 +5768,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete was the first to win a World Championship gold medal?',
+                        'question' => 'Which Nigerian athlete was the first to win a World Championship gold medal?',
             'a' => 'Chioma Ajunwa',
             'b' => 'Glory Alozie',
             'c' => 'Tobi Amusan',
@@ -6294,8 +5779,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'In which event did Nigerian sprinter Deji Aliu compete?',
+                        'question' => 'In which event did Nigerian sprinter Deji Aliu compete?',
             'a' => '100 meters',
             'b' => '200 meters',
             'c' => '400 meters',
@@ -6306,8 +5790,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which athlete set the world record in the 800 meters in 2010?',
+                        'question' => 'Which athlete set the world record in the 800 meters in 2010?',
             'a' => 'Caster Semenya',
             'b' => 'David Rudisha',
             'c' => 'Wilson Kipketer',
@@ -6318,8 +5801,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for excelling in the high jump?',
+                        'question' => 'Which Nigerian athlete is known for excelling in the high jump?',
             'a' => 'Ruth Usoro',
             'b' => 'Tosin Oke',
             'c' => 'Doreen Amata',
@@ -6330,8 +5812,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter competed in the men’s 100 meters final at the 1984 Olympics?',
+                        'question' => 'Which Nigerian sprinter competed in the men’s 100 meters final at the 1984 Olympics?',
             'a' => 'Chidi Imoh',
             'b' => 'Davidson Ezinwa',
             'c' => 'Innocent Egbunike',
@@ -6344,8 +5825,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter won a silver medal in the 200 meters at the 1987 World Championships?',
+                        'question' => 'Which Nigerian sprinter won a silver medal in the 200 meters at the 1987 World Championships?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Innocent Egbunike',
             'c' => 'Olapade Adeniken',
@@ -6356,8 +5836,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete holds the African record for the women’s 400 meters?',
+                        'question' => 'Which Nigerian athlete holds the African record for the women’s 400 meters?',
             'a' => 'Falilat Ogunkoya',
             'b' => 'Mary Onyali',
             'c' => 'Chioma Ajunwa',
@@ -6368,8 +5847,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which event did Nigerian athlete Tosin Oke specialize in?',
+                        'question' => 'Which event did Nigerian athlete Tosin Oke specialize in?',
             'a' => 'High jump',
             'b' => 'Long jump',
             'c' => 'Triple jump',
@@ -6380,8 +5858,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter competed in the 400 meters hurdles at the 1996 Olympics?',
+                        'question' => 'Which Nigerian sprinter competed in the 400 meters hurdles at the 1996 Olympics?',
             'a' => 'Enefiok Udo-Obong',
             'b' => 'Sunday Bada',
             'c' => 'Segun Makinde',
@@ -6392,8 +5869,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for winning a bronze medal in the women’s 4x100 meters relay at the 1992 Olympics?',
+                        'question' => 'Which Nigerian sprinter is known for winning a bronze medal in the women’s 4x100 meters relay at the 1992 Olympics?',
             'a' => 'Christy Opara-Thompson',
             'b' => 'Tosin Adeloye',
             'c' => 'Fatimah Yusuf',
@@ -6404,8 +5880,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for setting a world indoor record in the triple jump in 1997?',
+                        'question' => 'Which Nigerian athlete is known for setting a world indoor record in the triple jump in 1997?',
             'a' => 'Glory Alozie',
             'b' => 'Tosin Oke',
             'c' => 'Ajayi Agbebaku',
@@ -6416,8 +5891,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Who is the first Nigerian to win an Olympic medal in track and field?',
+                        'question' => 'Who is the first Nigerian to win an Olympic medal in track and field?',
             'a' => 'Chioma Ajunwa',
             'b' => 'Mary Onyali',
             'c' => 'Bukar Babaji',
@@ -6428,8 +5902,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is a multiple-time African champion in the men’s decathlon?',
+                        'question' => 'Which Nigerian athlete is a multiple-time African champion in the men’s decathlon?',
             'a' => 'Deji Aliu',
             'b' => 'Akeem Olajuwon',
             'c' => 'Francis Obikwelu',
@@ -6440,8 +5913,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the 100 meters hurdles at the 2022 World Championships?',
+                        'question' => 'Which Nigerian athlete won gold in the 100 meters hurdles at the 2022 World Championships?',
             'a' => 'Glory Alozie',
             'b' => 'Tobi Amusan',
             'c' => 'Christy Opara-Thompson',
@@ -6452,8 +5924,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete competed in the women’s long jump final at the 2019 World Championships?',
+                        'question' => 'Which Nigerian athlete competed in the women’s long jump final at the 2019 World Championships?',
             'a' => 'Ese Brume',
             'b' => 'Blessing Okagbare',
             'c' => 'Chioma Ajunwa',
@@ -6466,8 +5937,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 4x400 meters relay at the 2008 Beijing Olympics?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 4x400 meters relay at the 2008 Beijing Olympics?',
             'a' => 'Uchenna Emedolu',
             'b' => 'Abiola Onakoya',
             'c' => 'Adegoke Akinmoladun',
@@ -6478,8 +5948,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete competed in the women’s 200 meters final at the 2012 London Olympics?',
+                        'question' => 'Which Nigerian athlete competed in the women’s 200 meters final at the 2012 London Olympics?',
             'a' => 'Mary Onyali',
             'b' => 'Tosin Adeloye',
             'c' => 'Blessing Okagbare',
@@ -6490,8 +5959,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won the men’s 800 meters at the 2018 African Championships?',
+                        'question' => 'Which Nigerian athlete won the men’s 800 meters at the 2018 African Championships?',
             'a' => 'Akinjide Adeniran',
             'b' => 'Emmanuel Gyang',
             'c' => 'Jude Monye',
@@ -6502,8 +5970,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the women’s 4x100 meters relay at the 2016 Rio Olympics?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the women’s 4x100 meters relay at the 2016 Rio Olympics?',
             'a' => 'Glory Alozie',
             'b' => 'Tosin Oke',
             'c' => 'Blessing Okagbare',
@@ -6514,8 +5981,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter won gold in the 4x400 meters relay at the 1998 World Championships?',
+                        'question' => 'Which Nigerian sprinter won gold in the 4x400 meters relay at the 1998 World Championships?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Sunday Bada',
             'c' => 'Innocent Egbunike',
@@ -6526,8 +5992,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete set the national record for the men’s 200 meters in 2019?',
+                        'question' => 'Which Nigerian athlete set the national record for the men’s 200 meters in 2019?',
             'a' => 'Divine Oduduru',
             'b' => 'Emmanuel Gyang',
             'c' => 'Tayo Kaseem',
@@ -6538,8 +6003,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian long jumper won the bronze medal at the 2016 Rio Olympics?',
+                        'question' => 'Which Nigerian long jumper won the bronze medal at the 2016 Rio Olympics?',
             'a' => 'Ese Brume',
             'b' => 'Chioma Ajunwa',
             'c' => 'Glory Alozie',
@@ -6550,8 +6014,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the men’s 4x400 meters relay at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the men’s 4x400 meters relay at the 1996 Atlanta Olympics?',
             'a' => 'Akinmoladun Adegoke',
             'b' => 'Sunday Bada',
             'c' => 'Chidi Imoh',
@@ -6562,8 +6025,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete set the African record in the men’s high jump in 2020?',
+                        'question' => 'Which Nigerian athlete set the African record in the men’s high jump in 2020?',
             'a' => 'Ibrahim Ganiyu',
             'b' => 'Daniel Kome',
             'c' => 'Mutiu Agboke',
@@ -6574,8 +6036,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for her performance in the women’s 400 meters hurdles?',
+                        'question' => 'Which Nigerian athlete is known for her performance in the women’s 400 meters hurdles?',
             'a' => 'Toyin Augustus',
             'b' => 'Blessing Okagbare',
             'c' => 'Glory Alozie',
@@ -6587,8 +6048,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for setting the national record in the women’s 400 meters?',
+                        'question' => 'Which Nigerian athlete is known for setting the national record in the women’s 400 meters?',
             'a' => 'Toyin Augustus',
             'b' => 'Fatimoh Muhammed',
             'c' => 'Glory Alozie',
@@ -6599,8 +6059,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter won gold in the 200 meters at the 1994 Commonwealth Games?',
+                        'question' => 'Which Nigerian sprinter won gold in the 200 meters at the 1994 Commonwealth Games?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Sunday Uti',
             'c' => 'Mary Onyali',
@@ -6611,8 +6070,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 4x100 meters relay at the 1998 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 4x100 meters relay at the 1998 Commonwealth Games?',
             'a' => 'Chidi Imoh',
             'b' => 'Francis Obikwelu',
             'c' => 'Olapade Adeniken',
@@ -6623,8 +6081,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for her bronze medal in the long jump at the 2019 World Championships?',
+                        'question' => 'Which Nigerian athlete is known for her bronze medal in the long jump at the 2019 World Championships?',
             'a' => 'Chioma Ajunwa',
             'b' => 'Blessing Okagbare',
             'c' => 'Glory Alozie',
@@ -6635,8 +6092,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won silver in the women’s 100 meters hurdles at the 2000 Sydney Olympics?',
+                        'question' => 'Which Nigerian athlete won silver in the women’s 100 meters hurdles at the 2000 Sydney Olympics?',
             'a' => 'Mary Onyali',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Glory Alozie',
@@ -6647,8 +6103,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for her achievements in the 100 meters and 200 meters events?',
+                        'question' => 'Which Nigerian sprinter is known for her achievements in the 100 meters and 200 meters events?',
             'a' => 'Blessing Okagbare',
             'b' => 'Tosin Oke',
             'c' => 'Ese Brume',
@@ -6659,8 +6114,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s 400 meters at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s 400 meters at the 1996 Atlanta Olympics?',
             'a' => 'Tosin Adeloye',
             'b' => 'Mary Onyali',
             'c' => 'Falilat Ogunkoya',
@@ -6671,8 +6125,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won bronze in the women’s 4x400 meters relay at the 1992 Barcelona Olympics?',
+                        'question' => 'Which Nigerian athlete won bronze in the women’s 4x400 meters relay at the 1992 Barcelona Olympics?',
             'a' => 'Fatimoh Muhammed',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Glory Alozie',
@@ -6683,8 +6136,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 400 meters hurdles at the 1995 All-Africa Games?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 400 meters hurdles at the 1995 All-Africa Games?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Sunday Bada',
             'c' => 'Enefiok Udo-Obong',
@@ -6695,8 +6147,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for his performance in the men’s triple jump at the 1990 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete is known for his performance in the men’s triple jump at the 1990 Commonwealth Games?',
             'a' => 'Ajayi Agbebaku',
             'b' => 'Yusuf Alli',
             'c' => 'Samson Oyeledun',
@@ -6709,8 +6160,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won a silver medal in the men’s 400 meters at the 1988 Seoul Olympics?',
+                        'question' => 'Which Nigerian athlete won a silver medal in the men’s 400 meters at the 1988 Seoul Olympics?',
             'a' => 'Chidi Imoh',
             'b' => 'Sunday Bada',
             'c' => 'Davidson Ezinwa',
@@ -6721,8 +6171,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the women’s 100 meters at the 2003 All-Africa Games?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the women’s 100 meters at the 2003 All-Africa Games?',
             'a' => 'Mary Onyali',
             'b' => 'Chioma Ajunwa',
             'c' => 'Blessing Okagbare',
@@ -6733,8 +6182,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won bronze in the men’s 4x400 meters relay at the 2000 Sydney Olympics?',
+                        'question' => 'Which Nigerian athlete won bronze in the men’s 4x400 meters relay at the 2000 Sydney Olympics?',
             'a' => 'Sunday Bada',
             'b' => 'Udeme Ekpeyong',
             'c' => 'Innocent Egbunike',
@@ -6745,8 +6193,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for her long jump gold at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete is known for her long jump gold at the 1996 Atlanta Olympics?',
             'a' => 'Blessing Okagbare',
             'b' => 'Ese Brume',
             'c' => 'Chioma Ajunwa',
@@ -6757,8 +6204,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter holds the national record for the 100 meters?',
+                        'question' => 'Which Nigerian sprinter holds the national record for the 100 meters?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Olusoji Fasuba',
             'c' => 'Tosin Oke',
@@ -6769,8 +6215,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 200 meters at the 1999 All-Africa Games?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 200 meters at the 1999 All-Africa Games?',
             'a' => 'Olapade Adeniken',
             'b' => 'Innocent Egbunike',
             'c' => 'Francis Obikwelu',
@@ -6781,8 +6226,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s 4x100 meters relay at the 1997 World Championships?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s 4x100 meters relay at the 1997 World Championships?',
             'a' => 'Mary Onyali',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Glory Alozie',
@@ -6793,8 +6237,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the men’s long jump at the 1990 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the men’s long jump at the 1990 Commonwealth Games?',
             'a' => 'Samson Oyeledun',
             'b' => 'Yusuf Alli',
             'c' => 'Ajayi Agbebaku',
@@ -6805,8 +6248,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won silver in the women’s 4x400 meters relay at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete won silver in the women’s 4x400 meters relay at the 1996 Atlanta Olympics?',
             'a' => 'Fatimoh Muhammed',
             'b' => 'Mary Onyali',
             'c' => 'Falilat Ogunkoya',
@@ -6817,8 +6259,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for setting the African record in the 100 meters?',
+                        'question' => 'Which Nigerian sprinter is known for setting the African record in the 100 meters?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Francis Obikwelu',
             'c' => 'Olusoji Fasuba',
@@ -6830,8 +6271,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s 200 meters at the 1994 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s 200 meters at the 1994 Commonwealth Games?',
             'a' => 'Tosin Oke',
             'b' => 'Mary Onyali',
             'c' => 'Chioma Ajunwa',
@@ -6842,8 +6282,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for setting a world indoor record in the 60 meters?',
+                        'question' => 'Which Nigerian athlete is known for setting a world indoor record in the 60 meters?',
             'a' => 'Francis Obikwelu',
             'b' => 'Davidson Ezinwa',
             'c' => 'Olusoji Fasuba',
@@ -6854,8 +6293,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 4x400 meters relay at the 1995 World Championships?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 4x400 meters relay at the 1995 World Championships?',
             'a' => 'Sunday Bada',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Innocent Egbunike',
@@ -6866,8 +6304,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for winning silver in the men’s 200 meters at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian sprinter is known for winning silver in the men’s 200 meters at the 1996 Atlanta Olympics?',
             'a' => 'Olapade Adeniken',
             'b' => 'Davidson Ezinwa',
             'c' => 'Francis Obikwelu',
@@ -6878,8 +6315,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won bronze in the women’s 400 meters at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete won bronze in the women’s 400 meters at the 1996 Atlanta Olympics?',
             'a' => 'Fatimoh Muhammed',
             'b' => 'Glory Alozie',
             'c' => 'Falilat Ogunkoya',
@@ -6890,8 +6326,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for setting the African record in the triple jump?',
+                        'question' => 'Which Nigerian athlete is known for setting the African record in the triple jump?',
             'a' => 'Innocent Egbunike',
             'b' => 'Tosin Oke',
             'c' => 'Samson Oyeledun',
@@ -6902,8 +6337,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s 100 meters hurdles at the 1996 African Championships?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s 100 meters hurdles at the 1996 African Championships?',
             'a' => 'Chioma Ajunwa',
             'b' => 'Toyin Augustus',
             'c' => 'Glory Alozie',
@@ -6914,8 +6348,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for his achievements in the decathlon?',
+                        'question' => 'Which Nigerian athlete is known for his achievements in the decathlon?',
             'a' => 'Yusuf Alli',
             'b' => 'Samson Oyeledun',
             'c' => 'Davidson Ezinwa',
@@ -6926,8 +6359,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter won silver in the men’s 4x100 meters relay at the 1997 World Championships?',
+                        'question' => 'Which Nigerian sprinter won silver in the men’s 4x100 meters relay at the 1997 World Championships?',
             'a' => 'Olapade Adeniken',
             'b' => 'Davidson Ezinwa',
             'c' => 'Francis Obikwelu',
@@ -6938,8 +6370,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the men’s 110 meters hurdles at the 1990 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the men’s 110 meters hurdles at the 1990 Commonwealth Games?',
             'a' => 'Tosin Oke',
             'b' => 'Chioma Ajunwa',
             'c' => 'Davidson Ezinwa',
@@ -6951,8 +6382,7 @@ class Sport17 extends Seeder
     
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s long jump at the 1996 Atlanta Olympics?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s long jump at the 1996 Atlanta Olympics?',
             'a' => 'Tosin Oke',
             'b' => 'Mary Onyali',
             'c' => 'Chioma Ajunwa',
@@ -6963,8 +6393,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for setting an African record in the 100 meters?',
+                        'question' => 'Which Nigerian athlete is known for setting an African record in the 100 meters?',
             'a' => 'Francis Obikwelu',
             'b' => 'Davidson Ezinwa',
             'c' => 'Olusoji Fasuba',
@@ -6975,8 +6404,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the women’s 4x400 meters relay at the 1996 African Championships?',
+                        'question' => 'Which Nigerian athlete won gold in the women’s 4x400 meters relay at the 1996 African Championships?',
             'a' => 'Falilat Ogunkoya',
             'b' => 'Glory Alozie',
             'c' => 'Mary Onyali',
@@ -6987,8 +6415,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian sprinter is known for winning gold in the men’s 200 meters at the 2003 All-Africa Games?',
+                        'question' => 'Which Nigerian sprinter is known for winning gold in the men’s 200 meters at the 2003 All-Africa Games?',
             'a' => 'Uchenna Emedolu',
             'b' => 'Davidson Ezinwa',
             'c' => 'Francis Obikwelu',
@@ -6999,8 +6426,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 400 meters at the 1990 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 400 meters at the 1990 Commonwealth Games?',
             'a' => 'Sunday Bada',
             'b' => 'Udeme Ekpeyong',
             'c' => 'Davidson Ezinwa',
@@ -7011,8 +6437,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning silver in the women’s 200 meters at the 2000 Sydney Olympics?',
+                        'question' => 'Which Nigerian athlete is known for winning silver in the women’s 200 meters at the 2000 Sydney Olympics?',
             'a' => 'Fatimoh Muhammed',
             'b' => 'Glory Alozie',
             'c' => 'Mary Onyali',
@@ -7023,8 +6448,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete set the African record in the women’s 100 meters?',
+                        'question' => 'Which Nigerian athlete set the African record in the women’s 100 meters?',
             'a' => 'Chioma Ajunwa',
             'b' => 'Mary Onyali',
             'c' => 'Tosin Oke',
@@ -7035,8 +6459,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won gold in the men’s 4x100 meters relay at the 1994 Commonwealth Games?',
+                        'question' => 'Which Nigerian athlete won gold in the men’s 4x100 meters relay at the 1994 Commonwealth Games?',
             'a' => 'Francis Obikwelu',
             'b' => 'Davidson Ezinwa',
             'c' => 'Uchenna Emedolu',
@@ -7047,8 +6470,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete is known for winning gold in the women’s 400 meters at the 2003 All-Africa Games?',
+                        'question' => 'Which Nigerian athlete is known for winning gold in the women’s 400 meters at the 2003 All-Africa Games?',
             'a' => 'Glory Alozie',
             'b' => 'Falilat Ogunkoya',
             'c' => 'Mary Onyali',
@@ -7059,8 +6481,7 @@ class Sport17 extends Seeder
         ],
         [
             'field_id' => 17,
-            'sub_fields_id' => 93,
-            'question' => 'Which Nigerian athlete won bronze in the men’s 400 meters hurdles at the 1984 Los Angeles Olympics?',
+                        'question' => 'Which Nigerian athlete won bronze in the men’s 400 meters hurdles at the 1984 Los Angeles Olympics?',
             'a' => 'Davidson Ezinwa',
             'b' => 'Olapade Adeniken',
             'c' => 'Innocent Egbunike',

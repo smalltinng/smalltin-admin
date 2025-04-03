@@ -17,7 +17,7 @@ class VisualArts extends Seeder
        
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is known for painting the "Mona Lisa"?',
         'a' => 'Leonardo da Vinci',
         'b' => 'Michelangelo',
@@ -29,7 +29,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painting depicts a starry night sky over a small town?',
         'a' => 'The Persistence of Memory',
         'b' => 'The Scream',
@@ -41,7 +41,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is known for the painting "The Birth of Venus"?',
         'a' => 'Sandro Botticelli',
         'b' => 'Titian',
@@ -53,7 +53,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who painted the famous work "The Persistence of Memory"?',
         'a' => 'Pablo Picasso',
         'b' => 'Salvador Dalí',
@@ -65,7 +65,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting is an iconic example of the Surrealist movement?',
         'a' => 'Girl with a Pearl Earring',
         'b' => 'The Persistence of Memory',
@@ -77,7 +77,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painter is famous for his series of Water Lilies paintings?',
         'a' => 'Claude Monet',
         'b' => 'Édouard Manet',
@@ -89,7 +89,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist painted the "The Last Supper"?',
         'a' => 'Leonardo da Vinci',
         'b' => 'Michelangelo',
@@ -101,7 +101,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painting by Edvard Munch depicts a figure with an agonized expression?',
         'a' => 'The Scream',
         'b' => 'Starry Night',
@@ -113,7 +113,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting style is characterized by small, thin, yet visible brush strokes that emphasize light?',
         'a' => 'Baroque',
         'b' => 'Impressionism',
@@ -125,7 +125,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painter is known for cubist works such as "Les Demoiselles d’Avignon"?',
         'a' => 'Paul Gauguin',
         'b' => 'Pablo Picasso',
@@ -138,7 +138,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist painted "The Girl with a Pearl Earring"?',
         'a' => 'Johannes Vermeer',
         'b' => 'Rembrandt',
@@ -150,7 +150,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who is considered one of the pioneers of abstract art, known for his "Composition" series?',
         'a' => 'Piet Mondrian',
         'b' => 'Jackson Pollock',
@@ -162,7 +162,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is famous for his "Blue Period" paintings?',
         'a' => 'Vincent van Gogh',
         'b' => 'Pablo Picasso',
@@ -174,7 +174,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which French artist painted "The Luncheon on the Grass"?',
         'a' => 'Claude Monet',
         'b' => 'Édouard Manet',
@@ -186,7 +186,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is known for creating works using the Pointillism technique?',
         'a' => 'Paul Cézanne',
         'b' => 'Georges Seurat',
@@ -198,7 +198,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting technique involves the use of light and shadow to create the illusion of depth?',
         'a' => 'Sfumato',
         'b' => 'Impasto',
@@ -210,7 +210,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Spanish painter is known for the masterpiece "Guernica"?',
         'a' => 'Salvador Dalí',
         'b' => 'Joan Miró',
@@ -222,7 +222,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Renaissance painter is known for the ceiling of the Sistine Chapel?',
         'a' => 'Michelangelo',
         'b' => 'Raphael',
@@ -234,7 +234,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting style was pioneered by artists like Claude Monet and Edgar Degas?',
         'a' => 'Impressionism',
         'b' => 'Expressionism',
@@ -246,7 +246,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist painted "Las Meninas," a famous depiction of the Spanish royal family?',
         'a' => 'Francisco Goya',
         'b' => 'Diego Velázquez',
@@ -259,7 +259,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Dutch artist is famous for his painting "The Night Watch"?',
         'a' => 'Rembrandt',
         'b' => 'Johannes Vermeer',
@@ -271,7 +271,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who painted the iconic "The Birth of Venus"?',
         'a' => 'Sandro Botticelli',
         'b' => 'Leonardo da Vinci',
@@ -283,7 +283,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is known for his swirling, emotional work "Starry Night"?',
         'a' => 'Paul Gauguin',
         'b' => 'Vincent van Gogh',
@@ -295,7 +295,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Italian painter is known for his frescoes in the Vatican, including "The School of Athens"?',
         'a' => 'Michelangelo',
         'b' => 'Raphael',
@@ -307,7 +307,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painter created the "Water Lilies" series?',
         'a' => 'Claude Monet',
         'b' => 'Édouard Manet',
@@ -319,7 +319,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting by Edvard Munch is a famous expression of anxiety?',
         'a' => 'The Scream',
         'b' => 'Melancholy',
@@ -331,7 +331,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is famous for the painting "The Persistence of Memory," featuring melting clocks?',
         'a' => 'Salvador Dalí',
         'b' => 'René Magritte',
@@ -343,7 +343,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who was the artist behind the iconic mural "The Last Supper"?',
         'a' => 'Michelangelo',
         'b' => 'Leonardo da Vinci',
@@ -355,7 +355,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Spanish artist is known for his "Black Paintings" series?',
         'a' => 'Pablo Picasso',
         'b' => 'Salvador Dalí',
@@ -367,7 +367,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painting technique did Leonardo da Vinci use for his masterpiece "Mona Lisa"?',
         'a' => 'Sfumato',
         'b' => 'Impasto',
@@ -380,7 +380,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting is considered Leonardo da Vinci’s masterpiece and one of the most famous in the world?',
         'a' => 'The Last Supper',
         'b' => 'The Baptism of Christ',
@@ -392,7 +392,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who painted "Guernica," a powerful anti-war painting?',
         'a' => 'Joan Miró',
         'b' => 'Francisco Goya',
@@ -404,7 +404,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painting by Vincent van Gogh features a famous depiction of cypress trees and swirling stars?',
         'a' => 'Irises',
         'b' => 'Sunflowers',
@@ -416,7 +416,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which post-impressionist artist is famous for his use of bold colors and distorted forms, as seen in "The Card Players"?',
         'a' => 'Georges Seurat',
         'b' => 'Paul Gauguin',
@@ -428,7 +428,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Renaissance artist painted the ceiling of the Sistine Chapel?',
         'a' => 'Leonardo da Vinci',
         'b' => 'Donatello',
@@ -440,7 +440,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist created the "Blue Nude" series, known for its vibrant use of color?',
         'a' => 'Henri Matisse',
         'b' => 'Pablo Picasso',
@@ -452,7 +452,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist painted the surrealist work "The Lovers," featuring two figures with covered faces?',
         'a' => 'Max Ernst',
         'b' => 'Joan Miró',
@@ -464,7 +464,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous artwork by Pablo Picasso depicts five nude women with abstract, distorted forms?',
         'a' => 'Three Musicians',
         'b' => 'Les Demoiselles d’Avignon',
@@ -476,7 +476,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painter is credited with the invention of Cubism, alongside Georges Braque?',
         'a' => 'Marc Chagall',
         'b' => 'Wassily Kandinsky',
@@ -488,7 +488,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Renaissance artist is famous for his painting "The Creation of Adam"?',
         'a' => 'Sandro Botticelli',
         'b' => 'Raphael',
@@ -501,7 +501,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which artist is famous for the painting "The Persistence of Memory," featuring melting clocks?',
         'a' => 'René Magritte',
         'b' => 'Salvador Dalí',
@@ -513,7 +513,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painter is known for the work "The Birth of Venus," showcasing the goddess emerging from the sea?',
         'a' => 'Leonardo da Vinci',
         'b' => 'Raphael',
@@ -525,7 +525,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which post-impressionist artist is famous for the painting "The Yellow House" and "Sunflowers"?',
         'a' => 'Georges Seurat',
         'b' => 'Vincent van Gogh',
@@ -537,7 +537,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which modernist painter is known for "The Dance" and "The Red Room"?',
         'a' => 'Henri Matisse',
         'b' => 'Pablo Picasso',
@@ -549,7 +549,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Who painted the work "Liberty Leading the People," commemorating the July Revolution of 1830?',
         'a' => 'Édouard Manet',
         'b' => 'Gustave Courbet',
@@ -561,7 +561,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Baroque artist is known for dramatic use of light and shadow, as seen in "The Calling of Saint Matthew"?',
         'a' => 'Peter Paul Rubens',
         'b' => 'Caravaggio',
@@ -573,7 +573,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous Spanish artist painted the "Third of May 1808," depicting the Spanish resistance to Napoleon?',
         'a' => 'Francisco Goya',
         'b' => 'El Greco',
@@ -585,7 +585,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which famous painting by Edvard Munch features a figure with an agonized expression against a tumultuous sky?',
         'a' => 'The Dance of Life',
         'b' => 'Starry Night',
@@ -597,7 +597,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which Impressionist artist is known for his series of paintings featuring water lilies?',
         'a' => 'Pierre-Auguste Renoir',
         'b' => 'Edgar Degas',
@@ -609,7 +609,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 41,
+        
         'question' => 'Which painter is known for his portrait of the "Girl with a Pearl Earring"?',
         'a' => 'Rembrandt',
         'b' => 'Johannes Vermeer',
@@ -622,7 +622,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted "David," one of the most famous Renaissance sculptures?',
         'a' => 'Donatello',
         'b' => 'Michelangelo',
@@ -634,7 +634,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist is famous for sculpting "The Thinker"?',
         'a' => 'Auguste Rodin',
         'b' => 'Antoine-Louis Barye',
@@ -646,7 +646,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'The Statue of Liberty was a gift to the United States from which country?',
         'a' => 'Germany',
         'b' => 'United Kingdom',
@@ -658,7 +658,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which ancient Greek sculptor created the statue of Zeus at Olympia, one of the Seven Wonders of the Ancient World?',
         'a' => 'Polykleitos',
         'b' => 'Phidias',
@@ -670,7 +670,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who is the sculptor behind "The Gates of Hell," a monumental work inspired by Dante’s Inferno?',
         'a' => 'Jean-Antoine Houdon',
         'b' => 'Camille Claudel',
@@ -682,7 +682,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is associated with the creation of the bronze statue "Winged Victory of Samothrace"?',
         'a' => 'Phidias',
         'b' => 'Paionios',
@@ -694,7 +694,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'The "Venus de Milo," a famous ancient Greek sculpture, is believed to depict which goddess?',
         'a' => 'Aphrodite',
         'b' => 'Athena',
@@ -706,7 +706,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which Baroque artist created the dynamic sculpture "Apollo and Daphne"?',
         'a' => 'Gian Lorenzo Bernini',
         'b' => 'Michelangelo',
@@ -718,7 +718,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which modern artist is famous for his "mobile" sculptures, which are kinetic and often suspended in air?',
         'a' => 'Henry Moore',
         'b' => 'Alexander Calder',
@@ -730,7 +730,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created the monumental sculpture of "Mount Rushmore," featuring the faces of four U.S. presidents?',
         'a' => 'Gutzon Borglum',
         'b' => 'Daniel Chester French',
@@ -743,7 +743,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is known for the minimalist sculptures "Untitled" made from steel and aluminum?',
         'a' => 'Auguste Rodin',
         'b' => 'Constantin Brâncuși',
@@ -755,7 +755,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted "The Pietà," a masterpiece located in St. Peter’s Basilica, Vatican City?',
         'a' => 'Donatello',
         'b' => 'Gian Lorenzo Bernini',
@@ -767,7 +767,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist is famous for the sculpture "The Kiss"?',
         'a' => 'Jean-Baptiste Carpeaux',
         'b' => 'Camille Claudel',
@@ -779,7 +779,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'The "Great Sphinx of Giza" is thought to depict the face of which Egyptian pharaoh?',
         'a' => 'Tutankhamun',
         'b' => 'Ramses II',
@@ -791,7 +791,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which modern sculptor is known for his abstract, biomorphic forms, including the famous "Reclining Figure"?',
         'a' => 'Jean Arp',
         'b' => 'Constantin Brâncuși',
@@ -803,7 +803,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which famous sculptor created the massive statue "Christ the Redeemer" in Rio de Janeiro?',
         'a' => 'Antoine Bourdelle',
         'b' => 'Auguste Rodin',
@@ -815,7 +815,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which early 20th-century sculptor is famous for his tall, thin human figures, exemplified by "Walking Man I"?',
         'a' => 'Pablo Picasso',
         'b' => 'Jean Arp',
@@ -827,7 +827,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which Roman emperor’s likeness is depicted in the famous sculpture "Augustus of Prima Porta"?',
         'a' => 'Nero',
         'b' => 'Julius Caesar',
@@ -839,7 +839,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor designed the Vietnam Veterans Memorial in Washington, D.C.?',
         'a' => 'Maya Lin',
         'b' => 'Daniel Chester French',
@@ -851,7 +851,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who is known for creating large, vibrant balloon animal sculptures, such as "Balloon Dog"?',
         'a' => 'Damien Hirst',
         'b' => 'Jeff Koons',
@@ -864,7 +864,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor created "The Thinker"?',
         'a' => 'Henry Moore',
         'b' => 'Alexander Calder',
@@ -876,7 +876,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted the famous bronze statue "David"?',
         'a' => 'Donatello',
         'b' => 'Bernini',
@@ -888,7 +888,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is known for mobile sculptures?',
         'a' => 'Barbara Hepworth',
         'b' => 'Jean Arp',
@@ -900,7 +900,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created the massive sculpture "Mount Rushmore"?',
         'a' => 'Auguste Rodin',
         'b' => 'Henry Moore',
@@ -912,7 +912,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is associated with the work "Venus of Willendorf"?',
         'a' => 'Jean Arp',
         'b' => 'Henry Moore',
@@ -924,7 +924,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is credited with the work "Bird in Space"?',
         'a' => 'Henry Moore',
         'b' => 'Barbara Hepworth',
@@ -936,7 +936,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist sculpted "The Burghers of Calais"?',
         'a' => 'Auguste Rodin',
         'b' => 'Michelangelo',
@@ -948,7 +948,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which Renaissance sculptor created the "Rape of Proserpina"?',
         'a' => 'Leonardo da Vinci',
         'b' => 'Michelangelo',
@@ -960,7 +960,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which modern artist created the giant public sculpture "Maman"?',
         'a' => 'Alexander Calder',
         'b' => 'Louise Bourgeois',
@@ -972,7 +972,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who is known for creating "The Risen Christ"?',
         'a' => 'Michelangelo',
         'b' => 'Donatello',
@@ -984,7 +984,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted the famous statue "Laocoön and His Sons"?',
         'a' => 'Donatello',
         'b' => 'Michelangelo',
@@ -996,7 +996,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which modern sculptor is known for "The Kiss"?',
         'a' => 'Pablo Picasso',
         'b' => 'Constantin Brâncuși',
@@ -1008,7 +1008,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who is known for the sculpture "The Ecstasy of Saint Teresa"?',
         'a' => 'Donatello',
         'b' => 'Henry Moore',
@@ -1020,7 +1020,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is known for the "Statue of Liberty"?',
         'a' => 'Jean Arp',
         'b' => 'Constantin Brâncuși',
@@ -1032,7 +1032,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created the "Winged Victory of Samothrace"?',
         'a' => 'Praxiteles',
         'b' => 'Michelangelo',
@@ -1044,7 +1044,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which famous sculpture represents "The Dying Gaul"?',
         'a' => 'Athenodoros',
         'b' => 'Jean Arp',
@@ -1056,7 +1056,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which famous work is a large statue of the Roman Emperor Augustus?',
         'a' => 'Gian Lorenzo Bernini',
         'b' => 'Alexander Calder',
@@ -1068,7 +1068,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted "The Gates of Hell"?',
         'a' => 'Auguste Rodin',
         'b' => 'Michelangelo',
@@ -1080,7 +1080,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist is known for the monumental sculpture "Crazy Horse Memorial"?',
         'a' => 'Henry Moore',
         'b' => 'Constantin Brâncuși',
@@ -1092,7 +1092,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created "Nike of Samothrace", a masterpiece of Hellenistic sculpture?',
         'a' => 'An unknown Greek artist',
         'b' => 'Michelangelo',
@@ -1105,7 +1105,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist is known for creating the "David" sculpture that predates Michelangelo’s version?',
         'a' => 'Jean Arp',
         'b' => 'Auguste Rodin',
@@ -1117,7 +1117,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who sculpted the large outdoor installation "The Gates" in Central Park?',
         'a' => 'Jean Arp',
         'b' => 'Gian Lorenzo Bernini',
@@ -1129,7 +1129,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which sculptor is associated with the work "The Thinker"?',
         'a' => 'Michelangelo',
         'b' => 'Donatello',
@@ -1141,7 +1141,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist created "Bird in Space"?',
         'a' => 'Constantin Brâncuși',
         'b' => 'Jean Arp',
@@ -1153,7 +1153,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which of these sculptures is known as "The Little Mermaid"?',
         'a' => 'Donatello’s David',
         'b' => 'Auguste Rodin’s The Kiss',
@@ -1165,7 +1165,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created the famous sculpture "The Burghers of Calais"?',
         'a' => 'Michelangelo',
         'b' => 'Jean Arp',
@@ -1177,7 +1177,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist is known for the marble sculpture "The Dying Slave"?',
         'a' => 'Auguste Rodin',
         'b' => 'Jean Arp',
@@ -1189,7 +1189,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which famous sculpture is a bronze depiction of a riderless horse?',
         'a' => 'Constantin Brâncuși’s Bird in Space',
         'b' => 'Michelangelo’s David',
@@ -1201,7 +1201,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Who created the sculpture known as "Man with a Hat"?',
         'a' => 'Pablo Picasso',
         'b' => 'Jean Arp',
@@ -1213,7 +1213,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 42,
+        
         'question' => 'Which artist created "The Gates of Paradise" reliefs?',
         'a' => 'Donatello',
         'b' => 'Constantin Brâncuși',
@@ -1226,7 +1226,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Who is known for the iconic photograph "Migrant Mother"?',
         'a' => 'Edward Weston',
         'b' => 'Dorothea Lange',
@@ -1238,7 +1238,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photographer is known for the "Afghan Girl" cover photo on National Geographic?',
         'a' => 'Henri Cartier-Bresson',
         'b' => 'Steve McCurry',
@@ -1250,7 +1250,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which artist is famous for the "The Americans" photo series?',
         'a' => 'Garry Winogrand',
         'b' => 'William Eggleston',
@@ -1262,7 +1262,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for a photograph that captures a subject in its natural environment?',
         'a' => 'Portrait',
         'b' => 'Landscape',
@@ -1274,7 +1274,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which famous photojournalist is known for the "Vietnam War" coverage?',
         'a' => 'Larry Burrows',
         'b' => 'Nick Ut',
@@ -1286,7 +1286,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for a photograph taken without the subject’s awareness?',
         'a' => 'Formal',
         'b' => 'Candid',
@@ -1298,7 +1298,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these photographers is associated with the concept of "Street Photography"?',
         'a' => 'Edward Weston',
         'b' => 'Diane Arbus',
@@ -1310,7 +1310,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the process of printing a photograph onto a light-sensitive surface called?',
         'a' => 'Exposing',
         'b' => 'Developing',
@@ -1322,7 +1322,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these is known for pioneering color photography?',
         'a' => 'Cindy Sherman',
         'b' => 'Diane Arbus',
@@ -1334,7 +1334,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photo technique involves capturing multiple exposures in a single frame?',
         'a' => 'High Dynamic Range',
         'b' => 'Double Exposure',
@@ -1346,7 +1346,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which camera type is characterized by a viewfinder that shows a reflected image of the subject?',
         'a' => 'Mirrorless',
         'b' => 'Rangefinder',
@@ -1358,7 +1358,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Who is credited with developing the first photographic process known as daguerreotype?',
         'a' => 'William Henry Fox Talbot',
         'b' => 'Joseph Nicéphore Niépce',
@@ -1370,7 +1370,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of lens is commonly used for close-up photography?',
         'a' => 'Wide-Angle Lens',
         'b' => 'Telephoto Lens',
@@ -1382,7 +1382,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the primary purpose of a polarizing filter in photography?',
         'a' => 'Increase Depth of Field',
         'b' => 'Reduce Glare and Reflections',
@@ -1394,7 +1394,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photography technique involves using a long exposure to capture motion in a static image?',
         'a' => 'High Dynamic Range',
         'b' => 'Long Exposure',
@@ -1406,7 +1406,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the name of the process that converts digital images into physical prints?',
         'a' => 'Scanning',
         'b' => 'Printing',
@@ -1418,7 +1418,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these photographers is famous for capturing portraits of celebrities and cultural figures?',
         'a' => 'Annie Leibovitz',
         'b' => 'Garry Winogrand',
@@ -1430,7 +1430,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for adjusting the brightness and contrast of a digital image?',
         'a' => 'Cropping',
         'b' => 'Editing',
@@ -1442,7 +1442,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these is a well-known type of camera used for instant photography?',
         'a' => 'Leica M3',
         'b' => 'Canon EOS 5D',
@@ -1454,7 +1454,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which technique uses a special lens to create a miniature effect in photographs?',
         'a' => 'Macro Photography',
         'b' => 'Tilt-Shift Photography',
@@ -1466,7 +1466,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which term describes the amount of light that enters the camera through the lens?',
         'a' => 'ISO',
         'b' => 'Shutter Speed',
@@ -1479,7 +1479,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of camera uses a mirror to reflect light from the lens up into the viewfinder?',
         'a' => 'Mirrorless Camera',
         'b' => 'Rangefinder Camera',
@@ -1491,7 +1491,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the primary purpose of using a tripod in photography?',
         'a' => 'To Increase Depth of Field',
         'b' => 'To Stabilize the Camera for Sharp Images',
@@ -1503,7 +1503,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photographic technique involves combining multiple images to create a panoramic view?',
         'a' => 'High Dynamic Range Imaging',
         'b' => 'Stitched Panorama',
@@ -1515,7 +1515,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for the amount of light sensitivity of the camera sensor?',
         'a' => 'Aperture',
         'b' => 'ISO',
@@ -1527,7 +1527,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which feature in a camera allows you to control the amount of light entering the lens?',
         'a' => 'ISO Settings',
         'b' => 'Aperture',
@@ -1539,7 +1539,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these photographers is renowned for their work with environmental portraits?',
         'a' => 'Richard Avedon',
         'b' => 'Ansel Adams',
@@ -1551,7 +1551,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for the process of adjusting the colors and tones in a photograph after it has been taken?',
         'a' => 'Cropping',
         'b' => 'Color Correction',
@@ -1563,7 +1563,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which camera accessory is used to control the light exposure on a subject?',
         'a' => 'Light Meter',
         'b' => 'Lens Hood',
@@ -1575,7 +1575,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photography technique involves adjusting the lens to create a shallow depth of field?',
         'a' => 'Macro Photography',
         'b' => 'Portrait Photography',
@@ -1587,7 +1587,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which element of a photograph refers to the arrangement of objects and subjects within the frame?',
         'a' => 'Focus',
         'b' => 'Composition',
@@ -1600,7 +1600,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photographic technique involves adjusting the camera settings to capture a high level of detail in both shadows and highlights?',
         'a' => 'High Dynamic Range (HDR)',
         'b' => 'Long Exposure',
@@ -1612,7 +1612,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What type of lens is typically used for capturing wide-angle scenes?',
         'a' => 'Telephoto Lens',
         'b' => 'Macro Lens',
@@ -1624,7 +1624,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these settings controls the duration the camera’s sensor is exposed to light?',
         'a' => 'Aperture',
         'b' => 'ISO',
@@ -1636,7 +1636,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What does the term "bokeh" refer to in photography?',
         'a' => 'The Depth of Field',
         'b' => 'The Out-of-Focus Areas in an Image',
@@ -1648,7 +1648,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these is known for their use of unconventional camera angles and perspectives?',
         'a' => 'Cindy Sherman',
         'b' => 'Dorothea Lange',
@@ -1660,7 +1660,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of photography focuses on capturing subjects with very close-up detail?',
         'a' => 'Portrait Photography',
         'b' => 'Landscape Photography',
@@ -1672,7 +1672,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the primary function of a polarizing filter in photography?',
         'a' => 'To Increase Depth of Field',
         'b' => 'To Reduce Glare and Reflections',
@@ -1684,7 +1684,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photographer is famous for their black-and-white portraits of American celebrities in the 1960s?',
         'a' => 'Richard Avedon',
         'b' => 'Helmut Newton',
@@ -1696,7 +1696,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the purpose of a lens hood in photography?',
         'a' => 'To Improve Image Sharpness',
         'b' => 'To Prevent Lens Flare',
@@ -1708,7 +1708,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these photographers is best known for their work in photojournalism during the Great Depression?',
         'a' => 'Walker Evans',
         'b' => 'Henri Cartier-Bresson',
@@ -1721,7 +1721,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of the following is a common method for reducing camera shake during handheld shooting?',
         'a' => 'Increasing ISO',
         'b' => 'Using a Tripod',
@@ -1733,7 +1733,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the term for the technique of adjusting the depth of field to emphasize the subject of a photograph?',
         'a' => 'Focus Stacking',
         'b' => 'Selective Focus',
@@ -1745,7 +1745,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of camera sensor is commonly used in digital SLR cameras for high-quality image capture?',
         'a' => 'Full-Frame Sensor',
         'b' => 'Medium Format Sensor',
@@ -1757,7 +1757,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which photography technique involves capturing a series of images to create a single composite photograph?',
         'a' => 'Time-Lapse Photography',
         'b' => 'Panoramic Photography',
@@ -1769,7 +1769,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of photography is focused on capturing images of objects or scenes at close range with fine detail?',
         'a' => 'Architectural Photography',
         'b' => 'Fashion Photography',
@@ -1781,7 +1781,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these is a characteristic feature of a tilt-shift lens?',
         'a' => 'Variable Focal Length',
         'b' => 'Adjustable Perspective',
@@ -1793,7 +1793,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'What is the technique of adjusting colors and tones in an image to correct for lighting conditions called?',
         'a' => 'Color Grading',
         'b' => 'White Balancing',
@@ -1805,7 +1805,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which of these is a common technique for creating a dramatic effect in portrait photography?',
         'a' => 'Backlighting',
         'b' => 'Wide Aperture',
@@ -1817,7 +1817,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which type of lens is ideal for capturing detailed images of distant subjects?',
         'a' => 'Wide-Angle Lens',
         'b' => 'Telephoto Lens',
@@ -1829,7 +1829,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 43,
+        
         'question' => 'Which camera setting determines the amount of light that enters the camera and affects the depth of field?',
         'a' => 'Shutter Speed',
         'b' => 'Aperture',
@@ -1843,7 +1843,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves using parallel lines to create shading in a drawing?',
         'a' => 'Hatching',
         'b' => 'Stippling',
@@ -1855,7 +1855,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a drawing technique that uses small dots to create texture?',
         'a' => 'Stippling',
         'b' => 'Hatching',
@@ -1867,7 +1867,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which tool is commonly used to create fine lines in pencil drawings?',
         'a' => 'Charcoal',
         'b' => 'Graphite Pencil',
@@ -1879,7 +1879,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique involves creating smooth gradations between light and dark areas?',
         'a' => 'Hatching',
         'b' => 'Blending',
@@ -1891,7 +1891,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a quick, loose drawing used to capture a subject’s basic shape?',
         'a' => 'Sketch',
         'b' => 'Study',
@@ -1903,7 +1903,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which of these is a common method for creating texture in a drawing?',
         'a' => 'Cross-Hatching',
         'b' => 'Blending',
@@ -1915,7 +1915,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for drawing that involves outlining the shape of a subject without focusing on details?',
         'a' => 'Contour Drawing',
         'b' => 'Gesture Drawing',
@@ -1927,7 +1927,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which material is known for its use in both shading and creating fine lines in drawings?',
         'a' => 'Ink',
         'b' => 'Graphite',
@@ -1939,7 +1939,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves using varying pressure to create different shades in a pencil drawing?',
         'a' => 'Scumbling',
         'b' => 'Blending',
@@ -1951,7 +1951,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a drawing created without looking at the paper?',
         'a' => 'Contour Drawing',
         'b' => 'Gesture Drawing',
@@ -1963,7 +1963,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which type of drawing uses a method that emphasizes the direction and flow of lines?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -1976,7 +1976,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique is used to create texture by applying irregular marks in a drawing?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -1988,7 +1988,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which type of pencil is best for achieving a dark, rich line in drawing?',
         'a' => 'H Pencil',
         'b' => 'B Pencil',
@@ -2000,7 +2000,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique involves creating a series of intersecting lines to form a shaded area?',
         'a' => 'Stippling',
         'b' => 'Cross-Hatching',
@@ -2012,7 +2012,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What technique involves creating a drawing by focusing on the subject’s overall shape and structure?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2024,7 +2024,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing medium is known for its ability to create deep blacks and rich textures?',
         'a' => 'Charcoal',
         'b' => 'Graphite',
@@ -2036,7 +2036,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves using a pencil to create a smooth transition between light and dark areas?',
         'a' => 'Blending',
         'b' => 'Hatching',
@@ -2048,7 +2048,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to emphasize the flow and energy of the subject?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2060,7 +2060,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the purpose of using a kneaded eraser in drawing?',
         'a' => 'To create texture',
         'b' => 'To blend shades',
@@ -2072,7 +2072,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves making irregular, organic marks to create texture or shading?',
         'a' => 'Scumbling',
         'b' => 'Cross-Hatching',
@@ -2084,7 +2084,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a drawing made without any preliminary lines or sketches?',
         'a' => 'Direct Drawing',
         'b' => 'Contour Drawing',
@@ -2096,7 +2096,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to create a soft, gradual transition between light and dark areas?',
         'a' => 'Blending',
         'b' => 'Cross-Hatching',
@@ -2109,7 +2109,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique is used to create texture by applying irregular marks in a drawing?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -2121,7 +2121,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which type of pencil is best for achieving a dark, rich line in drawing?',
         'a' => 'B Pencil',
         'b' => 'H Pencil',
@@ -2133,7 +2133,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique involves creating a series of intersecting lines to form a shaded area?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -2145,7 +2145,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What technique involves using a pencil to create a smooth transition between light and dark areas?',
         'a' => 'Blending',
         'b' => 'Cross-Hatching',
@@ -2157,7 +2157,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing medium is known for its ability to create deep blacks and rich textures?',
         'a' => 'Charcoal',
         'b' => 'Graphite',
@@ -2169,7 +2169,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to emphasize the flow and energy of the subject?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2181,7 +2181,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the purpose of using a kneaded eraser in drawing?',
         'a' => 'Create texture',
         'b' => 'Blend shades',
@@ -2193,7 +2193,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which of these techniques involves making irregular, organic marks to create texture or shading?',
         'a' => 'Cross-Hatching',
         'b' => 'Hatching',
@@ -2205,7 +2205,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a drawing made without any preliminary lines or sketches?',
         'a' => 'Direct Drawing',
         'b' => 'Contour Drawing',
@@ -2217,7 +2217,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to create a soft, gradual transition between light and dark areas?',
         'a' => 'Stippling',
         'b' => 'Cross-Hatching',
@@ -2229,7 +2229,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique captures a subject’s movement in a single drawing?',
         'a' => 'Detailed Drawing',
         'b' => 'Contour Drawing',
@@ -2242,7 +2242,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves creating texture by applying irregular marks in a drawing?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -2254,7 +2254,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which type of pencil is best for achieving a dark, rich line in drawing?',
         'a' => 'B Pencil',
         'b' => 'H Pencil',
@@ -2266,7 +2266,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique involves creating a series of intersecting lines to form a shaded area?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -2278,7 +2278,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What technique involves using a pencil to create a smooth transition between light and dark areas?',
         'a' => 'Blending',
         'b' => 'Cross-Hatching',
@@ -2290,7 +2290,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing medium is known for its ability to create deep blacks and rich textures?',
         'a' => 'Charcoal',
         'b' => 'Graphite',
@@ -2302,7 +2302,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to emphasize the flow and energy of the subject?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2314,7 +2314,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the purpose of using a kneaded eraser in drawing?',
         'a' => 'Create texture',
         'b' => 'Blend shades',
@@ -2326,7 +2326,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which of these techniques involves making irregular, organic marks to create texture or shading?',
         'a' => 'Cross-Hatching',
         'b' => 'Hatching',
@@ -2338,7 +2338,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for a drawing made without any preliminary lines or sketches?',
         'a' => 'Direct Drawing',
         'b' => 'Contour Drawing',
@@ -2350,7 +2350,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique creates a soft, gradual transition between light and dark areas?',
         'a' => 'Stippling',
         'b' => 'Cross-Hatching',
@@ -2362,7 +2362,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique captures a subject’s movement in a single drawing?',
         'a' => 'Detailed Drawing',
         'b' => 'Contour Drawing',
@@ -2375,7 +2375,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique involves using parallel lines to create shading?',
         'a' => 'Cross-Hatching',
         'b' => 'Scumbling',
@@ -2387,7 +2387,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for drawing using only lines without shading?',
         'a' => 'Contour Drawing',
         'b' => 'Gesture Drawing',
@@ -2399,7 +2399,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which of these is a technique for adding texture by making small dots?',
         'a' => 'Hatching',
         'b' => 'Cross-Hatching',
@@ -2411,7 +2411,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique uses a soft pencil to create a smooth texture?',
         'a' => 'Scumbling',
         'b' => 'Hatching',
@@ -2423,7 +2423,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which drawing technique is used to create depth by varying the density of lines?',
         'a' => 'Hatching',
         'b' => 'Cross-Hatching',
@@ -2435,7 +2435,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What tool is used to create precise and sharp lines in a drawing?',
         'a' => 'Eraser',
         'b' => 'Blending Stump',
@@ -2447,7 +2447,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which type of paper is typically used for detailed pencil drawings?',
         'a' => 'Newsprint',
         'b' => 'Watercolor Paper',
@@ -2459,7 +2459,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique involves drawing without lifting the pencil from the paper?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2471,7 +2471,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'What is the term for the technique where the artist uses quick, expressive lines to capture the essence of the subject?',
         'a' => 'Gesture Drawing',
         'b' => 'Contour Drawing',
@@ -2483,7 +2483,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 44,
+        
         'question' => 'Which technique uses varied pressure to create different values of tone?',
         'a' => 'Stippling',
         'b' => 'Cross-Hatching',
@@ -2497,7 +2497,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What term describes the visual arrangement of text and images on a page?',
         'a' => 'Layout',
         'b' => 'Typography',
@@ -2509,7 +2509,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which color model is primarily used for digital displays?',
         'a' => 'CMYK',
         'b' => 'Pantone',
@@ -2521,7 +2521,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What does the acronym CMYK stand for?',
         'a' => 'Cyan, Magenta, Yellow, Key (Black)',
         'b' => 'Cyan, Magenta, Yellow, Key (White)',
@@ -2533,7 +2533,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design principle involves using space to separate and organize content?',
         'a' => 'Contrast',
         'b' => 'Alignment',
@@ -2545,7 +2545,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What tool is used to adjust color and tone in graphic design software?',
         'a' => 'Eraser',
         'b' => 'Gradient Tool',
@@ -2557,7 +2557,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which software is commonly used for vector graphics design?',
         'a' => 'Photoshop',
         'b' => 'Illustrator',
@@ -2569,7 +2569,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design principle is used to create a focal point in a design?',
         'a' => 'Repetition',
         'b' => 'Alignment',
@@ -2581,7 +2581,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the size and spacing of text characters in design?',
         'a' => 'Kerning',
         'b' => 'Tracking',
@@ -2593,7 +2593,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which of the following is a principle of effective logo design?',
         'a' => 'Complexity',
         'b' => 'Readability',
@@ -2605,7 +2605,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What does the term "typography" refer to in graphic design?',
         'a' => 'Image manipulation',
         'b' => 'Text design and arrangement',
@@ -2617,7 +2617,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which element is crucial for creating a balanced and harmonious design?',
         'a' => 'Contrast',
         'b' => 'Alignment',
@@ -2630,7 +2630,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the primary purpose of a mood board in graphic design?',
         'a' => 'To outline technical specifications',
         'b' => 'To provide a visual reference and inspiration',
@@ -2642,7 +2642,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which type of graphic design focuses on creating visual content for print media?',
         'a' => 'Digital Design',
         'b' => 'Web Design',
@@ -2654,7 +2654,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What term describes the use of grids to organize content in a design?',
         'a' => 'Hierarchy',
         'b' => 'Modular System',
@@ -2666,7 +2666,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design principle involves the arrangement of elements to create a sense of movement?',
         'a' => 'Contrast',
         'b' => 'Rhythm',
@@ -2678,7 +2678,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for adjusting the size of text to fit a specific design space?',
         'a' => 'Scaling',
         'b' => 'Kerning',
@@ -2690,7 +2690,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which type of typography involves the use of decorative fonts?',
         'a' => 'Serif Typography',
         'b' => 'Sans Serif Typography',
@@ -2702,7 +2702,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the process of selecting and arranging typefaces in design called?',
         'a' => 'Typography',
         'b' => 'Font Management',
@@ -2714,7 +2714,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which file format is commonly used for high-resolution print designs?',
         'a' => 'JPEG',
         'b' => 'PNG',
@@ -2726,7 +2726,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the name of the principle that helps create a sense of unity and cohesiveness in design?',
         'a' => 'Alignment',
         'b' => 'Contrast',
@@ -2738,7 +2738,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design element involves choosing and applying colors to a design?',
         'a' => 'Color Theory',
         'b' => 'Typography',
@@ -2751,7 +2751,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design tool is primarily used for creating vector graphics?',
         'a' => 'Photoshop',
         'b' => 'Illustrator',
@@ -2763,7 +2763,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for creating designs that work well on both print and digital media?',
         'a' => 'Responsive Design',
         'b' => 'Cross-Platform Design',
@@ -2775,7 +2775,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design concept involves using a limited color palette to create visual harmony?',
         'a' => 'Color Blocking',
         'b' => 'Monochromatic Scheme',
@@ -2787,7 +2787,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for a design that adjusts its layout based on the screen size?',
         'a' => 'Fixed Layout',
         'b' => 'Fluid Layout',
@@ -2799,7 +2799,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which principle of design emphasizes the difference between elements to create visual interest?',
         'a' => 'Contrast',
         'b' => 'Alignment',
@@ -2811,7 +2811,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the primary use of a wireframe in web design?',
         'a' => 'To create detailed visual mockups',
         'b' => 'To outline the structure and layout',
@@ -2823,7 +2823,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design method involves creating multiple variations of a concept to explore different solutions?',
         'a' => 'Prototyping',
         'b' => 'Brainstorming',
@@ -2835,7 +2835,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which color mode is best suited for designs intended for digital screens?',
         'a' => 'CMYK',
         'b' => 'RGB',
@@ -2847,7 +2847,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which graphic design concept involves the arrangement of elements in a way that draws attention to key parts?',
         'a' => 'Hierarchy',
         'b' => 'Alignment',
@@ -2859,7 +2859,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the space between lines of text in a design?',
         'a' => 'Kerning',
         'b' => 'Tracking',
@@ -2871,7 +2871,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design principle involves repeating elements to create cohesion in a design?',
         'a' => 'Contrast',
         'b' => 'Repetition',
@@ -2884,7 +2884,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design tool is specifically used for creating layouts and typography for print and digital media?',
         'a' => 'Illustrator',
         'b' => 'Photoshop',
@@ -2896,7 +2896,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What term describes the use of visual elements to guide the viewer’s eye across a design?',
         'a' => 'Flow',
         'b' => 'Movement',
@@ -2908,7 +2908,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which graphic design term refers to the arrangement of elements within a design to create a sense of unity?',
         'a' => 'Alignment',
         'b' => 'Proximity',
@@ -2920,7 +2920,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the process of adjusting the space between characters in a line of text?',
         'a' => 'Kerning',
         'b' => 'Leading',
@@ -2932,7 +2932,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which color scheme uses colors that are opposite each other on the color wheel?',
         'a' => 'Analogous',
         'b' => 'Monochromatic',
@@ -2944,7 +2944,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the primary goal of using white space in graphic design?',
         'a' => 'To fill gaps in the design',
         'b' => 'To create contrast and emphasis',
@@ -2956,7 +2956,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design concept involves repeating elements to create a pattern or rhythm?',
         'a' => 'Contrast',
         'b' => 'Alignment',
@@ -2968,7 +2968,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the visual weight distribution in a design?',
         'a' => 'Contrast',
         'b' => 'Balance',
@@ -2980,7 +2980,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which software is commonly used for vector-based graphic design?',
         'a' => 'Photoshop',
         'b' => 'InDesign',
@@ -2992,7 +2992,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the practice of creating multiple design concepts to choose the best solution called?',
         'a' => 'Prototyping',
         'b' => 'Sketching',
@@ -3004,7 +3004,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which term describes the visual strategy of using different types of fonts to create visual interest?',
         'a' => 'Typography',
         'b' => 'Font Pairing',
@@ -3017,7 +3017,7 @@ class VisualArts extends Seeder
 
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the primary purpose of a mood board in graphic design?',
         'a' => 'To finalize the design',
         'b' => 'To gather visual inspiration and direction',
@@ -3029,7 +3029,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the use of a grid system to organize content in a design?',
         'a' => 'Layout',
         'b' => 'Composition',
@@ -3041,7 +3041,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design principle involves creating a visual hierarchy to guide the viewer’s attention?',
         'a' => 'Contrast',
         'b' => 'Alignment',
@@ -3053,7 +3053,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What term describes the visual impact created by placing elements in contrasting colors or sizes?',
         'a' => 'Contrast',
         'b' => 'Emphasis',
@@ -3065,7 +3065,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which design software is commonly used for web and interface design?',
         'a' => 'Sketch',
         'b' => 'Illustrator',
@@ -3077,7 +3077,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for the art of arranging type in a visually appealing way?',
         'a' => 'Lettering',
         'b' => 'Typography',
@@ -3089,7 +3089,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which color model is used for digital screens and web design?',
         'a' => 'CMYK',
         'b' => 'Pantone',
@@ -3101,7 +3101,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What is the term for a preliminary drawing or sketch of a design layout?',
         'a' => 'Mockup',
         'b' => 'Prototype',
@@ -3113,7 +3113,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which principle of design is concerned with the visual weight distribution in a composition?',
         'a' => 'Repetition',
         'b' => 'Alignment',
@@ -3125,7 +3125,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'What design term refers to the consistency of visual elements throughout a design project?',
         'a' => 'Uniformity',
         'b' => 'Consistency',
@@ -3137,7 +3137,7 @@ class VisualArts extends Seeder
     ],
     [
         'field_id' => 9,
-        'sub_fields_id' => 45,
+        
         'question' => 'Which technique involves creating a visual flow by arranging elements in a deliberate manner?',
         'a' => 'Movement',
         'b' => 'Hierarchy',

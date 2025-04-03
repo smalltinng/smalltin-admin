@@ -15,7 +15,7 @@ class QuestionSeeder extends Seeder
     $questions = [
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the first law of motion?',
         'a' => 'Every object moves in a straight line unless acted upon by a force.',
         'b' => 'For every action, there is an equal and opposite reaction.',
@@ -28,7 +28,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'Who formulated the laws of motion?',
         'a' => 'Albert Einstein',
         'b' => 'Galileo Galilei',
@@ -41,7 +41,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of force?',
         'a' => 'Pascal',
         'b' => 'Newton',
@@ -54,7 +54,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the acceleration due to gravity on Earth?',
         'a' => '9.8 m/s^2',
         'b' => '3.7 m/s^2',
@@ -67,7 +67,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for kinetic energy?',
         'a' => '1/2 mv^2',
         'b' => 'mv',
@@ -80,7 +80,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the measure of inertia?',
         'a' => 'Weight',
         'b' => 'Mass',
@@ -93,7 +93,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of work?',
         'a' => 'Newton',
         'b' => 'Pascal',
@@ -106,7 +106,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the second law of motion?',
         'a' => 'Every object moves in a straight line unless acted upon by a force.',
         'b' => 'For every action, there is an equal and opposite reaction.',
@@ -119,7 +119,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for potential energy?',
         'a' => '1/2 mv^2',
         'b' => 'mv',
@@ -132,7 +132,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of power?',
         'a' => 'Newton',
         'b' => 'Pascal',
@@ -145,7 +145,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the third law of motion?',
         'a' => 'Every object moves in a straight line unless acted upon by a force.',
         'b' => 'For every action, there is an equal and opposite reaction.',
@@ -158,7 +158,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'Who discovered the law of universal gravitation?',
         'a' => 'Albert Einstein',
         'b' => 'Galileo Galilei',
@@ -171,7 +171,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for force?',
         'a' => 'F = ma',
         'b' => 'E = mc^2',
@@ -184,7 +184,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of mass?',
         'a' => 'Kilogram',
         'b' => 'Gram',
@@ -197,7 +197,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of velocity?',
         'a' => 'm/s',
         'b' => 'm/s^2',
@@ -210,7 +210,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for momentum?',
         'a' => 'p = mv',
         'b' => 'F = ma',
@@ -223,7 +223,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of energy?',
         'a' => 'Joule',
         'b' => 'Watt',
@@ -236,7 +236,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for pressure?',
         'a' => 'P = F/A',
         'b' => 'W = mg',
@@ -249,7 +249,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the unit of pressure?',
         'a' => 'Pascal',
         'b' => 'Newton',
@@ -262,7 +262,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 1,
+        
         'question' => 'What is the formula for weight?',
         'a' => 'W = mg',
         'b' => 'F = ma',
@@ -275,7 +275,7 @@ class QuestionSeeder extends Seeder
     ]
     , [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the fundamental concept of quantum mechanics?',
         'a' => 'Wave-particle duality',
         'b' => 'Conservation of momentum',
@@ -288,7 +288,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'Who is considered the father of quantum mechanics?',
         'a' => 'Albert Einstein',
         'b' => 'Niels Bohr',
@@ -301,7 +301,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What does the Heisenberg Uncertainty Principle state?',
         'a' => 'Energy is quantized in discrete packets called quanta.',
         'b' => 'Particles can exhibit both wave and particle characteristics.',
@@ -314,7 +314,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is Schrödinger\'s famous thought experiment?',
         'a' => 'Schrödinger\'s Dog',
         'b' => 'Schrödinger\'s Atom',
@@ -327,7 +327,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the name of the principle that suggests particles exist in all states simultaneously until observed?',
         'a' => 'Wave-particle duality',
         'b' => 'Quantum superposition',
@@ -340,7 +340,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the phenomenon where two particles remain connected so that the state of one affects the state of the other?',
         'a' => 'Interference',
         'b' => 'Diffraction',
@@ -353,7 +353,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What equation is used to describe the wave function of a quantum system?',
         'a' => 'Einstein\'s mass-energy equivalence',
         'b' => 'Planck\'s equation',
@@ -366,7 +366,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What principle explains that the physical properties of particles are quantized?',
         'a' => 'Wave-particle duality',
         'b' => 'Quantization',
@@ -379,7 +379,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What does quantum mechanics primarily study?',
         'a' => 'Large-scale physical phenomena',
         'b' => 'Gravitational fields',
@@ -392,7 +392,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'Who proposed the quantum theory of light?',
         'a' => 'Albert Einstein',
         'b' => 'Niels Bohr',
@@ -405,7 +405,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What term describes the smallest possible discrete unit of any physical property?',
         'a' => 'Photon',
         'b' => 'Quantum',
@@ -418,7 +418,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What does the principle of complementarity state?',
         'a' => 'Objects can exhibit both wave-like and particle-like properties.',
         'b' => 'Energy is conserved in a closed system.',
@@ -431,7 +431,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What are the two main types of statistics used in quantum mechanics?',
         'a' => 'Fermi-Dirac and Bose-Einstein',
         'b' => 'Newtonian and Lagrangian',
@@ -444,7 +444,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the Pauli Exclusion Principle?',
         'a' => 'Two identical fermions cannot occupy the same quantum state simultaneously.',
         'b' => 'Particles cannot travel faster than the speed of light.',
@@ -457,7 +457,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is a quantum state?',
         'a' => 'A specific arrangement of particles in an atom',
         'b' => 'The state of an electron in a hydrogen atom',
@@ -470,7 +470,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is quantum tunneling?',
         'a' => 'The phenomenon where particles can pass through potential barriers',
         'b' => 'The process of splitting a particle into two',
@@ -483,7 +483,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the significance of Planck\'s constant?',
         'a' => 'It relates the energy of a photon to its frequency.',
         'b' => 'It describes the rate of expansion of the universe.',
@@ -496,7 +496,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the wave function in quantum mechanics?',
         'a' => 'A function that describes the energy levels of an atom',
         'b' => 'A function that represents the probability amplitude of a particle\'s position and momentum',
@@ -509,7 +509,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the main concept behind the Copenhagen interpretation?',
         'a' => 'Particles exist in a single state until measured.',
         'b' => 'Particles exist in multiple states simultaneously until observed.',
@@ -522,7 +522,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is the significance of the double-slit experiment?',
         'a' => 'It demonstrates the particle nature of light.',
         'b' => 'It demonstrates the wave nature of light.',
@@ -534,7 +534,7 @@ class QuestionSeeder extends Seeder
         
     ],  [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is quantum mechanics?',
         'a' => 'The study of large-scale objects in the universe',
         'b' => 'The study of microscopic particles and their behavior',
@@ -546,7 +546,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 2,
+        
         'question' => 'What is a quantum superposition?',
         'a' => 'A state where a particle is in multiple positions at once',
         'b' => 'A state where a particle is stationary',
@@ -558,7 +558,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the first law of thermodynamics?',
         'a' => 'Energy cannot be created or destroyed, only transformed from one form to another.',
         'b' => 'For every action, there is an equal and opposite reaction.',
@@ -570,7 +570,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is entropy?',
         'a' => 'The measure of disorder or randomness in a system',
         'b' => 'The force that attracts objects toward the center of the Earth',
@@ -582,7 +582,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the second law of thermodynamics?',
         'a' => 'Energy cannot be created or destroyed, only transformed from one form to another.',
         'b' => 'Entropy of an isolated system always increases over time.',
@@ -594,7 +594,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is heat?',
         'a' => 'The measure of disorder or randomness in a system',
         'b' => 'The energy transferred between objects due to a temperature difference',
@@ -606,7 +606,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is a heat engine?',
         'a' => 'A device that converts thermal energy into mechanical work',
         'b' => 'A device that measures the temperature of an object',
@@ -618,7 +618,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the Carnot cycle?',
         'a' => 'A theoretical cycle of four reversible processes',
         'b' => 'A cycle that describes the behavior of gases under constant pressure',
@@ -630,7 +630,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is specific heat capacity?',
         'a' => 'The measure of disorder or randomness in a system',
         'b' => 'The energy required to change the temperature of a unit mass of a substance by one degree Celsius',
@@ -642,7 +642,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is an adiabatic process?',
         'a' => 'A process where heat is exchanged between a system and its surroundings',
         'b' => 'A process where no heat is exchanged between a system and its surroundings',
@@ -654,7 +654,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is an isothermal process?',
         'a' => 'A process where heat is exchanged between a system and its surroundings',
         'b' => 'A process where no heat is exchanged between a system and its surroundings',
@@ -666,7 +666,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the difference between heat and temperature?',
         'a' => 'Heat is a measure of the total energy in a system, while temperature is a measure of the average kinetic energy of particles.',
         'b' => 'Heat is a measure of the average kinetic energy of particles, while temperature is a measure of the total energy in a system.',
@@ -678,7 +678,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the thermal equilibrium?',
         'a' => 'A state where there is no heat transfer between two systems in contact',
         'b' => 'A state where the temperature of a system remains constant',
@@ -690,7 +690,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the ideal gas law?',
         'a' => 'PV = nRT',
         'b' => 'F = ma',
@@ -702,7 +702,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is thermal conduction?',
         'a' => 'The transfer of heat through direct contact between particles',
         'b' => 'The transfer of heat through electromagnetic waves',
@@ -714,7 +714,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is thermal radiation?',
         'a' => 'The transfer of heat through direct contact between particles',
         'b' => 'The transfer of heat through electromagnetic waves',
@@ -726,7 +726,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is thermal expansion?',
         'a' => 'The increase in volume of a substance due to an increase in temperature',
         'b' => 'The decrease in volume of a substance due to a decrease in temperature',
@@ -738,7 +738,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is a heat pump?',
         'a' => 'A device that extracts heat from a colder space and transfers it to a warmer space',
         'b' => 'A device that measures the temperature of an object',
@@ -750,7 +750,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the difference between reversible and irreversible processes in thermodynamics?',
         'a' => 'Reversible processes can occur naturally, while irreversible processes cannot.',
         'b' => 'Reversible processes can be reversed to restore the system and surroundings to their original states, while irreversible processes cannot.',
@@ -762,7 +762,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 3,
+        
         'question' => 'What is the efficiency of a heat engine?',
         'a' => 'The ratio of work output to energy input',
         'b' => 'The ratio of energy output to work input',
@@ -774,7 +774,7 @@ class QuestionSeeder extends Seeder
     ],
       [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is electromagnetic induction?',
         'a' => 'The generation of electricity by moving a conductor through a magnetic field',
         'b' => 'The generation of electricity by passing current through a conductor',
@@ -786,7 +786,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is Faraday\'s law of electromagnetic induction?',
         'a' => 'The electric force between two charged particles is directly proportional to the product of their charges and inversely proportional to the square of the distance between them',
         'b' => 'The induced electromotive force (emf) in any closed circuit is equal to the rate of change of the magnetic flux through the circuit',
@@ -798,7 +798,7 @@ class QuestionSeeder extends Seeder
     ],
       [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is electromagnetism?',
         'a' => 'The study of electric and magnetic fields',
         'b' => 'The study of gravitational forces',
@@ -810,7 +810,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'Who formulated the laws of electromagnetism?',
         'a' => 'Isaac Newton',
         'b' => 'James Clerk Maxwell',
@@ -822,7 +822,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What are Maxwell\'s equations?',
         'a' => 'A set of four equations that describe the behavior of electric and magnetic fields',
         'b' => 'A set of equations that describe the behavior of particles in motion',
@@ -834,7 +834,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is Coulomb\'s law?',
         'a' => 'The law that describes the force between electric charges',
         'b' => 'The law that describes the force between magnetic poles',
@@ -846,7 +846,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is Gauss\'s law for electricity?',
         'a' => 'The law that relates the magnetic field to the electric current',
         'b' => 'The law that relates the electric field to the charge distribution',
@@ -858,7 +858,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is Faraday\'s law of electromagnetic induction?',
         'a' => 'The law that describes the force between electric charges',
         'b' => 'The law that describes the force between magnetic poles',
@@ -870,7 +870,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is Ampère\'s law?',
         'a' => 'The law that relates the magnetic field to the electric current',
         'b' => 'The law that relates the electric field to the charge distribution',
@@ -882,7 +882,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is electromagnetic radiation?',
         'a' => 'The study of electric and magnetic fields',
         'b' => 'The propagation of energy through electric and magnetic waves',
@@ -894,7 +894,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is the electromagnetic spectrum?',
         'a' => 'A range of all possible frequencies of electromagnetic radiation',
         'b' => 'A range of all possible frequencies of gravitational waves',
@@ -906,7 +906,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What are electromagnetic waves?',
         'a' => 'Waves that consist of electric and magnetic fields oscillating perpendicular to each other and to the direction of propagation',
         'b' => 'Waves that consist of gravitational fields oscillating perpendicular to each other and to the direction of propagation',
@@ -918,7 +918,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is electromagnetic shielding?',
         'a' => 'The use of materials to block or reduce the intensity of electromagnetic fields',
         'b' => 'The use of materials to enhance electromagnetic fields',
@@ -930,7 +930,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is the Poynting vector?',
         'a' => 'A vector that describes the direction of propagation of electromagnetic waves',
         'b' => 'A vector that describes the force between electric charges',
@@ -942,7 +942,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is an electromagnetic field?',
         'a' => 'A region of space characterized by the presence of electric and magnetic fields',
         'b' => 'A region of space characterized by the presence of gravitational fields',
@@ -954,7 +954,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is the electromagnetic force?',
         'a' => 'A force that attracts objects toward the center of the Earth',
         'b' => 'A force that holds atomic nuclei together',
@@ -966,7 +966,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is an electromagnetic waveguide?',
         'a' => 'A device that guides electromagnetic waves along a path',
         'b' => 'A device that measures the intensity of electromagnetic waves',
@@ -978,7 +978,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is an antenna?',
         'a' => 'A device that guides electromagnetic waves along a path',
         'b' => 'A device that measures the intensity of electromagnetic waves',
@@ -990,7 +990,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is an electromagnetic field sensor?',
         'a' => 'A device that guides electromagnetic waves along a path',
         'b' => 'A device that measures the intensity of electromagnetic waves',
@@ -1002,7 +1002,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 4,
+        
         'question' => 'What is the electromagnetic spectrum?',
         'a' => 'A range of all possible frequencies of electromagnetic radiation',
         'b' => 'A range of all possible frequencies of gravitational waves',
@@ -1014,7 +1014,7 @@ class QuestionSeeder extends Seeder
     ], 
       [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is astrophysics?',
         'a' => 'The study of Earth\'s atmosphere',
         'b' => 'The study of celestial bodies and the universe',
@@ -1026,7 +1026,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a star?',
         'a' => 'A planet orbiting the Sun',
         'b' => 'A large celestial body composed of hydrogen and helium undergoing nuclear fusion',
@@ -1038,7 +1038,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a galaxy?',
         'a' => 'A small group of stars orbiting a planet',
         'b' => 'A large system of stars, gas, and dust bound together by gravity',
@@ -1050,7 +1050,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a black hole?',
         'a' => 'A region of space where gravity is so strong that nothing, not even light, can escape',
         'b' => 'A region of space with extremely high temperatures',
@@ -1062,7 +1062,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a supernova?',
         'a' => 'A star that emits a bright flash of light',
         'b' => 'An explosion that occurs when a star reaches the end of its life cycle',
@@ -1074,7 +1074,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is dark matter?',
         'a' => 'Matter that emits light',
         'b' => 'Matter that can be detected with telescopes',
@@ -1086,7 +1086,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a pulsar?',
         'a' => 'A type of star that emits radio waves',
         'b' => 'A type of star that emits bright flashes of light',
@@ -1098,7 +1098,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a quasar?',
         'a' => 'A star that emits a bright flash of light',
         'b' => 'An object that emits massive amounts of energy from its nucleus',
@@ -1110,7 +1110,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is cosmic microwave background radiation?',
         'a' => 'Radiation emitted by stars',
         'b' => 'Radiation emitted by galaxies',
@@ -1122,7 +1122,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a nebula?',
         'a' => 'A small group of stars orbiting a planet',
         'b' => 'A large system of stars, gas, and dust bound together by gravity',
@@ -1134,7 +1134,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a red giant?',
         'a' => 'A large star that is expanding and cooling',
         'b' => 'A small star that is expanding and cooling',
@@ -1146,7 +1146,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a white dwarf?',
         'a' => 'A type of star that emits radio waves',
         'b' => 'A small, dense star that is the remnant of a sun-like star after it has exhausted its nuclear fuel',
@@ -1158,7 +1158,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a brown dwarf?',
         'a' => 'A small, dense star that is the remnant of a sun-like star after it has exhausted its nuclear fuel',
         'b' => 'A type of star that emits radio waves',
@@ -1170,7 +1170,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a neutron star?',
         'a' => 'A type of star that emits radio waves',
         'b' => 'A small, dense star that is the remnant of a massive star after it has exploded as a supernova',
@@ -1182,7 +1182,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is dark energy?',
         'a' => 'Energy emitted by stars',
         'b' => 'Energy emitted by galaxies',
@@ -1194,7 +1194,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a gamma-ray burst?',
         'a' => 'A burst of energy in the gamma-ray part of the electromagnetic spectrum, often associated with the explosion of a massive star',
         'b' => 'A burst of energy in the X-ray part of the electromagnetic spectrum, often associated with the explosion of a massive star',
@@ -1206,7 +1206,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a comet?',
         'a' => 'A small, icy body that orbits the Sun and releases gas and dust as it passes close to the Sun',
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
@@ -1218,7 +1218,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a meteor?',
         'a' => 'A small, icy body that orbits the Sun and releases gas and dust as it passes close to the Sun',
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
@@ -1230,7 +1230,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a meteorite?',
         'a' => 'A small, icy body that orbits the Sun and releases gas and dust as it passes close to the Sun',
         'b' => 'A large, rocky body that orbits the Sun and occasionally passes close to Earth',
@@ -1241,7 +1241,7 @@ class QuestionSeeder extends Seeder
         'updated_at' => now()
     ], [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is a galaxy cluster?',
         'a' => 'A small group of stars orbiting a planet',
         'b' => 'A large system of galaxies bound together by gravity',
@@ -1253,7 +1253,7 @@ class QuestionSeeder extends Seeder
     ],
     [
         'field_id' => 1,
-        'sub_fields_id' => 5,
+        
         'question' => 'What is the Big Bang theory?',
         'a' => 'The theory that the universe began as a singularity and has been expanding ever since',
         'b' => 'The theory that the Earth is at the center of the universe',

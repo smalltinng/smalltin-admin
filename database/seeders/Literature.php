@@ -16,7 +16,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the epic poem "The Odyssey"?',
         'a' => 'Homer',
         'b' => 'Virgil',
@@ -28,7 +28,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for the line, "I wandered lonely as a cloud"?',
         'a' => 'John Keats',
         'b' => 'William Wordsworth',
@@ -40,7 +40,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which American poet wrote "The Raven"?',
         'a' => 'Robert Frost',
         'b' => 'Edgar Allan Poe',
@@ -52,7 +52,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of "Paradise Lost"?',
         'a' => 'John Milton',
         'b' => 'Geoffrey Chaucer',
@@ -64,7 +64,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'In which century did Shakespeare write most of his sonnets?',
         'a' => '16th century',
         'b' => '17th century',
@@ -76,7 +76,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Do Not Go Gentle into That Good Night"?',
         'a' => 'T.S. Eliot',
         'b' => 'Sylvia Plath',
@@ -88,7 +88,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for "Ode to a Nightingale"?',
         'a' => 'John Keats',
         'b' => 'Lord Byron',
@@ -100,7 +100,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Waste Land"?',
         'a' => 'Ezra Pound',
         'b' => 'Walt Whitman',
@@ -112,7 +112,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is considered the "national poet" of Scotland?',
         'a' => 'William Blake',
         'b' => 'Robert Burns',
@@ -124,7 +124,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for the work "The Canterbury Tales"?',
         'a' => 'Geoffrey Chaucer',
         'b' => 'John Donne',
@@ -137,7 +137,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "The Love Song of J. Alfred Prufrock"?',
         'a' => 'T.S. Eliot',
         'b' => 'Robert Frost',
@@ -149,7 +149,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of "Leaves of Grass"?',
         'a' => 'Ezra Pound',
         'b' => 'William Carlos Williams',
@@ -161,7 +161,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is associated with the "Beat Generation"?',
         'a' => 'Allen Ginsberg',
         'b' => 'Robert Lowell',
@@ -173,7 +173,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Ode to the West Wind"?',
         'a' => 'John Milton',
         'b' => 'Percy Bysshe Shelley',
@@ -185,7 +185,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for the collection "Ariel"?',
         'a' => 'Sylvia Plath',
         'b' => 'Emily Dickinson',
@@ -197,7 +197,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "The Divine Comedy"?',
         'a' => 'Homer',
         'b' => 'Virgil',
@@ -209,7 +209,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for the work "Song of Myself"?',
         'a' => 'T.S. Eliot',
         'b' => 'Walt Whitman',
@@ -221,7 +221,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which British Romantic poet wrote "Kubla Khan"?',
         'a' => 'William Blake',
         'b' => 'Lord Byron',
@@ -233,7 +233,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of "Howl"?',
         'a' => 'Allen Ginsberg',
         'b' => 'Jack Kerouac',
@@ -245,7 +245,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "The Tyger"?',
         'a' => 'William Blake',
         'b' => 'Robert Browning',
@@ -258,7 +258,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Road Not Taken"?',
         'a' => 'Robert Frost',
         'b' => 'Walt Whitman',
@@ -270,7 +270,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for "Do Not Go Gentle into That Good Night"?',
         'a' => 'W.B. Yeats',
         'b' => 'Dylan Thomas',
@@ -282,7 +282,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "The Waste Land"?',
         'a' => 'Ezra Pound',
         'b' => 'T.S. Eliot',
@@ -294,7 +294,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for "The Raven"?',
         'a' => 'Walt Whitman',
         'b' => 'Emily Dickinson',
@@ -306,7 +306,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of "Because I could not stop for Death"?',
         'a' => 'Walt Whitman',
         'b' => 'Elizabeth Barrett Browning',
@@ -318,7 +318,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "The Song of Hiawatha"?',
         'a' => 'Henry Wadsworth Longfellow',
         'b' => 'Ralph Waldo Emerson',
@@ -330,7 +330,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "To His Coy Mistress"?',
         'a' => 'John Donne',
         'b' => 'Andrew Marvell',
@@ -342,7 +342,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of "How Do I Love Thee?"',
         'a' => 'Anne Bradstreet',
         'b' => 'Elizabeth Barrett Browning',
@@ -354,7 +354,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for "The Charge of the Light Brigade"?',
         'a' => 'Robert Browning',
         'b' => 'William Blake',
@@ -366,7 +366,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is known for the poem "Ode to a Nightingale"?',
         'a' => 'John Keats',
         'b' => 'Percy Bysshe Shelley',
@@ -379,7 +379,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Ozymandias"?',
         'a' => 'John Keats',
         'b' => 'Percy Bysshe Shelley',
@@ -391,7 +391,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for the line "I wandered lonely as a cloud"?',
         'a' => 'William Blake',
         'b' => 'Percy Bysshe Shelley',
@@ -403,7 +403,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Ode to the West Wind"?',
         'a' => 'William Blake',
         'b' => 'John Keats',
@@ -415,7 +415,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote the sonnet "Shall I compare thee to a summer’s day?"',
         'a' => 'William Shakespeare',
         'b' => 'John Milton',
@@ -427,7 +427,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "The Tyger" from *Songs of Experience*?',
         'a' => 'William Wordsworth',
         'b' => 'William Blake',
@@ -439,7 +439,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "The Love Song of J. Alfred Prufrock"?',
         'a' => 'Ezra Pound',
         'b' => 'Walt Whitman',
@@ -451,7 +451,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the poet behind "Kubla Khan"?',
         'a' => 'John Keats',
         'b' => 'William Wordsworth',
@@ -463,7 +463,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for "The Rime of the Ancient Mariner"?',
         'a' => 'William Wordsworth',
         'b' => 'Lord Byron',
@@ -475,7 +475,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "To Autumn"?',
         'a' => 'John Keats',
         'b' => 'William Wordsworth',
@@ -487,7 +487,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of the poem "The Second Coming"?',
         'a' => 'T.S. Eliot',
         'b' => 'W.B. Yeats',
@@ -502,7 +502,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Road Not Taken"?',
         'a' => 'Robert Frost',
         'b' => 'Emily Dickinson',
@@ -514,7 +514,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the author of the epic poem "Paradise Lost"?',
         'a' => 'Geoffrey Chaucer',
         'b' => 'John Milton',
@@ -526,7 +526,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for the collection "Leaves of Grass"?',
         'a' => 'Robert Browning',
         'b' => 'William Wordsworth',
@@ -538,7 +538,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "Howl", a poem that became a defining work of the Beat Generation?',
         'a' => 'Allen Ginsberg',
         'b' => 'Jack Kerouac',
@@ -550,7 +550,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Raven"?',
         'a' => 'Walt Whitman',
         'b' => 'Robert Frost',
@@ -562,7 +562,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "Because I could not stop for Death"?',
         'a' => 'Emily Dickinson',
         'b' => 'Sylvia Plath',
@@ -574,7 +574,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Daffodils", also known as "I Wandered Lonely as a Cloud"?',
         'a' => 'William Wordsworth',
         'b' => 'John Keats',
@@ -586,7 +586,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for the line "Do not go gentle into that good night"?',
         'a' => 'W.B. Yeats',
         'b' => 'Dylan Thomas',
@@ -598,7 +598,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "The Waste Land", a complex modernist poem?',
         'a' => 'W.B. Yeats',
         'b' => 'Ezra Pound',
@@ -610,7 +610,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is associated with the Imagist movement and wrote "In a Station of the Metro"?',
         'a' => 'Ezra Pound',
         'b' => 'Walt Whitman',
@@ -623,7 +623,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the epic poem "The Divine Comedy"?',
         'a' => 'John Milton',
         'b' => 'Dante Alighieri',
@@ -635,7 +635,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is known for writing "Ode to a Nightingale"?',
         'a' => 'John Keats',
         'b' => 'William Wordsworth',
@@ -647,7 +647,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the famous sonnet "Shall I compare thee to a summer’s day?"',
         'a' => 'William Blake',
         'b' => 'William Shakespeare',
@@ -659,7 +659,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "The Love Song of J. Alfred Prufrock"?',
         'a' => 'W.B. Yeats',
         'b' => 'Robert Frost',
@@ -671,7 +671,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the narrative poem "The Rime of the Ancient Mariner"?',
         'a' => 'Samuel Taylor Coleridge',
         'b' => 'William Wordsworth',
@@ -683,7 +683,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "Ode to the West Wind"?',
         'a' => 'John Keats',
         'b' => 'William Wordsworth',
@@ -695,7 +695,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet is famous for writing "Do not go gentle into that good night"?',
         'a' => 'T.S. Eliot',
         'b' => 'W.H. Auden',
@@ -707,7 +707,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "Annabel Lee", a poem about a lost love? ',
         'a' => 'Emily Dickinson',
         'b' => 'Edgar Allan Poe',
@@ -719,7 +719,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "Ode on a Grecian Urn"?',
         'a' => 'Percy Bysshe Shelley',
         'b' => 'William Blake',
@@ -731,7 +731,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "Song of Myself", a poem that celebrates individuality and democracy?',
         'a' => 'Robert Frost',
         'b' => 'Walt Whitman',
@@ -744,7 +744,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Raven"?',
         'a' => 'Walt Whitman',
         'b' => 'Emily Dickinson',
@@ -756,7 +756,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "Howl", a key work of the Beat Generation?',
         'a' => 'Ezra Pound',
         'b' => 'T.S. Eliot',
@@ -768,7 +768,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "Stopping by Woods on a Snowy Evening"?',
         'a' => 'Robert Frost',
         'b' => 'Walt Whitman',
@@ -780,7 +780,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote the epic poem "Paradise Lost"?',
         'a' => 'Geoffrey Chaucer',
         'b' => 'John Milton',
@@ -792,7 +792,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who is the poet behind "The Waste Land"?',
         'a' => 'T.S. Eliot',
         'b' => 'Ezra Pound',
@@ -804,7 +804,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "A Dream Deferred", which explores the frustration of African Americans?',
         'a' => 'Langston Hughes',
         'b' => 'Maya Angelou',
@@ -816,7 +816,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote "Daddy", a confessional poem that addresses her complex relationship with her father?',
         'a' => 'Sylvia Plath',
         'b' => 'Anne Sexton',
@@ -828,7 +828,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the famous line "Do I dare / Disturb the universe?" in "The Love Song of J. Alfred Prufrock"?',
         'a' => 'Ezra Pound',
         'b' => 'W.B. Yeats',
@@ -840,7 +840,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Which poet wrote "The Second Coming", famous for the line "Things fall apart; the centre cannot hold"?',
         'a' => 'Robert Frost',
         'b' => 'T.S. Eliot',
@@ -852,7 +852,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 36,
+        
         'question' => 'Who wrote the poem "The Road Not Taken"?',
         'a' => 'Robert Frost',
         'b' => 'Walt Whitman',
@@ -865,7 +865,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "1984"?',
         'a' => 'Aldous Huxley',
         'b' => 'George Orwell',
@@ -877,7 +877,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does the character Jay Gatsby appear?',
         'a' => 'The Great Gatsby',
         'b' => 'Moby Dick',
@@ -889,7 +889,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which author wrote "Pride and Prejudice"?',
         'a' => 'Mary Shelley',
         'b' => 'Emily Brontë',
@@ -901,7 +901,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which dystopian novel features the concept of "Big Brother"?',
         'a' => 'Fahrenheit 451',
         'b' => '1984',
@@ -913,7 +913,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who is the author of the science fiction novel "Dune"?',
         'a' => 'Isaac Asimov',
         'b' => 'Frank Herbert',
@@ -925,7 +925,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel follows the journey of Ishmael aboard the whaling ship Pequod?',
         'a' => 'Moby Dick',
         'b' => 'Treasure Island',
@@ -937,7 +937,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote "To Kill a Mockingbird"?',
         'a' => 'F. Scott Fitzgerald',
         'b' => 'J.D. Salinger',
@@ -949,7 +949,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is set on a deserted island and follows the lives of boys stranded there?',
         'a' => 'The Catcher in the Rye',
         'b' => 'Lord of the Flies',
@@ -961,7 +961,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which author wrote "One Hundred Years of Solitude"?',
         'a' => 'Gabriel Garcia Marquez',
         'b' => 'Jorge Luis Borges',
@@ -973,7 +973,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does the character Holden Caulfield appear?',
         'a' => 'The Catcher in the Rye',
         'b' => 'Moby Dick',
@@ -986,7 +986,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "The Catcher in the Rye"?',
         'a' => 'F. Scott Fitzgerald',
         'b' => 'John Steinbeck',
@@ -998,7 +998,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is a satire of totalitarianism and features farm animals as main characters?',
         'a' => 'Brave New World',
         'b' => 'Animal Farm',
@@ -1010,7 +1010,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does Elizabeth Bennet appear?',
         'a' => 'Sense and Sensibility',
         'b' => 'Wuthering Heights',
@@ -1022,7 +1022,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is set during the French Revolution and begins with the line, "It was the best of times, it was the worst of times"?',
         'a' => 'Les Misérables',
         'b' => 'A Tale of Two Cities',
@@ -1034,7 +1034,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "Moby-Dick"?',
         'a' => 'Herman Melville',
         'b' => 'Mark Twain',
@@ -1046,7 +1046,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by William Golding is about a group of boys stranded on a deserted island?',
         'a' => 'Treasure Island',
         'b' => 'Lord of the Flies',
@@ -1058,7 +1058,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does the character Atticus Finch appear?',
         'a' => 'To Kill a Mockingbird',
         'b' => 'Of Mice and Men',
@@ -1070,7 +1070,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel features the Joad family during the Great Depression?',
         'a' => 'East of Eden',
         'b' => 'The Grapes of Wrath',
@@ -1082,7 +1082,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote "The Brothers Karamazov"?',
         'a' => 'Leo Tolstoy',
         'b' => 'Fyodor Dostoevsky',
@@ -1094,7 +1094,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel features the character Pip and the convict Magwitch?',
         'a' => 'Oliver Twist',
         'b' => 'Great Expectations',
@@ -1107,7 +1107,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who is the author of "1984" and "Animal Farm"?',
         'a' => 'George Orwell',
         'b' => 'Aldous Huxley',
@@ -1119,7 +1119,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is about a dystopian future where books are banned, and "firemen" burn them?',
         'a' => 'Fahrenheit 451',
         'b' => 'Brave New World',
@@ -1131,7 +1131,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "Brave New World"?',
         'a' => 'George Orwell',
         'b' => 'Aldous Huxley',
@@ -1143,7 +1143,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by John Steinbeck focuses on the lives of two displaced ranch workers during the Great Depression?',
         'a' => 'East of Eden',
         'b' => 'The Grapes of Wrath',
@@ -1155,7 +1155,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does the character "Big Brother" control the society?',
         'a' => '1984',
         'b' => 'Brave New World',
@@ -1167,7 +1167,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who is the protagonist in Herman Melville’s "Moby-Dick"?',
         'a' => 'Captain Ahab',
         'b' => 'Ishmael',
@@ -1179,7 +1179,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel features the character Jay Gatsby?',
         'a' => 'The Sun Also Rises',
         'b' => 'The Great Gatsby',
@@ -1191,7 +1191,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is about the adventures of a young orphan boy named Pip?',
         'a' => 'Oliver Twist',
         'b' => 'David Copperfield',
@@ -1203,7 +1203,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "Crime and Punishment"?',
         'a' => 'Leo Tolstoy',
         'b' => 'Fyodor Dostoevsky',
@@ -1215,7 +1215,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel follows the life of Scarlett O’Hara during the American Civil War?',
         'a' => 'Gone with the Wind',
         'b' => 'The Red Badge of Courage',
@@ -1229,7 +1229,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by Jane Austen focuses on the character Elizabeth Bennet?',
         'a' => 'Emma',
         'b' => 'Sense and Sensibility',
@@ -1241,7 +1241,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "One Hundred Years of Solitude"?',
         'a' => 'Gabriel García Márquez',
         'b' => 'Jorge Luis Borges',
@@ -1253,7 +1253,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In George Orwell’s "Animal Farm", which character represents Joseph Stalin?',
         'a' => 'Napoleon',
         'b' => 'Snowball',
@@ -1265,7 +1265,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel follows the life of Holden Caulfield, a disillusioned teenager?',
         'a' => 'The Great Gatsby',
         'b' => 'To Kill a Mockingbird',
@@ -1277,7 +1277,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the science fiction novel "The War of the Worlds"?',
         'a' => 'Isaac Asimov',
         'b' => 'H.G. Wells',
@@ -1289,7 +1289,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel is considered a classic of the Harlem Renaissance and was written by Zora Neale Hurston?',
         'a' => 'Native Son',
         'b' => 'Their Eyes Were Watching God',
@@ -1301,7 +1301,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which Charles Dickens novel features the character Ebenezer Scrooge?',
         'a' => 'Great Expectations',
         'b' => 'A Tale of Two Cities',
@@ -1313,7 +1313,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the epic fantasy series "The Lord of the Rings"?',
         'a' => 'C.S. Lewis',
         'b' => 'J.R.R. Tolkien',
@@ -1325,7 +1325,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In which novel does the character Atticus Finch serve as a moral hero?',
         'a' => 'To Kill a Mockingbird',
         'b' => 'The Catcher in the Rye',
@@ -1337,7 +1337,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by Mark Twain features the adventures of a young boy named Tom and his friend Huck?',
         'a' => 'The Adventures of Tom Sawyer',
         'b' => 'The Adventures of Huckleberry Finn',
@@ -1350,7 +1350,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the dystopian novel "Brave New World"?',
         'a' => 'George Orwell',
         'b' => 'Aldous Huxley',
@@ -1362,7 +1362,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by Leo Tolstoy is set against the backdrop of the Napoleonic Wars?',
         'a' => 'War and Peace',
         'b' => 'Anna Karenina',
@@ -1374,7 +1374,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who is the author of the novel "Moby-Dick"?',
         'a' => 'Nathaniel Hawthorne',
         'b' => 'Herman Melville',
@@ -1386,7 +1386,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'In the novel "Frankenstein", who is the creator of the monster?',
         'a' => 'Victor Frankenstein',
         'b' => 'Henry Clerval',
@@ -1398,7 +1398,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which American author wrote the novel "The Grapes of Wrath"?',
         'a' => 'Ernest Hemingway',
         'b' => 'F. Scott Fitzgerald',
@@ -1410,7 +1410,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which literary work features the character of Captain Ahab?',
         'a' => 'Moby-Dick',
         'b' => 'The Old Man and the Sea',
@@ -1422,7 +1422,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who is the author of "1984", a novel set in a totalitarian society?',
         'a' => 'George Orwell',
         'b' => 'Ray Bradbury',
@@ -1434,7 +1434,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel by F. Scott Fitzgerald is considered a classic of the Jazz Age?',
         'a' => 'The Great Gatsby',
         'b' => 'Tender is the Night',
@@ -1446,7 +1446,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Who wrote the novel "Slaughterhouse-Five"?',
         'a' => 'Kurt Vonnegut',
         'b' => 'Joseph Heller',
@@ -1458,7 +1458,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 37,
+        
         'question' => 'Which novel features the character Jay Gatsby? ',
         'a' => 'Of Mice and Men',
         'b' => 'The Great Gatsby',
@@ -1471,7 +1471,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Death of a Salesman"?',
         'a' => 'Arthur Miller',
         'b' => 'Eugene O\'Neill',
@@ -1483,7 +1483,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespearean tragedy features the characters of Iago and Desdemona?',
         'a' => 'Hamlet',
         'b' => 'Othello',
@@ -1495,7 +1495,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play by Tennessee Williams does the character Blanche DuBois appear?',
         'a' => 'The Glass Menagerie',
         'b' => 'The Night of the Iguana',
@@ -1507,7 +1507,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the author of the play "Waiting for Godot"?',
         'a' => 'Harold Pinter',
         'b' => 'Samuel Beckett',
@@ -1519,7 +1519,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright wrote the comedy "The Importance of Being Earnest"?',
         'a' => 'Anton Chekhov',
         'b' => 'Oscar Wilde',
@@ -1531,7 +1531,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which famous Norwegian playwright wrote "A Doll\'s House"?',
         'a' => 'Bertolt Brecht',
         'b' => 'Henrik Ibsen',
@@ -1543,7 +1543,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which Shakespeare play do the characters of Goneril and Regan appear?',
         'a' => 'Hamlet',
         'b' => 'Othello',
@@ -1555,7 +1555,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Long Day\'s Journey Into Night"?',
         'a' => 'Arthur Miller',
         'b' => 'Eugene O\'Neill',
@@ -1567,7 +1567,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play features the famous line "To be or not to be"?',
         'a' => 'Hamlet',
         'b' => 'Macbeth',
@@ -1579,7 +1579,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the author of "The Crucible", a play about the Salem witch trials?',
         'a' => 'Arthur Miller',
         'b' => 'Tennessee Williams',
@@ -1592,7 +1592,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespearean tragedy features the characters of Rosencrantz and Guildenstern?',
         'a' => 'Othello',
         'b' => 'Hamlet',
@@ -1604,7 +1604,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Pygmalion", which was later adapted into the musical "My Fair Lady"?',
         'a' => 'Oscar Wilde',
         'b' => 'George Bernard Shaw',
@@ -1616,7 +1616,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which Shakespeare play do the characters of Viola and Malvolio appear?',
         'a' => 'Twelfth Night',
         'b' => 'As You Like It',
@@ -1628,7 +1628,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the author of the play "A Raisin in the Sun"?',
         'a' => 'Lorraine Hansberry',
         'b' => 'August Wilson',
@@ -1640,7 +1640,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Arthur Miller play focuses on the Salem witch trials?',
         'a' => 'Death of a Salesman',
         'b' => 'The Crucible',
@@ -1652,7 +1652,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespeare play is set on an enchanted island and features the characters of Prospero and Caliban?',
         'a' => 'The Tempest',
         'b' => 'A Midsummer Night\'s Dream',
@@ -1664,7 +1664,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which modernist playwright wrote "The Homecoming"?',
         'a' => 'Tennessee Williams',
         'b' => 'Samuel Beckett',
@@ -1676,7 +1676,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespearean play features the quote, "All the world’s a stage"?',
         'a' => 'As You Like It',
         'b' => 'Macbeth',
@@ -1688,7 +1688,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Who\'s Afraid of Virginia Woolf?"?',
         'a' => 'Edward Albee',
         'b' => 'Harold Pinter',
@@ -1700,7 +1700,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespeare play features the quote, "Et tu, Brute?"',
         'a' => 'Hamlet',
         'b' => 'Julius Caesar',
@@ -1713,7 +1713,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Blanche DuBois appear?',
         'a' => 'The Glass Menagerie',
         'b' => 'Streetcar Named Desire',
@@ -1725,7 +1725,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play features a character named Othello?',
         'a' => 'Othello',
         'b' => 'King Lear',
@@ -1737,7 +1737,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Waiting for Godot"?',
         'a' => 'Samuel Beckett',
         'b' => 'Tennessee Williams',
@@ -1749,7 +1749,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play is set during the American Civil War and features the character of Scarlett O\'Hara?',
         'a' => 'The Cherry Orchard',
         'b' => 'A Streetcar Named Desire',
@@ -1761,7 +1761,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which classic Greek play features the character of Antigone?',
         'a' => 'Oedipus Rex',
         'b' => 'Antigone',
@@ -1773,7 +1773,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "Death of a Salesman"?',
         'a' => 'Arthur Miller',
         'b' => 'Eugene O\'Neill',
@@ -1785,7 +1785,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright is known for the play "The Birthday Party"?',
         'a' => 'Harold Pinter',
         'b' => 'Samuel Beckett',
@@ -1797,7 +1797,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Shakespeare play is known for the line "To be, or not to be"?',
         'a' => 'Hamlet',
         'b' => 'Macbeth',
@@ -1809,7 +1809,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Willy Loman appear?',
         'a' => 'The Crucible',
         'b' => 'Death of a Salesman',
@@ -1821,7 +1821,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the author of the play "A Midsummer Night\'s Dream"?',
         'a' => 'Christopher Marlowe',
         'b' => 'William Shakespeare',
@@ -1833,7 +1833,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which dramatic work is known for its character named Iago?',
         'a' => 'Hamlet',
         'b' => 'Othello',
@@ -1846,7 +1846,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by Tennessee Williams features the character of Laura Wingfield?',
         'a' => 'A Streetcar Named Desire',
         'b' => 'The Glass Menagerie',
@@ -1858,7 +1858,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of the Ghost appear?',
         'a' => 'Hamlet',
         'b' => 'The Tempest',
@@ -1870,7 +1870,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright is known for the work "The Importance of Being Earnest"?',
         'a' => 'George Bernard Shaw',
         'b' => 'Oscar Wilde',
@@ -1882,7 +1882,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by Edward Albee features the character Martha?',
         'a' => 'Three Tall Women',
         'b' => 'Who\'s Afraid of Virginia Woolf?',
@@ -1894,7 +1894,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Greek tragedy deals with the themes of fate and family loyalty through the story of Orestes?',
         'a' => 'Agamemnon',
         'b' => 'Electra',
@@ -1906,7 +1906,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Lady Macbeth appear?',
         'a' => 'Macbeth',
         'b' => 'King Lear',
@@ -1918,7 +1918,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which modern play by August Wilson is part of his Pittsburgh Cycle?',
         'a' => 'Fences',
         'b' => 'A Raisin in the Sun',
@@ -1930,7 +1930,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote "The Cherry Orchard"?',
         'a' => 'Anton Chekhov',
         'b' => 'Leo Tolstoy',
@@ -1942,7 +1942,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play by Shakespeare does the character of Portia appear?',
         'a' => 'The Merchant of Venice',
         'b' => 'Much Ado About Nothing',
@@ -1954,7 +1954,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play features the famous quote "All the world\'s a stage"?',
         'a' => 'As You Like It',
         'b' => 'Twelfth Night',
@@ -1966,7 +1966,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the playwright of "Rhinocéros"?',
         'a' => 'Eugène Ionesco',
         'b' => 'Jean-Paul Sartre',
@@ -1979,7 +1979,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which character is the protagonist in Shakespeare’s "Hamlet"?',
         'a' => 'Macbeth',
         'b' => 'Othello',
@@ -1991,7 +1991,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play by Tennessee Williams does the character of Blanche DuBois appear?',
         'a' => 'The Glass Menagerie',
         'b' => 'A Streetcar Named Desire',
@@ -2003,7 +2003,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by George Bernard Shaw is set in the home of the Doolittle family?',
         'a' => 'Pygmalion',
         'b' => 'Saint Joan',
@@ -2015,7 +2015,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which ancient Greek playwright is known for "Oedipus Rex"?',
         'a' => 'Euripides',
         'b' => 'Sophocles',
@@ -2027,7 +2027,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Hedda Gabler appear?',
         'a' => 'The Master Builder',
         'b' => 'A Doll’s House',
@@ -2039,7 +2039,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which 20th-century play features the character of Willy Loman?',
         'a' => 'Death of a Salesman',
         'b' => 'A View from the Bridge',
@@ -2051,7 +2051,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by August Wilson is set in Pittsburgh during the 1950s?',
         'a' => 'Fences',
         'b' => 'The Piano Lesson',
@@ -2063,7 +2063,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play by Harold Pinter does the character of Stanley Webber appear?',
         'a' => 'The Birthday Party',
         'b' => 'The Homecoming',
@@ -2075,7 +2075,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play is known for the famous line "To be or not to be"?',
         'a' => 'Romeo and Juliet',
         'b' => 'Hamlet',
@@ -2087,7 +2087,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote "Waiting for Godot"?',
         'a' => 'Jean-Paul Sartre',
         'b' => 'Eugène Ionesco',
@@ -2099,7 +2099,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play features the character of Nora Helmer?',
         'a' => 'Hedda Gabler',
         'b' => 'A Doll’s House',
@@ -2112,7 +2112,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright is known for the play "The Glass Menagerie"?',
         'a' => 'Tennessee Williams',
         'b' => 'Arthur Miller',
@@ -2124,7 +2124,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Lady Macbeth appear?',
         'a' => 'Othello',
         'b' => 'Macbeth',
@@ -2136,7 +2136,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play features the character of Blanche DuBois?',
         'a' => 'Cat on a Hot Tin Roof',
         'b' => 'A Streetcar Named Desire',
@@ -2148,7 +2148,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who wrote the play "The Importance of Being Earnest"?',
         'a' => 'William Shakespeare',
         'b' => 'George Bernard Shaw',
@@ -2160,7 +2160,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which of these plays is set in the 1940s New York City?',
         'a' => 'The Glass Menagerie',
         'b' => 'Death of a Salesman',
@@ -2172,7 +2172,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright is known for the play "Waiting for Godot"?',
         'a' => 'Samuel Beckett',
         'b' => 'Harold Pinter',
@@ -2184,7 +2184,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play by Arthur Miller does the character of Willy Loman appear?',
         'a' => 'A View from the Bridge',
         'b' => 'The Crucible',
@@ -2196,7 +2196,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which character is a central figure in Henrik Ibsen’s "A Doll’s House"?',
         'a' => 'Nora Helmer',
         'b' => 'Hedda Gabler',
@@ -2208,7 +2208,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play is set in the small, claustrophobic apartment of the Wingfield family?',
         'a' => 'The Glass Menagerie',
         'b' => 'The Cherry Orchard',
@@ -2220,7 +2220,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by August Wilson depicts the life of an African American family in the 1950s?',
         'a' => 'Ma Rainey’s Black Bottom',
         'b' => 'Radio Golf',
@@ -2232,7 +2232,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which playwright is known for his works on existentialism and absurdism?',
         'a' => 'Arthur Miller',
         'b' => 'Jean-Paul Sartre',
@@ -2245,7 +2245,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by William Shakespeare is a tragedy set in ancient Rome? ',
         'a' => 'Romeo and Juliet',
         'b' => 'Othello',
@@ -2257,7 +2257,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Hedda Gabler appear?',
         'a' => 'A Doll’s House',
         'b' => 'Hedda Gabler',
@@ -2269,7 +2269,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which Greek playwright is known for his tragedies "Oedipus Rex" and "Antigone"?',
         'a' => 'Sophocles',
         'b' => 'Euripides',
@@ -2281,7 +2281,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which drama is set in the mythical city of Thebes and revolves around the murder of King Laius?',
         'a' => 'Antigone',
         'b' => 'Oedipus Rex',
@@ -2293,7 +2293,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which contemporary playwright wrote the play "The Vagina Monologues"?',
         'a' => 'Eve Ensler',
         'b' => 'Lynn Nottage',
@@ -2305,7 +2305,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'In which play does the character of Willy Loman appear?',
         'a' => 'Death of a Salesman',
         'b' => 'The Glass Menagerie',
@@ -2317,7 +2317,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Who is the author of the play "Waiting for Godot"?',
         'a' => 'Samuel Beckett',
         'b' => 'Jean-Paul Sartre',
@@ -2329,7 +2329,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by Tennessee Williams features the character of Stanley Kowalski?',
         'a' => 'Cat on a Hot Tin Roof',
         'b' => 'A Streetcar Named Desire',
@@ -2341,7 +2341,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which famous play is set in the fictional town of Gilead and deals with themes of religious extremism?',
         'a' => 'The Crucible',
         'b' => 'The Handmaid’s Tale',
@@ -2353,7 +2353,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 38,
+        
         'question' => 'Which play by August Wilson is set in the 1950s and deals with racial discrimination in the context of a boxing match?',
         'a' => 'Fences',
         'b' => 'Ma Rainey’s Black Bottom',
@@ -2366,7 +2366,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the non-fiction work "The Diary of a Young Girl"?',
         'a' => 'Elie Wiesel',
         'b' => 'Anne Frank',
@@ -2378,7 +2378,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction work by Nelson Mandela is known for detailing his life and struggles?',
         'a' => 'Long Walk to Freedom',
         'b' => 'Dreams from My Father',
@@ -2390,7 +2390,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book written by Malcolm X details his life experiences?',
         'a' => 'The Autobiography of Malcolm X',
         'b' => 'Up From Slavery',
@@ -2402,7 +2402,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who is the author of "The Prince," a political treatise written in the early 16th century?',
         'a' => 'Thomas More',
         'b' => 'Niccolò Machiavelli',
@@ -2414,7 +2414,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which famous speech by Martin Luther King Jr. is included in many collections of non-fiction works?',
         'a' => 'I Have a Dream',
         'b' => 'The Gettysburg Address',
@@ -2426,7 +2426,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Rachel Carson launched the environmental movement?',
         'a' => 'The Silent Spring',
         'b' => 'The Jungle',
@@ -2438,7 +2438,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book details the story of survival after a plane crash in the Andes?',
         'a' => 'Into the Wild',
         'b' => 'Alive',
@@ -2450,7 +2450,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the non-fiction work "The Art of War"?',
         'a' => 'Sun Tzu',
         'b' => 'Confucius',
@@ -2462,7 +2462,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Michelle Obama became a global bestseller?',
         'a' => 'A Promised Land',
         'b' => 'Becoming',
@@ -2474,7 +2474,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Viktor Frankl is about his experiences as a Holocaust survivor?',
         'a' => 'Night',
         'b' => 'Man’s Search for Meaning',
@@ -2487,7 +2487,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the non-fiction book "In Cold Blood," a pioneering work of true crime? ',
         'a' => 'Truman Capote',
         'b' => 'Harper Lee',
@@ -2499,7 +2499,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Stephen Hawking explores the nature of time and space?',
         'a' => 'The God Delusion',
         'b' => 'A Brief History of Time',
@@ -2511,7 +2511,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who authored the non-fiction work "The Second Sex," a key feminist text?',
         'a' => 'Betty Friedan',
         'b' => 'Gloria Steinem',
@@ -2523,7 +2523,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction work by Barack Obama is a memoir of his early life and political journey?',
         'a' => 'Dreams from My Father',
         'b' => 'Becoming',
@@ -2535,7 +2535,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which influential book by Betty Friedan sparked the second-wave feminist movement?',
         'a' => 'The Feminine Mystique',
         'b' => 'The Second Sex',
@@ -2547,7 +2547,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'What non-fiction book by Jon Krakauer tells the story of a young man who ventures into the Alaskan wilderness?',
         'a' => 'Into the Wild',
         'b' => 'Alive',
@@ -2559,7 +2559,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Richard Dawkins popularized the concept of the "selfish gene"?',
         'a' => 'The God Delusion',
         'b' => 'The Origin of Species',
@@ -2571,7 +2571,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote "The Right Stuff," a non-fiction account of America’s space program?',
         'a' => 'Tom Wolfe',
         'b' => 'Neil Armstrong',
@@ -2583,7 +2583,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Michelle Alexander discusses mass incarceration in the United States?',
         'a' => 'The New Jim Crow',
         'b' => 'Just Mercy',
@@ -2595,7 +2595,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who is the author of the non-fiction book "Guns, Germs, and Steel," which explores human societies?',
         'a' => 'Yuval Noah Harari',
         'b' => 'Jared Diamond',
@@ -2608,7 +2608,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which famous non-fiction work by Anne Frank chronicles her life hiding from the Nazis during World War II?',
         'a' => 'The Diary of Anne Frank',
         'b' => 'Night',
@@ -2620,7 +2620,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the non-fiction bestseller "Sapiens: A Brief History of Humankind"?',
         'a' => 'Steven Pinker',
         'b' => 'Yuval Noah Harari',
@@ -2632,7 +2632,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which American journalist authored the book "The Immortal Life of Henrietta Lacks"?',
         'a' => 'Rebecca Skloot',
         'b' => 'Katie Couric',
@@ -2644,7 +2644,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which 1962 book by Rachel Carson is credited with advancing the global environmental movement?',
         'a' => 'Silent Spring',
         'b' => 'The Origin of Species',
@@ -2656,7 +2656,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote "Born a Crime," a non-fiction memoir about growing up in South Africa during apartheid?',
         'a' => 'Nelson Mandela',
         'b' => 'Trevor Noah',
@@ -2668,7 +2668,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which historical figure’s life is recounted in the non-fiction book "The Autobiography of Malcolm X"?',
         'a' => 'Martin Luther King Jr.',
         'b' => 'Frederick Douglass',
@@ -2680,7 +2680,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'What is the title of Nelson Mandela’s autobiography, which describes his fight against apartheid?',
         'a' => 'Long Walk to Freedom',
         'b' => 'I Know Why the Caged Bird Sings',
@@ -2692,7 +2692,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Malcolm Gladwell examines how small actions can lead to a larger trend?',
         'a' => 'Outliers',
         'b' => 'The Tipping Point',
@@ -2704,7 +2704,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who authored the non-fiction book "Educated," recounting her life growing up in a survivalist family?',
         'a' => 'Elizabeth Gilbert',
         'b' => 'Jeanette Walls',
@@ -2716,7 +2716,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Michelle Obama became a global bestseller after its release in 2018?',
         'a' => 'Lean In',
         'b' => 'The Audacity of Hope',
@@ -2729,7 +2729,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the influential book "The Diary of a Young Girl"?',
         'a' => 'Anne Frank',
         'b' => 'Helen Keller',
@@ -2741,7 +2741,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'What is the title of Nelson Mandela’s autobiography?',
         'a' => 'A Long Road to Freedom',
         'b' => 'Dreams from My Father',
@@ -2753,7 +2753,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book is an account of the 1996 Mount Everest disaster?',
         'a' => 'Into Thin Air',
         'b' => 'Wild',
@@ -2765,7 +2765,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which American journalist wrote "The Right Stuff" about the early days of the U.S. space program?',
         'a' => 'Bob Woodward',
         'b' => 'Tom Wolfe',
@@ -2777,7 +2777,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Malcolm X details his life and conversion to Islam?',
         'a' => 'The Autobiography of Malcolm X',
         'b' => 'The Souls of Black Folk',
@@ -2789,7 +2789,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction work explores the assassination of John F. Kennedy?',
         'a' => 'The Death of a President',
         'b' => 'Helter Skelter',
@@ -2801,7 +2801,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who is the author of "The Immortal Life of Henrietta Lacks"?',
         'a' => 'Rebecca Skloot',
         'b' => 'Atul Gawande',
@@ -2813,7 +2813,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Stephen Hawking became a bestseller in explaining cosmology to the general public?',
         'a' => 'The Universe in a Nutshell',
         'b' => 'A Brief History of Time',
@@ -2825,7 +2825,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Who wrote the non-fiction book "The Man Who Mistook His Wife for a Hat"?',
         'a' => 'Oliver Sacks',
         'b' => 'Sigmund Freud',
@@ -2837,7 +2837,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'What book recounts the first successful summit of Mount Everest by Edmund Hillary and Tenzing Norgay?',
         'a' => 'High Adventure',
         'b' => 'The White Spider',
@@ -2850,7 +2850,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which journalist authored "The Year of Magical Thinking"?',
         'a' => 'Joan Didion',
         'b' => 'Truman Capote',
@@ -2862,7 +2862,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'What is the title of Barack Obama’s memoir covering his presidency?',
         'a' => 'The Audacity of Hope',
         'b' => 'A Promised Land',
@@ -2874,7 +2874,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Laura Hillenbrand tells the story of an Olympic runner turned World War II hero?',
         'a' => 'Seabiscuit',
         'b' => 'Unbroken',
@@ -2886,7 +2886,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which scientist authored "Silent Spring," credited with launching the environmental movement?',
         'a' => 'Rachel Carson',
         'b' => 'Jane Goodall',
@@ -2898,7 +2898,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction work by Jon Krakauer examines the tragic 1992 death of Christopher McCandless in Alaska?',
         'a' => 'Into the Wild',
         'b' => 'Under the Banner of Heaven',
@@ -2910,7 +2910,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Michelle Obama became a bestseller in 2018?',
         'a' => 'Becoming',
         'b' => 'Lean In',
@@ -2922,7 +2922,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which Holocaust survivor authored "Night," a memoir of his experiences in Nazi concentration camps?',
         'a' => 'Elie Wiesel',
         'b' => 'Primo Levi',
@@ -2934,7 +2934,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which non-fiction book by Viktor Frankl describes his experiences in Nazi concentration camps and his theory of logotherapy?',
         'a' => 'Man’s Search for Meaning',
         'b' => 'Night',
@@ -2946,7 +2946,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which American president wrote "Profiles in Courage," detailing acts of political bravery?',
         'a' => 'John F. Kennedy',
         'b' => 'Theodore Roosevelt',
@@ -2958,7 +2958,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 39,
+        
         'question' => 'Which book by Trevor Noah recounts his experiences growing up during apartheid in South Africa?',
         'a' => 'Born a Crime',
         'b' => 'The Long Walk to Freedom',
@@ -2973,7 +2973,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is known for his theory of "deconstruction"?',
         'a' => 'Roland Barthes',
         'b' => 'Jacques Derrida',
@@ -2985,7 +2985,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote the influential work "The Death of the Author"?',
         'a' => 'Jacques Derrida',
         'b' => 'Harold Bloom',
@@ -2997,7 +2997,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which work by M.H. Abrams focuses on Romantic literature and its theory of the imagination?',
         'a' => 'The Mirror and the Lamp',
         'b' => 'The Anxiety of Influence',
@@ -3009,7 +3009,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which feminist critic authored "The Madwoman in the Attic"?',
         'a' => 'Elaine Showalter',
         'b' => 'Sandra Gilbert and Susan Gubar',
@@ -3021,7 +3021,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who is considered a major figure in New Historicism?',
         'a' => 'Stephen Greenblatt',
         'b' => 'Jacques Lacan',
@@ -3033,7 +3033,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which theorist is associated with the term "intertextuality"?',
         'a' => 'Julia Kristeva',
         'b' => 'Jacques Derrida',
@@ -3045,7 +3045,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote "The Wretched of the Earth," focusing on postcolonial criticism?',
         'a' => 'Edward Said',
         'b' => 'Frantz Fanon',
@@ -3057,7 +3057,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic authored "Orientalism," a foundational text in postcolonial studies?',
         'a' => 'Gayatri Spivak',
         'b' => 'Homi Bhabha',
@@ -3069,7 +3069,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which scholar is known for his theory of "cultural materialism"?',
         'a' => 'Stephen Greenblatt',
         'b' => 'Raymond Williams',
@@ -3081,7 +3081,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which theorist is known for their work on gender performativity in "Gender Trouble"?',
         'a' => 'Judith Butler',
         'b' => 'Simone de Beauvoir',
@@ -3094,7 +3094,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who developed the theory of "dialogism" in literary criticism?',
         'a' => 'Mikhail Bakhtin',
         'b' => 'Roland Barthes',
@@ -3106,7 +3106,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is famous for the concept of the "anxiety of influence"?',
         'a' => 'Harold Bloom',
         'b' => 'Northrop Frye',
@@ -3118,7 +3118,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who introduced the idea of "The Intentional Fallacy" in literary criticism?',
         'a' => 'F.R. Leavis',
         'b' => 'W.K. Wimsatt and Monroe Beardsley',
@@ -3130,7 +3130,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic wrote "A Theory of Literary Production"?',
         'a' => 'Jacques Lacan',
         'b' => 'Pierre Macherey',
@@ -3142,7 +3142,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who is known for the concept of "The Well Wrought Urn" in formalist criticism?',
         'a' => 'Cleanth Brooks',
         'b' => 'Harold Bloom',
@@ -3154,7 +3154,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic authored "The Archetypes of Literature," focusing on myth and symbol in literature?',
         'a' => 'T.S. Eliot',
         'b' => 'Carl Jung',
@@ -3166,7 +3166,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who is the author of "The Work of Art in the Age of Mechanical Reproduction"?',
         'a' => 'Theodor Adorno',
         'b' => 'Walter Benjamin',
@@ -3178,7 +3178,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which theorist introduced the concept of "hegemonic culture" in cultural studies?',
         'a' => 'Raymond Williams',
         'b' => 'Antonio Gramsci',
@@ -3190,7 +3190,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote "The Use of Poetry and the Use of Criticism"?',
         'a' => 'F.R. Leavis',
         'b' => 'T.S. Eliot',
@@ -3202,7 +3202,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic is famous for applying psychoanalytic theory to Shakespeare’s plays?',
         'a' => 'Jacques Lacan',
         'b' => 'Sigmund Freud',
@@ -3215,7 +3215,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who coined the term "close reading" in literary criticism?',
         'a' => 'I.A. Richards',
         'b' => 'Cleanth Brooks',
@@ -3227,7 +3227,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which theorist is known for the concept of "intertextuality"?',
         'a' => 'Julia Kristeva',
         'b' => 'Roland Barthes',
@@ -3239,7 +3239,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who is associated with "deconstruction" in literary criticism?',
         'a' => 'Jacques Lacan',
         'b' => 'Michel Foucault',
@@ -3251,7 +3251,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic wrote "The Death of the Author"?',
         'a' => 'Michel Foucault',
         'b' => 'Roland Barthes',
@@ -3263,7 +3263,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who introduced the concept of "The Mirror Stage" in psychoanalytic theory?',
         'a' => 'Sigmund Freud',
         'b' => 'Jacques Lacan',
@@ -3275,7 +3275,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is known for the phrase "The Author is Dead"?',
         'a' => 'Roland Barthes',
         'b' => 'Jacques Derrida',
@@ -3287,7 +3287,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary theory emphasizes the power dynamics in the relationship between the colonizer and the colonized?',
         'a' => 'Deconstruction',
         'b' => 'Post-colonialism',
@@ -3299,7 +3299,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote "Discipline and Punish," analyzing social structures of power?',
         'a' => 'Gilles Deleuze',
         'b' => 'Michel Foucault',
@@ -3311,7 +3311,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic emphasized the reader’s role in constructing the meaning of a text?',
         'a' => 'Stanley Fish',
         'b' => 'Harold Bloom',
@@ -3323,7 +3323,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who introduced the idea of "cultural capital" in literary theory?',
         'a' => 'Pierre Bourdieu',
         'b' => 'Raymond Williams',
@@ -3336,7 +3336,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who introduced the concept of "base and superstructure" in Marxist theory?',
         'a' => 'Louis Althusser',
         'b' => 'Karl Marx',
@@ -3348,7 +3348,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic wrote "The Anxiety of Influence"?',
         'a' => 'Harold Bloom',
         'b' => 'Roland Barthes',
@@ -3360,7 +3360,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is associated with the theory of "Cultural Materialism"?',
         'a' => 'Raymond Williams',
         'b' => 'Louis Althusser',
@@ -3372,7 +3372,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote "The Well Wrought Urn," defending the importance of literary form?',
         'a' => 'Cleanth Brooks',
         'b' => 'I.A. Richards',
@@ -3384,7 +3384,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which term refers to the interpretation of texts by considering their historical context and social conditions?',
         'a' => 'New Historicism',
         'b' => 'Formalism',
@@ -3396,7 +3396,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is known for the "Reader-Response Theory"?',
         'a' => 'Harold Bloom',
         'b' => 'Stanley Fish',
@@ -3408,7 +3408,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who introduced the term "Hegemony" in cultural theory?',
         'a' => 'Karl Marx',
         'b' => 'Antonio Gramsci',
@@ -3420,7 +3420,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic is associated with the idea of "archetypes" in literature?',
         'a' => 'Northrop Frye',
         'b' => 'Carl Jung',
@@ -3432,7 +3432,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who wrote "Mythologies," analyzing the cultural meanings behind everyday objects?',
         'a' => 'Roland Barthes',
         'b' => 'Michel Foucault',
@@ -3444,7 +3444,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is associated with the phrase "The intentional fallacy"?',
         'a' => 'I.A. Richards',
         'b' => 'William K. Wimsatt',
@@ -3457,7 +3457,7 @@ class Literature extends Seeder
 
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is known for developing "Structuralism"?',
         'a' => 'Claude Lévi-Strauss',
         'b' => 'Jacques Derrida',
@@ -3469,7 +3469,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'What is the main focus of "Post-structuralism"?',
         'a' => 'Language and meaning',
         'b' => 'Historical context',
@@ -3481,7 +3481,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which theory focuses on the idea that texts have multiple meanings based on the reader’s interpretation?',
         'a' => 'Reader-Response Criticism',
         'b' => 'Formalism',
@@ -3493,7 +3493,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critic is known for the concept of "Differance"?',
         'a' => 'Jacques Derrida',
         'b' => 'Michel Foucault',
@@ -3505,7 +3505,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which term describes the approach that examines how literary works interact with societal power structures?',
         'a' => 'Postcolonial Criticism',
         'b' => 'Cultural Studies',
@@ -3517,7 +3517,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary theorist is known for "A Theory of Literary Production"?',
         'a' => 'Pierre Bourdieu',
         'b' => 'Terry Eagleton',
@@ -3529,7 +3529,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critical theory examines how gender influences literature?',
         'a' => 'Feminist Criticism',
         'b' => 'Queer Theory',
@@ -3541,7 +3541,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Who is the author of "The Interpretation of Dreams"?',
         'a' => 'Sigmund Freud',
         'b' => 'Carl Jung',
@@ -3553,7 +3553,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which critical approach focuses on the author’s background and influences?',
         'a' => 'Biographical Criticism',
         'b' => 'Historical Criticism',
@@ -3565,7 +3565,7 @@ class Literature extends Seeder
     ],
     [
         'field_id' => 8,
-        'sub_fields_id' => 40,
+        
         'question' => 'Which literary critic is associated with "Deconstruction"?',
         'a' => 'Jacques Derrida',
         'b' => 'Roland Barthes',

@@ -16,7 +16,7 @@ class QuestionSeeder5 extends Seeder
         $questions =    [
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the primary purpose of reinforcement in concrete structures?',
                 'a' => 'To increase thermal resistance',
                 'b' => 'To improve aesthetic appeal',
@@ -28,7 +28,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which type of bridge uses cables suspended between towers to support the bridge deck?',
                 'a' => 'Beam bridge',
                 'b' => 'Arch bridge',
@@ -40,7 +40,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the main function of a retaining wall?',
                 'a' => 'To support vertical loads',
                 'b' => 'To prevent soil erosion',
@@ -52,7 +52,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which type of soil has the highest permeability?',
                 'a' => 'Clay',
                 'b' => 'Silt',
@@ -64,7 +64,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What does the term "dead load" refer to in structural engineering?',
                 'a' => 'Temporary loads during construction',
                 'b' => 'Live loads due to occupancy',
@@ -76,7 +76,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which material is commonly used for road surface construction?',
                 'a' => 'Concrete',
                 'b' => 'Asphalt',
@@ -88,7 +88,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the purpose of a cantilever in structural design?',
                 'a' => 'To create vertical support',
                 'b' => 'To distribute loads evenly',
@@ -100,7 +100,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which test is used to determine the compressive strength of concrete?',
                 'a' => 'Tensile test',
                 'b' => 'Slump test',
@@ -112,7 +112,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the purpose of a survey in civil engineering?',
                 'a' => 'To estimate project costs',
                 'b' => 'To assess environmental impact',
@@ -124,7 +124,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which factor is most critical in the design of a foundation?',
                 'a' => 'Color of the soil',
                 'b' => 'Type of construction materials',
@@ -136,7 +136,7 @@ class QuestionSeeder5 extends Seeder
             ],
             //  [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can CSS be used to control the layout of a web page?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -146,7 +146,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is the "print" function used to display output in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -156,7 +156,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can SQL be used to update records in a database?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -166,7 +166,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is Java an object-oriented programming language?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -176,7 +176,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is JavaScript executed on the server side?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -186,7 +186,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Does Python support multiple inheritance?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -196,7 +196,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can you use CSS to add a background image to a web page?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -206,7 +206,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is "NaN" a valid value in JavaScript?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -216,7 +216,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is it possible to create a custom class in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -226,7 +226,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Does SQL support transactions?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -236,7 +236,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can the "return" statement be used in a Python function?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -246,7 +246,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is "null" a valid value in SQL?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -256,7 +256,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Does JavaScript have a "switch" statement?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -266,7 +266,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is Python case-sensitive?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -276,7 +276,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can you use CSS to create a grid layout?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -286,7 +286,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is "String" a data type in Java?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -296,7 +296,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can you use CSS to change the color of text?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -306,7 +306,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is the "input" function used to get user input in Python?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -316,7 +316,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Can JavaScript manipulate the HTML content of a webpage?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -326,7 +326,7 @@ class QuestionSeeder5 extends Seeder
             // ],
             // [
             //     'field_id' => 4,
-            //     'sub_fields_id' => 16,
+            //    
             //     'question' => 'Is "POST" a valid HTTP method?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -336,7 +336,7 @@ class QuestionSeeder5 extends Seeder
             // ],      
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the primary purpose of a retaining wall in civil engineering?',
                 'a' => 'To support vertical loads',
                 'b' => 'To prevent soil erosion and stabilize slopes',
@@ -348,7 +348,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the function of a settlement tank in a water treatment plant?',
                 'a' => 'To filter suspended particles',
                 'b' => 'To allow heavy particles to settle out of the water',
@@ -360,7 +360,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which method is commonly used to improve the bearing capacity of soil?',
                 'a' => 'Soil stabilization',
                 'b' => 'Soil washing',
@@ -372,7 +372,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the purpose of a manhole in a sewer system?',
                 'a' => 'To provide ventilation',
                 'b' => 'To allow access for maintenance and inspection',
@@ -384,7 +384,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which material is commonly used for road surface construction due to its durability and flexibility?',
                 'a' => 'Concrete',
                 'b' => 'Asphalt',
@@ -396,7 +396,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the function of a weir in hydraulic engineering?',
                 'a' => 'To measure water flow rate',
                 'b' => 'To support vertical loads',
@@ -408,7 +408,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the main purpose of using a geogrid in road construction?',
                 'a' => 'To provide thermal insulation',
                 'b' => 'To reinforce soil and increase load-bearing capacity',
@@ -420,7 +420,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which type of load is considered in the design of a highway bridge?',
                 'a' => 'Wind load',
                 'b' => 'Seismic load',
@@ -432,7 +432,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'What is the purpose of a culvert in transportation engineering?',
                 'a' => 'To allow water to pass under a road or railway',
                 'b' => 'To support vertical loads',
@@ -444,7 +444,7 @@ class QuestionSeeder5 extends Seeder
             ],
             [
                 'field_id' => 5,
-                'sub_fields_id' => 21,
+               
                 'question' => 'Which type of soil is most suitable for the construction of an earthen dam?',
                 'a' => 'Sandy soil',
                 'b' => 'Clayey soil',
@@ -456,7 +456,7 @@ class QuestionSeeder5 extends Seeder
             ],  
             [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary purpose of a retaining wall in civil engineering?',
         'a' => 'To support vertical loads',
         'b' => 'To prevent soil erosion and stabilize slopes',
@@ -468,7 +468,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the function of a settlement tank in a water treatment plant?',
         'a' => 'To filter suspended particles',
         'b' => 'To allow heavy particles to settle out of the water',
@@ -480,7 +480,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which method is commonly used to improve the bearing capacity of soil?',
         'a' => 'Soil stabilization',
         'b' => 'Soil washing',
@@ -492,7 +492,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a manhole in a sewer system?',
         'a' => 'To provide ventilation',
         'b' => 'To allow access for maintenance and inspection',
@@ -504,7 +504,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which material is commonly used for road surface construction due to its durability and flexibility?',
         'a' => 'Concrete',
         'b' => 'Asphalt',
@@ -516,7 +516,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the function of a weir in hydraulic engineering?',
         'a' => 'To measure water flow rate',
         'b' => 'To support vertical loads',
@@ -528,7 +528,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main purpose of using a geogrid in road construction?',
         'a' => 'To provide thermal insulation',
         'b' => 'To reinforce soil and increase load-bearing capacity',
@@ -540,7 +540,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of load is considered in the design of a highway bridge?',
         'a' => 'Wind load',
         'b' => 'Seismic load',
@@ -552,7 +552,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a culvert in transportation engineering?',
         'a' => 'To allow water to pass under a road or railway',
         'b' => 'To support vertical loads',
@@ -564,7 +564,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of soil is most suitable for the construction of an earthen dam?',
         'a' => 'Sandy soil',
         'b' => 'Clayey soil',
@@ -577,7 +577,7 @@ class QuestionSeeder5 extends Seeder
     ///
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary function of an expansion joint in a bridge?',
         'a' => 'To provide structural support',
         'b' => 'To allow for thermal expansion and contraction',
@@ -589,7 +589,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary use of a soil test in construction?',
         'a' => 'To determine soil color',
         'b' => 'To assess soil texture',
@@ -601,7 +601,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which of the following is an essential component of a stormwater drainage system?',
         'a' => 'Reinforced concrete',
         'b' => 'Catch basins',
@@ -613,7 +613,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'In civil engineering, what does the term "load-bearing wall" refer to?',
         'a' => 'A wall that provides insulation',
         'b' => 'A wall that supports vertical loads from above',
@@ -625,7 +625,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a foundation pad in construction?',
         'a' => 'To provide a base for structural loads',
         'b' => 'To enhance aesthetic appeal',
@@ -637,7 +637,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary advantage of using precast concrete in construction?',
         'a' => 'Increased flexibility in design',
         'b' => 'Reduced construction time',
@@ -649,7 +649,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which of the following is a common method for reinforcing concrete structures?',
         'a' => 'Using fiber optic cables',
         'b' => 'Embedding steel bars',
@@ -663,7 +663,7 @@ class QuestionSeeder5 extends Seeder
 
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a diaphragm wall in civil engineering?',
         'a' => 'To provide aesthetic appeal',
         'b' => 'To support vertical loads in deep excavation',
@@ -675,7 +675,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What type of survey is typically used to determine land boundaries?',
         'a' => 'Geodetic survey',
         'b' => 'Hydrographic survey',
@@ -687,7 +687,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is a common cause of structural failure in buildings?',
         'a' => 'Inadequate insulation',
         'b' => 'Poorly designed foundation',
@@ -700,7 +700,7 @@ class QuestionSeeder5 extends Seeder
 
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main purpose of using a vibration isolator in a building?',
         'a' => 'To reduce noise levels',
         'b' => 'To absorb vibrations and reduce structural stress',
@@ -712,7 +712,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which test is commonly used to determine the compaction of soil?',
         'a' => 'Atterberg limits test',
         'b' => 'Proctor compaction test',
@@ -724,7 +724,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a drainage layer in a retaining wall?',
         'a' => 'To provide additional strength',
         'b' => 'To allow water to drain away and reduce pressure',
@@ -736,7 +736,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What type of foundation is typically used for buildings on soft or loose soil?',
         'a' => 'Shallow foundation',
         'b' => 'Deep foundation',
@@ -748,7 +748,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary function of a shear wall in a building?',
         'a' => 'To provide thermal insulation',
         'b' => 'To resist lateral forces such as wind or earthquakes',
@@ -760,7 +760,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a geotextile fabric in construction?',
         'a' => 'To provide aesthetic appeal',
         'b' => 'To separate soil layers and enhance stability',
@@ -772,7 +772,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of concrete is designed to have a high resistance to cracking?',
         'a' => 'High-strength concrete',
         'b' => 'Self-compacting concrete',
@@ -784,7 +784,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main function of a bridge pier?',
         'a' => 'To provide support to the bridge deck',
         'b' => 'To reduce noise levels',
@@ -796,7 +796,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a capillary break layer in construction?',
         'a' => 'To provide additional insulation',
         'b' => 'To prevent moisture from rising through the foundation',
@@ -808,7 +808,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary purpose of using a soil nail in retaining wall construction?',
         'a' => 'To provide additional insulation',
         'b' => 'To reinforce and stabilize the soil',
@@ -820,7 +820,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using formwork in concrete construction?',
         'a' => 'To support the concrete until it sets',
         'b' => 'To enhance the aesthetic appearance',
@@ -832,7 +832,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which material is often used for reinforcing concrete to improve its tensile strength?',
         'a' => 'Wood',
         'b' => 'Steel',
@@ -844,7 +844,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary function of a bearing pad in bridge construction?',
         'a' => 'To provide thermal insulation',
         'b' => 'To accommodate movements and distribute loads',
@@ -856,7 +856,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary function of a retaining wall drainage system?',
         'a' => 'To provide structural support',
         'b' => 'To allow water to escape and prevent hydrostatic pressure buildup',
@@ -868,7 +868,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is a common cause of differential settlement in buildings?',
         'a' => 'Uniform soil compaction',
         'b' => 'Variation in soil properties and load distribution',
@@ -880,7 +880,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of foundation is typically used for high-rise buildings?',
         'a' => 'Shallow foundation',
         'b' => 'Pile foundation',
@@ -892,7 +892,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary purpose of a waterproof membrane in building construction?',
         'a' => 'To provide additional insulation',
         'b' => 'To prevent water infiltration',
@@ -904,7 +904,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main advantage of using composite materials in construction?',
         'a' => 'Increased weight',
         'b' => 'Improved strength-to-weight ratio',
@@ -916,7 +916,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a seismic design in buildings?',
         'a' => 'To provide aesthetic appeal',
         'b' => 'To protect the structure from earthquake-induced forces',
@@ -928,7 +928,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a pile cap in foundation engineering?',
         'a' => 'To distribute loads from the superstructure to the piles',
         'b' => 'To provide aesthetic appeal',
@@ -940,7 +940,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the function of a diaphragm in a water tank?',
         'a' => 'To regulate water temperature',
         'b' => 'To provide structural support',
@@ -952,7 +952,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a construction joint in concrete structures?',
         'a' => 'To provide aesthetic design',
         'b' => 'To accommodate movements and prevent cracks',
@@ -964,7 +964,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main purpose of a land survey in construction?',
         'a' => 'To assess aesthetic value',
         'b' => 'To determine property boundaries and topography',
@@ -976,7 +976,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is a common method for soil stabilization?',
         'a' => 'Chemical treatment',
         'b' => 'Adding organic matter',
@@ -988,7 +988,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of concrete is used for underwater construction?',
         'a' => 'Air-entrained concrete',
         'b' => 'High-strength concrete',
@@ -1000,7 +1000,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a concrete admixture?',
         'a' => 'To change the color of concrete',
         'b' => 'To modify the properties of concrete',
@@ -1012,7 +1012,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the function of a concrete slab in building construction?',
         'a' => 'To provide aesthetic design',
         'b' => 'To serve as a horizontal load-bearing element',
@@ -1024,7 +1024,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of wall is designed to support both vertical and lateral loads?',
         'a' => 'Partition wall',
         'b' => 'Load-bearing wall',
@@ -1036,7 +1036,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary purpose of a bridge abutment?',
         'a' => 'To provide aesthetic appeal',
         'b' => 'To support the ends of the bridge and transfer loads to the foundation',
@@ -1048,7 +1048,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a geotechnical investigation?',
         'a' => 'To evaluate the structural integrity of a building',
         'b' => 'To assess soil properties and stability for foundation design',
@@ -1060,7 +1060,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What type of retaining wall is commonly used for high loads and limited space?',
         'a' => 'Gravity wall',
         'b' => 'Cantilever wall',
@@ -1072,7 +1072,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main function of a soil permeability test?',
         'a' => 'To measure soil compaction',
         'b' => 'To determine the rate at which water flows through soil',
@@ -1084,7 +1084,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of construction material is known for its high compressive strength?',
         'a' => 'Wood',
         'b' => 'Steel',
@@ -1096,7 +1096,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is a common use of a retaining wall in landscape architecture?',
         'a' => 'To provide additional seating',
         'b' => 'To support a garden feature and prevent soil erosion',
@@ -1108,7 +1108,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What type of load does a cantilever beam primarily support?',
         'a' => 'Live load',
         'b' => 'Dead load',
@@ -1120,7 +1120,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a foundation settlement observation?',
         'a' => 'To check the aesthetic quality of the foundation',
         'b' => 'To monitor and measure any movement or sinking of the foundation',
@@ -1132,7 +1132,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main function of a diaphragm wall?',
         'a' => 'To provide insulation',
         'b' => 'To act as a structural element that retains soil and supports excavation',
@@ -1144,7 +1144,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What does the term "frost heave" refer to in civil engineering?',
         'a' => 'Soil expansion due to water freezing and thawing',
         'b' => 'Soil compaction due to heavy loads',
@@ -1156,7 +1156,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a thermal bridge in building design?',
         'a' => 'To enhance heat retention in specific areas',
         'b' => 'To provide structural support',
@@ -1168,7 +1168,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a bridge expansion joint?',
         'a' => 'To provide thermal insulation',
         'b' => 'To allow for movements due to temperature changes and prevent damage',
@@ -1180,7 +1180,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of retaining wall is best suited for high loads and has limited space?',
         'a' => 'Gravity wall',
         'b' => 'Cantilever wall',
@@ -1192,7 +1192,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a cross-lot bracing system in construction?',
         'a' => 'To enhance aesthetic design',
         'b' => 'To provide lateral stability and support excavation',
@@ -1204,7 +1204,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main advantage of using pre-stressed concrete?',
         'a' => 'Increased weight',
         'b' => 'Improved resistance to tensile stresses',
@@ -1216,7 +1216,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What does the term "soil liquefaction" refer to?',
         'a' => 'The process of soil turning into a liquid state due to seismic activity',
         'b' => 'The process of soil becoming more solid due to compaction',
@@ -1228,7 +1228,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'Which type of concrete is commonly used for high-strength applications?',
         'a' => 'Normal-strength concrete',
         'b' => 'High-strength concrete',
@@ -1240,7 +1240,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary purpose of a sump pit in construction?',
         'a' => 'To provide aesthetic design',
         'b' => 'To collect and manage water from drainage systems',
@@ -1252,7 +1252,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main function of a vibration isolator in a building?',
         'a' => 'To enhance aesthetic appeal',
         'b' => 'To reduce the transmission of vibrations from machinery and external sources',
@@ -1264,7 +1264,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using expansion joints in road construction?',
         'a' => 'To improve the road surface texture',
         'b' => 'To accommodate thermal expansion and contraction',
@@ -1276,7 +1276,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main purpose of a drainage layer in a retaining wall?',
         'a' => 'To provide additional insulation',
         'b' => 'To manage water pressure and prevent wall failure',
@@ -1288,7 +1288,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What type of foundation is best suited for buildings on unstable soil?',
         'a' => 'Shallow foundation',
         'b' => 'Pile foundation',
@@ -1300,7 +1300,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the primary function of a wing wall in bridge construction?',
         'a' => 'To support the bridge deck',
         'b' => 'To retain soil and provide lateral support at bridge ends',
@@ -1312,7 +1312,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of using a load-bearing wall?',
         'a' => 'To support non-structural elements',
         'b' => 'To carry and transfer loads from the structure above to the foundation',
@@ -1324,7 +1324,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main advantage of using a cantilever retaining wall?',
         'a' => 'Its ability to support large loads with minimal material',
         'b' => 'Its aesthetic appeal',
@@ -1336,7 +1336,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a shear wall in high-rise buildings?',
         'a' => 'To support vertical loads',
         'b' => 'To resist lateral forces and enhance building stability',
@@ -1348,7 +1348,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the function of a dewatering system on a construction site?',
         'a' => 'To enhance soil stability by removing excess water',
         'b' => 'To provide cooling to machinery',
@@ -1360,7 +1360,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a pile cap in foundation construction?',
         'a' => 'To provide aesthetic design',
         'b' => 'To distribute loads from the structure to the piles below',
@@ -1372,7 +1372,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the role of a concrete screed in construction?',
         'a' => 'To level and smooth the surface of freshly poured concrete',
         'b' => 'To provide structural support',
@@ -1384,7 +1384,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main purpose of a drainage ditch in civil engineering?',
         'a' => 'To improve soil strength',
         'b' => 'To collect and direct surface water away from structures',
@@ -1396,7 +1396,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What does the term "load factor" refer to in structural design?',
         'a' => 'The factor used to estimate material cost',
         'b' => 'The multiplier applied to loads to ensure safety and account for uncertainties',
@@ -1408,7 +1408,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a settlement plate in building construction?',
         'a' => 'To measure aesthetic changes',
         'b' => 'To monitor ground settlement and structural movement',
@@ -1420,7 +1420,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the main function of a bearing capacity test?',
         'a' => 'To measure soil compaction',
         'b' => 'To determine the load-carrying capacity of soil',
@@ -1432,7 +1432,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 21,
+       
         'question' => 'What is the purpose of a foundation pile?',
         'a' => 'To distribute loads from the building to the stable soil or rock deeper underground',
         'b' => 'To enhance the aesthetic design of a building',
@@ -1443,7 +1443,7 @@ class QuestionSeeder5 extends Seeder
         'updated_at' => now()
     ],[
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a heat exchanger in mechanical systems?',
         'a' => 'To transfer heat between two or more fluids',
         'b' => 'To filter particles from fluids',
@@ -1455,7 +1455,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "thermodynamics" study?',
         'a' => 'The behavior of fluids in motion',
         'b' => 'The conversion of heat into work and the associated energy transfers',
@@ -1467,7 +1467,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a governor in an engine?',
         'a' => 'To control the engine speed and maintain it at a desired level',
         'b' => 'To improve fuel efficiency',
@@ -1479,7 +1479,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a pump in mechanical systems?',
         'a' => 'To compress gases',
         'b' => 'To transfer fluids from one place to another',
@@ -1491,7 +1491,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'Which type of gear is commonly used to transmit motion between shafts that are at an angle to each other?',
         'a' => 'Spur gear',
         'b' => 'Bevel gear',
@@ -1503,7 +1503,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a cooling system in an engine?',
         'a' => 'To increase the engine temperature',
         'b' => 'To remove excess heat and maintain optimal operating temperature',
@@ -1515,7 +1515,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "fluid dynamics" refer to?',
         'a' => 'The study of mechanical vibrations',
         'b' => 'The study of fluid behavior and flow',
@@ -1527,7 +1527,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a compressor in a refrigeration system?',
         'a' => 'To expand refrigerant gas',
         'b' => 'To increase the pressure of the refrigerant gas',
@@ -1539,7 +1539,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main advantage of using a centrifugal pump?',
         'a' => 'High efficiency for low flow rates',
         'b' => 'Ability to handle high flow rates with relatively low energy consumption',
@@ -1551,7 +1551,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a bearing in mechanical systems?',
         'a' => 'To support rotating components and reduce friction',
         'b' => 'To increase the load capacity of shafts',
@@ -1562,7 +1562,7 @@ class QuestionSeeder5 extends Seeder
         'updated_at' => now()
     ],[
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary purpose of a flywheel in an engine?',
         'a' => 'To increase engine temperature',
         'b' => 'To improve fuel efficiency',
@@ -1574,7 +1574,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a hydraulic actuator?',
         'a' => 'To increase fluid temperature',
         'b' => 'To filter hydraulic fluid',
@@ -1586,7 +1586,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "specific heat capacity" refer to?',
         'a' => 'The ability of a material to conduct electricity',
         'b' => 'The measurement of a material\'s thermal conductivity',
@@ -1598,7 +1598,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of an expansion valve in a refrigeration system?',
         'a' => 'To increase the pressure of the refrigerant',
         'b' => 'To cool the refrigerant',
@@ -1610,7 +1610,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main advantage of using a pneumatic system?',
         'a' => 'Ability to handle high temperatures',
         'b' => 'Ability to transmit power with high efficiency',
@@ -1622,7 +1622,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "mechanical advantage" refer to?',
         'a' => 'The ratio of power output to power input',
         'b' => 'The reduction in wear and tear of mechanical parts',
@@ -1635,7 +1635,7 @@ class QuestionSeeder5 extends Seeder
     ///
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a gear reducer?',
         'a' => 'To increase the rotational speed',
         'b' => 'To measure gear wear',
@@ -1647,7 +1647,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main purpose of a vibration damper?',
         'a' => 'To increase the amplitude of vibrations',
         'b' => 'To enhance aesthetic appearance',
@@ -1659,7 +1659,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a clutch in a mechanical system?',
         'a' => 'To increase rotational speed',
         'b' => 'To filter contaminants from lubricants',
@@ -1671,7 +1671,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "entropy" refer to in thermodynamics?',
         'a' => 'The amount of work done by a system',
         'b' => 'The total energy of a system',
@@ -1683,7 +1683,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a cooling system in an engine?',
         'a' => 'To increase the engine temperature',
         'b' => 'To improve fuel combustion',
@@ -1694,7 +1694,7 @@ class QuestionSeeder5 extends Seeder
         'updated_at' => now()
     ], [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a turbocharger in an engine?',
         'a' => 'To reduce fuel consumption',
         'b' => 'To increase engine power by forcing in more air',
@@ -1706,7 +1706,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "thermal conductivity" measure?',
         'a' => 'The ability of a material to absorb heat',
         'b' => 'The rate at which heat passes through a material',
@@ -1718,7 +1718,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary role of a camshaft in an engine?',
         'a' => 'To increase engine speed',
         'b' => 'To control the timing of valve openings and closings',
@@ -1730,7 +1730,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a bearing in a machine?',
         'a' => 'To increase the rotational speed of the shaft',
         'b' => 'To reduce friction between moving parts',
@@ -1742,7 +1742,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of using a heat exchanger?',
         'a' => 'To transfer heat between two fluids',
         'b' => 'To filter contaminants from fluids',
@@ -1755,7 +1755,7 @@ class QuestionSeeder5 extends Seeder
     ///
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a gear reducer?',
         'a' => 'To increase the rotational speed',
         'b' => 'To measure gear wear',
@@ -1767,7 +1767,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main purpose of a vibration damper?',
         'a' => 'To increase the amplitude of vibrations',
         'b' => 'To enhance aesthetic appearance',
@@ -1779,7 +1779,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "entropy" refer to in thermodynamics?',
         'a' => 'The amount of work done by a system',
         'b' => 'The total energy of a system',
@@ -1791,7 +1791,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "gear ratio" refer to?',
         'a' => 'The number of gears in a gearbox',
         'b' => 'The size of the gears used',
@@ -1803,7 +1803,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a piston in an engine?',
         'a' => 'To regulate fuel injection',
         'b' => 'To create and transfer mechanical power from combustion',
@@ -1815,7 +1815,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a lubricating system in machinery?',
         'a' => 'To increase the temperature of the machine',
         'b' => 'To reduce friction and wear on moving parts',
@@ -1827,7 +1827,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main advantage of using an electric motor over a combustion engine?',
         'a' => 'Higher noise levels',
         'b' => 'Lower maintenance requirements',
@@ -1839,7 +1839,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "rpm" stand for in mechanical systems?',
         'a' => 'Revolutions per minute',
         'b' => 'Radial pressure measurement',
@@ -1851,7 +1851,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main purpose of a governor in an engine?',
         'a' => 'To regulate engine speed',
         'b' => 'To increase fuel efficiency',
@@ -1863,7 +1863,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "moment of inertia" refer to?',
         'a' => 'The resistance to rotational acceleration',
         'b' => 'The total energy of a rotating object',
@@ -1875,7 +1875,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a pressure relief valve in a hydraulic system?',
         'a' => 'To increase hydraulic pressure',
         'b' => 'To control the flow rate of hydraulic fluid',
@@ -1887,7 +1887,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a throttle valve in an engine?',
         'a' => 'To control the air-fuel mixture',
         'b' => 'To regulate engine speed',
@@ -1901,7 +1901,7 @@ class QuestionSeeder5 extends Seeder
 
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "torque" measure?',
         'a' => 'The rotational force applied to an object',
         'b' => 'The rate of energy conversion',
@@ -1913,7 +1913,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main purpose of a centrifugal pump?',
         'a' => 'To increase fluid pressure',
         'b' => 'To create a high-speed rotational flow of fluid',
@@ -1925,7 +1925,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary role of a radiator in a vehicle?',
         'a' => 'To increase engine temperature',
         'b' => 'To filter the air entering the engine',
@@ -1937,7 +1937,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a gear in a mechanical system?',
         'a' => 'To convert rotational motion and change torque',
         'b' => 'To increase the weight of the system',
@@ -1949,7 +1949,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a crankshaft in an engine?',
         'a' => 'To convert reciprocating motion into rotational motion',
         'b' => 'To regulate engine temperature',
@@ -1961,7 +1961,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "vibration" refer to in mechanical systems?',
         'a' => 'The oscillatory motion of an object',
         'b' => 'The heat generated by the system',
@@ -1973,7 +1973,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary purpose of a torque wrench?',
         'a' => 'To measure the angle of rotation',
         'b' => 'To apply a specific amount of torque to a fastener',
@@ -1985,7 +1985,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "fluid dynamics" study?',
         'a' => 'The motion of fluids and their interactions with solid boundaries',
         'b' => 'The thermal properties of materials',
@@ -1997,7 +1997,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "specific heat capacity" measure?',
         'a' => 'The amount of heat required to change the temperature of a unit mass by one degree Celsius',
         'b' => 'The rate of heat loss from a material',
@@ -2009,7 +2009,7 @@ class QuestionSeeder5 extends Seeder
     ],   
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a flywheel in an engine?',
         'a' => 'To smooth out the delivery of power',
         'b' => 'To increase engine speed',
@@ -2021,7 +2021,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "heat exchanger" refer to?',
         'a' => 'A device used to transfer heat between two or more fluids',
         'b' => 'A tool used to measure temperature',
@@ -2033,7 +2033,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a spring in a mechanical system?',
         'a' => 'To store and release energy',
         'b' => 'To regulate fluid flow',
@@ -2045,7 +2045,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main purpose of a piston ring?',
         'a' => 'To seal the combustion chamber and reduce oil consumption',
         'b' => 'To increase engine power',
@@ -2057,7 +2057,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "thermodynamics" study?',
         'a' => 'The relationship between heat, work, and energy',
         'b' => 'The properties of fluids in motion',
@@ -2069,7 +2069,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main role of a mechanical seal?',
         'a' => 'To prevent leakage between rotating and stationary parts',
         'b' => 'To enhance the thermal conductivity',
@@ -2081,7 +2081,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a gear train?',
         'a' => 'To transmit torque and change rotational speed',
         'b' => 'To filter contaminants from the fluid',
@@ -2092,7 +2092,7 @@ class QuestionSeeder5 extends Seeder
         'updated_at' => now()
     ], [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a gear in a mechanical system?',
         'a' => 'To change the speed and direction of rotation',
         'b' => 'To regulate fluid pressure',
@@ -2104,7 +2104,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "enthalpy" refer to?',
         'a' => 'The total heat content of a system',
         'b' => 'The resistance of a material to deformation',
@@ -2116,7 +2116,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a heat sink in electronics?',
         'a' => 'To dissipate heat away from sensitive components',
         'b' => 'To regulate electrical current',
@@ -2128,7 +2128,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary role of a solenoid?',
         'a' => 'To convert electrical energy into linear motion',
         'b' => 'To regulate hydraulic pressure',
@@ -2140,7 +2140,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "dynamic balance" refer to?',
         'a' => 'The state where the forces and moments acting on a rotating body are balanced',
         'b' => 'The resistance of a material to thermal expansion',
@@ -2152,7 +2152,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the role of a spring in a mechanical system?',
         'a' => 'To absorb and store mechanical energy',
         'b' => 'To regulate fluid pressure',
@@ -2164,7 +2164,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "vibration" refer to?',
         'a' => 'Oscillations of a mechanical system around its equilibrium position',
         'b' => 'Resistance to fluid flow',
@@ -2176,7 +2176,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary purpose of a flywheel in an engine?',
         'a' => 'To smooth out fluctuations in rotational speed',
         'b' => 'To regulate fuel flow',
@@ -2188,7 +2188,7 @@ class QuestionSeeder5 extends Seeder
     ],
         [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a solenoid valve in a hydraulic system?',
         'a' => 'To control the flow of fluid',
         'b' => 'To regulate temperature',
@@ -2200,7 +2200,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "moment of inertia" measure?',
         'a' => 'The resistance of a body to rotational acceleration',
         'b' => 'The density of a material',
@@ -2211,7 +2211,7 @@ class QuestionSeeder5 extends Seeder
         'updated_at' => now()
     ],[
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary purpose of a clutch in a mechanical system?',
         'a' => 'To engage and disengage the power transmission',
         'b' => 'To filter contaminants',
@@ -2223,7 +2223,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "turbine" refer to?',
         'a' => 'A device that converts fluid energy into mechanical energy',
         'b' => 'A tool that measures temperature',
@@ -2235,7 +2235,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a ball bearing?',
         'a' => 'To reduce friction between moving parts',
         'b' => 'To convert electrical energy into motion',
@@ -2247,7 +2247,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "compressibility" measure?',
         'a' => 'The degree to which a material can be compressed',
         'b' => 'The resistance to thermal expansion',
@@ -2259,7 +2259,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the role of a differential in a vehicle?',
         'a' => 'To allow wheels to rotate at different speeds while turning',
         'b' => 'To measure fuel consumption',
@@ -2271,7 +2271,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "viscosity" refer to?',
         'a' => 'The measure of a fluid’s resistance to flow',
         'b' => 'The density of a material',
@@ -2283,7 +2283,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the primary function of a gearbox?',
         'a' => 'To adjust the output speed and torque',
         'b' => 'To regulate fuel flow',
@@ -2295,7 +2295,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "entropic efficiency" measure?',
         'a' => 'The effectiveness of a system in converting energy',
         'b' => 'The density of a material',
@@ -2307,7 +2307,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the role of a piston in an engine?',
         'a' => 'To convert the energy from combustion into mechanical work',
         'b' => 'To measure fuel consumption',
@@ -2319,7 +2319,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "thermal conductivity" refer to?',
         'a' => 'The ability of a material to conduct heat',
         'b' => 'The density of a material',
@@ -2331,7 +2331,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a camshaft in an engine?',
         'a' => 'To control the timing of valve openings and closings',
         'b' => 'To regulate fuel injection',
@@ -2344,7 +2344,7 @@ class QuestionSeeder5 extends Seeder
 
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a shock absorber in a vehicle?',
         'a' => 'To control the impact and oscillations of the suspension system',
         'b' => 'To measure fuel efficiency',
@@ -2356,7 +2356,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "specific heat capacity" refer to?',
         'a' => 'The amount of heat required to change the temperature of a unit mass of a substance by one degree Celsius',
         'b' => 'The rate of thermal expansion',
@@ -2368,7 +2368,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a carburetor in an engine?',
         'a' => 'To mix air with fuel in the correct ratio for combustion',
         'b' => 'To filter air entering the engine',
@@ -2380,7 +2380,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a torque converter in an automatic transmission?',
         'a' => 'To transfer power from the engine to the transmission smoothly',
         'b' => 'To measure vehicle speed',
@@ -2392,7 +2392,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "modulus of elasticity" measure?',
         'a' => 'The ability of a material to resist deformation under stress',
         'b' => 'The rate of thermal expansion',
@@ -2404,7 +2404,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the function of a hydraulic pump?',
         'a' => 'To convert mechanical energy into hydraulic energy',
         'b' => 'To measure pressure',
@@ -2416,7 +2416,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "kinematic viscosity" refer to?',
         'a' => 'The measure of a fluid’s resistance to flow under the influence of gravity',
         'b' => 'The ability of a material to conduct heat',
@@ -2428,7 +2428,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a pressure gauge in a hydraulic system?',
         'a' => 'To measure the pressure of the hydraulic fluid',
         'b' => 'To filter contaminants from the fluid',
@@ -2440,7 +2440,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the role of a bearing in a mechanical system?',
         'a' => 'To reduce friction and support rotating components',
         'b' => 'To measure vibration',
@@ -2452,7 +2452,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "heat exchanger" refer to?',
         'a' => 'A device that transfers heat between two or more fluids',
         'b' => 'A component that regulates engine speed',
@@ -2464,7 +2464,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a flywheel in an engine?',
         'a' => 'To store rotational energy and smooth out power delivery',
         'b' => 'To filter fuel',
@@ -2476,7 +2476,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "fluid dynamics" study?',
         'a' => 'The motion of fluids and their interactions with solid boundaries',
         'b' => 'The thermal properties of materials',
@@ -2488,7 +2488,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the main function of a solenoid in a mechanical system?',
         'a' => 'To convert electrical energy into linear motion',
         'b' => 'To measure pressure',
@@ -2500,7 +2500,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the purpose of a pressure relief valve?',
         'a' => 'To prevent excessive pressure buildup in a system',
         'b' => 'To measure fluid flow rate',
@@ -2512,7 +2512,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "entropy" refer to in thermodynamics?',
         'a' => 'The measure of disorder or randomness in a system',
         'b' => 'The ability of a material to conduct heat',
@@ -2524,7 +2524,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What is the role of a governor in an engine?',
         'a' => 'To regulate engine speed and maintain constant RPM',
         'b' => 'To filter air',
@@ -2536,7 +2536,7 @@ class QuestionSeeder5 extends Seeder
     ],
     [
         'field_id' => 5,
-        'sub_fields_id' => 22,
+       
         'question' => 'What does the term "dynamic balance" refer to?',
         'a' => 'The state of equilibrium in a rotating system',
         'b' => 'The rate of thermal expansion',
@@ -2550,7 +2550,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the primary function of a radiator in an engine?',
     'a' => 'To dissipate heat from the engine coolant',
     'b' => 'To filter contaminants',
@@ -2562,7 +2562,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "compressor" refer to in mechanical systems?',
     'a' => 'A device that increases the pressure of a gas by reducing its volume',
     'b' => 'A tool for measuring temperature',
@@ -2574,7 +2574,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of an expansion valve in an air conditioning system?',
     'a' => 'To regulate the flow of refrigerant and reduce pressure',
     'b' => 'To measure humidity',
@@ -2586,7 +2586,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a muffler in an exhaust system?',
     'a' => 'To reduce noise produced by the engine exhaust gases',
     'b' => 'To filter air entering the engine',
@@ -2598,7 +2598,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "viscosity" refer to in fluids?',
     'a' => 'The measure of a fluid’s resistance to flow',
     'b' => 'The rate of heat transfer',
@@ -2610,7 +2610,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a clutch in a vehicle?',
     'a' => 'To engage or disengage the engine from the transmission',
     'b' => 'To regulate fuel injection',
@@ -2622,7 +2622,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "heat transfer" encompass?',
     'a' => 'The movement of thermal energy from one place to another',
     'b' => 'The measurement of pressure',
@@ -2634,7 +2634,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a throttle valve in an engine?',
     'a' => 'To regulate the amount of air entering the engine',
     'b' => 'To filter exhaust gases',
@@ -2646,7 +2646,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "dynamic loading" refer to?',
     'a' => 'The application of loads that change over time',
     'b' => 'The resistance to material fatigue',
@@ -2658,7 +2658,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the role of a gear in a mechanical system?',
     'a' => 'To transmit torque and rotational motion between shafts',
     'b' => 'To filter contaminants',
@@ -2670,7 +2670,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "thermal conductivity" refer to?',
     'a' => 'The ability of a material to conduct heat',
     'b' => 'The density of a material',
@@ -2682,7 +2682,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a ball joint in a suspension system?',
     'a' => 'To allow rotational movement between connected parts',
     'b' => 'To measure wheel alignment',
@@ -2694,7 +2694,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of an intercooler in a turbocharged engine?',
     'a' => 'To cool the compressed air before it enters the engine',
     'b' => 'To measure fuel pressure',
@@ -2707,7 +2707,7 @@ class QuestionSeeder5 extends Seeder
 ,
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the primary function of a camshaft in an engine?',
     'a' => 'To control the timing of the engine valves',
     'b' => 'To measure fuel pressure',
@@ -2719,7 +2719,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the main purpose of a turbocharger?',
     'a' => 'To increase the engine’s power by forcing more air into the combustion chamber',
     'b' => 'To measure exhaust temperature',
@@ -2731,7 +2731,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "kinematic viscosity" refer to?',
     'a' => 'The measure of a fluid’s resistance to flow due to internal friction',
     'b' => 'The thermal conductivity of a material',
@@ -2743,7 +2743,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a differential in a vehicle?',
     'a' => 'To allow the wheels to rotate at different speeds while turning',
     'b' => 'To measure fuel efficiency',
@@ -2755,7 +2755,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "elastic deformation" refer to?',
     'a' => 'The temporary change in shape or size of a material when stress is applied',
     'b' => 'The ability of a material to conduct heat',
@@ -2767,7 +2767,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of an alternator in a vehicle?',
     'a' => 'To generate electrical power to charge the battery and power electrical systems',
     'b' => 'To measure exhaust emissions',
@@ -2779,7 +2779,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "compressibility" refer to?',
     'a' => 'The ability of a material to decrease in volume under pressure',
     'b' => 'The measure of thermal conductivity',
@@ -2791,7 +2791,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the role of a shock absorber in a vehicle?',
     'a' => 'To absorb and dampen shock and vibration from the road',
     'b' => 'To measure fuel consumption',
@@ -2803,7 +2803,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "specific heat capacity" refer to?',
     'a' => 'The amount of heat required to change the temperature of a unit mass of a substance by one degree Celsius',
     'b' => 'The density of a material',
@@ -2815,7 +2815,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a thermostat in an engine?',
     'a' => 'To regulate the engine temperature by controlling coolant flow',
     'b' => 'To measure exhaust emissions',
@@ -2827,7 +2827,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the main purpose of a piston in an engine?',
     'a' => 'To convert the pressure from combustion into mechanical motion',
     'b' => 'To regulate fuel flow',
@@ -2841,7 +2841,7 @@ class QuestionSeeder5 extends Seeder
 ///
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the role of a centrifugal pump in mechanical engineering?',
     'a' => 'To convert mechanical energy into hydraulic energy using centrifugal force',
     'b' => 'To measure fluid flow rate',
@@ -2853,7 +2853,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the specific heat capacity?',
     'a' => 'The density of a material',
     'b' => 'The ability of a material to conduct electricity',
@@ -2865,7 +2865,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is Bernoulli’s principle?',
     'a' => 'The measure of a fluid’s viscosity',
     'b' => 'The ability of a material to conduct heat',
@@ -2877,7 +2877,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the elastic modulus measure?',
     'a' => 'The measure of a material’s ability to resist deformation under stress',
     'b' => 'The rate of thermal expansion',
@@ -2889,7 +2889,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a turbocharger in an engine?',
     'a' => 'To measure exhaust emissions',
     'b' => 'To increase the engine’s power output by forcing more air into the combustion chamber',
@@ -2901,7 +2901,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "torque" refer to?',
     'a' => 'The rotational force exerted on an object',
     'b' => 'The measure of a material’s resistance to deformation',
@@ -2913,7 +2913,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a shock absorber in a vehicle?',
     'a' => 'To measure wheel alignment',
     'b' => 'To filter air',
@@ -2925,7 +2925,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a diaphragm in a mechanical system?',
     'a' => 'To measure pressure',
     'b' => 'To filter contaminants',
@@ -2937,7 +2937,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the primary function of a gearbox in a vehicle?',
     'a' => 'To filter air',
     'b' => 'To change the torque and speed between the engine and the wheels',
@@ -2949,7 +2949,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "adiabatic process" refer to?',
     'a' => 'The measure of a fluid’s viscosity',
     'b' => 'The rate of thermal expansion',
@@ -2960,7 +2960,7 @@ class QuestionSeeder5 extends Seeder
     'updated_at' => now()
 ],[
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the principle of conservation of energy?',
     'a' => 'Energy can be created or destroyed, but not transferred',
     'b' => 'Energy can be transferred or transformed, but not created or destroyed',
@@ -2972,7 +2972,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does a hydraulic press use to exert force?',
     'a' => 'Mechanical advantage through lever arms',
     'b' => 'Pneumatic pressure',
@@ -2984,7 +2984,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a thermal conductor?',
     'a' => 'To insulate and reduce heat transfer',
     'b' => 'To enhance and transfer heat efficiently',
@@ -2996,7 +2996,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a condenser in an air conditioning system?',
     'a' => 'To cool the refrigerant after it has absorbed heat',
     'b' => 'To increase the temperature of the refrigerant',
@@ -3008,7 +3008,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "hydraulic lift" refer to?',
     'a' => 'A device that uses fluid pressure to lift heavy objects',
     'b' => 'A machine that uses mechanical advantage to lift weights',
@@ -3020,7 +3020,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the function of a gear train in a mechanical system?',
     'a' => 'To change the direction of rotation',
     'b' => 'To transfer torque and adjust speed between components',
@@ -3032,7 +3032,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the purpose of a piston in an engine?',
     'a' => 'To compress and move the engine’s working fluid',
     'b' => 'To measure fuel consumption',
@@ -3044,7 +3044,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "fluid dynamics" study?',
     'a' => 'The behavior of fluids in motion and at rest',
     'b' => 'The mechanical properties of solids',
@@ -3056,7 +3056,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the role of a camshaft in an internal combustion engine?',
     'a' => 'To control the timing of valve openings and closings',
     'b' => 'To regulate the engine temperature',
@@ -3068,7 +3068,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What does the term "thermodynamics" encompass?',
     'a' => 'The study of heat and energy transfer',
     'b' => 'The analysis of mechanical vibrations',
@@ -3080,7 +3080,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 22,
+   
     'question' => 'What is the main purpose of a regulator in a mechanical system?',
     'a' => 'To control and stabilize system parameters',
     'b' => 'To increase the system’s output power',
@@ -3093,7 +3093,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the primary purpose of a catalyst in a chemical reaction?',
     'a' => 'To increase the reaction temperature',
     'b' => 'To speed up the reaction without being consumed',
@@ -3105,7 +3105,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Raoult’s Law" describe?',
     'a' => 'The relationship between pressure and volume of gases',
     'b' => 'The partial vapor pressure of each component in an ideal mixture',
@@ -3117,7 +3117,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical engineering, what is the "Reynolds number" used to predict?',
     'a' => 'The rate of chemical reactions',
     'b' => 'The type of fluid flow, whether laminar or turbulent',
@@ -3129,7 +3129,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which process is used to separate mixtures based on differences in boiling points?',
     'a' => 'Filtration',
     'b' => 'Distillation',
@@ -3141,7 +3141,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the term for a reaction that releases heat?',
     'a' => 'Endothermic',
     'b' => 'Exothermic',
@@ -3153,7 +3153,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In a chemical plant, what does "PID" stand for in PID control systems?',
     'a' => 'Pressure, Indicator, Detector',
     'b' => 'Proportional, Integral, Derivative',
@@ -3165,7 +3165,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of a "heat exchanger"?',
     'a' => 'To mix chemicals in a controlled environment',
     'b' => 'To transfer heat between two or more fluids',
@@ -3177,7 +3177,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "mass transfer" in chemical engineering?',
     'a' => 'The process of heat exchange between substances',
     'b' => 'The movement of mass from one location to another',
@@ -3189,7 +3189,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the primary component of natural gas?',
     'a' => 'Ethane',
     'b' => 'Methane',
@@ -3201,7 +3201,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the name of the process used to convert crude oil into useful products like gasoline?',
     'a' => 'Cracking',
     'b' => 'Fractional Distillation',
@@ -3214,7 +3214,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the function of a "packed column" in chemical engineering?',
     'a' => 'To cool down chemical reactions',
     'b' => 'To separate mixtures based on differences in component volatility',
@@ -3226,7 +3226,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which equation is used to determine the energy balance in a thermodynamic system?',
     'a' => 'Newton\'s Second Law',
     'b' => 'Bernoulli\'s Equation',
@@ -3238,7 +3238,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical engineering, what is "Le Chatelier\'s principle" concerned with?',
     'a' => 'The conservation of energy in closed systems',
     'b' => 'The equilibrium shift when a system\'s conditions are changed',
@@ -3250,7 +3250,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of "distillation" in chemical processing?',
     'a' => 'To heat up a mixture',
     'b' => 'To separate components based on boiling points',
@@ -3262,7 +3262,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "saponification"?',
     'a' => 'The process of soap formation from fats and an alkali',
     'b' => 'The distillation of essential oils',
@@ -3274,7 +3274,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical reaction engineering, what does "batch reactor" refer to?',
     'a' => 'A reactor that operates continuously without interruption',
     'b' => 'A reactor that processes one batch at a time',
@@ -3286,7 +3286,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which law is used to calculate the rate of mass transfer in a fluid?',
     'a' => 'Fick\'s Law',
     'b' => 'Hooke\'s Law',
@@ -3298,7 +3298,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of "crystallization" in chemical engineering?',
     'a' => 'To evaporate solvents from a solution',
     'b' => 'To form solid crystals from a homogeneous solution',
@@ -3310,7 +3310,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the term "flash point" refer to?',
     'a' => 'The temperature at which a liquid gives off enough vapor to ignite',
     'b' => 'The pressure at which a gas condenses into a liquid',
@@ -3322,7 +3322,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "fluidization" in chemical engineering?',
     'a' => 'The process of transforming a solid directly into a gas',
     'b' => 'The technique of making a solid behave like a fluid by passing a gas or liquid through it',
@@ -3335,7 +3335,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Henry\'s Law" describe in chemical engineering?',
     'a' => 'The relationship between the temperature and vapor pressure of a liquid',
     'b' => 'The solubility of a gas in a liquid at a constant temperature',
@@ -3347,7 +3347,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "viscosity" in the context of fluid dynamics?',
     'a' => 'The resistance of a fluid to flow',
     'b' => 'The density of a fluid relative to water',
@@ -3359,7 +3359,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of "filtration" in chemical engineering?',
     'a' => 'To separate solids from liquids or gases using a filter medium',
     'b' => 'To distill liquids based on boiling points',
@@ -3371,7 +3371,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In a heat exchanger, what is the role of the "shell" in a shell-and-tube heat exchanger?',
     'a' => 'To contain the tube bundle',
     'b' => 'To facilitate the flow of the heating fluid',
@@ -3383,7 +3383,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "pH" measure in a solution?',
     'a' => 'The concentration of salts in water',
     'b' => 'The hydrogen ion concentration',
@@ -3395,7 +3395,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "autoignition temperature" of a substance?',
     'a' => 'The temperature at which a substance spontaneously ignites without an external source',
     'b' => 'The temperature required to ignite a substance with a spark',
@@ -3407,7 +3407,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "enthalpy" represent in thermodynamics?',
     'a' => 'The total heat content of a system',
     'b' => 'The rate of heat transfer in a system',
@@ -3419,7 +3419,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the function of a "scrubber" in a chemical plant?',
     'a' => 'To filter particulate matter from gases',
     'b' => 'To cool down gases before releasing them into the atmosphere',
@@ -3431,7 +3431,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which material is commonly used as a catalyst in the Haber process for ammonia production?',
     'a' => 'Copper',
     'b' => 'Iron',
@@ -3443,7 +3443,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "adsorption" in chemical engineering?',
     'a' => 'The process where a substance adheres to the surface of a solid or liquid',
     'b' => 'The absorption of light by a substance',
@@ -3456,7 +3456,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of "fractional distillation"?',
     'a' => 'To separate components of a mixture based on boiling points',
     'b' => 'To purify liquids by evaporation and condensation',
@@ -3468,7 +3468,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which property of a fluid is measured by a viscometer?',
     'a' => 'Density',
     'b' => 'Viscosity',
@@ -3480,7 +3480,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical engineering, what does the "Prandtl number" represent?',
     'a' => 'The ratio of momentum diffusivity to thermal diffusivity',
     'b' => 'The rate of reaction in a catalytic process',
@@ -3492,7 +3492,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Arrhenius equation" relate to?',
     'a' => 'The effect of temperature on the rate of a chemical reaction',
     'b' => 'The solubility of gases in liquids',
@@ -3504,7 +3504,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "mean free path" in gas molecules?',
     'a' => 'The average distance traveled by a molecule between collisions',
     'b' => 'The shortest path taken by gas molecules in a reaction',
@@ -3516,7 +3516,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "azeotrope" in the context of distillation?',
     'a' => 'A mixture of two liquids that has a constant boiling point',
     'b' => 'A liquid that cannot be separated by fractional distillation',
@@ -3528,7 +3528,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which type of reactor is typically used for polymerization processes?',
     'a' => 'CSTR (Continuous Stirred-Tank Reactor)',
     'b' => 'PFR (Plug Flow Reactor)',
@@ -3540,7 +3540,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In fluid dynamics, what does the "Bernoulli’s principle" state?',
     'a' => 'An increase in the speed of a fluid occurs simultaneously with a decrease in pressure',
     'b' => 'The rate of flow in a pipe is inversely proportional to its diameter',
@@ -3552,7 +3552,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "catalytic cracking" used for in petroleum refining?',
     'a' => 'To break down larger hydrocarbon molecules into smaller ones',
     'b' => 'To purify crude oil by removing sulfur',
@@ -3564,7 +3564,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Langmuir isotherm" describe?',
     'a' => 'The adsorption of molecules on a solid surface',
     'b' => 'The boiling point elevation in a solution',
@@ -3577,7 +3577,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical engineering, what is "saponification"?',
     'a' => 'The process of producing soap from fats and alkali',
     'b' => 'The reaction of acids with bases to form salts',
@@ -3589,7 +3589,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "order of a reaction"?',
     'a' => 'The sum of the powers of the concentration terms in the rate equation',
     'b' => 'The sequence in which reactants are added to a reactor',
@@ -3601,7 +3601,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Le Chatelier\'s principle" state?',
     'a' => 'A system at equilibrium will adjust to counteract changes imposed on it',
     'b' => 'The rate of a reaction is proportional to the product of the reactant concentrations',
@@ -3613,7 +3613,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "osmotic pressure"?',
     'a' => 'The pressure required to stop the flow of solvent through a semipermeable membrane',
     'b' => 'The pressure exerted by a gas in a closed container',
@@ -3625,7 +3625,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which process is used to separate liquids based on their volatility?',
     'a' => 'Distillation',
     'b' => 'Filtration',
@@ -3637,7 +3637,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In heat transfer, what does "Fourier\'s law" relate to?',
     'a' => 'The rate of heat transfer through a material is proportional to the temperature gradient',
     'b' => 'The relationship between heat capacity and temperature',
@@ -3649,7 +3649,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "crystallization" in chemical engineering?',
     'a' => 'The formation of solid crystals from a solution',
     'b' => 'The conversion of a solid directly into a gas',
@@ -3661,7 +3661,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Gibbs free energy" tell us about a chemical reaction?',
     'a' => 'Whether a reaction is spontaneous or non-spontaneous',
     'b' => 'The amount of heat released or absorbed during the reaction',
@@ -3673,7 +3673,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the function of a "baffle" in a chemical reactor?',
     'a' => 'To improve the mixing of reactants',
     'b' => 'To separate immiscible liquids',
@@ -3685,7 +3685,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Boyle\'s law" describe?',
     'a' => 'The inverse relationship between the pressure and volume of a gas at constant temperature',
     'b' => 'The direct relationship between temperature and pressure of a gas',
@@ -3698,7 +3698,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "chemical equilibrium"?',
     'a' => 'The state in which the rate of the forward reaction equals the rate of the reverse reaction',
     'b' => 'The temperature at which a reaction proceeds at its fastest rate',
@@ -3710,7 +3710,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "adsorption" in chemical engineering?',
     'a' => 'The separation of particles based on size',
     'b' => 'The movement of molecules across a membrane',
@@ -3722,7 +3722,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "activation energy" of a chemical reaction?',
     'a' => 'The minimum energy required for a reaction to occur',
     'b' => 'The energy released during the formation of products',
@@ -3734,7 +3734,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'Which type of reaction is characterized by the release of energy?',
     'a' => 'Isothermal reaction',
     'b' => 'Endothermic reaction',
@@ -3746,7 +3746,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Henry\'s law" concerned with?',
     'a' => 'The thermal conductivity of fluids',
     'b' => 'The solubility of a gas in a liquid is directly proportional to the partial pressure of the gas',
@@ -3758,7 +3758,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In thermodynamics, what does the "first law" state?',
     'a' => 'Energy cannot be created or destroyed, only transferred or converted',
     'b' => 'The entropy of a system always increases',
@@ -3770,7 +3770,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "Nusselt number" used to describe?',
     'a' => 'The rate of mass transfer in a fluid',
     'b' => 'The ratio of convective to conductive heat transfer',
@@ -3782,7 +3782,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the main function of a "scrubber" in a chemical plant?',
     'a' => 'To control the flow rate of gases',
     'b' => 'To separate solid particles from liquids',
@@ -3794,7 +3794,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Claus process" involve?',
     'a' => 'The conversion of hydrogen sulfide into elemental sulfur',
     'b' => 'The production of ammonia from nitrogen and hydrogen',
@@ -3806,7 +3806,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "enthalpy" of a system?',
     'a' => 'The change in entropy during a process',
     'b' => 'The total heat content of a system',
@@ -3819,7 +3819,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of a "fluidized bed" in chemical engineering?',
     'a' => 'To support the movement of solid particles within a fluid',
     'b' => 'To increase the pressure of a gas',
@@ -3831,7 +3831,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "reaction kinetics" concerned with?',
     'a' => 'The rates of chemical reactions and the factors affecting them',
     'b' => 'The equilibrium constant of reactions',
@@ -3843,7 +3843,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "dynamic viscosity"?',
     'a' => 'A measure of a fluid’s resistance to shear or flow',
     'b' => 'The ability of a fluid to transfer heat',
@@ -3855,7 +3855,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Coulomb\'s law" describe?',
     'a' => 'The electrostatic force between charged particles',
     'b' => 'The flow of electric current in a conductor',
@@ -3867,7 +3867,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "Boiling Point Elevation" phenomenon?',
     'a' => 'The increase in boiling point of a solvent due to the presence of a non-volatile solute',
     'b' => 'The rise in temperature of a solution during exothermic reactions',
@@ -3879,7 +3879,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "vapor-liquid equilibrium"?',
     'a' => 'The state where a liquid reaches its boiling point',
     'b' => 'The condition where the rate of evaporation equals the rate of condensation',
@@ -3891,7 +3891,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the main advantage of using "membrane separation" techniques?',
     'a' => 'Ability to handle very high temperatures',
     'b' => 'Reduction of reaction time significantly',
@@ -3903,7 +3903,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'In chemical engineering, what does "heat capacity" refer to?',
     'a' => 'The heat released during a chemical reaction',
     'b' => 'The rate at which heat is transferred through a material',
@@ -3915,7 +3915,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Raoult\'s law" used for in chemical engineering?',
     'a' => 'Estimating the heat capacity of a solution',
     'b' => 'Determining the rate of a chemical reaction',
@@ -3927,7 +3927,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "thermal conductivity"?',
     'a' => 'The total heat capacity of a system',
     'b' => 'The change in heat content with temperature',
@@ -3939,7 +3939,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Arrhenius equation" describe?',
     'a' => 'The equilibrium constant of a reaction',
     'b' => 'The effect of temperature on the rate of a chemical reaction',
@@ -3953,7 +3953,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "chemical engineering thermodynamics"?',
     'a' => 'The study of energy changes in chemical processes',
     'b' => 'The study of chemical reactions at different temperatures',
@@ -3965,7 +3965,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Dew Point" refer to?',
     'a' => 'The temperature at which a gas begins to condense',
     'b' => 'The pressure at which a liquid boils',
@@ -3977,7 +3977,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "chemical process control"?',
     'a' => 'The management of chemical reactions and systems to ensure safe and efficient operation',
     'b' => 'The separation of chemicals based on their properties',
@@ -3989,7 +3989,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Hess\'s Law" state?',
     'a' => 'The total enthalpy change of a reaction is the same regardless of the number of steps',
     'b' => 'The enthalpy change of a reaction is dependent on the temperature',
@@ -4001,7 +4001,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the main function of a "centrifuge" in chemical engineering?',
     'a' => 'To increase the temperature of a chemical reaction',
     'b' => 'To mix chemicals in a controlled manner',
@@ -4013,7 +4013,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "enthalpy of formation"?',
     'a' => 'The heat released or absorbed when one mole of a compound is formed from its elements',
     'b' => 'The energy required to break chemical bonds in a substance',
@@ -4025,7 +4025,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "Le Chatelier\'s principle" predict?',
     'a' => 'How a system at equilibrium will respond to changes in concentration, pressure, or temperature',
     'b' => 'The rate at which a chemical reaction will reach equilibrium',
@@ -4037,7 +4037,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "chemical reactor design"?',
     'a' => 'The process of designing reactors to achieve optimal reaction conditions and efficiency',
     'b' => 'The study of reaction kinetics in different types of reactors',
@@ -4049,7 +4049,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does "adsorption" differ from "absorption"?',
     'a' => 'Adsorption involves molecules sticking to a surface, while absorption involves molecules being incorporated into the bulk of a material',
     'b' => 'Adsorption occurs at high temperatures, while absorption occurs at low temperatures',
@@ -4061,7 +4061,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "mass balance" in chemical engineering?',
     'a' => 'The calculation of the mass flow rates and concentrations in a chemical process to ensure that mass is conserved',
     'b' => 'The measurement of the density of different substances',
@@ -4073,7 +4073,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "Zeta potential" used to measure?',
     'a' => 'The electrostatic potential at the slipping plane of a particle in a liquid',
     'b' => 'The pressure required to compress a fluid',
@@ -4086,7 +4086,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the main use of "fluidized bed reactors" in chemical engineering?',
     'a' => 'To separate liquid mixtures based on density',
     'b' => 'To control the temperature of exothermic reactions',
@@ -4098,7 +4098,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the significance of the "Arrhenius equation" in chemical engineering?',
     'a' => 'It predicts the equilibrium position of a chemical reaction',
     'b' => 'It calculates the heat released during a chemical reaction',
@@ -4110,7 +4110,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Knudsen diffusion"?',
     'a' => 'The movement of molecules in a fluid due to concentration gradients',
     'b' => 'The diffusion of gas molecules through small pores where collisions with the pore walls dominate',
@@ -4122,7 +4122,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of a "scrubber" in chemical engineering?',
     'a' => 'To mix reactants in a reactor',
     'b' => 'To filter out impurities from liquid chemicals',
@@ -4134,7 +4134,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "crystallization" used for in chemical processes?',
     'a' => 'To increase the solubility of a substance',
     'b' => 'To purify a solid substance from a solution',
@@ -4146,7 +4146,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "Gibbs free energy" in a chemical reaction?',
     'a' => 'The total energy required to break all chemical bonds in the reactants',
     'b' => 'The energy required to overcome activation energy',
@@ -4158,7 +4158,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Langmuir isotherm" describe?',
     'a' => 'The rate of diffusion of gases through a membrane',
     'b' => 'The solubility of gases in liquids at different temperatures',
@@ -4170,7 +4170,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "octane number" a measure of?',
     'a' => 'The viscosity of a fuel',
     'b' => 'The heat capacity of a fuel',
@@ -4182,7 +4182,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "Flash Point" of a substance?',
     'a' => 'The temperature at which it spontaneously ignites',
     'b' => 'The lowest temperature at which it can vaporize to form an ignitable mixture in air',
@@ -4194,7 +4194,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "supercritical fluid extraction"?',
     'a' => 'A method of distillation under high pressure',
     'b' => 'A process of separating one component from another using a supercritical fluid as the extracting solvent',
@@ -4207,7 +4207,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Henry’s Law" in chemical engineering?',
     'a' => 'The principle that describes the diffusion of gases through a membrane',
     'b' => 'The law stating that the amount of dissolved gas in a liquid is proportional to its partial pressure above the liquid',
@@ -4219,7 +4219,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the purpose of "Le Chatelier’s principle"?',
     'a' => 'To predict the effect of a change in conditions on chemical equilibria',
     'b' => 'To determine the rate of a chemical reaction',
@@ -4231,7 +4231,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Fick’s first law of diffusion"?',
     'a' => 'It states that the rate of diffusion is proportional to the concentration gradient',
     'b' => 'It describes the relationship between the rate of diffusion and temperature',
@@ -4243,7 +4243,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "Boyle’s Law" in relation to gases?',
     'a' => 'It states that the volume of a gas is directly proportional to its temperature',
     'b' => 'It states that the pressure of a gas is inversely proportional to its volume at constant temperature',
@@ -4255,7 +4255,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "specific heat capacity"?',
     'a' => 'The amount of heat required to raise the temperature of a unit mass of a substance by one degree Celsius',
     'b' => 'The amount of heat released when a substance is burned in oxygen',
@@ -4267,7 +4267,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the function of a "mixer-settler" in a chemical process?',
     'a' => 'To mix two immiscible liquids and separate them based on density differences',
     'b' => 'To control the temperature of a reaction',
@@ -4279,7 +4279,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is "molarity" in the context of solutions?',
     'a' => 'The amount of solute present in a solution',
     'b' => 'The number of moles of solute per liter of solution',
@@ -4291,7 +4291,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Haber process" produce?',
     'a' => 'Ammonia',
     'b' => 'Methanol',
@@ -4303,7 +4303,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What is the "pH scale" used to measure?',
     'a' => 'The acidity or basicity of a solution',
     'b' => 'The concentration of hydrogen ions in a solution',
@@ -4315,7 +4315,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 24,
+   
     'question' => 'What does the "Claus process" recover from natural gas?',
     'a' => 'Methane',
     'b' => 'Sulfur',
@@ -4331,7 +4331,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary purpose of a "winglet" on an aircraft?',
     'a' => 'To increase the lift generated by the wings',
     'b' => 'To reduce the drag caused by wingtip vortices',
@@ -4343,7 +4343,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of a "gyroscope" in an aircraft?',
     'a' => 'To measure altitude',
     'b' => 'To control the roll of the aircraft',
@@ -4355,7 +4355,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "thrust" in aerospace engineering?',
     'a' => 'The force that opposes gravity',
     'b' => 'The force generated by the propulsion system to move the aircraft forward',
@@ -4367,7 +4367,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the main purpose of a "heat shield" on a spacecraft?',
     'a' => 'To protect the spacecraft from micrometeoroids',
     'b' => 'To reduce the weight of the spacecraft',
@@ -4379,7 +4379,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "Mach number" in aerospace engineering?',
     'a' => 'The speed of sound in air',
     'b' => 'The ratio of the speed of an object to the speed of sound',
@@ -4391,7 +4391,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "aerodynamics"?',
     'a' => 'The study of how gases interact with moving objects',
     'b' => 'The design of spacecraft to withstand space travel',
@@ -4403,7 +4403,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary function of "ailerons" on an aircraft?',
     'a' => 'To control the pitch of the aircraft',
     'b' => 'To control the roll of the aircraft',
@@ -4415,7 +4415,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "drag" in the context of flight?',
     'a' => 'The force that propels the aircraft forward',
     'b' => 'The force that opposes the forward motion of the aircraft',
@@ -4427,7 +4427,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "flaps" on an aircraft wing?',
     'a' => 'To decrease lift during landing',
     'b' => 'To increase lift during takeoff and landing',
@@ -4439,7 +4439,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "altimeter" used for in an aircraft?',
     'a' => 'To measure airspeed',
     'b' => 'To measure altitude',
@@ -4452,7 +4452,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of the "rudder" on an aircraft?',
     'a' => 'To control the pitch of the aircraft',
     'b' => 'To control the yaw of the aircraft',
@@ -4464,7 +4464,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "lift" in the context of aerodynamics?',
     'a' => 'The force that propels the aircraft forward',
     'b' => 'The force that opposes the forward motion of the aircraft',
@@ -4476,7 +4476,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of a "turbojet engine"?',
     'a' => 'To produce thrust by expelling air at high velocity',
     'b' => 'To provide lift for the aircraft',
@@ -4488,7 +4488,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "angle of attack" in aviation?',
     'a' => 'The angle between the aircraft’s longitudinal axis and the ground',
     'b' => 'The angle between the wing’s chord line and the direction of the oncoming air',
@@ -4500,7 +4500,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "spoiler" on an aircraft?',
     'a' => 'To increase lift during takeoff',
     'b' => 'To reduce lift and increase drag during landing',
@@ -4512,7 +4512,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "re-entry" in the context of spaceflight?',
     'a' => 'The phase when a spacecraft returns to Earth’s atmosphere from space',
     'b' => 'The phase when a spacecraft enters orbit around Earth',
@@ -4524,7 +4524,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "g-force" in aerospace engineering?',
     'a' => 'The force exerted by gravity on a stationary object',
     'b' => 'The force of acceleration experienced by an object',
@@ -4536,7 +4536,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "afterburners" in jet engines?',
     'a' => 'To increase fuel efficiency during cruise flight',
     'b' => 'To reduce the noise of the jet engine',
@@ -4548,7 +4548,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "fuselage" of an aircraft?',
     'a' => 'The main body of the aircraft that houses the crew, passengers, and cargo',
     'b' => 'The wing structure that provides lift',
@@ -4560,7 +4560,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of the "elevator" on an aircraft?',
     'a' => 'To control the pitch of the aircraft',
     'b' => 'To control the yaw of the aircraft',
@@ -4573,7 +4573,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "turbulence" in aviation?',
     'a' => 'The smooth and steady flow of air over the wings',
     'b' => 'The irregular and unpredictable movement of air',
@@ -4585,7 +4585,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary function of "landing gear" on an aircraft?',
     'a' => 'To reduce drag during flight',
     'b' => 'To provide stability in flight',
@@ -4597,7 +4597,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "aeronautics"?',
     'a' => 'The study of how gases interact with spacecraft',
     'b' => 'The design and development of spacecraft for space travel',
@@ -4609,7 +4609,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "black box" on an aircraft?',
     'a' => 'To record flight data and cockpit conversations',
     'b' => 'To control the flight path of the aircraft',
@@ -4621,7 +4621,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "stall" condition in aviation?',
     'a' => 'When the engine of an aircraft fails during flight',
     'b' => 'When the aircraft exceeds the speed of sound',
@@ -4633,7 +4633,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the role of "mission control" during a space mission?',
     'a' => 'To design and construct the spacecraft',
     'b' => 'To monitor and support the spacecraft and crew during the mission',
@@ -4645,7 +4645,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "cockpit" of an aircraft?',
     'a' => 'The section of the aircraft where cargo is stored',
     'b' => 'The area where the passengers are seated',
@@ -4657,7 +4657,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of a "jet nozzle" in an aircraft engine?',
     'a' => 'To mix fuel with air for combustion',
     'b' => 'To exhaust the gases at high speed to produce thrust',
@@ -4669,7 +4669,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "hypersonic speed"?',
     'a' => 'A speed faster than the speed of sound',
     'b' => 'A speed five times or more than the speed of sound',
@@ -4681,7 +4681,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary purpose of "ailerons" on an aircraft?',
     'a' => 'To control the pitch of the aircraft',
     'b' => 'To control the roll of the aircraft',
@@ -4694,7 +4694,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "Mach number"?',
     'a' => 'The ratio of the speed of sound to the speed of light',
     'b' => 'The ratio of an object’s speed to the speed of sound',
@@ -4706,7 +4706,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary function of "flaps" on an aircraft?',
     'a' => 'To control the pitch of the aircraft',
     'b' => 'To increase lift during takeoff and landing',
@@ -4718,7 +4718,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "drag" in the context of aerodynamics?',
     'a' => 'The force that pushes the aircraft forward',
     'b' => 'The force that pulls the aircraft upward',
@@ -4730,7 +4730,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "thrust" refer to in aviation?',
     'a' => 'The upward force that opposes gravity',
     'b' => 'The force generated by the engines to propel the aircraft forward',
@@ -4742,7 +4742,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of "ailerons" on an aircraft?',
     'a' => 'To increase the lift during takeoff',
     'b' => 'To control the roll of the aircraft',
@@ -4754,7 +4754,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "fuselage" of an aircraft?',
     'a' => 'The wing structure that provides lift',
     'b' => 'The main body of the aircraft that houses the crew, passengers, and cargo',
@@ -4766,7 +4766,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "escape velocity" in aerospace engineering?',
     'a' => 'The speed needed to stay in orbit around Earth',
     'b' => 'The speed required to break free from Earth’s gravitational pull',
@@ -4778,7 +4778,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "re-entry" in the context of spaceflight?',
     'a' => 'The phase when a spacecraft returns to Earth’s atmosphere from space',
     'b' => 'The phase when a spacecraft enters orbit around Earth',
@@ -4790,7 +4790,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of "landing gear" on an aircraft?',
     'a' => 'To support the aircraft during takeoff and landing',
     'b' => 'To reduce drag during flight',
@@ -4802,7 +4802,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "stall" condition in aviation?',
     'a' => 'When the engine of an aircraft fails during flight',
     'b' => 'When the aircraft exceeds the speed of sound',
@@ -4816,7 +4816,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "Center of Gravity" (CG) in an aircraft?',
     'a' => 'The point where the aircraft’s weight is evenly distributed in all directions',
     'b' => 'The point where the wings generate maximum lift',
@@ -4828,7 +4828,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "tailplane" on an aircraft?',
     'a' => 'To increase the speed of the aircraft',
     'b' => 'To provide stability and control in pitch',
@@ -4840,7 +4840,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "VTOL" stand for in aerospace engineering?',
     'a' => 'Vertical Take-Off and Landing',
     'b' => 'Variable Thrust Operation Load',
@@ -4852,7 +4852,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of the "rudder" on an aircraft?',
     'a' => 'To control the roll of the aircraft',
     'b' => 'To control the yaw of the aircraft',
@@ -4864,7 +4864,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "afterburner" used for in jet engines?',
     'a' => 'To reduce noise during flight',
     'b' => 'To increase thrust by injecting fuel into the exhaust stream',
@@ -4876,7 +4876,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "cockpit" of an aircraft?',
     'a' => 'The area where the pilots control the aircraft',
     'b' => 'The section of the aircraft where cargo is stored',
@@ -4888,7 +4888,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "fuselage" in an aircraft?',
     'a' => 'The wing structure that provides lift',
     'b' => 'The main body of the aircraft that houses the crew, passengers, and cargo',
@@ -4900,7 +4900,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "hypersonic speed"?',
     'a' => 'A speed five times or more than the speed of sound',
     'b' => 'A speed faster than the speed of sound',
@@ -4912,7 +4912,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "thrust" in aviation?',
     'a' => 'The resistance experienced by the aircraft moving through the air',
     'b' => 'The force generated by the engines to propel the aircraft forward',
@@ -4924,7 +4924,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "Mach number"?',
     'a' => 'The ratio of an object’s speed to the speed of sound',
     'b' => 'The ratio of the speed of light to the speed of sound',
@@ -4938,7 +4938,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "winglet" on an aircraft?',
     'a' => 'To reduce drag and improve fuel efficiency',
     'b' => 'To increase the aircraft’s speed',
@@ -4950,7 +4950,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "ISP" stand for in rocket propulsion?',
     'a' => 'Ignition Start Point',
     'b' => 'Internal System Pressure',
@@ -4962,7 +4962,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "black box" in an aircraft?',
     'a' => 'The device that records flight data and cockpit voice communications',
     'b' => 'The emergency location transmitter',
@@ -4974,7 +4974,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of "spoilers" on an aircraft?',
     'a' => 'To increase lift during takeoff',
     'b' => 'To decrease lift and increase drag',
@@ -4986,7 +4986,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "angle of attack" in aerodynamics?',
     'a' => 'The angle between the aircraft’s flight path and the horizon',
     'b' => 'The angle between the oncoming air and the wing’s chord line',
@@ -4998,7 +4998,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary cause of a "stall" in an aircraft?',
     'a' => 'Excessive speed',
     'b' => 'Insufficient lift due to a high angle of attack',
@@ -5010,7 +5010,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "yaw" in aviation?',
     'a' => 'The vertical axis rotation of an aircraft',
     'b' => 'The lateral movement of the aircraft’s nose left or right',
@@ -5022,7 +5022,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "landing flaps" on an aircraft?',
     'a' => 'To reduce the aircraft’s speed during descent',
     'b' => 'To increase lift at lower speeds for safe landing',
@@ -5034,7 +5034,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of the "elevator" on an aircraft?',
     'a' => 'To control the roll of the aircraft',
     'b' => 'To control the pitch of the aircraft',
@@ -5046,7 +5046,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "G-force" refer to in aerospace engineering?',
     'a' => 'The force of gravity acting on an object',
     'b' => 'The force exerted by an object moving through a fluid',
@@ -5059,7 +5059,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "pitch" of an aircraft?',
     'a' => 'The upward or downward movement of the aircraft’s nose',
     'b' => 'The side-to-side movement of the aircraft’s tail',
@@ -5071,7 +5071,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "drag" force in aerodynamics?',
     'a' => 'The force that opposes the aircraft’s forward motion',
     'b' => 'The force that lifts the aircraft upward',
@@ -5083,7 +5083,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "APU" stand for in aviation?',
     'a' => 'Air Pressure Unit',
     'b' => 'Auxiliary Power Unit',
@@ -5095,7 +5095,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary purpose of "flaps" on an aircraft wing?',
     'a' => 'To increase the lift during takeoff and landing',
     'b' => 'To reduce drag during cruise',
@@ -5107,7 +5107,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "chord line" of an aircraft wing?',
     'a' => 'The imaginary straight line from the leading edge to the trailing edge of the wing',
     'b' => 'The curved path of air over the top of the wing',
@@ -5119,7 +5119,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary function of "thrust reversers" on an aircraft?',
     'a' => 'To increase lift during takeoff',
     'b' => 'To slow down the aircraft during landing',
@@ -5131,7 +5131,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "aerodynamic stall"?',
     'a' => 'A condition where the airflow over the wings is disrupted, causing a loss of lift',
     'b' => 'A sudden increase in airspeed causing instability',
@@ -5143,7 +5143,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "rudder" used for in an aircraft?',
     'a' => 'To control the yaw motion of the aircraft',
     'b' => 'To increase lift during takeoff',
@@ -5155,7 +5155,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "supersonic" refer to in aerospace engineering?',
     'a' => 'Speeds greater than the speed of sound',
     'b' => 'Speeds greater than the speed of light',
@@ -5167,7 +5167,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "bank angle" in aviation?',
     'a' => 'The angle at which the aircraft tilts during a turn',
     'b' => 'The angle between the aircraft’s nose and the horizon',
@@ -5180,7 +5180,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "Mach number" represent in aerospace engineering?',
     'a' => 'The speed of an object relative to the speed of wind',
     'b' => 'The speed of an aircraft relative to the speed of light',
@@ -5192,7 +5192,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "jet engine compressor"?',
     'a' => 'To compress incoming air to increase its pressure',
     'b' => 'To reduce the noise generated by the engine',
@@ -5204,7 +5204,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of "ailerons" on an aircraft?',
     'a' => 'To control the yaw of the aircraft',
     'b' => 'To control the roll of the aircraft',
@@ -5216,7 +5216,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "VTOL" stand for in aerospace technology?',
     'a' => 'Vector Thrust and Orientation Lift',
     'b' => 'Velocity Test and Operational Lift',
@@ -5228,7 +5228,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "lift" in aerodynamics?',
     'a' => 'The force that controls the stability of the aircraft',
     'b' => 'The force that opposes the thrust and slows down the aircraft',
@@ -5240,7 +5240,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "thrust" refer to in an aircraft?',
     'a' => 'The force that stabilizes the aircraft during turns',
     'b' => 'The force generated by the engines to propel the aircraft forward',
@@ -5252,7 +5252,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "airbrakes" on an aircraft?',
     'a' => 'To provide additional lift during landing',
     'b' => 'To stabilize the aircraft during flight',
@@ -5264,7 +5264,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "fuselage" of an aircraft?',
     'a' => 'The main body of the aircraft that holds the crew, passengers, and cargo',
     'b' => 'The wing structure that generates lift',
@@ -5276,7 +5276,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "cockpit" in an aircraft?',
     'a' => 'The rear part of the aircraft that contains the tail',
     'b' => 'The section that houses the aircraft’s engines',
@@ -5288,7 +5288,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "AOA" stand for in aviation?',
     'a' => 'Angle of Attack',
     'b' => 'Altitude Over Air',
@@ -5301,7 +5301,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of a "rudder" on an aircraft?',
     'a' => 'To control the yaw (left and right movement) of the aircraft',
     'b' => 'To control the pitch (up and down movement) of the aircraft',
@@ -5313,7 +5313,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "drag" in aerodynamics?',
     'a' => 'The force that opposes the forward motion of the aircraft',
     'b' => 'The force that lifts the aircraft into the air',
@@ -5325,7 +5325,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'Which part of an aircraft is primarily responsible for lift?',
     'a' => 'The tail',
     'b' => 'The wings',
@@ -5337,7 +5337,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of a "spoiler" on an aircraft wing?',
     'a' => 'To disrupt airflow and reduce lift',
     'b' => 'To increase thrust during takeoff',
@@ -5349,7 +5349,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "afterburner" used for in jet engines?',
     'a' => 'To increase thrust by injecting fuel into the exhaust stream',
     'b' => 'To reduce noise generated by the engine',
@@ -5361,7 +5361,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "IAS" stand for in aviation?',
     'a' => 'Indicated Airspeed',
     'b' => 'Instantaneous Altitude Speed',
@@ -5373,7 +5373,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "flaps" on an aircraft wing?',
     'a' => 'To increase lift during takeoff and landing',
     'b' => 'To decrease drag during high-speed flight',
@@ -5385,7 +5385,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "angle of attack" in aviation?',
     'a' => 'The angle between the wing and the horizontal plane',
     'b' => 'The angle between the oncoming air and the wing',
@@ -5397,7 +5397,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the primary function of a "turbojet" engine?',
     'a' => 'To propel an aircraft by expelling jet exhaust gases',
     'b' => 'To generate electricity on board an aircraft',
@@ -5409,7 +5409,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "leading edge" of an aircraft wing?',
     'a' => 'The front edge of the wing that first meets the airflow',
     'b' => 'The rear edge of the wing where the airflow separates',
@@ -5423,7 +5423,7 @@ class QuestionSeeder5 extends Seeder
 
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the purpose of "landing gear" on an aircraft?',
     'a' => 'To assist in the aircraft’s navigation systems',
     'b' => 'To provide stability during turns in the air',
@@ -5435,7 +5435,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "thrust reversal" used for in an aircraft?',
     'a' => 'To increase the speed of the aircraft during takeoff',
     'b' => 'To slow down the aircraft after landing',
@@ -5447,7 +5447,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'Which component of an aircraft primarily controls pitch?',
     'a' => 'The rudder',
     'b' => 'The ailerons',
@@ -5459,7 +5459,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "stagnation point" in aerodynamics?',
     'a' => 'The point on the aircraft where the air velocity is the highest',
     'b' => 'The point on the aircraft where the air pressure is the lowest',
@@ -5471,7 +5471,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is "wing loading" in aircraft design?',
     'a' => 'The amount of weight an aircraft can carry',
     'b' => 'The distribution of fuel across the wings',
@@ -5483,7 +5483,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does the "elevator" control on an aircraft?',
     'a' => 'The yaw of the aircraft',
     'b' => 'The pitch of the aircraft',
@@ -5495,7 +5495,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the function of "slats" on an aircraft wing?',
     'a' => 'To increase lift at low speeds by extending the leading edge of the wing',
     'b' => 'To reduce drag during high-speed flight',
@@ -5507,7 +5507,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What is the "Chord Line" in relation to an aircraft wing?',
     'a' => 'The imaginary line from the leading edge to the trailing edge of the wing',
     'b' => 'The path taken by the airflow over the wing',
@@ -5519,7 +5519,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'What does "stall" mean in the context of aerodynamics?',
     'a' => 'A sudden loss of lift caused by exceeding the critical angle of attack',
     'b' => 'A decrease in aircraft speed due to engine failure',
@@ -5531,7 +5531,7 @@ class QuestionSeeder5 extends Seeder
 ],
 [
     'field_id' => 5,
-    'sub_fields_id' => 25,
+   
     'question' => 'Which instrument in the cockpit measures altitude?',
     'a' => 'Airspeed Indicator',
     'b' => 'Artificial Horizon',

@@ -15,7 +15,7 @@ class QuestionSeeder18 extends Seeder
         $questions =    [
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Was "Friends" set in Chicago?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -25,7 +25,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Beatles" a rock band from the 1960s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -35,7 +35,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Frozen" a Pixar movie?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -45,7 +45,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did the movie "Inception" star Leonardo DiCaprio?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -55,7 +55,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Great Gatsby" a novel written by Ernest Hemingway?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -65,7 +65,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Stranger Things" a Netflix original series?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -75,7 +75,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Was "The Dark Knight" directed by Steven Spielberg?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -85,7 +85,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is Harry Potter a character created by J.K. Rowling?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -95,7 +95,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Breaking Bad" a show about a high school teacher who becomes a drug dealer?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -105,7 +105,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Office" set in Scranton, Pennsylvania?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -123,7 +123,7 @@ class QuestionSeeder18 extends Seeder
         
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Friends" a TV show that aired in the 2000s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -133,7 +133,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Crown" a Netflix series about the British royal family?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -143,7 +143,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Was "Black Panther" the first Marvel movie to win an Oscar?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -153,7 +153,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Mandalorian" a series set in the Star Wars universe?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -163,7 +163,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did "The Lion King" originally release in 1994?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -173,7 +173,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Godfather" a movie directed by Martin Scorsese?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -183,7 +183,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did "Breaking Bad" run for six seasons?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -193,7 +193,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Pulp Fiction" a film directed by Quentin Tarantino?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -203,7 +203,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Shining" a horror novel written by Stephen King?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -213,7 +213,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did "Seinfeld" end in the year 2000?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -228,7 +228,7 @@ class QuestionSeeder18 extends Seeder
         
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Wonder Woman" a character from DC Comics?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -238,7 +238,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Was "Friends" originally aired on NBC?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -248,7 +248,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Darth Vader" the father of Luke Skywalker?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -258,7 +258,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Inception" a movie directed by James Cameron?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -268,7 +268,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did the band "Queen" release the song "Bohemian Rhapsody"?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -278,7 +278,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Spider-Man: Into the Spider-Verse" an animated film?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -288,7 +288,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "Westworld" a series based on a movie from the 1970s?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -298,7 +298,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Was "Jaws" directed by Alfred Hitchcock?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -308,7 +308,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Is "The Matrix" a film that was released in 1999?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -318,7 +318,7 @@ class QuestionSeeder18 extends Seeder
             // ],
             // [
             //     'field_id' => 18,
-            //     'sub_fields_id' => 94,
+            //    
             //     'question' => 'Did "The Office" (US) have more than 200 episodes?',
             //     'a' => 'Yes',
             //     'b' => 'No',
@@ -326,13 +326,13 @@ class QuestionSeeder18 extends Seeder
             //     'created_at' => now(),
             //     'updated_at' => now()
             // ],
-            [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who directed the movie "Pulp Fiction"?', 'a' => 'Steven Spielberg', 'b' => 'Quentin Tarantino', 'c' => 'Martin Scorsese', 'd' => 'Christopher Nolan', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show featured the character "Walter White"?', 'a' => 'The Sopranos', 'b' => 'Mad Men', 'c' => 'Breaking Bad', 'd' => 'The Wire', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'In which year was the original "Jurassic Park" movie released?', 'a' => '1990', 'b' => '1993', 'c' => '1995', 'd' => '1997', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which band released the album "The Dark Side of the Moon"?', 'a' => 'The Beatles', 'b' => 'Pink Floyd', 'c' => 'Led Zeppelin', 'd' => 'The Rolling Stones', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Who played the character "Jack Sparrow" in the "Pirates of the Caribbean" movies?', 'a' => 'Johnny Depp', 'b' => 'Orlando Bloom', 'c' => 'Brad Pitt', 'd' => 'Leonardo DiCaprio', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which movie won the Best Picture Oscar in 2020?', 'a' => '1917', 'b' => 'Joker', 'c' => 'Once Upon a Time in Hollywood', 'd' => 'Parasite', 'answer' => 'd', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which of these is a song by The Beatles?', 'a' => 'Stairway to Heaven', 'b' => 'Bohemian Rhapsody', 'c' => 'Hey Jude', 'd' => 'Hotel California', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actor portrayed "Tony Stark" in the Marvel Cinematic Universe?', 'a' => 'Chris Evans', 'b' => 'Chris Hemsworth', 'c' => 'Robert Downey Jr.', 'd' => 'Mark Ruffalo', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which TV show is known for the quote "Winter is coming"?', 'a' => 'The Witcher', 'b' => 'Game of Thrones', 'c' => 'Vikings', 'd' => 'The Walking Dead', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'sub_fields_id' => 94, 'question' => 'Which actress starred as "Katniss Everdeen" in "The Hunger Games" series?', 'a' => 'Jennifer Lawrence', 'b' => 'Emma Stone', 'c' => 'Scarlett Johansson', 'd' => 'Kristen Stewart', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ],
+            [ 'field_id' => 18, 'question' => 'Who directed the movie "Pulp Fiction"?', 'a' => 'Steven Spielberg', 'b' => 'Quentin Tarantino', 'c' => 'Martin Scorsese', 'd' => 'Christopher Nolan', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which TV show featured the character "Walter White"?', 'a' => 'The Sopranos', 'b' => 'Mad Men', 'c' => 'Breaking Bad', 'd' => 'The Wire', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'In which year was the original "Jurassic Park" movie released?', 'a' => '1990', 'b' => '1993', 'c' => '1995', 'd' => '1997', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which band released the album "The Dark Side of the Moon"?', 'a' => 'The Beatles', 'b' => 'Pink Floyd', 'c' => 'Led Zeppelin', 'd' => 'The Rolling Stones', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Who played the character "Jack Sparrow" in the "Pirates of the Caribbean" movies?', 'a' => 'Johnny Depp', 'b' => 'Orlando Bloom', 'c' => 'Brad Pitt', 'd' => 'Leonardo DiCaprio', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which movie won the Best Picture Oscar in 2020?', 'a' => '1917', 'b' => 'Joker', 'c' => 'Once Upon a Time in Hollywood', 'd' => 'Parasite', 'answer' => 'd', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which of these is a song by The Beatles?', 'a' => 'Stairway to Heaven', 'b' => 'Bohemian Rhapsody', 'c' => 'Hey Jude', 'd' => 'Hotel California', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which actor portrayed "Tony Stark" in the Marvel Cinematic Universe?', 'a' => 'Chris Evans', 'b' => 'Chris Hemsworth', 'c' => 'Robert Downey Jr.', 'd' => 'Mark Ruffalo', 'answer' => 'c', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which TV show is known for the quote "Winter is coming"?', 'a' => 'The Witcher', 'b' => 'Game of Thrones', 'c' => 'Vikings', 'd' => 'The Walking Dead', 'answer' => 'b', 'created_at' => now(), 'updated_at' => now() ], [ 'field_id' => 18, 'question' => 'Which actress starred as "Katniss Everdeen" in "The Hunger Games" series?', 'a' => 'Jennifer Lawrence', 'b' => 'Emma Stone', 'c' => 'Scarlett Johansson', 'd' => 'Kristen Stewart', 'answer' => 'a', 'created_at' => now(), 'updated_at' => now() ],
         
         
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which film features the quote "Here\’s looking at you, kid"?',
                 'a' => 'Gone with the Wind',
                 'b' => 'Casablanca',
@@ -344,7 +344,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who is the author of the "Harry Potter" series?',
                 'a' => 'J.K. Rowling',
                 'b' => 'Stephen King',
@@ -356,7 +356,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV series is set in the fictional town of Hawkins, Indiana?',
                 'a' => 'Riverdale',
                 'b' => 'Stranger Things',
@@ -368,7 +368,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actor starred as the "Joker" in the 2019 movie?',
                 'a' => 'Joaquin Phoenix',
                 'b' => 'Heath Ledger',
@@ -380,7 +380,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which musical features the song "The Circle of Life"?',
                 'a' => 'The Lion King',
                 'b' => 'Les Misérables',
@@ -392,7 +392,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'What is the name of the kingdom in Disney’s "Frozen"?',
                 'a' => 'Narnia',
                 'b' => 'Arendelle',
@@ -404,7 +404,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which famous artist painted the ceiling of the Sistine Chapel?',
                 'a' => 'Leonardo da Vinci',
                 'b' => 'Michelangelo',
@@ -416,7 +416,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which book starts with the line "Call me Ishmael"?',
                 'a' => 'Moby-Dick',
                 'b' => '1984',
@@ -428,7 +428,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'In which movie does Tom Hanks play a character stranded on an island?',
                 'a' => 'Forrest Gump',
                 'b' => 'Cast Away',
@@ -440,7 +440,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actor voices "Woody" in the "Toy Story" films?',
                 'a' => 'Tim Allen',
                 'b' => 'Tom Hanks',
@@ -454,7 +454,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the song "My Heart Will Go On"?',
                 'a' => 'Titanic',
                 'b' => 'The Bodyguard',
@@ -466,7 +466,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who wrote the novel "To Kill a Mockingbird"?',
                 'a' => 'Harper Lee',
                 'b' => 'George Orwell',
@@ -478,7 +478,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which character does Emilia Clarke play in "Game of Thrones"?',
                 'a' => 'Cersei Lannister',
                 'b' => 'Arya Stark',
@@ -490,7 +490,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Marvel superhero is known as the "Merc with a Mouth"?',
                 'a' => 'Iron Man',
                 'b' => 'Deadpool',
@@ -502,7 +502,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie was the first to feature the character "James Bond"?',
                 'a' => 'Dr. No',
                 'b' => 'From Russia with Love',
@@ -514,7 +514,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which famous artist is known for painting "The Starry Night"?',
                 'a' => 'Pablo Picasso',
                 'b' => 'Vincent van Gogh',
@@ -526,7 +526,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which of these movies was directed by Alfred Hitchcock?',
                 'a' => 'Rear Window',
                 'b' => 'Citizen Kane',
@@ -538,7 +538,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'What is the name of the coffee shop in "Friends"?',
                 'a' => 'Central Park Café',
                 'b' => 'Central Perk',
@@ -550,7 +550,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which character in "The Lord of the Rings" is played by Elijah Wood?',
                 'a' => 'Aragorn',
                 'b' => 'Frodo Baggins',
@@ -562,7 +562,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which song is associated with the movie "Dirty Dancing"?',
                 'a' => 'Footloose',
                 'b' => 'Time of My Life',
@@ -576,7 +576,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which character says "I am your father" in "Star Wars"?',
                 'a' => 'Luke Skywalker',
                 'b' => 'Darth Vader',
@@ -588,7 +588,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features a DeLorean time machine?',
                 'a' => 'The Terminator',
                 'b' => 'Back to the Future',
@@ -600,7 +600,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which singer is known as "The Queen of Pop"?',
                 'a' => 'Madonna',
                 'b' => 'Whitney Houston',
@@ -612,7 +612,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'What is the title of the first "Harry Potter" book?',
                 'a' => 'Harry Potter and the Chamber of Secrets',
                 'b' => 'Harry Potter and the Goblet of Fire',
@@ -624,7 +624,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the iconic dance scene between John Travolta and Uma Thurman?',
                 'a' => 'Saturday Night Fever',
                 'b' => 'Grease',
@@ -636,7 +636,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which band released the hit song "Bohemian Rhapsody"?',
                 'a' => 'The Rolling Stones',
                 'b' => 'The Beatles',
@@ -648,7 +648,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actress plays Hermione Granger in the "Harry Potter" films?',
                 'a' => 'Emma Watson',
                 'b' => 'Keira Knightley',
@@ -660,7 +660,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie is known for the line "You can’t handle the truth!"?',
                 'a' => 'Gladiator',
                 'b' => 'A Few Good Men',
@@ -672,7 +672,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV series is set in the fictional country of Westeros?',
                 'a' => 'The Witcher',
                 'b' => 'The Mandalorian',
@@ -684,7 +684,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who directed the "Lord of the Rings" trilogy?',
                 'a' => 'Steven Spielberg',
                 'b' => 'Peter Jackson',
@@ -698,7 +698,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist released the album "Thriller"?',
                 'a' => 'Prince',
                 'b' => 'Michael Jackson',
@@ -710,7 +710,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which animated film features the character "Woody"?',
                 'a' => 'Finding Nemo',
                 'b' => 'The Lion King',
@@ -722,7 +722,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who is the lead singer of the band U2?',
                 'a' => 'Bono',
                 'b' => 'Freddie Mercury',
@@ -734,7 +734,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which film is known for the quote "I’m going to make him an offer he can’t refuse"?',
                 'a' => 'Goodfellas',
                 'b' => 'The Godfather',
@@ -746,7 +746,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show features a chemistry teacher turned methamphetamine manufacturer?',
                 'a' => 'Breaking Bad',
                 'b' => 'Dexter',
@@ -758,7 +758,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who directed the movie "Inception"?',
                 'a' => 'Quentin Tarantino',
                 'b' => 'Christopher Nolan',
@@ -770,7 +770,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actress stars as Katniss Everdeen in "The Hunger Games" series?',
                 'a' => 'Emma Stone',
                 'b' => 'Jennifer Lawrence',
@@ -782,7 +782,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which famous painting features a woman with a mysterious smile?',
                 'a' => 'The Starry Night',
                 'b' => 'The Last Supper',
@@ -794,7 +794,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV series is centered around the fictional paper company Dunder Mifflin?',
                 'a' => 'Parks and Recreation',
                 'b' => 'The Office',
@@ -806,7 +806,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which famous actor portrayed the character of Tony Stark in the Marvel Cinematic Universe?',
                 'a' => 'Chris Evans',
                 'b' => 'Robert Downey Jr.',
@@ -820,7 +820,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the character "Forrest Gump"?',
                 'a' => 'Cast Away',
                 'b' => 'Forrest Gump',
@@ -832,7 +832,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who sang the hit song "Rolling in the Deep"?',
                 'a' => 'Beyoncé',
                 'b' => 'Adele',
@@ -844,7 +844,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features a group of friends looking for a lost boy named Will?',
                 'a' => 'Stand by Me',
                 'b' => 'The Goonies',
@@ -856,7 +856,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the hit song "Purple Rain"?',
                 'a' => 'Prince',
                 'b' => 'Michael Jackson',
@@ -868,7 +868,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who played the character of Jack Dawson in "Titanic"?',
                 'a' => 'Leonardo DiCaprio',
                 'b' => 'Brad Pitt',
@@ -880,7 +880,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie is known for the quote "Life is like a box of chocolates"?',
                 'a' => 'The Green Mile',
                 'b' => 'Cast Away',
@@ -892,7 +892,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show features the character "Walter White"?',
                 'a' => 'The Sopranos',
                 'b' => 'Mad Men',
@@ -904,7 +904,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which animated series features characters like Bart, Homer, and Marge?',
                 'a' => 'Family Guy',
                 'b' => 'The Simpsons',
@@ -916,7 +916,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who is the author of the "A Song of Ice and Fire" series, which inspired "Game of Thrones"?',
                 'a' => 'J.K. Rowling',
                 'b' => 'George R.R. Martin',
@@ -928,7 +928,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the character "The Dude"?',
                 'a' => 'Pulp Fiction',
                 'b' => 'Fight Club',
@@ -942,7 +942,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show features a group of survivors on a mysterious island?',
                 'a' => 'Lost',
                 'b' => 'Survivor',
@@ -954,7 +954,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the quote "Here’s looking at you, kid"?',
                 'a' => 'Gone with the Wind',
                 'b' => 'Casablanca',
@@ -966,7 +966,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who played the character of Tony Montana in "Scarface"?',
                 'a' => 'Robert De Niro',
                 'b' => 'Marlon Brando',
@@ -978,7 +978,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which band released the album "Dark Side of the Moon"?',
                 'a' => 'The Beatles',
                 'b' => 'Led Zeppelin',
@@ -990,7 +990,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actor played the role of Jack Sparrow in "Pirates of the Caribbean"?',
                 'a' => 'Orlando Bloom',
                 'b' => 'Johnny Depp',
@@ -1002,7 +1002,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'What is the name of the coffee shop in the TV show "Friends"?',
                 'a' => 'Central Perk',
                 'b' => 'Monk’s Café',
@@ -1014,7 +1014,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the song "Shape of You"?',
                 'a' => 'Ed Sheeran',
                 'b' => 'Justin Bieber',
@@ -1026,7 +1026,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features a theme park with cloned dinosaurs?',
                 'a' => 'King Kong',
                 'b' => 'Jurassic Park',
@@ -1038,7 +1038,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who played the character of Neo in "The Matrix" trilogy?',
                 'a' => 'Keanu Reeves',
                 'b' => 'Tom Cruise',
@@ -1050,7 +1050,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the song "Uptown Funk"?',
                 'a' => 'Bruno Mars',
                 'b' => 'Pharrell Williams',
@@ -1064,7 +1064,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the character "Indiana Jones"?',
                 'a' => 'Raiders of the Lost Ark',
                 'b' => 'The Mummy',
@@ -1076,7 +1076,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which song by Queen became an anthem for sports events?',
                 'a' => 'Bohemian Rhapsody',
                 'b' => 'We Are the Champions',
@@ -1088,7 +1088,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV series features the character "Eleven" with telekinetic powers?',
                 'a' => 'The Umbrella Academy',
                 'b' => 'The X-Files',
@@ -1100,7 +1100,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the line "May the Force be with you"?',
                 'a' => 'Star Trek',
                 'b' => 'Star Wars',
@@ -1112,7 +1112,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who starred as "The Joker" in "The Dark Knight"?',
                 'a' => 'Joaquin Phoenix',
                 'b' => 'Heath Ledger',
@@ -1124,7 +1124,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which animated series features the characters "Rick" and "Morty"?',
                 'a' => 'Futurama',
                 'b' => 'Family Guy',
@@ -1136,7 +1136,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which actor plays the role of Captain America in the Marvel Cinematic Universe?',
                 'a' => 'Chris Hemsworth',
                 'b' => 'Chris Evans',
@@ -1148,7 +1148,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist released the song "Bad Guy"?',
                 'a' => 'Dua Lipa',
                 'b' => 'Billie Eilish',
@@ -1160,7 +1160,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the character "John Wick"?',
                 'a' => 'The Matrix',
                 'b' => 'Die Hard',
@@ -1172,7 +1172,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which pop star is known for the album "1989"?',
                 'a' => 'Katy Perry',
                 'b' => 'Taylor Swift',
@@ -1185,7 +1185,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show follows the lives of six friends living in New York City?',
                 'a' => 'How I Met Your Mother',
                 'b' => 'Friends',
@@ -1197,7 +1197,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who directed the movie "Inception"?',
                 'a' => 'Steven Spielberg',
                 'b' => 'Christopher Nolan',
@@ -1209,7 +1209,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which song is known for its iconic music video featuring a marching band?',
                 'a' => 'Hey Jude',
                 'b' => 'We Will Rock You',
@@ -1221,7 +1221,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the quote "I\'ll be back"?',
                 'a' => 'RoboCop',
                 'b' => 'Terminator',
@@ -1233,7 +1233,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which band is known for the album "Nevermind"?',
                 'a' => 'Pearl Jam',
                 'b' => 'Nirvana',
@@ -1245,7 +1245,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who played the role of Wonder Woman in the 2017 film?',
                 'a' => 'Scarlett Johansson',
                 'b' => 'Gal Gadot',
@@ -1257,7 +1257,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV series is set in the fictional town of Hawkins, Indiana?',
                 'a' => 'Twin Peaks',
                 'b' => 'Stranger Things',
@@ -1269,7 +1269,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist released the album "25" in 2015?',
                 'a' => 'Beyoncé',
                 'b' => 'Adele',
@@ -1281,7 +1281,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the song "My Heart Will Go On"?',
                 'a' => 'Ghost',
                 'b' => 'The Bodyguard',
@@ -1293,7 +1293,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who starred as the lead character in the movie "Deadpool"?',
                 'a' => 'Ryan Gosling',
                 'b' => 'Ryan Reynolds',
@@ -1307,7 +1307,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the character "Forrest Gump"?',
                 'a' => 'Cast Away',
                 'b' => 'The Green Mile',
@@ -1319,7 +1319,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the hit song "Rolling in the Deep"?',
                 'a' => 'Beyoncé',
                 'b' => 'Adele',
@@ -1331,7 +1331,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show features a chemistry teacher turned methamphetamine manufacturer?',
                 'a' => 'The Sopranos',
                 'b' => 'Mad Men',
@@ -1343,7 +1343,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie features the quote "You can’t handle the truth!"?',
                 'a' => 'A Few Good Men',
                 'b' => 'The Godfather',
@@ -1355,7 +1355,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who starred as the main character in "The Truman Show"?',
                 'a' => 'Jim Carrey',
                 'b' => 'Tom Hanks',
@@ -1367,7 +1367,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the album "Thriller"?',
                 'a' => 'Prince',
                 'b' => 'Michael Jackson',
@@ -1379,7 +1379,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which movie franchise features the character "Harry Potter"?',
                 'a' => 'The Lord of the Rings',
                 'b' => 'The Hunger Games',
@@ -1391,7 +1391,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Who directed the movie "Pulp Fiction"?',
                 'a' => 'Martin Scorsese',
                 'b' => 'Quentin Tarantino',
@@ -1403,7 +1403,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which TV show is known for the phrase "Winter is coming"?',
                 'a' => 'The Witcher',
                 'b' => 'Game of Thrones',
@@ -1415,7 +1415,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which artist is known for the hit "Blinding Lights"?',
                 'a' => 'The Weeknd',
                 'b' => 'Drake',
@@ -1429,7 +1429,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nigerian movie is known for its story about a powerful political figure and his daughter?',
                 'a' => 'The Wedding Party',
                 'b' => 'King of Boys',
@@ -1441,7 +1441,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian film is famous for its depiction of the life of a mathematician who made significant contributions to number theory?',
                 'a' => '3 Idiots',
                 'b' => 'Dangal',
@@ -1453,7 +1453,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama tells the story of a group of people trying to survive a zombie outbreak in a high school?',
                 'a' => 'Squid Game',
                 'b' => 'Train to Busan',
@@ -1465,7 +1465,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino TV series is known for its story about a woman with a special connection to wild animals?',
                 'a' => 'Ang Probinsyano',
                 'b' => 'Darna',
@@ -1477,7 +1477,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian movie became an international hit for its portrayal of a man’s journey to prove his self-worth to society?',
                 'a' => 'Baahubali',
                 'b' => 'Lagaan',
@@ -1489,7 +1489,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean film won the Academy Award for Best Picture in 2020?',
                 'a' => 'Oldboy',
                 'b' => 'Parasite',
@@ -1501,7 +1501,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nollywood movie is about a woman who struggles to balance her work as a wedding planner with her personal life?',
                 'a' => 'Fifty',
                 'b' => 'The Wedding Party',
@@ -1513,7 +1513,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian web series focuses on the lives of four female friends navigating the challenges of modern-day Mumbai?',
                 'a' => 'Made in Heaven',
                 'b' => 'Sacred Games',
@@ -1525,7 +1525,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama is set in a dystopian world where people participate in deadly games for a chance to win a large sum of money?',
                 'a' => 'Squid Game',
                 'b' => 'Sweet Home',
@@ -1537,7 +1537,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino film is about a woman who enters a beauty pageant to raise money for her family?',
                 'a' => 'Kita Kita',
                 'b' => 'Hello, Love, Goodbye',
@@ -1550,7 +1550,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nigerian TV series revolves around the intense world of corporate banking?',
                 'a' => 'Tinsel',
                 'b' => 'Castle and Castle',
@@ -1562,7 +1562,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian movie tells the story of an elderly couple who rediscover their love for each other?',
                 'a' => 'Kabir Singh',
                 'b' => 'Piku',
@@ -1574,7 +1574,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama centers around a woman who travels through time to alter her fate?',
                 'a' => 'Goblin',
                 'b' => 'The King: Eternal Monarch',
@@ -1586,7 +1586,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino film follows the journey of a maid working in Singapore?',
                 'a' => 'Caregiver',
                 'b' => 'Anak',
@@ -1598,7 +1598,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian TV show is about the struggles and triumphs of a middle-class family in Mumbai?',
                 'a' => 'Yeh Rishta Kya Kehlata Hai',
                 'b' => 'Anupamaa',
@@ -1610,7 +1610,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean movie is about a group of people trapped in a mall during a zombie apocalypse?',
                 'a' => 'Peninsula',
                 'b' => 'The Wailing',
@@ -1622,7 +1622,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nigerian film is about a young woman who disguises herself as a man to get a job?',
                 'a' => 'Omo Ghetto: The Saga',
                 'b' => 'Your Excellency',
@@ -1634,7 +1634,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian film is known for its powerful story about women wrestlers?',
                 'a' => 'Chak De! India',
                 'b' => 'Sultan',
@@ -1646,7 +1646,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama features a rich heir and a poor girl falling in love?',
                 'a' => 'Boys Over Flowers',
                 'b' => 'Crash Landing on You',
@@ -1658,7 +1658,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino TV series is about twin sisters with contrasting personalities?',
                 'a' => 'Mara Clara',
                 'b' => 'Sana Bukas Pa Ang Kahapon',
@@ -1672,7 +1672,7 @@ class QuestionSeeder18 extends Seeder
         
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nigerian film is centered around a historic event where a Nigerian musician and activist confronts military corruption?',
                 'a' => '76',
                 'b' => 'Half of a Yellow Sun',
@@ -1684,7 +1684,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian movie features the story of a man with an exceptional memory who seeks revenge for the murder of his wife?',
                 'a' => 'Ghajini',
                 'b' => 'Kahaani',
@@ -1696,7 +1696,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama tells the story of a woman who sees ghosts and partners with a chef to solve their unresolved issues?',
                 'a' => 'The Master’s Sun',
                 'b' => 'Oh My Ghost',
@@ -1708,7 +1708,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino movie revolves around a young man who pursues his dreams of becoming a professional singer while dealing with his father’s expectations?',
                 'a' => 'The Hows of Us',
                 'b' => 'Bakwit Boys',
@@ -1720,7 +1720,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian web series is about an undercover agent who must balance his duty to his country and his family life?',
                 'a' => 'Paatal Lok',
                 'b' => 'Sacred Games',
@@ -1732,7 +1732,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean movie is about a mother who takes on the judicial system to find justice for her wrongfully accused son?',
                 'a' => 'Mother',
                 'b' => 'A Moment to Remember',
@@ -1744,7 +1744,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Nigerian TV series is about the dramatic lives of five women living in Lagos?',
                 'a' => 'Shuga',
                 'b' => 'Skinny Girl in Transit',
@@ -1756,7 +1756,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Indian movie is a coming-of-age story that focuses on the pressures faced by a young girl living in a conservative family?',
                 'a' => 'Secret Superstar',
                 'b' => 'Nil Battey Sannata',
@@ -1768,7 +1768,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Korean drama follows the life of a woman who leads a double life as a fashion designer by day and a masked vigilante by night?',
                 'a' => 'My Love from the Star',
                 'b' => 'Healer',
@@ -1780,7 +1780,7 @@ class QuestionSeeder18 extends Seeder
             ],
             [
                 'field_id' => 18,
-                'sub_fields_id' => 94,
+               
                 'question' => 'Which Filipino TV series features a story of time travel and love, where a man from the past meets a woman from the future?',
                 'a' => 'A Love to Last',
                 'b' => 'Walang Hanggan',
@@ -1793,7 +1793,7 @@ class QuestionSeeder18 extends Seeder
      
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is known as the god of the sea?',
         'a' => 'Zeus',
         'b' => 'Hades',
@@ -1805,7 +1805,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, what is the name of the world tree that connects the nine realms?',
         'a' => 'Mjölnir',
         'b' => 'Yggdrasil',
@@ -1817,7 +1817,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the god of the underworld?',
         'a' => 'Ra',
         'b' => 'Anubis',
@@ -1829,7 +1829,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is considered the preserver of the universe?',
         'a' => 'Brahma',
         'b' => 'Shiva',
@@ -1841,7 +1841,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the equivalent of the Greek goddess Athena?',
         'a' => 'Diana',
         'b' => 'Minerva',
@@ -1853,7 +1853,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, what is the name of the river that separates the world of the living from the underworld?',
         'a' => 'Lethe',
         'b' => 'Acheron',
@@ -1865,7 +1865,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the sun goddess and one of the most important deities?',
         'a' => 'Tsukuyomi',
         'b' => 'Susanoo',
@@ -1877,7 +1877,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, what is the name of the otherworld where the souls of the dead reside?',
         'a' => 'Avalon',
         'b' => 'Tir na nÓg',
@@ -1889,7 +1889,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, who is the god of the sun and war?',
         'a' => 'Quetzalcoatl',
         'b' => 'Huitzilopochtli',
@@ -1901,7 +1901,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, which hero is known for slaying the Minotaur?',
         'a' => 'Perseus',
         'b' => 'Theseus',
@@ -1915,7 +1915,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the god of thunder?',
         'a' => 'Odin',
         'b' => 'Loki',
@@ -1927,7 +1927,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which creature in Greek mythology has the body of a lion, the head of a human, and the wings of a bird?',
         'a' => 'Sphinx',
         'b' => 'Griffin',
@@ -1939,7 +1939,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the goddess of motherhood, magic, and fertility?',
         'a' => 'Isis',
         'b' => 'Hathor',
@@ -1951,7 +1951,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, which avatar of Vishnu is known as the warrior prince who fought in the Mahabharata?',
         'a' => 'Rama',
         'b' => 'Krishna',
@@ -1963,7 +1963,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the god of war and the equivalent of the Greek god Ares?',
         'a' => 'Mars',
         'b' => 'Jupiter',
@@ -1975,7 +1975,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, which hero was dipped in the River Styx as a baby, making him nearly invincible?',
         'a' => 'Achilles',
         'b' => 'Hercules',
@@ -1987,7 +1987,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the god of storms and the sea?',
         'a' => 'Amaterasu',
         'b' => 'Susanoo',
@@ -1999,7 +1999,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, what is the name of the Irish hero known for his incredible strength and skill in battle?',
         'a' => 'Finn MacCool',
         'b' => 'Cúchulainn',
@@ -2011,7 +2011,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, who is the feathered serpent god associated with wind and learning?',
         'a' => 'Tezcatlipoca',
         'b' => 'Huitzilopochtli',
@@ -2023,7 +2023,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, which creature is known for turning people into stone with its gaze?',
         'a' => 'Gorgon',
         'b' => 'Minotaur',
@@ -2037,7 +2037,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the trickster god known for his cunning and shapeshifting abilities?',
         'a' => 'Odin',
         'b' => 'Loki',
@@ -2049,7 +2049,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the god of wine, revelry, and theatre?',
         'a' => 'Hermes',
         'b' => 'Apollo',
@@ -2061,7 +2061,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the goddess of wealth, prosperity, and fortune?',
         'a' => 'Parvati',
         'b' => 'Lakshmi',
@@ -2073,7 +2073,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, which god is depicted with the head of a falcon and is known as the god of the sky?',
         'a' => 'Anubis',
         'b' => 'Ra',
@@ -2085,7 +2085,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, which hero is known for his twelve labors, including slaying the Nemean Lion?',
         'a' => 'Perseus',
         'b' => 'Heracles',
@@ -2097,7 +2097,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the goddess of love and beauty, equivalent to the Greek goddess Aphrodite?',
         'a' => 'Diana',
         'b' => 'Minerva',
@@ -2109,7 +2109,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, what is the name of the moon god who is the brother of Amaterasu?',
         'a' => 'Susanoo',
         'b' => 'Tsukuyomi',
@@ -2121,7 +2121,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, who is the god associated with the sun, healing, and prophecy?',
         'a' => 'Dagda',
         'b' => 'Lugh',
@@ -2133,7 +2133,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the queen of the gods and the wife of Zeus?',
         'a' => 'Athena',
         'b' => 'Hera',
@@ -2145,7 +2145,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, what is the name of the hall where warriors who die in battle are taken by the Valkyries?',
         'a' => 'Asgard',
         'b' => 'Valhalla',
@@ -2158,7 +2158,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the goddess of the harvest and agriculture?',
         'a' => 'Hera',
         'b' => 'Aphrodite',
@@ -2170,7 +2170,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, which god is often depicted as a man with the head of a jackal?',
         'a' => 'Anubis',
         'b' => 'Ra',
@@ -2182,7 +2182,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the all-father and king of the gods?',
         'a' => 'Thor',
         'b' => 'Odin',
@@ -2194,7 +2194,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, which deity is known as the destroyer of the universe?',
         'a' => 'Vishnu',
         'b' => 'Brahma',
@@ -2206,7 +2206,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, what is the name of the storm god who is also known as the god of sea and storms?',
         'a' => 'Amaterasu',
         'b' => 'Susanoo',
@@ -2218,7 +2218,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the hero that completed twelve nearly impossible tasks?',
         'a' => 'Achilles',
         'b' => 'Theseus',
@@ -2230,7 +2230,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the god of beginnings, gates, and transitions, often depicted with two faces?',
         'a' => 'Mars',
         'b' => 'Jupiter',
@@ -2242,7 +2242,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, who is the warrior goddess associated with fate and sovereignty?',
         'a' => 'Brigid',
         'b' => 'Morrigan',
@@ -2254,7 +2254,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, what is the name of the apocalypse that is foretold to bring the end of the world?',
         'a' => 'Ragnarök',
         'b' => 'Fimbulwinter',
@@ -2266,7 +2266,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, which god is known for his blue skin and the ability to lift Mount Govardhan?',
         'a' => 'Shiva',
         'b' => 'Krishna',
@@ -2280,7 +2280,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the ruler of the underworld?',
         'a' => 'Zeus',
         'b' => 'Poseidon',
@@ -2292,7 +2292,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the god of the afterlife, often depicted as a green-skinned man with a pharaoh\'s beard?',
         'a' => 'Anubis',
         'b' => 'Osiris',
@@ -2304,7 +2304,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, what is the name of the world tree that connects the nine realms?',
         'a' => 'Yggdrasil',
         'b' => 'Bifröst',
@@ -2316,7 +2316,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the consort of Lord Shiva, often depicted as a fierce goddess?',
         'a' => 'Lakshmi',
         'b' => 'Saraswati',
@@ -2328,7 +2328,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, what is the name of the sun goddess who is considered the most important deity in Shinto?',
         'a' => 'Amaterasu',
         'b' => 'Tsukuyomi',
@@ -2340,7 +2340,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who was punished by being condemned to hold up the sky for eternity?',
         'a' => 'Prometheus',
         'b' => 'Atlas',
@@ -2352,7 +2352,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, what is the name of the otherworldly island where the gods and heroes reside?',
         'a' => 'Tír na nÓg',
         'b' => 'Avalon',
@@ -2364,7 +2364,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, who is the sun god and patron of warriors, often associated with human sacrifice?',
         'a' => 'Quetzalcoatl',
         'b' => 'Tezcatlipoca',
@@ -2376,7 +2376,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the god of the sea and brother of Zeus?',
         'a' => 'Hades',
         'b' => 'Poseidon',
@@ -2388,7 +2388,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, which creature is destined to devour the sun during Ragnarök?',
         'a' => 'Fenrir',
         'b' => 'Jörmungandr',
@@ -2402,7 +2402,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the hero that ventured into the labyrinth to slay the Minotaur?',
         'a' => 'Perseus',
         'b' => 'Theseus',
@@ -2414,7 +2414,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the goddess of magic and motherhood, often depicted with a throne-shaped crown?',
         'a' => 'Isis',
         'b' => 'Hathor',
@@ -2426,7 +2426,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, which god is known as the protector of mankind and is associated with thunder?',
         'a' => 'Odin',
         'b' => 'Thor',
@@ -2438,7 +2438,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the monkey god and devotee of Lord Rama, known for his strength and loyalty?',
         'a' => 'Ganesha',
         'b' => 'Hanuman',
@@ -2450,7 +2450,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the goddess of wisdom and warfare, born fully armored from the forehead of Zeus?',
         'a' => 'Aphrodite',
         'b' => 'Hera',
@@ -2462,7 +2462,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the god of wind, often depicted with a bag of winds?',
         'a' => 'Raijin',
         'b' => 'Fujin',
@@ -2474,7 +2474,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the messenger of the gods, known for his winged sandals?',
         'a' => 'Ares',
         'b' => 'Hermes',
@@ -2486,7 +2486,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, which god is often depicted as a feathered serpent and is associated with creation and the wind?',
         'a' => 'Tezcatlipoca',
         'b' => 'Xipe Totec',
@@ -2498,7 +2498,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the wife of Odin and the goddess associated with foresight and wisdom?',
         'a' => 'Freyja',
         'b' => 'Frigg',
@@ -2510,7 +2510,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the god of the underworld who abducted Persephone?',
         'a' => 'Hades',
         'b' => 'Zeus',
@@ -2523,7 +2523,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the hero that completed twelve labors, including slaying the Nemean Lion?',
         'a' => 'Perseus',
         'b' => 'Achilles',
@@ -2535,7 +2535,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, which realm is the land of the giants, ruled by the giant king Útgarða-Loki?',
         'a' => 'Asgard',
         'b' => 'Vanaheim',
@@ -2547,7 +2547,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the god of destruction and transformation, one of the principal deities of the Trimurti?',
         'a' => 'Brahma',
         'b' => 'Vishnu',
@@ -2559,7 +2559,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the goddess of the hunt, the moon, and wild animals, equivalent to the Greek goddess Artemis?',
         'a' => 'Venus',
         'b' => 'Minerva',
@@ -2571,7 +2571,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the god of the dead, associated with mummification and the afterlife, depicted as a man with the head of a jackal?',
         'a' => 'Horus',
         'b' => 'Ra',
@@ -2583,7 +2583,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, which hero was dipped in the River Styx by his mother, making him invulnerable except for his heel?',
         'a' => 'Theseus',
         'b' => 'Achilles',
@@ -2595,7 +2595,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, who is the god of love, youth, and poetic inspiration, often depicted with a harp?',
         'a' => 'Lugh',
         'b' => 'Aengus',
@@ -2607,7 +2607,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the storm god, known for his battles with his sister, the sun goddess Amaterasu?',
         'a' => 'Tsukuyomi',
         'b' => 'Fujin',
@@ -2619,7 +2619,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the queen of the gods and the wife of Zeus, known for her jealousy and vengefulness?',
         'a' => 'Athena',
         'b' => 'Hestia',
@@ -2631,7 +2631,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, which goddess is associated with fertility, the earth, and agriculture, often depicted as a serpent-skirted figure?',
         'a' => 'Xochiquetzal',
         'b' => 'Coatlicue',
@@ -2644,7 +2644,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the Titan who holds up the sky on his shoulders?',
         'a' => 'Atlas',
         'b' => 'Prometheus',
@@ -2656,7 +2656,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the goddess of the sky, often depicted with a cow’s head?',
         'a' => 'Hathor',
         'b' => 'Sekhmet',
@@ -2668,7 +2668,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the god associated with poetry, healing, and the runes?',
         'a' => 'Baldur',
         'b' => 'Bragi',
@@ -2680,7 +2680,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the demon king defeated by Lord Rama in the Ramayana?',
         'a' => 'Ravana',
         'b' => 'Kumbhakarna',
@@ -2692,7 +2692,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the goddess of wisdom, equivalent to the Greek goddess Athena?',
         'a' => 'Juno',
         'b' => 'Venus',
@@ -2704,7 +2704,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Aztec mythology, who is the god of the sun and war, often associated with the eagle?',
         'a' => 'Huitzilopochtli',
         'b' => 'Tlaloc',
@@ -2716,7 +2716,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the goddess of the sun, considered the ancestor of the Japanese imperial family?',
         'a' => 'Amaterasu',
         'b' => 'Tsukuyomi',
@@ -2728,7 +2728,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the mother of the Olympian gods and the wife of Cronus?',
         'a' => 'Rhea',
         'b' => 'Themis',
@@ -2740,7 +2740,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, who is the goddess of fire, healing, and fertility, associated with the sacred flame?',
         'a' => 'Brigid',
         'b' => 'Epona',
@@ -2752,7 +2752,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, who is the guardian of Bifröst, the rainbow bridge that connects Asgard to Midgard?',
         'a' => 'Thor',
         'b' => 'Odin',
@@ -2764,7 +2764,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the god of wealth and the protector of merchants and bankers?',
         'a' => 'Ganesha',
         'b' => 'Lakshmi',
@@ -2778,7 +2778,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the supreme god and creator of the universe?',
         'a' => 'Orunmila',
         'b' => 'Shango',
@@ -2790,7 +2790,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the supreme deity and creator of the universe?',
         'a' => 'Amadioha',
         'b' => 'Chukwu',
@@ -2802,7 +2802,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is known as a spirit of the earth and fertility?',
         'a' => 'Dodo',
         'b' => 'Maman Borde',
@@ -2814,7 +2814,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the deity associated with creation and fertility?',
         'a' => 'Sao',
         'b' => 'Bima',
@@ -2826,7 +2826,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the deity of wisdom and divination?',
         'a' => 'Shango',
         'b' => 'Orunmila',
@@ -2838,7 +2838,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is known as the trickster god associated with chaos and mischief?',
         'a' => 'Chukwu',
         'b' => 'Ekwensu',
@@ -2850,7 +2850,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is a revered protector of the community often associated with the supernatural?',
         'a' => 'Goggo',
         'b' => 'Shah',
@@ -2862,7 +2862,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the goddess of the Ogun River and mother of many deities?',
         'a' => 'Olodumare',
         'b' => 'Orunmila',
@@ -2874,7 +2874,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is associated with rain and agriculture?',
         'a' => 'Bima',
         'b' => 'Sao',
@@ -2886,7 +2886,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is associated with the earth and fertility?',
         'a' => 'Ajao',
         'b' => 'Amadioha',
@@ -2899,7 +2899,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is known as the god of thunder and lightning, associated with power and justice?',
         'a' => 'Olodumare',
         'b' => 'Orunmila',
@@ -2911,7 +2911,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is known for their wisdom and spiritual guidance, often depicted as a wise elder?',
         'a' => 'Goggo',
         'b' => 'Shah',
@@ -2923,7 +2923,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the deity associated with agriculture and the harvest?',
         'a' => 'Chukwu',
         'b' => 'Ajao',
@@ -2935,7 +2935,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the deity known for their role in creation and their influence over life and death?',
         'a' => 'Bima',
         'b' => 'Sao',
@@ -2947,7 +2947,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the deity associated with fertility, motherhood, and the Ogun River?',
         'a' => 'Olodumare',
         'b' => 'Shango',
@@ -2959,7 +2959,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is considered a powerful spirit often associated with nature and protection?',
         'a' => 'Goggo',
         'b' => 'Dodo',
@@ -2971,7 +2971,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the deity associated with the concept of mischief and deceit?',
         'a' => 'Ekwensu',
         'b' => 'Chukwu',
@@ -2983,7 +2983,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is known as a major deity influencing fertility and prosperity?',
         'a' => 'Bima',
         'b' => 'Sao',
@@ -2995,7 +2995,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is revered as the god of wisdom and divination, often consulted for guidance?',
         'a' => 'Yemoja',
         'b' => 'Shango',
@@ -3007,7 +3007,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is often associated with supernatural abilities and revered as a guardian of the community?',
         'a' => 'Maman Borde',
         'b' => 'Goggo',
@@ -3021,7 +3021,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the god of thunder and is often seen as the enforcer of justice?',
         'a' => 'Chukwu',
         'b' => 'Amadioha',
@@ -3033,7 +3033,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the god of iron and war, often associated with blacksmiths?',
         'a' => 'Orunmila',
         'b' => 'Shango',
@@ -3045,7 +3045,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is the deity that represents the earth and is often associated with fertility?',
         'a' => 'Goggo',
         'b' => 'Maman Borde',
@@ -3057,7 +3057,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the spirit associated with rain, critical for agricultural success?',
         'a' => 'Sao',
         'b' => 'Bima',
@@ -3069,7 +3069,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, which deity is often depicted with a double-headed axe and is the god of lightning?',
         'a' => 'Olodumare',
         'b' => 'Shango',
@@ -3081,7 +3081,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the earth goddess often associated with fertility and agriculture?',
         'a' => 'Amadioha',
         'b' => 'Chukwu',
@@ -3093,7 +3093,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is the spirit that is believed to bring rain and is important for crop growth?',
         'a' => 'Dodo',
         'b' => 'Goggo',
@@ -3105,7 +3105,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the goddess associated with the river and often invoked for fertility?',
         'a' => 'Orunmila',
         'b' => 'Shango',
@@ -3117,7 +3117,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is considered the trickster god, often causing mischief?',
         'a' => 'Chukwu',
         'b' => 'Ala',
@@ -3129,7 +3129,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the major deity associated with fertility and the prosperity of the land?',
         'a' => 'Bima',
         'b' => 'Sao',
@@ -3142,7 +3142,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Edo mythology, who is the deity associated with the sea and wealth?',
         'a' => 'Olokun',
         'b' => 'Esu',
@@ -3154,7 +3154,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Ijaw mythology, who is considered the mother goddess and creator of the universe?',
         'a' => 'Egbesu',
         'b' => 'Owu',
@@ -3166,7 +3166,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Nupe mythology, who is known as the supreme god and creator?',
         'a' => 'Soko',
         'b' => 'Kinnara',
@@ -3178,7 +3178,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Tiv mythology, who is the supreme god responsible for creation and controlling the elements?',
         'a' => 'Swem',
         'b' => 'Nyian',
@@ -3190,7 +3190,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Ibibio/Efik mythology, who is the goddess of mediation between the heavens and the earth?',
         'a' => 'Abassi',
         'b' => 'Atai',
@@ -3202,7 +3202,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Idoma mythology, who is the sacred symbol representing justice and truth?',
         'a' => 'Alekwu',
         'b' => 'Aje Shiwara',
@@ -3214,7 +3214,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Edo mythology, who is the trickster god and messenger between gods and humans?',
         'a' => 'Esu',
         'b' => 'Olokun',
@@ -3226,7 +3226,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Ijaw mythology, who is the deity associated with rain and critical for agricultural success?',
         'a' => 'Woyengi',
         'b' => 'Egbesu',
@@ -3238,7 +3238,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Nupe mythology, which deity is linked to protection and fertility?',
         'a' => 'Bima',
         'b' => 'Sao',
@@ -3250,7 +3250,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Tiv mythology, who represents the spirits of the ancestors and nature?',
         'a' => 'Aondo',
         'b' => 'Swem',
@@ -3263,7 +3263,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the deity of creativity and wisdom often associated with divination?',
         'a' => 'Orunmila',
         'b' => 'Ogun',
@@ -3275,7 +3275,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the god of the sky and the supreme deity?',
         'a' => 'Amadioha',
         'b' => 'Chukwu',
@@ -3287,7 +3287,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hausa mythology, who is the deity associated with fertility and often worshiped for crop success?',
         'a' => 'Goggo',
         'b' => 'Maman Borde',
@@ -3299,7 +3299,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the deity of the sun and is often linked to prosperity?',
         'a' => 'Bima',
         'b' => 'Maman Borde',
@@ -3311,7 +3311,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Ibibio/Efik mythology, who is the deity associated with the creation of humans?',
         'a' => 'Atai',
         'b' => 'Abassi',
@@ -3323,7 +3323,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Idoma mythology, who is revered as the supreme god of creation?',
         'a' => 'Owoicho',
         'b' => 'Aje Shiwara',
@@ -3335,7 +3335,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Edo mythology, who is considered the god of death?',
         'a' => 'Ogiuwu',
         'b' => 'Esu',
@@ -3347,7 +3347,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, which deity is associated with the ocean and is considered the mother of all Orishas?',
         'a' => 'Yemoja',
         'b' => 'Shango',
@@ -3359,7 +3359,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Kanuri mythology, who is the deity associated with fertility and agricultural success?',
         'a' => 'Maman Borde',
         'b' => 'Bima',
@@ -3371,7 +3371,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Nupe mythology, who is revered as the spirit associated with the waters and is crucial for prosperity?',
         'a' => 'Kinnara',
         'b' => 'Gani',
@@ -3383,7 +3383,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Idoma mythology, who is the deity representing the ancestral spirits?',
         'a' => 'Aondo',
         'b' => 'Owoicho',
@@ -3396,7 +3396,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In the Genesis creation story, how many days did it take for God to create the world?',
         'a' => 'Five',
         'b' => 'Six',
@@ -3408,7 +3408,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which angel announced the birth of Jesus to the Virgin Mary?',
         'a' => 'Michael',
         'b' => 'Raphael',
@@ -3420,7 +3420,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the term for the belief in Jesus Christ’s return to judge the living and the dead?',
         'a' => 'The Incarnation',
         'b' => 'The Resurrection',
@@ -3432,7 +3432,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian theology, what is the name of the place of eternal punishment for the wicked?',
         'a' => 'Heaven',
         'b' => 'Paradise',
@@ -3444,7 +3444,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which book of the New Testament describes the end times and the final judgment?',
         'a' => 'Matthew',
         'b' => 'Acts',
@@ -3456,7 +3456,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who is considered the first Christian martyr?',
         'a' => 'Saint Peter',
         'b' => 'Saint Paul',
@@ -3468,7 +3468,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian doctrine, what is the name of the sacrament that commemorates the Last Supper?',
         'a' => 'Baptism',
         'b' => 'Confirmation',
@@ -3480,7 +3480,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Biblical figure is known for defeating the giant Goliath?',
         'a' => 'Solomon',
         'b' => 'Saul',
@@ -3492,7 +3492,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the term for the Christian belief that God became human in the person of Jesus Christ?',
         'a' => 'Atonement',
         'b' => 'Incarnation',
@@ -3504,7 +3504,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which angel is often depicted as a warrior and is associated with spiritual warfare?',
         'a' => 'Gabriel',
         'b' => 'Michael',
@@ -3517,7 +3517,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian belief, what event is commemorated on Good Friday?',
         'a' => 'The Last Supper',
         'b' => 'The Resurrection of Jesus',
@@ -3529,7 +3529,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who led the Israelites out of Egypt according to the Bible?',
         'a' => 'Abraham',
         'b' => 'Jacob',
@@ -3541,7 +3541,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Biblical figure is known for interpreting the dreams of the Pharaoh of Egypt?',
         'a' => 'Daniel',
         'b' => 'Joseph',
@@ -3553,7 +3553,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the first book of the New Testament?',
         'a' => 'Mark',
         'b' => 'Luke',
@@ -3565,7 +3565,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian tradition, what does the term "Pentecost" refer to?',
         'a' => 'The birth of Jesus',
         'b' => 'The descent of the Holy Spirit upon the apostles',
@@ -3577,7 +3577,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which apostle is known for doubting the resurrection of Jesus until he saw the wounds?',
         'a' => 'Peter',
         'b' => 'John',
@@ -3589,7 +3589,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who was the first king of Israel according to the Bible?',
         'a' => 'David',
         'b' => 'Solomon',
@@ -3601,7 +3601,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian belief, what does the term "Trinity" refer to?',
         'a' => 'The Father, the Son, and the Holy Spirit',
         'b' => 'The Three Wise Men',
@@ -3613,7 +3613,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Old Testament figure is known for building an ark to survive a great flood?',
         'a' => 'Noah',
         'b' => 'Abraham',
@@ -3625,7 +3625,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian theology, what is the meaning of the term "Immaculate Conception"?',
         'a' => 'The virgin birth of Jesus',
         'b' => 'The belief that Mary was free from original sin from the moment of her conception',
@@ -3638,7 +3638,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'According to Islamic tradition, which angel delivered the revelations of the Quran to Prophet Muhammad?',
         'a' => 'Mikail',
         'b' => 'Israfil',
@@ -3650,7 +3650,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the name of the first man created by Allah in Islamic belief?',
         'a' => 'Isa',
         'b' => 'Musa',
@@ -3662,7 +3662,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic eschatology, what is the name of the bridge that must be crossed to reach Paradise?',
         'a' => 'Al-Sirat',
         'b' => 'Jannah',
@@ -3674,7 +3674,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which prophet is known in Islam for surviving in the belly of a whale?',
         'a' => 'Nuh',
         'b' => 'Yunus',
@@ -3686,7 +3686,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the term for the declaration of faith in Islam?',
         'a' => 'Salat',
         'b' => 'Shahada',
@@ -3698,7 +3698,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Islamic prophet is associated with the construction of the Kaaba?',
         'a' => 'Musa',
         'b' => 'Isa',
@@ -3710,7 +3710,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic tradition, who is the "Seal of the Prophets"?',
         'a' => 'Isa',
         'b' => 'Musa',
@@ -3722,7 +3722,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the name of the holy book in Islam?',
         'a' => 'Torah',
         'b' => 'Bible',
@@ -3734,7 +3734,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which event in Islamic tradition marks the beginning of the Islamic calendar?',
         'a' => 'The birth of Muhammad',
         'b' => 'The conquest of Mecca',
@@ -3746,7 +3746,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic eschatology, who is expected to return to earth before the Day of Judgment?',
         'a' => 'Isa (Jesus)',
         'b' => 'Musa (Moses)',
@@ -3759,7 +3759,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which figure is known as the "Father of the Prophets" in Islam?',
         'a' => 'Musa (Moses)',
         'b' => 'Ibrahim (Abraham)',
@@ -3771,7 +3771,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic tradition, who is the mother of Prophet Isa (Jesus)?',
         'a' => 'Khadijah',
         'b' => 'Aisha',
@@ -3783,7 +3783,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the term for the pilgrimage to Mecca that Muslims are required to perform at least once in their lifetime if they are able?',
         'a' => 'Zakat',
         'b' => 'Sawm',
@@ -3795,7 +3795,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which surah (chapter) of the Quran is known as "The Opening" and is recited in every unit of the Muslim prayer?',
         'a' => 'Surah Al-Baqarah',
         'b' => 'Surah Al-Ikhlas',
@@ -3807,7 +3807,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic eschatology, what is the name of the false messiah who will appear before the Day of Judgment?',
         'a' => 'Al-Mahdi',
         'b' => 'Dajjal',
@@ -3819,7 +3819,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which angel is responsible for blowing the trumpet to signal the Day of Judgment in Islamic belief?',
         'a' => 'Israfil',
         'b' => 'Jibril',
@@ -3831,7 +3831,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In the Quran, which prophet is known for his patience and is often cited as an example of enduring faith?',
         'a' => 'Yusuf (Joseph)',
         'b' => 'Ayub (Job)',
@@ -3843,7 +3843,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'According to Islamic tradition, which prophet was commanded by Allah to build an ark to save himself and his followers from a great flood?',
         'a' => 'Musa (Moses)',
         'b' => 'Ibrahim (Abraham)',
@@ -3855,7 +3855,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic tradition, who is the angel of death responsible for taking the souls of the deceased?',
         'a' => 'Jibril',
         'b' => 'Mikail',
@@ -3867,7 +3867,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which prophet is known for leading the Israelites across the Red Sea, as narrated in both Islamic and Biblical traditions?',
         'a' => 'Ibrahim (Abraham)',
         'b' => 'Musa (Moses)',
@@ -3880,7 +3880,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who is considered the first human created by God according to Christian belief?',
         'a' => 'Abraham',
         'b' => 'Noah',
@@ -3892,7 +3892,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian tradition, what is the name of the garden where Adam and Eve lived?',
         'a' => 'Garden of Eden',
         'b' => 'Mount Sinai',
@@ -3904,7 +3904,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'According to Christian belief, which angel was cast out of heaven for rebelling against God?',
         'a' => 'Gabriel',
         'b' => 'Michael',
@@ -3916,7 +3916,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who led the Israelites out of Egypt in the Biblical Exodus?',
         'a' => 'David',
         'b' => 'Solomon',
@@ -3928,7 +3928,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which of the following is not one of the Four Horsemen of the Apocalypse in Christian eschatology?',
         'a' => 'War',
         'b' => 'Famine',
@@ -3941,7 +3941,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the god of iron and war?',
         'a' => 'Oshun',
         'b' => 'Shango',
@@ -3953,7 +3953,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which creature from Igbo mythology is known for its ability to change shape and cause mischief?',
         'a' => 'Mami Wata',
         'b' => 'Ogbunabali',
@@ -3965,7 +3965,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Greek mythology, who is the king of the gods?',
         'a' => 'Hades',
         'b' => 'Poseidon',
@@ -3977,7 +3977,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Islamic tradition, who is the angel responsible for delivering revelations to the prophets?',
         'a' => 'Israfil',
         'b' => 'Azrael',
@@ -3989,7 +3989,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which goddess is known as the mother of gods in Igbo mythology?',
         'a' => 'Oya',
         'b' => 'Idemili',
@@ -4002,7 +4002,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Christian tradition, who betrayed Jesus for thirty pieces of silver?',
         'a' => 'Peter',
         'b' => 'Judas Iscariot',
@@ -4014,7 +4014,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Christian figure is known for slaying Goliath with a slingshot?',
         'a' => 'David',
         'b' => 'Saul',
@@ -4026,7 +4026,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'What is the name of the Christian paradise where the righteous are said to go after death?',
         'a' => 'Eden',
         'b' => 'Purgatory',
@@ -4039,7 +4039,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, who is the god of destruction and transformation?',
         'a' => 'Vishnu',
         'b' => 'Brahma',
@@ -4051,7 +4051,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which of the following is the wife of Zeus in Greek mythology?',
         'a' => 'Aphrodite',
         'b' => 'Hera',
@@ -4063,7 +4063,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Igbo mythology, who is the trickster god known for causing confusion?',
         'a' => 'Ekwensu',
         'b' => 'Amadioha',
@@ -4075,7 +4075,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Norse mythology, which god is known for his hammer, Mjölnir?',
         'a' => 'Loki',
         'b' => 'Thor',
@@ -4087,7 +4087,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Who is the creator god in the Yoruba religion?',
         'a' => 'Ogun',
         'b' => 'Shango',
@@ -4099,7 +4099,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Islamic prophet is known for surviving in the belly of a whale?',
         'a' => 'Musa (Moses)',
         'b' => 'Yusuf (Joseph)',
@@ -4111,7 +4111,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, which river is considered the holiest and is personified as a goddess?',
         'a' => 'Yamuna',
         'b' => 'Saraswati',
@@ -4124,7 +4124,7 @@ class QuestionSeeder18 extends Seeder
 
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Egyptian mythology, who is the god of the underworld?',
         'a' => 'Ra',
         'b' => 'Anubis',
@@ -4136,7 +4136,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Aztec god is associated with the sun and war?',
         'a' => 'Quetzalcoatl',
         'b' => 'Huitzilopochtli',
@@ -4148,7 +4148,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Roman mythology, who is the god of war?',
         'a' => 'Jupiter',
         'b' => 'Neptune',
@@ -4160,7 +4160,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Chinese mythology, who is the Jade Emperor?',
         'a' => 'The ruler of Heaven',
         'b' => 'The god of war',
@@ -4172,7 +4172,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Norse goddess is associated with love, fertility, and beauty?',
         'a' => 'Freya',
         'b' => 'Hel',
@@ -4184,7 +4184,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Celtic mythology, who is the god of the sea?',
         'a' => 'Lugh',
         'b' => 'Manannán mac Lir',
@@ -4196,7 +4196,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Japanese mythology, who is the sun goddess?',
         'a' => 'Amaterasu',
         'b' => 'Susanoo',
@@ -4208,7 +4208,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Hindu mythology, which god has the head of an elephant?',
         'a' => 'Vishnu',
         'b' => 'Shiva',
@@ -4220,7 +4220,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'In Yoruba mythology, who is the goddess of fertility and water?',
         'a' => 'Oshun',
         'b' => 'Yemaya',
@@ -4232,7 +4232,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 95,
+       
         'question' => 'Which Native American mythology includes the trickster figure Coyote?',
         'a' => 'Navajo',
         'b' => 'Inuit',
@@ -4248,7 +4248,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves collecting stamps from around the world?',
         'a' => 'Numismatics',
         'b' => 'Philately',
@@ -4260,7 +4260,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In photography, what does ISO measure?',
         'a' => 'Shutter speed',
         'b' => 'Aperture',
@@ -4272,7 +4272,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves the art of folding paper into various shapes?',
         'a' => 'Origami',
         'b' => 'Calligraphy',
@@ -4284,7 +4284,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What is the main ingredient in the Japanese dish sushi?',
         'a' => 'Rice',
         'b' => 'Fish',
@@ -4296,7 +4296,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these is a popular indoor gardening hobby that involves growing plants in water without soil?',
         'a' => 'Aquascaping',
         'b' => 'Hydroponics',
@@ -4308,7 +4308,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In knitting, what is the name of the stitch that creates a pattern resembling a wave or zigzag?',
         'a' => 'Garter stitch',
         'b' => 'Stockinette stitch',
@@ -4320,7 +4320,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which type of dance originated in Argentina and is known for its dramatic movements and close embrace?',
         'a' => 'Salsa',
         'b' => 'Flamenco',
@@ -4332,7 +4332,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What is the term for a person who enjoys birdwatching as a hobby?',
         'a' => 'Ornithologist',
         'b' => 'Birder',
@@ -4344,7 +4344,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves solving puzzles with interlocking pieces to form a picture?',
         'a' => 'Crossword puzzles',
         'b' => 'Sudoku',
@@ -4356,7 +4356,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In model building, which material is commonly used to create scale models of airplanes, cars, and ships?',
         'a' => 'Metal',
         'b' => 'Clay',
@@ -4370,7 +4370,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves growing and cultivating bonsai trees?',
         'a' => 'Aquascaping',
         'b' => 'Floristry',
@@ -4382,7 +4382,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In what hobby would you most likely use a spinning wheel?',
         'a' => 'Weaving',
         'b' => 'Spinning',
@@ -4394,7 +4394,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is most associated with train enthusiasts?',
         'a' => 'Railfanning',
         'b' => 'Model building',
@@ -4406,7 +4406,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What is the primary activity in the hobby known as "geocaching"?',
         'a' => 'Solving puzzles',
         'b' => 'Finding hidden containers using GPS',
@@ -4418,7 +4418,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which craft involves making objects by sewing layers of fabric together?',
         'a' => 'Quilting',
         'b' => 'Embroidery',
@@ -4430,7 +4430,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In which hobby would you most likely encounter a "rosette"?',
         'a' => 'Cooking',
         'b' => 'Cake decorating',
@@ -4442,7 +4442,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these is a popular hobby involving remote-controlled vehicles?',
         'a' => 'RC cars',
         'b' => 'Model trains',
@@ -4454,7 +4454,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves the study of celestial objects and phenomena?',
         'a' => 'Meteorology',
         'b' => 'Geology',
@@ -4466,7 +4466,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves creating and flying lightweight paper models?',
         'a' => 'Origami',
         'b' => 'Paper planes',
@@ -4478,7 +4478,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves exploring caves?',
         'a' => 'Spelunking',
         'b' => 'Rock climbing',
@@ -4492,7 +4492,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What hobby involves assembling small, plastic building blocks to create models?',
         'a' => 'Papercraft',
         'b' => 'Model building',
@@ -4504,7 +4504,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is associated with the phrase "tuning the airwaves"?',
         'a' => 'Amateur radio',
         'b' => 'DJing',
@@ -4516,7 +4516,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In which hobby would you use a "lure" to attract your target?',
         'a' => 'Birdwatching',
         'b' => 'Fishing',
@@ -4528,7 +4528,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which type of puzzle involves filling in numbers so that every row, column, and box contains the digits 1 through 9?',
         'a' => 'Crossword',
         'b' => 'Sudoku',
@@ -4540,7 +4540,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What is the term for a person who collects and studies coins?',
         'a' => 'Philatelist',
         'b' => 'Numismatist',
@@ -4552,7 +4552,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves customizing and modifying personal computers for gaming?',
         'a' => 'Overclocking',
         'b' => 'Modding',
@@ -4564,7 +4564,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves making wine at home?',
         'a' => 'Fermenting',
         'b' => 'Brewing',
@@ -4576,7 +4576,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In the world of gaming, what does MMORPG stand for?',
         'a' => 'Massive Multiplayer Online Role-Playing Game',
         'b' => 'Main Multiplayer Online Role-Playing Game',
@@ -4588,7 +4588,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves navigating to specific locations using a map and compass?',
         'a' => 'Orienteering',
         'b' => 'Geocaching',
@@ -4600,7 +4600,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves drawing or painting outdoors?',
         'a' => 'Still life',
         'b' => 'Portrait painting',
@@ -4614,7 +4614,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves collecting autographs from famous people?',
         'a' => 'Philately',
         'b' => 'Autograph collecting',
@@ -4626,7 +4626,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In which hobby would you most likely use an easel?',
         'a' => 'Pottery',
         'b' => 'Sculpting',
@@ -4638,7 +4638,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves baking bread and other baked goods at home?',
         'a' => 'Patisserie',
         'b' => 'Culinary arts',
@@ -4650,7 +4650,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves the collection of vintage cars?',
         'a' => 'Car detailing',
         'b' => 'Automobilia collecting',
@@ -4662,7 +4662,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is centered around growing and maintaining gardens?',
         'a' => 'Horticulture',
         'b' => 'Botany',
@@ -4674,7 +4674,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves writing a daily record of personal experiences?',
         'a' => 'Journaling',
         'b' => 'Blogging',
@@ -4686,7 +4686,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What hobby involves photographing and observing the night sky?',
         'a' => 'Astronomy',
         'b' => 'Astrophotography',
@@ -4698,7 +4698,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'In which hobby would you most likely use a trowel?',
         'a' => 'Gardening',
         'b' => 'Pottery',
@@ -4710,7 +4710,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves making your own beer at home?',
         'a' => 'Home brewing',
         'b' => 'Fermentation',
@@ -4722,7 +4722,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves knitting or crocheting small, stuffed animals?',
         'a' => 'Tatting',
         'b' => 'Amigurumi',
@@ -4736,7 +4736,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves capturing light on film or digital sensors?',
         'a' => 'Filmmaking',
         'b' => 'Painting',
@@ -4748,7 +4748,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'What is the practice of growing and arranging ornamental plants called?',
         'a' => 'Horticulture',
         'b' => 'Botany',
@@ -4760,7 +4760,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating three-dimensional objects by cutting and folding paper?',
         'a' => 'Origami',
         'b' => 'Papercraft',
@@ -4772,7 +4772,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is most associated with attending conventions and collecting comics?',
         'a' => 'Cosplay',
         'b' => 'Comic book collecting',
@@ -4784,7 +4784,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves painting miniatures, often for tabletop games?',
         'a' => 'Doll making',
         'b' => 'Warhammer painting',
@@ -4796,7 +4796,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is associated with building and flying remote-controlled aircraft?',
         'a' => 'Droning',
         'b' => 'Aviation',
@@ -4808,7 +4808,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating and maintaining aquariums, often for ornamental fish?',
         'a' => 'Aquascaping',
         'b' => 'Marine biology',
@@ -4820,7 +4820,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating patterns and images with beads and thread?',
         'a' => 'Weaving',
         'b' => 'Embroidery',
@@ -4832,7 +4832,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves restoring and riding vintage bicycles?',
         'a' => 'Cycling',
         'b' => 'Bicycle restoration',
@@ -4844,7 +4844,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating and painting scenes on a canvas?',
         'a' => 'Sculpting',
         'b' => 'Illustration',
@@ -4858,7 +4858,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves brewing beer or fermenting wine at home?',
         'a' => 'Viticulture',
         'b' => 'Home brewing',
@@ -4870,7 +4870,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is most associated with collecting stamps?',
         'a' => 'Philately',
         'b' => 'Numismatics',
@@ -4882,7 +4882,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves maintaining a garden or small farm for fresh produce?',
         'a' => 'Organic gardening',
         'b' => 'Permaculture',
@@ -4894,7 +4894,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves performing physical poses and breathing exercises?',
         'a' => 'Yoga',
         'b' => 'Pilates',
@@ -4906,7 +4906,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is centered around the creation of knitted fabrics?',
         'a' => 'Weaving',
         'b' => 'Embroidery',
@@ -4918,7 +4918,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves decorating cakes and pastries?',
         'a' => 'Patisserie',
         'b' => 'Confectionery arts',
@@ -4930,7 +4930,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves exploring and mapping caves?',
         'a' => 'Spelunking',
         'b' => 'Mountaineering',
@@ -4942,7 +4942,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves the construction of small-scale buildings or vehicles?',
         'a' => 'Model building',
         'b' => 'Sculpting',
@@ -4954,7 +4954,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves cultivating bonsai trees?',
         'a' => 'Gardening',
         'b' => 'Horticulture',
@@ -4966,7 +4966,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves programming and creating software?',
         'a' => 'Web development',
         'b' => 'Software engineering',
@@ -4980,7 +4980,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is most associated with restoring classic cars?',
         'a' => 'Auto detailing',
         'b' => 'Car collecting',
@@ -4992,7 +4992,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves capturing video footage and editing it into films or videos?',
         'a' => 'Videography',
         'b' => 'Photography',
@@ -5004,7 +5004,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is associated with bird watching and recording species observed?',
         'a' => 'Ornithology',
         'b' => 'Bird watching',
@@ -5016,7 +5016,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves collecting rare and valuable items?',
         'a' => 'Antiquing',
         'b' => 'Treasure hunting',
@@ -5028,7 +5028,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves assembling jigsaw puzzles?',
         'a' => 'Puzzle solving',
         'b' => 'Brain games',
@@ -5040,7 +5040,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is centered around flying kites?',
         'a' => 'Aerodynamics',
         'b' => 'Kite flying',
@@ -5052,7 +5052,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves building computers and customizing their components?',
         'a' => 'Coding',
         'b' => 'Gaming',
@@ -5064,7 +5064,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is associated with practicing magic tricks and illusions?',
         'a' => 'Magic',
         'b' => 'Stage performance',
@@ -5076,7 +5076,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves riding and taking care of horses?',
         'a' => 'Equestrianism',
         'b' => 'Veterinary science',
@@ -5088,7 +5088,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves collecting and preserving insects, often as part of a scientific study?',
         'a' => 'Entomology',
         'b' => 'Biology',
@@ -5102,7 +5102,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves creating and maintaining aquariums?',
         'a' => 'Aquascaping',
         'b' => 'Marine biology',
@@ -5114,7 +5114,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves practicing the martial art of fencing?',
         'a' => 'Swordsmanship',
         'b' => 'Kendo',
@@ -5126,7 +5126,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves building and flying model airplanes?',
         'a' => 'Aviation',
         'b' => 'Aeromodelling',
@@ -5138,7 +5138,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is centered around performing card tricks and sleight of hand?',
         'a' => 'Gambling',
         'b' => 'Cardistry',
@@ -5150,7 +5150,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves collecting and caring for vinyl records?',
         'a' => 'Audiophilia',
         'b' => 'Music collecting',
@@ -5162,7 +5162,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is associated with the study and collection of coins?',
         'a' => 'Numismatics',
         'b' => 'Philately',
@@ -5174,7 +5174,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves designing and crafting jewelry?',
         'a' => 'Metalworking',
         'b' => 'Fashion design',
@@ -5186,7 +5186,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves the use of cameras to capture still images?',
         'a' => 'Videography',
         'b' => 'Photography',
@@ -5198,7 +5198,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is focused on creating and arranging flower displays?',
         'a' => 'Floral design',
         'b' => 'Gardening',
@@ -5210,7 +5210,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves taking care of bonsai trees?',
         'a' => 'Gardening',
         'b' => 'Horticulture',
@@ -5224,7 +5224,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves painting miniatures used in tabletop games?',
         'a' => 'Miniature painting',
         'b' => 'Model building',
@@ -5236,7 +5236,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves creating ceramic items like pots and vases?',
         'a' => 'Sculpting',
         'b' => 'Pottery',
@@ -5248,7 +5248,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves keeping and breeding tropical fish in an aquarium?',
         'a' => 'Aquascaping',
         'b' => 'Fishkeeping',
@@ -5260,7 +5260,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating designs or patterns on fabric using needle and thread?',
         'a' => 'Knitting',
         'b' => 'Embroidery',
@@ -5272,7 +5272,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves growing and caring for succulent plants?',
         'a' => 'Gardening',
         'b' => 'Bonsai',
@@ -5284,7 +5284,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves the careful maintenance and restoration of old books?',
         'a' => 'Bookbinding',
         'b' => 'Book restoration',
@@ -5296,7 +5296,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves playing a musical instrument as a leisure activity?',
         'a' => 'Singing',
         'b' => 'Music production',
@@ -5308,7 +5308,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves participating in or organizing cosplay events?',
         'a' => 'Costume design',
         'b' => 'Acting',
@@ -5320,7 +5320,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating and solving complex puzzles, often online?',
         'a' => 'Puzzle solving',
         'b' => 'Riddle creation',
@@ -5332,7 +5332,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is focused on learning and speaking multiple languages?',
         'a' => 'Translation',
         'b' => 'Linguistics',
@@ -5346,7 +5346,7 @@ class QuestionSeeder18 extends Seeder
     // Hobbies and Interests Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves collecting stamps from around the world?',
         'a' => 'Philately',
         'b' => 'Numismatics',
@@ -5358,7 +5358,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves the practice of growing vegetables and fruits in a garden?',
         'a' => 'Horticulture',
         'b' => 'Agriculture',
@@ -5370,7 +5370,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is related to watching birds in their natural habitat?',
         'a' => 'Birdkeeping',
         'b' => 'Birdwatching',
@@ -5382,7 +5382,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves creating music by mixing and editing soundtracks?',
         'a' => 'DJing',
         'b' => 'Composing',
@@ -5394,7 +5394,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies is centered around practicing meditation and physical postures?',
         'a' => 'Yoga',
         'b' => 'Pilates',
@@ -5406,7 +5406,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves writing short stories, poems, or novels?',
         'a' => 'Journaling',
         'b' => 'Creative writing',
@@ -5418,7 +5418,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves solving Rubik’s cubes and similar puzzles?',
         'a' => 'Speedcubing',
         'b' => 'Puzzling',
@@ -5430,7 +5430,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby involves traveling to new places and exploring different cultures?',
         'a' => 'Backpacking',
         'b' => 'Traveling',
@@ -5442,7 +5442,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which of these hobbies involves practicing dance moves in various styles?',
         'a' => 'Choreography',
         'b' => 'Dancing',
@@ -5454,7 +5454,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 96,
+       
         'question' => 'Which hobby is focused on restoring vintage cars to their original condition?',
         'a' => 'Mechanics',
         'b' => 'Automotive restoration',
@@ -5468,7 +5468,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the capital of France?',
         'a' => 'Berlin',
         'b' => 'Madrid',
@@ -5480,7 +5480,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which planet is known as the Red Planet?',
         'a' => 'Earth',
         'b' => 'Venus',
@@ -5492,7 +5492,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who wrote the play "Romeo and Juliet"?',
         'a' => 'William Shakespeare',
         'b' => 'Jane Austen',
@@ -5504,7 +5504,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest ocean on Earth?',
         'a' => 'Atlantic Ocean',
         'b' => 'Indian Ocean',
@@ -5516,7 +5516,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which element has the chemical symbol "O"?',
         'a' => 'Oxygen',
         'b' => 'Gold',
@@ -5528,7 +5528,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the first President of the United States?',
         'a' => 'Abraham Lincoln',
         'b' => 'George Washington',
@@ -5540,7 +5540,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which country is known as the Land of the Rising Sun?',
         'a' => 'China',
         'b' => 'India',
@@ -5552,7 +5552,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the main ingredient in guacamole?',
         'a' => 'Tomato',
         'b' => 'Avocado',
@@ -5564,7 +5564,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which artist painted the Mona Lisa?',
         'a' => 'Vincent van Gogh',
         'b' => 'Pablo Picasso',
@@ -5576,7 +5576,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which year did World War II end?',
         'a' => '1942',
         'b' => '1945',
@@ -5590,7 +5590,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which country hosted the 2016 Summer Olympics?',
         'a' => 'China',
         'b' => 'Brazil',
@@ -5602,7 +5602,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the hardest natural substance on Earth?',
         'a' => 'Gold',
         'b' => 'Iron',
@@ -5614,7 +5614,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous ship sank in 1912 after hitting an iceberg?',
         'a' => 'Titanic',
         'b' => 'Lusitania',
@@ -5626,7 +5626,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which element is known by the symbol "H"?',
         'a' => 'Helium',
         'b' => 'Hydrogen',
@@ -5638,7 +5638,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the smallest country in the world by land area?',
         'a' => 'Monaco',
         'b' => 'Nauru',
@@ -5650,7 +5650,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which artist is known for painting the ceiling of the Sistine Chapel?',
         'a' => 'Raphael',
         'b' => 'Leonardo da Vinci',
@@ -5662,7 +5662,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who developed the theory of relativity?',
         'a' => 'Isaac Newton',
         'b' => 'Albert Einstein',
@@ -5674,7 +5674,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which river is the longest in the world?',
         'a' => 'Amazon',
         'b' => 'Yangtze',
@@ -5686,7 +5686,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which organ in the human body is responsible for pumping blood?',
         'a' => 'Lungs',
         'b' => 'Brain',
@@ -5698,7 +5698,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which country is known as the birthplace of pizza?',
         'a' => 'France',
         'b' => 'Italy',
@@ -5712,7 +5712,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which planet is closest to the Sun?',
         'a' => 'Venus',
         'b' => 'Earth',
@@ -5724,7 +5724,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest mammal in the world?',
         'a' => 'Elephant',
         'b' => 'Blue Whale',
@@ -5736,7 +5736,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which country is known for the invention of the paper?',
         'a' => 'China',
         'b' => 'Egypt',
@@ -5748,7 +5748,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who is the author of the Harry Potter series?',
         'a' => 'J.K. Rowling',
         'b' => 'J.R.R. Tolkien',
@@ -5760,7 +5760,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which country is the largest by land area?',
         'a' => 'Canada',
         'b' => 'United States',
@@ -5772,7 +5772,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the most spoken language in the world?',
         'a' => 'English',
         'b' => 'Spanish',
@@ -5784,7 +5784,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the smallest unit of life?',
         'a' => 'Atom',
         'b' => 'Molecule',
@@ -5796,7 +5796,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who painted the famous painting "The Starry Night"?',
         'a' => 'Pablo Picasso',
         'b' => 'Vincent van Gogh',
@@ -5808,7 +5808,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which year did the Berlin Wall fall?',
         'a' => '1985',
         'b' => '1987',
@@ -5820,7 +5820,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the longest river in Africa?',
         'a' => 'Congo River',
         'b' => 'Nile River',
@@ -5834,7 +5834,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous physicist developed the laws of motion?',
         'a' => 'Albert Einstein',
         'b' => 'Isaac Newton',
@@ -5846,7 +5846,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the capital city of Australia?',
         'a' => 'Sydney',
         'b' => 'Melbourne',
@@ -5858,7 +5858,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which animal is known as the King of the Jungle?',
         'a' => 'Tiger',
         'b' => 'Elephant',
@@ -5870,7 +5870,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which organ in the human body is primarily responsible for breathing?',
         'a' => 'Heart',
         'b' => 'Lungs',
@@ -5882,7 +5882,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the chemical symbol for Gold?',
         'a' => 'Au',
         'b' => 'Ag',
@@ -5894,7 +5894,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous scientist is known for his theory of evolution?',
         'a' => 'Charles Darwin',
         'b' => 'Gregor Mendel',
@@ -5906,7 +5906,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which planet is known for having a ring system?',
         'a' => 'Jupiter',
         'b' => 'Mars',
@@ -5918,7 +5918,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who wrote the novel "1984"?',
         'a' => 'Aldous Huxley',
         'b' => 'George Orwell',
@@ -5930,7 +5930,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the currency of Japan?',
         'a' => 'Yuan',
         'b' => 'Won',
@@ -5942,7 +5942,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which natural satellite is the Earth’s only moon?',
         'a' => 'Ganymede',
         'b' => 'Titan',
@@ -5956,7 +5956,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous landmark is located in Paris, France?',
         'a' => 'Eiffel Tower',
         'b' => 'Statue of Liberty',
@@ -5968,7 +5968,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the galaxy that contains our solar system?',
         'a' => 'Andromeda',
         'b' => 'Milky Way',
@@ -5980,7 +5980,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the chemical symbol for Sodium?',
         'a' => 'Na',
         'b' => 'K',
@@ -5992,7 +5992,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the capital city of Canada?',
         'a' => 'Toronto',
         'b' => 'Vancouver',
@@ -6004,7 +6004,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous playwright wrote "Romeo and Juliet"?',
         'a' => 'William Shakespeare',
         'b' => 'Christopher Marlowe',
@@ -6016,7 +6016,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which element is essential for the production of thyroid hormones?',
         'a' => 'Calcium',
         'b' => 'Iodine',
@@ -6028,7 +6028,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'In which year did the first man land on the Moon?',
         'a' => '1965',
         'b' => '1969',
@@ -6040,7 +6040,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest ocean on Earth?',
         'a' => 'Atlantic Ocean',
         'b' => 'Indian Ocean',
@@ -6052,7 +6052,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which continent is the Sahara Desert located in?',
         'a' => 'Asia',
         'b' => 'South America',
@@ -6064,7 +6064,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the first president of the United States?',
         'a' => 'Abraham Lincoln',
         'b' => 'George Washington',
@@ -6078,7 +6078,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the capital city of Nigeria?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6090,7 +6090,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known as the center of Nigeria’s oil industry?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6102,7 +6102,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the official language of Nigeria?',
         'a' => 'Hausa',
         'b' => 'Yoruba',
@@ -6114,7 +6114,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian leader was known for the campaign against corruption during his tenure?',
         'a' => 'Goodluck Jonathan',
         'b' => 'Muhammadu Buhari',
@@ -6126,7 +6126,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the traditional attire for men in northern Nigeria called?',
         'a' => 'Agbada',
         'b' => 'Dashiki',
@@ -6138,7 +6138,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian author wrote "Things Fall Apart"?',
         'a' => 'Chinua Achebe',
         'b' => 'Wole Soyinka',
@@ -6150,7 +6150,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is famous for its annual Argungu Festival?',
         'a' => 'Kano',
         'b' => 'Sokoto',
@@ -6162,7 +6162,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian musician is known for the hit song "African Queen"?',
         'a' => 'Fela Kuti',
         'b' => '2Baba',
@@ -6174,7 +6174,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest ethnic group in Nigeria?',
         'a' => 'Hausa',
         'b' => 'Yoruba',
@@ -6186,7 +6186,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which river is the longest in Nigeria?',
         'a' => 'Niger River',
         'b' => 'Benue River',
@@ -6201,7 +6201,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What year did Nigeria gain independence from British rule?',
         'a' => '1960',
         'b' => '1959',
@@ -6213,7 +6213,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for its large deposits of coal?',
         'a' => 'Enugu',
         'b' => 'Kogi',
@@ -6225,7 +6225,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the first military head of state in Nigeria?',
         'a' => 'Yakubu Gowon',
         'b' => 'Julius Nyerere',
@@ -6237,7 +6237,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known as the "City of Hills and Lights"?',
         'a' => 'Jos',
         'b' => 'Kaduna',
@@ -6249,7 +6249,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian film industry is known as Nollywood?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6261,7 +6261,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which popular Nigerian festival celebrates the harvest and is associated with the Igbo ethnic group?',
         'a' => 'Eid-el-Fitr',
         'b' => 'Easter',
@@ -6273,7 +6273,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian president served as both a military ruler and a civilian president?',
         'a' => 'Goodluck Jonathan',
         'b' => 'Olusegun Obasanjo',
@@ -6285,7 +6285,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which traditional Nigerian dish is made from fermented locust beans?',
         'a' => 'Jollof Rice',
         'b' => 'Ogiri',
@@ -6297,7 +6297,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the Nigerian national football team?',
         'a' => 'Super Eagles',
         'b' => 'Black Stars',
@@ -6309,7 +6309,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which river is the second longest in Nigeria?',
         'a' => 'Benue River',
         'b' => 'Niger River',
@@ -6323,7 +6323,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest city in Nigeria by population?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6335,7 +6335,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for its rich cultural heritage and festivals like the Ogbunike Caves?',
         'a' => 'Enugu',
         'b' => 'Ogun',
@@ -6347,7 +6347,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian football club has won the most Nigeria Professional Football League titles?',
         'a' => 'Enyimba FC',
         'b' => 'Rangers International FC',
@@ -6359,7 +6359,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the primary currency used in Nigeria?',
         'a' => 'Naira',
         'b' => 'Dollar',
@@ -6371,7 +6371,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which famous Nigerian movie, released in 2020, deals with the impact of climate change on coastal communities?',
         'a' => 'The Wedding Party',
         'b' => 'Lionheart',
@@ -6383,7 +6383,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the first female governor in Nigeria?',
         'a' => 'Ngozi Okonjo-Iweala',
         'b' => 'Virginia Etiaba',
@@ -6395,7 +6395,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian author won the Nobel Prize in Literature?',
         'a' => 'Chinua Achebe',
         'b' => 'Wole Soyinka',
@@ -6407,7 +6407,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which of these Nigerian ethnic groups primarily inhabits the southeastern region of Nigeria?',
         'a' => 'Hausa',
         'b' => 'Yoruba',
@@ -6419,7 +6419,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the Nigerian traditional festival that celebrates the beginning of the year among the Yoruba people?',
         'a' => 'Eyo Festival',
         'b' => 'Osun-Osogbo Festival',
@@ -6431,7 +6431,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for the famous Aso Rock?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6445,7 +6445,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is the largest by land area?',
         'a' => 'Borno',
         'b' => 'Niger',
@@ -6457,7 +6457,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian author is known for the book "Half of a Yellow Sun"?',
         'a' => 'Chinua Achebe',
         'b' => 'Ngugi wa Thiong\'o',
@@ -6469,7 +6469,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian music genre is known for its vibrant rhythms and use of traditional instruments?',
         'a' => 'Afrobeats',
         'b' => 'Highlife',
@@ -6481,7 +6481,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the Nigerian legislative body?',
         'a' => 'National Assembly',
         'b' => 'House of Representatives',
@@ -6493,7 +6493,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is famous for its ancient city of Ife, known as the cradle of Yoruba civilization?',
         'a' => 'Ekiti',
         'b' => 'Osun',
@@ -6505,7 +6505,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the Nigerian military ruler known for his anti-corruption campaigns in the 1980s?',
         'a' => 'Sani Abacha',
         'b' => 'Olusegun Obasanjo',
@@ -6517,7 +6517,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for the Argungu Festival, a cultural event celebrating fishing?',
         'a' => 'Kano',
         'b' => 'Sokoto',
@@ -6529,7 +6529,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which prominent Nigerian businessman founded the Dangote Group?',
         'a' => 'Aliko Dangote',
         'b' => 'Mike Adenuga',
@@ -6541,7 +6541,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the highest peak in Nigeria?',
         'a' => 'Mount Kilimanjaro',
         'b' => 'Mount Elgon',
@@ -6553,7 +6553,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian musician is known for the hit song "Fall"?',
         'a' => 'Wizkid',
         'b' => 'Burna Boy',
@@ -6568,7 +6568,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known as the "Food Basket of the Nation"?',
         'a' => 'Benue',
         'b' => 'Kaduna',
@@ -6580,7 +6580,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the national flower of Nigeria?',
         'a' => 'Rose',
         'b' => 'Sunflower',
@@ -6592,7 +6592,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for its large annual Durbar festival?',
         'a' => 'Abuja',
         'b' => 'Lagos',
@@ -6604,7 +6604,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is famous for the Olumo Rock, a popular tourist destination?',
         'a' => 'Ogun',
         'b' => 'Ondo',
@@ -6616,7 +6616,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which river is the longest in Nigeria?',
         'a' => 'River Niger',
         'b' => 'River Benue',
@@ -6628,7 +6628,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who is the Nigerian artist famous for the painting "Tutu"?',
         'a' => 'Ben Enwonwu',
         'b' => 'Bruce Onobrakpeya',
@@ -6640,7 +6640,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for producing the most palm oil?',
         'a' => 'Abia',
         'b' => 'Imo',
@@ -6652,7 +6652,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which of the following is the highest judicial authority in Nigeria?',
         'a' => 'Supreme Court',
         'b' => 'Court of Appeal',
@@ -6664,7 +6664,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What year did Nigeria gain independence from British rule?',
         'a' => '1957',
         'b' => '1960',
@@ -6676,7 +6676,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian ethnic group is known for the popular traditional dance called "Swange"?',
         'a' => 'Igbo',
         'b' => 'Yoruba',
@@ -6690,7 +6690,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for the Ogbunike Caves?',
         'a' => 'Enugu',
         'b' => 'Ibadan',
@@ -6702,7 +6702,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for its large annual Argungu Festival?',
         'a' => 'Bauchi',
         'b' => 'Kano',
@@ -6714,7 +6714,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which river flows through the city of Lagos?',
         'a' => 'River Niger',
         'b' => 'River Benue',
@@ -6726,7 +6726,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the first President of Nigeria?',
         'a' => 'Goodluck Jonathan',
         'b' => 'Olusegun Obasanjo',
@@ -6738,7 +6738,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which of the following is a popular Nigerian food made from cassava?',
         'a' => 'Jollof Rice',
         'b' => 'Egusi Soup',
@@ -6750,7 +6750,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for the Olumo Rock?',
         'a' => 'Ibadan',
         'b' => 'Lagos',
@@ -6762,7 +6762,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which popular Nigerian TV show features a character named "Mama G"?',
         'a' => 'Tinsel',
         'b' => 'Jenifa\'s Diary',
@@ -6774,7 +6774,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who was the Nigerian Nobel Laureate in Literature?',
         'a' => 'Chinua Achebe',
         'b' => 'Wole Soyinka',
@@ -6786,7 +6786,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the capital city of Nigeria?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -6798,7 +6798,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for the annual Olojo Festival?',
         'a' => 'Ekiti',
         'b' => 'Oyo',
@@ -6812,7 +6812,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian musician is known for the hit song "African Queen"?',
         'a' => 'Wizkid',
         'b' => '2Baba',
@@ -6824,7 +6824,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the name of the Nigerian traditional garment worn by men?',
         'a' => 'Buba',
         'b' => 'Agbada',
@@ -6836,7 +6836,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian film is known for being the first Nollywood film to win an international award?',
         'a' => 'Living in Bondage',
         'b' => 'The Wedding Party',
@@ -6848,7 +6848,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian politician served as the Vice President of Nigeria from 2015 to 2023?',
         'a' => 'Yemi Osinbajo',
         'b' => 'Atiku Abubakar',
@@ -6860,7 +6860,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for the Idanre Hills?',
         'a' => 'Ondo',
         'b' => 'Ekiti',
@@ -6872,7 +6872,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian author wrote the novel "The Famished Road"?',
         'a' => 'Chinua Achebe',
         'b' => 'Wole Soyinka',
@@ -6884,7 +6884,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is famous for its annual cultural festival called the Calabar Carnival?',
         'a' => 'Lagos',
         'b' => 'Port Harcourt',
@@ -6896,7 +6896,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian traditional festival is celebrated with the "Argungu Fishing Festival"?',
         'a' => 'Yoruba',
         'b' => 'Igbo',
@@ -6908,7 +6908,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is home to the popular tourist destination, Erin Ijesha Waterfall?',
         'a' => 'Ogun',
         'b' => 'Osun',
@@ -6920,7 +6920,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Who is known as the founder of the Nigerian music genre, Afrobeat?',
         'a' => 'Fela Kuti',
         'b' => 'King Sunny Adé',
@@ -6934,7 +6934,7 @@ class QuestionSeeder18 extends Seeder
     // General Knowledge Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is known for its production of yams and is often referred to as the "Yam State"?',
         'a' => 'Benue',
         'b' => 'Enugu',
@@ -6946,7 +6946,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian state is famous for its rich history and cultural heritage, including the Benin Bronzes?',
         'a' => 'Edo',
         'b' => 'Oyo',
@@ -6958,7 +6958,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which popular Nigerian author wrote the novel "Purple Hibiscus"?',
         'a' => 'Chimamanda Ngozi Adichie',
         'b' => 'Sefi Atta',
@@ -6970,7 +6970,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian athlete won a gold medal in the 400 meters at the 1996 Atlanta Olympics?',
         'a' => 'Mary Onyali',
         'b' => 'Falilat Ogunkoya',
@@ -6982,7 +6982,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for the annual "Festival of Arts and Culture"?',
         'a' => 'Abuja',
         'b' => 'Lagos',
@@ -6994,7 +6994,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian musician is known for popularizing the "Afrobeats" genre globally?',
         'a' => 'Don Jazzy',
         'b' => 'Wizkid',
@@ -7006,7 +7006,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'What is the largest city by population in Nigeria?',
         'a' => 'Abuja',
         'b' => 'Lagos',
@@ -7018,7 +7018,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian festival celebrates the end of Ramadan?',
         'a' => 'Eid al-Fitr',
         'b' => 'Eid al-Adha',
@@ -7030,7 +7030,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which popular Nigerian film series features characters like "Sola" and "Dede"?',
         'a' => 'The Wedding Party',
         'b' => 'Jenifa\'s Diary',
@@ -7042,7 +7042,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 97,
+       
         'question' => 'Which Nigerian city is known for hosting the "Nigerian International Film Festival"?',
         'a' => 'Calabar',
         'b' => 'Lagos',
@@ -7057,7 +7057,7 @@ class QuestionSeeder18 extends Seeder
     // Fun Facts Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the smallest country in the world by land area?',
         'a' => 'Monaco',
         'b' => 'San Marino',
@@ -7069,7 +7069,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which animal is known to have fingerprints that are almost identical to human fingerprints?',
         'a' => 'Koala',
         'b' => 'Chimpanzee',
@@ -7081,7 +7081,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'How many hearts does an octopus have?',
         'a' => '1',
         'b' => '2',
@@ -7093,7 +7093,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which planet in our solar system has the longest day?',
         'a' => 'Earth',
         'b' => 'Mars',
@@ -7105,7 +7105,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the name of the largest ocean on Earth?',
         'a' => 'Atlantic Ocean',
         'b' => 'Indian Ocean',
@@ -7117,7 +7117,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which element has the chemical symbol "Au"?',
         'a' => 'Silver',
         'b' => 'Gold',
@@ -7129,7 +7129,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which fruit has more Vitamin C than an orange?',
         'a' => 'Apple',
         'b' => 'Strawberry',
@@ -7141,7 +7141,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the name of the first manned mission to land on the moon?',
         'a' => 'Apollo 11',
         'b' => 'Apollo 13',
@@ -7153,7 +7153,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which city is known as "The City of Light"?',
         'a' => 'London',
         'b' => 'New York',
@@ -7165,7 +7165,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the fastest land animal?',
         'a' => 'Lion',
         'b' => 'Cheetah',
@@ -7177,7 +7177,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which country is known as the Land of the Rising Sun?',
         'a' => 'China',
         'b' => 'Japan',
@@ -7192,7 +7192,7 @@ class QuestionSeeder18 extends Seeder
     // Fun Facts Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which insect is known to produce the loudest sound relative to its size?',
         'a' => 'Cricket',
         'b' => 'Cicada',
@@ -7204,7 +7204,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the most common gas in the Earth’s atmosphere?',
         'a' => 'Oxygen',
         'b' => 'Hydrogen',
@@ -7216,7 +7216,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which popular beverage was originally developed as a medicinal tonic?',
         'a' => 'Tea',
         'b' => 'Coffee',
@@ -7228,7 +7228,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the only mammal capable of flight?',
         'a' => 'Bat',
         'b' => 'Flying Squirrel',
@@ -7240,7 +7240,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which country is known for inventing the game of chess?',
         'a' => 'China',
         'b' => 'India',
@@ -7252,7 +7252,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the hardest natural substance on Earth?',
         'a' => 'Gold',
         'b' => 'Diamond',
@@ -7264,7 +7264,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which famous artist is known for cutting off his own ear?',
         'a' => 'Pablo Picasso',
         'b' => 'Vincent van Gogh',
@@ -7276,7 +7276,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which ocean is the largest by volume?',
         'a' => 'Atlantic Ocean',
         'b' => 'Indian Ocean',
@@ -7288,7 +7288,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which planet is known for its prominent ring system?',
         'a' => 'Jupiter',
         'b' => 'Saturn',
@@ -7300,7 +7300,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the capital city of Canada?',
         'a' => 'Toronto',
         'b' => 'Vancouver',
@@ -7314,7 +7314,7 @@ class QuestionSeeder18 extends Seeder
     // Fun Facts Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the tallest mountain in the world above sea level?',
         'a' => 'K2',
         'b' => 'Mount Kilimanjaro',
@@ -7326,7 +7326,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which country has the longest coastline in the world?',
         'a' => 'Australia',
         'b' => 'Canada',
@@ -7338,7 +7338,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the hardest known natural material on Earth?',
         'a' => 'Graphene',
         'b' => 'Diamond',
@@ -7350,7 +7350,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which element is the most abundant in the Earth’s crust?',
         'a' => 'Iron',
         'b' => 'Silicon',
@@ -7362,7 +7362,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the only continent that is also a country?',
         'a' => 'Australia',
         'b' => 'Africa',
@@ -7374,7 +7374,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which country is known as the Land of the Midnight Sun?',
         'a' => 'Norway',
         'b' => 'Sweden',
@@ -7386,7 +7386,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which famous scientist developed the theory of relativity?',
         'a' => 'Isaac Newton',
         'b' => 'Albert Einstein',
@@ -7398,7 +7398,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the largest organ in the human body?',
         'a' => 'Liver',
         'b' => 'Heart',
@@ -7410,7 +7410,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the capital city of Australia?',
         'a' => 'Sydney',
         'b' => 'Melbourne',
@@ -7422,7 +7422,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which famous building is known as the "Eiffel Tower of the East"?',
         'a' => 'Sydney Opera House',
         'b' => 'Tokyo Tower',
@@ -7437,7 +7437,7 @@ class QuestionSeeder18 extends Seeder
     // Fun Facts Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian city is known as the "City of Aquatic Splendor"?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -7449,7 +7449,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the official language of Nigeria?',
         'a' => 'Hausa',
         'b' => 'Yoruba',
@@ -7461,7 +7461,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian festival is celebrated with colorful masks and dances in the southeastern part of the country?',
         'a' => 'Argungu Festival',
         'b' => 'Eyo Festival',
@@ -7473,7 +7473,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian state is known for its rich cultural heritage and the Olumo Rock?',
         'a' => 'Ogun State',
         'b' => 'Ekiti State',
@@ -7485,7 +7485,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Who was the first President of Nigeria?',
         'a' => 'Olusegun Obasanjo',
         'b' => 'Nnamdi Azikiwe',
@@ -7497,7 +7497,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the name of the Nigerian national football team?',
         'a' => 'Super Eagles',
         'b' => 'Black Stars',
@@ -7509,7 +7509,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian city is famous for its "Lagos Island" and bustling markets?',
         'a' => 'Lagos',
         'b' => 'Abuja',
@@ -7521,7 +7521,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the most popular traditional music genre in Nigeria?',
         'a' => 'Afrobeat',
         'b' => 'Highlife',
@@ -7533,7 +7533,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian film industry is often referred to as "Nollywood"?',
         'a' => 'Lagos Film Industry',
         'b' => 'Abuja Film Industry',
@@ -7545,7 +7545,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian river is one of the longest in Africa?',
         'a' => 'Niger River',
         'b' => 'Benue River',
@@ -7557,7 +7557,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian cuisine is known for its spicy and flavorful dishes such as Jollof rice and Egusi soup?',
         'a' => 'Edo Cuisine',
         'b' => 'Yoruba Cuisine',
@@ -7571,7 +7571,7 @@ class QuestionSeeder18 extends Seeder
     // Fun Facts Questions
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which planet is closest to the Sun?',
         'a' => 'Venus',
         'b' => 'Earth',
@@ -7583,7 +7583,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the most spoken language in the world?',
         'a' => 'Spanish',
         'b' => 'Mandarin',
@@ -7595,7 +7595,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which animal is known as the King of the Jungle?',
         'a' => 'Elephant',
         'b' => 'Lion',
@@ -7607,7 +7607,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the longest river in the world?',
         'a' => 'Amazon',
         'b' => 'Nile',
@@ -7619,7 +7619,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the smallest country in the world by land area?',
         'a' => 'Monaco',
         'b' => 'San Marino',
@@ -7631,7 +7631,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the name of the galaxy that contains our solar system?',
         'a' => 'Andromeda',
         'b' => 'Milky Way',
@@ -7643,7 +7643,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which element is known as the "building block of life"?',
         'a' => 'Carbon',
         'b' => 'Oxygen',
@@ -7655,7 +7655,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the currency of Japan?',
         'a' => 'Won',
         'b' => 'Yuan',
@@ -7667,7 +7667,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which famous scientist is known for his laws of motion?',
         'a' => 'Galileo Galilei',
         'b' => 'Isaac Newton',
@@ -7679,7 +7679,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the main ingredient in guacamole?',
         'a' => 'Tomato',
         'b' => 'Avocado',
@@ -7694,7 +7694,7 @@ class QuestionSeeder18 extends Seeder
     // Music, Poems, and Stories Questions related to Nigeria
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian musician is famously known as the "King of Afrobeat"?',
         'a' => 'Fela Kuti',
         'b' => 'King Sunny Adé',
@@ -7706,7 +7706,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian poet wrote "The Song of a Broken Son"?',
         'a' => 'Wole Soyinka',
         'b' => 'Chinua Achebe',
@@ -7718,7 +7718,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which genre of music did the late Nigerian artist, Fela Kuti, pioneer?',
         'a' => 'Juju',
         'b' => 'Afrobeat',
@@ -7730,7 +7730,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'What is the title of the famous novel by Chinua Achebe that deals with the impact of colonialism in Nigeria?',
         'a' => 'No Longer at Ease',
         'b' => 'Things Fall Apart',
@@ -7742,7 +7742,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian musician is known for his hit song "African Queen"?',
         'a' => 'P-Square',
         'b' => '2Baba',
@@ -7754,7 +7754,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Who is the Nigerian author of the poetry collection "The Sun’s Eye"?',
         'a' => 'Niyi Osundare',
         'b' => 'Chinua Achebe',
@@ -7766,7 +7766,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian music genre is known for its vibrant and rhythmic beats, often associated with celebrations?',
         'a' => 'Highlife',
         'b' => 'Fuji',
@@ -7778,7 +7778,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Who wrote the famous Nigerian novel "The Joys of Motherhood"?',
         'a' => 'Zaynab Alkali',
         'b' => 'Chinua Achebe',
@@ -7790,7 +7790,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian artist is known for blending traditional music with contemporary sounds in his album "Ginger"?',
         'a' => 'Burna Boy',
         'b' => 'Davido',
@@ -7802,7 +7802,7 @@ class QuestionSeeder18 extends Seeder
     ],
     [
         'field_id' => 18,
-        'sub_fields_id' => 98,
+       
         'question' => 'Which Nigerian author won the 1991 Commonwealth Writers Prize for his novel "The Famished Road"?',
         'a' => 'Chinua Achebe',
         'b' => 'Wole Soyinka',

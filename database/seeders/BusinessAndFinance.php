@@ -15,8 +15,7 @@ static    public function run(): void
         $questions = [
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the primary function of an investment bank?',
+                 'question' => 'What is the primary function of an investment bank?',
                 'a' => 'Issuing loans to the public',
                 'b' => 'Providing financial advisory services and underwriting new debt and equity securities',
                 'c' => 'Printing money for the government',
@@ -27,8 +26,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the main objective of a hedge fund?',
+                               'question' => 'What is the main objective of a hedge fund?',
                 'a' => 'Investing in government bonds',
                 'b' => 'Maximizing returns while minimizing risk for wealthy investors',
                 'c' => 'Managing public pension funds',
@@ -39,8 +37,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is considered a liquid asset?',
+                               'question' => 'Which of the following is considered a liquid asset?',
                 'a' => 'Real estate',
                 'b' => 'Cash',
                 'c' => 'Machinery',
@@ -51,8 +48,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial statement provides a snapshot of a company’s financial position at a specific point in time?',
+                               'question' => 'Which financial statement provides a snapshot of a company’s financial position at a specific point in time?',
                 'a' => 'Income statement',
                 'b' => 'Balance sheet',
                 'c' => 'Cash flow statement',
@@ -63,8 +59,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the term for the profit earned from the sale of an asset?',
+                               'question' => 'What is the term for the profit earned from the sale of an asset?',
                 'a' => 'Net income',
                 'b' => 'Capital gain',
                 'c' => 'Gross margin',
@@ -75,8 +70,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following best describes "risk management" in finance?',
+                               'question' => 'Which of the following best describes "risk management" in finance?',
                 'a' => 'Investing in high-risk stocks to maximize returns',
                 'b' => 'Identifying, assessing, and prioritizing risks followed by coordinated efforts to minimize their impact',
                 'c' => 'Avoiding any form of investment risk by keeping assets in cash',
@@ -87,8 +81,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "blue chip" stock?',
+                               'question' => 'What is a "blue chip" stock?',
                 'a' => 'A stock with low liquidity',
                 'b' => 'A stock with a high risk of failure',
                 'c' => 'A stock of a large, well-established, and financially sound company',
@@ -99,8 +92,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "ROI" stand for in finance?',
+                               'question' => 'What does "ROI" stand for in finance?',
                 'a' => 'Return on Investment',
                 'b' => 'Rate of Interest',
                 'c' => 'Risk of Inflation',
@@ -111,8 +103,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial instrument represents a loan made by an investor to a borrower?',
+                               'question' => 'Which financial instrument represents a loan made by an investor to a borrower?',
                 'a' => 'Stock',
                 'b' => 'Bond',
                 'c' => 'Option',
@@ -123,8 +114,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "inflation" in economic terms?',
+                               'question' => 'What is "inflation" in economic terms?',
                 'a' => 'A decrease in the overall price level of goods and services',
                 'b' => 'An increase in the overall price level of goods and services over time',
                 'c' => 'A reduction in the purchasing power of money',
@@ -137,8 +127,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the primary function of an investment bank?',
+                               'question' => 'What is the primary function of an investment bank?',
                 'a' => 'Issuing loans to the public',
                 'b' => 'Providing financial advisory services and underwriting new debt and equity securities',
                 'c' => 'Printing money for the government',
@@ -149,8 +138,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the main objective of a hedge fund?',
+                               'question' => 'What is the main objective of a hedge fund?',
                 'a' => 'Investing in government bonds',
                 'b' => 'Maximizing returns while minimizing risk for wealthy investors',
                 'c' => 'Managing public pension funds',
@@ -161,8 +149,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is considered a liquid asset?',
+                               'question' => 'Which of the following is considered a liquid asset?',
                 'a' => 'Real estate',
                 'b' => 'Cash',
                 'c' => 'Machinery',
@@ -173,8 +160,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial statement provides a snapshot of a company’s financial position at a specific point in time?',
+                               'question' => 'Which financial statement provides a snapshot of a company’s financial position at a specific point in time?',
                 'a' => 'Income statement',
                 'b' => 'Balance sheet',
                 'c' => 'Cash flow statement',
@@ -185,8 +171,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the term for the profit earned from the sale of an asset?',
+                               'question' => 'What is the term for the profit earned from the sale of an asset?',
                 'a' => 'Net income',
                 'b' => 'Capital gain',
                 'c' => 'Gross margin',
@@ -197,8 +182,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following best describes "risk management" in finance?',
+                               'question' => 'Which of the following best describes "risk management" in finance?',
                 'a' => 'Investing in high-risk stocks to maximize returns',
                 'b' => 'Identifying, assessing, and prioritizing risks followed by coordinated efforts to minimize their impact',
                 'c' => 'Avoiding any form of investment risk by keeping assets in cash',
@@ -209,8 +193,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "blue chip" stock?',
+                               'question' => 'What is a "blue chip" stock?',
                 'a' => 'A stock with low liquidity',
                 'b' => 'A stock with a high risk of failure',
                 'c' => 'A stock of a large, well-established, and financially sound company',
@@ -221,8 +204,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "ROI" stand for in finance?',
+                               'question' => 'What does "ROI" stand for in finance?',
                 'a' => 'Return on Investment',
                 'b' => 'Rate of Interest',
                 'c' => 'Risk of Inflation',
@@ -233,8 +215,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial instrument represents a loan made by an investor to a borrower?',
+                               'question' => 'Which financial instrument represents a loan made by an investor to a borrower?',
                 'a' => 'Stock',
                 'b' => 'Bond',
                 'c' => 'Option',
@@ -245,8 +226,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "inflation" in economic terms?',
+                               'question' => 'What is "inflation" in economic terms?',
                 'a' => 'A decrease in the overall price level of goods and services',
                 'b' => 'An increase in the overall price level of goods and services over time',
                 'c' => 'A reduction in the purchasing power of money',
@@ -259,8 +239,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "time value of money"?',
+                               'question' => 'What is the "time value of money"?',
                 'a' => 'The idea that money is worth less in the future due to inflation',
                 'b' => 'The concept that a dollar today is worth more than a dollar in the future',
                 'c' => 'The idea that money appreciates over time without investments',
@@ -271,8 +250,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is a primary function of an investment bank?',
+                               'question' => 'Which of the following is a primary function of an investment bank?',
                 'a' => 'Providing checking and savings accounts to the public',
                 'b' => 'Assisting companies in raising capital through the issuance of securities',
                 'c' => 'Managing government welfare programs',
@@ -283,8 +261,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "credit default swap"?',
+                               'question' => 'What is a "credit default swap"?',
                 'a' => 'A type of loan given to high-risk borrowers',
                 'b' => 'An agreement that transfers the credit exposure of fixed-income products between parties',
                 'c' => 'A form of i-nsurance for personal loans',
@@ -295,8 +272,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial instrument represents ownership in a company?',
+                               'question' => 'Which financial instrument represents ownership in a company?',
                 'a' => 'Bond',
                 'b' => 'Stock',
                 'c' => 'Derivative',
@@ -307,8 +283,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "ROI" stand for in finance?',
+                               'question' => 'What does "ROI" stand for in finance?',
                 'a' => 'Return on Investment',
                 'b' => 'Rate of Income',
                 'c' => 'Reinvestment of Interest',
@@ -319,8 +294,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the role of the International Monetary Fund (IMF)?',
+                               'question' => 'What is the role of the International Monetary Fund (IMF)?',
                 'a' => 'To provide loans to countries in financial distress',
                 'b' => 'To regulate international trade agreements',
                 'c' => 'To manage the world’s gold reserves',
@@ -331,8 +305,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "bull market"?',
+                               'question' => 'What is a "bull market"?',
                 'a' => 'A market characterized by declining stock prices',
                 'b' => 'A market where stock prices are rising or expected to rise',
                 'c' => 'A market with low trading volumes',
@@ -343,8 +316,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial term describes the difference between the selling price and the cost of goods sold?',
+                               'question' => 'Which financial term describes the difference between the selling price and the cost of goods sold?',
                 'a' => 'Net income',
                 'b' => 'Gross margin',
                 'c' => 'Operating income',
@@ -355,8 +327,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the main function of a hedge fund?',
+                               'question' => 'What is the main function of a hedge fund?',
                 'a' => 'To provide loans to high-risk borrowers',
                 'b' => 'To pool funds from investors and employ various strategies to earn active returns',
                 'c' => 'To manage insurance claims for large companies',
@@ -367,8 +338,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "yield" on a bond?',
+                               'question' => 'What is the "yield" on a bond?',
                 'a' => 'The amount paid above the face value of a bond',
                 'b' => 'The interest rate paid to the bondholder as a percentage of the bond’s face value',
                 'c' => 'The maturity date of the bond',
@@ -382,8 +352,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "liquidity" refer to in finance?',
+                               'question' => 'What does "liquidity" refer to in finance?',
                 'a' => 'The ability of an asset to be quickly converted into cash',
                 'b' => 'The amount of profit a company generates',
                 'c' => 'The rate of inflation in an economy',
@@ -394,8 +363,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "Federal Reserve"?',
+                               'question' => 'What is the "Federal Reserve"?',
                 'a' => 'The central bank of the United States',
                 'b' => 'A private financial institution',
                 'c' => 'An insurance company',
@@ -406,8 +374,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is an example of a "derivative"?',
+                               'question' => 'Which of the following is an example of a "derivative"?',
                 'a' => 'A stock option',
                 'b' => 'A certificate of deposit',
                 'c' => 'A government bond',
@@ -418,8 +385,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the primary role of a "financial intermediary"?',
+                               'question' => 'What is the primary role of a "financial intermediary"?',
                 'a' => 'To facilitate transactions between savers and borrowers',
                 'b' => 'To set interest rates in the economy',
                 'c' => 'To regulate the stock market',
@@ -430,8 +396,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "inflation"?',
+                               'question' => 'What is "inflation"?',
                 'a' => 'A general increase in prices and fall in the purchasing value of money',
                 'b' => 'The growth rate of an economy',
                 'c' => 'A decrease in the unemployment rate',
@@ -442,8 +407,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which term refers to a prolonged period of declining economic performance?',
+                               'question' => 'Which term refers to a prolonged period of declining economic performance?',
                 'a' => 'Recession',
                 'b' => 'Bull market',
                 'c' => 'Stagflation',
@@ -454,8 +418,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the purpose of "diversification" in investing?',
+                               'question' => 'What is the purpose of "diversification" in investing?',
                 'a' => 'To spread risk across different investments',
                 'b' => 'To maximize returns from a single asset',
                 'c' => 'To increase exposure to a particular sector',
@@ -466,8 +429,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial statement shows a company’s financial position at a specific point in time?',
+                               'question' => 'Which financial statement shows a company’s financial position at a specific point in time?',
                 'a' => 'Balance sheet',
                 'b' => 'Income statement',
                 'c' => 'Cash flow statement',
@@ -478,8 +440,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "price-to-earnings (P/E) ratio"?',
+                               'question' => 'What is the "price-to-earnings (P/E) ratio"?',
                 'a' => 'A measure of a company’s current share price relative to its per-share earnings',
                 'b' => 'The ratio of a company’s debt to its equity',
                 'c' => 'The ratio of a company’s market value to its book value',
@@ -490,8 +451,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the purpose of "monetary policy"?',
+                               'question' => 'What is the purpose of "monetary policy"?',
                 'a' => 'To control the money supply and interest rates in an economy',
                 'b' => 'To manage government spending and taxation',
                 'c' => 'To regulate trade between countries',
@@ -505,8 +465,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is a primary function of investment banks?',
+                               'question' => 'Which of the following is a primary function of investment banks?',
                 'a' => 'Managing government budgets',
                 'b' => 'Underwriting new securities',
                 'c' => 'Setting central bank interest rates',
@@ -517,8 +476,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does the term "asset allocation" refer to?',
+                               'question' => 'What does the term "asset allocation" refer to?',
                 'a' => 'The process of converting assets to cash',
                 'b' => 'The distribution of investments across various asset classes',
                 'c' => 'The allocation of a company’s assets to different departments',
@@ -529,8 +487,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "bull market"?',
+                               'question' => 'What is a "bull market"?',
                 'a' => 'A market characterized by high trading volumes',
                 'b' => 'A market where prices are steadily rising',
                 'c' => 'A market with low investor confidence',
@@ -541,8 +498,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "IPO" stand for in the finance world?',
+                               'question' => 'What does "IPO" stand for in the finance world?',
                 'a' => 'International Payment Option',
                 'b' => 'Initial Public Offering',
                 'c' => 'Income Per Order',
@@ -553,8 +509,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following represents ownership in a company?',
+                               'question' => 'Which of the following represents ownership in a company?',
                 'a' => 'Bond',
                 'b' => 'Stock',
                 'c' => 'Loan',
@@ -565,8 +520,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "amortization"?',
+                               'question' => 'What is "amortization"?',
                 'a' => 'The process of spreading out a loan into a series of fixed payments',
                 'b' => 'The decline in the value of a currency over time',
                 'c' => 'The allocation of funds to different types of assets',
@@ -577,8 +531,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "ROE" stand for?',
+                               'question' => 'What does "ROE" stand for?',
                 'a' => 'Return on Earnings',
                 'b' => 'Return on Equity',
                 'c' => 'Rate of Earnings',
@@ -589,8 +542,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the purpose of a "hedge fund"?',
+                               'question' => 'What is the purpose of a "hedge fund"?',
                 'a' => 'To provide insurance against market risks',
                 'b' => 'To invest in high-risk, high-reward opportunities',
                 'c' => 'To pool funds for charitable purposes',
@@ -601,8 +553,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial metric is used to measure a company’s profitability relative to its revenue?',
+                               'question' => 'Which financial metric is used to measure a company’s profitability relative to its revenue?',
                 'a' => 'Gross Domestic Product',
                 'b' => 'Net Profit Margin',
                 'c' => 'Current Ratio',
@@ -613,8 +564,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "leverage" in financial terms?',
+                               'question' => 'What is "leverage" in financial terms?',
                 'a' => 'The use of borrowed funds to increase investment potential',
                 'b' => 'The reduction of expenses to increase profitability',
                 'c' => 'The process of issuing new shares to raise capital',
@@ -627,8 +577,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial document provides a snapshot of a company’s financial condition at a specific point in time?',
+                               'question' => 'Which financial document provides a snapshot of a company’s financial condition at a specific point in time?',
                 'a' => 'Income Statement',
                 'b' => 'Balance Sheet',
                 'c' => 'Cash Flow Statement',
@@ -639,8 +588,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the primary role of the Securities and Exchange Commission (SEC)?',
+                               'question' => 'What is the primary role of the Securities and Exchange Commission (SEC)?',
                 'a' => 'To provide insurance for bank deposits',
                 'b' => 'To regulate the stock market and protect investors',
                 'c' => 'To manage the country’s money supply',
@@ -651,8 +599,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which term describes the process of evaluating a company’s potential investment worth by analyzing its financial statements?',
+                               'question' => 'Which term describes the process of evaluating a company’s potential investment worth by analyzing its financial statements?',
                 'a' => 'Diversification',
                 'b' => 'Valuation',
                 'c' => 'Speculation',
@@ -663,8 +610,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "blue-chip" stock?',
+                               'question' => 'What is a "blue-chip" stock?',
                 'a' => 'A stock that is newly listed on the stock exchange',
                 'b' => 'A highly reputable company with a history of strong performance',
                 'c' => 'A stock that is known for its high volatility',
@@ -675,8 +621,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the main purpose of diversification in an investment portfolio?',
+                               'question' => 'What is the main purpose of diversification in an investment portfolio?',
                 'a' => 'To maximize returns by focusing on a single sector',
                 'b' => 'To spread risk across different types of investments',
                 'c' => 'To reduce tax liability',
@@ -687,8 +632,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "liquidity" in the context of finance?',
+                               'question' => 'What is "liquidity" in the context of finance?',
                 'a' => 'The ability to borrow money at a low interest rate',
                 'b' => 'The ease with which an asset can be converted into cash',
                 'c' => 'The ability to pay off long-term debt',
@@ -699,8 +643,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is an example of a fixed-income security?',
+                               'question' => 'Which of the following is an example of a fixed-income security?',
                 'a' => 'Common stock',
                 'b' => 'Bond',
                 'c' => 'Real estate',
@@ -711,8 +654,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "capital gains tax" apply to?',
+                               'question' => 'What does "capital gains tax" apply to?',
                 'a' => 'Interest earned from savings accounts',
                 'b' => 'Profits made from the sale of an asset',
                 'c' => 'Dividends received from stock investments',
@@ -723,8 +665,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which term refers to the cost of borrowing money?',
+                               'question' => 'Which term refers to the cost of borrowing money?',
                 'a' => 'Principal',
                 'b' => 'Interest',
                 'c' => 'Equity',
@@ -735,8 +676,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "mutual fund"?',
+                               'question' => 'What is a "mutual fund"?',
                 'a' => 'A fund that pools money from many investors to buy a diversified portfolio of stocks, bonds, or other securities',
                 'b' => 'A fund that invests primarily in real estate',
                 'c' => 'A fund dedicated to high-risk, high-reward investments',
@@ -749,8 +689,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the main purpose of a financial statement audit?',
+                               'question' => 'What is the main purpose of a financial statement audit?',
                 'a' => 'To provide tax advice to a company',
                 'b' => 'To verify the accuracy and fairness of a company’s financial statements',
                 'c' => 'To assess the company’s operational efficiency',
@@ -761,8 +700,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following is a common liquidity ratio?',
+                               'question' => 'Which of the following is a common liquidity ratio?',
                 'a' => 'Debt-to-Equity Ratio',
                 'b' => 'Current Ratio',
                 'c' => 'Return on Assets',
@@ -773,8 +711,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does the term "beta" measure in finance?',
+                               'question' => 'What does the term "beta" measure in finance?',
                 'a' => 'A company’s profitability',
                 'b' => 'The volatility of a stock in relation to the market',
                 'c' => 'The liquidity of an asset',
@@ -785,8 +722,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "debt financing"?',
+                               'question' => 'What is "debt financing"?',
                 'a' => 'Using company earnings to fund new projects',
                 'b' => 'Borrowing funds to finance business operations or investments',
                 'c' => 'Issuing new equity shares to raise capital',
@@ -797,8 +733,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial metric is used to measure a company’s profitability relative to its revenue?',
+                               'question' => 'Which financial metric is used to measure a company’s profitability relative to its revenue?',
                 'a' => 'Debt Ratio',
                 'b' => 'Gross Profit Margin',
                 'c' => 'Return on Equity',
@@ -809,8 +744,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "capital budgeting"?',
+                               'question' => 'What is "capital budgeting"?',
                 'a' => 'Deciding how to allocate funds for short-term expenses',
                 'b' => 'Planning and managing long-term investments and expenditures',
                 'c' => 'Assessing daily operational costs',
@@ -821,8 +755,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following represents a company’s total liabilities divided by its shareholders’ equity?',
+                               'question' => 'Which of the following represents a company’s total liabilities divided by its shareholders’ equity?',
                 'a' => 'Current Ratio',
                 'b' => 'Debt-to-Equity Ratio',
                 'c' => 'Price-to-Earnings Ratio',
@@ -833,8 +766,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "ROI" stand for in finance?',
+                               'question' => 'What does "ROI" stand for in finance?',
                 'a' => 'Rate of Income',
                 'b' => 'Return on Investment',
                 'c' => 'Revenue of Investment',
@@ -845,8 +777,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which term describes the risk of loss from fluctuations in exchange rates?',
+                               'question' => 'Which term describes the risk of loss from fluctuations in exchange rates?',
                 'a' => 'Credit Risk',
                 'b' => 'Market Risk',
                 'c' => 'Operational Risk',
@@ -857,8 +788,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "margin trading"?',
+                               'question' => 'What is "margin trading"?',
                 'a' => 'Buying securities with full payment upfront',
                 'b' => 'Borrowing money to buy more securities than one can afford',
                 'c' => 'Investing in high-risk, high-return stocks',
@@ -869,8 +799,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "bearish market"?',
+                               'question' => 'What is a "bearish market"?',
                 'a' => 'A market with rising stock prices',
                 'b' => 'A market where prices are falling',
                 'c' => 'A market that is stable with no major changes',
@@ -884,8 +813,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "liquidity" refer to in finance?',
+                               'question' => 'What does "liquidity" refer to in finance?',
                 'a' => 'The ability of a company to pay off its long-term debt',
                 'b' => 'The ease with which an asset can be converted into cash',
                 'c' => 'The amount of capital a company has invested',
@@ -896,8 +824,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "leverage" in financial terms?',
+                               'question' => 'What is "leverage" in financial terms?',
                 'a' => 'Investing in short-term assets to improve liquidity',
                 'b' => 'Using borrowed funds to increase the potential return on investment',
                 'c' => 'Diversifying investments to reduce risk',
@@ -908,8 +835,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which financial document provides a summary of a company’s financial performance over a specific period?',
+                               'question' => 'Which financial document provides a summary of a company’s financial performance over a specific period?',
                 'a' => 'Balance Sheet',
                 'b' => 'Income Statement',
                 'c' => 'Cash Flow Statement',
@@ -920,8 +846,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "amortization"?',
+                               'question' => 'What is "amortization"?',
                 'a' => 'The gradual reduction of a loan balance over time through periodic payments',
                 'b' => 'The increase in value of an asset over time',
                 'c' => 'The conversion of assets into cash',
@@ -932,8 +857,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which of the following represents the cost of borrowing funds?',
+                               'question' => 'Which of the following represents the cost of borrowing funds?',
                 'a' => 'Yield',
                 'b' => 'Interest Rate',
                 'c' => 'Dividend',
@@ -944,8 +868,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "capital structure"?',
+                               'question' => 'What is "capital structure"?',
                 'a' => 'The mix of a company’s long-term debt and equity financing',
                 'b' => 'The allocation of funds to different asset classes',
                 'c' => 'The process of managing a company’s cash flow',
@@ -956,8 +879,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "earnings per share (EPS)" measure?',
+                               'question' => 'What does "earnings per share (EPS)" measure?',
                 'a' => 'The total revenue of a company',
                 'b' => 'The portion of a company’s profit allocated to each outstanding share of common stock',
                 'c' => 'The market value of a company’s shares',
@@ -968,8 +890,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "discount rate" used for in finance?',
+                               'question' => 'What is the "discount rate" used for in finance?',
                 'a' => 'The rate at which dividends are paid to shareholders',
                 'b' => 'The interest rate used to determine the present value of future cash flows',
                 'c' => 'The rate at which a company’s stock price grows',
@@ -980,8 +901,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'Which term describes the amount by which a company’s assets exceed its liabilities?',
+                               'question' => 'Which term describes the amount by which a company’s assets exceed its liabilities?',
                 'a' => 'Operating Income',
                 'b' => 'Net Worth',
                 'c' => 'Gross Profit',
@@ -992,8 +912,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "diversification" in investment terms?',
+                               'question' => 'What is "diversification" in investment terms?',
                 'a' => 'Investing in a single asset to maximize returns',
                 'b' => 'Spreading investments across different asset classes to reduce risk',
                 'c' => 'Focusing on high-risk, high-reward investments',
@@ -1007,8 +926,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "return on investment (ROI)" measure?',
+                               'question' => 'What does "return on investment (ROI)" measure?',
                 'a' => 'The amount of revenue generated from investments',
                 'b' => 'The total amount of dividends paid',
                 'c' => 'The percentage of profit relative to the investment cost',
@@ -1019,8 +937,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "bull market"?',
+                               'question' => 'What is a "bull market"?',
                 'a' => 'A market with low trading volume',
                 'b' => 'A market with falling inflation',
                 'c' => 'A market characterized by rising prices',
@@ -1031,8 +948,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "financial leverage" involve?',
+                               'question' => 'What does "financial leverage" involve?',
                 'a' => 'Diversifying investments across various asset classes',
                 'b' => 'The practice of reducing debt to lower financial risk',
                 'c' => 'Using debt to finance the purchase of assets',
@@ -1043,8 +959,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "mutual fund"?',
+                               'question' => 'What is a "mutual fund"?',
                 'a' => 'A type of bond issued by companies',
                 'b' => 'A retirement savings account with tax benefits',
                 'c' => 'An investment vehicle that pools money from multiple investors to invest in a diversified portfolio of assets',
@@ -1055,8 +970,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "market capitalization"?',
+                               'question' => 'What is "market capitalization"?',
                 'a' => 'The amount of money a company has in its bank accounts',
                 'b' => 'The total debt a company has incurred',
                 'c' => 'The total value of a company’s outstanding shares of stock',
@@ -1067,8 +981,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "capital budgeting"?',
+                               'question' => 'What is "capital budgeting"?',
                 'a' => 'The practice of managing short-term cash flow',
                 'b' => 'The method of evaluating potential investment opportunities',
                 'c' => 'The process of planning and managing a company’s long-term investments',
@@ -1079,8 +992,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "risk management"?',
+                               'question' => 'What is "risk management"?',
                 'a' => 'The strategy of using leverage to increase potential profits',
                 'b' => 'The process of investing in high-risk assets for higher returns',
                 'c' => 'The identification, assessment, and prioritization of risks followed by coordinated efforts to minimize or control their impact',
@@ -1091,8 +1003,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "asset allocation"?',
+                               'question' => 'What is "asset allocation"?',
                 'a' => 'The strategy of investing in a single asset to maximize returns',
                 'b' => 'The allocation of funds to cover short-term liabilities',
                 'c' => 'The process of spreading investments across different asset classes to balance risk and return',
@@ -1103,8 +1014,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is the "price-to-earnings (P/E) ratio"?',
+                               'question' => 'What is the "price-to-earnings (P/E) ratio"?',
                 'a' => 'The ratio of a company’s debt to its equity',
                 'b' => 'The total amount of dividends paid to shareholders divided by the number of shares outstanding',
                 'c' => 'A valuation ratio calculated by dividing a company’s share price by its earnings per share',
@@ -1115,8 +1025,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "operating income"?',
+                               'question' => 'What is "operating income"?',
                 'a' => 'The total revenue a company earns from all sources',
                 'b' => 'The profit earned from investments outside of core business operations',
                 'c' => 'The profit a company makes from its core business operations, excluding any non-operating income or expenses',
@@ -1129,8 +1038,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "arbitrage" in finance?',
+                               'question' => 'What is "arbitrage" in finance?',
                 'a' => 'The practice of buying and selling assets in different markets to exploit price differences',
                 'b' => 'The method of increasing leverage to maximize returns',
                 'c' => 'The process of assessing a company’s creditworthiness',
@@ -1141,8 +1049,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "beta" measure in finance?',
+                               'question' => 'What does "beta" measure in finance?',
                 'a' => 'The volatility of a stock relative to the overall market',
                 'b' => 'The expected return on a stock',
                 'c' => 'The dividend yield of a stock',
@@ -1153,8 +1060,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "Value at Risk" (VaR)?',
+                               'question' => 'What is "Value at Risk" (VaR)?',
                 'a' => 'A statistical measure of the risk of loss for investments',
                 'b' => 'A method to calculate the future value of an investment',
                 'c' => 'A metric to assess a company’s profitability',
@@ -1165,8 +1071,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "duration" in bond investing?',
+                               'question' => 'What is "duration" in bond investing?',
                 'a' => 'A measure of a bond’s sensitivity to interest rate changes',
                 'b' => 'The total time until a bond matures',
                 'c' => 'The bond’s annual coupon payment',
@@ -1177,8 +1082,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "CAPM" stand for in finance?',
+                               'question' => 'What does "CAPM" stand for in finance?',
                 'a' => 'Capital Asset Pricing Model',
                 'b' => 'Capital Accumulation Pricing Model',
                 'c' => 'Capital Allocation Pricing Method',
@@ -1189,8 +1093,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "hedge fund" strategy?',
+                               'question' => 'What is "hedge fund" strategy?',
                 'a' => 'An investment fund that uses various strategies to earn active return for its investors',
                 'b' => 'A fund that invests only in government securities',
                 'c' => 'A fund focused on short-term, high-risk investments',
@@ -1201,8 +1104,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "systematic risk"?',
+                               'question' => 'What is "systematic risk"?',
                 'a' => 'The risk inherent to the entire market or market segment',
                 'b' => 'The risk associated with a specific company or industry',
                 'c' => 'The risk of changes in interest rates',
@@ -1213,8 +1115,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "EVA" stand for in financial analysis?',
+                               'question' => 'What does "EVA" stand for in financial analysis?',
                 'a' => 'Economic Value Added',
                 'b' => 'Equity Value Assessment',
                 'c' => 'Enterprise Value Analysis',
@@ -1225,8 +1126,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "Monte Carlo simulation" used for in finance?',
+                               'question' => 'What is "Monte Carlo simulation" used for in finance?',
                 'a' => 'A method used to model the probability of different outcomes in a process that cannot easily be predicted',
                 'b' => 'A technique to forecast future stock prices',
                 'c' => 'A way to calculate the value of derivatives',
@@ -1237,8 +1137,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "arbitrage pricing theory" (APT)?',
+                               'question' => 'What is "arbitrage pricing theory" (APT)?',
                 'a' => 'A theory that estimates the return of an asset based on its sensitivity to various macroeconomic factors',
                 'b' => 'A model that predicts future price movements based on historical data',
                 'c' => 'A method to value fixed-income securities',
@@ -1252,8 +1151,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "arbitrage" in finance?',
+                               'question' => 'What is "arbitrage" in finance?',
                 'a' => 'The practice of buying and selling assets in different markets to exploit price differences',
                 'b' => 'The technique of predicting future market trends',
                 'c' => 'The process of assessing a company’s creditworthiness',
@@ -1264,8 +1162,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "beta" measure in finance?',
+                               'question' => 'What does "beta" measure in finance?',
                 'a' => 'The expected return on a stock',
                 'b' => 'The market capitalization of a company',
                 'c' => 'The volatility of a stock relative to the overall market',
@@ -1276,8 +1173,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "Value at Risk" (VaR)?',
+                               'question' => 'What is "Value at Risk" (VaR)?',
                 'a' => 'A metric to assess a company’s profitability',
                 'b' => 'A statistical measure of the risk of loss for investments',
                 'c' => 'A technique for evaluating bond prices',
@@ -1288,8 +1184,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "duration" in bond investing?',
+                               'question' => 'What is "duration" in bond investing?',
                 'a' => 'The bond’s annual coupon payment',
                 'b' => 'The difference between the bond’s face value and market price',
                 'c' => 'The total time until a bond matures',
@@ -1300,8 +1195,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "CAPM" stand for in finance?',
+                               'question' => 'What does "CAPM" stand for in finance?',
                 'a' => 'Capital Allocation Pricing Method',
                 'b' => 'Capital Asset Performance Measurement',
                 'c' => 'Capital Asset Pricing Model',
@@ -1312,8 +1206,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "hedge fund" strategy?',
+                               'question' => 'What is "hedge fund" strategy?',
                 'a' => 'A fund that provides loans to startups',
                 'b' => 'A fund focused on short-term, high-risk investments',
                 'c' => 'An investment fund that uses various strategies to earn active return for its investors',
@@ -1324,8 +1217,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "systematic risk"?',
+                               'question' => 'What is "systematic risk"?',
                 'a' => 'The risk from fluctuations in foreign exchange rates',
                 'b' => 'The risk associated with a specific company or industry',
                 'c' => 'The risk of changes in interest rates',
@@ -1336,8 +1228,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "EVA" stand for in financial analysis?',
+                               'question' => 'What does "EVA" stand for in financial analysis?',
                 'a' => 'Enterprise Value Analysis',
                 'b' => 'Estimated Value of Assets',
                 'c' => 'Economic Value Added',
@@ -1348,8 +1239,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "Monte Carlo simulation" used for in finance?',
+                               'question' => 'What is "Monte Carlo simulation" used for in finance?',
                 'a' => 'A technique to optimize portfolio returns',
                 'b' => 'A way to calculate the value of derivatives',
                 'c' => 'A method used to model the probability of different outcomes in a process that cannot easily be predicted',
@@ -1360,8 +1250,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "arbitrage pricing theory" (APT)?',
+                               'question' => 'What is "arbitrage pricing theory" (APT)?',
                 'a' => 'A strategy to manage investment risk through diversification',
                 'b' => 'A model that predicts future price movements based on historical data',
                 'c' => 'A theory that estimates the return of an asset based on its sensitivity to various macroeconomic factors',
@@ -1375,8 +1264,7 @@ static    public function run(): void
         
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "arbitrage" in financial markets?',
+                               'question' => 'What is "arbitrage" in financial markets?',
                 'a' => 'Buying and holding assets to benefit from dividends',
                 'b' => 'The process of diversifying investments to reduce risk',
                 'c' => 'The use of short-term debt to finance long-term projects',
@@ -1387,8 +1275,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "liquidity risk" refer to?',
+                               'question' => 'What does "liquidity risk" refer to?',
                 'a' => 'The risk of fluctuations in exchange rates affecting profitability',
                 'b' => 'The risk of not being able to convert an asset into cash quickly without a significant loss',
                 'c' => 'The risk associated with changes in interest rates',
@@ -1399,8 +1286,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "leverage" in finance?',
+                               'question' => 'What is "leverage" in finance?',
                 'a' => 'The process of diversifying investments to reduce risk',
                 'b' => 'Using borrowed capital to increase the potential return on investment',
                 'c' => 'Investing in low-risk government securities',
@@ -1411,8 +1297,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "duration" measure in fixed-income securities?',
+                               'question' => 'What does "duration" measure in fixed-income securities?',
                 'a' => 'The total return of the bond over its lifetime',
                 'b' => 'The frequency of coupon payments',
                 'c' => 'The time until the bond matures',
@@ -1423,8 +1308,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "capital budgeting"?',
+                               'question' => 'What is "capital budgeting"?',
                 'a' => 'The process of managing day-to-day operational costs',
                 'b' => 'The process of issuing new equity shares',
                 'c' => 'The process of evaluating short-term financing options',
@@ -1435,8 +1319,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is a "mutual fund"?',
+                               'question' => 'What is a "mutual fund"?',
                 'a' => 'A type of insurance policy for investors',
                 'b' => 'A contract that guarantees a fixed return on investment',
                 'c' => 'A type of bond issued by governments',
@@ -1447,8 +1330,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What does "dividend yield" measure?',
+                               'question' => 'What does "dividend yield" measure?',
                 'a' => 'The percentage of earnings paid out as dividends',
                 'b' => 'The rate of growth of dividends over time',
                 'c' => 'The total return on an investment over a year',
@@ -1459,8 +1341,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "systematic risk"?',
+                               'question' => 'What is "systematic risk"?',
                 'a' => 'The risk associated with the potential for default on debt',
                 'b' => 'The risk from individual investment choices',
                 'c' => 'The risk of changes in government regulations',
@@ -1471,8 +1352,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "economic value added" (EVA)?',
+                               'question' => 'What is "economic value added" (EVA)?',
                 'a' => 'A measure of a company’s market share',
                 'b' => 'A measure of a company’s operational efficiency',
                 'c' => 'A measure of a company’s revenue growth',
@@ -1483,8 +1363,7 @@ static    public function run(): void
             ],
             [
                 'field_id' => 16,
-                'sub_fields_id' => 84,
-                'question' => 'What is "interest rate risk"?',
+                               'question' => 'What is "interest rate risk"?',
                 'a' => 'The risk of liquidity constraints in the market',
                 'b' => 'The risk of changes in interest rates affecting the value of fixed-income securities',
                 'c' => 'The risk of fluctuations in currency exchange rates',

@@ -14,16 +14,15 @@ class QuestionResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-         return [
+        return [
             'id' => $this->id,
             'field_id' => $this->field_id,
-            'sub_fields_id' => $this->sub_fields_id,
             'question' => $this->question,
             'a' => $this->a,
             'b' => $this->b,
             'c' => $this->c,
             'd' => $this->d,
-         
+
         ];
     }
 }

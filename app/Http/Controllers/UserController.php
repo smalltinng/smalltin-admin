@@ -618,8 +618,6 @@ public function update(Request $request)
         'password' => 'sometimes|confirmed|min:6',
         'fields' => 'sometimes|array',
         'fields.*' => 'int',
-        'sub_fields' => 'sometimes|array',
-        'sub_fields.*' => 'int',
         'profile' => 'sometimes|image|mimes:jpeg,png,jpg,gif|max:2048',
     ]);
 
@@ -647,10 +645,7 @@ public function update(Request $request)
             $user->fields()->sync($validatedData['fields']);
         }
 
-        // Update subfields
-        if (isset($validatedData['sub_fields'])) {
-            $user->subfields()->sync($validatedData['sub_fields']);
-        }
+       
 
         $success = [
             'message' => 'User updated successfully',

@@ -5,8 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\ForeignIdColumnDefinition;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -14,10 +13,8 @@ return new class extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger("field_id");
+            $table->unsignedBigInteger("field_id")->nullable();
             $table->foreign('field_id')->references('id')->on("fields")->cascadeOnDelete();
-            $table->unsignedBigInteger("sub_fields_id");
-            $table->foreign("sub_fields_id")->references("id")->on("sub_fields");
             $table->string('question');
             $table->string('a')->nullable();
             $table->string('b')->nullable();

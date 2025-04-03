@@ -16,7 +16,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation x^2 - 5x + 6 = 0?',
         'a' => 'x = 2 or x = 3',
         'b' => 'x = 1 or x = 6',
@@ -28,7 +28,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation 2x + 3 = 7?',
         'a' => 'x = 2',
         'b' => 'x = 3',
@@ -40,7 +40,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Simplify the expression (3x^2 - 2x) - (x^2 + 4x).',
         'a' => '2x^2 - 6x',
         'b' => '4x^2 - 6x',
@@ -52,7 +52,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the factored form of x^2 - 9?',
         'a' => '(x - 3)(x + 3)',
         'b' => '(x - 1)(x + 9)',
@@ -64,7 +64,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for y in the equation 4y - 7 = 9.',
         'a' => 'y = 4',
         'b' => 'y = 5',
@@ -76,7 +76,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution set for the inequality 2x - 3 > 5?',
         'a' => 'x > 4',
         'b' => 'x > 3',
@@ -88,7 +88,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'If f(x) = 2x + 1, what is f(3)?',
         'a' => '7',
         'b' => '8',
@@ -100,7 +100,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the slope of the line given by the equation 4x - 2y = 8?',
         'a' => '2',
         'b' => '-2',
@@ -112,7 +112,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve the equation 3(x - 2) = 12.',
         'a' => 'x = 6',
         'b' => 'x = 8',
@@ -124,7 +124,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the quadratic formula used to solve ax^2 + bx + c = 0?',
         'a' => 'x = (-b ± √(b^2 - 4ac)) / (2a)',
         'b' => 'x = (-b ± √(b^2 + 4ac)) / (2a)',
@@ -137,7 +137,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 3x - 4 = 2x + 5?',
         'a' => 'x = 9',
         'b' => 'x = 5',
@@ -149,7 +149,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Which of the following is a factor of x^2 - 4?',
         'a' => '(x - 2)(x + 2)',
         'b' => '(x - 1)(x + 4)',
@@ -161,7 +161,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Simplify the expression 5(x - 3) + 2x.',
         'a' => '7x - 15',
         'b' => '7x - 5',
@@ -173,7 +173,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation 2x/3 = 4?',
         'a' => 'x = 6',
         'b' => 'x = 8',
@@ -185,7 +185,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the vertex form of a quadratic function?',
         'a' => 'y = a(x - h)^2 + k',
         'b' => 'y = ax^2 + bx + c',
@@ -197,7 +197,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of the polynomial division of x^3 - 4x by x - 2?',
         'a' => 'x^2 + 2x - 2',
         'b' => 'x^2 - 2x - 2',
@@ -209,7 +209,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the common factor of 6x^2 - 9x?',
         'a' => '3x',
         'b' => '2x',
@@ -221,7 +221,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the sum of the roots of the quadratic equation x^2 - 7x + 10 = 0?',
         'a' => '7',
         'b' => '10',
@@ -233,7 +233,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the product of the roots of the equation x^2 - 4x + 4 = 0?',
         'a' => '4',
         'b' => '2',
@@ -245,7 +245,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'If 2x + 3 = 7y, what is x in terms of y?',
         'a' => 'x = 7y - 3',
         'b' => 'x = (7y - 3)/2',
@@ -257,7 +257,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of the expression (x^2 - 1)/(x - 1)?',
         'a' => 'x + 1',
         'b' => 'x - 1',
@@ -270,7 +270,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 5x - 3 = 2x + 9?',
         'a' => 'x = 4',
         'b' => 'x = 6',
@@ -282,7 +282,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Which of the following is a solution to the equation x^2 - 16 = 0?',
         'a' => 'x = ±4',
         'b' => 'x = ±2',
@@ -294,7 +294,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Simplify the expression 4(x + 2) - 3(x - 1).',
         'a' => 'x + 11',
         'b' => 'x + 10',
@@ -306,7 +306,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation 5x - 4 = 6x + 1?',
         'a' => 'x = -5',
         'b' => 'x = -1',
@@ -318,7 +318,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the vertex of the parabola given by y = (x - 2)^2 + 3?',
         'a' => '(2, 3)',
         'b' => '(-2, -3)',
@@ -330,7 +330,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the product of the roots of the quadratic equation x^2 - 8x + 12 = 0?',
         'a' => '12',
         'b' => '8',
@@ -342,7 +342,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (2x^2 + 4x)/(2x)?',
         'a' => 'x + 2',
         'b' => 'x + 1',
@@ -354,7 +354,6 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
         'question' => 'What is the common factor of 9x^2 - 6x?',
         'a' => '3x',
         'b' => '3',
@@ -366,7 +365,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 4x/5 = 2?',
         'a' => 'x = 5',
         'b' => 'x = 8',
@@ -378,7 +377,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'If f(x) = 3x^2 - x + 2, what is f(2)?',
         'a' => '8',
         'b' => '10',
@@ -390,7 +389,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (x^2 - 9)/(x - 3)?',
         'a' => 'x + 3',
         'b' => 'x - 3',
@@ -403,7 +402,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 6x - 5 = 7x + 2.',
         'a' => 'x = -7',
         'b' => 'x = 5',
@@ -415,7 +414,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution set of the inequality x/3 ≤ 2?',
         'a' => 'x ≤ 6',
         'b' => 'x ≥ 6',
@@ -427,7 +426,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of the expression 7 - (3 + x) when x = 4?',
         'a' => '0',
         'b' => '2',
@@ -439,7 +438,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the factored form of x^2 + 2x - 15?',
         'a' => '(x + 5)(x - 3)',
         'b' => '(x - 5)(x + 3)',
@@ -451,7 +450,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the inverse of the function f(x) = 3x + 2?',
         'a' => 'f^(-1)(x) = (x - 2)/3',
         'b' => 'f^(-1)(x) = 3(x - 2)',
@@ -463,7 +462,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 7x + 4 = 3(x + 2)?',
         'a' => 'x = -2',
         'b' => 'x = 2',
@@ -475,7 +474,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the coefficient of x in the expansion of (2x + 3)(x - 5)?',
         'a' => '2',
         'b' => '1',
@@ -487,7 +486,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Simplify the expression (x^2 + 2x)/(x + 2).',
         'a' => 'x',
         'b' => 'x + 2',
@@ -499,7 +498,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 8 - 2(x + 3) = 0?',
         'a' => 'x = -2',
         'b' => 'x = -4',
@@ -511,7 +510,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the sum of the roots of the polynomial x^2 - 3x - 4?',
         'a' => '3',
         'b' => '-4',
@@ -523,7 +522,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation x^2 + 6x + 9 = 0?',
         'a' => 'x = -3',
         'b' => 'x = 3',
@@ -535,7 +534,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (3x^2 - x - 4)/(x - 1)?',
         'a' => '3x + 3',
         'b' => '3x - 4',
@@ -548,7 +547,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation 3x + 7 = 16?',
         'a' => 'x = 3',
         'b' => 'x = 5',
@@ -560,7 +559,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the factored form of x^2 - 9?',
         'a' => '(x - 3)(x + 3)',
         'b' => '(x - 1)(x + 9)',
@@ -572,7 +571,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 2x^2 - 8 = 0?',
         'a' => 'x = ±2',
         'b' => 'x = ±4',
@@ -584,7 +583,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: x/2 - 4 = 6.',
         'a' => 'x = 20',
         'b' => 'x = 28',
@@ -596,7 +595,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the inequality 5x + 3 > 8?',
         'a' => 'x > 1',
         'b' => 'x > 2',
@@ -608,7 +607,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of y if y - 3 = 2y + 4?',
         'a' => 'y = -7',
         'b' => 'y = 7',
@@ -620,7 +619,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of 2(x + 5) - 3x?',
         'a' => '-x + 10',
         'b' => '-x + 5',
@@ -632,7 +631,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 4(x - 1) = 2x + 6?',
         'a' => 'x = 2',
         'b' => 'x = 3',
@@ -644,7 +643,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the vertex form of the quadratic function y = x^2 - 6x + 5?',
         'a' => 'y = (x - 3)^2 - 4',
         'b' => 'y = (x - 2)^2 - 1',
@@ -656,7 +655,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (2x^2 - x + 1) - (x^2 + 2x - 3)?',
         'a' => 'x^2 - 3x + 4',
         'b' => 'x^2 - 3x - 2',
@@ -669,7 +668,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 5x - 3 = 2x + 12.',
         'a' => 'x = 5',
         'b' => 'x = 6',
@@ -681,7 +680,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of the expression 4(x - 2) + 3x?',
         'a' => '7x - 10',
         'b' => '7x - 6',
@@ -693,7 +692,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x if 3(x - 2) = 2x + 1?',
         'a' => 'x = 1',
         'b' => 'x = 7',
@@ -705,7 +704,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (x^2 + 4x + 4)/(x + 2)?',
         'a' => 'x + 4',
         'b' => 'x',
@@ -717,7 +716,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the product of (x + 1) and (x - 3)?',
         'a' => 'x^2 - 2x + 3',
         'b' => 'x^2 - 3x - 1',
@@ -729,7 +728,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 2x^2 + x - 3 = 0?',
         'a' => 'x = 3, x = -1',
         'b' => 'x = 1, x = -3/2',
@@ -741,7 +740,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the coefficient of x in the expansion of 3(x + 4) - 2(x - 1)?',
         'a' => '2',
         'b' => '5',
@@ -753,7 +752,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x^2 - 4)/(x + 2)?',
         'a' => 'x + 2',
         'b' => 'x - 2',
@@ -765,7 +764,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the sum of the roots of x^2 - 8x + 15?',
         'a' => '7',
         'b' => '4',
@@ -777,7 +776,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 5 - 2x = 1?',
         'a' => 'x = -2',
         'b' => 'x = 3',
@@ -789,7 +788,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 7x + 2 = 3x + 18.',
         'a' => 'x = 2',
         'b' => 'x = 4',
@@ -801,7 +800,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution of the equation 4x - 2 = 2x + 10?',
         'a' => 'x = 5',
         'b' => 'x = 7',
@@ -817,7 +816,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: x/4 + 3 = 5.',
         'a' => 'x = 12',
         'b' => 'x = 8',
@@ -829,7 +828,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of 2(x + 3) - 4?',
         'a' => '2x + 2',
         'b' => '2x + 6',
@@ -841,7 +840,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (3x^2 - x + 2) - (x^2 + x - 1)?',
         'a' => '2x^2 - 3x + 3',
         'b' => '2x^2 - 2x + 1',
@@ -853,7 +852,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of 5(x - 1) + 2(x + 3)?',
         'a' => '7x + 10',
         'b' => '7x + 1',
@@ -865,7 +864,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 6x + 5 = 17.',
         'a' => 'x = 2',
         'b' => 'x = 3',
@@ -877,7 +876,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation x^2 - 6x + 9 = 0?',
         'a' => 'x = 4',
         'b' => 'x = 3',
@@ -889,7 +888,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation x^2 - 1 = 0?',
         'a' => 'x = ±2',
         'b' => 'x = ±1',
@@ -901,7 +900,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x + 5) - (2x - 3)?',
         'a' => '-x + 8',
         'b' => 'x + 8',
@@ -913,7 +912,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the expanded form of (x + 2)^2?',
         'a' => 'x^2 + 4x + 4',
         'b' => 'x^2 + 2x + 4',
@@ -925,7 +924,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of 3(x + 4) - 2x?',
         'a' => 'x + 12',
         'b' => 'x + 10',
@@ -937,7 +936,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 2x - 3 = x + 4?',
         'a' => 'x = 2',
         'b' => 'x = 3',
@@ -950,7 +949,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of x^2 + 2x - 8 when factored?',
         'a' => '(x + 4)(x - 2)',
         'b' => '(x - 4)(x + 2)',
@@ -962,7 +961,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 2x^2 - 5x = 0.',
         'a' => 'x = 0 or x = 2.5',
         'b' => 'x = 0 or x = 5',
@@ -974,7 +973,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the quadratic equation x^2 - 4x + 4 = 0?',
         'a' => 'x = 2',
         'b' => 'x = -2',
@@ -986,7 +985,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of the discriminant in the quadratic equation x^2 + 4x + 4 = 0?',
         'a' => '0',
         'b' => '4',
@@ -998,7 +997,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x^2 - 1)/(x - 1)?',
         'a' => 'x + 1',
         'b' => 'x - 1',
@@ -1010,7 +1009,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of 3(x - 2) + 4(x + 1)?',
         'a' => '7x + 2',
         'b' => '7x - 2',
@@ -1022,7 +1021,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: x^2 - 2x - 3 = 0.',
         'a' => 'x = 3 or x = -1',
         'b' => 'x = 1 or x = -3',
@@ -1034,7 +1033,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the sum of the roots of the equation x^2 + 6x + 9 = 0?',
         'a' => '-6',
         'b' => '6',
@@ -1046,7 +1045,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Find the value of x in the equation x/3 - 4 = -2.',
         'a' => 'x = 6',
         'b' => 'x = 8',
@@ -1058,7 +1057,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (2x - 3)(x + 5)?',
         'a' => '2x^2 + 7x - 15',
         'b' => '2x^2 - x - 15',
@@ -1070,7 +1069,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution for x if 4x - 5 = 3x + 6?',
         'a' => 'x = 11',
         'b' => 'x = 9',
@@ -1083,7 +1082,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution for x if 5x - 7 = 2x + 8?',
         'a' => 'x = 4',
         'b' => 'x = 5',
@@ -1095,7 +1094,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the expanded form of (x - 3)^2?',
         'a' => 'x^2 - 6x + 9',
         'b' => 'x^2 + 6x + 9',
@@ -1107,7 +1106,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 3x^2 + 5x - 2 = 0.',
         'a' => 'x = -2/3 or x = 1',
         'b' => 'x = 1/3 or x = -2',
@@ -1119,7 +1118,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the sum of the coefficients in the polynomial 2x^3 - 3x^2 + 4x - 5?',
         'a' => '-2',
         'b' => '2',
@@ -1131,7 +1130,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (4x^2 - 9)/(2x - 3)?',
         'a' => '2x + 3',
         'b' => '2x - 3',
@@ -1143,7 +1142,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to the equation 7x - 4 = 3x + 12?',
         'a' => 'x = 4',
         'b' => 'x = 3',
@@ -1155,7 +1154,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x^2 + 6x + 9)/(x + 3)?',
         'a' => 'x + 3',
         'b' => 'x - 3',
@@ -1167,7 +1166,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Find the roots of the quadratic equation x^2 - 5x + 6 = 0.',
         'a' => 'x = 2, 3',
         'b' => 'x = 1, 6',
@@ -1179,7 +1178,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the vertex form of the quadratic function y = x^2 + 4x + 3?',
         'a' => 'y = (x + 2)^2 - 1',
         'b' => 'y = (x - 2)^2 + 1',
@@ -1191,7 +1190,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: 4x^2 - 12x + 9 = 0.',
         'a' => 'x = 3/2',
         'b' => 'x = 1',
@@ -1203,7 +1202,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x in the equation 2x + 3 = 7 - x?',
         'a' => 'x = 2',
         'b' => 'x = 1',
@@ -1216,7 +1215,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution for x if 2x + 5 = 11?',
         'a' => 'x = 4',
         'b' => 'x = 3',
@@ -1228,7 +1227,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x^2 + 2x)/(x)?',
         'a' => 'x + 2',
         'b' => 'x + 1',
@@ -1240,7 +1239,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'Solve for x: x^2 - 4 = 0.',
         'a' => 'x = ±2',
         'b' => 'x = ±4',
@@ -1252,7 +1251,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (3x^2 + 6x)/(3x)?',
         'a' => 'x + 2',
         'b' => 'x + 3',
@@ -1264,7 +1263,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the value of x if 4x^2 = 64?',
         'a' => 'x = ±4',
         'b' => 'x = ±2',
@@ -1276,7 +1275,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution for x in the equation 6x - 2 = 4x + 10?',
         'a' => 'x = 4',
         'b' => 'x = 6',
@@ -1288,7 +1287,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the simplified form of (x^2 - 9)/(x - 3)?',
         'a' => 'x + 3',
         'b' => 'x - 3',
@@ -1300,7 +1299,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the product of (x + 2) and (x - 2)?',
         'a' => 'x^2 - 4',
         'b' => 'x^2 + 4',
@@ -1312,7 +1311,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the factored form of x^2 - 9?',
         'a' => '(x - 3)(x + 3)',
         'b' => '(x - 1)(x + 9)',
@@ -1324,7 +1323,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the solution to x^2 + 6x + 9 = 0?',
         'a' => 'x = -3',
         'b' => 'x = 0',
@@ -1336,7 +1335,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 26,
+        
         'question' => 'What is the result of (x + 4)^2 - 16?',
         'a' => 'x^2 + 8x',
         'b' => 'x^2 + 8x + 16',
@@ -1352,7 +1351,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a triangle?',
         'a' => '180°',
         'b' => '360°',
@@ -1364,7 +1363,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a circle with a radius of 4 units?',
         'a' => '16π square units',
         'b' => '8π square units',
@@ -1376,7 +1375,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse in a right triangle with legs of length 3 and 4?',
         'a' => '5 units',
         'b' => '6 units',
@@ -1388,7 +1387,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a rectangular prism with dimensions 3 units by 4 units by 5 units?',
         'a' => '12 cubic units',
         'b' => '20 cubic units',
@@ -1400,7 +1399,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the formula for the area of a trapezoid?',
         'a' => '(base1 + base2) × height',
         'b' => '1/2 × (base1 + base2) × height',
@@ -1412,7 +1411,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'Which of the following is a property of similar triangles?',
         'a' => 'They have equal areas.',
         'b' => 'They have equal perimeters.',
@@ -1424,7 +1423,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular hexagon?',
         'a' => '108°',
         'b' => '120°',
@@ -1436,7 +1435,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the perimeter of a square with side length 5 units?',
         'a' => '20 units',
         'b' => '25 units',
@@ -1448,7 +1447,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the circumference of a circle with a diameter of 10 units?',
         'a' => '5π units',
         'b' => '10π units',
@@ -1460,7 +1459,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the Pythagorean theorem?',
         'a' => 'a^2 + b^2 = c^2',
         'b' => 'a^2 - b^2 = c^2',
@@ -1473,7 +1472,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a triangle with a base of 6 units and a height of 4 units?',
         'a' => '10 square units',
         'b' => '12 square units',
@@ -1485,7 +1484,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a pentagon?',
         'a' => '360°',
         'b' => '540°',
@@ -1497,7 +1496,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of one side of a square if its area is 81 square units?',
         'a' => '7 units',
         'b' => '8 units',
@@ -1509,7 +1508,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a parallelogram with a base of 8 units and a height of 3 units?',
         'a' => '24 square units',
         'b' => '26 square units',
@@ -1521,7 +1520,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each exterior angle of a regular hexagon?',
         'a' => '45°',
         'b' => '60°',
@@ -1533,7 +1532,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'In a right triangle, what is the ratio of the length of the opposite side to the hypotenuse called?',
         'a' => 'Tangent',
         'b' => 'Cosine',
@@ -1545,7 +1544,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the formula for the volume of a cylinder?',
         'a' => 'πr²h',
         'b' => '2πr²h',
@@ -1557,7 +1556,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of an angle formed by two intersecting lines?',
         'a' => '90°',
         'b' => '45°',
@@ -1569,7 +1568,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the perimeter of a rectangle with length 5 units and width 3 units?',
         'a' => '8 units',
         'b' => '15 units',
@@ -1581,7 +1580,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of the central angle of a circle if the arc it intercepts has a length of 10 units and the radius of the circle is 5 units?',
         'a' => '36°',
         'b' => '72°',
@@ -1594,7 +1593,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the perimeter of a square with a side length of 7 units?',
         'a' => '28 units',
         'b' => '35 units',
@@ -1606,7 +1605,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a circle with a radius of 5 units?',
         'a' => '78.5 square units',
         'b' => '25 square units',
@@ -1618,7 +1617,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cube with a side length of 4 units?',
         'a' => '16 cubic units',
         'b' => '32 cubic units',
@@ -1630,7 +1629,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a hexagon?',
         'a' => '360°',
         'b' => '540°',
@@ -1642,7 +1641,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the diagonal of a rectangle with dimensions 6 units by 8 units?',
         'a' => '14 units',
         'b' => '12 units',
@@ -1654,7 +1653,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular octagon?',
         'a' => '120°',
         'b' => '135°',
@@ -1666,7 +1665,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the equation of a circle with a center at the origin and a radius of 3 units?',
         'a' => 'x^2 + y^2 = 9',
         'b' => 'x^2 + y^2 = 6',
@@ -1678,7 +1677,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a trapezoid with bases of 5 units and 7 units and a height of 4 units?',
         'a' => '20 square units',
         'b' => '48 square units',
@@ -1690,7 +1689,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the circumference of a circle with a diameter of 10 units?',
         'a' => '31.4 units',
         'b' => '62.8 units',
@@ -1702,7 +1701,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of the angle between the hands of a clock at 3:00?',
         'a' => '45°',
         'b' => '60°',
@@ -1716,7 +1715,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a triangle with a base of 10 units and a height of 5 units?',
         'a' => '25 square units',
         'b' => '50 square units',
@@ -1728,7 +1727,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each exterior angle of a regular pentagon?',
         'a' => '60°',
         'b' => '72°',
@@ -1740,7 +1739,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse of a right triangle with legs of 6 units and 8 units?',
         'a' => '12 units',
         'b' => '14 units',
@@ -1752,7 +1751,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cylinder with a radius of 3 units and a height of 10 units?',
         'a' => '282.6 cubic units',
         'b' => '150 cubic units',
@@ -1764,7 +1763,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of the central angle of a circle with a radius of 5 units and an arc length of 5π units?',
         'a' => '180°',
         'b' => '90°',
@@ -1776,7 +1775,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the lateral surface area of a cone with a radius of 4 units and a slant height of 10 units?',
         'a' => '40π square units',
         'b' => '50π square units',
@@ -1788,7 +1787,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the total surface area of a sphere with a radius of 6 units?',
         'a' => '72π square units',
         'b' => '144π square units',
@@ -1800,7 +1799,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the equation of the line that passes through the point (2, 3) with a slope of 4?',
         'a' => 'y = 4x + 3',
         'b' => 'y = 4x - 5',
@@ -1812,7 +1811,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of the angle formed by two intersecting lines that create supplementary angles of 120° and 60°?',
         'a' => '90°',
         'b' => '120°',
@@ -1824,7 +1823,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a parallelogram with a base of 8 units and a height of 5 units?',
         'a' => '20 square units',
         'b' => '40 square units',
@@ -1837,7 +1836,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the circumference of a circle with a radius of 7 units?',
         'a' => '14π units',
         'b' => '44π units',
@@ -1849,7 +1848,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular hexagon?',
         'a' => '120°',
         'b' => '135°',
@@ -1861,7 +1860,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a sector with a central angle of 60° and a radius of 6 units?',
         'a' => '6π square units',
         'b' => '12π square units',
@@ -1873,7 +1872,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a rectangular prism with dimensions 4 units by 5 units by 10 units?',
         'a' => '200 cubic units',
         'b' => '100 cubic units',
@@ -1885,7 +1884,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the diagonal of a square with side length 5 units?',
         'a' => '5√2 units',
         'b' => '6√2 units',
@@ -1897,7 +1896,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of the angle formed between a tangent and a radius of a circle?',
         'a' => '45°',
         'b' => '60°',
@@ -1909,7 +1908,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the equation of a circle with a center at (2, 3) and a radius of 5 units?',
         'a' => '(x - 2)^2 + (y - 3)^2 = 25',
         'b' => '(x - 3)^2 + (y - 2)^2 = 25',
@@ -1921,7 +1920,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a polygon with 8 sides?',
         'a' => '1080°',
         'b' => '1440°',
@@ -1933,7 +1932,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a cube with a side length of 4 units?',
         'a' => '96 square units',
         'b' => '64 square units',
@@ -1945,7 +1944,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of an angle inscribed in a semicircle?',
         'a' => '60°',
         'b' => '90°',
@@ -1958,7 +1957,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a triangle with a base of 8 units and a height of 5 units?',
         'a' => '40 square units',
         'b' => '20 square units',
@@ -1970,7 +1969,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the distance between the points (3, 4) and (7, 1) in the coordinate plane?',
         'a' => '5 units',
         'b' => '8 units',
@@ -1982,7 +1981,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the perimeter of a rectangle with length 10 units and width 4 units?',
         'a' => '14 units',
         'b' => '28 units',
@@ -1994,7 +1993,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cylinder with a radius of 3 units and a height of 7 units?',
         'a' => '63π cubic units',
         'b' => '21π cubic units',
@@ -2006,7 +2005,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse of a right triangle with legs of 6 units and 8 units?',
         'a' => '10 units',
         'b' => '12 units',
@@ -2018,7 +2017,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each exterior angle of a regular pentagon?',
         'a' => '60°',
         'b' => '72°',
@@ -2030,7 +2029,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the equation of a line with slope 2 and y-intercept -3?',
         'a' => 'y = 2x + 3',
         'b' => 'y = 2x - 3',
@@ -2042,7 +2041,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a parallelogram with a base of 6 units and a height of 4 units?',
         'a' => '20 square units',
         'b' => '24 square units',
@@ -2054,7 +2053,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the arc of a circle with a radius of 10 units and a central angle of 90°?',
         'a' => '5π units',
         'b' => '10π units',
@@ -2066,7 +2065,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the midpoint of the line segment with endpoints (2, 3) and (6, 7)?',
         'a' => '(4, 5)',
         'b' => '(3, 5)',
@@ -2079,7 +2078,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a hexagon?',
         'a' => '720°',
         'b' => '540°',
@@ -2091,7 +2090,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'If two angles of a triangle measure 45° and 55°, what is the measure of the third angle?',
         'a' => '75°',
         'b' => '90°',
@@ -2103,7 +2102,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a circle with a radius of 7 units?',
         'a' => '49π square units',
         'b' => '14π square units',
@@ -2115,7 +2114,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the circumference of a circle with a diameter of 10 units?',
         'a' => '10π units',
         'b' => '20π units',
@@ -2127,7 +2126,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of a diagonal of a rectangle with length 8 units and width 6 units?',
         'a' => '10 units',
         'b' => '12 units',
@@ -2139,7 +2138,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a trapezoid with bases 6 units and 10 units, and a height of 4 units?',
         'a' => '64 square units',
         'b' => '32 square units',
@@ -2151,7 +2150,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cone with a radius of 3 units and a height of 9 units?',
         'a' => '27π cubic units',
         'b' => '36π cubic units',
@@ -2163,7 +2162,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular octagon?',
         'a' => '120°',
         'b' => '135°',
@@ -2175,7 +2174,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of an equilateral triangle with a side length of 6 units?',
         'a' => '9√3 square units',
         'b' => '18 square units',
@@ -2187,7 +2186,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a cube with a side length of 4 units?',
         'a' => '64 square units',
         'b' => '96 square units',
@@ -2200,7 +2199,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse of a right triangle with legs of length 3 units and 4 units?',
         'a' => '5 units',
         'b' => '6 units',
@@ -2212,7 +2211,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a regular hexagon with a side length of 5 units?',
         'a' => '75√3 square units',
         'b' => '50√3 square units',
@@ -2224,7 +2223,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a sphere with a radius of 3 units?',
         'a' => '36π cubic units',
         'b' => '81π cubic units',
@@ -2236,7 +2235,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a cylinder with a radius of 3 units and a height of 5 units?',
         'a' => '48π square units',
         'b' => '60π square units',
@@ -2248,7 +2247,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a parallelogram with a base of 10 units and a height of 6 units?',
         'a' => '60 square units',
         'b' => '70 square units',
@@ -2260,7 +2259,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each exterior angle of a regular dodecagon?',
         'a' => '30°',
         'b' => '45°',
@@ -2272,7 +2271,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the distance between the points (3, 4) and (6, 8) in a Cartesian plane?',
         'a' => '5 units',
         'b' => '6 units',
@@ -2284,7 +2283,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the radius of a circle with an area of 49π square units?',
         'a' => '7 units',
         'b' => '14 units',
@@ -2296,7 +2295,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the perimeter of a square with a side length of 8 units?',
         'a' => '32 units',
         'b' => '64 units',
@@ -2308,7 +2307,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of a diagonal of a square with a side length of 5 units?',
         'a' => '5√2 units',
         'b' => '10 units',
@@ -2321,7 +2320,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a sector of a circle with radius 6 units and central angle 90 degrees?',
         'a' => '18π square units',
         'b' => '12π square units',
@@ -2333,7 +2332,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the altitude of a triangle with a base of 8 units and area of 24 square units?',
         'a' => '6 units',
         'b' => '4 units',
@@ -2345,7 +2344,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a cube with edge length 4 units?',
         'a' => '96 square units',
         'b' => '64 square units',
@@ -2357,7 +2356,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cone with a radius of 4 units and a height of 9 units?',
         'a' => '48π cubic units',
         'b' => '72π cubic units',
@@ -2369,7 +2368,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular hexagon?',
         'a' => '120°',
         'b' => '90°',
@@ -2381,7 +2380,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the diagonal of a rectangle with length 6 units and width 8 units?',
         'a' => '10 units',
         'b' => '12 units',
@@ -2393,7 +2392,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of an equilateral triangle with a side length of 10 units?',
         'a' => '25√3 square units',
         'b' => '50√3 square units',
@@ -2405,7 +2404,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the sum of the interior angles of a pentagon?',
         'a' => '540°',
         'b' => '360°',
@@ -2417,7 +2416,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the height of a cylinder with a volume of 150π cubic units and a radius of 5 units?',
         'a' => '6 units',
         'b' => '10 units',
@@ -2429,7 +2428,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a trapezoid with bases of 7 units and 5 units, and a height of 4 units?',
         'a' => '24 square units',
         'b' => '28 square units',
@@ -2442,7 +2441,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a sphere with a radius of 3 units?',
         'a' => '36π cubic units',
         'b' => '27π cubic units',
@@ -2454,7 +2453,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a parallelogram with a base of 10 units and a height of 6 units?',
         'a' => '60 square units',
         'b' => '50 square units',
@@ -2466,7 +2465,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse of a right triangle with legs of 6 units and 8 units?',
         'a' => '10 units',
         'b' => '12 units',
@@ -2478,7 +2477,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a rectangular prism with length 4 units, width 3 units, and height 5 units?',
         'a' => '60 cubic units',
         'b' => '50 cubic units',
@@ -2490,7 +2489,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a regular octagon with a side length of 5 units?',
         'a' => '120 square units',
         'b' => '160 square units',
@@ -2502,7 +2501,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each exterior angle of a regular polygon with 10 sides?',
         'a' => '36°',
         'b' => '30°',
@@ -2514,7 +2513,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a rhombus with diagonals of lengths 8 units and 6 units?',
         'a' => '24 square units',
         'b' => '30 square units',
@@ -2526,7 +2525,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of each side of a regular pentagon with a perimeter of 50 units?',
         'a' => '10 units',
         'b' => '12 units',
@@ -2538,7 +2537,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a sphere with a radius of 7 units?',
         'a' => '196π square units',
         'b' => '84π square units',
@@ -2550,7 +2549,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a trapezoid with bases of 9 units and 12 units, and a height of 5 units?',
         'a' => '105 square units',
         'b' => '90 square units',
@@ -2563,7 +2562,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the measure of each interior angle of a regular hexagon?',
         'a' => '120°',
         'b' => '90°',
@@ -2575,7 +2574,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a cube with side length 4 units?',
         'a' => '96 square units',
         'b' => '64 square units',
@@ -2587,7 +2586,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of a circle with a radius of 7 units?',
         'a' => '49π square units',
         'b' => '14π square units',
@@ -2599,7 +2598,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the diagonal of a square with side length 6 units?',
         'a' => '6√2 units',
         'b' => '12 units',
@@ -2611,7 +2610,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cone with a base radius of 5 units and a height of 10 units?',
         'a' => '250π cubic units',
         'b' => '150π cubic units',
@@ -2623,7 +2622,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the surface area of a rectangular prism with dimensions 2 units × 3 units × 4 units?',
         'a' => '22 square units',
         'b' => '24 square units',
@@ -2635,7 +2634,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the area of an equilateral triangle with side length 8 units?',
         'a' => '27.71 square units',
         'b' => '32 square units',
@@ -2647,7 +2646,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the length of the hypotenuse of a right triangle with legs of 5 units and 12 units?',
         'a' => '13 units',
         'b' => '15 units',
@@ -2659,7 +2658,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the volume of a cylinder with a base radius of 3 units and a height of 7 units?',
         'a' => '63π cubic units',
         'b' => '84π cubic units',
@@ -2671,7 +2670,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 27,
+        
         'question' => 'What is the circumference of a circle with a diameter of 10 units?',
         'a' => '10π units',
         'b' => '20π units',
@@ -2687,7 +2686,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of sin(x)?',
         'a' => 'cos(x)',
         'b' => '-cos(x)',
@@ -2699,7 +2698,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => 'ln|x| + C',
         'b' => 'x + C',
@@ -2711,7 +2710,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^2 - 1)/(x - 1) as x approaches 1?',
         'a' => '2',
         'b' => '1',
@@ -2723,7 +2722,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of x^3?',
         'a' => '6x',
         'b' => '6',
@@ -2735,7 +2734,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the antiderivative of 3x^2?',
         'a' => 'x^3 + C',
         'b' => '3x^3 + C',
@@ -2747,7 +2746,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^x?',
         'a' => 'e^x',
         'b' => 'x e^x',
@@ -2759,7 +2758,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 2x dx?',
         'a' => 'x^2 + C',
         'b' => 'x^2 + 2x + C',
@@ -2771,7 +2770,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of sin(x)/x as x approaches 0?',
         'a' => '1',
         'b' => '0',
@@ -2783,7 +2782,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x)?',
         'a' => '1/x',
         'b' => 'x',
@@ -2795,7 +2794,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => 'sin(x) + C',
         'b' => '-sin(x) + C',
@@ -2807,7 +2806,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^2 - 4x + 4?',
         'a' => '2x - 4',
         'b' => 'x - 4',
@@ -2821,7 +2820,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of tan(x)?',
         'a' => 'sec^2(x)',
         'b' => 'cos(x)',
@@ -2833,7 +2832,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^2 dx?',
         'a' => 'x^3/3 + C',
         'b' => 'x^2/2 + C',
@@ -2845,7 +2844,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (3x^2 - 4x + 1) as x approaches 2?',
         'a' => '7',
         'b' => '5',
@@ -2857,7 +2856,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of e^x dx?',
         'a' => 'e^x + C',
         'b' => 'e^x - C',
@@ -2869,7 +2868,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x^2)?',
         'a' => '2/x',
         'b' => '1/x',
@@ -2881,7 +2880,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of 4x^3?',
         'a' => '24x',
         'b' => '12x',
@@ -2893,7 +2892,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^4?',
         'a' => '4x^3',
         'b' => '3x^2',
@@ -2905,7 +2904,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/(x^2 + 1) dx?',
         'a' => 'arctan(x) + C',
         'b' => 'ln|x| + C',
@@ -2917,7 +2916,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (2x^3 - x)/(x^2 + 1) as x approaches ∞?',
         'a' => '∞',
         'b' => '2',
@@ -2929,7 +2928,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 5x^2 - 3x + 2?',
         'a' => '10x - 3',
         'b' => '5x - 3',
@@ -2942,7 +2941,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of cos(x)?',
         'a' => 'sin(x)',
         'b' => '-sin(x)',
@@ -2954,7 +2953,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x dx?',
         'a' => 'x + C',
         'b' => 'x^2/2 + C',
@@ -2966,7 +2965,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 3x^2 - 5x + 2?',
         'a' => '6x - 2',
         'b' => '3x - 5',
@@ -2978,7 +2977,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^2 - 1)/(x - 1) as x approaches 1?',
         'a' => '1/2',
         'b' => '2',
@@ -2990,7 +2989,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of sin(x) dx?',
         'a' => '-cos(x) + C',
         'b' => 'sin(x) + C',
@@ -3002,7 +3001,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^5?',
         'a' => '5x^4',
         'b' => '4x^5',
@@ -3014,7 +3013,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 3x^3 dx?',
         'a' => '3x^4/4 + C',
         'b' => '3x^4 + C',
@@ -3026,7 +3025,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (sin(x)/x) as x approaches 0?',
         'a' => '0',
         'b' => '1',
@@ -3038,7 +3037,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 2x^3 - 4x?',
         'a' => '6x - 4',
         'b' => '6x^2 + 4',
@@ -3050,7 +3049,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => '1/x + C',
         'b' => 'ln(x) + C',
@@ -3062,7 +3061,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of x^2 - 3x + 2?',
         'a' => '0',
         'b' => '1',
@@ -3075,7 +3074,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^x?',
         'a' => 'e^x ',
         'b' => 'e^x + C',
@@ -3087,7 +3086,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => 'ln(x) + C ',
         'b' => '1/x + C',
@@ -3099,7 +3098,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x)?',
         'a' => '1/x ',
         'b' => 'x',
@@ -3111,7 +3110,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^3 - 1)/(x - 1) as x approaches 1?',
         'a' => '2',
         'b' => '1',
@@ -3123,7 +3122,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 3x^2 dx?',
         'a' => 'x^3 + C',
         'b' => 'x^3 + C ',
@@ -3135,7 +3134,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of sin(x)?',
         'a' => 'cos(x) ',
         'b' => '-cos(x)',
@@ -3147,7 +3146,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => 'sin(x) + C ',
         'b' => '-sin(x) + C',
@@ -3159,7 +3158,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (2x^2 - 3x + 1) as x approaches ∞?',
         'a' => '1',
         'b' => '∞ ',
@@ -3171,7 +3170,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 4x^2 + 5x?',
         'a' => '8x + 5 ',
         'b' => '4x + 5',
@@ -3183,7 +3182,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 5 dx?',
         'a' => '5x + C ',
         'b' => '5x^2/2 + C',
@@ -3196,7 +3195,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^3?',
         'a' => '3x^2 ',
         'b' => '2x^2',
@@ -3208,7 +3207,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 2x dx?',
         'a' => 'x^2 + C ',
         'b' => '2x^2 + C',
@@ -3220,7 +3219,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of cos(x)?',
         'a' => '-sin(x) ',
         'b' => 'sin(x)',
@@ -3232,7 +3231,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of sin(x)/x as x approaches 0?',
         'a' => '1 ',
         'b' => '0',
@@ -3244,7 +3243,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of the function f(x) = 5?',
         'a' => '0 ',
         'b' => '5',
@@ -3256,7 +3255,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/(x^2 + 1) dx?',
         'a' => 'arctan(x) + C ',
         'b' => 'ln|x| + C',
@@ -3268,7 +3267,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of x^2?',
         'a' => '2 ',
         'b' => '0',
@@ -3280,7 +3279,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of e^x dx?',
         'a' => 'e^x + C ',
         'b' => 'e^x',
@@ -3292,7 +3291,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln|x|?',
         'a' => '1/x ',
         'b' => 'x',
@@ -3304,7 +3303,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^2 + 3x)/(x + 1) as x approaches ∞?',
         'a' => '∞',
         'b' => 'x',
@@ -3316,7 +3315,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^3 dx?',
         'a' => 'x^4/4 + C ',
         'b' => 'x^3/3 + C',
@@ -3329,7 +3328,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^x?',
         'a' => 'e^x',
         'b' => 'x^2 e^x',
@@ -3341,7 +3340,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of sin(x) dx?',
         'a' => '-cos(x) + C ',
         'b' => 'cos(x) + C',
@@ -3353,7 +3352,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of tan(x)?',
         'a' => 'sec^2(x) ',
         'b' => 'sec(x)',
@@ -3365,7 +3364,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 3x^2 dx?',
         'a' => 'x^3 + C ',
         'b' => 'x^3 + 3x + C',
@@ -3377,7 +3376,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x^2)?',
         'a' => '2/x ',
         'b' => '1/x',
@@ -3389,7 +3388,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^3 - 2x^2 + 3x)/(x) as x approaches ∞?',
         'a' => 'x^2 ',
         'b' => 'x',
@@ -3401,7 +3400,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => 'ln|x| + C ',
         'b' => '1/x + C',
@@ -3413,7 +3412,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^4?',
         'a' => '4x^3 ',
         'b' => '3x^2',
@@ -3425,7 +3424,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 5 dx?',
         'a' => '5x + C ',
         'b' => '5/x + C',
@@ -3437,7 +3436,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of e^x?',
         'a' => 'e^x ',
         'b' => 'e^x + C',
@@ -3449,7 +3448,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (2x^2 + 5x + 3)/(x^2) as x approaches ∞?',
         'a' => '2 ',
         'b' => '5',
@@ -3462,7 +3461,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => 'sin(x) + C',
         'b' => '-sin(x) + C',
@@ -3474,7 +3473,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 5x^3?',
         'a' => '15x^2',
         'b' => '10x^2',
@@ -3486,7 +3485,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 2x dx?',
         'a' => 'x^2 + C',
         'b' => '2x^2 + C',
@@ -3498,7 +3497,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^2 + 4x + 4?',
         'a' => '2x + 4',
         'b' => '2x',
@@ -3510,7 +3509,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of e^(-x) dx?',
         'a' => '-e^(-x) + C',
         'b' => 'e^(-x) + C',
@@ -3522,7 +3521,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 1/x?',
         'a' => '-1/x^2',
         'b' => '1/x^2',
@@ -3534,7 +3533,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^2 dx?',
         'a' => 'x^3/3 + C',
         'b' => '2x^3 + C',
@@ -3546,7 +3545,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 3x^2 - 2x?',
         'a' => '6x - 2',
         'b' => '6x + 2',
@@ -3558,7 +3557,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 4 dx?',
         'a' => '4x + C',
         'b' => 'x + C',
@@ -3570,7 +3569,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of sin(x)?',
         'a' => 'cos(x)',
         'b' => '-sin(x)',
@@ -3582,7 +3581,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 5/x dx?',
         'a' => '5ln|x| + C',
         'b' => '5x + C',
@@ -3595,7 +3594,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (2x^2 - 3x + 1) as x approaches 2?',
         'a' => '3',
         'b' => '5',
@@ -3607,7 +3606,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x)?',
         'a' => '1/x',
         'b' => 'x',
@@ -3619,7 +3618,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/(x^2 + 1) dx?',
         'a' => 'arctan(x) + C',
         'b' => 'ln|x| + C',
@@ -3631,7 +3630,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of x^3?',
         'a' => '6x',
         'b' => '6x^2',
@@ -3643,7 +3642,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of sin(x) dx?',
         'a' => '-cos(x) + C',
         'b' => 'cos(x) + C',
@@ -3655,7 +3654,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^(3x)?',
         'a' => '3e^(3x)',
         'b' => 'e^(3x)',
@@ -3667,7 +3666,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^3 - 1)/(x - 1) as x approaches 1?',
         'a' => '3',
         'b' => '2',
@@ -3679,7 +3678,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of (3x^2 - 2x) dx?',
         'a' => 'x^3 - x^2 + C',
         'b' => 'x^3 - x^2/2 + C',
@@ -3691,7 +3690,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of cos(x)?',
         'a' => '-sin(x)',
         'b' => 'sin(x)',
@@ -3703,7 +3702,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of (2x + 3) dx?',
         'a' => 'x^2 + 3x + C',
         'b' => 'x^2 + 3x/2 + C',
@@ -3716,7 +3715,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of tan(x)?',
         'a' => 'sec(x)',
         'b' => 'sec^2(x)',
@@ -3728,7 +3727,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => '-sin(x) + C',
         'b' => 'sin(x) + C',
@@ -3740,7 +3739,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of sin(x)/x as x approaches 0?',
         'a' => '0',
         'b' => '1',
@@ -3752,7 +3751,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^(-x)?',
         'a' => '-e^(-x)',
         'b' => 'e^(-x)',
@@ -3764,7 +3763,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^2 dx?',
         'a' => 'x^3/3 + C',
         'b' => 'x^2/2 + C',
@@ -3776,7 +3775,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (x^2 - 1)/(x - 1) as x approaches 1?',
         'a' => 'infinity',
         'b' => '1',
@@ -3788,7 +3787,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the second derivative of 3x^3?',
         'a' => '18x',
         'b' => '9x^2',
@@ -3800,7 +3799,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x)?',
         'a' => 'x',
         'b' => 'ln(x)',
@@ -3812,7 +3811,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 5 dx?',
         'a' => '5 + C',
         'b' => '5x + C',
@@ -3824,7 +3823,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the limit of (2x^2 - 3x + 1)/(x + 1) as x approaches -1?',
         'a' => '2',
         'b' => '-1',
@@ -3837,7 +3836,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^3 + 2x?',
         'a' => '3x^2 + 2',
         'b' => '3x^2 - 2',
@@ -3849,7 +3848,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 3x^2 dx?',
         'a' => '**x^3 + C**',
         'b' => '3x^3 + C',
@@ -3861,7 +3860,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of sin(x)?',
         'a' => 'cos(x)',
         'b' => '**cos(x)**',
@@ -3873,7 +3872,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of e^x dx?',
         'a' => '**e^x + C**',
         'b' => 'e^x',
@@ -3885,7 +3884,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x^2)?',
         'a' => '1/x',
         'b' => '**2/x**',
@@ -3897,7 +3896,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => '**ln|x| + C**',
         'b' => 'x + C',
@@ -3909,7 +3908,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^(-x)?',
         'a' => '-e^(-x)',
         'b' => '**-e^(-x)**',
@@ -3921,7 +3920,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => '**sin(x) + C**',
         'b' => 'cos(x) + C',
@@ -3933,7 +3932,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^2 + 3x?',
         'a' => '**2x + 3**',
         'b' => '2x',
@@ -3945,7 +3944,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 2x dx?',
         'a' => 'x^2 + C',
         'b' => '**x^2 + C**',
@@ -3957,7 +3956,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of tan(x)?',
         'a' => 'sec(x)',
         'b' => 'csc(x)',
@@ -3970,7 +3969,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 5x^4?',
         'a' => '20x^3',
         'b' => '10x^3',
@@ -3982,7 +3981,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^2 + 4x?',
         'a' => 'x^3/3 + 2x^2 + C',
         'b' => 'x^3/3 + 4x^2/2 + C',
@@ -3994,7 +3993,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of cos(x)?',
         'a' => '-sin(x)',
         'b' => 'sin(x)',
@@ -4006,7 +4005,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^3 dx?',
         'a' => 'x^4/4 + C',
         'b' => 'x^3/3 + C',
@@ -4018,7 +4017,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of ln(x)?',
         'a' => '1/x',
         'b' => 'x',
@@ -4030,7 +4029,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 2/x dx?',
         'a' => '2ln|x| + C',
         'b' => 'ln|x| + C',
@@ -4042,7 +4041,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of e^(2x)?',
         'a' => '2e^(2x)',
         'b' => 'e^(2x)',
@@ -4054,7 +4053,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(x) dx?',
         'a' => 'sin(x) + C',
         'b' => '-sin(x) + C',
@@ -4066,7 +4065,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of x^5?',
         'a' => '5x^4',
         'b' => '4x^5',
@@ -4078,7 +4077,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 3e^x dx?',
         'a' => '3e^x + C',
         'b' => 'e^x + C',
@@ -4090,7 +4089,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the derivative of 3x^2 - 7x + 4?',
         'a' => '6x - 7',
         'b' => '6x + 7',
@@ -4103,7 +4102,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the value of the limit lim(x→0) (sin(x)/x)?',
         'a' => '1',
         'b' => '0',
@@ -4115,7 +4114,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 1/x dx?',
         'a' => 'ln|x| + C',
         'b' => 'x + C',
@@ -4127,7 +4126,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the result of the derivative of tan(x)?',
         'a' => 'sec^2(x)',
         'b' => 'cos(x)',
@@ -4139,7 +4138,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the value of the derivative of 7x^3 - 5x?',
         'a' => '21x^2 - 5',
         'b' => '21x^2 + 5',
@@ -4151,7 +4150,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 6x dx?',
         'a' => '3x^2 + C',
         'b' => '6x^2 + C',
@@ -4163,7 +4162,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the result of the derivative of e^(3x)?',
         'a' => '3e^(3x)',
         'b' => 'e^(3x)',
@@ -4175,7 +4174,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of 4 dx?',
         'a' => '4x + C',
         'b' => '4x^2/2 + C',
@@ -4187,7 +4186,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the result of the limit lim(x→∞) 1/x?',
         'a' => '0',
         'b' => '∞',
@@ -4199,7 +4198,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of cos(2x) dx?',
         'a' => 'sin(2x)/2 + C',
         'b' => 'sin(x) + C',
@@ -4211,7 +4210,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the result of the derivative of 2^x?',
         'a' => '2^x ln(2)',
         'b' => '2^x',
@@ -4223,7 +4222,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 28,
+        
         'question' => 'What is the integral of x^2 + 3x + 2 dx?',
         'a' => 'x^3/3 + 3x^2/2 + 2x + C',
         'b' => 'x^3/3 + 3x^2/2 + C',
@@ -4236,7 +4235,7 @@ class MathematicsSeeders extends Seeder
 // STATISTICS
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mean of the following data set: 5, 7, 9, 10, 12?',
         'a' => '8.6',
         'b' => '8',
@@ -4248,7 +4247,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the median of the following data set: 2, 4, 7, 10, 12?',
         'a' => '6.5',
         'b' => '7',
@@ -4260,7 +4259,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mode of the following data set: 3, 3, 4, 5, 7, 7, 8?',
         'a' => '3 and 7',
         'b' => '4',
@@ -4272,7 +4271,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the range of the following data set: 15, 18, 21, 24, 30?',
         'a' => '15',
         'b' => '12',
@@ -4284,7 +4283,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the variance of the following data set: 2, 4, 4, 6, 8?',
         'a' => '3.5',
         'b' => '2.5',
@@ -4296,7 +4295,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'If the probability of an event happening is 0.3, what is the probability of the event not happening?',
         'a' => '0.5',
         'b' => '0.7',
@@ -4308,7 +4307,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the standard deviation of the following data set: 10, 12, 12, 14, 16?',
         'a' => '2',
         'b' => '2.5',
@@ -4320,7 +4319,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'If a data set has a skewness value of 0, what does this indicate about the distribution?',
         'a' => 'It is positively skewed',
         'b' => 'It is symmetrical',
@@ -4332,7 +4331,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a normal distribution, what percentage of data falls within one standard deviation of the mean?',
         'a' => '95%',
         'b' => '68%',
@@ -4344,7 +4343,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the z-score for a data point that is 2 standard deviations above the mean?',
         'a' => '0',
         'b' => '2',
@@ -4357,7 +4356,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of rolling a sum of 7 with two six-sided dice?',
         'a' => '1/6',
         'b' => '1/3',
@@ -4369,7 +4368,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure of central tendency is most affected by outliers?',
         'a' => 'Mode',
         'b' => 'Median',
@@ -4381,7 +4380,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the interquartile range (IQR) of the following data set: 4, 6, 8, 10, 12?',
         'a' => '6',
         'b' => '4',
@@ -4393,7 +4392,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a normal distribution, what is the approximate percentage of data that lies within three standard deviations of the mean?',
         'a' => '95%',
         'b' => '68%',
@@ -4405,7 +4404,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the correlation coefficient for a perfect positive linear relationship?',
         'a' => '1',
         'b' => '-1',
@@ -4417,7 +4416,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of flipping three coins and getting exactly two heads?',
         'a' => '1/4',
         'b' => '1/2',
@@ -4429,7 +4428,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure of dispersion indicates how much a data set is spread out?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -4441,7 +4440,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the sample space for flipping a coin twice?',
         'a' => '{HH, HT, TH, TT}',
         'b' => '{H, T}',
@@ -4453,7 +4452,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a standard deviation close to 0 indicate about a data set?',
         'a' => 'Data points are close to the mean',
         'b' => 'Data points are spread out',
@@ -4465,7 +4464,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the expected value when rolling a fair six-sided die?',
         'a' => '4.5',
         'b' => '3.5',
@@ -4478,7 +4477,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What type of sampling involves dividing the population into subgroups and randomly selecting from each subgroup?',
         'a' => 'Simple random sampling',
         'b' => 'Stratified sampling',
@@ -4490,7 +4489,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In hypothesis testing, what is the probability of rejecting the null hypothesis when it is actually true?',
         'a' => 'Type I error',
         'b' => 'Type II error',
@@ -4502,7 +4501,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which distribution is used to model the number of successes in a fixed number of independent Bernoulli trials?',
         'a' => 'Normal distribution',
         'b' => 'Binomial distribution',
@@ -4514,7 +4513,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the p-value in hypothesis testing?',
         'a' => 'The probability of observing the data given that the null hypothesis is true',
         'b' => 'The probability that the null hypothesis is true',
@@ -4526,7 +4525,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure indicates the strength and direction of a linear relationship between two variables?',
         'a' => 'Correlation coefficient',
         'b' => 'Regression coefficient',
@@ -4538,7 +4537,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the central limit theorem?',
         'a' => 'The distribution of sample means approaches a normal distribution as the sample size increases',
         'b' => 'The mean of a population is the same as the mean of the sample',
@@ -4550,7 +4549,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which test is used to compare the means of two independent groups?',
         'a' => 'Paired t-test',
         'b' => 'Chi-square test',
@@ -4562,7 +4561,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a p-value less than the significance level indicate in hypothesis testing?',
         'a' => 'Fail to reject the null hypothesis',
         'b' => 'Reject the null hypothesis',
@@ -4574,7 +4573,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure is not affected by extreme values?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -4586,7 +4585,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In linear regression, what does the R-squared value represent?',
         'a' => 'The slope of the regression line',
         'b' => 'The intercept of the regression line',
@@ -4599,7 +4598,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of a confidence interval?',
         'a' => 'To estimate the range within which a population parameter lies',
         'b' => 'To determine the sample size needed for a study',
@@ -4611,7 +4610,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure of central tendency is most appropriate for skewed distributions?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -4623,7 +4622,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the term "standard deviation" represent in a dataset?',
         'a' => 'The average distance from the mean',
         'b' => 'The difference between the maximum and minimum values',
@@ -4635,7 +4634,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the relationship between variance and standard deviation?',
         'a' => 'Variance is the square root of standard deviation',
         'b' => 'Standard deviation is the square root of variance',
@@ -4647,7 +4646,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a normal distribution, what percentage of data falls within one standard deviation of the mean?',
         'a' => '68%',
         'b' => '95%',
@@ -4659,7 +4658,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a z-score represent in a dataset?',
         'a' => 'The number of standard deviations a data point is from the mean',
         'b' => 'The probability of a data point occurring',
@@ -4671,7 +4670,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which test is used to assess the relationship between two categorical variables?',
         'a' => 't-test',
         'b' => 'Chi-square test',
@@ -4683,7 +4682,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of an ANOVA test?',
         'a' => 'To compare the means of three or more groups',
         'b' => 'To assess the strength of a relationship between two variables',
@@ -4695,7 +4694,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the term "outlier" refer to in a dataset?',
         'a' => 'A data point that is significantly different from the other data points',
         'b' => 'The most frequent value in the dataset',
@@ -4707,7 +4706,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure of dispersion is defined as the difference between the maximum and minimum values in a dataset?',
         'a' => 'Standard deviation',
         'b' => 'Variance',
@@ -4720,7 +4719,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mean of the following data set: 2, 4, 6, 8, 10?',
         'a' => '5',
         'b' => '7',
@@ -4732,7 +4731,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which probability distribution is appropriate for modeling the number of successes in a fixed number of trials?',
         'a' => 'Normal distribution',
         'b' => 'Poisson distribution',
@@ -4744,7 +4743,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the correlation coefficient measure?',
         'a' => 'The slope of the regression line',
         'b' => 'The strength and direction of a linear relationship',
@@ -4756,7 +4755,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mode of the following data set: 1, 2, 2, 3, 4, 4, 4, 5?',
         'a' => '2',
         'b' => '4',
@@ -4768,7 +4767,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In hypothesis testing, what does the p-value represent?',
         'a' => 'The probability of the null hypothesis being true',
         'b' => 'The probability of obtaining the observed result under the null hypothesis',
@@ -4780,7 +4779,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following is a measure of variability?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -4792,7 +4791,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of a regression analysis?',
         'a' => 'To compare the means of two groups',
         'b' => 'To predict the value of one variable based on another',
@@ -4804,7 +4803,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the term "sample space" refer to in probability?',
         'a' => 'The set of all possible outcomes',
         'b' => 'The probability of a single event',
@@ -4816,7 +4815,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the main purpose of using a scatterplot?',
         'a' => 'To compare the means of two datasets',
         'b' => 'To display the relationship between two variables',
@@ -4828,7 +4827,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the central limit theorem state?',
         'a' => 'The sample mean will be equal to the population mean',
         'b' => 'The distribution of sample means approaches a normal distribution as sample size increases',
@@ -4841,7 +4840,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the range of the following data set: 12, 7, 9, 15, 10?',
         'a' => '8',
         'b' => '7',
@@ -4853,7 +4852,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a standard normal distribution, what is the mean?',
         'a' => '1',
         'b' => '0',
@@ -4865,7 +4864,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following measures the amount of spread or dispersion in a set of values?',
         'a' => 'Mean',
         'b' => 'Standard deviation',
@@ -4877,7 +4876,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'If the probability of an event occurring is 0.2, what is the probability of the event not occurring?',
         'a' => '0.8',
         'b' => '0.2',
@@ -4889,7 +4888,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the interquartile range (IQR) of the following data set: 1, 3, 5, 7, 9?',
         'a' => '6',
         'b' => '5',
@@ -4901,7 +4900,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following is not a type of sampling method?',
         'a' => 'Simple random sampling',
         'b' => 'Systematic sampling',
@@ -4913,7 +4912,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In statistics, what is the main purpose of a confidence interval?',
         'a' => 'To estimate the probability of a hypothesis',
         'b' => 'To provide a range of values that likely contain the population parameter',
@@ -4925,7 +4924,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which type of error occurs when a true null hypothesis is incorrectly rejected?',
         'a' => 'Type I error',
         'b' => 'Type II error',
@@ -4937,7 +4936,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following is an example of a categorical variable?',
         'a' => 'Height',
         'b' => 'Age',
@@ -4949,7 +4948,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of rolling a 3 on a fair six-sided die?',
         'a' => '1/3',
         'b' => '1/4',
@@ -4962,7 +4961,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the median of the data set: 4, 7, 9, 10, 12?',
         'a' => '7',
         'b' => '9',
@@ -4974,7 +4973,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'If a dataset has a mean of 50 and a standard deviation of 5, what is the z-score of a value 60?',
         'a' => '2',
         'b' => '1',
@@ -4986,7 +4985,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mode of the following data set: 2, 4, 4, 6, 7, 8, 9?',
         'a' => '4',
         'b' => '2',
@@ -4998,7 +4997,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following distributions is symmetric?',
         'a' => 'Skewed left',
         'b' => 'Skewed right',
@@ -5010,7 +5009,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of drawing an ace from a standard deck of cards?',
         'a' => '1/13',
         'b' => '1/52',
@@ -5022,7 +5021,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a data set, which measure is more affected by outliers?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -5034,7 +5033,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of getting two heads in a row when flipping a fair coin?',
         'a' => '1/4',
         'b' => '1/3',
@@ -5046,7 +5045,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following is an example of a continuous variable?',
         'a' => 'Number of students in a class',
         'b' => 'Height of students',
@@ -5058,7 +5057,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the expected value of rolling a fair six-sided die?',
         'a' => '3.5',
         'b' => '4.5',
@@ -5070,7 +5069,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In hypothesis testing, what does a p-value less than 0.05 indicate?',
         'a' => 'The null hypothesis is rejected',
         'b' => 'The null hypothesis is accepted',
@@ -5083,7 +5082,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the variance of a dataset with values 2, 4, 6, 8, and 10?',
         'a' => '8',
         'b' => '10',
@@ -5095,7 +5094,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the coefficient of variation if the standard deviation is 3 and the mean is 12?',
         'a' => '25%',
         'b' => '20%',
@@ -5107,7 +5106,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a normal distribution, what percentage of the data lies within one standard deviation of the mean?',
         'a' => '68%',
         'b' => '95%',
@@ -5119,7 +5118,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure is used to describe the spread of a dataset?',
         'a' => 'Mean',
         'b' => 'Mode',
@@ -5131,7 +5130,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the range of the data set: 3, 5, 7, 9, 11?',
         'a' => '8',
         'b' => '10',
@@ -5143,7 +5142,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the standard deviation of a dataset where the variance is 16?',
         'a' => '4',
         'b' => '2',
@@ -5155,7 +5154,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'If two events A and B are mutually exclusive, what is the probability of either event occurring?',
         'a' => 'P(A) + P(B)',
         'b' => 'P(A) - P(B)',
@@ -5167,7 +5166,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of rolling a sum of 7 with two six-sided dice?',
         'a' => '1/6',
         'b' => '1/12',
@@ -5179,7 +5178,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the expected value of a discrete random variable with outcomes 1, 2, 3, each with probability 1/3?',
         'a' => '2',
         'b' => '1.5',
@@ -5191,7 +5190,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a box plot display?',
         'a' => 'Distribution of data',
         'b' => 'Frequency of data',
@@ -5203,7 +5202,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of a chi-square test?',
         'a' => 'To test for independence in categorical data',
         'b' => 'To measure the spread of data',
@@ -5216,7 +5215,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What type of distribution is described by the bell-shaped curve?',
         'a' => 'Binomial',
         'b' => 'Uniform',
@@ -5228,7 +5227,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the median of the dataset 1, 3, 5, 7, 9?',
         'a' => '5',
         'b' => '6',
@@ -5240,7 +5239,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the mode of the dataset 2, 2, 3, 4, 5?',
         'a' => '2',
         'b' => '3',
@@ -5252,7 +5251,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of flipping heads on a fair coin?',
         'a' => '1/2',
         'b' => '1/3',
@@ -5264,7 +5263,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for the value that occurs most frequently in a dataset?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -5276,7 +5275,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In which situation is the mean not a good measure of central tendency?',
         'a' => 'When the data has outliers',
         'b' => 'When the data is symmetric',
@@ -5288,7 +5287,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the interquartile range (IQR) measure?',
         'a' => 'Spread of the middle 50% of data',
         'b' => 'Total spread of the data',
@@ -5300,7 +5299,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of a p-value in hypothesis testing?',
         'a' => 'To measure the strength of evidence against the null hypothesis',
         'b' => 'To calculate the mean of the data',
@@ -5312,7 +5311,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for the average of a dataset?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -5324,7 +5323,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which of the following is not a type of probability distribution?',
         'a' => 'Chi-square',
         'b' => 'Normal',
@@ -5336,7 +5335,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is a box plot also known as?',
         'a' => 'Box-and-whisker plot',
         'b' => 'Histogram',
@@ -5349,7 +5348,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for the difference between the highest and lowest values in a dataset?',
         'a' => 'Range',
         'b' => 'Variance',
@@ -5361,7 +5360,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does the standard deviation measure?',
         'a' => 'Spread of the data',
         'b' => 'Central tendency of the data',
@@ -5373,7 +5372,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What type of data is represented by categories with no natural order?',
         'a' => 'Nominal data',
         'b' => 'Ordinal data',
@@ -5385,7 +5384,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the probability of drawing a red card from a standard deck of 52 cards?',
         'a' => '1/2',
         'b' => '1/4',
@@ -5397,7 +5396,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the central limit theorem about?',
         'a' => 'Distribution of sample means approximates a normal distribution as sample size increases',
         'b' => 'Data will always be evenly distributed',
@@ -5409,7 +5408,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a box plot visually display?',
         'a' => 'Quartiles and outliers',
         'b' => 'Frequency of categories',
@@ -5421,7 +5420,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which measure of central tendency is least affected by outliers?',
         'a' => 'Median',
         'b' => 'Mean',
@@ -5433,7 +5432,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for a graphical representation of the frequency distribution of a dataset?',
         'a' => 'Histogram',
         'b' => 'Pie chart',
@@ -5445,7 +5444,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for a number that describes a characteristic of a population?',
         'a' => 'Parameter',
         'b' => 'Statistic',
@@ -5457,7 +5456,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What does a correlation coefficient measure?',
         'a' => 'Strength and direction of a linear relationship between two variables',
         'b' => 'Spread of the data',
@@ -5469,7 +5468,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for the square root of the variance?',
         'a' => 'Standard Deviation',
         'b' => 'Mean',
@@ -5482,7 +5481,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the measure of central tendency that divides a dataset into two equal halves?',
         'a' => 'Mean',
         'b' => 'Median',
@@ -5494,7 +5493,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the formula for calculating the variance of a dataset?',
         'a' => 'Σ(x - μ)^2 / N',
         'b' => 'Σ(x - x̄)^2 / (N - 1)',
@@ -5506,7 +5505,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'In a normal distribution, what percentage of data falls within one standard deviation of the mean?',
         'a' => '68%',
         'b' => '95%',
@@ -5518,7 +5517,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'Which type of sampling method ensures that every individual in a population has an equal chance of being selected?',
         'a' => 'Simple Random Sampling',
         'b' => 'Stratified Sampling',
@@ -5530,7 +5529,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What type of distribution is represented by the bell-shaped curve?',
         'a' => 'Normal Distribution',
         'b' => 'Binomial Distribution',
@@ -5542,7 +5541,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the term for a statistical measure that summarizes a dataset with a single value?',
         'a' => 'Descriptive Statistic',
         'b' => 'Inferential Statistic',
@@ -5554,7 +5553,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the purpose of hypothesis testing in statistics?',
         'a' => 'To determine if there is enough evidence to support a claim',
         'b' => 'To measure the average of a dataset',
@@ -5566,7 +5565,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is a p-value in hypothesis testing?',
         'a' => 'The probability of obtaining results at least as extreme as the observed results, assuming the null hypothesis is true',
         'b' => 'The proportion of data that falls within one standard deviation',
@@ -5578,7 +5577,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the median of the following dataset: 5, 7, 3, 9, 6?',
         'a' => '6',
         'b' => '7',
@@ -5590,7 +5589,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What type of graph is best for showing the proportion of each category in a dataset?',
         'a' => 'Pie Chart',
         'b' => 'Histogram',
@@ -5602,7 +5601,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 29,
+        
         'question' => 'What is the measure of the average distance between each data point and the mean?',
         'a' => 'Mean Absolute Deviation',
         'b' => 'Variance',
@@ -5618,7 +5617,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest prime number?',
         'a' => '1',
         'b' => '2',
@@ -5630,7 +5629,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 24 and 36?',
         'a' => '6',
         'b' => '12',
@@ -5642,7 +5641,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 4 and 5?',
         'a' => '10',
         'b' => '20',
@@ -5654,7 +5653,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following is a composite number?',
         'a' => '7',
         'b' => '11',
@@ -5666,7 +5665,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the number of positive divisors of 28?',
         'a' => '4',
         'b' => '6',
@@ -5678,7 +5677,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of the prime factorization of 60?',
         'a' => '2^2 × 3 × 5',
         'b' => '2 × 3 × 5',
@@ -5690,7 +5689,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following is a perfect square?',
         'a' => '18',
         'b' => '25',
@@ -5702,7 +5701,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the Euler’s totient function φ(9)?',
         'a' => '2',
         'b' => '6',
@@ -5714,7 +5713,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 10 positive integers?',
         'a' => '55',
         'b' => '45',
@@ -5726,7 +5725,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the modular inverse of 7 modulo 26?',
         'a' => '15',
         'b' => '13',
@@ -5738,7 +5737,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is a Mersenne prime?',
         'a' => '31',
         'b' => '37',
@@ -5751,7 +5750,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 2^5?',
         'a' => '32',
         'b' => '16',
@@ -5763,7 +5762,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the prime factorization of 84?',
         'a' => '2^2 × 3 × 7',
         'b' => '2 × 3 × 7',
@@ -5775,7 +5774,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the largest prime number less than 50?',
         'a' => '47',
         'b' => '43',
@@ -5787,7 +5786,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the number of prime numbers less than 10?',
         'a' => '4',
         'b' => '3',
@@ -5799,7 +5798,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of the greatest common divisor (GCD) of 54 and 24?',
         'a' => '6',
         'b' => '12',
@@ -5811,7 +5810,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 8 and 12?',
         'a' => '24',
         'b' => '48',
@@ -5823,7 +5822,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of the number of divisors of 30?',
         'a' => '8',
         'b' => '6',
@@ -5835,7 +5834,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is not a perfect number?',
         'a' => '28',
         'b' => '6',
@@ -5847,7 +5846,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of Euler’s totient function φ(15)?',
         'a' => '8',
         'b' => '10',
@@ -5859,7 +5858,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 7^2?',
         'a' => '49',
         'b' => '64',
@@ -5872,7 +5871,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest positive integer that is both a multiple of 4 and 6?',
         'a' => '12',
         'b' => '24',
@@ -5884,7 +5883,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is a prime number?',
         'a' => '39',
         'b' => '51',
@@ -5896,7 +5895,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'The number 15 can be expressed as the product of which prime numbers?',
         'a' => '3 × 5',
         'b' => '2 × 3 × 5',
@@ -5908,7 +5907,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of all positive divisors of 12?',
         'a' => '28',
         'b' => '24',
@@ -5920,7 +5919,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 5th Fibonacci number?',
         'a' => '5',
         'b' => '8',
@@ -5932,7 +5931,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is a perfect square?',
         'a' => '50',
         'b' => '64',
@@ -5944,7 +5943,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 48 and 60?',
         'a' => '12',
         'b' => '6',
@@ -5956,7 +5955,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 9 and 15?',
         'a' => '45',
         'b' => '30',
@@ -5968,7 +5967,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'How many distinct prime factors does the number 84 have?',
         'a' => '3',
         'b' => '2',
@@ -5980,7 +5979,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the number of positive integers less than 10 that are relatively prime to 10?',
         'a' => '4',
         'b' => '3',
@@ -5993,7 +5992,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the prime factorization of 84?',
         'a' => '2^2 × 3 × 7',
         'b' => '2^2 × 3^2 × 7',
@@ -6005,7 +6004,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the number of positive divisors of 36?',
         'a' => '6',
         'b' => '9',
@@ -6017,7 +6016,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 10 positive integers?',
         'a' => '45',
         'b' => '50',
@@ -6029,7 +6028,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following is a composite number?',
         'a' => '13',
         'b' => '17',
@@ -6041,7 +6040,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 10th number in the Fibonacci sequence?',
         'a' => '34',
         'b' => '55',
@@ -6053,7 +6052,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 56 and 98?',
         'a' => '7',
         'b' => '14',
@@ -6065,7 +6064,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'How many distinct prime factors does the number 90 have?',
         'a' => '2',
         'b' => '3',
@@ -6077,7 +6076,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 8 and 12?',
         'a' => '24',
         'b' => '48',
@@ -6089,7 +6088,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of φ(30), where φ is the Euler’s totient function?',
         'a' => '8',
         'b' => '10',
@@ -6101,7 +6100,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is both a perfect square and a perfect cube?',
         'a' => '16',
         'b' => '36',
@@ -6114,7 +6113,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of the modulo operation 37 mod 5?',
         'a' => '2',
         'b' => '3',
@@ -6126,7 +6125,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the largest prime number less than 50?',
         'a' => '47',
         'b' => '43',
@@ -6138,7 +6137,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 5th triangular number?',
         'a' => '10',
         'b' => '15',
@@ -6150,7 +6149,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the remainder when 123 is divided by 7?',
         'a' => '2',
         'b' => '4',
@@ -6162,7 +6161,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is a perfect number?',
         'a' => '12',
         'b' => '18',
@@ -6174,7 +6173,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 4th number in the sequence of prime numbers?',
         'a' => '7',
         'b' => '11',
@@ -6186,7 +6185,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 5 prime numbers?',
         'a' => '28',
         'b' => '30',
@@ -6198,7 +6197,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is both a multiple of 3 and a square number?',
         'a' => '9',
         'b' => '16',
@@ -6210,7 +6209,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of 5! (5 factorial)?',
         'a' => '120',
         'b' => '60',
@@ -6222,7 +6221,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 81 and 153?',
         'a' => '9',
         'b' => '18',
@@ -6235,7 +6234,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of the sum of the first 10 positive integers?',
         'a' => '55',
         'b' => '50',
@@ -6247,7 +6246,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 4 and 6?',
         'a' => '12',
         'b' => '24',
@@ -6259,7 +6258,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 10th Fibonacci number?',
         'a' => '34',
         'b' => '55',
@@ -6271,7 +6270,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 7^2?',
         'a' => '49',
         'b' => '42',
@@ -6283,7 +6282,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest prime number greater than 20?',
         'a' => '23',
         'b' => '29',
@@ -6295,7 +6294,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of the 8th term in the arithmetic sequence where the first term is 3 and the common difference is 5?',
         'a' => '38',
         'b' => '43',
@@ -6307,7 +6306,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the product of the first 4 prime numbers?',
         'a' => '210',
         'b' => '120',
@@ -6319,7 +6318,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the number of factors of 36?',
         'a' => '9',
         'b' => '8',
@@ -6331,7 +6330,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 4 terms of the geometric sequence with the first term 2 and common ratio 3?',
         'a' => '80',
         'b' => '80',
@@ -6343,7 +6342,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of the expression (3 + 5)^2?',
         'a' => '64',
         'b' => '80',
@@ -6356,7 +6355,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 18 and 24?',
         'a' => '6',
         'b' => '8',
@@ -6368,7 +6367,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of 5 factorial (5!)?',
         'a' => '120',
         'b' => '100',
@@ -6380,7 +6379,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'How many prime numbers are there between 1 and 10?',
         'a' => '4',
         'b' => '5',
@@ -6392,7 +6391,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 5 terms of the sequence 2, 4, 8, 16, ...?',
         'a' => '30',
         'b' => '31',
@@ -6404,7 +6403,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the remainder when 23 is divided by 6?',
         'a' => '5',
         'b' => '4',
@@ -6416,7 +6415,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of the sum of squares of the first 3 positive integers?',
         'a' => '14',
         'b' => '12',
@@ -6428,7 +6427,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 4th triangular number?',
         'a' => '10',
         'b' => '12',
@@ -6440,7 +6439,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is not a perfect square?',
         'a' => '49',
         'b' => '64',
@@ -6452,7 +6451,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the next number in the sequence 1, 3, 6, 10, 15, ...?',
         'a' => '21',
         'b' => '20',
@@ -6464,7 +6463,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the squares of 2 and 5?',
         'a' => '29',
         'b' => '27',
@@ -6476,7 +6475,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 45 and 75?',
         'a' => '15',
         'b' => '10',
@@ -6489,7 +6488,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 4 and 5?',
         'a' => '20',
         'b' => '15',
@@ -6501,7 +6500,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the digits of 12345?',
         'a' => '15',
         'b' => '20',
@@ -6513,7 +6512,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is a perfect cube?',
         'a' => '27',
         'b' => '64',
@@ -6525,7 +6524,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of 3^4?',
         'a' => '81',
         'b' => '64',
@@ -6537,7 +6536,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the next prime number after 7?',
         'a' => '11',
         'b' => '13',
@@ -6549,7 +6548,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 10 choose 2 (10C2)?',
         'a' => '45',
         'b' => '55',
@@ -6561,7 +6560,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the product of the first 4 prime numbers?',
         'a' => '210',
         'b' => '231',
@@ -6573,7 +6572,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 6th Fibonacci number?',
         'a' => '8',
         'b' => '13',
@@ -6585,7 +6584,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is both a perfect square and a perfect cube?',
         'a' => '64',
         'b' => '36',
@@ -6597,7 +6596,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 5th triangular number?',
         'a' => '15',
         'b' => '10',
@@ -6609,7 +6608,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest prime number greater than 10?',
         'a' => '11',
         'b' => '13',
@@ -6622,7 +6621,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the least common multiple (LCM) of 4 and 5?',
         'a' => '20',
         'b' => '15',
@@ -6634,7 +6633,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the digits of 12345?',
         'a' => '20',
         'b' => '15',
@@ -6646,7 +6645,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is a perfect cube?',
         'a' => '27',
         'b' => '81',
@@ -6658,7 +6657,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of 3^4?',
         'a' => '64',
         'b' => '81',
@@ -6670,7 +6669,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the next prime number after 7?',
         'a' => '13',
         'b' => '11',
@@ -6682,7 +6681,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 10 choose 2 (10C2)?',
         'a' => '60',
         'b' => '45',
@@ -6694,7 +6693,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the product of the first 4 prime numbers?',
         'a' => '231',
         'b' => '252',
@@ -6706,7 +6705,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 6th Fibonacci number?',
         'a' => '13',
         'b' => '21',
@@ -6718,7 +6717,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which number is both a perfect square and a perfect cube?',
         'a' => '36',
         'b' => '49',
@@ -6730,7 +6729,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 5th triangular number?',
         'a' => '20',
         'b' => '12',
@@ -6742,7 +6741,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest prime number greater than 10?',
         'a' => '17',
         'b' => '13',
@@ -6755,7 +6754,7 @@ class MathematicsSeeders extends Seeder
 
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the greatest common divisor (GCD) of 36 and 60?',
         'a' => '12',
         'b' => '18',
@@ -6767,7 +6766,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the sum of the first 5 prime numbers?',
         'a' => '28',
         'b' => '24',
@@ -6779,7 +6778,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following is a composite number?',
         'a' => '13',
         'b' => '7',
@@ -6791,7 +6790,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of 5! (5 factorial)?',
         'a' => '60',
         'b' => '120',
@@ -6803,7 +6802,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the remainder when 29 is divided by 5?',
         'a' => '3',
         'b' => '4',
@@ -6815,7 +6814,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the largest prime factor of 42?',
         'a' => '2',
         'b' => '5',
@@ -6827,7 +6826,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the result of 2^5?',
         'a' => '16',
         'b' => '32',
@@ -6839,7 +6838,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the 4th triangular number?',
         'a' => '8',
         'b' => '10',
@@ -6851,7 +6850,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'Which of the following numbers is a perfect square?',
         'a' => '50',
         'b' => '53',
@@ -6863,7 +6862,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the smallest composite number?',
         'a' => '6',
         'b' => '8',
@@ -6875,7 +6874,7 @@ class MathematicsSeeders extends Seeder
     ],
     [
         'field_id' => 6,
-        'sub_fields_id' => 30,
+        
         'question' => 'What is the value of the 7th Fibonacci number?',
         'a' => '13',
         'b' => '21',
