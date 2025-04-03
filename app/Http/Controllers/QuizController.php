@@ -126,6 +126,14 @@ class QuizController extends Controller
 
             return $savedQuestions;
         }
+
+
+        $savedQuestions = Question::whereIn('field_id', $fields)
+            ->inRandomOrder()
+            ->take(10)
+            ->get();
+
+        return $savedQuestions;
     }
 
 
