@@ -142,7 +142,7 @@ class QuizController extends Controller
             $user = User::where("id", auth()->id())->with("fields")->firstOrFail();
             $fieldIds = $user->fields->pluck('id')->toArray();
 
-            $questions = $this->generateAndSendQuestions(2, $fieldIds);
+            $questions = $this->generateAndSendQuestions(auth()->id(), $fieldIds);
 
             if ($questions instanceof \Illuminate\Http\JsonResponse) {
                 return $questions; // Return the error response if generation failed
