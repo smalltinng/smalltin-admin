@@ -49,7 +49,7 @@ class EmailVerificationNotification extends Notification
             ->mailer(mailer: $this->mailer)
             ->from($this->fromEmail)
             ->subject($this->subject)
-            ->greeting('Wecome to Smailtin')
+            ->greeting('Welcome to Smalltin')
             ->line($this->message)
             ->line("code " . $otp1->token);
     }

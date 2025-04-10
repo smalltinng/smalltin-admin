@@ -5,17 +5,18 @@ import SideBarLink from './SideBarLink';
 
 export default function SideBar() {
     return (
-        <div className="w-[10%] sm:w-[5%] md:w-[8%] lg:w-[10%] xl:w-[12%] flex flex-col gap-2 bg-white h-full">
-            <Link className="flex content-center items-center text-center h-16 justify-center" href="/">
-                <ApplicationLogo className="block border-black h-9 w-auto fill-current text-gray-800 dark:text-gray-50" />
+        <div className="w-16 md:w-20 lg:w-64 flex flex-col bg-white h-full border-r border-gray-100 transition-all duration-300 ease-in-out">
+            <Link className="flex items-center justify-center h-16 border-b border-gray-100" href="/">
+                <ApplicationLogo className="h-8 w-auto text-gray-800" />
             </Link>
-            <SideBarLink link={"/admin/dashboard"} title="DashBoard" />
-            <SideBarLink link={"/admin/ladder-board"} title="Ladder Board" />
-            <SideBarLink link={"/admin/messages"} title="Messages" />
-            <SideBarLink link={"/admin/question-bank"} title="Question Bank" />
-            {/* <SideBarLink link={"/admin/transactions"} title="Transactions" /> */}
-            <SideBarLink link={"/admin/fields"} title="Fields" />
-            <SideBarLink link={"/admin/all-user"} title="Users" />
+            <nav className="flex-1 flex flex-col gap-1 p-2 overflow-y-auto">
+                <SideBarLink link="/admin/dashboard" title="Dashboard" />
+                <SideBarLink link="/admin/ladder-board" title="Ladder Board" />
+                <SideBarLink link="/admin/messages" title="Messages" />
+                <SideBarLink link="/admin/question-bank" title="Question Bank" />
+                <SideBarLink link="/admin/fields" title="Fields" />
+                <SideBarLink link="/admin/all-user" title="Users" />
+            </nav>
         </div>
     );
 }

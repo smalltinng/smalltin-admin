@@ -4,6 +4,12 @@ import NavLink from "@/Components/SideBarLink";
 import MainLayout from '@/Layouts/MainLayout';
 import DashBoardCard from '@/Components/DashBoardCard';
 import axios from 'axios';
+import {
+    RiUser3Fill,
+    RiTrophyFill,
+    RiMoneyDollarCircleFill,
+    RiBankCardFill
+} from "@remixicon/react";
 
 export default function Dashboard({ status }) {
     const [adminDetail, setAdminDetails] = useState(null);
@@ -21,11 +27,7 @@ export default function Dashboard({ status }) {
 
             setAdminDetails(response.data.admin);
             setSettings(response.data.settings);
-
             saveAdminDetails(response.data.admin);
-            console.log("this is the data", adminDetail);
-            console.log(response.data.admin);
-            console.log(response.data.settings);
         } catch (error) {
             console.log(error);
         }
@@ -35,15 +37,53 @@ export default function Dashboard({ status }) {
         getAdminDetails();
     }, []);
 
+    // Card data configuration
+    const cardData = [
+        {
+            title: "Users",
+            value: settings?.total_users ?? 0,
+            icon: <RiUser3Fill className="h-6 w-6" />,
+            colorClass: "bg-blue-50 text-blue-600",
+            iconBg: "bg-blue-100"
+        },
+        {
+            title: "Winning",
+            value: settings?.total_winners ?? 0,
+            icon: <RiTrophyFill className="h-6 w-6" />,
+            colorClass: "bg-purple-50 text-purple-600",
+            iconBg: "bg-purple-100"
+        },
+        {
+            title: "Approximate Payout",
+            value: settings?.approximate_payout ?? 0,
+            icon: <RiMoneyDollarCircleFill className="h-6 w-6" />,
+            colorClass: "bg-green-50 text-green-600",
+            iconBg: "bg-green-100"
+        },
+        {
+            title: "Total Payout",
+            value: settings?.total_amount ?? 0,
+            icon: <RiBankCardFill className="h-6 w-6" />,
+            colorClass: "bg-orange-50 text-orange-600",
+            iconBg: "bg-orange-100"
+        }
+    ];
+
     return (
         <MainLayout adminDetails={adminDetail} title='Dashboard'>
             <div className='p-6'>
                 {/* Card Section */}
                 <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4'>
-                    <DashBoardCard title="Users" subTitle={settings?.total_users ?? 0} />
-                    <DashBoardCard title="Winning" subTitle={settings?.total_winners ?? 0} />
-                    <DashBoardCard title="Approximate Payout" subTitle={settings?.total_amount ?? 0} />
-                    <DashBoardCard title="Total Payout" subTitle={settings?.total_amount ?? 0} />
+                    {cardData.map((card, index) => (
+                        <DashBoardCard
+                            key={index}
+                            title={card.title}
+                            subTitle={card.value}
+                            icon={card.icon}
+                            colorClass={card.colorClass}
+                            iconBg={card.iconBg}
+                        />
+                    ))}
                 </div>
 
                 {/* Placeholder Section */}

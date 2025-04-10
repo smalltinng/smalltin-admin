@@ -1,15 +1,17 @@
 import React from 'react';
 
-function DashBoardCard ({title, subTitle, }) {
+export default function DashBoardCard({ title, subTitle, icon, colorClass, iconBg }) {
   return (
-    <div className='h-24 w-56 flex items-center  rounded-lg bg-white p-4' >
-    <div className=' bg-[#FFF5D9] rounded-full h-10 w-10 '></div>
-        <div className='flex flex-col text-center mx-3 '>
-        <div className='text-[18px] font-bold'>{title}</div>
-        <div className=' text-xs text-center font-medium'>{subTitle}</div>
+    <div className={`p-6 rounded-lg shadow-sm ${colorClass}`}>
+      <div className="flex items-center justify-between">
+        <div className={`p-3 rounded-full ${iconBg}`}>
+          {icon}
+        </div>
+        <div className="text-right">
+          <p className="text-sm font-medium text-gray-500">{title}</p>
+          <p className="mt-1 text-2xl font-semibold">{subTitle}</p>
+        </div>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
-
-export default DashBoardCard

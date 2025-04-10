@@ -1,24 +1,44 @@
 import React from 'react';
 import { Link, usePage } from '@inertiajs/react';
-import { RiHome4Fill, RiBarChartFill, RiMessage2Fill, RiBankFill, RiUserFill, RiExchangeDollarFill, RiListUnordered } from "@remixicon/react";
+import {
+    RiDashboardFill,
+    RiBarChartFill,
+    RiMessage2Fill,
+    RiQuestionnaireFill,
+    RiListSettingsFill,
+    RiUserSettingsFill,
+    RiFlashlightFill,
+    RiTeamFill
+} from "@remixicon/react";
 
 export default function SideBarLink({ link, title }) {
-    const linkStyles = 'flex justify-left items-center pl-2 md:pl-4 py-2 gap-3 rounded text-[#285B35]';
-    const inActivelinkStyles = 'flex justify-left border-black items-center pl-2 md:pl-4 py-2 gap-3 text-[#B1B1B1]';
     const { url } = usePage();
-    const isActive = url === link;
+    const isActive = url.startsWith(link); // Changed to startsWith for nested routes
+
+    // Icon mapping for cleaner code
+    const iconMap = {
+        "/admin/dashboard": <RiDashboardFill className="h-5 w-5" />,
+        "/admin/ladder-board": <RiBarChartFill className="h-5 w-5" />,
+        "/admin/messages": <RiMessage2Fill className="h-5 w-5" />,
+        "/admin/question-bank": <RiQuestionnaireFill className="h-5 w-5" />,
+        "/admin/fields": <RiListSettingsFill className="h-5 w-5" />,
+        "/admin/all-user": <RiTeamFill className="h-5 w-5" />,
+    };
 
     return (
-        <Link href={link} className={isActive ? linkStyles : inActivelinkStyles}>
-            {isActive && <div className='h-full w-1 rounded-r-sm bg-[#285B35]'></div>}
-            {link === "/admin/dashboard" && <RiHome4Fill className='h-6 w-6' />}
-            {link === "/admin/ladder-board" && <RiBarChartFill className='h-6 w-6' />}
-            {link === "/admin/transactions" && <RiExchangeDollarFill className='h-6 w-6' />}
-            {link === "/admin/messages" && <RiMessage2Fill className='h-6 w-6' />}
-            {link === "/admin/question-bank" && <RiBankFill className='h-6 w-6' />}
-            {link === "/admin/fields" && <RiListUnordered className='h-6 w-6' />}
-            {link === "/admin/all-user" && <RiUserFill className='h-6 w-6' />}
-            <span className="hidden lg:block">{title}</span> {/* Hide title on smaller screens */}
+        <Link
+            href={link}
+            className={`flex items-center p-3 gap-3 rounded-lg transition-colors duration-200 
+                ${isActive
+                    ? 'bg-green-50 text-green-600 font-medium'
+                    : 'text-gray-500 hover:bg-gray-50 hover:text-gray-700'
+                }`}
+        >
+            <div className={`flex items-center justify-center w-8 h-8 rounded-lg 
+                ${isActive ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-500'}`}>
+                {iconMap[link]}
+            </div>
+            <span className="hidden lg:inline text-sm">{title}</span>
         </Link>
     );
 }

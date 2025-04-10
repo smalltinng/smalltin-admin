@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Log;
 
 class QuizController extends Controller
 {
-    const TIME_LIMIT = 120; // 80 seconds for 1.20 minutes
+    const TIME_LIMIT = 60; // 80 seconds for 1.20 minutes
 
 
 
@@ -309,7 +309,7 @@ class QuizController extends Controller
                 'questions' => $questions,
                 'answers' => $answers,
                 'current_question_index' => $currentIndex,
-                //'correct_count' => $correct,
+
                 'correct_count' => $correctCount,
                 'incorrect_count' => $incorrectCount,
                 'quiz_start_time' => $quizStartTime,

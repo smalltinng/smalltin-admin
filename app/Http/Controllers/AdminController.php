@@ -1,201 +1,215 @@
 <?php
 
 namespace App\Http\Controllers;
-use Hash;
-use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Inertia\Inertia;
-use Inertia\Response;
-use App\Http\Requests\Auth\LoginRequest;
+
 use App\Models\Admin;
+use App\Models\MonthlyStats;
 use App\Models\Setting;
 use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\ValidationException;
+use Inertia\Inertia;
 
 class AdminController extends Controller
-
-
-
 {
-
+    // Show login page or redirect if already authenticated
     public function showLogin()
     {
         if (Auth::guard('admin')->check()) {
             return redirect()->intended(route('admin.dashboard'));
         }
+
         return Inertia::render('Auth/Login', [
             'status' => session('status'),
         ]);
     }
 
-    /**
-     * Handle an incoming authentication request.
-     */
+    // Handle login request
     public function store(Request $request): RedirectResponse
     {
-        // Attempt to authenticate the user as an admin
-        if (! Auth::guard('admin')->attempt($request->only('email', 'password'), $request->boolean('remember'))) {
-            // Throw a validation exception if authentication fails
+        if (!Auth::guard('admin')->attempt($request->only('email', 'password'), $request->boolean('remember'))) {
             throw ValidationException::withMessages([
                 'email' => trans('auth.failed'),
             ]);
         }
-    
-        // Regenerate the session ID to prevent session fixation
+
         $request->session()->regenerate();
-    
-        // Redirect to the intended route after login or to a default route if none
         return redirect()->intended(route('admin.dashboard'));
     }
-    /**
-     * Destroy an authenticated session.
-     */
 
+    // Handle login with validation and feedback
+    public function login(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'password' => 'required|string|min:8',
+        ], [
+            'password.required' => 'Password is required',
+            'password.min' => 'Password must be at least 8 characters',
+        ]);
 
+        if (Auth::guard('admin')->attempt($request->only('email', 'password'), $request->boolean('remember'))) {
+            $request->session()->regenerate();
 
-     public function privacyPolicy(){
-        return Inertia::render('PrivatePolicy');
-     }
+            return redirect()->back()
+                ->with('success', 'Login successful!');
+        }
+
+        $adminExists = Admin::where('email', $request->email)->exists();
+
+        return back()->withErrors([
+            'email' => $adminExists ? 'Invalid password' : 'No account found with this email',
+        ])->onlyInput('email');
+    }
+
+    // Logout admin session
     public function destroy(Request $request): RedirectResponse
     {
         Auth::guard('web')->logout();
 
         $request->session()->invalidate();
-
         $request->session()->regenerateToken();
 
         return redirect('/');
-    
-}
-  
-
-    public function login(Request $request)
-    {
-        $cred = $request->validate([
-            "email" => "email|required",
-            "password" => "string|required"
-        ]);
-
-        if (Auth::guard('admin')->attempt(['email' => $cred['email'], 'password' => $cred['password']])) {
-            return redirect()->intended(route('admin.dashboard'));
-        }
-
-        return redirect()->back()->withErrors([
-            'email' => 'The provided credentials do not match our records.',
-        ]);
     }
 
+    // Dashboard view
     public function dashboard()
     {
         if (!Auth::guard('admin')->check()) {
             return redirect()->route('admin.login');
-        } else {
-            return Inertia::render('Dashboard' );
-        }
-    }
-
-
-    public function getAllUser(){
-        $users = User::paginate(50); // 50 records per page
-        return response()->json(['messages' => "Users Fetch Successfully", "users" => $users]);
-    }
-
-
-    public function getAdminDetails()
-{
-    try {
-        // Assuming you're using an 'admin' guard
-        $admin = Auth::guard('admin')->user();
-        
-        if (!$admin) {
-            return response()->json(['error' => 'Admin not found'], 404);
         }
 
-        // Assuming settings are stored as a JSON field or relation
-       $setting =  Setting::first();
-        $adminDetails = Admin::find($admin->id);
+        return Inertia::render('Dashboard');
+    }
+
+    // Fetch all users
+    public function getAllUser()
+    {
+        $users = User::paginate(50);
 
         return response()->json([
-            'admin' => $adminDetails,
-            "settings"=>$setting
-        ], 200);
-    } catch (\Exception $e) {
-        // Log the error
-        Log::error($e->getMessage());
-
-        return response()->json(['error' => 'An error occurred while fetching admin details'], 500);
+            'message' => 'Users fetched successfully',
+            'users' => $users,
+        ]);
     }
-}
+
+    // Get authenticated admin details and settings
+    public function getAdminDetails()
+    {
+        try {
+
+            $admin = Auth::guard('admin')->user();
+
+            if (!$admin) {
+                return response()->json(['error' => 'Admin not found'], 404);
+            }
+
+            // Total users
+            $total_users = User::count();
 
 
+            $total_winners = 0; // Replace `is_winner` with actual logic
 
+            // Monthly payout calculation (adjust if MonthlyStats has an amount field)
+            $currentMonth = now()->format('Y-m');
 
-public function adminStore(Request $request)
-{
-    $validated = $request->validate([
-        'fullname' => 'required|string|max:255',
-        'email' => 'required|email|unique:users',
-        'password' => 'required|min:8|confirmed',
-        'username' => 'required|min:8|confirmed',
-    ]);
+            $monthlyStats = MonthlyStats::where('month', $currentMonth)->get();
 
-    // Create new admin
-    $admin = Admin::create([
-        'fullname' => $validated['fullname'],
-        'username' => $validated['fullname'],
-        'email' => $validated['email'],
-        'password' => Hash::make($validated['password']),
-    ]);
+            // Cap each record at 10,000 before summing
+            $monthlyJobs = $monthlyStats->sum(function ($stat) {
+                return min($stat->monthly_jobs, 10000);
+            });
 
-    return redirect()->route('admin.index')->with('success', 'Admin created successfully');
-}
+            $approximate_payout = $monthlyJobs;
 
-/**
- * Show the form for editing the specified admin.
- */
-public function edit($id)
-{
-    $admin = Admin::findOrFail($id);
+            $setting = [
+                "total_users" => $total_users,
+                "approximate_payout" => $approximate_payout,
+                "total_winners" => $total_winners
+            ];
 
-    return view('admin.edit', compact('admin'));
-}
+            $adminDetails = Admin::find($admin->id);
 
-/**
- * Update the specified admin in storage.
- */
-public function adminUpdate(Request $request, $id)
-{
-    $admin = Admin::findOrFail($id);
+            return response()->json([
+                'admin' => $adminDetails,
+                'settings' => $setting,
+            ]);
+        } catch (\Exception $e) {
+            Log::error($e->getMessage());
 
-    $validated = $request->validate([
-        'name' => 'required|string|max:255',
-        'email' => 'required|email|unique:users,email,' . $admin->id,
-        'password' => 'nullable|min:8|confirmed',
-    ]);
+            return response()->json(['error' => 'An error occurred while fetching admin details'], 500);
+        }
+    }
 
-    // Update admin
-    $admin->update([
-        'name' => $validated['name'],
-        'email' => $validated['email'],
-        'password' => $validated['password'] ? Hash::make($validated['password']) : $admin->password,
-    ]);
+    // Create a new admin
+    public function adminStore(Request $request)
+    {
+        $validated = $request->validate([
+            'fullname' => 'required|string|max:255',
+            'username' => 'required|string|max:255|unique:admins',
+            'email' => 'required|email|unique:admins',
+            'password' => 'required|min:8|confirmed',
+        ]);
 
-    return redirect()->route('admin.index')->with('success', 'Admin updated successfully');
-}
+        $admin = Admin::create([
+            'fullname' => $validated['fullname'],
+            'username' => $validated['username'],
+            'email' => $validated['email'],
+            'password' => Hash::make($validated['password']),
+        ]);
 
-/**
- * Remove the specified admin from storage.
- */
-public function admindestroy($id)
-{
-    $admin = Admin::findOrFail($id);
+        return redirect()->route('admin.dashboard')->with([
+            'success' => 'Admin created successfully',
+            'admin' => $admin,
+        ]);
+    }
 
-    $admin->delete();
+    // Show admin edit form
+    public function edit($id)
+    {
+        $admin = Admin::findOrFail($id);
+        return view('admin.edit', compact('admin'));
+    }
 
-    return redirect()->route('admin.index')->with('success', 'Admin deleted successfully');
-}
+    // Update admin details
+    public function adminUpdate(Request $request, $id)
+    {
+        $admin = Admin::findOrFail($id);
 
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email,' . $admin->id,
+            'password' => 'nullable|min:8|confirmed',
+        ]);
 
+        $admin->update([
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'password' => $validated['password']
+                ? Hash::make($validated['password'])
+                : $admin->password,
+        ]);
+
+        return redirect()->route('admin.dashboard')->with('success', 'Admin updated successfully');
+    }
+
+    // Delete an admin
+    public function admindestroy($id)
+    {
+        $admin = Admin::findOrFail($id);
+        $admin->delete();
+
+        return redirect()->route('admin.dashboard')->with('success', 'Admin deleted successfully');
+    }
+
+    // Show Privacy Policy page
+    public function privacyPolicy()
+    {
+        return Inertia::render('PrivatePolicy');
+    }
 }
