@@ -46,6 +46,7 @@ const QuestionBank = () => {
       };
       const response = await axios.get('questions', { params });
       setQuestions(response.data.data.data);
+      console.log(response.data.data.data);
       setTotalPages(response.data.data.last_page);
       setTotalQuestions(response.data.data.total);
       setLoading(false);
@@ -251,7 +252,7 @@ const QuestionBank = () => {
                             {question.question}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {question.field || 'N/A'}
+                            {question.field?.name || 'N/A'}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                             <div className="flex space-x-2">
@@ -343,8 +344,8 @@ const QuestionBank = () => {
                             key={pageNum}
                             onClick={() => goToPage(pageNum)}
                             className={`relative inline-flex items-center px-4 py-2 border text-sm font-medium ${currentPage === pageNum
-                                ? 'z-10 bg-green-50 border-green-500 text-green-600'
-                                : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
+                              ? 'z-10 bg-green-50 border-green-500 text-green-600'
+                              : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'
                               }`}
                           >
                             {pageNum}
