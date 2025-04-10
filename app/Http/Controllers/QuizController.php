@@ -290,7 +290,7 @@ class QuizController extends Controller
             // Calculate final score
 
 
-            $score = $correctCount * $questionsLength;
+            $score = $correctCount * 10;
             // $score = $correctCount * 10; // Assuming 20 points per correct answer
             $user = User::find(auth()->id());
             SaveMonthlyStats::dispatchAfterResponse($user, $correctCount, $incorrectCount, $questionsLength);
